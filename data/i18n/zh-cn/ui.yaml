@@ -22,6 +22,8 @@ strings:
   footer.data: 数据采用 CC-BY-4.0
   footer.report: 报告错误
   footer.cite: 数据来自 opensourcelicense.org，CC-BY-4.0
+  footer.hosting: 运行在 Cloudflare Workers 免费方案上
+  footer.dns: 域名托管于 Cloudflare
   badge.machine: 机器翻译
   badge.reviewed: 已审核译文
   badge.fallback: 尚未翻译，显示英文

@@ -22,6 +22,8 @@ strings:
   footer.data: Data under CC-BY-4.0
   footer.report: Report an error
   footer.cite: "Data from opensourcelicense.org, CC-BY-4.0"
+  footer.hosting: Runs on the Cloudflare Workers free plan
+  footer.dns: Domain hosted on Cloudflare
   badge.machine: Machine translation
   badge.reviewed: Reviewed translation
   badge.fallback: Not yet translated — showing English

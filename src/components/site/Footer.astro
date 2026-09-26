@@ -1,4 +1,5 @@
 ---
+import { Icon } from "astro-icon/components";
 import type { Locale } from "@/lib/i18n";
 import { issueUrl, pageContext, REPO_URL } from "@/lib/page";
 
@@ -19,6 +20,19 @@ const report = issueUrl(`Data error on ${path}`, `Page: https://opensourcelicens
       <a href={`${REPO_URL}/tree/main/data`} rel="noopener">{t("footer.data")}</a>
       <a href={report} rel="noopener">{t("footer.report")}</a>
       <span>{t("footer.cite")}</span>
+    </p>
+    <p class="flex flex-wrap items-center gap-x-6 gap-y-2 pt-2">
+      <a href="https://workers.cloudflare.com/" rel="noopener" class="inline-flex items-center gap-2">
+        {/* The wordmark text is dark gray, so it needs a light plate on the dark theme. */}
+        <span class="inline-flex bg-white p-0.5">
+          <Icon name="devicon:cloudflareworkers-wordmark" class="size-10" aria-hidden="true" />
+        </span>
+        <span>{t("footer.hosting")}</span>
+      </a>
+      <a href="https://www.cloudflare.com/" rel="noopener" class="inline-flex items-center gap-2">
+        <Icon name="devicon:cloudflare" class="size-8" aria-hidden="true" />
+        <span>{t("footer.dns")}</span>
+      </a>
     </p>
   </div>
 </footer>
