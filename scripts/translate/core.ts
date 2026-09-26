@@ -68,7 +68,7 @@ export function validateTranslation(source: unknown, translated: unknown, path =
 }
 
 export function systemPrompt(locale: Locale): string {
-  return `You translate the user interface and content of opensourcelicense.org, a site about open source licenses, from English into ${LOCALE_META[locale].label} (${LOCALE_META[locale].tag}).
+  return `You translate the user interface and content of opensourcelicense.org, a site about open source licenses, from English into ${LOCALE_META[locale].english} (${LOCALE_META[locale].label}, ${LOCALE_META[locale].tag}).
 Rules:
 - Return ONLY a JSON object with exactly the same structure and keys as the input. Translate string values only.
 - Keep placeholders such as {count} or {license} unchanged.

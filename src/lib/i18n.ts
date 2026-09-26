@@ -17,7 +17,7 @@ export function localizedPath(locale: Locale, path: string): string {
 
 /** Strip a locale prefix from a pathname. */
 export function stripLocale(pathname: string): { locale: Locale; path: string } {
-  const m = pathname.match(/^\/([a-z]{2}(?:-[a-z]{2})?)(\/.*|$)/);
+  const m = pathname.match(/^\/([a-z]{2,3}(?:-[a-z]{2})?)(\/.*|$)/);
   if (m && (LOCALES as readonly string[]).includes(m[1]) && m[1] !== DEFAULT_LOCALE)
     return { locale: m[1] as Locale, path: m[2] || "/" };
   return { locale: DEFAULT_LOCALE, path: pathname || "/" };
