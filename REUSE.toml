@@ -12,6 +12,6 @@ SPDX-FileCopyrightText = "opensourcelicense.org contributors"
 SPDX-License-Identifier = "AGPL-3.0-or-later"
 
 [[annotations]]
-path = [".github/**", ".gitignore", "*.md", "*.yaml", "*.yml"]
+path = [".github/**", ".gitignore", ".dev.vars.example", "*.md", "*.yaml", "*.yml"]
 SPDX-FileCopyrightText = "opensourcelicense.org contributors"
 SPDX-License-Identifier = "AGPL-3.0-or-later"
