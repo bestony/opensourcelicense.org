@@ -63,7 +63,11 @@ Code: AGPL-3.0-or-later (`LICENSE`). Data in `data/`: CC-BY-4.0 (`data/LICENSE`)
 
 ## Release gates (from the product design)
 
-- Every matrix cell reviewed by a lawyer and `pnpm validate --strict` passes (2 cells are still `tbd`).
+- Every matrix cell (882 cells across 60 licenses) reviewed by a lawyer; `pnpm validate --strict` must pass.
 - Every license change in `data/projects` links to an official announcement; entries with `needsReview: true` are checked by a human.
 - Engine eval agreement with expert expectations ≥ 90% (`tests/engine-eval.test.ts`).
 - Machine-translated files (`reviewed: false`) reviewed by native speakers.
+
+## Limits to watch
+
+- The static build has about 18,000 files. The Cloudflare Workers free plan allows 20,000 static assets per deployment (paid plans allow more). Adding many more licenses or languages needs a paid plan or fewer generated pages (for example, dropping per-language scenario-cell pages).
