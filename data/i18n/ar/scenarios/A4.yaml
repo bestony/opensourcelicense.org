@@ -1,0 +1,8 @@
+reviewed: false
+sourceHash: d30cdd2632a3c255
+actor: other
+title: مربوط بتطبيق أو برنامج ثابت مغلق المصدر ويُوزَّع
+cells:
+  mpl-2.0: على مستوى الملف
+  lgpl-3.0: يجب السماح بإعادة الربط
+  busl-1.1: يعتمد على Additional Use Grant

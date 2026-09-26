@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 97ea126725162df2
+summary: "Linux Foundation'ın serbest veri lisansı: veriyi serbestçe kullanın ve
+  paylaşın; eğitilmiş modeller gibi sonuçlar kısıtlanmaz."
+analogy: Veri kümesini her şey için kullanın; veriyi aktarırken sözleşmeyi de ekleyin.
+pros:
+  - Hesaplama sonuçlarını açıkça serbest bırakır
+  - Veri için yazılmıştır
+cons:
+  - CC lisanslarından daha az bilinir
+  - 2.0 sürümü daha basittir

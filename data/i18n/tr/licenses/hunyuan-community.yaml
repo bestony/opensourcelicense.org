@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: c882745d1b8524bb
+summary: Kabul edilebilir kullanım politikasıyla ticari kullanıma izin verilir;
+  çok büyük hizmetler ayrı bir lisans gerektirir ve bazı bölgeler kapsam
+  dışıdır.
+analogy: Kural kitabı, boyut sınırı ve nerede sürülebileceğini gösteren bir
+  haritayla ücretsiz bir motor.
+pros:
+  - Çoğu kullanıcı için ticari kullanım
+  - Metin, video ve 3B modelleri kapsar
+cons:
+  - Açık kaynak değil
+  - Bölgesel dışlamalar

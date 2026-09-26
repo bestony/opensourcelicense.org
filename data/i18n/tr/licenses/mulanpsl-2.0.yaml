@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: b568f07f3285ed81
+summary: Patent izni ve misillemesi içeren Çin menşeli serbest lisans. Çince ve
+  İngilizce metinler eşit derecede geçerlidir; çelişki hâlinde Çince metin esas
+  alınır.
+analogy: Çin hukuku göz önünde bulundurularak yazılmış Apache tarzı koruma.
+pros:
+  - Resmî iki dilli metin
+  - Patent izni
+  - OSI onaylı
+cons:
+  - Çin dışında az bilinir
+  - Sınırlı içtihat

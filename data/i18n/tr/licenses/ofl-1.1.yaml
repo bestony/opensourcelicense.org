@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 2388a1183d57050c
+summary: "Özgür yazı tipi lisansı: yazı tiplerini serbestçe kullanın, gömün ve
+  değiştirin; ancak değiştirilen yazı tipleri ayrılmış adları kullanmamalı ve
+  yazı tipleri tek başına satılmamalıdır."
+analogy: Yazı tipini her yerde kullanın, ama çıplak yazı tipi dosyasını satmayın.
+pros:
+  - Belgelere ve uygulamalara gömmeye izin verir
+  - Açık yazı tipleri için standart
+cons:
+  - Ayrılmış yazı tipi adları çatallamayı zorlaştırır
+  - Yalnızca yazı tipleri için

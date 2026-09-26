@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 4f30616160bfe68b
+actor: you
+title: تغيّر الرخصة لاحقًا أو تبيع رخصًا تجارية (لم يوقّع المساهمون على CLA)
+cells:
+  mit: يمكن تغيير الإصدارات الجديدة؛ وتبقى القديمة كما هي
+  bsd-3-clause: مثل MIT
+  apache-2.0: مثل MIT
+  mpl-2.0: يجب أن تبقى ملفات MPL بموجب MPL
+  lgpl-3.0: يتطلب موافقة جميع المساهمين
+  mulanpsl-2.0: مثل MIT
+  busl-1.1: يعتمد عادةً على CLA
+  elv2: يعتمد عادةً على CLA

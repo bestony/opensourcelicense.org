@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 362187e701e25e6a
+summary: MPL'den türetilmiş, patent izni içeren dosya düzeyinde copyleft; GPL
+  ile uyumsuzdur.
+analogy: Ödünç aldığınız dosyadaki değişiklikleri paylaşın; geri kalanı
+  isterseniz kapalı tutun.
+pros:
+  - Dosya düzeyinde kapsam
+  - Patent izni
+cons:
+  - GPL ile uyumsuz (ZFS-on-Linux sorunu)
+  - Az sayıda yeni proje benimsiyor

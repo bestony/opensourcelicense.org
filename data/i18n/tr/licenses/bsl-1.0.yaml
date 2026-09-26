@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 3d7476dd1bfc7f5b
+summary: Serbest lisans; bildirim kaynak kopyalarında zorunludur, derlenmiş
+  ikili dosyalarda değildir.
+analogy: Yazarın adını tarif kitabında tutun, servis ettiğiniz her tabakta değil.
+pros:
+  - İkili dosyalarda bildirim gerekmez
+  - C++ kütüphaneleri için standart
+cons:
+  - Patent izni yok
+  - C++ dışında az bilinir

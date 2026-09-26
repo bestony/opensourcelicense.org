@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 33f06e1e52928136
+summary: Kodla neredeyse her şeyi yapın. Telif hakkı ve lisans bildirimini
+  koruyun. Garanti yoktur.
+analogy: "Bir kafede ücretsiz bir kitap bırakmak gibi: alın, kopyalayın, satın;
+  yalnızca yazarın adını kapakta bırakın."
+pros:
+  - Kısa ve yaygın olarak anlaşılır
+  - Şirketlerin benimsemesi en kolay lisans
+  - Neredeyse tüm diğer lisanslarla uyumlu
+cons:
+  - Patent izni yok
+  - Herkes kapalı kaynak veya barındırılan bir rakip kurabilir

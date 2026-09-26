@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 76c3b4e3dc7fbff1
+summary: "Büyük bir dil modeli için ilk Sorumlu Yapay Zekâ Lisansı (RAIL):
+  türevleri de bağlayan, kullanıma dayalı kısıtlamalarla açık erişim."
+analogy: Her kopyasına yasak kullanımlar listesi iliştirilmiş ücretsiz bir araç.
+pros:
+  - Ticari kullanıma izin verir
+  - RAIL lisanslamasına öncülük etti
+cons:
+  - OSI tanımına göre açık kaynak değil
+  - Kısıtlamaları uygulatmak zor

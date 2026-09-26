@@ -1,0 +1,347 @@
+reviewed: false
+sourceHash: a2d7eb045dde7649
+strings:
+  site.name: opensourcelicense.org
+  site.tagline: שולחן עבודה לקבלת החלטות על רישיונות קוד פתוח
+  site.description: בחרו רישיון קוד פתוח, השוו בין רישיונות ובדקו אותם בתרחישי
+    קיצון. ראו במה משתמשים פרויקטים אמיתיים, מה עלול להשתבש ומה מתאים לפרויקט
+    שלכם.
+  nav.home: דף הבית
+  nav.licenses: רישיונות
+  nav.scenarios: תרחישים
+  nav.projects: פרויקטים
+  nav.trends: מגמות
+  nav.compare: השוואה
+  nav.wizard: אשף
+  nav.chat: יועץ AI
+  nav.check: בדיקת תלויות
+  nav.menu: תפריט
+  lang.switch: שפה
+  lang.suggest: דף זה זמין ב{language}.
+  lang.suggest.go: מעבר
+  lang.suggest.dismiss: סגירה
+  footer.disclaimer: אתר זה מספק מידע כללי ואינו ייעוץ משפטי. במקרה של סכסוך או
+    חוזה של ממש, התייעצו עם עורך דין.
+  footer.source: קוד מקור (AGPL-3.0)
+  footer.data: הנתונים תחת CC-BY-4.0
+  footer.report: דיווח על שגיאה
+  footer.cite: נתונים מ-opensourcelicense.org, ‏CC-BY-4.0
+  footer.hosting: פועל על התוכנית החינמית של Cloudflare Workers
+  footer.dns: הדומיין מאוחסן ב-Cloudflare
+  badge.machine: תרגום מכונה
+  badge.reviewed: תרגום שנבדק
+  badge.fallback: טרם תורגם — מוצג באנגלית
+  badge.stale: ייתכן שאינו עדכני
+  badge.unreviewed-data: טיוטה — טרם נבדקה על ידי עורך דין
+  common.updated: הנתונים עודכנו ב-{date}
+  common.back: חזרה
+  common.copy: העתקה
+  common.copied: הועתק
+  common.download: הורדה
+  common.close: סגירה
+  common.all: הכול
+  common.yes: כן
+  common.no: לא
+  common.unknown: לא ידוע
+  common.none: אין
+  common.more: עוד
+  common.loading: טוען…
+  common.error: משהו השתבש.
+  common.search: חיפוש
+  home.title: בחירת רישיון קוד פתוח בעיניים פקוחות
+  home.lead: לא רק “איזה רישיון”, אלא מה בחרו פרויקטים דומים, איך נראה התרחיש
+    הגרוע ביותר ומה עושים הלאה.
+  home.entry.chat.title: שוחחו עם יועץ ה-AI
+  home.entry.chat.body: תארו את הפרויקט במילים שלכם. קבלו פרופיל, שאלות המשך ודוח.
+  home.entry.projects.title: ראו במה אחרים משתמשים
+  home.entry.projects.body: הרישיונות של פרויקטים מוכרים, ולמה חלקם החליפו רישיון.
+  home.entry.wizard.title: סינון צעד אחר צעד
+  home.entry.wizard.body: ענו על כמה שאלות וקבלו רשימה קצרה, מדורגת ומוסברת.
+  home.wall: הרישיונות של פרויקטים פופולריים
+  home.changes: שינויי רישיון אחרונים
+  home.scenarios: מה עלול להשתבש?
+  home.scenarios.body: 27 תרחישי קיצון × 17 עמודות רישיון, דף נפרד לכל תא.
+  family.permissive: מתירני
+  family.weak-copyleft: Copyleft חלש
+  family.strong-copyleft: Copyleft חזק
+  family.network-copyleft: Copyleft רשתי
+  family.source-available: קוד מקור זמין
+  family.model: רישיון מודל
+  family.content: תוכן / נתונים
+  verdict.allow: מותר
+  verdict.conditional: בתנאים
+  verdict.deny: חסום ברישיון
+  verdict.silent: לא מוסדר
+  verdict.tbd: בבדיקה
+  verdict.legend: "מקרא: ✓ הצד השני רשאי לעשות זאת · ◐ בתנאים · ✗ הרישיון חוסם זאת
+    · — הרישיון שותק (חל הדין הכללי)"
+  actor.other: מישהו אחר עושה זאת
+  actor.you: אתם רוצים לעשות זאת
+  actor.contributor: תורם עושה זאת
+  actor.both: חל על שני הצדדים
+  group.A: תחרות מסחרית
+  group.B: פטנטים ומשפט
+  group.C: התפתחות ומודל עסקי
+  group.D: שימוש ועמידה בדרישות
+  group.E: מודלי AI ונתונים
+  matrix.code: רישיונות קוד
+  matrix.model: רישיונות מודלים ונתונים
+  term.commercial-use: שימוש מסחרי
+  term.modification: שינוי
+  term.distribution: הפצה
+  term.private-use: שימוש פרטי
+  term.patent-use: הענקת פטנט
+  term.non-production-use: שימוש שאינו בייצור
+  term.converts-to-open-source: הופך לקוד פתוח בהמשך
+  term.include-copyright: שמירת הודעת זכויות היוצרים
+  term.include-license: צירוף הרישיון
+  term.document-changes: סימון שינויים
+  term.disclose-source: חשיפת קוד המקור
+  term.same-license: אותו רישיון ליצירות נגזרות
+  term.same-license-file: אותו רישיון (ברמת הקובץ)
+  term.same-license-library: אותו רישיון (ברמת הספרייה)
+  term.allow-relinking: לאפשר קישור מחדש
+  term.network-use-disclose: שימוש ברשת נחשב הפצה
+  term.service-stack-disclose: פרסום כל מחסנית השירות
+  term.keep-limitations: שמירת המגבלות
+  term.attribution: ייחוס
+  term.attribution-built-with: הצגת “Built with”
+  term.name-prefix: כלל קידומת בשם
+  term.acceptable-use-policy: מדיניות שימוש מקובל
+  term.use-restrictions-pass-through: העברת מגבלות השימוש
+  term.indicate-changes: ציון שינויים
+  term.liability: ללא אחריות משפטית
+  term.warranty: ללא אחריות (warranty)
+  term.trademark-use: ללא זכויות בסימן מסחר
+  term.no-endorsement: ללא המלצה
+  term.production-use-restricted: שימוש בייצור מוגבל
+  term.no-managed-service: ללא שירות מנוהל
+  term.no-license-key-circumvention: ללא עקיפת מפתח רישיון
+  term.mau-threshold: סף משתמשים
+  term.use-restrictions: מגבלות שימוש
+  term.non-commercial: לשימוש לא מסחרי בלבד
+  licenses.title: ספריית רישיונות קוד פתוח
+  licenses.lead: "{count} רישיונות, ממתירניים ועד רישיונות קוד מקור זמין ורישיונות מודלים."
+  licenses.col.license: רישיון
+  licenses.col.family: משפחה
+  licenses.col.osi: OSI
+  licenses.col.fsf: חופשי לפי FSF
+  licenses.col.projects: פרויקטים
+  licenses.filter: סינון לפי משפחה
+  license.permissions: הרשאות
+  license.conditions: תנאים
+  license.limitations: מגבלות
+  license.summary: במילים פשוטות
+  license.analogy: משל
+  license.pros: יתרונות
+  license.cons: חסרונות
+  license.scenarios: תרחישי קיצון
+  license.radar: מכ״ם התרחיש הגרוע
+  license.projects: פרויקטים מוכרים שמשתמשים בו
+  license.projects.count: "{count} פרויקטים מוכרים במפה שלנו משתמשים ברישיון זה."
+  license.projects.none: עדיין אין במפה שלנו פרויקט שמשתמש ברישיון זה.
+  license.projects.since: עבר אליו ב-{date}
+  license.projects.also: "מוצע גם תחת: {licenses}"
+  license.projects.former: פרויקטים שעזבו אותו
+  license.text: הנוסח הרשמי
+  license.text.official: הנוסח הרשמי ב{language}
+  license.text.note: רק הנוסח הרשמי מחייב מבחינה משפטית. איננו מתרגמים נוסחי רישיונות.
+  license.compare: השוואה עם…
+  license.spdx: מזהה SPDX
+  radar.anti-freeride: מונע טרמפיסטים
+  radar.anti-closed-fork: מונע פיצולים סגורים
+  radar.patent: הגנת פטנטים
+  radar.adoption-friction: חיכוך באימוץ
+  radar.relicense-difficulty: קושי בהחלפת רישיון
+  radar.misuse-control: שליטה בשימוש לרעה
+  radar.derivative-control: שליטה ביצירות נגזרות
+  radar.commercial-control: שליטה מסחרית
+  radar.note: מחושב ממטריצת התרחישים. ערך גבוה יותר פירושו יותר מאותה תכונה, לא “טוב יותר”.
+  scenarios.title: מטריצת תרחישי קיצון
+  scenarios.lead: מה קורה אחרי שבוחרים רישיון? כל תא עונה על שאלה אחת ויש לו דף משלו.
+  scenarios.highlight: הדגשת רישיון
+  scenarios.expand: הרחבת הכול
+  scenarios.collapse: כיווץ הכול
+  scenarios.silent-note: שורות שיש בהן רק “—” נמצאות כאן בכוונה. התשובה תלויה
+    בחוזי העסקה (C6), בדיני פיקוח על יצוא (D5) או בתביעות תלויות ועומדות (D6),
+    ולא ברישיון.
+  scenario.flow.you: אתם מפרסמים תחת {license}
+  scenario.flow.they: המצב
+  scenario.flow.result: התוצאה
+  scenario.clause: הסעיף הרלוונטי
+  scenario.case: מקרה מהעולם האמיתי
+  scenario.others: אותו תרחיש, רישיונות אחרים
+  scenario.other-scenarios: תרחישים נוספים עבור {license}
+  scenario.no-clause: אין סעיף ספציפי. חל הדין הכללי.
+  scenario.review: סטטוס בדיקה
+  scenario.review.none: טרם נבדק על ידי עורך דין.
+  scenario.review.done: נבדק על ידי {who} ב-{date}.
+  compare.title: השוואת רישיונות קוד פתוח
+  compare.lead: בחרו שניים או שלושה רישיונות להשוואה סעיף אחר סעיף ותרחיש אחר תרחיש.
+  compare.pick: הוספת רישיון
+  compare.remove: הסרה
+  compare.terms: תנאים
+  compare.scenarios: תרחישים
+  compare.empty: בחרו לפחות שני רישיונות.
+  wizard.title: אשף בחירת רישיון
+  wizard.lead: ענו על כמה שאלות. מנוע הכללים מדרג את הרישיונות ומסביר כל נקודה.
+  wizard.next: הבא
+  wizard.prev: הקודם
+  wizard.finish: הצגת התוצאה
+  wizard.restart: התחלה מחדש
+  wizard.skip: דילוג
+  wizard.step: שלב {n} מתוך {total}
+  wizard.to-chat: המשך אצל יועץ ה-AI
+  q.artifact_type: מה אתם משחררים?
+  q.openness_level: עד כמה פתוח אתם רוצים שיהיה?
+  q.avoid: מאילו תוצאות אתם רוצים להימנע?
+  q.avoid.hint: בחרו כמה שתרצו.
+  q.adoption_goal: מה הכי חשוב?
+  q.dependencies: האם אתם תלויים בקוד copyleft?
+  q.dependencies.hint: הוסיפו את מזהי ה-SPDX של רישיונות התלויות, לדוגמה GPL-3.0-only.
+  q.commercial_plan: איך תרוויחו כסף, אם בכלל?
+  q.jurisdiction: היכן אתם ממוקמים?
+  opt.artifact_type.library: ספרייה או SDK
+  opt.artifact_type.application: יישום או כלי
+  opt.artifact_type.saas: צד שרת של שירות (SaaS)
+  opt.artifact_type.model: משקלי מודל
+  opt.artifact_type.dataset: מערך נתונים
+  opt.artifact_type.docs: תיעוד או תוכן
+  opt.openness_level.open: פתוח לגמרי — כל אחד יכול לעשות הכול
+  opt.openness_level.reciprocal: פתוח, אבל שיפורים חייבים לחזור
+  opt.openness_level.source-available: הקוד גלוי, השימוש המסחרי מוגבל
+  opt.avoid.cloud-hosting: ספקי ענן שמוכרים אותו כשירות
+  opt.avoid.closed-fork: פיצולים בקוד סגור
+  opt.avoid.patent-litigation: תביעות פטנטים
+  opt.avoid.trademark-abuse: שימוש לרעה בשם או במותג שלי
+  opt.avoid.harmful-use: שימושים מזיקים
+  opt.avoid.big-company: חברות גדולות שמשתמשות בו בחינם
+  opt.adoption_goal.enterprise: אימוץ מרבי על ידי חברות
+  opt.adoption_goal.community: תרומות מהקהילה
+  opt.adoption_goal.monetize: להרוויח ממנו כסף
+  opt.commercial_plan.none: אין תוכנית
+  opt.commercial_plan.dual-license: רישוי כפול
+  opt.commercial_plan.open-core: ליבה פתוחה (Open core)
+  opt.commercial_plan.hosted: שירות מתארח
+  opt.jurisdiction.cn: סין
+  opt.jurisdiction.eu: האיחוד האירופי
+  opt.jurisdiction.us: ארצות הברית
+  opt.jurisdiction.other: אחר
+  engine.part.avoid: "הגנה מפני: {avoid}"
+  engine.part.openness: "התאמת פתיחות: {openness}"
+  engine.part.adoption: "מטרה: {goal}"
+  engine.part.commercial: "תוכנית עסקית: {plan}"
+  engine.part.jurisdiction: "תחום שיפוט: {jurisdiction}"
+  engine.part.dependency: "תואם רק בתנאים: {dependency}"
+  engine.excluded.dependency: לא תואם לתלות {dependency}
+  engine.excluded.artifact: לא מתאים לסוג תוצר זה
+  advisory.needs-cla: השתמשו בהסכם רישיון לתורמים (CLA). תזדקקו לו כדי למכור
+    רישיונות מסחריים או לשנות את הרישיון בהמשך.
+  advisory.consider-dco: בדרך כלל מספיקה תעודת מקור של מפתח (DCO, “Signed-off-by”).
+  advisory.busl-change-date: הגדירו בכותרת ה-BSL את Additional Use Grant, את
+    Change Date ואת Change License.
+  advisory.model-card: ציינו את הרישיון במטא-נתונים של כרטיס המודל או מערך הנתונים (שדה “license:”).
+  advisory.notice-file: הוסיפו קובץ NOTICE ושמרו עליו בעת הפצה מחדש.
+  advisory.consult-lawyer: בקשו מעורך דין לבדוק את התלויות ואת התנאים העסקיים לפני השחרור.
+  advisory.network-source-link: הציגו קישור “קוד מקור” למשתמשי שירות הרשת שלכם.
+  report.title: דוח הרישיון שלכם
+  report.lead: הדוח מחושב בדפדפן שלכם מתוך הפרופיל שבקישור. שתפו את הקישור כדי לשתף את הדוח.
+  report.profile: פרופיל הפרויקט
+  report.edit: עריכה באשף
+  report.top: מומלץ
+  report.score: ציון {score}
+  report.why: למה
+  report.excluded: נפסלו
+  report.advisories: הצעדים הבאים
+  report.license-file: קובץ LICENSE
+  report.header: כותרת קובץ
+  report.badge: תג README
+  report.share: שיתוף קישור
+  report.share.copy: העתקת קישור
+  report.similar: פרויקטים דומים
+  report.no-text: אין נוסח קריא למכונה. קבלו אותו מהדף הרשמי.
+  report.invalid: קישור הדוח הזה פגום או שייך לגרסה ישנה.
+  report.empty: עדיין אין פרופיל. התחילו עם האשף או עם יועץ ה-AI.
+  chat.title: יועץ רישיונות AI
+  chat.lead: תארו את הפרויקט. היועץ שואל שאלות המשך, מנוע הכללים בוחר את
+    הרישיונות, והיועץ מסביר אותם.
+  chat.placeholder: "לדוגמה: בניתי מסד נתונים וקטורי ואני חושש שספקי ענן ימכרו אותו מחדש."
+  chat.send: שליחה
+  chat.stop: עצירה
+  chat.examples: נסו דוגמה
+  chat.example.1: בניתי מסד נתונים וקטורי ואני חושש שספקי ענן ימכרו אותו מחדש.
+  chat.example.2: ספריית רכיבי React קטנה. אני רוצה שחברות ישתמשו בה.
+  chat.example.3: כווננו מודל 7B ואנחנו רוצים לחסום שימושים מזיקים.
+  chat.profile: פרופיל הפרויקט
+  chat.profile.hint: לחצו על ערך כדי לשנות אותו.
+  chat.candidates: מועמדים
+  chat.run: קבלת המלצה
+  chat.limit: הגעתם למגבלה היומית. נסו שוב מחר או השתמשו באשף.
+  chat.error: היועץ אינו זמין כרגע. האשף עדיין עובד.
+  chat.verify: אנא אשרו שאתם בני אדם.
+  chat.disclaimer: היועץ עלול לטעות. ההמלצות מגיעות ממנוע הכללים, ואין זה ייעוץ משפטי.
+  chat.report: פתיחת הדוח המלא
+  projects.title: מפת הרישיונות של פרויקטים
+  projects.lead: הרישיונות של פרויקטי קוד פתוח מוכרים והסיפור מאחורי כל שינוי.
+  projects.filter.domain: תחום
+  projects.filter.family: משפחת רישיונות
+  projects.filter.owner: בעלים
+  projects.filter.changed: החליף רישיון
+  projects.count: "{count} פרויקטים"
+  projects.empty: אין פרויקט שתואם למסננים אלה.
+  owner.company: חברה
+  owner.foundation: קרן
+  owner.individual: יחיד
+  owner.community: קהילה
+  project.current: הרישיון הנוכחי
+  project.timeline: ציר הזמן של הרישיון
+  project.reason: סיבה
+  project.announcement: הודעה
+  project.forks: פיצולים שבאו בעקבות זאת
+  project.fork-of: פיצול של {name}
+  project.repo: מאגר
+  project.similar: פרויקטים דומים
+  project.review: רשומה זו נמצאה על ידי בוט הסנכרון וממתינה לבדיקה אנושית.
+  project.initial: הרישיון הראשוני
+  domain.database: מסדי נתונים
+  domain.frontend: מסגרות Frontend
+  domain.devops: DevOps
+  domain.ai-model: מודלי AI
+  domain.language: שפות וסביבות ריצה
+  domain.os: מערכות הפעלה
+  domain.web: שרתי אינטרנט וצד שרת
+  domain.tooling: כלי פיתוח
+  domain.data: נתונים וניתוח
+  domain.observability: ניטור ונראוּת
+  domain.messaging: הודעות וזרימת נתונים
+  domain.cms: מערכות ניהול תוכן ויישומים
+  trends.title: מגמות ברישיונות קוד פתוח
+  trends.lead: מצטבר ממפת הפרויקטים בזמן הבנייה.
+  trends.family-share: משפחות רישיונות לפי תחום
+  trends.changes: שינויי רישיון לפי שנה
+  trends.to-source-available: פרויקטים שעברו מקוד פתוח לקוד מקור זמין
+  search.lead: חיפוש רישיונות, תרחישים ופרויקטים בשפה זו.
+  search.noscript: החיפוש דורש JavaScript.
+  check.title: בדיקת תאימות רישיונות של תלויות
+  check.lead: הדביקו package.json, ‏go.mod, ‏Gemfile.lock, ‏Cargo.toml או
+    requirements.txt. הניתוח מתבצע בדפדפן שלכם.
+  check.project-license: הרישיון של הפרויקט שלכם
+  check.input: קובץ מניפסט
+  check.run: בדיקה
+  check.lookup: חיפוש מקוון של רישיונות לא ידועים (deps.dev)
+  check.col.package: חבילה
+  check.col.license: רישיון
+  check.col.status: סטטוס
+  check.status.compatible: תואם
+  check.status.conditional: בתנאים
+  check.status.incompatible: התנגשות
+  check.status.unknown: לא ידוע
+  check.summary: "{ok} תואמים, {warn} בתנאים, {bad} התנגשויות, {unknown} לא ידועים"
+  check.format: "תבנית שזוהתה: {format}"
+  check.no-deps: לא נמצאו תלויות.
+  check.license-hint: הוסיפו את הרישיון במניפסט כשורות “name@version LICENSE-ID”,
+    או הפעילו חיפוש מקוון.
+  notfound.title: הדף לא נמצא
+  notfound.body: הדף הזה אינו קיים. נסו את ספריית הרישיונות.
+  domain.education: חינוך
+  domain.design: גופנים ועיצוב

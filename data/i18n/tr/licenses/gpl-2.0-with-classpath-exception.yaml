@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 841fb8980cea558f
+summary: Kütüphanenin kendisi için GPL-2.0, artı bağımsız programların ona
+  herhangi bir lisansla bağlanmasına izin veren bir istisna.
+analogy: Tarifi paylaş kuralına tabi ortak bir motor, ama kendi arabanız sizin kalır.
+pros:
+  - Ona bağlanan uygulamalar kapalı olabilir
+  - OpenJDK tarafından kullanılır
+cons:
+  - Kütüphanedeki değişiklikler GPL kalır
+  - GPL-3.0-only projeleriyle uyumsuz

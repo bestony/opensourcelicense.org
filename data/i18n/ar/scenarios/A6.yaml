@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: afd85677afc1c999
+actor: other
+title: شخص ما يبيع نسخًا غير معدّلة
+cells:
+  mpl-2.0: يجب عرض المصدر
+  lgpl-3.0: يجب عرض المصدر
+  gpl-3.0: يجب عرض المصدر
+  agpl-3.0: يجب عرض المصدر
+  sspl-1.0: يجب عرض المصدر
+  busl-1.1: يعتمد على Additional Use Grant

@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 7db0448b4abf3505
+summary: "MIT'ye eşdeğer, daha kısa bir lisans: telif hakkı ve izin bildirimi
+  korunduğu sürece her türlü kullanım."
+analogy: MIT'deki aynı ücretsiz kitap, kapağında daha kısa bir notla.
+pros:
+  - Yaygın serbest lisansların en kısası
+  - Birçok npm paketi için varsayılan
+cons:
+  - Patent izni yok
+  - Kapalı çatallara izin verilir

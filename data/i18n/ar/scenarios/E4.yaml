@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: cf07449a9c3b7eaf
+actor: other
+title: ضُبط بدقة وأُعيدت تسميته ونُشر بأوزان مغلقة
+cells:
+  llama: يجب تضمين الرخصة وعرض «Built with Llama»
+  openrail-m: يجب تمرير قيود الاستخدام
+  cc-by-4.0: النسب
+  cc-by-nc-4.0: لغير الأغراض التجارية فقط
+  odc-by-1.0: النسب
+  odbl-1.0: تبقى قواعد البيانات المشتقة بموجب ODbL

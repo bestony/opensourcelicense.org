@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 8ec9c821f74124a9
+summary: "Atıf şartı olmayan MIT: hiçbir bildirim tutmadan kullanın, kopyalayın
+  ve satın."
+analogy: Yazarın adı olmadan yeniden kapaklayabileceğiniz ücretsiz bir kitap.
+pros:
+  - Atıf gerekmez
+  - Örnekler ve kod parçacıkları için uygun
+cons:
+  - Patent izni yok
+  - Yazarlar için atıf şartı yok

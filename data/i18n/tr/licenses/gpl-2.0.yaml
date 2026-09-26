@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cf76d86201254c1b
+summary: "Güçlü copyleft: dağıtılan türevler tamamen GPL-2.0 ile
+  yayımlanmalıdır. Açık patent izni yoktur; “or later” kullanılmadıkça GPL-3.0
+  ile uyumsuzdur."
+analogy: Tarifi paylaş kuralının eski baskısı.
+pros:
+  - Dağıtılan türevleri açık tutar
+  - Linux çekirdeği tarafından kullanılır
+cons:
+  - Apache-2.0 ve GPL-3.0 ile uyumsuz (yalnızca bu sürüm)
+  - Açık patent izni yok

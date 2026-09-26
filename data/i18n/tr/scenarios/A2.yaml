@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 57d3e35a6ad686d1
+actor: other
+title: Biri projeyi çatallayıp kapalı kaynak bir rakip dağıtıyor
+cells:
+  apache-2.0: Değiştirilen dosyalar işaretlenmeli
+  mpl-2.0: Değiştirilen MPL dosyaları açık kalır
+  lgpl-3.0: Kütüphanedeki değişiklikler açık kalır
+  busl-1.1: Türevler BSL altında kalır
+  elv2: Kısıtlamalar korunmalı

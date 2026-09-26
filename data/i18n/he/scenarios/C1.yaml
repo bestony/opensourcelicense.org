@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 4f30616160bfe68b
+actor: you
+title: אתם מחליפים רישיון בהמשך או מוכרים רישיונות מסחריים (התורמים לא חתמו על CLA)
+cells:
+  mit: גרסאות חדשות יכולות להשתנות; הישנות נשארות
+  bsd-3-clause: כמו MIT
+  apache-2.0: כמו MIT
+  mpl-2.0: קבצי MPL חייבים להישאר MPL
+  lgpl-3.0: דורש הסכמה של כל התורמים
+  mulanpsl-2.0: כמו MIT
+  busl-1.1: לרוב נשען על CLA
+  elv2: לרוב נשען על CLA

@@ -1,0 +1,8 @@
+reviewed: false
+sourceHash: 3a5f4b9bf27dddea
+actor: other
+title: ⵜⴰⵏⴳⴰⵍⵜ ⵏⵏⴽ ⵜⵜⵓⵙⴽⵛⵎ ⴳ ⵢⴰⵏ ⵓⵙⵏⴼⴰⵔ ⵏ GPL-3.0
+cells:
+  apache-2.0: ⵎⴰⵛ ⵓⵔ ⵜⵎⵙⴰⵙⴰ ⴷ GPL-2.0
+  mpl-2.0: ⵖⴰⵙ ⵉⵖ ⵜⵜⵓⵔⵛⵎ ⵙ ⵓⵔ ⵜⵎⵙⴰⵙⴰ
+  agpl-3.0: ⴰⵃⵉⴷⵓⵔ ⵏ AGPL ⵉⵇⵇⵉⵎ ⴷⴷⴰⵡ AGPL

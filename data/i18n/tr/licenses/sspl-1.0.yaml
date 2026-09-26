@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: c04c9ce2bbb6b016
+summary: AGPL'ye benzer, ancak yazılımı hizmet olarak sunmak tüm hizmet
+  yığınının kaynağını yayımlamayı gerektirir. OSI onaylı değildir.
+analogy: Bu yemeği sunan bir restoran işletiyorsanız mutfağınızın planlarını da
+  yayımlamalısınız.
+pros:
+  - Bulut sağlayıcılarına karşı güçlü koruma
+cons:
+  - OSI tanımına göre açık kaynak değil
+  - Birçok dağıtım tarafından reddedildi
+  - Topluluk çatallarını tetikleyebilir

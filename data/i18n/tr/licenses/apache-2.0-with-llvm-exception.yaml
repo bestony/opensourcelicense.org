@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: ded3362d69058c2a
+summary: Apache-2.0 artı derlenmiş kod için atıf gereksinimini kaldıran ve
+  GPL-2.0 projeleriyle kullanımı mümkün kılan bir istisna.
+analogy: Apache'nin alet çantası, üstelik aletlerin ürününüzde kalan izleri için
+  atıf gerekmediğine dair bir notla.
+pros:
+  - Apache-2.0'ın patent izni
+  - GPL-2.0 koduyla birlikte çalışır
+cons:
+  - MIT'den daha uzun
+  - İstisna derleyici benzeri projelere özgüdür

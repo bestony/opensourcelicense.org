@@ -1,0 +1,348 @@
+reviewed: false
+sourceHash: a2d7eb045dde7649
+strings:
+  site.name: opensourcelicense.org
+  site.tagline: منصة لاتخاذ القرار في اختيار رخص المصدر المفتوح
+  site.description: اختر رخص المصدر المفتوح وقارن بينها واختبرها في أصعب الحالات.
+    اطّلع على ما تستخدمه المشاريع الحقيقية، وما قد يسوء، وما يناسب مشروعك.
+  nav.home: الرئيسية
+  nav.licenses: الرخص
+  nav.scenarios: السيناريوهات
+  nav.projects: المشاريع
+  nav.trends: الاتجاهات
+  nav.compare: مقارنة
+  nav.wizard: المعالج
+  nav.chat: المستشار الذكي
+  nav.check: فحص التبعيات
+  nav.menu: القائمة
+  lang.switch: اللغة
+  lang.suggest: هذه الصفحة متاحة باللغة {language}.
+  lang.suggest.go: التبديل
+  lang.suggest.dismiss: تجاهل
+  footer.disclaimer: يقدم هذا الموقع معلومات عامة وليس استشارة قانونية. في حالة
+    نزاع أو عقد فعلي، استشر محاميًا.
+  footer.source: الشيفرة المصدرية (AGPL-3.0)
+  footer.data: البيانات مرخّصة بموجب CC-BY-4.0
+  footer.report: الإبلاغ عن خطأ
+  footer.cite: البيانات من opensourcelicense.org، بموجب CC-BY-4.0
+  footer.hosting: يعمل على الخطة المجانية من Cloudflare Workers
+  footer.dns: النطاق مستضاف لدى Cloudflare
+  badge.machine: ترجمة آلية
+  badge.reviewed: ترجمة مُراجَعة
+  badge.fallback: لم تُترجم بعد — يُعرض النص الإنجليزي
+  badge.stale: قد تكون قديمة
+  badge.unreviewed-data: مسودة — لم يراجعها محامٍ بعد
+  common.updated: "آخر تحديث للبيانات: {date}"
+  common.back: رجوع
+  common.copy: نسخ
+  common.copied: تم النسخ
+  common.download: تنزيل
+  common.close: إغلاق
+  common.all: الكل
+  common.yes: نعم
+  common.no: لا
+  common.unknown: غير معروف
+  common.none: لا شيء
+  common.more: المزيد
+  common.loading: جارٍ التحميل…
+  common.error: حدث خطأ ما.
+  common.search: بحث
+  home.title: اختر رخصة المصدر المفتوح المناسبة عن بيّنة
+  home.lead: ليس فقط «أي رخصة؟»، بل ما اختارته المشاريع المشابهة، وكيف يبدو أسوأ
+    الاحتمالات، وما الخطوة التالية.
+  home.entry.chat.title: تحدّث إلى المستشار الذكي
+  home.entry.chat.body: صِف مشروعك بكلماتك الخاصة. احصل على ملف تعريفي وأسئلة متابعة وتقرير.
+  home.entry.projects.title: اطّلع على ما يستخدمه الآخرون
+  home.entry.projects.body: رخص المشاريع المعروفة، ولماذا غيّر بعضها رخصته.
+  home.entry.wizard.title: التصفية خطوة بخطوة
+  home.entry.wizard.body: أجب عن بضعة أسئلة واحصل على قائمة مختصرة مرتبة ومشروحة.
+  home.wall: رخص المشاريع الشائعة
+  home.changes: أحدث تغييرات الرخص
+  home.scenarios: ما الذي قد يسوء؟
+  home.scenarios.body: 27 سيناريو متطرفًا × 17 عمودًا للرخص، وصفحة مستقلة لكل خلية.
+  family.permissive: متساهلة
+  family.weak-copyleft: حقوق متروكة ضعيفة
+  family.strong-copyleft: حقوق متروكة قوية
+  family.network-copyleft: حقوق متروكة شبكية
+  family.source-available: مصدر متاح
+  family.model: رخصة نموذج
+  family.content: محتوى / بيانات
+  verdict.allow: مسموح
+  verdict.conditional: بشروط
+  verdict.deny: تمنعه الرخصة
+  verdict.silent: غير منصوص عليه
+  verdict.tbd: قيد المراجعة
+  verdict.legend: "الدليل: ✓ يمكن للطرف الآخر فعل ذلك · ◐ بشروط · ✗ الرخصة تمنعه ·
+    — الرخصة لا تتناوله (يُطبّق القانون العام)"
+  actor.other: شخص آخر يفعل ذلك
+  actor.you: أنت تريد فعل ذلك
+  actor.contributor: مساهم يفعل ذلك
+  actor.both: ينطبق على الطرفين
+  group.A: المنافسة التجارية
+  group.B: براءات الاختراع والقانون
+  group.C: التطور ونموذج العمل
+  group.D: الاستخدام والامتثال
+  group.E: نماذج الذكاء الاصطناعي والبيانات
+  matrix.code: رخص الشيفرة
+  matrix.model: رخص النماذج والبيانات
+  term.commercial-use: الاستخدام التجاري
+  term.modification: التعديل
+  term.distribution: التوزيع
+  term.private-use: الاستخدام الخاص
+  term.patent-use: منح براءة الاختراع
+  term.non-production-use: الاستخدام غير الإنتاجي
+  term.converts-to-open-source: تتحول لاحقًا إلى مصدر مفتوح
+  term.include-copyright: الإبقاء على إشعار حقوق النشر
+  term.include-license: تضمين الرخصة
+  term.document-changes: توضيح التغييرات
+  term.disclose-source: الإفصاح عن المصدر
+  term.same-license: الرخصة نفسها للأعمال المشتقة
+  term.same-license-file: الرخصة نفسها (على مستوى الملف)
+  term.same-license-library: الرخصة نفسها (على مستوى المكتبة)
+  term.allow-relinking: السماح بإعادة الربط
+  term.network-use-disclose: الاستخدام عبر الشبكة يُعدّ توزيعًا
+  term.service-stack-disclose: نشر حزمة الخدمة كاملة
+  term.keep-limitations: الإبقاء على القيود
+  term.attribution: نسب العمل
+  term.attribution-built-with: عرض عبارة «Built with»
+  term.name-prefix: قاعدة بادئة الاسم
+  term.acceptable-use-policy: سياسة الاستخدام المقبول
+  term.use-restrictions-pass-through: تمرير قيود الاستخدام
+  term.indicate-changes: الإشارة إلى التغييرات
+  term.liability: لا مسؤولية
+  term.warranty: لا ضمان
+  term.trademark-use: لا حقوق في العلامة التجارية
+  term.no-endorsement: لا تزكية
+  term.production-use-restricted: الاستخدام الإنتاجي مقيّد
+  term.no-managed-service: لا خدمة مُدارة
+  term.no-license-key-circumvention: لا تحايل على مفتاح الترخيص
+  term.mau-threshold: حدّ المستخدمين
+  term.use-restrictions: قيود الاستخدام
+  term.non-commercial: لغير الأغراض التجارية فقط
+  licenses.title: مكتبة رخص المصدر المفتوح
+  licenses.lead: "{count} رخصة، من الرخص المتساهلة إلى رخص المصدر المتاح ورخص النماذج."
+  licenses.col.license: الرخصة
+  licenses.col.family: العائلة
+  licenses.col.osi: OSI
+  licenses.col.fsf: حرة وفق FSF
+  licenses.col.projects: المشاريع
+  licenses.filter: التصفية حسب العائلة
+  license.permissions: الأذونات
+  license.conditions: الشروط
+  license.limitations: القيود
+  license.summary: بعبارة بسيطة
+  license.analogy: تشبيه
+  license.pros: المزايا
+  license.cons: العيوب
+  license.scenarios: السيناريوهات المتطرفة
+  license.radar: رادار أسوأ الحالات
+  license.projects: مشاريع معروفة تستخدمها
+  license.projects.count: "{count} من المشاريع المعروفة في خريطتنا تستخدم هذه الرخصة."
+  license.projects.none: لا يوجد في خريطتنا بعد أي مشروع يستخدم هذه الرخصة.
+  license.projects.since: انتقل إليها في {date}
+  license.projects.also: "متاح أيضًا بموجب: {licenses}"
+  license.projects.former: مشاريع تخلّت عنها
+  license.text: النص الرسمي
+  license.text.official: النص الرسمي باللغة {language}
+  license.text.note: النص الرسمي وحده مُلزِم قانونيًا. نحن لا نترجم نصوص الرخص.
+  license.compare: قارن مع…
+  license.spdx: معرّف SPDX
+  radar.anti-freeride: يمنع الاستغلال المجاني
+  radar.anti-closed-fork: يمنع التفرعات المغلقة
+  radar.patent: الحماية من براءات الاختراع
+  radar.adoption-friction: صعوبة التبنّي
+  radar.relicense-difficulty: صعوبة تغيير الرخصة
+  radar.misuse-control: التحكم في إساءة الاستخدام
+  radar.derivative-control: التحكم في الأعمال المشتقة
+  radar.commercial-control: التحكم التجاري
+  radar.note: محسوب من مصفوفة السيناريوهات. القيمة الأعلى تعني قدرًا أكبر من تلك
+    الخاصية، وليس «أفضل».
+  scenarios.title: مصفوفة السيناريوهات المتطرفة
+  scenarios.lead: ماذا يحدث بعد اختيارك رخصة؟ كل خلية تجيب عن سؤال واحد ولها صفحة خاصة بها.
+  scenarios.highlight: تمييز رخصة
+  scenarios.expand: توسيع الكل
+  scenarios.collapse: طيّ الكل
+  scenarios.silent-note: الصفوف التي لا تحتوي إلا على «—» موجودة عن قصد. فالإجابة
+    تعتمد على عقود العمل (C6) أو قوانين ضوابط التصدير (D5) أو الدعاوى القضائية
+    الجارية (D6)، لا على الرخصة.
+  scenario.flow.you: أنت تنشر بموجب {license}
+  scenario.flow.they: الموقف
+  scenario.flow.result: النتيجة
+  scenario.clause: البند ذو الصلة
+  scenario.case: حالة واقعية
+  scenario.others: السيناريو نفسه مع رخص أخرى
+  scenario.other-scenarios: سيناريوهات أخرى لرخصة {license}
+  scenario.no-clause: لا يوجد بند محدد. يُطبّق القانون العام.
+  scenario.review: حالة المراجعة
+  scenario.review.none: لم يراجعه محامٍ بعد.
+  scenario.review.done: راجعه {who} في {date}.
+  compare.title: مقارنة رخص المصدر المفتوح
+  compare.lead: اختر رخصتين أو ثلاثًا لمقارنتها بندًا ببند وسيناريو بسيناريو.
+  compare.pick: إضافة رخصة
+  compare.remove: إزالة
+  compare.terms: البنود
+  compare.scenarios: السيناريوهات
+  compare.empty: اختر رخصتين على الأقل.
+  wizard.title: معالج اختيار الرخصة
+  wizard.lead: أجب عن بضعة أسئلة. يرتّب محرك القواعد الرخص ويشرح كل نقطة.
+  wizard.next: التالي
+  wizard.prev: السابق
+  wizard.finish: عرض النتيجة
+  wizard.restart: البدء من جديد
+  wizard.skip: تخطٍّ
+  wizard.step: الخطوة {n} من {total}
+  wizard.to-chat: المتابعة مع المستشار الذكي
+  q.artifact_type: ما الذي تنشره؟
+  q.openness_level: ما مدى الانفتاح الذي تريده؟
+  q.avoid: ما النتائج التي تريد تجنّبها؟
+  q.avoid.hint: اختر أي عدد.
+  q.adoption_goal: ما الأهم بالنسبة إليك؟
+  q.dependencies: هل تعتمد على شيفرة ذات حقوق متروكة (copyleft)؟
+  q.dependencies.hint: أضف معرّفات SPDX لرخص التبعيات، مثل GPL-3.0-only.
+  q.commercial_plan: كيف ستحقق الدخل، إن كنت ستفعل؟
+  q.jurisdiction: أين مقرّك؟
+  opt.artifact_type.library: مكتبة أو SDK
+  opt.artifact_type.application: تطبيق أو أداة
+  opt.artifact_type.saas: واجهة خلفية لخدمة (SaaS)
+  opt.artifact_type.model: أوزان نموذج
+  opt.artifact_type.dataset: مجموعة بيانات
+  opt.artifact_type.docs: توثيق أو محتوى
+  opt.openness_level.open: مفتوح بالكامل — يمكن لأي شخص فعل أي شيء
+  opt.openness_level.reciprocal: مفتوح، لكن يجب أن تعود التحسينات إلى المشروع
+  opt.openness_level.source-available: المصدر مرئي، والاستخدام التجاري محدود
+  opt.avoid.cloud-hosting: بيع مزوّدي السحابة له كخدمة
+  opt.avoid.closed-fork: تفرعات مغلقة المصدر
+  opt.avoid.patent-litigation: دعاوى براءات الاختراع
+  opt.avoid.trademark-abuse: إساءة استخدام اسمي أو علامتي التجارية
+  opt.avoid.harmful-use: الاستخدامات الضارة
+  opt.avoid.big-company: استخدام الشركات الكبرى له مجانًا
+  opt.adoption_goal.enterprise: أقصى تبنٍّ من الشركات
+  opt.adoption_goal.community: مساهمات المجتمع
+  opt.adoption_goal.monetize: تحقيق الدخل منه
+  opt.commercial_plan.none: لا خطة
+  opt.commercial_plan.dual-license: ترخيص مزدوج
+  opt.commercial_plan.open-core: نواة مفتوحة (Open core)
+  opt.commercial_plan.hosted: خدمة مستضافة
+  opt.jurisdiction.cn: الصين
+  opt.jurisdiction.eu: الاتحاد الأوروبي
+  opt.jurisdiction.us: الولايات المتحدة
+  opt.jurisdiction.other: أخرى
+  engine.part.avoid: "الحماية من: {avoid}"
+  engine.part.openness: "ملاءمة الانفتاح: {openness}"
+  engine.part.adoption: "الهدف: {goal}"
+  engine.part.commercial: "خطة العمل: {plan}"
+  engine.part.jurisdiction: "الولاية القضائية: {jurisdiction}"
+  engine.part.dependency: "متوافقة بشروط فقط: {dependency}"
+  engine.excluded.dependency: غير متوافقة مع التبعية {dependency}
+  engine.excluded.artifact: غير مناسبة لهذا النوع من المُخرَجات
+  advisory.needs-cla: استخدم اتفاقية ترخيص المساهم (CLA). ستحتاج إليها لبيع رخص
+    تجارية أو لتغيير الرخصة لاحقًا.
+  advisory.consider-dco: عادةً ما تكفي شهادة منشأ المطوّر (DCO، «Signed-off-by»).
+  advisory.busl-change-date: حدّد Additional Use Grant وChange Date وChange License في ترويسة BSL.
+  advisory.model-card: ضع الرخصة في البيانات الوصفية لبطاقة النموذج أو مجموعة
+    البيانات (الحقل «license:»).
+  advisory.notice-file: أضف ملف NOTICE وأبقِ عليه عند إعادة التوزيع.
+  advisory.consult-lawyer: اطلب من محامٍ مراجعة التبعيات وشروط العمل قبل النشر.
+  advisory.network-source-link: اعرض رابط «الشيفرة المصدرية» لمستخدمي خدمتك الشبكية.
+  report.title: تقرير الرخصة الخاص بك
+  report.lead: يُحسب هذا التقرير في متصفحك انطلاقًا من الملف التعريفي الموجود في
+    الرابط. شارك الرابط لمشاركة التقرير.
+  report.profile: الملف التعريفي للمشروع
+  report.edit: التعديل في المعالج
+  report.top: الموصى بها
+  report.score: النقاط {score}
+  report.why: السبب
+  report.excluded: المستبعدة
+  report.advisories: الخطوات التالية
+  report.license-file: ملف LICENSE
+  report.header: ترويسة الملف
+  report.badge: شارة README
+  report.share: مشاركة الرابط
+  report.share.copy: نسخ الرابط
+  report.similar: مشاريع مشابهة
+  report.no-text: لا يوجد نص قابل للقراءة آليًا. احصل عليه من الصفحة الرسمية.
+  report.invalid: رابط التقرير هذا معطوب أو يعود إلى إصدار قديم.
+  report.empty: لا يوجد ملف تعريفي بعد. ابدأ بالمعالج أو بالمستشار الذكي.
+  chat.title: مستشار الرخص بالذكاء الاصطناعي
+  chat.lead: صِف مشروعك. يطرح المستشار أسئلة متابعة، ويختار محرك القواعد الرخص، ثم
+    يشرحها المستشار.
+  chat.placeholder: "مثال: بنيت قاعدة بيانات متجهية وأخشى أن يعيد مزوّدو السحابة بيعها."
+  chat.send: إرسال
+  chat.stop: إيقاف
+  chat.examples: جرّب مثالًا
+  chat.example.1: بنيت قاعدة بيانات متجهية وأخشى أن يعيد مزوّدو السحابة بيعها.
+  chat.example.2: مكتبة مكوّنات React صغيرة. أريد أن تستخدمها الشركات.
+  chat.example.3: ضبطنا نموذجًا بحجم 7B ونريد منع الاستخدامات الضارة.
+  chat.profile: الملف التعريفي للمشروع
+  chat.profile.hint: انقر على قيمة لتغييرها.
+  chat.candidates: المرشّحات
+  chat.run: الحصول على توصية
+  chat.limit: لقد بلغت حدّ اليوم. يُرجى المحاولة غدًا أو استخدام المعالج.
+  chat.error: المستشار غير متاح حاليًا. لا يزال المعالج يعمل.
+  chat.verify: يُرجى تأكيد أنك إنسان.
+  chat.disclaimer: قد يخطئ المستشار. التوصيات صادرة عن محرك القواعد، وهذه ليست استشارة قانونية.
+  chat.report: فتح التقرير الكامل
+  projects.title: خريطة رخص المشاريع
+  projects.lead: رخص مشاريع المصدر المفتوح المعروفة والقصة وراء كل تغيير.
+  projects.filter.domain: المجال
+  projects.filter.family: عائلة الرخصة
+  projects.filter.owner: المالك
+  projects.filter.changed: غيّر رخصته
+  projects.count: "{count} مشروعًا"
+  projects.empty: لا يوجد مشروع يطابق عوامل التصفية هذه.
+  owner.company: شركة
+  owner.foundation: مؤسسة
+  owner.individual: فرد
+  owner.community: مجتمع
+  project.current: الرخصة الحالية
+  project.timeline: الخط الزمني للرخصة
+  project.reason: السبب
+  project.announcement: الإعلان
+  project.forks: التفرعات التي تلت ذلك
+  project.fork-of: تفرّع من {name}
+  project.repo: المستودع
+  project.similar: مشاريع مشابهة
+  project.review: عثر روبوت المزامنة على هذا الإدخال، وهو بانتظار مراجعة بشرية.
+  project.initial: الرخصة الأولى
+  domain.database: قواعد البيانات
+  domain.frontend: أطر الواجهة الأمامية
+  domain.devops: DevOps
+  domain.ai-model: نماذج الذكاء الاصطناعي
+  domain.language: اللغات وبيئات التشغيل
+  domain.os: أنظمة التشغيل
+  domain.web: خوادم الويب والواجهات الخلفية
+  domain.tooling: أدوات المطورين
+  domain.data: البيانات والتحليلات
+  domain.observability: المراقبة وقابلية الرصد
+  domain.messaging: المراسلة والبث
+  domain.cms: أنظمة إدارة المحتوى والتطبيقات
+  trends.title: اتجاهات رخص المصدر المفتوح
+  trends.lead: مجمّعة من خريطة المشاريع وقت البناء.
+  trends.family-share: عائلات الرخص حسب المجال
+  trends.changes: تغييرات الرخص حسب السنة
+  trends.to-source-available: مشاريع انتقلت من المصدر المفتوح إلى المصدر المتاح
+  search.lead: ابحث في الرخص والسيناريوهات والمشاريع بهذه اللغة.
+  search.noscript: يتطلب البحث تفعيل JavaScript.
+  check.title: فحص توافق رخص التبعيات
+  check.lead: الصق ملف package.json أو go.mod أو Gemfile.lock أو Cargo.toml أو
+    requirements.txt. يجري التحليل في متصفحك.
+  check.project-license: رخصة مشروعك
+  check.input: ملف البيان (Manifest)
+  check.run: فحص
+  check.lookup: البحث عن الرخص غير المعروفة عبر الإنترنت (deps.dev)
+  check.col.package: الحزمة
+  check.col.license: الرخصة
+  check.col.status: الحالة
+  check.status.compatible: متوافقة
+  check.status.conditional: بشروط
+  check.status.incompatible: تعارض
+  check.status.unknown: غير معروفة
+  check.summary: "{ok} متوافقة، {warn} بشروط، {bad} متعارضة، {unknown} غير معروفة"
+  check.format: "الصيغة المكتشفة: {format}"
+  check.no-deps: لم يُعثر على أي تبعيات.
+  check.license-hint: أضف الرخصة في ملف البيان على شكل أسطر «name@version
+    LICENSE-ID»، أو فعّل البحث عبر الإنترنت.
+  notfound.title: الصفحة غير موجودة
+  notfound.body: هذه الصفحة غير موجودة. جرّب مكتبة الرخص.
+  domain.education: التعليم
+  domain.design: الخطوط والتصميم

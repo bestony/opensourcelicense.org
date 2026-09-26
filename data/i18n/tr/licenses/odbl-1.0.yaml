@@ -1,0 +1,15 @@
+reviewed: false
+sourceHash: 6a4054dc9cca8e7e
+summary: "Veritabanları için aynı lisansla paylaşım: veriyi ticari olarak
+  kullanabilirsiniz, ancak kamuya açık türev veritabanları ODbL altında
+  kalmalıdır. Harita veya görüntü gibi üretilmiş çalışmalar yalnızca atıf
+  gerektirir."
+analogy: Ortak haritanın üzerine inşa edin; geliştirilmiş bir harita veritabanı
+  yayımlarsanız onu aynı koşullarla geri paylaşın.
+pros:
+  - Geliştirilmiş veritabanlarını açık tutar
+  - Ticari kullanıma izin verilir
+  - OpenStreetMap ile kanıtlanmış
+cons:
+  - Aynı lisansla paylaşım başka verilerle karıştırmayı engelleyebilir
+  - “Türev veritabanı” bazen belirsizdir

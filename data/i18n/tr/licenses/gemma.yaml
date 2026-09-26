@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: c826929f8a1baf2e
+summary: "Google'ın model koşulları: ticari kullanıma izin verilir; yasak
+  kullanım politikası damıtılmış modeller dahil her türeve geçer."
+analogy: Yeniden yapılan her motorun taşıması gereken bir kural kitabıyla
+  birlikte ücretsiz bir motor.
+pros:
+  - Kullanıcı eşiği olmadan ticari kullanım
+  - Net türev kuralları
+cons:
+  - OSI tanımına göre açık kaynak değil
+  - Google kullanım politikasını güncelleyebilir

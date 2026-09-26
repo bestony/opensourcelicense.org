@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 7613875d13341275
+summary: Araştırma, ticari olmayan kullanım ve yıllık geliri 1 milyon USD'nin
+  altındaki ticari kullanım için ücretsiz; daha büyük şirketler kurumsal lisans
+  gerektirir.
+analogy: Küçük işletmelere giriş ücretsiz; büyükler bilet alır.
+pros:
+  - Bireyler ve küçük şirketler için ücretsiz
+  - Güncel Stability modellerini kapsar
+cons:
+  - Açık kaynak değil
+  - Gelir eşiğinin izlenmesi gerekir

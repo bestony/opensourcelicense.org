@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 41352f96fddd8017
+summary: Patent izni ve New York hukukunun uygulandığı modül düzeyinde copyleft;
+  GPL ile uyumsuzdur.
+analogy: Eclipse'in bölüm paylaşma kuralının ilk baskısı.
+pros:
+  - Patent izni
+  - Clojure ve JUnit 4 tarafından kullanılır
+cons:
+  - GPL ile uyumsuz
+  - Yerini EPL-2.0 aldı

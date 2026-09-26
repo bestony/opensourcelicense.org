@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 86907368675893f1
+summary: "Modeller için bir Sorumlu Yapay Zekâ Lisansı: serbest koşullar artı
+  her türevin aktarması gereken kullanıma dayalı kısıtlamalar."
+analogy: Her kopyayla birlikte dolaşan yasak kullanımlar listesine sahip
+  ücretsiz bir araç.
+pros:
+  - Ticari kullanıma izin verir
+  - Zararlı kullanım kısıtlamalarını sonraki kullanıcılara taşır
+cons:
+  - OSI tanımına göre açık kaynak değil
+  - Kısıtlamaları uygulatmak zor
+  - Birkaç varyantı var

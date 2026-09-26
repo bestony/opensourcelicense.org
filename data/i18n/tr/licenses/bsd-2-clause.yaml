@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 261d8b56fb436858
+summary: "MIT gibi: kodu serbestçe kullanın; telif hakkı bildirimini ve
+  sorumluluk reddini kaynak ve ikili kopyalarda koruyun."
+analogy: "Ücretsiz bir tarif kartı: istediğiniz yere kopyalayın, yalnızca
+  alttaki yazar satırını koruyun."
+pros:
+  - Çok kısa ve serbest
+  - BSD sistemlerinde yaygın
+cons:
+  - Patent izni yok
+  - Kapalı çatallara izin verilir

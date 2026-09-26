@@ -1,0 +1,9 @@
+reviewed: false
+sourceHash: 883d4cd50ee79a28
+actor: other
+title: Bir bulut sağlayıcısı projenizi yönetilen hizmet olarak satıyor
+cells:
+  gpl-3.0: Dağıtım sayılmaz
+  agpl-3.0: Değişiklikler yayımlanmalı
+  sspl-1.0: Tüm hizmet yığını yayımlanmalı
+  busl-1.1: Additional Use Grant izin vermedikçe

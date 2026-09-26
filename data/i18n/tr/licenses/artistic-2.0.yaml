@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cb1197749de0ea7e
+summary: Serbestçe değiştirmenize ve dağıtmanıza izin verir, ancak değiştirilmiş
+  sürüm açıkça işaretlenmeli veya yeniden adlandırılmalı ya da kaynağı
+  erişilebilir kılınmalıdır. Patent hükümleri içerir.
+analogy: Şarkıyı remiksleyin, ama remiksinizi orijinal diye satmayın.
+pros:
+  - Orijinalin kimliğini korur
+  - GPL ile uyumlu
+cons:
+  - Koşullar uzun ve dolambaçlı
+  - Raku ve Perl dışında nadir

@@ -1,0 +1,8 @@
+reviewed: false
+sourceHash: d30cdd2632a3c255
+actor: other
+title: Kapalı kaynak bir uygulamaya veya bellenime bağlanıp dağıtılıyor
+cells:
+  mpl-2.0: Dosya düzeyinde
+  lgpl-3.0: Yeniden bağlamaya izin verilmeli
+  busl-1.1: Additional Use Grant'e bağlı

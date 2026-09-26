@@ -1,0 +1,8 @@
+reviewed: false
+sourceHash: d30cdd2632a3c255
+actor: other
+title: מקושר ליישום או לקושחה בקוד סגור ומופץ
+cells:
+  mpl-2.0: ברמת הקובץ
+  lgpl-3.0: חובה לאפשר קישור מחדש
+  busl-1.1: תלוי ב-Additional Use Grant

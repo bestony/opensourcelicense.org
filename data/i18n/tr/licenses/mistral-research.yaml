@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 92115efde43878b6
+summary: Yalnızca araştırma ve kişisel kullanım için ağırlıklar; her türlü
+  ticari veya üretim kullanımı Mistral AI'dan ticari lisans gerektirir.
+analogy: "Bir kütüphane kitabı: okuyun ve inceleyin, yeniden satmayın."
+pros:
+  - Araştırma için açık ağırlıklar
+  - Araştırma amaçlı değişikliğe izin verir
+cons:
+  - Ticari kullanım yok
+  - Açık kaynak değil

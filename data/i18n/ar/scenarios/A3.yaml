@@ -1,0 +1,9 @@
+reviewed: false
+sourceHash: b16411183c557a4e
+actor: other
+title: مُدمج في واجهة خلفية SaaS مغلقة المصدر (دون توزيع)
+cells:
+  agpl-3.0: يجب النشر إذا عُدّل
+  sspl-1.0: إذا قُدّمت وظائفه كخدمة
+  busl-1.1: يعتمد على Additional Use Grant
+  elv2: ما دام المنتج نفسه لا يُستضاف

@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 1b47253adc7fb00d
+summary: "Kaynağı erişilebilir: kullanmak ve değiştirmek ücretsizdir, ancak
+  yönetilen hizmet olarak sunamaz veya lisans anahtarlarını atlatamazsınız."
+analogy: Onunla evde ya da restoranınızda pişirin, ama tam olarak bu yemeği
+  satan bir dükkân açmayın.
+pros:
+  - Kısa ve açık
+  - Yalnızca yönetilen hizmet rakiplerini hedefler
+cons:
+  - Açık kaynak değil
+  - Çatalları ve bazı ortakları sınırlar

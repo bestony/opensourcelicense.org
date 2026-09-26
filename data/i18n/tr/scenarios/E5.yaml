@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: f0c9cce615351c87
+actor: other
+title: Bir veri kümesi ticari olarak kullanılıyor ve yeniden dağıtılıyor
+cells:
+  llama: Uygulanamaz
+  openrail-m: Uygulanamaz
+  cc-by-4.0: Atıf
+  odc-by-1.0: Atıf
+  odbl-1.0: Türev veritabanları ODbL kalır

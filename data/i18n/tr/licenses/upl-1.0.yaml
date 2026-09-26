@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: ddb7b2f148c13edb
+summary: Oracle'ın GraalVM ve diğer projelerde kullandığı, açık patent izni
+  içeren kısa bir serbest lisans.
+analogy: MIT'deki ücretsiz kitap, patentlerle ilgili ek bir sözle.
+pros:
+  - Kısa ve serbest
+  - Açık patent izni
+cons:
+  - Patent misillemesi maddesi yok
+  - MIT veya Apache'den daha az bilinir

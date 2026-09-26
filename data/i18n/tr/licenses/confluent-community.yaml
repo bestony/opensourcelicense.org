@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 99f045fe47a729cc
+summary: "Kaynağı erişilebilir: Confluent ile rekabet eden bir SaaS ürünü sunmak
+  dışında serbestçe kullanın, değiştirin ve dağıtın."
+analogy: Tarifi, yazarınkiyle rekabet eden restoran dışında her restoranda kullanın.
+pros:
+  - Dar bir kısıtlama
+  - Çoğu kullanıcı etkilenmez
+cons:
+  - Açık kaynak değil
+  - Bulut rakiplerini yalnızca tanım yoluyla dışlar

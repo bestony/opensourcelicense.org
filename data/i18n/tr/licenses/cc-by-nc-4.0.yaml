@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 0196a50e1d1c6b89
+summary: "İçerik ve veri için: atıf zorunludur ve ticari kullanıma izin verilmez."
+analogy: Fotoğrafı serbestçe paylaşın, ama reklamlarda veya sattığınız ürünlerde değil.
+pros:
+  - Ticari yeniden kullanımı engeller
+  - Resmî çeviriler mevcut
+cons:
+  - OSI'ye veya Open Definition'a göre açık değil
+  - “Ticari olmayan” çoğu zaman belirsizdir
+  - Birçok meşru kullanımı engeller

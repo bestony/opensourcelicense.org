@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 22649412ed3dbb5f
+summary: "Kütüphane copyleft'i: kütüphanedeki değişiklikler açık kalır;
+  kullanıcılar değiştirilmiş bir kütüphaneyle yeniden bağlayabiliyorsa kapalı
+  programlar ona bağlanabilir."
+analogy: Değiştirilebilir ortak motorun eski baskısı.
+pros:
+  - Tescilli uygulamaların kütüphaneyi kullanmasına izin verir
+  - Masaüstü ve multimedya kütüphanelerinde yaygın
+cons:
+  - Yeniden bağlama kuralları karmaşık
+  - Açık patent izni yok

@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 7d5b7fb367f9a074
+summary: Yalnızca ticari olmayan kullanım için model ağırlıkları; ağırlıkların
+  ticari kullanımı Black Forest Labs'ten ayrı bir lisans gerektirir.
+analogy: Kamerayı kendi projeleriniz için ödünç alın, ücretli çekimler için değil.
+pros:
+  - Araştırma ve hobi kullanımı için açık ağırlıklar
+  - Net bir ticari yol
+cons:
+  - Açık kaynak değil
+  - Ticari kullanım ücretli bir lisans gerektirir

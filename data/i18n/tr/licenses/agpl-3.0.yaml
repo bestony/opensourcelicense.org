@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 1db86c42c600a813
+summary: "GPL-3.0 artı bir ağ maddesi: değiştirilmiş bir sürümle ağ üzerinden
+  etkileşen kullanıcılara onun kaynak kodu sunulmalıdır."
+analogy: "Tarif kuralı restoranlar için de geçerlidir: yemeği servis etmek de
+  onu dağıtmak sayılır."
+pros:
+  - SaaS boşluğunu kapatır
+  - Çift lisanslama için iyi bir temel
+  - OSI onaylı açık kaynak
+cons:
+  - Birçok şirket onu doğrudan yasaklar
+  - Değiştirilmemiş sürümü barındırmak yine serbesttir

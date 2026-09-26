@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 50ad39245dfcc7f1
+summary: "Redis'in kaynağı erişilebilir lisansı: kullanmak ve değiştirmek
+  ücretsizdir, ancak yazılımı yönetilen hizmet olarak sunmak veya lisans
+  anahtarlarını atlatmak yasaktır."
+analogy: Onunla her yerde pişirin, ama bu yemeği satan bir dükkân açmayın.
+pros:
+  - Yalnızca yönetilen hizmet rakiplerini hedefler
+  - Kısa
+cons:
+  - Açık kaynak değil
+  - Valkey çatalını tetikledi

@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: e8b5efadb2a71225
+summary: רישיון מתירני קצר הדומה ל-MIT ול-BSD, שבו משתמשים PostgreSQL והמערכת
+  האקולוגית שלו.
+analogy: הגרסה של קהילת PostgreSQL לספר החינמי.
+pros:
+  - קצר ומתירני
+  - מוכר במערכת האקולוגית של PostgreSQL
+cons:
+  - אין הענקת פטנט
+  - פיצולים סגורים מותרים

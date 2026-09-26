@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 41352f96fddd8017
+summary: Copyleft ברמת המודול עם הענקת פטנט ודין מדינת ניו יורק; אינו תואם ל-GPL.
+analogy: המהדורה הראשונה של כלל שיתוף הפרקים של Eclipse.
+pros:
+  - הענקת פטנט
+  - בשימוש ב-Clojure וב-JUnit 4
+cons:
+  - אינו תואם ל-GPL
+  - הוחלף על ידי EPL-2.0

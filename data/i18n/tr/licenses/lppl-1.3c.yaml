@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: f6ef6656ac79990f
+summary: "LaTeX paketleri için özgür lisans: belgelerin her yerde aynı biçimde
+  çalışması için değiştirilen dosyalar yeniden adlandırılmalı veya açıkça
+  işaretlenmelidir."
+analogy: Yazı tipini değiştirebilirsiniz, ama sürümünüze yeni bir ad verin.
+pros:
+  - Belgeleri yeniden üretilebilir tutar
+  - CTAN genelinde standart
+cons:
+  - Yeniden adlandırma kuralı alışılmadık
+  - GPL ile uyumlu değil

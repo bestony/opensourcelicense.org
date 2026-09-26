@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 6d33e2e6b797d27f
+summary: "Dosya düzeyinde copyleft: MPL lisanslı dosyalardaki değişiklikler açık
+  kalmalıdır, ancak bu dosyalar başka dosyalardaki kapalı kodla
+  birleştirilebilir."
+analogy: Bir bölüm ödünç alırsanız o bölümdeki düzenlemelerinizi
+  paylaşmalısınız, ama kitabınızın geri kalanı sizindir.
+pros:
+  - Serbest lisanslarla copyleft arasında dengeli
+  - Açık patent izni
+  - Varsayılan olarak GPL ile uyumlu
+cons:
+  - Dosya sınırları belirsiz olabilir
+  - Ağ üzerinden kullanımı kapsamaz

@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 626a2a9d93ec9cef
+summary: "OpenRAIL tarzı bir model lisansı: ticari kullanıma izin verilir;
+  kullanıma dayalı kısıtlamalar türevlere de geçer."
+analogy: Her kopyasına yasak kullanımlar listesi iliştirilmiş ücretsiz bir araç.
+pros:
+  - Ticari kullanıma izin verilir
+  - Kullanım kısıtlamaları sonraki kullanıcılara aktarılır
+cons:
+  - OSI tanımına göre açık kaynak değil
+  - Yeni DeepSeek modelleri MIT'ye geçti

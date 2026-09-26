@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 637c87bc846f9159
+summary: Açık bir patent izni, patent misillemesi ve değiştirilen dosyaları
+  işaretleme şartı içeren serbest lisans.
+analogy: Ücretsiz bir alet çantası; yanında, siz önce dava açmadıkça patentleri
+  yüzünden size dava açılmayacağı sözüyle birlikte.
+pros:
+  - Her katkıcıdan açık patent izni
+  - Birçok şirket ve vakıf tarafından tercih edilir
+  - Markaları korur
+cons:
+  - Daha uzun; NOTICE dosyası yönetimi gerekir
+  - GPL-2.0-only ile uyumlu değil
+  - Barındırılan rakipleri engellemez

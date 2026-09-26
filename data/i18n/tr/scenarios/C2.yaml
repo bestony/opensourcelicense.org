@@ -1,0 +1,8 @@
+reviewed: false
+sourceHash: 3a5f4b9bf27dddea
+actor: other
+title: Kodunuz bir GPL-3.0 projesine dahil ediliyor
+cells:
+  apache-2.0: Ancak GPL-2.0 ile uyumlu değil
+  mpl-2.0: Uyumsuz olarak işaretlenmedikçe
+  agpl-3.0: AGPL kısmı AGPL kalır

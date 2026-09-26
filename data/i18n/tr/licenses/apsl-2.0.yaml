@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 3440c6c6f7e1c94d
+summary: "Apple'ın dosya düzeyinde copyleft lisansı: değiştirilen kapsamdaki
+  dosyalar, harici olarak hizmet şeklinde sunulduğunda da yayımlanmalıdır. GPL
+  ile uyumsuzdur."
+analogy: Ödünç aldığınız dosyadaki değişiklikleri, yalnızca sonucu servis
+  etseniz bile paylaşın.
+pros:
+  - Harici kullanıma sunmayı kapsar
+  - Patent izni
+cons:
+  - GPL ile uyumsuz
+  - Çoğunlukla Apple'ın açık kaynak projeleriyle sınırlı

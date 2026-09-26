@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 4f54478806088c0d
+summary: "הרישוי הכפול של Perl: המקבלים בוחרים בין Artistic License 1.0 לבין GPL
+  (גרסה 1 ואילך)."
+analogy: בחרו את ספר החוקים שמתאים לכם מבין השניים.
+pros:
+  - בחירה בין תנאים מתירניים למחצה לבין copyleft
+  - סטנדרט למודולי CPAN
+cons:
+  - Artistic 1.0 מעורפל
+  - אין הענקת פטנט

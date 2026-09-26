@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 4f30616160bfe68b
+actor: you
+title: Sonradan lisansı değiştiriyor veya ticari lisans satıyorsunuz (katkıcılar
+  CLA imzalamadı)
+cells:
+  mit: Yeni sürümler değişebilir; eskiler aynı kalır
+  bsd-3-clause: MIT ile aynı
+  apache-2.0: MIT ile aynı
+  mpl-2.0: MPL dosyaları MPL kalmalı
+  lgpl-3.0: Tüm katkıcıların onayı gerekir
+  mulanpsl-2.0: MIT ile aynı
+  busl-1.1: Genellikle bir CLA'ya dayanır
+  elv2: Genellikle bir CLA'ya dayanır

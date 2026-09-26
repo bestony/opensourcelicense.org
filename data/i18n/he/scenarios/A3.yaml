@@ -1,0 +1,9 @@
+reviewed: false
+sourceHash: b16411183c557a4e
+actor: other
+title: משולב בצד שרת של SaaS בקוד סגור (ללא הפצה)
+cells:
+  agpl-3.0: חובה לפרסם אם שונה
+  sspl-1.0: אם הפונקציונליות שלו מוצעת כשירות
+  busl-1.1: תלוי ב-Additional Use Grant
+  elv2: כל עוד המוצר עצמו אינו מאוחסן כשירות

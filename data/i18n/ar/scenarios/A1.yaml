@@ -1,0 +1,9 @@
+reviewed: false
+sourceHash: 883d4cd50ee79a28
+actor: other
+title: مزوّد سحابي يبيع مشروعك كخدمة مُدارة
+cells:
+  gpl-3.0: لا يُعدّ توزيعًا
+  agpl-3.0: يجب نشر التعديلات
+  sspl-1.0: يجب نشر حزمة الخدمة كاملة
+  busl-1.1: ما لم يسمح بذلك Additional Use Grant

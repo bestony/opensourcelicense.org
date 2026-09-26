@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 41352f96fddd8017
+summary: ⴽⵓⴱⵉⵍⵉⴼⵜ ⴳ ⵓⵙⵡⵉⵔ ⵏ ⵜⴼⵍⵡⵉⵜ ⵙ ⵓⴼⴽⴰ ⵏ ⵉⵣⵔⴼⴰⵏ ⵏ ⵓⵙⵏⵓⵍⴼⵓ ⴷ ⵓⵣⵔⴼ ⵏ New York;
+  ⵓⵔ ⵜⵎⵙⴰⵙⴰ ⴷ GPL.
+analogy: ⴰⵙⵓⴼⵖ ⴰⵎⵣⵡⴰⵔⵓ ⵏ ⵜⵏⴱⴹⴰⵜ ⵏ Eclipse ⵏ ⵓⴱⴹⴰ ⵏ ⵉⵃⵉⴷⵓⵔⵏ.
+pros:
+  - ⴰⴼⴽⴰ ⵏ ⵉⵣⵔⴼⴰⵏ ⵏ ⵓⵙⵏⵓⵍⴼⵓ
+  - ⵙⵎⵔⴰⵙⵏ ⵜⵜ Clojure ⴷ JUnit 4
+cons:
+  - ⵓⵔ ⵜⵎⵙⴰⵙⴰ ⴷ GPL
+  - ⵜⵓⵖⴰⵍ ⴷⴰⵔⵙ EPL-2.0 ⴳ ⵓⴷⵖⴰⵔ ⵏⵏⵙ

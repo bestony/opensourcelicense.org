@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cf07449a9c3b7eaf
+actor: other
+title: İnce ayar yapılıp yeniden adlandırılıyor ve kapalı ağırlıklar olarak
+  yayımlanıyor
+cells:
+  llama: Lisans eklenmeli ve “Built with Llama” gösterilmeli
+  openrail-m: Kullanım kısıtlamaları aktarılmalı
+  cc-by-4.0: Atıf
+  cc-by-nc-4.0: Yalnızca ticari olmayan
+  odc-by-1.0: Atıf
+  odbl-1.0: Türev veritabanları ODbL kalır

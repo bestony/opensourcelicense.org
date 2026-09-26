@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 3ab9492f75e7adb0
+summary: "Güçlü copyleft: yazılımı veya türev çalışmaları dağıtırsanız, eksiksiz
+  kaynak kodunu GPL-3.0 ile yayımlamalısınız."
+analogy: "Şunu söyleyen bir tarif: buna dayalı bir yemek servis eden, tarifin
+  tamamını da vermek zorundadır."
+pros:
+  - Dağıtılan tüm türevleri açık tutar
+  - Patent izni ve tivoizasyon karşıtlığı
+  - Güçlü topluluk geleneği
+cons:
+  - Birçok şirket ondan kaçınır
+  - SaaS'ı kapsamaz (dağıtım yok)
+  - GPL-2.0-only ile uyumsuz

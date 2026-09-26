@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 72d99432db49e19d
+summary: ICU ve CLDR gibi Unicode verileri ve yazılımları için serbest lisans;
+  bildirimi koruyun ve telif hakkı sahibinin adını tanıtım için kullanmayın.
+analogy: "Ücretsiz bir başvuru kitabı: kopyalayın, künye satırını koruyun."
+pros:
+  - Serbest
+  - Veri dosyalarını ve kodu kapsar
+cons:
+  - Patent izni yok
+  - Çoğunlukla Unicode projelerinde kullanılır

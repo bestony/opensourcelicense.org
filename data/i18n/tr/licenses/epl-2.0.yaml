@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 5941dce0a6108d60
+summary: Patent izinli, modül düzeyinde zayıf copyleft; uyumluluk için GPL'yi
+  ikincil lisans olarak belirtebilir.
+analogy: Ödünç aldığınız bölümdeki değişiklikleri paylaşın; kitabın geri kalanı
+  sizindir.
+pros:
+  - İş dostu copyleft
+  - Patent izni
+cons:
+  - GPL uyumu yalnızca beyan edilmiş bir ikincil lisansla
+  - Modül sınırları belirsiz olabilir

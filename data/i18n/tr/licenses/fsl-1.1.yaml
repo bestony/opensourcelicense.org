@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 3720e103ed28cbd1
+summary: "Kaynağı erişilebilir: rakip bir ürün dışında her türlü kullanım; her
+  sürüm iki yıl sonra Apache-2.0 olur."
+analogy: Ürünleri iki yıl sonra herkes için ücretsiz olan bir vitrin.
+pros:
+  - Kısa ve öngörülebilir
+  - Kod iki yıl sonra açık kaynak olur
+cons:
+  - Açık kaynak değil
+  - “Rakip kullanım”ı değerlendirmek zor olabilir

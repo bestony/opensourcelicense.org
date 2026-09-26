@@ -1,0 +1,9 @@
+reviewed: false
+sourceHash: b16411183c557a4e
+actor: other
+title: Kapalı kaynak bir SaaS arka ucuna gömülü (dağıtılmıyor)
+cells:
+  agpl-3.0: Değiştirilmişse yayımlanmalı
+  sspl-1.0: İşlevselliği hizmet olarak sunuluyorsa
+  busl-1.1: Additional Use Grant'e bağlı
+  elv2: Ürünün kendisi barındırılmıyorsa

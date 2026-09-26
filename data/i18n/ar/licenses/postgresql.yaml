@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: e8b5efadb2a71225
+summary: رخصة متساهلة قصيرة مشابهة لـ MIT وBSD، يستخدمها PostgreSQL ومنظومته.
+analogy: نسخة مجتمع PostgreSQL الخاصة من الكتاب المجاني.
+pros:
+  - قصيرة ومتساهلة
+  - مألوفة لمنظومة PostgreSQL
+cons:
+  - لا منح لبراءة الاختراع
+  - التفرعات المغلقة مسموحة

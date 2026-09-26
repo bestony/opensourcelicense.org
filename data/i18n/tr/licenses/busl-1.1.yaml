@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: ce104e1cd96e85b1
+summary: "Kaynağı erişilebilir: üretim kullanımı Additional Use Grant ile
+  sınırlanır ve her sürüm Change Date'ten sonra (en fazla 4 yıl) açık bir
+  lisansa dönüşür."
+analogy: "Bir vitrin: bakabilir ve deneyebilirsiniz, birkaç yıl sonra ürün
+  herkes için ücretsiz olur."
+pros:
+  - Ticari kullanımı denetlemenizi sağlar
+  - Kod sonradan açık kaynak olur
+cons:
+  - Açık kaynak değil
+  - İzin koşulları projeden projeye değişir
+  - Çatallanmalara yol açabilir

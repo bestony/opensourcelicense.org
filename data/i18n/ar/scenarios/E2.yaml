@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: c77fe673047b3249
+actor: other
+title: التقطير، أو تدريب نماذج أخرى على مخرجاته
+cells:
+  llama: يجب أن يتضمن الاسم «Llama»
+  openrail-m: ترث الأعمال المشتقة القيود
+  cc-by-4.0: النسب
+  cc-by-nc-4.0: لغير الأغراض التجارية فقط
+  odc-by-1.0: النسب
+  odbl-1.0: النسب

@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: afd85677afc1c999
+actor: other
+title: מישהו מוכר עותקים שלא שונו
+cells:
+  mpl-2.0: חובה להציע את קוד המקור
+  lgpl-3.0: חובה להציע את קוד המקור
+  gpl-3.0: חובה להציע את קוד המקור
+  agpl-3.0: חובה להציע את קוד המקור
+  sspl-1.0: חובה להציע את קוד המקור
+  busl-1.1: תלוי ב-Additional Use Grant

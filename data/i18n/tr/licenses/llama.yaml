@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 4803251a37336702
+summary: "Özel bir model lisansı: Kabul Edilebilir Kullanım Politikası, atıf ve
+  adlandırma kurallarıyla ticari kullanıma izin verilir; aylık 700 milyonun
+  üzerinde aktif kullanıcıda ayrı lisans gerekir."
+analogy: Kural kitabıyla birlikte kullanımı ücretsiz bir motor ve en büyük
+  otomobil üreticileri için özel bir sözleşme.
+pros:
+  - Çoğu kullanıcı için ticari kullanıma izin verilir
+  - Geniş ekosistem
+cons:
+  - OSI tanımına göre açık kaynak değil
+  - Kullanım politikası ve adlandırma yükümlülükleri
+  - Koşullar sürümler arasında değişir

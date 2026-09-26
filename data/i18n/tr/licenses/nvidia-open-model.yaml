@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 38b4b3f3e07a3e99
+summary: "Ticari olarak kullanılabilir model lisansı: türevlere izin verilir,
+  NVIDIA çıktılar üzerinde hak iddia etmez, ancak yerleşik güvenlik korumaları
+  atlatılmamalıdır."
+analogy: Emniyet kemerlerini sökmemeniz gereken ücretsiz bir motor.
+pros:
+  - Ticari kullanıma izin verilir
+  - Çıktılar üzerinde hak iddiası yok
+cons:
+  - Açık kaynak değil
+  - Güvenlik koruması maddesi dikkat ister

@@ -1,0 +1,8 @@
+reviewed: false
+sourceHash: 3a5f4b9bf27dddea
+actor: other
+title: הקוד שלכם משולב בפרויקט GPL-3.0
+cells:
+  apache-2.0: אך אינו תואם ל-GPL-2.0
+  mpl-2.0: אלא אם סומן כלא תואם
+  agpl-3.0: החלק שתחת AGPL נשאר AGPL

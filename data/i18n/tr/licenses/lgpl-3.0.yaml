@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: cdef0d42cb1ab51e
+summary: "Kütüphane düzeyinde copyleft: kütüphanedeki değişiklikler açık kalır;
+  kullanıcılar kütüphaneyi değiştirebiliyorsa kapalı uygulamalar ona
+  bağlanabilir."
+analogy: "Ortak bir motor: arabanıza takabilirsiniz, ama sahipleri onu kendi
+  motorlarıyla değiştirebilmelidir."
+pros:
+  - Tescilli uygulamaların kütüphaneyi kullanmasına izin verir
+  - Kütüphanedeki değişiklikler açık kalır
+  - Patent izni
+cons:
+  - Yeniden bağlama kuralları karmaşık, özellikle statik bağlama ve mobilde
+  - Bazı şirketler hâlâ ondan kaçınır

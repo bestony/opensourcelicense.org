@@ -1,0 +1,362 @@
+reviewed: false
+sourceHash: a2d7eb045dde7649
+strings:
+  site.name: opensourcelicense.org
+  site.tagline: Açık kaynak lisansı seçimi için karar tezgâhı
+  site.description: Açık kaynak lisanslarını seçin, karşılaştırın ve sınayın.
+    Gerçek projelerin hangi lisansı kullandığını, neyin ters gidebileceğini ve
+    projenize neyin uyduğunu görün.
+  nav.home: Ana sayfa
+  nav.licenses: Lisanslar
+  nav.scenarios: Senaryolar
+  nav.projects: Projeler
+  nav.trends: Eğilimler
+  nav.compare: Karşılaştır
+  nav.wizard: Sihirbaz
+  nav.chat: Yapay zekâ danışmanı
+  nav.check: Bağımlılık kontrolü
+  nav.menu: Menü
+  lang.switch: Dil
+  lang.suggest: Bu sayfa {language} dilinde de mevcut.
+  lang.suggest.go: Geç
+  lang.suggest.dismiss: Kapat
+  footer.disclaimer: Bu site genel bilgi verir, hukuki danışmanlık değildir.
+    Gerçek bir uyuşmazlık veya sözleşme için bir avukata danışın.
+  footer.source: Kaynak kodu (AGPL-3.0)
+  footer.data: Veriler CC-BY-4.0 kapsamında
+  footer.report: Hata bildir
+  footer.cite: "Veriler: opensourcelicense.org, CC-BY-4.0"
+  footer.hosting: Cloudflare Workers ücretsiz planında çalışır
+  footer.dns: Alan adı Cloudflare üzerinde barındırılır
+  badge.machine: Makine çevirisi
+  badge.reviewed: Gözden geçirilmiş çeviri
+  badge.fallback: Henüz çevrilmedi — İngilizcesi gösteriliyor
+  badge.stale: güncel olmayabilir
+  badge.unreviewed-data: Taslak — henüz bir avukat tarafından incelenmedi
+  common.updated: Veriler {date} tarihinde güncellendi
+  common.back: Geri
+  common.copy: Kopyala
+  common.copied: Kopyalandı
+  common.download: İndir
+  common.close: Kapat
+  common.all: Tümü
+  common.yes: Evet
+  common.no: Hayır
+  common.unknown: Bilinmiyor
+  common.none: Yok
+  common.more: Daha fazla
+  common.loading: Yükleniyor…
+  common.error: Bir sorun oluştu.
+  common.search: Ara
+  home.title: Açık kaynak lisansını bilinçli seçin
+  home.lead: "Yalnızca “hangi lisans?” sorusu değil: benzer projeler neyi seçti,
+    en kötü senaryo neye benziyor ve sırada ne var."
+  home.entry.chat.title: Yapay zekâ danışmanıyla konuşun
+  home.entry.chat.body: Projenizi kendi sözcüklerinizle anlatın. Bir profil, ek
+    sorular ve bir rapor alın.
+  home.entry.projects.title: Başkalarının ne kullandığını görün
+  home.entry.projects.body: Tanınmış projelerin lisansları ve bazılarının neden lisans değiştirdiği.
+  home.entry.wizard.title: Adım adım filtreleyin
+  home.entry.wizard.body: Birkaç soruyu yanıtlayın, sıralanmış ve açıklamalı bir kısa liste alın.
+  home.wall: Popüler projelerin lisansları
+  home.changes: Son lisans değişiklikleri
+  home.scenarios: Neler ters gidebilir?
+  home.scenarios.body: 27 uç senaryo × 17 lisans sütunu, her hücre için ayrı bir sayfa.
+  family.permissive: Serbest (permissive)
+  family.weak-copyleft: Zayıf copyleft
+  family.strong-copyleft: Güçlü copyleft
+  family.network-copyleft: Ağ copyleft
+  family.source-available: Kaynağı erişilebilir
+  family.model: Model lisansı
+  family.content: İçerik / veri
+  verdict.allow: İzin verilir
+  verdict.conditional: Koşullu
+  verdict.deny: Lisans engeller
+  verdict.silent: Düzenlenmemiş
+  verdict.tbd: İnceleniyor
+  verdict.legend: "Açıklama: ✓ karşı taraf bunu yapabilir · ◐ koşullu · ✗ lisans
+    bunu engeller · — lisans sessiz (genel hukuk uygulanır)"
+  actor.other: Bunu başkası yapıyor
+  actor.you: Bunu siz yapmak istiyorsunuz
+  actor.contributor: Bunu bir katkıcı yapıyor
+  actor.both: Her iki taraf için geçerli
+  group.A: Ticari rekabet
+  group.B: Patentler ve hukuk
+  group.C: Evrim ve iş modeli
+  group.D: Kullanım ve uyum
+  group.E: Yapay zekâ modelleri ve veri
+  matrix.code: Kod lisansları
+  matrix.model: Model ve veri lisansları
+  term.commercial-use: Ticari kullanım
+  term.modification: Değiştirme
+  term.distribution: Dağıtım
+  term.private-use: Özel kullanım
+  term.patent-use: Patent izni
+  term.non-production-use: Üretim dışı kullanım
+  term.converts-to-open-source: Sonradan açık kaynağa dönüşür
+  term.include-copyright: Telif hakkı bildirimini koru
+  term.include-license: Lisansı ekle
+  term.document-changes: Değişiklikleri işaretle
+  term.disclose-source: Kaynağı açıkla
+  term.same-license: Türev çalışmalar için aynı lisans
+  term.same-license-file: Aynı lisans (dosya düzeyinde)
+  term.same-license-library: Aynı lisans (kütüphane düzeyinde)
+  term.allow-relinking: Yeniden bağlamaya izin ver
+  term.network-use-disclose: Ağ üzerinden kullanım dağıtım sayılır
+  term.service-stack-disclose: Tüm hizmet yığınını yayımla
+  term.keep-limitations: Kısıtlamaları koru
+  term.attribution: Atıf
+  term.attribution-built-with: “Built with” ibaresini göster
+  term.name-prefix: Ad öneki kuralı
+  term.acceptable-use-policy: Kabul edilebilir kullanım politikası
+  term.use-restrictions-pass-through: Kullanım kısıtlamalarını aktar
+  term.indicate-changes: Değişiklikleri belirt
+  term.liability: Sorumluluk yok
+  term.warranty: Garanti yok
+  term.trademark-use: Marka hakkı yok
+  term.no-endorsement: Onay/tavsiye izni yok
+  term.production-use-restricted: Üretim kullanımı kısıtlı
+  term.no-managed-service: Yönetilen hizmet yasak
+  term.no-license-key-circumvention: Lisans anahtarını atlatmak yasak
+  term.mau-threshold: Kullanıcı eşiği
+  term.use-restrictions: Kullanım kısıtlamaları
+  term.non-commercial: Yalnızca ticari olmayan
+  licenses.title: Açık kaynak lisansları listesi
+  licenses.lead: Serbest lisanslardan kaynağı erişilebilir ve model lisanslarına
+    kadar {count} lisans.
+  licenses.col.license: Lisans
+  licenses.col.family: Aile
+  licenses.col.osi: OSI
+  licenses.col.fsf: FSF özgür
+  licenses.col.projects: Projeler
+  licenses.filter: Aileye göre filtrele
+  license.permissions: İzinler
+  license.conditions: Koşullar
+  license.limitations: Sınırlamalar
+  license.summary: Kısaca
+  license.analogy: Benzetme
+  license.pros: Artıları
+  license.cons: Eksileri
+  license.scenarios: Uç senaryolar
+  license.radar: En kötü durum radarı
+  license.projects: Bu lisansı kullanan tanınmış projeler
+  license.projects.count: Haritamızdaki {count} tanınmış proje bu lisansı kullanıyor.
+  license.projects.none: Haritamızda bu lisansı kullanan henüz bir proje yok.
+  license.projects.since: "{date} tarihinde bu lisansa geçti"
+  license.projects.also: "Şu lisanslarla da sunuluyor: {licenses}"
+  license.projects.former: Bu lisanstan ayrılan projeler
+  license.text: Resmî metin
+  license.text.official: "{language} dilinde resmî metin"
+  license.text.note: Yalnızca resmî metin hukuken bağlayıcıdır. Lisans metinlerini çevirmiyoruz.
+  license.compare: Şununla karşılaştır…
+  license.spdx: SPDX tanımlayıcısı
+  radar.anti-freeride: Bedavacılığı önler
+  radar.anti-closed-fork: Kapalı çatallamayı önler
+  radar.patent: Patent koruması
+  radar.adoption-friction: Benimseme sürtünmesi
+  radar.relicense-difficulty: Lisans değiştirme zorluğu
+  radar.misuse-control: Kötüye kullanım denetimi
+  radar.derivative-control: Türev denetimi
+  radar.commercial-control: Ticari denetim
+  radar.note: Senaryo matrisinden hesaplanır. Yüksek değer o özelliğin daha fazla
+    olduğunu gösterir, “daha iyi” anlamına gelmez.
+  scenarios.title: Uç senaryo matrisi
+  scenarios.lead: Bir lisans seçtikten sonra ne olur? Her hücre tek bir soruyu
+    yanıtlar ve kendi sayfasına sahiptir.
+  scenarios.highlight: Bir lisansı vurgula
+  scenarios.expand: Tümünü genişlet
+  scenarios.collapse: Tümünü daralt
+  scenarios.silent-note: Yalnızca “—” içeren satırlar bilerek buradadır. Yanıt
+    lisansa değil; iş sözleşmelerine (C6), ihracat denetimi mevzuatına (D5) veya
+    süren davalara (D6) bağlıdır.
+  scenario.flow.you: "{license} ile yayımlıyorsunuz"
+  scenario.flow.they: Durum
+  scenario.flow.result: Sonuç
+  scenario.clause: İlgili madde
+  scenario.case: Gerçek örnek
+  scenario.others: Aynı senaryo, diğer lisanslar
+  scenario.other-scenarios: "{license} için diğer senaryolar"
+  scenario.no-clause: Özel bir madde yok. Genel hukuk uygulanır.
+  scenario.review: İnceleme durumu
+  scenario.review.none: Henüz bir avukat tarafından incelenmedi.
+  scenario.review.done: "{who} tarafından {date} tarihinde incelendi."
+  compare.title: Lisans karşılaştırma
+  compare.lead: Açık kaynak lisanslarını madde madde ve senaryo senaryo
+    karşılaştırmak için iki veya üç lisans seçin.
+  compare.pick: Lisans ekle
+  compare.remove: Kaldır
+  compare.terms: Koşullar
+  compare.scenarios: Senaryolar
+  compare.empty: En az iki lisans seçin.
+  wizard.title: Lisans seçme sihirbazı
+  wizard.lead: Birkaç soruyu yanıtlayın. Kural motoru lisansları sıralar ve her
+    puanı açıklar.
+  wizard.next: İleri
+  wizard.prev: Geri
+  wizard.finish: Sonucu gör
+  wizard.restart: Baştan başla
+  wizard.skip: Atla
+  wizard.step: Adım {n} / {total}
+  wizard.to-chat: Yapay zekâ danışmanıyla devam et
+  q.artifact_type: Ne yayımlıyorsunuz?
+  q.openness_level: Ne kadar açık olmasını istiyorsunuz?
+  q.avoid: Hangi sonuçlardan kaçınmak istiyorsunuz?
+  q.avoid.hint: İstediğiniz kadar seçin.
+  q.adoption_goal: En önemli olan ne?
+  q.dependencies: Copyleft koda bağımlı mısınız?
+  q.dependencies.hint: Bağımlılık lisanslarının SPDX kimliklerini ekleyin, örneğin GPL-3.0-only.
+  q.commercial_plan: Gelir elde edecekseniz, nasıl?
+  q.jurisdiction: Nerede bulunuyorsunuz?
+  opt.artifact_type.library: Bir kütüphane veya SDK
+  opt.artifact_type.application: Bir uygulama veya araç
+  opt.artifact_type.saas: Bir hizmet arka ucu (SaaS)
+  opt.artifact_type.model: Model ağırlıkları
+  opt.artifact_type.dataset: Bir veri kümesi
+  opt.artifact_type.docs: Belgeler veya içerik
+  opt.openness_level.open: Tamamen açık — herkes her şeyi yapabilir
+  opt.openness_level.reciprocal: Açık, ama iyileştirmeler geri paylaşılmalı
+  opt.openness_level.source-available: Kaynak görünür, ticari kullanım sınırlı
+  opt.avoid.cloud-hosting: Bulut sağlayıcılarının onu hizmet olarak satması
+  opt.avoid.closed-fork: Kapalı kaynak çatallar
+  opt.avoid.patent-litigation: Patent davaları
+  opt.avoid.trademark-abuse: Adımın veya markamın kötüye kullanılması
+  opt.avoid.harmful-use: Zararlı kullanımlar
+  opt.avoid.big-company: Büyük şirketlerin onu ücretsiz kullanması
+  opt.adoption_goal.enterprise: Şirketlerce azami benimsenme
+  opt.adoption_goal.community: Topluluk katkıları
+  opt.adoption_goal.monetize: Ondan para kazanmak
+  opt.commercial_plan.none: Plan yok
+  opt.commercial_plan.dual-license: Çift lisanslama
+  opt.commercial_plan.open-core: Açık çekirdek (open core)
+  opt.commercial_plan.hosted: Barındırılan hizmet
+  opt.jurisdiction.cn: Çin
+  opt.jurisdiction.eu: Avrupa Birliği
+  opt.jurisdiction.us: Amerika Birleşik Devletleri
+  opt.jurisdiction.other: Diğer
+  engine.part.avoid: "Şuna karşı koruma: {avoid}"
+  engine.part.openness: "Açıklık uyumu: {openness}"
+  engine.part.adoption: "Hedef: {goal}"
+  engine.part.commercial: "İş planı: {plan}"
+  engine.part.jurisdiction: "Yargı bölgesi: {jurisdiction}"
+  engine.part.dependency: "Yalnızca koşullu uyumlu: {dependency}"
+  engine.excluded.dependency: "{dependency} bağımlılığıyla uyumsuz"
+  engine.excluded.artifact: Bu tür bir çıktı için uygun değil
+  advisory.needs-cla: Bir Katkıcı Lisans Sözleşmesi (CLA) kullanın. Ticari lisans
+    satmak veya lisansı sonradan değiştirmek için buna ihtiyacınız olacak.
+  advisory.consider-dco: Genellikle bir Geliştirici Köken Sertifikası (DCO,
+    “Signed-off-by”) yeterlidir.
+  advisory.busl-change-date: BSL başlığında Additional Use Grant, Change Date ve
+    Change License alanlarını belirleyin.
+  advisory.model-card: Lisansı model veya veri kümesi kartının meta verilerine
+    (“license:” alanı) yazın.
+  advisory.notice-file: Bir NOTICE dosyası ekleyin ve yeniden dağıtırken onu koruyun.
+  advisory.consult-lawyer: Yayımlamadan önce bağımlılık ve iş koşullarını bir avukata kontrol ettirin.
+  advisory.network-source-link: Ağ hizmetinizin kullanıcılarına bir “Kaynak kodu” bağlantısı gösterin.
+  report.title: Lisans raporunuz
+  report.lead: Bu rapor, bağlantıdaki profilden tarayıcınızda hesaplanır. Raporu
+    paylaşmak için bağlantıyı paylaşın.
+  report.profile: Proje profili
+  report.edit: Sihirbazda düzenle
+  report.top: Önerilen
+  report.score: Puan {score}
+  report.why: Neden
+  report.excluded: Elenenler
+  report.advisories: Sonraki adımlar
+  report.license-file: LICENSE dosyası
+  report.header: Dosya başlığı
+  report.badge: README rozeti
+  report.share: Bağlantıyı paylaş
+  report.share.copy: Bağlantıyı kopyala
+  report.similar: Benzer projeler
+  report.no-text: Makinece okunabilir metin yok. Resmî sayfadan edinin.
+  report.invalid: Bu rapor bağlantısı bozuk ya da eski bir sürüme ait.
+  report.empty: Henüz profil yok. Sihirbazla veya yapay zekâ danışmanıyla başlayın.
+  chat.title: Yapay zekâ lisans danışmanı
+  chat.lead: Projenizi anlatın. Danışman ek sorular sorar, kural motoru lisansları
+    seçer ve danışman bunları açıklar.
+  chat.placeholder: "Örneğin: Bir vektör veritabanı geliştirdim ve bulut
+    sağlayıcılarının onu yeniden satmasından endişeliyim."
+  chat.send: Gönder
+  chat.stop: Durdur
+  chat.examples: Bir örnek deneyin
+  chat.example.1: Bir vektör veritabanı geliştirdim ve bulut sağlayıcılarının onu
+    yeniden satmasından endişeliyim.
+  chat.example.2: Küçük bir React bileşen kütüphanesi. Şirketlerin kullanmasını istiyorum.
+  chat.example.3: 7B'lik bir modele ince ayar yaptık ve zararlı kullanımları
+    engellemek istiyoruz.
+  chat.profile: Proje profili
+  chat.profile.hint: Değiştirmek için bir değere tıklayın.
+  chat.candidates: Adaylar
+  chat.run: Öneri al
+  chat.limit: Bugünkü sınıra ulaştınız. Lütfen yarın tekrar deneyin veya sihirbazı
+    kullanın.
+  chat.error: Danışman şu anda kullanılamıyor. Sihirbaz hâlâ çalışıyor.
+  chat.verify: Lütfen insan olduğunuzu doğrulayın.
+  chat.disclaimer: Danışman hata yapabilir. Öneriler kural motorundan gelir ve bu
+    hukuki danışmanlık değildir.
+  chat.report: Tam raporu aç
+  projects.title: Proje lisans haritası
+  projects.lead: Tanınmış açık kaynak projelerin lisansları ve her değişikliğin
+    arkasındaki hikâye.
+  projects.filter.domain: Alan
+  projects.filter.family: Lisans ailesi
+  projects.filter.owner: Sahip
+  projects.filter.changed: Lisans değiştirdi
+  projects.count: "{count} proje"
+  projects.empty: Bu filtrelere uyan proje yok.
+  owner.company: Şirket
+  owner.foundation: Vakıf
+  owner.individual: Bireysel
+  owner.community: Topluluk
+  project.current: Güncel lisans
+  project.timeline: Lisans zaman çizelgesi
+  project.reason: Neden
+  project.announcement: Duyuru
+  project.forks: Ardından gelen çatallar
+  project.fork-of: "{name} çatalı"
+  project.repo: Depo
+  project.similar: Benzer projeler
+  project.review: Bu kayıt eşitleme botu tarafından bulundu ve insan incelemesini bekliyor.
+  project.initial: İlk lisans
+  domain.database: Veritabanı
+  domain.frontend: Ön uç çatısı
+  domain.devops: DevOps
+  domain.ai-model: Yapay zekâ modeli
+  domain.language: Dil ve çalışma ortamı
+  domain.os: İşletim sistemi
+  domain.web: Web sunucusu ve arka uç
+  domain.tooling: Geliştirici araçları
+  domain.data: Veri ve analitik
+  domain.observability: Gözlemlenebilirlik
+  domain.messaging: Mesajlaşma ve akış
+  domain.cms: CMS ve uygulamalar
+  trends.title: Açık kaynak lisans eğilimleri
+  trends.lead: Derleme sırasında proje haritasından toplanır.
+  trends.family-share: Alana göre lisans aileleri
+  trends.changes: Yıllara göre lisans değişiklikleri
+  trends.to-source-available: Açık kaynaktan kaynağı erişilebilir lisansa geçen projeler
+  search.lead: Bu dilde lisansları, senaryoları ve projeleri arayın.
+  search.noscript: Arama için JavaScript gerekir.
+  check.title: Bağımlılık lisans uyumluluğu kontrolü
+  check.lead: Bir package.json, go.mod, Gemfile.lock, Cargo.toml veya
+    requirements.txt yapıştırın. Ayrıştırma tarayıcınızda yapılır.
+  check.project-license: Projenizin lisansı
+  check.input: Bildirim dosyası (manifest)
+  check.run: Kontrol et
+  check.lookup: Bilinmeyen lisansları çevrim içi ara (deps.dev)
+  check.col.package: Paket
+  check.col.license: Lisans
+  check.col.status: Durum
+  check.status.compatible: Uyumlu
+  check.status.conditional: Koşullu
+  check.status.incompatible: Çakışma
+  check.status.unknown: Bilinmiyor
+  check.summary: "{ok} uyumlu, {warn} koşullu, {bad} çakışma, {unknown} bilinmiyor"
+  check.format: "Algılanan biçim: {format}"
+  check.no-deps: Bağımlılık bulunamadı.
+  check.license-hint: Lisansı bildirim dosyasına “name@version LICENSE-ID”
+    satırları olarak ekleyin veya çevrim içi aramayı etkinleştirin.
+  notfound.title: Sayfa bulunamadı
+  notfound.body: Bu sayfa mevcut değil. Lisans listesine göz atın.
+  domain.education: Eğitim
+  domain.design: Yazı tipleri ve tasarım

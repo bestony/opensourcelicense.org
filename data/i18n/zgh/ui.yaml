@@ -1,0 +1,355 @@
+reviewed: false
+sourceHash: a2d7eb045dde7649
+strings:
+  site.name: opensourcelicense.org
+  site.tagline: ⵜⴰⵙⴷⴰⵡⵉⵜ ⵏ ⵓⵙⵜⵜⴰⵢ ⵏ ⵜⵓⵔⴰⴳⵉⵏ ⵏ ⵓⵖⴱⴰⵍⵓ ⵉⵕⵥⵎⵏ
+  site.description: ⴼⵔⵏ ⵜⵓⵔⴰⴳⵉⵏ ⵏ ⵓⵖⴱⴰⵍⵓ ⵉⵕⵥⵎⵏ, ⵙⵎⵣⴰⵣⴰⵍ ⴳⵔⴰⵙⵏⵜ ⵜⵔⵣⵎⴷ ⵜⵏⵜ ⴳ ⵜⵎⵙⴰⵍ
+    ⵉⵇⵇⵓⵔⵏ. ⵥⵕ ⵎⴰⵢⴷ ⵙⵎⵔⴰⵙⵏ ⵉⵙⵏⴼⴰⵔⵏ ⵉⵏⵏⵉⵍⵏ, ⵎⴰⵢⴷ ⵉⵣⵎⵔⵏ ⴰⴷ ⵉⵅⵙⵔ, ⴷ ⵎⴰⵢⴷ ⵉⵎⵙⴰⵙⴰⵏ ⴷ
+    ⵓⵙⵏⴼⴰⵔ ⵏⵏⴽ.
+  nav.home: ⴰⵙⵏⵓⴱⴳ
+  nav.licenses: ⵜⵓⵔⴰⴳⵉⵏ
+  nav.scenarios: ⵉⵙⵉⵏⴰⵔⵢⵓⵜⵏ
+  nav.projects: ⵉⵙⵏⴼⴰⵔⵏ
+  nav.trends: ⵜⵉⵏⵣⴰⵖ
+  nav.compare: ⴰⵙⵎⵣⴰⵣⴰⵍ
+  nav.wizard: ⴰⵏⵎⵎⴰⵍ
+  nav.chat: ⴰⵎⵓⵙⵙⵏⴰⵡ ⵏ ⵜⵉⴳⵣⵉ ⵜⴰⵎⵙⵓⵍⴰⵏⵜ
+  nav.check: ⴰⵙⵙⵉⴷⵏ ⵏ ⵉⵙⵙⵓⵖⴰ
+  nav.menu: ⵜⴰⵍⴳⴰⵎⵜ
+  lang.switch: ⵜⵓⵜⵍⴰⵢⵜ
+  lang.suggest: ⵜⴰⵙⵏⴰ ⴰⴷ ⵍⵍⵉⵏ ⴳ ⵜⵓⵜⵍⴰⵢⵜ {language}.
+  lang.suggest.go: ⵣⵔⵉ
+  lang.suggest.dismiss: ⴰⴳⵢ
+  footer.disclaimer: ⴰⵙⵎⵙⵉ ⴰⴷ ⵉⴼⴽⴰ ⵉⵙⴼⴽⴰ ⵉⵎⴰⵜⴰⵢⵏ, ⵓⵔ ⵉⴳⵉ ⴰⵙⵏⵎⵍ ⴰⵣⵔⴼⴰⵏ. ⵉⵖ ⵜⵍⵍⴰ
+    ⵜⵎⵏⵖⵉⵜ ⵏⵖ ⵜⴰⵎⵙⴰⵙⴰⵢⵜ ⵜⵉⵏⵏⵉⵍⵜ, ⵙⴰⵡⵍ ⴷ ⵢⴰⵏ ⵓⵎⴰⵣⵔⴼⴰⵏ.
+  footer.source: ⵜⴰⵏⴳⴰⵍⵜ ⵏ ⵓⵖⴱⴰⵍⵓ (AGPL-3.0)
+  footer.data: ⵉⵙⴼⴽⴰ ⴷⴷⴰⵡ CC-BY-4.0
+  footer.report: ⵎⵍ ⵢⴰⵜ ⵜⵣⴳⵍⵜ
+  footer.cite: ⵉⵙⴼⴽⴰ ⵙⴳ opensourcelicense.org, CC-BY-4.0
+  footer.hosting: ⵉⵜⵜⵓⵙⵎⵔⴰⵙ ⵅⴼ ⵓⵖⴰⵡⴰⵙ ⴰⴱⵍⴰⵣⴰⵢⴰⵏ ⵏ Cloudflare Workers
+  footer.dns: ⵉⴳⵔ ⵉⵜⵜⵓⵙⵏⵣⴷⵖ ⴳ Cloudflare
+  badge.machine: ⴰⵙⵓⵖⵍ ⵙ ⵜⵎⴰⵙⵉⵏⵜ
+  badge.reviewed: ⴰⵙⵓⵖⵍ ⵉⵜⵜⵓⵙⵙⵉⴷⵏⵏ
+  badge.fallback: ⵓⵔ ⵉⵜⵜⵓⵙⵓⵖⵍ ⴰⵔ ⴷⵉⵖ — ⵜⴰⵏⴳⵍⵉⵣⵜ ⴰⵢⴰ
+  badge.stale: ⵉⵣⵎⵔ ⴰⴷ ⵓⵔ ⵉⴳ ⴰⵎⴰⵢⵏⵓ
+  badge.unreviewed-data: ⴰⵥⵕⵉⴳ — ⵓⵔ ⵜ ⵉⵙⵙⵉⴷⵏ ⴰⵎⴰⵣⵔⴼⴰⵏ ⴰⵔ ⴷⵉⵖ
+  common.updated: ⵉⵙⴼⴽⴰ ⵜⵜⵓⵙⵎⴰⵢⵏⵓⵏ ⴳ {date}
+  common.back: ⴰⵖⵓⵍ
+  common.copy: ⵙⵏⵖⵍ
+  common.copied: ⵉⵜⵜⵓⵙⵏⵖⵍ
+  common.download: ⴰⴳⵎ
+  common.close: ⵔⴳⵍ
+  common.all: ⴽⵓⵍⵍⵓ
+  common.yes: ⵢⴰⵀ
+  common.no: ⵓⵀⵓ
+  common.unknown: ⵓⵔ ⵉⵜⵜⵓⵙⵙⴰⵏ
+  common.none: ⵓⵍⴰ ⵢⴰⵏ
+  common.more: ⵓⴳⴳⴰⵔ
+  common.loading: ⴰⵙⴰⵍⵉ…
+  common.error: ⵢⴰⵜ ⵜⵖⴰⵡⵙⴰ ⵓⵔ ⵜⵥⵍⵉⵏ.
+  common.search: ⵔⵣⵓ
+  home.title: ⴼⵔⵏ ⵜⵓⵔⴰⴳⵜ ⵏ ⵓⵖⴱⴰⵍⵓ ⵉⵕⵥⵎⵏ ⵙ ⵜⵉⵟⵟⴰⵡⵉⵏ ⵉⵕⵥⵎⵏ
+  home.lead: ⵓⵔ ⵉⴳⵉ ⵖⴰⵙ «ⵎⴰⵏⵉ ⵜⵓⵔⴰⴳⵜ?», ⵎⴰⵛ ⵎⴰⵢⴷ ⴼⵔⵏⵏ ⵉⵙⵏⴼⴰⵔⵏ ⵉⵎⵢⴰⵏⴰⵡⵏ, ⵎⴰⵎⴽ ⵉⴳⴰ
+    ⵓⵎⵓⵔⵙ ⴰⵏⵛⴽⴰⵡ, ⴷ ⵎⴰⵢⴷ ⵜⵙⴽⵔⴷ ⴷⴼⴼⵉⵔ ⴰⵙ.
+  home.entry.chat.title: ⵙⴰⵡⵍ ⴷ ⵓⵎⵓⵙⵙⵏⴰⵡ ⵏ ⵜⵉⴳⵣⵉ ⵜⴰⵎⵙⵓⵍⴰⵏⵜ
+  home.entry.chat.body: ⴳⵍⵎ ⴰⵙⵏⴼⴰⵔ ⵏⵏⴽ ⵙ ⵡⴰⵡⴰⵍ ⵏⵏⴽ. ⴰⵡⵉ ⵢⴰⵜ ⵜⵡⵍⴰⴼⵜ, ⵉⵙⵇⵙⵉⵜⵏ ⵉⴹⴼⴼⵓⵔⵏ ⴷ ⵢⴰⵏ ⵓⵏⵏⴰⵍ.
+  home.entry.projects.title: ⵥⵕ ⵎⴰⵢⴷ ⵙⵎⵔⴰⵙⵏ ⵡⵉⵢⴰⴹ
+  home.entry.projects.body: ⵜⵓⵔⴰⴳⵉⵏ ⵏ ⵉⵙⵏⴼⴰⵔⵏ ⵉⵜⵜⵓⵙⵙⴰⵏⵏ, ⴷ ⵎⴰⵅ ⵙⵏⴼⵍⵏ ⴽⵔⴰ ⴳⵉⵙⵏ ⵜⵓⵔⴰⴳⵜ ⵏⵏⵙⵏ.
+  home.entry.wizard.title: ⴼⵔⵣ ⵙ ⵜⵙⵓⵔⵉⴼⵜ ⵙ ⵜⵙⵓⵔⵉⴼⵜ
+  home.entry.wizard.body: ⵔⴰⵔ ⵅⴼ ⴽⵔⴰ ⵏ ⵉⵙⵇⵙⵉⵜⵏ ⵜⴰⵡⵉⴷ ⵢⴰⵏ ⵓⵍⴳⴰⵎ ⴰⵎⵥⵥⴰⵢ, ⵉⵜⵜⵓⵙⵎⵢⴰⵍⵏ ⵉⵜⵜⵓⵙⴼⵙⵔⵏ.
+  home.wall: ⵜⵓⵔⴰⴳⵉⵏ ⵏ ⵉⵙⵏⴼⴰⵔⵏ ⵉⵜⵜⵓⵙⵙⴰⵏⵏ
+  home.changes: ⵉⵙⵏⴼⴰⵍⵏ ⵉⵎⴳⴳⵓⵔⴰ ⵏ ⵜⵓⵔⴰⴳⵉⵏ
+  home.scenarios: ⵎⴰⵢⴷ ⵉⵣⵎⵔⵏ ⴰⴷ ⵉⵅⵙⵔ?
+  home.scenarios.body: 27 ⵏ ⵉⵙⵉⵏⴰⵔⵢⵓⵜⵏ ⵉⵎⴳⴳⵓⵔⴰ × 17 ⵏ ⵜⵉⴳⵊⴷⴰ ⵏ ⵜⵓⵔⴰⴳⵉⵏ, ⵢⴰⵜ ⵜⴰⵙⵏⴰ ⵉ ⴽⵓ ⵜⴰⵖⵔⵓⵔⵜ.
+  family.permissive: ⵜⴰⵙⵔⴰⴳⵜ
+  family.weak-copyleft: ⴽⵓⴱⵉⵍⵉⴼⵜ ⵉⵔⵅⵓⵏ
+  family.strong-copyleft: ⴽⵓⴱⵉⵍⵉⴼⵜ ⵉⵊⵀⴷⵏ
+  family.network-copyleft: ⴽⵓⴱⵉⵍⵉⴼⵜ ⵏ ⵓⵥⵟⵟⴰ
+  family.source-available: ⴰⵖⴱⴰⵍⵓ ⵉⵍⵍⴰⵏ
+  family.model: ⵜⵓⵔⴰⴳⵜ ⵏ ⵓⵎⴷⵢⴰ
+  family.content: ⴰⴳⴱⵓⵔ / ⵉⵙⴼⴽⴰ
+  verdict.allow: ⵉⵜⵜⵓⵙⵔⴰⴳ
+  verdict.conditional: ⵙ ⵜⴼⴰⴷⵉⵜⵉⵏ
+  verdict.deny: ⵜⴳⴷⵍ ⵜ ⵜⵓⵔⴰⴳⵜ
+  verdict.silent: ⵓⵔ ⵉⵜⵜⵓⵙⵓⵍⵙ
+  verdict.tbd: ⴷⴰ ⵉⵜⵜⵓⵙⵙⵉⴷⵏ
+  verdict.legend: "ⴰⵙⵙⴼⵔ: ✓ ⵉⵣⵎⵔ ⵓⵢⵢⴰⴹ ⴰⴷ ⵜ ⵉⵙⴽⵔ · ◐ ⵙ ⵜⴼⴰⴷⵉⵜⵉⵏ · ✗ ⵜⴳⴷⵍ ⵜ ⵜⵓⵔⴰⴳⵜ
+    · — ⵜⵓⵔⴰⴳⵜ ⵓⵔ ⵜⵙⴰⵡⴰⵍ ⵅⴼⴰⵙ (ⵉⵜⵜⵓⵙⵎⵔⴰⵙ ⵓⵣⵔⴼ ⴰⵎⴰⵜⴰⵢ)"
+  actor.other: ⵢⴰⵏ ⵢⴰⴹⵏ ⴰⴷ ⵜ ⵉⵙⴽⵔⵏ
+  actor.you: ⴽⵢⵢ ⴰⴷ ⵉⵔⴰⵏ ⴰⴷ ⵜ ⵉⵙⴽⵔ
+  actor.contributor: ⵢⴰⵏ ⵓⵎⵢⴰⵡⴰⵙ ⴰⴷ ⵜ ⵉⵙⴽⵔⵏ
+  actor.both: ⵉⵍⴰ ⵅⴼ ⵙⵏⴰⵜ ⵜⵙⴳⴰ
+  group.A: ⴰⵎⵏⴰⵣⴰⵄ ⴰⵙⵏⵎⵣⵣⴰⵢ
+  group.B: ⵉⵣⵔⴼⴰⵏ ⵏ ⵓⵙⵏⵓⵍⴼⵓ ⴷ ⵓⵣⵔⴼ
+  group.C: ⴰⵙⵏⴼⵍⵓⵍ ⴷ ⵜⵎⵙⵙⵓⵔⵜ
+  group.D: ⴰⵙⵎⵔⵙ ⴷ ⵓⵎⵙⴰⵙⴰ ⴷ ⵜⵓⵔⴰⴳⵜ
+  group.E: ⵉⵎⴷⵢⴰⵜⵏ ⵏ ⵜⵉⴳⵣⵉ ⵜⴰⵎⵙⵓⵍⴰⵏⵜ ⴷ ⵉⵙⴼⴽⴰ
+  matrix.code: ⵜⵓⵔⴰⴳⵉⵏ ⵏ ⵜⵏⴳⴰⵍⵜ
+  matrix.model: ⵜⵓⵔⴰⴳⵉⵏ ⵏ ⵉⵎⴷⵢⴰⵜⵏ ⴷ ⵉⵙⴼⴽⴰ
+  term.commercial-use: ⴰⵙⵎⵔⵙ ⴰⵙⵏⵎⵣⵣⴰⵢ
+  term.modification: ⴰⵙⵏⴼⵍ
+  term.distribution: ⴰⵙⴼⵙⵔ
+  term.private-use: ⴰⵙⵎⵔⵙ ⵓⵙⵍⵉⴳ
+  term.patent-use: ⴰⴼⴽⴰ ⵏ ⵉⵣⵔⴼⴰⵏ ⵏ ⵓⵙⵏⵓⵍⴼⵓ
+  term.non-production-use: ⴰⵙⵎⵔⵙ ⴱⵕⵕⴰ ⵏ ⵓⵙⵏⴼⴰⵔ ⴰⵎⵓⴷⴷⵉⵔ
+  term.converts-to-open-source: ⴷⴰ ⵜⵜⵓⵖⵓⵍ ⵙ ⵓⵖⴱⴰⵍⵓ ⵉⵕⵥⵎⵏ ⴷⴼⴼⵉⵔ
+  term.include-copyright: ⵃⴹⵓ ⴰⵙⵍⵖⵓ ⵏ ⵉⵣⵔⴼⴰⵏ ⵏ ⵓⵎⴰⵔⵓ
+  term.include-license: ⵙⵙⴽⵛⵎ ⵜⵓⵔⴰⴳⵜ
+  term.document-changes: ⵔⵛⵎ ⵉⵙⵏⴼⴰⵍⵏ
+  term.disclose-source: ⵙⵙⴼⵔⵓ ⴰⵖⴱⴰⵍⵓ
+  term.same-license: ⵜⵓⵔⴰⴳⵜ ⵏⵏⵉⵜ ⵉ ⵜⵡⵓⵔⵉⵡⵉⵏ ⵜⵉⵎⵥⴹⴰⵍⵉⵏ
+  term.same-license-file: ⵜⵓⵔⴰⴳⵜ ⵏⵏⵉⵜ (ⴳ ⵓⵙⵡⵉⵔ ⵏ ⵓⴼⴰⵢⵍⵓ)
+  term.same-license-library: ⵜⵓⵔⴰⴳⵜ ⵏⵏⵉⵜ (ⴳ ⵓⵙⵡⵉⵔ ⵏ ⵜⵙⴷⵍⵉⵙⵜ)
+  term.allow-relinking: ⵙⵔⴰⴳ ⵜⴰⵍⵙⴰ ⵏ ⵓⵙⵖⵏ
+  term.network-use-disclose: ⴰⵙⵎⵔⵙ ⴳ ⵓⵥⵟⵟⴰ ⵉⴳⴰ ⴰⵙⴼⵙⵔ
+  term.service-stack-disclose: ⵙⵙⵓⴼⵖ ⴰⵙⵎⵓⵜⵜⴳ ⴰⴽⵓⵍⵍⴰⵏ ⵏ ⵜⵏⴰⴼⵓⵜ
+  term.keep-limitations: ⵃⴹⵓ ⵜⵉⵍⵉⵙⵉⵏ
+  term.attribution: ⴰⴱⴷⴰⵔ ⵏ ⵓⵎⴰⵔⵓ
+  term.attribution-built-with: ⵙⵎⵍ «Built with»
+  term.name-prefix: ⵜⴰⵏⴱⴹⴰⵜ ⵏ ⵓⵣⵡⵉⵔ ⵏ ⵢⵉⵙⵎ
+  term.acceptable-use-policy: ⵜⴰⵙⵔⵜⵉⵜ ⵏ ⵓⵙⵎⵔⵙ ⵉⵜⵜⵓⵇⴱⴰⵍⵏ
+  term.use-restrictions-pass-through: ⵣⵔⵉ ⵉⴳⴷⴰⵍⵏ ⵏ ⵓⵙⵎⵔⵙ
+  term.indicate-changes: ⵎⵍ ⵉⵙⵏⴼⴰⵍⵏ
+  term.liability: ⵓⵍⴰ ⵜⴰⵎⵙⵓⵍⵉⵜ
+  term.warranty: ⵓⵍⴰ ⵜⴰⴹⵎⴰⵏⵜ
+  term.trademark-use: ⵓⵍⴰ ⵉⵣⵔⴼⴰⵏ ⴳ ⵜⵎⴰⵜⴰⵔⵜ ⵜⴰⵙⵏⵎⵣⵣⴰⵢⵜ
+  term.no-endorsement: ⵓⵍⴰ ⴰⵙⵏⵖⵎⵙ ⵏ ⵓⵙⵏⵓⵎⵎⵍ
+  term.production-use-restricted: ⴰⵙⵎⵔⵙ ⴳ ⵓⵙⵏⴼⴰⵔ ⴰⵎⵓⴷⴷⵉⵔ ⵉⵜⵜⵓⵙⵍⴽⵎ
+  term.no-managed-service: ⵓⵍⴰ ⵜⴰⵏⴰⴼⵓⵜ ⵉⵜⵜⵓⵙⵡⵓⴷⴷⵓⵏ
+  term.no-license-key-circumvention: ⵓⵍⴰ ⴰⵙⵓⴼⵖ ⵅⴼ ⵜⵙⴰⵔⵓⵜ ⵏ ⵜⵓⵔⴰⴳⵜ
+  term.mau-threshold: ⵜⵉⵍⵉⵙⵜ ⵏ ⵉⵎⵙⵎⵔⴰⵙⵏ
+  term.use-restrictions: ⵉⴳⴷⴰⵍⵏ ⵏ ⵓⵙⵎⵔⵙ
+  term.non-commercial: ⵖⴰⵙ ⴰⵙⵎⵔⵙ ⵓⵔ ⵉⴳⵉⵏ ⴰⵙⵏⵎⵣⵣⴰⵢ
+  licenses.title: ⵜⴰⵙⴷⵍⵉⵙⵜ ⵏ ⵜⵓⵔⴰⴳⵉⵏ ⵏ ⵓⵖⴱⴰⵍⵓ ⵉⵕⵥⵎⵏ
+  licenses.lead: "{count} ⵏ ⵜⵓⵔⴰⴳⵉⵏ, ⵙⴳ ⵜⵓⵔⴰⴳⵉⵏ ⵜⵉⵙⵔⴰⴳⵉⵏ ⴰⵔ ⵜⵓⵔⴰⴳⵉⵏ ⵏ ⵓⵖⴱⴰⵍⵓ ⵉⵍⵍⴰⵏ
+    ⴷ ⵜⵓⵔⴰⴳⵉⵏ ⵏ ⵉⵎⴷⵢⴰⵜⵏ."
+  licenses.col.license: ⵜⵓⵔⴰⴳⵜ
+  licenses.col.family: ⵜⴰⵡⵊⴰ
+  licenses.col.osi: OSI
+  licenses.col.fsf: ⵜⴰⵍⴻⵍⵍⵉⵜ ⵙ FSF
+  licenses.col.projects: ⵉⵙⵏⴼⴰⵔⵏ
+  licenses.filter: ⴼⵔⵣ ⵙ ⵜⵡⵊⴰ
+  license.permissions: ⵜⵓⵔⴰⴳⵉⵏ ⵏ ⵓⵙⵎⵔⵙ
+  license.conditions: ⵜⵉⴼⴰⴷⵉⵜⵉⵏ
+  license.limitations: ⵜⵉⵍⵉⵙⵉⵏ
+  license.summary: ⵙ ⵡⴰⵡⴰⵍ ⵉⴼⵙⵙⵓⵙⵏ
+  license.analogy: ⴰⵎⵢⴰⵏⴰⵡ
+  license.pros: ⵜⵉⵏⴼⵓⵜⵉⵏ
+  license.cons: ⵉⵅⵚⴰⵏ
+  license.scenarios: ⵉⵙⵉⵏⴰⵔⵢⵓⵜⵏ ⵉⵎⴳⴳⵓⵔⴰ
+  license.radar: ⵔⴰⴷⴰⵔ ⵏ ⵓⵎⵓⵔⵙ ⴰⵏⵛⴽⴰⵡ
+  license.projects: ⵉⵙⵏⴼⴰⵔⵏ ⵉⵜⵜⵓⵙⵙⴰⵏⵏ ⵉⵙⵎⵔⴰⵙⵏ ⵜⵜ
+  license.projects.count: "{count} ⵏ ⵉⵙⵏⴼⴰⵔⵏ ⵉⵜⵜⵓⵙⵙⴰⵏⵏ ⴳ ⵜⴽⴰⵔⴹⴰ ⵏⵏⵖ ⴰⴷ ⵉⵙⵎⵔⴰⵙⵏ ⵜⵓⵔⴰⴳⵜ ⴰⴷ."
+  license.projects.none: ⵓⵍⴰ ⵢⴰⵏ ⵓⵙⵏⴼⴰⵔ ⴳ ⵜⴽⴰⵔⴹⴰ ⵏⵏⵖ ⵓⵔ ⵉⵙⵎⵔⴰⵙ ⵜⵓⵔⴰⴳⵜ ⴰⴷ ⴰⵔ ⴷⵉⵖ.
+  license.projects.since: ⵉⵣⵔⵉ ⵖⵔⵙ ⴳ {date}
+  license.projects.also: "ⵉⵜⵜⵓⴼⴽⴰ ⵓⵍⴰ ⴷⴷⴰⵡ: {licenses}"
+  license.projects.former: ⵉⵙⵏⴼⴰⵔⵏ ⵉⴼⴼⵖⵏ ⵙⴳⵙ
+  license.text: ⴰⴹⵕⵉⵚ ⵓⵏⵚⵉⴱ
+  license.text.official: ⴰⴹⵕⵉⵚ ⵓⵏⵚⵉⴱ ⵙ {language}
+  license.text.note: ⵖⴰⵙ ⴰⴹⵕⵉⵚ ⵓⵏⵚⵉⴱ ⴰⴷ ⵉⵙⵙⵓⵜⵓⵔⵏ ⵙ ⵓⵣⵔⴼ. ⵓⵔ ⵏⵙⵙⵓⵖⵓⵍ ⵉⴹⵕⵉⵚⵏ ⵏ ⵜⵓⵔⴰⴳⵉⵏ.
+  license.compare: ⵙⵎⵣⴰⵣⴰⵍ ⴷ…
+  license.spdx: ⴰⵎⴰⵜⴰⵢ ⵏ SPDX
+  radar.anti-freeride: ⵉⴳⴷⵍ ⴰⵙⵎⵔⵙ ⴱⵍⴰ ⵜⵓⵔⴰⵔⵜ
+  radar.anti-closed-fork: ⵉⴳⴷⵍ ⵜⵉⴼⵔⴽⵉⵢⵉⵏ ⵉⵇⵇⵏⵏ
+  radar.patent: ⴰⵙⵙⵜⵜⵉ ⵏ ⵉⵣⵔⴼⴰⵏ ⵏ ⵓⵙⵏⵓⵍⴼⵓ
+  radar.adoption-friction: ⵜⴰⵎⴰⵔⵓⵜ ⵏ ⵓⵙⵎⵓⵜⵜⴳ
+  radar.relicense-difficulty: ⵜⴰⵎⴰⵔⵓⵜ ⵏ ⵓⵙⵏⴼⵍ ⵏ ⵜⵓⵔⴰⴳⵜ
+  radar.misuse-control: ⴰⵙⵡⵓⴷⴷⵓ ⵏ ⵓⵙⵎⵔⵙ ⵉⵅⵙⵔⵏ
+  radar.derivative-control: ⴰⵙⵡⵓⴷⴷⵓ ⵏ ⵜⵡⵓⵔⵉⵡⵉⵏ ⵜⵉⵎⵥⴹⴰⵍⵉⵏ
+  radar.commercial-control: ⴰⵙⵡⵓⴷⴷⵓ ⴰⵙⵏⵎⵣⵣⴰⵢ
+  radar.note: ⵉⵜⵜⵓⵙⵎⵉⴹⵏ ⵙⴳ ⵜⵎⴰⵜⵔⵉⵙⵜ ⵏ ⵉⵙⵉⵏⴰⵔⵢⵓⵜⵏ. ⴰⵣⴰⵍ ⴰⵏⴰⴼⵍⵍⴰ ⵉⵙⵎⴰⵏⴰ ⵓⴳⴳⴰⵔ ⵏ
+    ⵜⵖⴰⵔⴰ ⴰⵏⵏ, ⵓⵔ ⵉⵙⵎⴰⵏⴰ «ⵉⴼⵓⵍⴽⵉ ⵓⴳⴳⴰⵔ».
+  scenarios.title: ⵜⴰⵎⴰⵜⵔⵉⵙⵜ ⵏ ⵉⵙⵉⵏⴰⵔⵢⵓⵜⵏ ⵉⵎⴳⴳⵓⵔⴰ
+  scenarios.lead: ⵎⴰⵢⴷ ⵉⵜⵜⵉⵍⵉⵏ ⴷⴼⴼⵉⵔ ⵏ ⵓⴼⵔⴰⵏ ⵏ ⵜⵓⵔⴰⴳⵜ? ⴽⵓ ⵜⴰⵖⵔⵓⵔⵜ ⵜⵔⴰⵔ ⵅⴼ ⵢⴰⵏ
+    ⵓⵙⵇⵙⵉ, ⵜⵍⵍⴰ ⴷⴰⵔⵙ ⵜⵙⵏⴰ ⵏⵏⵙ.
+  scenarios.highlight: ⵙⴱⴰⵢⵏ ⵢⴰⵜ ⵜⵓⵔⴰⴳⵜ
+  scenarios.expand: ⵙⵙⵉⵔⴷⵓ ⴽⵓⵍⵍⵓ
+  scenarios.collapse: ⵙⵎⵥⵉ ⴽⵓⵍⵍⵓ
+  scenarios.silent-note: ⵉⵣⵔⵉⵔⵉⴳⵏ ⴳ ⵍⵍⴰⵏ ⵖⴰⵙ «—» ⵍⵍⴰⵏ ⴷⴰ ⵙ ⵓⵏⵉⵢ. ⵜⴰⵔⵔⴰⵢⵜ ⵜⴻⵜⵜⵡⴰⵍⵙ
+    ⵅⴼ ⵜⵎⵙⴰⵙⴰⵢⵉⵏ ⵏ ⵜⵡⵓⵔⵉ (C6), ⵅⴼ ⵓⵣⵔⴼ ⵏ ⵓⵙⵡⵓⴷⴷⵓ ⵏ ⵓⵙⵙⵓⴼⵖ (D5) ⵏⵖ ⵅⴼ ⵜⵉⵎⵏⵖⵉⵡⵉⵏ
+    ⵜⵉⵣⵔⴼⴰⵏⵉⵏ ⵉⵍⵍⴰⵏ (D6), ⵓⵔ ⵜⴻⵜⵜⵡⴰⵍⵙ ⵅⴼ ⵜⵓⵔⴰⴳⵜ.
+  scenario.flow.you: ⴽⵢⵢ ⵜⵙⵙⵓⴼⵖⴷ ⴷⴷⴰⵡ {license}
+  scenario.flow.they: ⵜⴰⵍⵖⵉⵜ
+  scenario.flow.result: ⵜⴰⵢⴰⴼⵓⵜ
+  scenario.clause: ⴰⴼⵔⴷⵉⵙ ⵉⵎⵙⴰⵙⴰⵏ
+  scenario.case: ⵜⴰⵎⵙⴰⵍⵜ ⵜⵉⵏⵏⵉⵍⵜ
+  scenario.others: ⴰⵙⵉⵏⴰⵔⵢⵓ ⵏⵏⵉⵜ, ⵜⵓⵔⴰⴳⵉⵏ ⵢⴰⴹⵏⵉⵏ
+  scenario.other-scenarios: ⵉⵙⵉⵏⴰⵔⵢⵓⵜⵏ ⵢⴰⴹⵏⵉⵏ ⵉ {license}
+  scenario.no-clause: ⵓⵍⴰ ⴰⴼⵔⴷⵉⵙ ⵉⵥⵍⵉⵏ. ⵉⵜⵜⵓⵙⵎⵔⴰⵙ ⵓⵣⵔⴼ ⴰⵎⴰⵜⴰⵢ.
+  scenario.review: ⴰⴷⴷⴰⴷ ⵏ ⵓⵙⵙⵉⴷⵏ
+  scenario.review.none: ⵓⵔ ⵜ ⵉⵙⵙⵉⴷⵏ ⴰⵎⴰⵣⵔⴼⴰⵏ ⴰⵔ ⴷⵉⵖ.
+  scenario.review.done: ⵉⵙⵙⵉⴷⵏ ⵜ {who} ⴳ {date}.
+  compare.title: ⴰⵙⵎⵣⴰⵣⴰⵍ ⵏ ⵜⵓⵔⴰⴳⵉⵏ ⵏ ⵓⵖⴱⴰⵍⵓ ⵉⵕⵥⵎⵏ
+  compare.lead: ⴼⵔⵏ ⵙⵏⴰⵜ ⵏⵖ ⴽⵕⴰⴹⵜ ⵜⵓⵔⴰⴳⵉⵏ ⴰⴷ ⵜⵏⵜ ⵜⵙⵎⵣⴰⵣⴰⵍⴷ ⴰⴼⵔⴷⵉⵙ ⵙ ⵓⴼⵔⴷⵉⵙ ⴷ
+    ⵓⵙⵉⵏⴰⵔⵢⵓ ⵙ ⵓⵙⵉⵏⴰⵔⵢⵓ.
+  compare.pick: ⵔⵏⵓ ⵢⴰⵜ ⵜⵓⵔⴰⴳⵜ
+  compare.remove: ⴽⴽⵙ
+  compare.terms: ⵉⴼⵔⴷⵉⵙⵏ
+  compare.scenarios: ⵉⵙⵉⵏⴰⵔⵢⵓⵜⵏ
+  compare.empty: ⴼⵔⵏ ⵙⵏⴰⵜ ⵜⵓⵔⴰⴳⵉⵏ ⵓⵍⴰ ⵉⵖ ⴷ ⵓⴳⴳⴰⵔ.
+  wizard.title: ⴰⵏⵎⵎⴰⵍ ⵏ ⵓⴼⵔⴰⵏ ⵏ ⵜⵓⵔⴰⴳⵜ
+  wizard.lead: ⵔⴰⵔ ⵅⴼ ⴽⵔⴰ ⵏ ⵉⵙⵇⵙⵉⵜⵏ. ⴰⵎⵙⵙⵓⴷⵓ ⵏ ⵜⵏⴱⴹⴰⵜⵉⵏ ⴷⴰ ⵉⵙⵎⵢⴰⵍ ⵜⵓⵔⴰⴳⵉⵏ ⵉⵙⴼⵙⵔ ⴽⵓ ⵜⴰⵏⵇⵇⵉⴹⵜ.
+  wizard.next: ⴰⴹⴼⴼⵓⵔ
+  wizard.prev: ⴰⵖⵓⵍ
+  wizard.finish: ⵥⵕ ⵜⴰⵢⴰⴼⵓⵜ
+  wizard.restart: ⴰⵍⵙ ⵙⴳ ⵜⵉⵣⵡⵉⵔⵉ
+  wizard.skip: ⵣⴳⵔ
+  wizard.step: ⵜⴰⵙⵓⵔⵉⴼⵜ {n} ⵙⴳ {total}
+  wizard.to-chat: ⴽⵎⵎⵍ ⴷ ⵓⵎⵓⵙⵙⵏⴰⵡ ⵏ ⵜⵉⴳⵣⵉ ⵜⴰⵎⵙⵓⵍⴰⵏⵜ
+  q.artifact_type: ⵎⴰⵢⴷ ⵜⵙⵙⵓⴼⵓⵖⴷ?
+  q.openness_level: ⵎⵏⵛⴽ ⴰⵢⴷ ⵜⵔⵉⴷ ⴰⴷ ⵉⴳ ⵉⵕⵥⵎ?
+  q.avoid: ⵎⴰⵏⵉ ⵜⵉⵢⴰⴼⵓⵜⵉⵏ ⵜⵔⵉⴷ ⴰⴷ ⵜⵏⵜ ⵜⵙⵙⵓⴳⵎⴷ?
+  q.avoid.hint: ⴼⵔⵏ ⵎⴰⵏⵉⴽ ⵎⵏⵛⴽ ⵜⵔⵉⴷ.
+  q.adoption_goal: ⵎⴰⵢⴷ ⵉⵇⵇⵓⵔⵏ ⴽⵉⴳⴰⵏ?
+  q.dependencies: ⵉⵙ ⵜⵙⵎⵔⴰⵙⴷ ⵜⴰⵏⴳⴰⵍⵜ ⵏ ⴽⵓⴱⵉⵍⵉⴼⵜ?
+  q.dependencies.hint: ⵔⵏⵓ ⵉⵎⴰⵜⴰⵢⵏ ⵏ SPDX ⵏ ⵜⵓⵔⴰⴳⵉⵏ ⵏ ⵉⵙⵙⵓⵖⴰ, ⵙ ⵓⵎⴷⵢⴰ GPL-3.0-only.
+  q.commercial_plan: ⵎⴰⵎⴽ ⴰⵔⴷ ⵜⵔⴱⵃⴷ ⵉⴷⵔⵉⵎⵏ, ⵉⵖ ⵜⵔⵉⴷ?
+  q.jurisdiction: ⵎⴰⵏⵉ ⴳ ⵜⵍⵍⵉⴷ?
+  opt.artifact_type.library: ⵢⴰⵜ ⵜⵙⴷⵍⵉⵙⵜ ⵏⵖ SDK
+  opt.artifact_type.application: ⵢⴰⵏ ⵓⵙⵏⵙ ⵏⵖ ⵢⴰⵜ ⵜⵎⴰⵙⵙⵓⵜ
+  opt.artifact_type.saas: ⵢⴰⵏ ⵓⵖⵣⵏ ⵏ ⵜⵏⴰⴼⵓⵜ (SaaS)
+  opt.artifact_type.model: ⵜⵉⵥⴰⵢⵉⵏ ⵏ ⵓⵎⴷⵢⴰ
+  opt.artifact_type.dataset: ⵢⴰⵜ ⵜⴳⵔⵓⵎⵎⴰ ⵏ ⵉⵙⴼⴽⴰ
+  opt.artifact_type.docs: ⵉⵔⵔⴰⵜⵏ ⵏⵖ ⴰⴳⴱⵓⵔ
+  opt.openness_level.open: ⵉⵕⵥⵎ ⴰⴽⴽⵯ — ⵉⵣⵎⵔ ⴽⵓ ⵢⴰⵏ ⴰⴷ ⵉⵙⴽⵔ ⴽⵓⵍⵍⵓ
+  opt.openness_level.reciprocal: ⵉⵕⵥⵎ, ⵎⴰⵛ ⵉⵙⵏⴼⴰⵍⵏ ⵉⵍⵍⴰ ⴰⴷ ⴷ ⵓⵖⵓⵍⵏ
+  opt.openness_level.source-available: ⴰⵖⴱⴰⵍⵓ ⵉⵜⵜⵓⵥⵕⴰ, ⴰⵙⵎⵔⵙ ⴰⵙⵏⵎⵣⵣⴰⵢ ⵉⵜⵜⵓⵙⵍⴽⵎ
+  opt.avoid.cloud-hosting: ⵜⵉⴽⴰⴱⴱⴰⵏⵉⵢⵉⵏ ⵏ ⵓⵙⵉⴳⵏⵓ ⵉⵣⵣⵏⵣⵏ ⵜ ⵙ ⵜⵏⴰⴼⵓⵜ
+  opt.avoid.closed-fork: ⵜⵉⴼⵔⴽⵉⵢⵉⵏ ⵏ ⵓⵖⴱⴰⵍⵓ ⵉⵇⵇⵏⵏ
+  opt.avoid.patent-litigation: ⵜⵉⵎⵏⵖⵉⵡⵉⵏ ⵏ ⵉⵣⵔⴼⴰⵏ ⵏ ⵓⵙⵏⵓⵍⴼⵓ
+  opt.avoid.trademark-abuse: ⴰⵙⵎⵔⵙ ⵉⵅⵙⵔⵏ ⵏ ⵢⵉⵙⵎ ⵉⵏⵓ ⵏⵖ ⵜⵎⴰⵜⴰⵔⵜ ⵉⵏⵓ
+  opt.avoid.harmful-use: ⵉⵙⵎⵔⴰⵙ ⵉⵅⵙⵔⵏ
+  opt.avoid.big-company: ⵜⵉⴽⴰⴱⴱⴰⵏⵉⵢⵉⵏ ⵜⵉⵎⵇⵇⵔⴰⵏⵉⵏ ⵙⵎⵔⴰⵙⵏⵜ ⵜ ⴱⵍⴰ ⴰⵜⵉⴳ
+  opt.adoption_goal.enterprise: ⴰⵙⵎⵓⵜⵜⴳ ⴰⵎⵇⵇⵔⴰⵏ ⵙⴳ ⵜⴽⴰⴱⴱⴰⵏⵉⵢⵉⵏ
+  opt.adoption_goal.community: ⵜⵉⵡⵉⵙⵉⵏ ⵏ ⵜⴳⵔⴰⵡⵜ
+  opt.adoption_goal.monetize: ⴰⵔⴱⴰⵃ ⵏ ⵉⴷⵔⵉⵎⵏ ⵙⴳⵙ
+  opt.commercial_plan.none: ⵓⵍⴰ ⴰⵖⴰⵡⴰⵙ
+  opt.commercial_plan.dual-license: ⵜⵓⵔⴰⴳⵜ ⵜⴰⵎⵙⵉⵏⵜ
+  opt.commercial_plan.open-core: ⴰⵏⵥⴰⵢ ⵉⵕⵥⵎⵏ
+  opt.commercial_plan.hosted: ⵜⴰⵏⴰⴼⵓⵜ ⵉⵜⵜⵓⵙⵏⵣⴷⵖⵏ
+  opt.jurisdiction.cn: ⵛⵛⵉⵏⵡⴰ
+  opt.jurisdiction.eu: ⴰⵎⵓⵏ ⴰⵡⵔⵓⴱⴱⵉ
+  opt.jurisdiction.us: ⵉⵡⵓⵏⴽⴰⵏ ⵉⵎⵓⵏⵏ
+  opt.jurisdiction.other: ⵢⴰⴹⵏ
+  engine.part.avoid: "ⴰⵙⵙⵜⵜⵉ ⵙⴳ: {avoid}"
+  engine.part.openness: "ⴰⵎⵙⴰⵙⴰ ⵏ ⵓⵕⵥⵎ: {openness}"
+  engine.part.adoption: "ⵉⵙⵜⵜⵓⵢⵢⴰ: {goal}"
+  engine.part.commercial: "ⴰⵖⴰⵡⴰⵙ ⴰⵙⵏⵎⵣⵣⴰⵢ: {plan}"
+  engine.part.jurisdiction: "ⵜⴰⵙⴳⴰ ⵜⴰⵣⵔⴼⴰⵏⵜ: {jurisdiction}"
+  engine.part.dependency: "ⵉⵎⵙⴰⵙⴰ ⵖⴰⵙ ⵙ ⵜⴼⴰⴷⵉⵜⵉⵏ: {dependency}"
+  engine.excluded.dependency: ⵓⵔ ⵉⵎⵙⴰⵙⴰ ⴷ ⵓⵙⵙⴰⵖ {dependency}
+  engine.excluded.artifact: ⵓⵔ ⵜⵎⵙⴰⵙⴰ ⴷ ⵡⴰⵏⴰⵡ ⴰⴷ ⵏ ⵜⵢⴰⴼⵓⵜ
+  advisory.needs-cla: ⵙⵎⵔⵙ ⵜⴰⵎⵙⴰⵙⴰⵢⵜ ⵏ ⵜⵓⵔⴰⴳⵜ ⵏ ⵓⵎⵢⴰⵡⴰⵙ (CLA). ⴰⵔ ⵜⵜ ⵜⵔⵉⴷ ⴰⴷ
+    ⵜⵣⵣⵏⵣⴷ ⵜⵓⵔⴰⴳⵉⵏ ⵜⵉⵙⵏⵎⵣⵣⴰⵢⵉⵏ ⵏⵖ ⴰⴷ ⵜⵙⵏⴼⵍⴷ ⵜⵓⵔⴰⴳⵜ ⴷⴼⴼⵉⵔ.
+  advisory.consider-dco: ⵙ ⵓⵡⴰⵜⴰⵢ, ⵜⵓⴷⵊⴰ ⵜⴳⴰⵔⴰⴷⵜ ⵏ ⵓⵥⵓⵕ ⵏ ⵓⵎⵙⵏⴼⵍⵓⵍ (DCO, «Signed-off-by»).
+  advisory.busl-change-date: ⵙⵡⵓⴷⴷⵓ Additional Use Grant, Change Date ⴷ Change License ⴳ ⵓⵣⵡⵉⵔ ⵏ BSL.
+  advisory.model-card: ⴳ ⵜⵓⵔⴰⴳⵜ ⴳ ⵉⵙⴼⴽⴰ ⵏ ⵜⴽⴰⵔⴹⴰ ⵏ ⵓⵎⴷⵢⴰ ⵏⵖ ⵏ ⵜⴳⵔⵓⵎⵎⴰ ⵏ ⵉⵙⴼⴽⴰ (ⴰⵏⵙⴰ «license:»).
+  advisory.notice-file: ⵔⵏⵓ ⴰⴼⴰⵢⵍⵓ NOTICE ⵜⵃⴹⵓⴷ ⵜ ⵉⵖ ⵜⵍⵙⴷ ⴰⵙⴼⵙⵔ.
+  advisory.consult-lawyer: ⵙⵙⵓⵜⵔ ⵙⴳ ⵓⵎⴰⵣⵔⴼⴰⵏ ⴰⴷ ⵉⵙⵙⵉⴷⵏ ⵉⵙⵙⵓⵖⴰ ⴷ ⵜⴼⴰⴷⵉⵜⵉⵏ ⵜⵉⵙⵏⵎⵣⵣⴰⵢⵉⵏ ⵣⵓⵏⴷ ⴰⴷ ⵜⵙⵙⵓⴼⵖⴷ.
+  advisory.network-source-link: ⵙⵎⵍ ⴰⵙⵖⵏ «ⵜⴰⵏⴳⴰⵍⵜ ⵏ ⵓⵖⴱⴰⵍⵓ» ⵉ ⵉⵎⵙⵎⵔⴰⵙⵏ ⵏ ⵜⵏⴰⴼⵓⵜ ⵏⵏⴽ ⴳ ⵓⵥⵟⵟⴰ.
+  report.title: ⴰⵏⵏⴰⵍ ⵏ ⵜⵓⵔⴰⴳⵜ ⵏⵏⴽ
+  report.lead: ⴰⵏⵏⴰⵍ ⴰⴷ ⵉⵜⵜⵓⵙⵎⵉⴹⵏ ⴳ ⵓⵎⵙⵉⴳⴳⵍ ⵏⵏⴽ ⵙⴳ ⵜⵡⵍⴰⴼⵜ ⵍⵍⵉ ⵉⵍⵍⴰⵏ ⴳ ⵓⵙⵖⵏ. ⴱⴹⵓ
+    ⴰⵙⵖⵏ ⴰⴷ ⵜⴱⴹⵓⴷ ⴰⵏⵏⴰⵍ.
+  report.profile: ⵜⴰⵡⵍⴰⴼⵜ ⵏ ⵓⵙⵏⴼⴰⵔ
+  report.edit: ⵙⵏⴼⵍ ⴳ ⵓⵏⵎⵎⴰⵍ
+  report.top: ⵉⵜⵜⵓⵙⵓⵎⵔⵏ
+  report.score: ⵜⴰⵙⵎⴽⵜ {score}
+  report.why: ⵎⴰⵅ
+  report.excluded: ⵉⵜⵜⵓⵙⵙⵓⴼⵖⵏ
+  report.advisories: ⵜⵉⵙⵓⵔⵉⴼⵉⵏ ⵜⵉⴹⴼⴼⵓⵔⵉⵏ
+  report.license-file: ⴰⴼⴰⵢⵍⵓ LICENSE
+  report.header: ⴰⵣⵡⵉⵔ ⵏ ⵓⴼⴰⵢⵍⵓ
+  report.badge: ⵜⴰⵎⴰⵜⴰⵔⵜ ⵏ README
+  report.share: ⴱⴹⵓ ⴰⵙⵖⵏ
+  report.share.copy: ⵙⵏⵖⵍ ⴰⵙⵖⵏ
+  report.similar: ⵉⵙⵏⴼⴰⵔⵏ ⵉⵎⵢⴰⵏⴰⵡⵏ
+  report.no-text: ⵓⵍⴰ ⴰⴹⵕⵉⵚ ⵉⵖⵔ ⵜⵣⵎⵔ ⵜⵎⴰⵙⵉⵏⵜ ⴰⴷ ⵜⵖⵔ. ⴰⵡⵉ ⵜ ⵙⴳ ⵜⵙⵏⴰ ⵜⵓⵏⵚⵉⴱⵜ.
+  report.invalid: ⴰⵙⵖⵏ ⴰⴷ ⵏ ⵓⵏⵏⴰⵍ ⵉⵔⵥⴰ ⵏⵖ ⵉⴳⴰ ⵏ ⵢⴰⵜ ⵜⵓⵏⴳⵉⵍⵜ ⵜⴰⵇⴷⵉⵎⵜ.
+  report.empty: ⵓⵍⴰ ⵜⴰⵡⵍⴰⴼⵜ ⴰⵔ ⴷⵉⵖ. ⴱⴷⵓ ⵙ ⵓⵏⵎⵎⴰⵍ ⵏⵖ ⵙ ⵓⵎⵓⵙⵙⵏⴰⵡ ⵏ ⵜⵉⴳⵣⵉ ⵜⴰⵎⵙⵓⵍⴰⵏⵜ.
+  chat.title: ⴰⵎⵓⵙⵙⵏⴰⵡ ⵏ ⵜⵓⵔⴰⴳⵉⵏ ⵙ ⵜⵉⴳⵣⵉ ⵜⴰⵎⵙⵓⵍⴰⵏⵜ
+  chat.lead: ⴳⵍⵎ ⴰⵙⵏⴼⴰⵔ ⵏⵏⴽ. ⴰⵎⵓⵙⵙⵏⴰⵡ ⴷⴰ ⵉⵙⵇⵙⴰ ⵉⵙⵇⵙⵉⵜⵏ ⵉⴹⴼⴼⵓⵔⵏ, ⴰⵎⵙⵙⵓⴷⵓ ⵏ ⵜⵏⴱⴹⴰⵜⵉⵏ
+    ⴷⴰ ⵉⴼⵔⵔⵏ ⵜⵓⵔⴰⴳⵉⵏ, ⴰⵎⵓⵙⵙⵏⴰⵡ ⴷⴰ ⵜⵏⵜ ⵉⵙⴼⵙⴰⵔ.
+  chat.placeholder: "ⵙ ⵓⵎⴷⵢⴰ: ⴱⵏⵉⵖ ⵢⴰⵜ ⵜⵙⵉⵍⴰ ⵏ ⵉⵙⴼⴽⴰ ⵜⴰⵎⵙⴰⵍⴽⵓⵜ ⵜⵉⴷⵉ ⵉⵢⵉ ⵓⵛⵛⵓⴼ ⵎⴰⴷ
+    ⵜⵜ ⵍⵍⴰⵙⵏ ⴰⵔ ⵜⵜ ⵣⵣⵏⵣⵏ ⵜⵉⴽⴰⴱⴱⴰⵏⵉⵢⵉⵏ ⵏ ⵓⵙⵉⴳⵏⵓ."
+  chat.send: ⴰⵣⵏ
+  chat.stop: ⵙⴱⴷⴷ
+  chat.examples: ⴰⵔⵎ ⵢⴰⵏ ⵓⵎⴷⵢⴰ
+  chat.example.1: ⴱⵏⵉⵖ ⵢⴰⵜ ⵜⵙⵉⵍⴰ ⵏ ⵉⵙⴼⴽⴰ ⵜⴰⵎⵙⴰⵍⴽⵓⵜ ⵜⵉⴷⵉ ⵉⵢⵉ ⵓⵛⵛⵓⴼ ⵎⴰⴷ ⵜⵜ ⵍⵍⴰⵙⵏ ⴰⵔ
+    ⵜⵜ ⵣⵣⵏⵣⵏ ⵜⵉⴽⴰⴱⴱⴰⵏⵉⵢⵉⵏ ⵏ ⵓⵙⵉⴳⵏⵓ.
+  chat.example.2: ⵢⴰⵜ ⵜⵙⴷⵍⵉⵙⵜ ⵜⴰⵎⵥⵥⵢⴰⵏⵜ ⵏ ⵉⴼⵔⴷⵉⵙⵏ ⵏ React. ⵔⵉⵖ ⴰⴷ ⵜⵜ ⵙⵎⵔⵙⵏⵜ ⵜⵉⴽⴰⴱⴱⴰⵏⵉⵢⵉⵏ.
+  chat.example.3: ⵏⵙⵎⵢⴰⵡⴰⵙ ⵢⴰⵏ ⵓⵎⴷⵢⴰ ⵏ 7B ⵏⵔⴰ ⴰⴷ ⵏⴳⴷⵍ ⵉⵙⵎⵔⴰⵙ ⵉⵅⵙⵔⵏ.
+  chat.profile: ⵜⴰⵡⵍⴰⴼⵜ ⵏ ⵓⵙⵏⴼⴰⵔ
+  chat.profile.hint: ⴱⵔⴽ ⵅⴼ ⵢⴰⵏ ⵡⴰⵣⴰⵍ ⴰⴷ ⵜ ⵜⵙⵏⴼⵍⴷ.
+  chat.candidates: ⵜⵓⵔⴰⴳⵉⵏ ⵉⵜⵜⵓⵙⵓⵎⵔⵏ
+  chat.run: ⴰⵡⵉ ⵢⴰⵏ ⵓⵙⵓⵎⵔ
+  chat.limit: ⵜⵍⴽⵎⴷ ⵜⵉⵍⵉⵙⵜ ⵏ ⵡⴰⵙⵙ ⴰⴷ. ⵔⵓⵙ ⴰⵙⴽⴽⴰ ⵏⵖ ⵙⵎⵔⵙ ⴰⵏⵎⵎⴰⵍ.
+  chat.error: ⴰⵎⵓⵙⵙⵏⴰⵡ ⵓⵔ ⵉⵍⵍⵉ ⴷⵖⵉ. ⴰⵏⵎⵎⴰⵍ ⵉⵙⴽⴰⵔ ⴰⵔ ⴷⵉⵖ.
+  chat.verify: ⵜⴰⵡⴷⵉⵜ ⵙⵙⵏⵜⵎ ⵉⵙ ⵜⴳⵉⴷ ⴰⴼⴳⴰⵏ.
+  chat.disclaimer: ⴰⵎⵓⵙⵙⵏⴰⵡ ⵉⵣⵎⵔ ⴰⴷ ⵉⵣⴳⵍ. ⵉⵙⵓⵎⵔⵏ ⴷⴰ ⴷ ⴽⴽⴰⵏ ⵙⴳ ⵓⵎⵙⵙⵓⴷⵓ ⵏ ⵜⵏⴱⴹⴰⵜⵉⵏ,
+    ⵓ ⵡⴰ ⵓⵔ ⵉⴳⵉ ⴰⵙⵏⵎⵍ ⴰⵣⵔⴼⴰⵏ.
+  chat.report: ⵕⵥⵎ ⴰⵏⵏⴰⵍ ⴰⵎⴷⴷⴰⴷ
+  projects.title: ⵜⴰⴽⴰⵔⴹⴰ ⵏ ⵜⵓⵔⴰⴳⵉⵏ ⵏ ⵉⵙⵏⴼⴰⵔⵏ
+  projects.lead: ⵜⵓⵔⴰⴳⵉⵏ ⵏ ⵉⵙⵏⴼⴰⵔⵏ ⵏ ⵓⵖⴱⴰⵍⵓ ⵉⵕⵥⵎⵏ ⵉⵜⵜⵓⵙⵙⴰⵏⵏ ⴷ ⵜⵉⵏⴼⵓⵙⵜ ⵍⵍⵉ ⵉⵍⵍⴰⵏ
+    ⴷⴼⴼⵉⵔ ⵏ ⴽⵓ ⴰⵙⵏⴼⵍ.
+  projects.filter.domain: ⵉⴳⵔ
+  projects.filter.family: ⵜⴰⵡⵊⴰ ⵏ ⵜⵓⵔⴰⴳⵜ
+  projects.filter.owner: ⴰⵎⵍⴰⵢ
+  projects.filter.changed: ⵉⵙⵏⴼⵍ ⵜⵓⵔⴰⴳⵜ
+  projects.count: "{count} ⵏ ⵉⵙⵏⴼⴰⵔⵏ"
+  projects.empty: ⵓⵍⴰ ⵢⴰⵏ ⵓⵙⵏⴼⴰⵔ ⵓⵔ ⵉⵎⵙⴰⵙⴰ ⴷ ⵉⴼⵔⴰⵣⵏ ⴰⴷ.
+  owner.company: ⵜⴰⴽⴰⴱⴱⴰⵏⵉⵜ
+  owner.foundation: ⵜⴰⵙⵏⵙⵜⵉⵜ
+  owner.individual: ⴰⵎⴷⴰⵏ
+  owner.community: ⵜⴰⴳⵔⴰⵡⵜ
+  project.current: ⵜⵓⵔⴰⴳⵜ ⵜⴰⵎⵉⵔⴰⵏⵜ
+  project.timeline: ⴰⵣⵔⵉⵔⵉⴳ ⵏ ⵓⵣⵎⵣ ⵏ ⵜⵓⵔⴰⴳⵜ
+  project.reason: ⵜⴰⵎⵏⵜⵉⵍⵜ
+  project.announcement: ⴰⵙⵏⵖⵎⵙ
+  project.forks: ⵜⵉⴼⵔⴽⵉⵢⵉⵏ ⵉⴹⴼⴼⵓⵔⵏ
+  project.fork-of: ⵜⴰⴼⵔⴽⵉⵜ ⵏ {name}
+  project.repo: ⴰⵙⵎⴰⵔⵓⵙ
+  project.similar: ⵉⵙⵏⴼⴰⵔⵏ ⵉⵎⵢⴰⵏⴰⵡⵏ
+  project.review: ⵜⴰⵙⵙⵓⴳⵜ ⴰⴷ ⵜⵓⴼⴰ ⵜⵜ ⵜⵔⵓⴱⵓⵜ ⵏ ⵓⵙⵎⵙⴰⵙⴰ, ⴷⴰ ⵜⵜⵔⴰⵊⵓ ⴰⵙⵙⵉⴷⵏ ⵏ ⵢⴰⵏ ⵓⴼⴳⴰⵏ.
+  project.initial: ⵜⵓⵔⴰⴳⵜ ⵜⴰⵎⵣⵡⴰⵔⵓⵜ
+  domain.database: ⵜⵉⵙⵉⵍⴰ ⵏ ⵉⵙⴼⴽⴰ
+  domain.frontend: ⵜⵉⵙⵓⵔⵉⴼⵉⵏ ⵏ ⵓⴳⴷⵓⵔ ⴰⵣⵡⴰⵔⵓ
+  domain.devops: DevOps
+  domain.ai-model: ⵉⵎⴷⵢⴰⵜⵏ ⵏ ⵜⵉⴳⵣⵉ ⵜⴰⵎⵙⵓⵍⴰⵏⵜ
+  domain.language: ⵜⵓⵜⵍⴰⵢⵉⵏ ⴷ ⵜⵉⵏⴰⵎⵓⵏ ⵏ ⵓⵙⵙⵓⴷⵓ
+  domain.os: ⵉⵏⴳⵔⴰⵡⵏ ⵏ ⵓⵙⵙⵓⴷⵓ
+  domain.web: ⵉⵎⵙⵎⵓⵏⵏ ⵏ ⵓⵥⵟⵟⴰ ⴷ ⵓⵖⵣⵏ
+  domain.tooling: ⵜⵉⵎⴰⵙⵙⵓⵜⵉⵏ ⵏ ⵉⵎⵙⵏⴼⵍⵓⵍⵏ
+  domain.data: ⵉⵙⴼⴽⴰ ⴷ ⵜⵙⵍⴹⵉⵜ
+  domain.observability: ⴰⵙⵙⵓⴷⵓ ⴷ ⵓⵙⵎⵓⵜⵜⵉ
+  domain.messaging: ⵜⵉⴱⵔⴰⵜⵉⵏ ⴷ ⵓⵙⵙⵉⵍⵉ
+  domain.cms: CMS ⴷ ⵉⵙⵏⵙⵏ
+  trends.title: ⵜⵉⵏⵣⴰⵖ ⵏ ⵜⵓⵔⴰⴳⵉⵏ ⵏ ⵓⵖⴱⴰⵍⵓ ⵉⵕⵥⵎⵏ
+  trends.lead: ⵜⵜⵓⵙⵎⵓⵏⵏⵜ ⵙⴳ ⵜⴽⴰⵔⴹⴰ ⵏ ⵉⵙⵏⴼⴰⵔⵏ ⴳ ⵓⵣⵎⵣ ⵏ ⵓⵙⴱⵏⵓ.
+  trends.family-share: ⵜⵉⵡⵊⵉⵡⵉⵏ ⵏ ⵜⵓⵔⴰⴳⵉⵏ ⵙ ⵉⴳⵔ
+  trends.changes: ⵉⵙⵏⴼⴰⵍⵏ ⵏ ⵜⵓⵔⴰⴳⵉⵏ ⵙ ⵓⵙⴳⴳⵯⴰⵙ
+  trends.to-source-available: ⵉⵙⵏⴼⴰⵔⵏ ⵉⵣⵔⵉⵏ ⵙⴳ ⵓⵖⴱⴰⵍⵓ ⵉⵕⵥⵎⵏ ⵙ ⵓⵖⴱⴰⵍⵓ ⵉⵍⵍⴰⵏ
+  search.lead: ⵔⵣⵓ ⵜⵓⵔⴰⴳⵉⵏ, ⵉⵙⵉⵏⴰⵔⵢⵓⵜⵏ ⴷ ⵉⵙⵏⴼⴰⵔⵏ ⵙ ⵜⵓⵜⵍⴰⵢⵜ ⴰⴷ.
+  search.noscript: ⴰⵔⵣⵣⵓ ⵉⵔⴰ JavaScript.
+  check.title: ⴰⵙⵙⵉⴷⵏ ⵏ ⵓⵎⵙⴰⵙⴰ ⵏ ⵜⵓⵔⴰⴳⵉⵏ ⵏ ⵉⵙⵙⵓⵖⴰ
+  check.lead: ⵙⵔⵙ ⵢⴰⵏ package.json, go.mod, Gemfile.lock, Cargo.toml ⵏⵖ
+    requirements.txt. ⴰⵙⵙⵉⴹⵏ ⵉⵜⵜⵉⵍⵉ ⴳ ⵓⵎⵙⵉⴳⴳⵍ ⵏⵏⴽ.
+  check.project-license: ⵜⵓⵔⴰⴳⵜ ⵏ ⵓⵙⵏⴼⴰⵔ ⵏⵏⴽ
+  check.input: ⴰⴼⴰⵢⵍⵓ ⵏ ⵓⵎⵍⴰⵏ
+  check.run: ⵙⵙⵉⴷⵏ
+  check.lookup: ⵔⵣⵓ ⵜⵓⵔⴰⴳⵉⵏ ⵓⵔ ⵉⵜⵜⵓⵙⵙⴰⵏⵏ ⴳ ⵓⵥⵟⵟⴰ (deps.dev)
+  check.col.package: ⴰⴽⵔⵉⵎ
+  check.col.license: ⵜⵓⵔⴰⴳⵜ
+  check.col.status: ⴰⴷⴷⴰⴷ
+  check.status.compatible: ⵉⵎⵙⴰⵙⴰ
+  check.status.conditional: ⵙ ⵜⴼⴰⴷⵉⵜⵉⵏ
+  check.status.incompatible: ⴰⵎⵏⵖⵉ
+  check.status.unknown: ⵓⵔ ⵉⵜⵜⵓⵙⵙⴰⵏ
+  check.summary: "{ok} ⵉⵎⵙⴰⵙⴰⵏ, {warn} ⵙ ⵜⴼⴰⴷⵉⵜⵉⵏ, {bad} ⵏ ⵉⵎⵏⵖⵉⵜⵏ, {unknown} ⵓⵔ ⵉⵜⵜⵓⵙⵙⴰⵏⵏ"
+  check.format: "ⵜⴰⵍⵖⴰ ⵉⵜⵜⵓⴼⴰⵏ: {format}"
+  check.no-deps: ⵓⵔ ⵏⵓⴼⵉ ⵓⵍⴰ ⵢⴰⵏ ⵓⵙⵙⴰⵖ.
+  check.license-hint: ⵔⵏⵓ ⵜⵓⵔⴰⴳⵜ ⴳ ⵓⴼⴰⵢⵍⵓ ⵏ ⵓⵎⵍⴰⵏ ⵙ ⵉⵣⵔⵉⵔⵉⴳⵏ «name@version
+    LICENSE-ID», ⵏⵖ ⵙⵙⵓⴷⵓ ⴰⵔⵣⵣⵓ ⴳ ⵓⵥⵟⵟⴰ.
+  notfound.title: ⵓⵔ ⵜⵜⵓⴼⴰ ⵜⵙⵏⴰ
+  notfound.body: ⵜⴰⵙⵏⴰ ⴰⴷ ⵓⵔ ⵜⵍⵍⵉ. ⴰⵔⵎ ⵜⴰⵙⴷⵍⵉⵙⵜ ⵏ ⵜⵓⵔⴰⴳⵉⵏ.
+  domain.education: ⴰⵙⵙⵍⵎⴷ
+  domain.design: ⵜⵉⵍⵖⵉⵡⵉⵏ ⵏ ⵉⵙⴽⴽⵉⵍⵏ ⴷ ⵓⵙⵏⴼⵍⵓⵍ

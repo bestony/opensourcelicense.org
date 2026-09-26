@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 2101ba94160528a0
+summary: "Alibaba'nın en büyük Qwen modelleri için model lisansı: atıfla ticari
+  kullanıma izin verilir; aylık 100 milyonun üzerinde aktif kullanıcıda ayrı
+  lisans gerekir."
+analogy: Ücretsiz bir motor; çok büyük otomobil üreticileri için özel bir sözleşmeyle.
+pros:
+  - Çoğu kullanıcı için ticari kullanım
+  - Güçlü çok dilli modeller
+cons:
+  - Açık kaynak değil
+  - Kullanıcı eşiği
