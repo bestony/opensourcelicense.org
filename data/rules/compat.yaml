@@ -12,6 +12,8 @@ classes:
   sspl: [sspl-1.0]
   source-available: [busl-1.1, bsl-1.1, elv2, elastic-2.0]
   noncommercial: [cc-by-nc-4.0]
+  share-alike-data: [odbl-1.0]
+  attribution-data: [cc-by-4.0, odc-by-1.0]
 
 rules:
   permissive:
@@ -38,3 +40,9 @@ rules:
     note: Source-available terms cannot be relicensed as open source.
   noncommercial:
     allow: [cc-by-nc-4.0]
+  share-alike-data:
+    allow: [odbl-1.0]
+    note: Derivative databases must stay under ODbL.
+  attribution-data:
+    allow: "*"
+    note: Keep the attribution notice.

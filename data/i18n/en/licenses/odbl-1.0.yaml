@@ -1,0 +1,13 @@
+reviewed: true
+summary: "Share-alike for databases: you may use the data commercially, but
+  public derivative databases must stay under the ODbL. Produced works such as
+  maps or images only need attribution."
+analogy: Build on the shared map, and if you publish an improved map database,
+  share it back under the same terms.
+pros:
+  - Keeps improved databases open
+  - Commercial use allowed
+  - Proven by OpenStreetMap
+cons:
+  - Share-alike can block mixing with other data
+  - '"Derivative database" is sometimes unclear'

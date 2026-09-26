@@ -1,5 +1,5 @@
 reviewed: false
-sourceHash: 63feb6d0b2ecbcea
+sourceHash: cf07449a9c3b7eaf
 title: 微调后换名闭源发布
 actor: other
 cells:
@@ -7,3 +7,5 @@ cells:
   openrail-m: 须传递使用限制
   cc-by-4.0: 署名
   cc-by-nc-4.0: 仅限非商用
+  odc-by-1.0: 署名
+  odbl-1.0: 衍生数据库须保持 ODbL

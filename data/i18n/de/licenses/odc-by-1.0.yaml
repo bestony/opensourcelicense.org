@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 7c50fe5f1b7f3c7d
+summary: "Für Datenbanken und Datensätze: jede Nutzung, auch kommerziell,
+  solange der Namensnennungshinweis erhalten bleibt. Auch aus den Daten erzeugte
+  Werke brauchen einen Hinweis."
+analogy: Nutzen Sie die Kartendaten überall – geben Sie nur die Quelle an.
+pros:
+  - Einfache Namensnennungsregel
+  - Verbreitet bei großen KI-Trainingskorpora
+  - Deckt Datenbankrechte ab, nicht nur Urheberrecht
+cons:
+  - Nicht für Software gedacht
+  - Keine Patentlizenz

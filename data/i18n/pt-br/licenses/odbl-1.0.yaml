@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 6a4054dc9cca8e7e
+summary: "Compartilhamento pela mesma licença para bancos de dados: o uso
+  comercial é permitido, mas bancos de dados derivados públicos devem continuar
+  sob ODbL. Obras produzidas, como mapas ou imagens, exigem só atribuição."
+analogy: Construa sobre o mapa compartilhado e, se publicar um banco de dados
+  melhorado, devolva-o nas mesmas condições.
+pros:
+  - Mantém abertos os bancos de dados melhorados
+  - Permite uso comercial
+  - Comprovada pelo OpenStreetMap
+cons:
+  - O compartilhamento obrigatório pode impedir a mistura com outros dados
+  - '"Banco de dados derivado" às vezes é ambíguo'

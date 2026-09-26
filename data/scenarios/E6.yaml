@@ -14,3 +14,7 @@ cells:
     verdict: deny
   cc-by-nc-4.0:
     verdict: conditional
+  odc-by-1.0:
+    verdict: deny
+  odbl-1.0:
+    verdict: deny

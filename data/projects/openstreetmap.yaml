@@ -1,0 +1,9 @@
+name: OpenStreetMap data
+domain: data
+owner: foundation
+ownerName: OpenStreetMap Foundation
+homepage: https://www.openstreetmap.org/copyright
+current:
+  - odbl-1.0
+tags:
+  - dataset

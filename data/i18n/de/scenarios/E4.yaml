@@ -1,5 +1,5 @@
 reviewed: false
-sourceHash: 63feb6d0b2ecbcea
+sourceHash: cf07449a9c3b7eaf
 title: Feinabgestimmt, umbenannt und als geschlossene Gewichte veröffentlicht
 actor: other
 cells:
@@ -7,3 +7,5 @@ cells:
   openrail-m: Nutzungsbeschränkungen müssen weitergegeben werden
   cc-by-4.0: Namensnennung
   cc-by-nc-4.0: Nur nicht kommerziell
+  odc-by-1.0: Namensnennung
+  odbl-1.0: Abgeleitete Datenbanken bleiben unter ODbL

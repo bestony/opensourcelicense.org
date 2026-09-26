@@ -1,5 +1,5 @@
 reviewed: false
-sourceHash: 63feb6d0b2ecbcea
+sourceHash: cf07449a9c3b7eaf
 title: 微調後換名閉源釋出
 actor: other
 cells:
@@ -7,3 +7,5 @@ cells:
   openrail-m: 須傳遞使用限制
   cc-by-4.0: 署名
   cc-by-nc-4.0: 僅限非商用
+  odc-by-1.0: 署名
+  odbl-1.0: 衍生資料庫須保持 ODbL

@@ -1,0 +1,10 @@
+name: OpenCorporates data
+domain: data
+owner: company
+ownerName: OpenCorporates
+homepage: https://opencorporates.com/info/licence
+current:
+  - odbl-1.0
+tags:
+  - dataset
+needsReview: true

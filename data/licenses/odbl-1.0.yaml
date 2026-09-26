@@ -1,0 +1,24 @@
+spdx: ODbL-1.0
+name: Open Data Commons Open Database License v1.0
+shortName: ODbL-1.0
+family: content
+osi: false
+fsf: true
+matrices:
+  - model
+hasText: true
+updatedAt: 2026-09-26
+officialTexts: {}
+permissions:
+  - commercial-use
+  - modification
+  - distribution
+  - private-use
+conditions:
+  - attribution
+  - same-license
+  - disclose-source
+limitations:
+  - liability
+  - warranty
+textUrl: https://opendatacommons.org/licenses/odbl/1-0/

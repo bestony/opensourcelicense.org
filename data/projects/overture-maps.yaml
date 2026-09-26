@@ -1,0 +1,10 @@
+name: Overture Maps (ODbL themes)
+domain: data
+owner: foundation
+ownerName: Overture Maps Foundation
+homepage: https://docs.overturemaps.org/attribution/
+current:
+  - odbl-1.0
+tags:
+  - dataset
+needsReview: true

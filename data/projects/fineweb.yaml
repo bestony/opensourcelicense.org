@@ -1,0 +1,9 @@
+name: FineWeb
+domain: data
+owner: company
+ownerName: Hugging Face
+hf: HuggingFaceFW/fineweb
+current:
+  - odc-by-1.0
+tags:
+  - dataset

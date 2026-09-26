@@ -1,5 +1,5 @@
 reviewed: false
-sourceHash: 63feb6d0b2ecbcea
+sourceHash: cf07449a9c3b7eaf
 title: Se ajusta, se renombra y se publica como pesos cerrados
 actor: other
 cells:
@@ -7,3 +7,5 @@ cells:
   openrail-m: Debe transmitir las restricciones de uso
   cc-by-4.0: Atribución
   cc-by-nc-4.0: Solo uso no comercial
+  odc-by-1.0: Atribución
+  odbl-1.0: Las bases de datos derivadas siguen bajo ODbL

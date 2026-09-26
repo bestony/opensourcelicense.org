@@ -14,3 +14,11 @@ cells:
     verdict: allow
   cc-by-nc-4.0:
     verdict: deny
+  odc-by-1.0:
+    verdict: conditional
+    clause:
+      ref: §4.2 Notices
+  odbl-1.0:
+    verdict: conditional
+    clause:
+      ref: §4.4 Share alike

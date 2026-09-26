@@ -1,5 +1,5 @@
 reviewed: false
-sourceHash: efc2f2f54594209c
+sourceHash: c77fe673047b3249
 title: 증류 또는 출력으로 다른 모델 학습
 actor: other
 cells:
@@ -7,3 +7,5 @@ cells:
   openrail-m: 파생물이 제한을 승계
   cc-by-4.0: 저작자 표시
   cc-by-nc-4.0: 비상업적 용도만
+  odc-by-1.0: 저작자 표시
+  odbl-1.0: 저작자 표시

@@ -1,8 +1,10 @@
 reviewed: false
-sourceHash: 5c7341acca9deb52
+sourceHash: f0c9cce615351c87
 title: Un jeu de données est utilisé commercialement et redistribué
 actor: other
 cells:
   llama: Sans objet
   openrail-m: Sans objet
   cc-by-4.0: Attribution
+  odc-by-1.0: Attribution
+  odbl-1.0: Les bases dérivées restent sous ODbL

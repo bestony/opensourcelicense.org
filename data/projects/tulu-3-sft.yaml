@@ -1,0 +1,9 @@
+name: Tülu 3 SFT mixture
+domain: data
+owner: foundation
+ownerName: Allen Institute for AI
+hf: allenai/tulu-3-sft-mixture
+current:
+  - odc-by-1.0
+tags:
+  - dataset

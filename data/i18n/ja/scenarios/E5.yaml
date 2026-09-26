@@ -1,8 +1,10 @@
 reviewed: false
-sourceHash: 5c7341acca9deb52
+sourceHash: f0c9cce615351c87
 title: データセットが商用利用され再配布される
 actor: other
 cells:
   llama: 該当しない
   openrail-m: 該当しない
   cc-by-4.0: クレジット表示
+  odc-by-1.0: クレジット表示
+  odbl-1.0: 派生データベースは ODbL のまま

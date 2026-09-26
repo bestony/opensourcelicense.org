@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 7c50fe5f1b7f3c7d
+summary: "Pour les bases et jeux de données : tout usage, y compris commercial,
+  à condition de conserver la mention d'attribution. Les œuvres produites à
+  partir des données demandent aussi une mention."
+analogy: Utilisez les données cartographiques où vous voulez, en indiquant
+  simplement leur source.
+pros:
+  - Règle d'attribution simple
+  - Courante pour les grands corpus d'entraînement d'IA
+  - Couvre le droit des bases de données, pas seulement le droit d'auteur
+cons:
+  - Pas conçue pour le logiciel
+  - Aucune licence de brevets

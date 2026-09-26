@@ -1,0 +1,15 @@
+reviewed: false
+sourceHash: 6a4054dc9cca8e7e
+summary: "Partage à l'identique pour les bases de données : l'usage commercial
+  est permis, mais les bases dérivées publiées doivent rester sous ODbL. Les
+  œuvres produites, comme des cartes ou des images, n'exigent qu'une
+  attribution."
+analogy: Construisez sur la carte commune et, si vous publiez une base
+  améliorée, partagez-la aux mêmes conditions.
+pros:
+  - Garde ouvertes les bases améliorées
+  - Usage commercial autorisé
+  - Éprouvée par OpenStreetMap
+cons:
+  - Le partage à l'identique peut empêcher de mélanger avec d'autres données
+  - La notion de « base dérivée » est parfois floue

@@ -1,8 +1,10 @@
 reviewed: false
-sourceHash: 5c7341acca9deb52
+sourceHash: f0c9cce615351c87
 title: Un conjunto de datos se usa comercialmente y se redistribuye
 actor: other
 cells:
   llama: No aplica
   openrail-m: No aplica
   cc-by-4.0: Atribución
+  odc-by-1.0: Atribución
+  odbl-1.0: Las bases de datos derivadas siguen bajo ODbL

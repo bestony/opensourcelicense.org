@@ -1,8 +1,10 @@
 reviewed: false
-sourceHash: 5c7341acca9deb52
+sourceHash: f0c9cce615351c87
 title: Ein Datensatz wird kommerziell genutzt und weiterverbreitet
 actor: other
 cells:
   llama: Nicht anwendbar
   openrail-m: Nicht anwendbar
   cc-by-4.0: Namensnennung
+  odc-by-1.0: Namensnennung
+  odbl-1.0: Abgeleitete Datenbanken bleiben unter ODbL

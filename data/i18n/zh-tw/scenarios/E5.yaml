@@ -1,8 +1,10 @@
 reviewed: false
-sourceHash: 5c7341acca9deb52
+sourceHash: f0c9cce615351c87
 title: 資料集被商用並再分發
 actor: other
 cells:
   llama: 不適用
   openrail-m: 不適用
   cc-by-4.0: 署名
+  odc-by-1.0: 署名
+  odbl-1.0: 衍生資料庫須保持 ODbL

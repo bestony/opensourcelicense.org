@@ -19,3 +19,7 @@ cells:
     verdict: deny
     clause:
       ref: §1(i) NonCommercial
+  odc-by-1.0:
+    verdict: allow
+  odbl-1.0:
+    verdict: allow

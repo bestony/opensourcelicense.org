@@ -1,5 +1,5 @@
 reviewed: false
-sourceHash: efc2f2f54594209c
+sourceHash: c77fe673047b3249
 title: Destillation oder Training anderer Modelle mit seinen Ausgaben
 actor: other
 cells:
@@ -7,3 +7,5 @@ cells:
   openrail-m: Ableitungen übernehmen die Einschränkungen
   cc-by-4.0: Namensnennung
   cc-by-nc-4.0: Nur nicht kommerziell
+  odc-by-1.0: Namensnennung
+  odbl-1.0: Namensnennung

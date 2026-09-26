@@ -1,0 +1,15 @@
+reviewed: false
+sourceHash: 6a4054dc9cca8e7e
+summary: "Share-alike für Datenbanken: kommerzielle Nutzung ist erlaubt, aber
+  veröffentlichte abgeleitete Datenbanken müssen unter der ODbL bleiben.
+  Erzeugte Werke wie Karten oder Bilder brauchen nur eine Namensnennung."
+analogy: Bauen Sie auf der gemeinsamen Karte auf, und wenn Sie eine verbesserte
+  Kartendatenbank veröffentlichen, geben Sie sie zu denselben Bedingungen
+  zurück.
+pros:
+  - Hält verbesserte Datenbanken offen
+  - Kommerzielle Nutzung erlaubt
+  - Bewährt bei OpenStreetMap
+cons:
+  - Share-alike kann das Mischen mit anderen Daten verhindern
+  - „Abgeleitete Datenbank“ ist manchmal unklar

@@ -1,0 +1,22 @@
+spdx: ODC-By-1.0
+name: Open Data Commons Attribution License v1.0
+shortName: ODC-By-1.0
+family: content
+osi: false
+fsf: unknown
+matrices:
+  - model
+hasText: true
+updatedAt: 2026-09-26
+officialTexts: {}
+permissions:
+  - commercial-use
+  - modification
+  - distribution
+  - private-use
+conditions:
+  - attribution
+limitations:
+  - liability
+  - warranty
+textUrl: https://opendatacommons.org/licenses/by/1-0/

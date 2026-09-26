@@ -566,3 +566,26 @@
   expect:
     - gpl-3.0
     - agpl-3.0
+- id: dataset-share-alike
+  profile:
+    artifact_type: dataset
+    openness_level: reciprocal
+    adoption_goal: community
+    avoid: []
+    dependencies: []
+  expect:
+    - odbl-1.0
+  note: OpenStreetMap-style share-alike database
+- id: dataset-ai-corpus
+  profile:
+    artifact_type: dataset
+    openness_level: open
+    adoption_goal: enterprise
+    avoid: []
+    dependencies: []
+  expect:
+    - cc-by-4.0
+    - odc-by-1.0
+    - apache-2.0
+    - mit
+  note: Attribution-only corpus (FineWeb/Dolma style)

@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 6a4054dc9cca8e7e
+summary: "Compartir igual para bases de datos: puedes usar los datos
+  comercialmente, pero las bases de datos derivadas públicas deben seguir bajo
+  ODbL. Las obras producidas, como mapas o imágenes, solo requieren atribución."
+analogy: Construye sobre el mapa compartido y, si publicas una base de datos
+  mejorada, compártela con las mismas condiciones.
+pros:
+  - Mantiene abiertas las bases de datos mejoradas
+  - Permite el uso comercial
+  - Probada por OpenStreetMap
+cons:
+  - El compartir igual puede impedir mezclar con otros datos
+  - '"Base de datos derivada" a veces no está clara'

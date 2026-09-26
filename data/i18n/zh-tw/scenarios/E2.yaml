@@ -1,5 +1,5 @@
 reviewed: false
-sourceHash: efc2f2f54594209c
+sourceHash: c77fe673047b3249
 title: 蒸餾/用輸出訓練其他模型
 actor: other
 cells:
@@ -7,3 +7,5 @@ cells:
   openrail-m: 衍生須繼承限制
   cc-by-4.0: 署名
   cc-by-nc-4.0: 僅限非商用
+  odc-by-1.0: 署名
+  odbl-1.0: 署名

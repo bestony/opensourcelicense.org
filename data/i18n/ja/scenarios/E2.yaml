@@ -1,5 +1,5 @@
 reviewed: false
-sourceHash: efc2f2f54594209c
+sourceHash: c77fe673047b3249
 title: 蒸留、または出力を使った他モデルの学習
 actor: other
 cells:
@@ -7,3 +7,5 @@ cells:
   openrail-m: 派生物は制限を引き継ぐ
   cc-by-4.0: クレジット表示
   cc-by-nc-4.0: 非営利のみ
+  odc-by-1.0: クレジット表示
+  odbl-1.0: クレジット表示

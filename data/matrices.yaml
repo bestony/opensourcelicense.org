@@ -24,5 +24,7 @@
     - openrail-m
     - cc-by-4.0
     - cc-by-nc-4.0
+    - odc-by-1.0
+    - odbl-1.0
   groups:
     - id: E

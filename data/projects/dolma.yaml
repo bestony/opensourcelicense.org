@@ -1,0 +1,9 @@
+name: Dolma
+domain: data
+owner: foundation
+ownerName: Allen Institute for AI
+hf: allenai/dolma
+current:
+  - odc-by-1.0
+tags:
+  - dataset

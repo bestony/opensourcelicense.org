@@ -1,0 +1,9 @@
+name: C4 (AllenAI release)
+domain: data
+owner: foundation
+ownerName: Allen Institute for AI
+hf: allenai/c4
+current:
+  - odc-by-1.0
+tags:
+  - dataset

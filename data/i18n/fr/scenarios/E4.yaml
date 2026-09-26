@@ -1,5 +1,5 @@
 reviewed: false
-sourceHash: 63feb6d0b2ecbcea
+sourceHash: cf07449a9c3b7eaf
 title: Affiné, renommé et publié sous forme de poids fermés
 actor: other
 cells:
@@ -7,3 +7,5 @@ cells:
   openrail-m: Doit transmettre les restrictions d'usage
   cc-by-4.0: Attribution
   cc-by-nc-4.0: Usage non commercial uniquement
+  odc-by-1.0: Attribution
+  odbl-1.0: Les bases dérivées restent sous ODbL

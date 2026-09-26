@@ -1,5 +1,5 @@
 reviewed: false
-sourceHash: 63feb6d0b2ecbcea
+sourceHash: cf07449a9c3b7eaf
 title: ファインチューニングして名前を変え、クローズドな重みとして公開する
 actor: other
 cells:
@@ -7,3 +7,5 @@ cells:
   openrail-m: 利用制限を引き継ぐ必要あり
   cc-by-4.0: クレジット表示
   cc-by-nc-4.0: 非営利のみ
+  odc-by-1.0: クレジット表示
+  odbl-1.0: 派生データベースは ODbL のまま

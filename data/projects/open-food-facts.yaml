@@ -1,0 +1,9 @@
+name: Open Food Facts database
+domain: data
+owner: community
+ownerName: Open Food Facts
+homepage: https://world.openfoodfacts.org/data
+current:
+  - odbl-1.0
+tags:
+  - dataset

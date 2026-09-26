@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 7c50fe5f1b7f3c7d
+summary: "Para bancos de dados e conjuntos de dados: qualquer uso, inclusive
+  comercial, desde que o aviso de atribuição seja mantido. Obras produzidas com
+  os dados também precisam de aviso."
+analogy: Use os dados do mapa onde quiser; basta dizer de onde vieram.
+pros:
+  - Regra simples de atribuição
+  - Comum em grandes corpora de treino de IA
+  - Cobre direitos sobre bases de dados, não só copyright
+cons:
+  - Não foi feita para software
+  - Não concede patentes

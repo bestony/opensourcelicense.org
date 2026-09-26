@@ -1,5 +1,5 @@
 reviewed: false
-sourceHash: efc2f2f54594209c
+sourceHash: c77fe673047b3249
 title: Destilación o entrenamiento de otros modelos con sus salidas
 actor: other
 cells:
@@ -7,3 +7,5 @@ cells:
   openrail-m: Los derivados heredan las restricciones
   cc-by-4.0: Atribución
   cc-by-nc-4.0: Solo uso no comercial
+  odc-by-1.0: Atribución
+  odbl-1.0: Atribución

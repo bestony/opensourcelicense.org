@@ -1,0 +1,11 @@
+reviewed: true
+summary: "For databases and datasets: any use, including commercial, if you keep
+  the attribution notice. Works you produce from the data need a notice too."
+analogy: Use the map data anywhere, just say where it came from.
+pros:
+  - Simple attribution rule
+  - Common for large AI training corpora
+  - Covers database rights, not only copyright
+cons:
+  - Not designed for software
+  - No patent grant

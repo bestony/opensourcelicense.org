@@ -1,0 +1,9 @@
+name: OpenFlights data
+domain: data
+owner: community
+ownerName: OpenFlights
+homepage: https://openflights.org/data
+current:
+  - odbl-1.0
+tags:
+  - dataset
