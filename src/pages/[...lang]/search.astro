@@ -1,0 +1,45 @@
+---
+import Layout from "@/layouts/main.astro";
+import PageHeader from "@/components/site/PageHeader.astro";
+import type { Locale } from "@/lib/i18n";
+import { localeStaticPaths, pageContext } from "@/lib/page";
+
+export const getStaticPaths = localeStaticPaths;
+const { locale } = Astro.props as { locale: Locale };
+const { t } = pageContext(locale);
+---
+
+<Layout locale={locale} title={t("common.search")} noindex>
+  <PageHeader title={t("common.search")} lead={t("search.lead")} />
+  <div id="search" data-pagefind-ignore></div>
+  <noscript><p>{t("search.noscript")}</p></noscript>
+</Layout>
+
+<link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
+<style is:global>
+  #search {
+    --pagefind-ui-primary: var(--primary);
+    --pagefind-ui-text: var(--foreground);
+    --pagefind-ui-background: var(--background);
+    --pagefind-ui-border: var(--border);
+    --pagefind-ui-tag: var(--muted);
+    --pagefind-ui-border-radius: 0;
+    --pagefind-ui-font: inherit;
+  }
+</style>
+<script is:inline>
+  (function () {
+    var s = document.createElement("script");
+    s.src = "/pagefind/pagefind-ui.js";
+    s.onload = function () {
+      var q = new URLSearchParams(location.search).get("q") || "";
+      // eslint-disable-next-line no-undef
+      var ui = new PagefindUI({ element: "#search", showSubResults: true, resetStyles: false });
+      if (q) ui.triggerSearch(q);
+    };
+    s.onerror = function () {
+      document.getElementById("search").textContent = "Search index is not available in dev mode. Run a production build.";
+    };
+    document.head.appendChild(s);
+  })();
+</script>

@@ -17,6 +17,7 @@ const nav = [
   ["/wizard", "nav.wizard"],
   ["/chat", "nav.chat"],
   ["/check", "nav.check"],
+  ["/search", "common.search"],
 ] as const;
 const active = (p: string) => path === p || path.startsWith(`${p}/`);
 ---
