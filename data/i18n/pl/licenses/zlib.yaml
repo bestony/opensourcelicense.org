@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cec538ff11fd0ee8
+summary: "Licencja permisywna: zmieniony kod źródłowy trzeba oznaczyć jako
+  zmieniony, nie wolno przeinaczać pochodzenia, a informacja pozostaje w kopiach
+  źródłowych."
+analogy: Pożycz przepis, ale jeśli go zmienisz, nie twierdź, że to oryginał.
+pros:
+  - Permisywna i krótka
+  - Popularna w grach i bibliotekach natywnych
+cons:
+  - Brak licencji patentowej
+  - Zamknięte forki są dozwolone

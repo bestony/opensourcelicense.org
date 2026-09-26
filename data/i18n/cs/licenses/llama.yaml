@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 4803251a37336702
+summary: "Vlastní licence modelu: komerční užití povoleno, s Acceptable Use
+  Policy, pravidly pro uvedení autorství a pojmenování a samostatnou licencí nad
+  700 mil. měsíčně aktivních uživatelů."
+analogy: Motor k volnému užití s řádem a zvláštní smlouvou pro úplně největší
+  automobilky.
+pros:
+  - Komerční užití povoleno pro většinu uživatelů
+  - Velký ekosystém
+cons:
+  - Není open source podle OSI
+  - Povinnosti ze zásad užití a pojmenování
+  - Podmínky se mezi verzemi mění

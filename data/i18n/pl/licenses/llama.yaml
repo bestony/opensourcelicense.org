@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 4803251a37336702
+summary: "Własna licencja modelu: użytek komercyjny dozwolony, z Acceptable Use
+  Policy, zasadami uznania autorstwa i nazewnictwa oraz osobną licencją powyżej
+  700 mln aktywnych użytkowników miesięcznie."
+analogy: Darmowy silnik z regulaminem i specjalną umową dla największych
+  producentów aut.
+pros:
+  - Użytek komercyjny dozwolony dla większości użytkowników
+  - Duży ekosystem
+cons:
+  - Nie jest open source według OSI
+  - Obowiązki wynikające z zasad użytkowania i nazewnictwa
+  - Warunki zmieniają się między wersjami

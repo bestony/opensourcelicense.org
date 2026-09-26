@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 261d8b56fb436858
+summary: "Podobně jako MIT: používejte kód volně; ve zdrojových i binárních
+  kopiích zachovejte informaci o autorských právech a vyloučení odpovědnosti."
+analogy: "Kartička s receptem zdarma: kopírujte ji kamkoli, jen dole nechte
+  řádek s autorem."
+pros:
+  - Velmi krátká a permisivní
+  - Hojně používaná v systémech BSD
+cons:
+  - Žádná patentová licence
+  - Uzavřené forky jsou povoleny

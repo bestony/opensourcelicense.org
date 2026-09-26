@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 2388a1183d57050c
+summary: "Wolna licencja na fonty: swobodnie używaj, osadzaj i modyfikuj fonty,
+  ale zmodyfikowane fonty muszą porzucić zastrzeżone nazwy, a samych fontów nie
+  wolno sprzedawać osobno."
+analogy: Używaj kroju pisma wszędzie, ale nie sprzedawaj samego pliku fontu.
+pros:
+  - Pozwala osadzać fonty w dokumentach i aplikacjach
+  - Standard dla otwartych fontów
+cons:
+  - Zastrzeżone nazwy fontów utrudniają forki
+  - Tylko dla fontów

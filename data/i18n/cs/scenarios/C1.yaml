@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 4f30616160bfe68b
+actor: you
+title: Později změníte licenci nebo prodáváte komerční licence (přispěvatelé
+  nepodepsali CLA)
+cells:
+  mit: Nové verze se mohou změnit; staré zůstávají
+  bsd-3-clause: Stejně jako MIT
+  apache-2.0: Stejně jako MIT
+  mpl-2.0: Soubory pod MPL musí zůstat pod MPL
+  lgpl-3.0: Vyžaduje souhlas všech přispěvatelů
+  mulanpsl-2.0: Stejně jako MIT
+  busl-1.1: Obvykle se opírá o CLA
+  elv2: Obvykle se opírá o CLA

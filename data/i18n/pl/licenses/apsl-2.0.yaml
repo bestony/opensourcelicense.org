@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 3440c6c6f7e1c94d
+summary: "Copyleft na poziomie pliku od Apple: zmodyfikowane objęte pliki trzeba
+  opublikować, także przy zewnętrznym wdrożeniu jako usługa. Niezgodna z GPL."
+analogy: Udostępnij zmiany w pożyczonym pliku, nawet jeśli tylko serwujesz wynik.
+pros:
+  - Obejmuje wdrożenie zewnętrzne
+  - Licencja patentowa
+cons:
+  - Niezgodna z GPL
+  - Stosowana głównie w projektach open source Apple

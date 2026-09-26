@@ -1,0 +1,7 @@
+reviewed: false
+sourceHash: d774574ea30fc483
+actor: other
+title: Внутрішня модифікація без розповсюдження та зовнішнього сервісу
+cells:
+  agpl-3.0: Взаємодія користувачів в інтранеті — спірне питання
+  busl-1.1: Залежить від Additional Use Grant

@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 637c87bc846f9159
+summary: Licencja permisywna z wyraźną licencją patentową, klauzulą odwetu
+  patentowego i wymogiem oznaczania zmienionych plików.
+analogy: Darmowy zestaw narzędzi z obietnicą, że nikt Cię nie pozwie o jego
+  patenty — chyba że sam pozwiesz pierwszy.
+pros:
+  - Wyraźna licencja patentowa od każdego kontrybutora
+  - Preferowana przez wiele firm i fundacji
+  - Chroni znaki towarowe
+cons:
+  - Dłuższa; obsługa pliku NOTICE
+  - Niezgodna z GPL-2.0-only
+  - Nie powstrzymuje konkurencji hostującej usługę

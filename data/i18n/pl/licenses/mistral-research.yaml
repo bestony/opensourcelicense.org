@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 92115efde43878b6
+summary: Wagi wyłącznie do badań i użytku osobistego; każdy użytek komercyjny
+  lub produkcyjny wymaga licencji komercyjnej od Mistral AI.
+analogy: "Książka z biblioteki: czytaj ją i studiuj, ale nie odsprzedawaj."
+pros:
+  - Otwarte wagi do badań
+  - Pozwala na modyfikacje w celach badawczych
+cons:
+  - Brak użytku komercyjnego
+  - To nie jest open source

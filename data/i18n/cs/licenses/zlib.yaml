@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: cec538ff11fd0ee8
+summary: "Permisivní licence: změněný zdrojový kód musí být označen jako
+  změněný, původ nesmí být zkreslen a upozornění zůstává ve zdrojových kopiích."
+analogy: Vypůjčte si recept, ale když ho změníte, netvrďte, že je to originál.
+pros:
+  - Permisivní a krátká
+  - Oblíbená u her a nativních knihoven
+cons:
+  - Žádná patentová licence
+  - Uzavřené forky jsou povoleny

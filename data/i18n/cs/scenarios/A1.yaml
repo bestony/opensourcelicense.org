@@ -1,0 +1,9 @@
+reviewed: false
+sourceHash: 883d4cd50ee79a28
+actor: other
+title: Cloudový poskytovatel prodává váš projekt jako spravovanou službu
+cells:
+  gpl-3.0: Nejde o šíření
+  agpl-3.0: Musí zveřejnit úpravy
+  sspl-1.0: Musí zveřejnit celý stack služby
+  busl-1.1: Pokud to nepovoluje Additional Use Grant

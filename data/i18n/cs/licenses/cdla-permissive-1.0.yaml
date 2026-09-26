@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 97ea126725162df2
+summary: "Permisivní datová licence od Linux Foundation: data volně používejte a
+  sdílejte; výsledky jako natrénované modely nejsou omezeny."
+analogy: Použijte datovou sadu k čemukoli; při předávání dat přiložte smlouvu.
+pros:
+  - Výslovně uvolňuje výpočetní výsledky
+  - Napsána pro data
+cons:
+  - Méně známá než licence CC
+  - Verze 2.0 je jednodušší

@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 5941dce0a6108d60
+summary: Slabý copyleft na úrovni modulu s patentovou licencí; kvůli
+  kompatibilitě může uvést GPL jako sekundární licenci.
+analogy: Sdílejte své změny vypůjčené kapitoly; zbytek knihy je váš.
+pros:
+  - Copyleft přívětivý k byznysu
+  - Patentová licence
+cons:
+  - Kompatibilita s GPL jen s deklarovanou sekundární licencí
+  - Hranice modulů mohou být nejasné

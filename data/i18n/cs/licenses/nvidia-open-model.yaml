@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 38b4b3f3e07a3e99
+summary: "Licence modelu umožňující komerční užití: odvozená díla povolena,
+  NVIDIA si nenárokuje práva k výstupům, ale vestavěné bezpečnostní ochrany se
+  nesmí obcházet."
+analogy: Motor zdarma, ze kterého nesmíte odstranit bezpečnostní pásy.
+pros:
+  - Komerční užití povoleno
+  - Žádný nárok na výstupy
+cons:
+  - Není open source
+  - Ustanovení o ochranách vyžaduje pozornost

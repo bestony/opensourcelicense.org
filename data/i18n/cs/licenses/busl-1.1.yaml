@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: ce104e1cd96e85b1
+summary: "Source-available: produkční užití omezuje Additional Use Grant a každá
+  verze po Change Date přechází na otevřenou licenci (max. 4 roky)."
+analogy: "Výloha obchodu: můžete se dívat a zkoušet a po několika letech je
+  zboží zdarma pro všechny."
+pros:
+  - Umožňuje kontrolovat komerční užití
+  - Kód se později stane open source
+cons:
+  - Není open source
+  - Podmínky Grant se liší projekt od projektu
+  - Může vyvolat forky

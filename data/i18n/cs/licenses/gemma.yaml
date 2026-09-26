@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: c826929f8a1baf2e
+summary: "Podmínky modelů Google: komerční užití povoleno, se zásadami
+  zakázaného užití, které přecházejí na každé odvozené dílo včetně destilovaných
+  modelů."
+analogy: Motor zdarma s řádem, který musí mít každý přestavěný motor.
+pros:
+  - Komerční užití bez limitu počtu uživatelů
+  - Jasná pravidla pro odvozená díla
+cons:
+  - Není open source podle OSI
+  - Google může zásady užití měnit

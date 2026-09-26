@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 97ea126725162df2
+summary: "Permisywna licencja na dane od Linux Foundation: swobodnie używaj i
+  udostępniaj dane; wyniki, np. wytrenowane modele, nie są ograniczone."
+analogy: Używaj zbioru danych do czegokolwiek; dołącz umowę, gdy przekazujesz
+  dane dalej.
+pros:
+  - Wyraźnie zwalnia wyniki obliczeń
+  - Napisana z myślą o danych
+cons:
+  - Mniej znana niż licencje CC
+  - Wersja 2.0 jest prostsza

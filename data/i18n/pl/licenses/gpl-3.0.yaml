@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 3ab9492f75e7adb0
+summary: "Silny copyleft: jeśli rozpowszechniasz oprogramowanie lub utwory
+  zależne, musisz udostępnić pełny kod źródłowy na GPL-3.0."
+analogy: "Przepis, który mówi: kto poda danie na jego podstawie, musi też rozdać
+  pełny przepis."
+pros:
+  - Utrzymuje wszystkie rozpowszechniane utwory zależne otwarte
+  - Licencja patentowa i ochrona przed tivoizacją
+  - Silna tradycja społeczności
+cons:
+  - Wiele firm jej unika
+  - Nie obejmuje SaaS (brak dystrybucji)
+  - Niezgodna z GPL-2.0-only

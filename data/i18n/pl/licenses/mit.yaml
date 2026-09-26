@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 33f06e1e52928136
+summary: Rób z kodem niemal wszystko. Zachowaj informację o prawach autorskich i
+  licencji. Brak gwarancji.
+analogy: "Jak zostawienie darmowej książki w kawiarni: weź ją, skopiuj,
+  sprzedaj, tylko zostaw nazwisko autora na okładce."
+pros:
+  - Krótka i powszechnie zrozumiała
+  - Najłatwiejsza do przyjęcia przez firmy
+  - Zgodna z niemal każdą inną licencją
+cons:
+  - Brak licencji patentowej
+  - Każdy może zbudować zamkniętego lub hostowanego konkurenta

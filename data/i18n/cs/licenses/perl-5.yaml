@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 4f54478806088c0d
+summary: "Duální licence Perlu: příjemci si vyberou Artistic License 1.0, nebo
+  GPL (verze 1 či novější)."
+analogy: Vyberte si ten ze dvou řádů, který vám vyhovuje.
+pros:
+  - Volba mezi téměř permisivními a copyleftovými podmínkami
+  - Standard pro moduly CPAN
+cons:
+  - Artistic 1.0 je vágní
+  - Žádná patentová licence

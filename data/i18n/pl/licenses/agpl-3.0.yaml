@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 1db86c42c600a813
+summary: "GPL-3.0 z dodatkowym zapisem sieciowym: użytkownikom korzystającym ze
+  zmodyfikowanej wersji przez sieć trzeba zaoferować jej kod źródłowy."
+analogy: "Zasada przepisu obowiązuje też restauracje: podanie dania liczy się
+  jako jego rozdawanie."
+pros:
+  - Zamyka lukę SaaS
+  - Dobra podstawa do podwójnego licencjonowania
+  - Open source zatwierdzony przez OSI
+cons:
+  - Wiele firm całkowicie jej zakazuje
+  - Hostowanie niezmodyfikowanej wersji nadal jest dozwolone

@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cb1197749de0ea7e
+summary: Pozwala swobodnie modyfikować i rozpowszechniać, ale zmodyfikowaną
+  wersję trzeba wyraźnie oznaczyć lub przemianować albo udostępnić jej kod
+  źródłowy. Zawiera postanowienia patentowe.
+analogy: Zrób remiks piosenki, ale nie sprzedawaj go jako oryginału.
+pros:
+  - Chroni tożsamość oryginału
+  - Zgodna z GPL
+cons:
+  - Rozwlekłe warunki
+  - Rzadka poza Raku i Perlem

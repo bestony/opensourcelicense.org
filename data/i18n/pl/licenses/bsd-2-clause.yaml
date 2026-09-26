@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 261d8b56fb436858
+summary: "Podobna do MIT: używaj kodu swobodnie; zachowaj informację o prawach
+  autorskich i wyłączenie odpowiedzialności w kopiach źródłowych i binarnych."
+analogy: "Darmowa karta z przepisem: kopiuj ją gdziekolwiek, tylko zostaw na
+  dole linijkę z autorem."
+pros:
+  - Bardzo krótka i permisywna
+  - Szeroko stosowana w systemach BSD
+cons:
+  - Brak licencji patentowej
+  - Zamknięte forki są dozwolone

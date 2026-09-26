@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: cf07449a9c3b7eaf
+actor: other
+title: Dostrojony, przemianowany i wydany jako zamknięte wagi
+cells:
+  llama: Musi dołączyć licencję i wyświetlać „Built with Llama”
+  openrail-m: Musi przekazać ograniczenia użytkowania
+  cc-by-4.0: Uznanie autorstwa
+  cc-by-nc-4.0: Tylko użytek niekomercyjny
+  odc-by-1.0: Uznanie autorstwa
+  odbl-1.0: Pochodne bazy danych pozostają na ODbL

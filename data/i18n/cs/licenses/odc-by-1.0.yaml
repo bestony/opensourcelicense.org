@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 7c50fe5f1b7f3c7d
+summary: "Pro databáze a datové sady: jakékoli užití včetně komerčního, pokud
+  zachováte informaci o autorství. Díla vytvořená z dat ji vyžadují také."
+analogy: Používejte mapová data kdekoli, jen uveďte, odkud pocházejí.
+pros:
+  - Jednoduché pravidlo uvedení autorství
+  - Běžná u velkých trénovacích korpusů pro AI
+  - Pokrývá práva k databázím, nejen autorské právo
+cons:
+  - Není určena pro software
+  - Žádná patentová licence

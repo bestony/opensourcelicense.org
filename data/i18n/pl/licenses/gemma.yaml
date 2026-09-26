@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: c826929f8a1baf2e
+summary: "Warunki modeli Google: użytek komercyjny dozwolony, z zasadami
+  zakazanych zastosowań przechodzącymi na każdy utwór zależny, w tym modele
+  destylowane."
+analogy: Darmowy silnik z regulaminem, który musi mieć każdy przebudowany silnik.
+pros:
+  - Użytek komercyjny bez progu liczby użytkowników
+  - Jasne zasady dla utworów zależnych
+cons:
+  - Nie jest open source według OSI
+  - Google może zmieniać zasady użytkowania

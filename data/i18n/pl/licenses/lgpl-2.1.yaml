@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 22649412ed3dbb5f
+summary: "Copyleft dla bibliotek: zmiany w bibliotece pozostają otwarte;
+  zamknięte programy mogą się z nią linkować, jeśli użytkownicy mogą ponownie
+  zlinkować zmodyfikowaną bibliotekę."
+analogy: Starsze wydanie wymiennego wspólnego silnika.
+pros:
+  - Pozwala aplikacjom własnościowym używać biblioteki
+  - Popularna w bibliotekach desktopowych i multimedialnych
+cons:
+  - Zasady ponownego linkowania są złożone
+  - Brak wyraźnej licencji patentowej

@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 5941dce0a6108d60
+summary: Słaby copyleft na poziomie modułu z licencją patentową; może wskazać
+  GPL jako licencję dodatkową dla zgodności.
+analogy: Udostępnij zmiany w pożyczonym rozdziale; reszta książki należy do Ciebie.
+pros:
+  - Copyleft przyjazny biznesowi
+  - Licencja patentowa
+cons:
+  - Zgodność z GPL tylko przy zadeklarowanej licencji dodatkowej
+  - Granice modułów bywają niejasne

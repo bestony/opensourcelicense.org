@@ -1,0 +1,356 @@
+reviewed: false
+sourceHash: a2d7eb045dde7649
+strings:
+  site.name: opensourcelicense.org
+  site.tagline: Nástroj pro výběr open source licence
+  site.description: Vybírejte, porovnávejte a prověřujte open source licence.
+    Podívejte se, jaké licence používají skutečné projekty, co se může pokazit a
+    co se hodí k vašemu projektu.
+  nav.home: Úvod
+  nav.licenses: Licence
+  nav.scenarios: Scénáře
+  nav.projects: Projekty
+  nav.trends: Trendy
+  nav.compare: Porovnat
+  nav.wizard: Průvodce
+  nav.chat: AI poradce
+  nav.check: Kontrola závislostí
+  nav.menu: Nabídka
+  lang.switch: Jazyk
+  lang.suggest: "Tato stránka je dostupná v jazyce: {language}."
+  lang.suggest.go: Přepnout
+  lang.suggest.dismiss: Zavřít
+  footer.disclaimer: Tento web poskytuje obecné informace, nikoli právní
+    poradenství. Při skutečném sporu nebo smlouvě se obraťte na právníka.
+  footer.source: Zdrojový kód (AGPL-3.0)
+  footer.data: Data pod licencí CC-BY-4.0
+  footer.report: Nahlásit chybu
+  footer.cite: Data z opensourcelicense.org, CC-BY-4.0
+  footer.hosting: Běží na bezplatném tarifu Cloudflare Workers
+  footer.dns: Doména hostovaná na Cloudflare
+  badge.machine: Strojový překlad
+  badge.reviewed: Zkontrolovaný překlad
+  badge.fallback: Zatím nepřeloženo — zobrazuje se anglická verze
+  badge.stale: může být zastaralé
+  badge.unreviewed-data: Koncept — zatím nezkontrolováno právníkem
+  common.updated: Data aktualizována {date}
+  common.back: Zpět
+  common.copy: Kopírovat
+  common.copied: Zkopírováno
+  common.download: Stáhnout
+  common.close: Zavřít
+  common.all: Vše
+  common.yes: Ano
+  common.no: Ne
+  common.unknown: Neznámé
+  common.none: Žádné
+  common.more: Více
+  common.loading: Načítání…
+  common.error: Něco se pokazilo.
+  common.search: Hledat
+  home.title: Vyberte si open source licenci s otevřenýma očima
+  home.lead: Nejen „jakou licenci zvolit“, ale také co zvolily podobné projekty,
+    jak vypadá nejhorší případ a co dělat dál.
+  home.entry.chat.title: Promluvte si s AI poradcem
+  home.entry.chat.body: Popište svůj projekt vlastními slovy. Získáte profil,
+    doplňující otázky a zprávu.
+  home.entry.projects.title: Podívejte se, co používají ostatní
+  home.entry.projects.body: Licence známých projektů a důvody, proč je některé změnily.
+  home.entry.wizard.title: Filtrujte krok za krokem
+  home.entry.wizard.body: Odpovězte na několik otázek a získejte seřazený a vysvětlený užší výběr.
+  home.wall: Licence populárních projektů
+  home.changes: Nedávné změny licencí
+  home.scenarios: Co se může pokazit?
+  home.scenarios.body: 27 extrémních scénářů × 17 sloupců licencí, jedna stránka pro každou buňku.
+  family.permissive: Permisivní
+  family.weak-copyleft: Slabý copyleft
+  family.strong-copyleft: Silný copyleft
+  family.network-copyleft: Síťový copyleft
+  family.source-available: Source-available (zdroj k nahlédnutí)
+  family.model: Licence modelu
+  family.content: Obsah / data
+  verdict.allow: Povoleno
+  verdict.conditional: S podmínkami
+  verdict.deny: Blokováno licencí
+  verdict.silent: Neupraveno
+  verdict.tbd: Posuzuje se
+  verdict.legend: "Legenda: ✓ druhá strana to může udělat · ◐ s podmínkami · ✗
+    licence to blokuje · — licence mlčí (platí obecné právo)"
+  actor.other: Dělá to někdo jiný
+  actor.you: Chcete to udělat vy
+  actor.contributor: Dělá to přispěvatel
+  actor.both: Platí pro obě strany
+  group.A: Komerční konkurence
+  group.B: Patenty a právo
+  group.C: Vývoj a byznys
+  group.D: Používání a dodržování
+  group.E: AI modely a data
+  matrix.code: Licence pro kód
+  matrix.model: Licence pro modely a data
+  term.commercial-use: Komerční užití
+  term.modification: Úpravy
+  term.distribution: Šíření
+  term.private-use: Soukromé užití
+  term.patent-use: Patentová licence
+  term.non-production-use: Neprodukční užití
+  term.converts-to-open-source: Později přechází na open source
+  term.include-copyright: Zachovat informaci o autorských právech
+  term.include-license: Přiložit licenci
+  term.document-changes: Označit změny
+  term.disclose-source: Zveřejnit zdrojový kód
+  term.same-license: Stejná licence pro odvozená díla
+  term.same-license-file: Stejná licence (na úrovni souboru)
+  term.same-license-library: Stejná licence (na úrovni knihovny)
+  term.allow-relinking: Umožnit opětovné slinkování
+  term.network-use-disclose: Užití přes síť je šíření
+  term.service-stack-disclose: Zveřejnit celý stack služby
+  term.keep-limitations: Zachovat omezení
+  term.attribution: Uvedení autorství
+  term.attribution-built-with: Zobrazit „Built with“
+  term.name-prefix: Pravidlo předpony názvu
+  term.acceptable-use-policy: Zásady přijatelného užití
+  term.use-restrictions-pass-through: Předávat omezení užití
+  term.indicate-changes: Uvést změny
+  term.liability: Bez odpovědnosti
+  term.warranty: Bez záruky
+  term.trademark-use: Bez práv k ochranným známkám
+  term.no-endorsement: Zákaz doporučování jménem autora
+  term.production-use-restricted: Omezené produkční užití
+  term.no-managed-service: Zákaz spravované služby
+  term.no-license-key-circumvention: Zákaz obcházení licenčních klíčů
+  term.mau-threshold: Limit počtu uživatelů
+  term.use-restrictions: Omezení užití
+  term.non-commercial: Pouze nekomerční užití
+  licenses.title: Přehled open source licencí
+  licenses.lead: "{count} licencí, od permisivních po source-available a licence AI modelů."
+  licenses.col.license: Licence
+  licenses.col.family: Rodina
+  licenses.col.osi: OSI
+  licenses.col.fsf: Svobodná dle FSF
+  licenses.col.projects: Projekty
+  licenses.filter: Filtrovat podle rodiny
+  license.permissions: Oprávnění
+  license.conditions: Podmínky
+  license.limitations: Omezení
+  license.summary: Jednoduše řečeno
+  license.analogy: Přirovnání
+  license.pros: Výhody
+  license.cons: Nevýhody
+  license.scenarios: Extrémní scénáře
+  license.radar: Radar nejhorších případů
+  license.projects: Známé projekty, které ji používají
+  license.projects.count: Tuto licenci používá {count} známých projektů na naší mapě.
+  license.projects.none: Tuto licenci zatím nepoužívá žádný projekt na naší mapě.
+  license.projects.since: "Přechod na ni: {date}"
+  license.projects.also: "Nabízeno také pod: {licenses}"
+  license.projects.former: Projekty, které od ní odešly
+  license.text: Oficiální text
+  license.text.official: "Oficiální text v jazyce: {language}"
+  license.text.note: Právně závazný je pouze oficiální text. Texty licencí nepřekládáme.
+  license.compare: Porovnat s…
+  license.spdx: Identifikátor SPDX
+  radar.anti-freeride: Brání černým pasažérům
+  radar.anti-closed-fork: Brání uzavřeným forkům
+  radar.patent: Patentová ochrana
+  radar.adoption-friction: Překážky při přijetí
+  radar.relicense-difficulty: Obtížnost změny licence
+  radar.misuse-control: Kontrola zneužití
+  radar.derivative-control: Kontrola odvozených děl
+  radar.commercial-control: Komerční kontrola
+  radar.note: Vypočteno z matice scénářů. Vyšší hodnota znamená více dané
+    vlastnosti, nikoli „lépe“.
+  scenarios.title: Matice extrémních scénářů licencí
+  scenarios.lead: Co se stane, když si vyberete licenci? Každá buňka odpovídá na
+    jednu otázku a má vlastní stránku.
+  scenarios.highlight: Zvýraznit licenci
+  scenarios.expand: Rozbalit vše
+  scenarios.collapse: Sbalit vše
+  scenarios.silent-note: Řádky obsahující jen „—“ jsou zde záměrně. Odpověď závisí
+    na pracovních smlouvách (C6), předpisech o kontrole vývozu (D5) nebo
+    probíhajících soudních sporech (D6), nikoli na licenci.
+  scenario.flow.you: Publikujete pod {license}
+  scenario.flow.they: Situace
+  scenario.flow.result: Výsledek
+  scenario.clause: Příslušné ustanovení
+  scenario.case: Skutečný případ
+  scenario.others: Stejný scénář, jiné licence
+  scenario.other-scenarios: Další scénáře pro {license}
+  scenario.no-clause: Žádné konkrétní ustanovení. Platí obecné právo.
+  scenario.review: Stav kontroly
+  scenario.review.none: Zatím nezkontrolováno právníkem.
+  scenario.review.done: Zkontroloval(a) {who} dne {date}.
+  compare.title: Porovnání open source licencí
+  compare.lead: Vyberte dvě nebo tři licence a porovnejte je ustanovení po
+    ustanovení a scénář po scénáři.
+  compare.pick: Přidat licenci
+  compare.remove: Odebrat
+  compare.terms: Podmínky
+  compare.scenarios: Scénáře
+  compare.empty: Vyberte alespoň dvě licence.
+  wizard.title: Průvodce výběrem licence
+  wizard.lead: Odpovězte na několik otázek. Pravidlový engine seřadí licence a
+    vysvětlí každý bod.
+  wizard.next: Další
+  wizard.prev: Zpět
+  wizard.finish: Zobrazit výsledek
+  wizard.restart: Začít znovu
+  wizard.skip: Přeskočit
+  wizard.step: Krok {n} z {total}
+  wizard.to-chat: Pokračovat s AI poradcem
+  q.artifact_type: Co vydáváte?
+  q.openness_level: Jak otevřené to má být?
+  q.avoid: Kterým situacím se chcete vyhnout?
+  q.avoid.hint: Vyberte libovolný počet.
+  q.adoption_goal: Co je nejdůležitější?
+  q.dependencies: Závisíte na copyleftovém kódu?
+  q.dependencies.hint: Přidejte SPDX identifikátory licencí závislostí, například GPL-3.0-only.
+  q.commercial_plan: Jak budete vydělávat, pokud vůbec?
+  q.jurisdiction: Kde sídlíte?
+  opt.artifact_type.library: Knihovnu nebo SDK
+  opt.artifact_type.application: Aplikaci nebo nástroj
+  opt.artifact_type.saas: Backend služby (SaaS)
+  opt.artifact_type.model: Váhy modelu
+  opt.artifact_type.dataset: Datovou sadu
+  opt.artifact_type.docs: Dokumentaci nebo obsah
+  opt.openness_level.open: Plně otevřené — kdokoli může cokoli
+  opt.openness_level.reciprocal: Otevřené, ale vylepšení se musí vracet
+  opt.openness_level.source-available: Zdrojový kód viditelný, komerční užití omezené
+  opt.avoid.cloud-hosting: Cloudoví poskytovatelé prodávající to jako službu
+  opt.avoid.closed-fork: Forky s uzavřeným kódem
+  opt.avoid.patent-litigation: Patentové žaloby
+  opt.avoid.trademark-abuse: Zneužití mého jména nebo značky
+  opt.avoid.harmful-use: Škodlivé užití
+  opt.avoid.big-company: Velké firmy, které to používají zdarma
+  opt.adoption_goal.enterprise: Maximální přijetí firmami
+  opt.adoption_goal.community: Příspěvky komunity
+  opt.adoption_goal.monetize: Vydělávat na tom
+  opt.commercial_plan.none: Žádný plán
+  opt.commercial_plan.dual-license: Duální licencování
+  opt.commercial_plan.open-core: Open core
+  opt.commercial_plan.hosted: Hostovaná služba
+  opt.jurisdiction.cn: Čína
+  opt.jurisdiction.eu: Evropská unie
+  opt.jurisdiction.us: Spojené státy
+  opt.jurisdiction.other: Jiné
+  engine.part.avoid: "Ochrana proti: {avoid}"
+  engine.part.openness: "Shoda s otevřeností: {openness}"
+  engine.part.adoption: "Cíl: {goal}"
+  engine.part.commercial: "Obchodní plán: {plan}"
+  engine.part.jurisdiction: "Jurisdikce: {jurisdiction}"
+  engine.part.dependency: "Kompatibilní jen s podmínkami: {dependency}"
+  engine.excluded.dependency: Nekompatibilní se závislostí {dependency}
+  engine.excluded.artifact: Nehodí se pro tento typ artefaktu
+  advisory.needs-cla: Používejte licenční smlouvu přispěvatele (CLA). Budete ji
+    potřebovat k prodeji komerčních licencí nebo k pozdější změně licence.
+  advisory.consider-dco: Obvykle stačí Developer Certificate of Origin (DCO, „Signed-off-by“).
+  advisory.busl-change-date: V hlavičce BSL nastavte Additional Use Grant, Change Date a Change License.
+  advisory.model-card: Uveďte licenci v metadatech karty modelu nebo datové sady (pole „license:“).
+  advisory.notice-file: Přidejte soubor NOTICE a při dalším šíření ho zachovejte.
+  advisory.consult-lawyer: Před vydáním nechte právníka zkontrolovat závislosti a obchodní podmínky.
+  advisory.network-source-link: Zobrazte uživatelům své síťové služby odkaz „Zdrojový kód“.
+  report.title: Vaše licenční zpráva
+  report.lead: Tato zpráva se počítá ve vašem prohlížeči z profilu uloženého v
+    odkazu. Sdílením odkazu sdílíte zprávu.
+  report.profile: Profil projektu
+  report.edit: Upravit v průvodci
+  report.top: Doporučeno
+  report.score: Skóre {score}
+  report.why: Proč
+  report.excluded: Vyloučeno
+  report.advisories: Další kroky
+  report.license-file: Soubor LICENSE
+  report.header: Hlavička souboru
+  report.badge: Odznak do README
+  report.share: Odkaz ke sdílení
+  report.share.copy: Kopírovat odkaz
+  report.similar: Podobné projekty
+  report.no-text: Strojově čitelný text není k dispozici. Získejte ho z oficiální stránky.
+  report.invalid: Tento odkaz na zprávu je poškozený nebo pochází ze staré verze.
+  report.empty: Zatím žádný profil. Začněte průvodcem nebo AI poradcem.
+  chat.title: AI poradce pro licence
+  chat.lead: Popište svůj projekt. Poradce položí doplňující otázky, pravidlový
+    engine vybere licence a poradce je vysvětlí.
+  chat.placeholder: "Například: Vytvořil jsem vektorovou databázi a bojím se, že
+    ji cloudoví poskytovatelé budou přeprodávat."
+  chat.send: Odeslat
+  chat.stop: Zastavit
+  chat.examples: Vyzkoušejte příklad
+  chat.example.1: Vytvořil jsem vektorovou databázi a bojím se, že ji cloudoví
+    poskytovatelé budou přeprodávat.
+  chat.example.2: Malá knihovna komponent pro React. Chci, aby ji používaly firmy.
+  chat.example.3: Doladili jsme model 7B a chceme zablokovat škodlivé užití.
+  chat.profile: Profil projektu
+  chat.profile.hint: Kliknutím na hodnotu ji změníte.
+  chat.candidates: Kandidáti
+  chat.run: Získat doporučení
+  chat.limit: Dosáhli jste dnešního limitu. Zkuste to prosím zítra nebo použijte průvodce.
+  chat.error: Poradce teď není k dispozici. Průvodce stále funguje.
+  chat.verify: Potvrďte prosím, že jste člověk.
+  chat.disclaimer: Poradce se může mýlit. Doporučení pocházejí z pravidlového
+    enginu a nejde o právní poradenství.
+  chat.report: Otevřít celou zprávu
+  projects.title: Mapa licencí open source projektů
+  projects.lead: Licence známých projektů a příběh za každou změnou.
+  projects.filter.domain: Oblast
+  projects.filter.family: Rodina licencí
+  projects.filter.owner: Vlastník
+  projects.filter.changed: Změnil licenci
+  projects.count: "Projekty: {count}"
+  projects.empty: Těmto filtrům neodpovídá žádný projekt.
+  owner.company: Firma
+  owner.foundation: Nadace
+  owner.individual: Jednotlivec
+  owner.community: Komunita
+  project.current: Aktuální licence
+  project.timeline: Historie licencí
+  project.reason: Důvod
+  project.announcement: Oznámení
+  project.forks: Následné forky
+  project.fork-of: Fork projektu {name}
+  project.repo: Repozitář
+  project.similar: Podobné projekty
+  project.review: Tento záznam našel synchronizační bot a čeká na kontrolu člověkem.
+  project.initial: Původní licence
+  domain.database: Databáze
+  domain.frontend: Frontendové frameworky
+  domain.devops: DevOps
+  domain.ai-model: AI modely
+  domain.language: Jazyky a běhová prostředí
+  domain.os: Operační systémy
+  domain.web: Webové servery a backend
+  domain.tooling: Vývojářské nástroje
+  domain.data: Data a analytika
+  domain.observability: Observabilita
+  domain.messaging: Zasílání zpráv a streamování
+  domain.cms: CMS a aplikace
+  trends.title: Trendy open source licencí
+  trends.lead: Agregováno z mapy projektů při sestavení webu.
+  trends.family-share: Rodiny licencí podle oblasti
+  trends.changes: Změny licencí podle roku
+  trends.to-source-available: Projekty, které přešly z open source na source-available
+  search.lead: Hledejte licence, scénáře a projekty v tomto jazyce.
+  search.noscript: Vyhledávání vyžaduje JavaScript.
+  check.title: Kontrola kompatibility licencí závislostí
+  check.lead: Vložte package.json, go.mod, Gemfile.lock, Cargo.toml nebo
+    requirements.txt. Zpracování probíhá ve vašem prohlížeči.
+  check.project-license: Licence vašeho projektu
+  check.input: Manifest
+  check.run: Zkontrolovat
+  check.lookup: Vyhledat neznámé licence online (deps.dev)
+  check.col.package: Balíček
+  check.col.license: Licence
+  check.col.status: Stav
+  check.status.compatible: Kompatibilní
+  check.status.conditional: S podmínkami
+  check.status.incompatible: Konflikt
+  check.status.unknown: Neznámé
+  check.summary: "Kompatibilní: {ok}, s podmínkami: {warn}, konflikty: {bad},
+    neznámé: {unknown}"
+  check.format: "Zjištěný formát: {format}"
+  check.no-deps: Nebyly nalezeny žádné závislosti.
+  check.license-hint: Uveďte licence v manifestu jako řádky „name@version
+    LICENSE-ID“ nebo zapněte online vyhledávání.
+  notfound.title: Stránka nenalezena
+  notfound.body: Tato stránka neexistuje. Zkuste přehled licencí.
+  domain.education: Vzdělávání
+  domain.design: Písma a design

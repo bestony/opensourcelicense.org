@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cf76d86201254c1b
+summary: "Silny copyleft: rozpowszechniane utwory zależne trzeba w całości
+  udostępnić na GPL-2.0. Brak wyraźnej licencji patentowej; niezgodna z GPL-3.0,
+  chyba że użyto zapisu „or later”."
+analogy: Zasada udostępniania przepisu w starszym wydaniu.
+pros:
+  - Utrzymuje rozpowszechniane utwory zależne otwarte
+  - Używana przez jądro Linux
+cons:
+  - Niezgodna z Apache-2.0 i GPL-3.0 (tylko ta wersja)
+  - Brak wyraźnej licencji patentowej

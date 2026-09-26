@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 637c87bc846f9159
+summary: Permisivní licence s výslovnou patentovou licencí, patentovou odvetou a
+  požadavkem označit změněné soubory.
+analogy: Bezplatná sada nástrojů se slibem, že vás nikdo nebude žalovat kvůli
+  jejím patentům — pokud nezažalujete jako první.
+pros:
+  - Výslovná patentová licence od každého přispěvatele
+  - Preferuje ji mnoho firem a nadací
+  - Chrání ochranné známky
+cons:
+  - Delší; práce se souborem NOTICE
+  - Nekompatibilní s GPL-2.0-only
+  - Nezastaví konkurenty, kteří ji hostují jako službu

@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 6a4054dc9cca8e7e
+summary: "Zasada „na tych samych warunkach” dla baz danych: możesz używać danych
+  komercyjnie, ale publiczne pochodne bazy danych muszą pozostać na ODbL.
+  Wytworzone utwory, np. mapy lub obrazy, wymagają tylko uznania autorstwa."
+analogy: Buduj na wspólnej mapie, a jeśli opublikujesz ulepszoną bazę danych
+  mapy, udostępnij ją na tych samych warunkach.
+pros:
+  - Utrzymuje ulepszone bazy danych otwarte
+  - Użytek komercyjny dozwolony
+  - Sprawdzona przez OpenStreetMap
+cons:
+  - Zasada „na tych samych warunkach” może blokować łączenie z innymi danymi
+  - „Pochodna baza danych” bywa niejasna

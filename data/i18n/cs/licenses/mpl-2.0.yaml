@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 6d33e2e6b797d27f
+summary: "Copyleft na úrovni souboru: změny souborů pod MPL musí zůstat
+  otevřené, ale lze je kombinovat s uzavřeným kódem v jiných souborech."
+analogy: Vypůjčíte si kapitolu a musíte sdílet své úpravy té kapitoly, ale
+  zbytek knihy je váš.
+pros:
+  - Rovnováha mezi permisivními a copyleftovými licencemi
+  - Výslovná patentová licence
+  - Ve výchozím stavu kompatibilní s GPL
+cons:
+  - Hranice souborů mohou být nejasné
+  - Nepokrývá užití přes síť

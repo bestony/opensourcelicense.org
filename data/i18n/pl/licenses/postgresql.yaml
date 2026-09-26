@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: e8b5efadb2a71225
+summary: Krótka licencja permisywna podobna do MIT i BSD, używana przez
+  PostgreSQL i jego ekosystem.
+analogy: Własna wersja darmowej książki od społeczności PostgreSQL.
+pros:
+  - Krótka i permisywna
+  - Znana w ekosystemie PostgreSQL
+cons:
+  - Brak licencji patentowej
+  - Zamknięte forki są dozwolone

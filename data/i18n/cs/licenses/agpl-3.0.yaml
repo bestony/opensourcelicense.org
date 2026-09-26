@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 1db86c42c600a813
+summary: "GPL-3.0 se síťovým ustanovením: uživatelům, kteří s upravenou verzí
+  pracují přes síť, musí být nabídnut její zdrojový kód."
+analogy: "Pravidlo receptu platí i pro restaurace: podávání jídla se počítá jako
+  jeho rozdávání."
+pros:
+  - Uzavírá mezeru SaaS
+  - Dobrý základ pro duální licencování
+  - Open source schválený OSI
+cons:
+  - Mnoho firem ji rovnou zakazuje
+  - Hostování neupravené verze je stále povoleno

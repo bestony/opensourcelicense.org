@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 24c7946bf938191c
+summary: Bezplatné komerční užití pro služby s méně než milionem denně aktivních
+  uživatelů, po registraci; větší služby potřebují samostatnou licenci.
+analogy: Motor zdarma pro malé vozové parky, jakmile auto zaregistrujete.
+pros:
+  - Zdarma pro většinu komerčních uživatelů
+  - Silné modely pro čínštinu
+cons:
+  - Není open source
+  - Registrace a limit počtu uživatelů

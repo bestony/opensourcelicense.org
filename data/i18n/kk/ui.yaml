@@ -1,0 +1,363 @@
+reviewed: false
+sourceHash: a2d7eb045dde7649
+strings:
+  site.name: opensourcelicense.org
+  site.tagline: Ашық бастапқы код лицензиясын таңдау құралы
+  site.description: Open source лицензияларын таңдаңыз, салыстырыңыз және
+    тексеріңіз. Нақты жобалар қандай лицензияны қолданатынын, не қате кетуі
+    мүмкін екенін және жобаңызға не сай келетінін біліңіз.
+  nav.home: Басты бет
+  nav.licenses: Лицензиялар
+  nav.scenarios: Сценарийлер
+  nav.projects: Жобалар
+  nav.trends: Трендтер
+  nav.compare: Салыстыру
+  nav.wizard: Шебер
+  nav.chat: ЖИ кеңесші
+  nav.check: Тәуелділіктерді тексеру
+  nav.menu: Мәзір
+  lang.switch: Тіл
+  lang.suggest: "Бұл бет мына тілде қолжетімді: {language}."
+  lang.suggest.go: Ауысу
+  lang.suggest.dismiss: Жабу
+  footer.disclaimer: Бұл сайт заңгерлік кеңес емес, жалпы ақпарат береді. Нақты
+    дау немесе шарт болса, заңгерге жүгініңіз.
+  footer.source: Бастапқы код (AGPL-3.0)
+  footer.data: Деректер CC-BY-4.0 лицензиясымен
+  footer.report: Қате туралы хабарлау
+  footer.cite: Деректер opensourcelicense.org сайтынан, CC-BY-4.0
+  footer.hosting: Cloudflare Workers тегін тарифінде жұмыс істейді
+  footer.dns: Домен Cloudflare-да орналастырылған
+  badge.machine: Машиналық аударма
+  badge.reviewed: Тексерілген аударма
+  badge.fallback: Әлі аударылмаған — ағылшынша нұсқа көрсетілген
+  badge.stale: ескірген болуы мүмкін
+  badge.unreviewed-data: Жоба нұсқа — заңгер әлі тексермеген
+  common.updated: "Деректер жаңартылды: {date}"
+  common.back: Артқа
+  common.copy: Көшіру
+  common.copied: Көшірілді
+  common.download: Жүктеп алу
+  common.close: Жабу
+  common.all: Барлығы
+  common.yes: Иә
+  common.no: Жоқ
+  common.unknown: Белгісіз
+  common.none: Жоқ
+  common.more: Тағы
+  common.loading: Жүктелуде…
+  common.error: Бірдеңе дұрыс болмады.
+  common.search: Іздеу
+  home.title: Ашық бастапқы код лицензиясын саналы түрде таңдаңыз
+  home.lead: Тек «қандай лицензия таңдау керек» емес, сондай-ақ ұқсас жобалар не
+    таңдағанын, ең нашар жағдай қандай болатынын және әрі қарай не істеу керегін
+    біліңіз.
+  home.entry.chat.title: ЖИ кеңесшімен сөйлесіңіз
+  home.entry.chat.body: Жобаңызды өз сөзіңізбен сипаттаңыз. Профиль, нақтылау
+    сұрақтарын және есеп алыңыз.
+  home.entry.projects.title: Басқалар не қолданатынын көріңіз
+  home.entry.projects.body: Белгілі жобалардың лицензиялары және кейбірінің оны неге өзгерткені.
+  home.entry.wizard.title: Қадам-қадаммен сүзіңіз
+  home.entry.wizard.body: Бірнеше сұраққа жауап беріп, түсіндірмесі бар реттелген қысқа тізім алыңыз.
+  home.wall: Танымал жобалардың лицензиялары
+  home.changes: Лицензиялардың соңғы өзгерістері
+  home.scenarios: Не қате кетуі мүмкін?
+  home.scenarios.body: 27 шекті сценарий × 17 лицензия бағаны, әр ұяшыққа жеке бет.
+  family.permissive: Рұқсат беретін
+  family.weak-copyleft: Әлсіз копилефт
+  family.strong-copyleft: Күшті копилефт
+  family.network-copyleft: Желілік копилефт
+  family.source-available: Source-available (коды қарауға ашық)
+  family.model: Модель лицензиясы
+  family.content: Контент / деректер
+  verdict.allow: Рұқсат етілген
+  verdict.conditional: Шарттармен
+  verdict.deny: Лицензия тыйым салады
+  verdict.silent: Реттелмеген
+  verdict.tbd: Тексерілуде
+  verdict.legend: "Белгілер: ✓ екінші тарап мұны жасай алады · ◐ шарттармен · ✗
+    лицензия тыйым салады · — лицензияда айтылмаған (жалпы заң қолданылады)"
+  actor.other: Мұны басқа біреу жасайды
+  actor.you: Мұны сіз жасағыңыз келеді
+  actor.contributor: Мұны үлес қосушы жасайды
+  actor.both: Екі тарапқа да қатысты
+  group.A: Коммерциялық бәсекелестік
+  group.B: Патенттер және құқық
+  group.C: Даму және бизнес
+  group.D: Пайдалану және талаптарды сақтау
+  group.E: ЖИ модельдері және деректер
+  matrix.code: Кодқа арналған лицензиялар
+  matrix.model: Модельдер мен деректерге арналған лицензиялар
+  term.commercial-use: Коммерциялық пайдалану
+  term.modification: Өзгерту
+  term.distribution: Тарату
+  term.private-use: Жеке пайдалану
+  term.patent-use: Патенттік лицензия
+  term.non-production-use: Өндірістік емес пайдалану
+  term.converts-to-open-source: Кейін open source-қа айналады
+  term.include-copyright: Авторлық құқық туралы ескертуді сақтау
+  term.include-license: Лицензияны қоса беру
+  term.document-changes: Өзгерістерді белгілеу
+  term.disclose-source: Бастапқы кодты ашу
+  term.same-license: Туынды жұмыстарға бірдей лицензия
+  term.same-license-file: Бірдей лицензия (файл деңгейінде)
+  term.same-license-library: Бірдей лицензия (кітапхана деңгейінде)
+  term.allow-relinking: Қайта байланыстыруға рұқсат беру
+  term.network-use-disclose: Желі арқылы пайдалану — тарату болып саналады
+  term.service-stack-disclose: Сервистің бүкіл стегін ашу
+  term.keep-limitations: Шектеулерді сақтау
+  term.attribution: Авторлықты көрсету
+  term.attribution-built-with: «Built with» деп көрсету
+  term.name-prefix: Атау префиксі ережесі
+  term.acceptable-use-policy: Рұқсат етілген пайдалану саясаты
+  term.use-restrictions-pass-through: Пайдалану шектеулерін әрі қарай беру
+  term.indicate-changes: Өзгерістерді көрсету
+  term.liability: Жауапкершілік жоқ
+  term.warranty: Кепілдік жоқ
+  term.trademark-use: Тауар белгісіне құқық жоқ
+  term.no-endorsement: Автор атынан ұсынуға тыйым
+  term.production-use-restricted: Өндірістік пайдалану шектелген
+  term.no-managed-service: Басқарылатын сервиске тыйым
+  term.no-license-key-circumvention: Лицензия кілтін айналып өтуге тыйым
+  term.mau-threshold: Пайдаланушылар саны шегі
+  term.use-restrictions: Пайдалану шектеулері
+  term.non-commercial: Тек коммерциялық емес пайдалану
+  licenses.title: Ашық бастапқы код лицензиялары анықтамалығы
+  licenses.lead: "{count} лицензия: рұқсат беретіндерден source-available және ЖИ
+    модельдерінің лицензияларына дейін."
+  licenses.col.license: Лицензия
+  licenses.col.family: Топ
+  licenses.col.osi: OSI
+  licenses.col.fsf: FSF бойынша еркін
+  licenses.col.projects: Жобалар
+  licenses.filter: Топ бойынша сүзу
+  license.permissions: Рұқсаттар
+  license.conditions: Шарттар
+  license.limitations: Шектеулер
+  license.summary: Қарапайым тілмен
+  license.analogy: Ұқсастық
+  license.pros: Артықшылықтары
+  license.cons: Кемшіліктері
+  license.scenarios: Шекті сценарийлер
+  license.radar: Ең нашар жағдайлар радары
+  license.projects: Оны қолданатын белгілі жобалар
+  license.projects.count: "Картамыздағы осы лицензияны қолданатын белгілі жобалар саны: {count}."
+  license.projects.none: Картамыздағы бірде-бір жоба бұл лицензияны әлі қолданбайды.
+  license.projects.since: "Оған ауысқан күні: {date}"
+  license.projects.also: "Сондай-ақ мына лицензиялармен ұсынылады: {licenses}"
+  license.projects.former: Одан бас тартқан жобалар
+  license.text: Ресми мәтін
+  license.text.official: "Ресми мәтін, тілі: {language}"
+  license.text.note: Заңды күші тек ресми мәтінде бар. Біз лицензия мәтіндерін аудармаймыз.
+  license.compare: Мынамен салыстыру…
+  license.spdx: SPDX идентификаторы
+  radar.anti-freeride: Тегін пайдаланудан қорғау
+  radar.anti-closed-fork: Жабық форктардан қорғау
+  radar.patent: Патенттік қорғау
+  radar.adoption-friction: Енгізудегі кедергілер
+  radar.relicense-difficulty: Лицензияны өзгерту қиындығы
+  radar.misuse-control: Теріс пайдалануды бақылау
+  radar.derivative-control: Туынды жұмыстарды бақылау
+  radar.commercial-control: Коммерциялық бақылау
+  radar.note: Сценарийлер матрицасы негізінде есептелген. Жоғары мән «жақсырақ»
+    дегенді емес, сол қасиеттің көбірек екенін білдіреді.
+  scenarios.title: Лицензиялардың шекті сценарийлер матрицасы
+  scenarios.lead: Лицензияны таңдағаннан кейін не болады? Әр ұяшық бір сұраққа
+    жауап береді және өз беті бар.
+  scenarios.highlight: Лицензияны ерекшелеу
+  scenarios.expand: Барлығын ашу
+  scenarios.collapse: Барлығын жию
+  scenarios.silent-note: Тек «—» бар жолдар әдейі қалдырылған. Жауап лицензияға
+    емес, еңбек шарттарына (C6), экспорттық бақылау заңнамасына (D5) немесе
+    жүріп жатқан сот істеріне (D6) байланысты.
+  scenario.flow.you: Сіз {license} бойынша жариялайсыз
+  scenario.flow.they: Жағдай
+  scenario.flow.result: Нәтиже
+  scenario.clause: Тиісті ереже
+  scenario.case: Нақты оқиға
+  scenario.others: Сол сценарий, басқа лицензиялар
+  scenario.other-scenarios: "{license} үшін басқа сценарийлер"
+  scenario.no-clause: Нақты ереже жоқ. Жалпы заң қолданылады.
+  scenario.review: Тексеру мәртебесі
+  scenario.review.none: Заңгер әлі тексермеген.
+  scenario.review.done: "Тексерген: {who}, {date}."
+  compare.title: Open source лицензияларын салыстыру
+  compare.lead: Екі немесе үш лицензияны таңдап, оларды ереже бойынша және
+    сценарий бойынша салыстырыңыз.
+  compare.pick: Лицензия қосу
+  compare.remove: Алып тастау
+  compare.terms: Шарттар
+  compare.scenarios: Сценарийлер
+  compare.empty: Кемінде екі лицензия таңдаңыз.
+  wizard.title: Лицензия таңдау шебері
+  wizard.lead: Бірнеше сұраққа жауап беріңіз. Ережелер қозғалтқышы лицензияларды
+    реттеп, әр тармақты түсіндіреді.
+  wizard.next: Келесі
+  wizard.prev: Артқа
+  wizard.finish: Нәтижені көру
+  wizard.restart: Қайта бастау
+  wizard.skip: Өткізіп жіберу
+  wizard.step: "{total} қадамның {n}-қадамы"
+  wizard.to-chat: ЖИ кеңесшімен жалғастыру
+  q.artifact_type: Сіз не шығарасыз?
+  q.openness_level: Ол қаншалықты ашық болуы керек?
+  q.avoid: Қандай салдарлардан аулақ болғыңыз келеді?
+  q.avoid.hint: Кез келген санын таңдаңыз.
+  q.adoption_goal: Ең маңыздысы не?
+  q.dependencies: Сіз копилефт кодқа тәуелдісіз бе?
+  q.dependencies.hint: Тәуелділік лицензияларының SPDX идентификаторларын қосыңыз,
+    мысалы GPL-3.0-only.
+  q.commercial_plan: Табыс табуды жоспарласаңыз, қалай?
+  q.jurisdiction: Сіз қай жерде тіркелгенсіз?
+  opt.artifact_type.library: Кітапхана немесе SDK
+  opt.artifact_type.application: Қолданба немесе құрал
+  opt.artifact_type.saas: Сервис бэкенді (SaaS)
+  opt.artifact_type.model: Модель салмақтары
+  opt.artifact_type.dataset: Деректер жиынтығы
+  opt.artifact_type.docs: Құжаттама немесе контент
+  opt.openness_level.open: Толық ашық — кез келген адам кез келген нәрсе жасай алады
+  opt.openness_level.reciprocal: Ашық, бірақ жақсартулар қайтарылуы керек
+  opt.openness_level.source-available: Код көрінеді, коммерциялық пайдалану шектелген
+  opt.avoid.cloud-hosting: Бұлт провайдерлерінің оны сервис ретінде сатуы
+  opt.avoid.closed-fork: Жабық кодты форктар
+  opt.avoid.patent-litigation: Патенттік талап арыздар
+  opt.avoid.trademark-abuse: Атымды немесе брендімді теріс пайдалану
+  opt.avoid.harmful-use: Зиянды пайдалану
+  opt.avoid.big-company: Ірі компаниялардың оны тегін пайдалануы
+  opt.adoption_goal.enterprise: Компаниялардың барынша кең қолдануы
+  opt.adoption_goal.community: Қауымдастықтың үлестері
+  opt.adoption_goal.monetize: Одан табыс табу
+  opt.commercial_plan.none: Жоспар жоқ
+  opt.commercial_plan.dual-license: Қос лицензиялау
+  opt.commercial_plan.open-core: Open core
+  opt.commercial_plan.hosted: Хостингтік сервис
+  opt.jurisdiction.cn: Қытай
+  opt.jurisdiction.eu: Еуропалық Одақ
+  opt.jurisdiction.us: Америка Құрама Штаттары
+  opt.jurisdiction.other: Басқа
+  engine.part.avoid: "Қорғаныс: {avoid}"
+  engine.part.openness: "Ашықтыққа сәйкестік: {openness}"
+  engine.part.adoption: "Мақсат: {goal}"
+  engine.part.commercial: "Бизнес-жоспар: {plan}"
+  engine.part.jurisdiction: "Юрисдикция: {jurisdiction}"
+  engine.part.dependency: "Тек шарттармен үйлесімді: {dependency}"
+  engine.excluded.dependency: "{dependency} тәуелділігімен үйлесімсіз"
+  engine.excluded.artifact: Артефактінің бұл түріне жарамайды
+  advisory.needs-cla: Үлес қосушының лицензиялық келісімін (CLA) қолданыңыз. Ол
+    коммерциялық лицензияларды сату немесе кейін лицензияны өзгерту үшін қажет
+    болады.
+  advisory.consider-dco: Әдетте Developer Certificate of Origin (DCO, «Signed-off-by») жеткілікті.
+  advisory.busl-change-date: BSL тақырыбында Additional Use Grant, Change Date
+    және Change License мәндерін орнатыңыз.
+  advisory.model-card: Лицензияны модель немесе деректер жиынтығы карточкасының
+    метадеректерінде көрсетіңіз («license:» өрісі).
+  advisory.notice-file: NOTICE файлын қосып, қайта таратқанда оны сақтаңыз.
+  advisory.consult-lawyer: Шығармас бұрын тәуелділіктер мен бизнес шарттарын заңгерге тексертіңіз.
+  advisory.network-source-link: Желілік сервисіңіздің пайдаланушыларына «Бастапқы код» сілтемесін көрсетіңіз.
+  report.title: Сіздің лицензиялық есебіңіз
+  report.lead: Бұл есеп сілтемедегі профиль негізінде браузеріңізде есептеледі.
+    Есепті бөлісу үшін сілтемені бөлісіңіз.
+  report.profile: Жоба профилі
+  report.edit: Шеберде өңдеу
+  report.top: Ұсынылады
+  report.score: "Ұпай: {score}"
+  report.why: Неліктен
+  report.excluded: Алынып тасталды
+  report.advisories: Келесі қадамдар
+  report.license-file: LICENSE файлы
+  report.header: Файл тақырыбы
+  report.badge: README белгішесі
+  report.share: Бөлісу сілтемесі
+  report.share.copy: Сілтемені көшіру
+  report.similar: Ұқсас жобалар
+  report.no-text: Машина оқи алатын мәтін жоқ. Оны ресми беттен алыңыз.
+  report.invalid: Бұл есеп сілтемесі бұзылған немесе ескі нұсқадан қалған.
+  report.empty: Профиль әлі жоқ. Шеберден немесе ЖИ кеңесшіден бастаңыз.
+  chat.title: Лицензиялар бойынша ЖИ кеңесші
+  chat.lead: Жобаңызды сипаттаңыз. Кеңесші нақтылау сұрақтарын қояды, ережелер
+    қозғалтқышы лицензияларды таңдайды, ал кеңесші оларды түсіндіреді.
+  chat.placeholder: "Мысалы: мен векторлық дерекқор жасадым және бұлт
+    провайдерлері оны қайта сатады деп алаңдаймын."
+  chat.send: Жіберу
+  chat.stop: Тоқтату
+  chat.examples: Мысалды көріңіз
+  chat.example.1: Мен векторлық дерекқор жасадым және бұлт провайдерлері оны қайта
+    сатады деп алаңдаймын.
+  chat.example.2: Шағын React компоненттер кітапханасы. Компаниялар оны пайдаланғанын қалаймын.
+  chat.example.3: Біз 7B модельді қосымша оқыттық және зиянды пайдалануға тыйым
+    салғымыз келеді.
+  chat.profile: Жоба профилі
+  chat.profile.hint: Мәнді өзгерту үшін оны басыңыз.
+  chat.candidates: Үміткерлер
+  chat.run: Ұсыныс алу
+  chat.limit: Бүгінгі шекке жеттіңіз. Ертең қайталап көріңіз немесе шеберді пайдаланыңыз.
+  chat.error: Кеңесші қазір қолжетімсіз. Шебер жұмыс істеп тұр.
+  chat.verify: Адам екеніңізді растаңыз.
+  chat.disclaimer: Кеңесші қателесуі мүмкін. Ұсыныстарды ережелер қозғалтқышы
+    береді және бұл заңгерлік кеңес емес.
+  chat.report: Толық есепті ашу
+  projects.title: Ашық кодты жобалар лицензияларының картасы
+  projects.lead: Белгілі жобалардың лицензиялары және әр өзгерістің астарындағы оқиға.
+  projects.filter.domain: Сала
+  projects.filter.family: Лицензия тобы
+  projects.filter.owner: Иесі
+  projects.filter.changed: Лицензиясын өзгерткен
+  projects.count: "Жобалар саны: {count}"
+  projects.empty: Бұл сүзгілерге сәйкес жоба жоқ.
+  owner.company: Компания
+  owner.foundation: Қор
+  owner.individual: Жеке тұлға
+  owner.community: Қауымдастық
+  project.current: Ағымдағы лицензия
+  project.timeline: Лицензия тарихы
+  project.reason: Себебі
+  project.announcement: Хабарландыру
+  project.forks: Кейін пайда болған форктар
+  project.fork-of: "{name} жобасының форкі"
+  project.repo: Репозиторий
+  project.similar: Ұқсас жобалар
+  project.review: Бұл жазбаны синхрондау боты тапты, ол адамның тексеруін күтуде.
+  project.initial: Бастапқы лицензия
+  domain.database: Дерекқорлар
+  domain.frontend: Фронтенд фреймворктері
+  domain.devops: DevOps
+  domain.ai-model: ЖИ модельдері
+  domain.language: Тілдер және орындау орталары
+  domain.os: Операциялық жүйелер
+  domain.web: Веб-серверлер және бэкенд
+  domain.tooling: Әзірлеуші құралдары
+  domain.data: Деректер және аналитика
+  domain.observability: Бақыланымдылық
+  domain.messaging: Хабар алмасу және ағындық өңдеу
+  domain.cms: CMS және қолданбалар
+  trends.title: Open source лицензияларының трендтері
+  trends.lead: Сайтты құрастыру кезінде жобалар картасынан жинақталған.
+  trends.family-share: Салалар бойынша лицензия топтары
+  trends.changes: Жылдар бойынша лицензия өзгерістері
+  trends.to-source-available: Open source-тан source-available-ге ауысқан жобалар
+  search.lead: Осы тілде лицензияларды, сценарийлерді және жобаларды іздеңіз.
+  search.noscript: Іздеу үшін JavaScript қажет.
+  check.title: Тәуелділіктер лицензияларының үйлесімділігін тексеру
+  check.lead: package.json, go.mod, Gemfile.lock, Cargo.toml немесе
+    requirements.txt файлын қойыңыз. Талдау браузеріңізде орындалады.
+  check.project-license: Жобаңыздың лицензиясы
+  check.input: Манифест
+  check.run: Тексеру
+  check.lookup: Белгісіз лицензияларды онлайн іздеу (deps.dev)
+  check.col.package: Пакет
+  check.col.license: Лицензия
+  check.col.status: Күйі
+  check.status.compatible: Үйлесімді
+  check.status.conditional: Шарттармен
+  check.status.incompatible: Қайшылық
+  check.status.unknown: Белгісіз
+  check.summary: "Үйлесімді: {ok}, шарттармен: {warn}, қайшылықтар: {bad},
+    белгісіз: {unknown}"
+  check.format: "Анықталған формат: {format}"
+  check.no-deps: Тәуелділіктер табылмады.
+  check.license-hint: Лицензияларды манифестке «name@version LICENSE-ID» жолдары
+    ретінде қосыңыз немесе онлайн іздеуді қосыңыз.
+  notfound.title: Бет табылмады
+  notfound.body: Бұл бет жоқ. Лицензиялар анықтамалығын қараңыз.
+  domain.education: Білім беру
+  domain.design: Қаріптер және дизайн

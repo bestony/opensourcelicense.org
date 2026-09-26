@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: c882745d1b8524bb
+summary: Komerční užití povoleno se zásadami přijatelného užití; velmi velké
+  služby potřebují samostatnou licenci a některá území jsou vyloučena.
+analogy: Motor zdarma s řádem, limitem velikosti a mapou, kde se s ním smí jezdit.
+pros:
+  - Komerční užití pro většinu uživatelů
+  - Pokrývá textové, video a 3D modely
+cons:
+  - Není open source
+  - Územní výjimky

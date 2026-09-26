@@ -1,0 +1,8 @@
+reviewed: false
+sourceHash: d30cdd2632a3c255
+actor: other
+title: Slinkováno do uzavřené aplikace nebo firmwaru a šířeno
+cells:
+  mpl-2.0: Na úrovni souboru
+  lgpl-3.0: Musí umožnit opětovné slinkování
+  busl-1.1: Záleží na Additional Use Grant

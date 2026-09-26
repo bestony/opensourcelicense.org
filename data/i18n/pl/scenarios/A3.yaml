@@ -1,0 +1,9 @@
+reviewed: false
+sourceHash: b16411183c557a4e
+actor: other
+title: Wbudowany w zamknięty backend SaaS (bez dystrybucji)
+cells:
+  agpl-3.0: Musi opublikować w razie modyfikacji
+  sspl-1.0: Jeśli jego funkcje są oferowane jako usługa
+  busl-1.1: Zależy od Additional Use Grant
+  elv2: O ile nie hostuje samego produktu

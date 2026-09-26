@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 7613875d13341275
+summary: Bezpłatna do badań, użytku niekomercyjnego i komercyjnego przy rocznych
+  przychodach poniżej 1 mln USD; większe firmy potrzebują licencji enterprise.
+analogy: Darmowy wstęp dla małych firm; duże kupują bilet.
+pros:
+  - Bezpłatna dla osób prywatnych i małych firm
+  - Obejmuje najnowsze modele Stability
+cons:
+  - To nie jest open source
+  - Próg przychodów wymaga monitorowania

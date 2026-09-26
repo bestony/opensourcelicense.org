@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: cf07449a9c3b7eaf
+actor: other
+title: Doladěno, přejmenováno a vydáno jako uzavřené váhy
+cells:
+  llama: Musí přiložit licenci a zobrazit „Built with Llama“
+  openrail-m: Musí předat omezení užití
+  cc-by-4.0: Uvedení autorství
+  cc-by-nc-4.0: Pouze nekomerční užití
+  odc-by-1.0: Uvedení autorství
+  odbl-1.0: Odvozené databáze zůstávají pod ODbL

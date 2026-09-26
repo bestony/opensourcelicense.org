@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 362187e701e25e6a
+summary: Copyleft na úrovni souboru odvozený od MPL, s patentovou licencí;
+  nekompatibilní s GPL.
+analogy: Sdílejte změny vypůjčeného souboru; zbytek si klidně nechte uzavřený.
+pros:
+  - Rozsah na úrovni souboru
+  - Patentová licence
+cons:
+  - Nekompatibilní s GPL (problém ZFS on Linux)
+  - Přijímá ji jen málo nových projektů

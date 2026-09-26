@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: c732ed2e04240901
+summary: "Copyleft dla podręczników: kopie i zmodyfikowane wersje muszą pozostać
+  na GFDL, z zachowaniem historii i sekcji niezmiennych."
+analogy: Zasada udostępniania przepisu zastosowana do instrukcji książki kucharskiej.
+pros:
+  - Utrzymuje dokumentację wolną
+  - Używana w podręcznikach GNU
+cons:
+  - Sekcje niezmienne są kontrowersyjne
+  - Trudno łączyć z treściami CC

@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 2388a1183d57050c
+summary: "Svobodná licence pro písma: písma volně používejte, vkládejte a
+  upravujte, ale upravená písma nesmí nést vyhrazené názvy a samotná písma se
+  nesmí prodávat samostatně."
+analogy: Používejte písmo všude, ale neprodávejte samotný soubor písma.
+pros:
+  - Umožňuje vkládání do dokumentů a aplikací
+  - Standard pro otevřená písma
+cons:
+  - Vyhrazené názvy písem komplikují forky
+  - Pouze pro písma

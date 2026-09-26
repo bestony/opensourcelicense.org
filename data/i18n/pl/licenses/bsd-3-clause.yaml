@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: db235a56ea57284f
+summary: Podobna do MIT, z dodatkowym zapisem zakazującym używania Twojego
+  nazwiska do promowania produktów pochodnych.
+analogy: "Darmowa książka z dopiskiem: „Nie twierdź, że autor poleca Twoje wydanie”."
+pros:
+  - Permisywna i dobrze znana
+  - Chroni Twoje nazwisko przed użyciem w promocji
+cons:
+  - Brak licencji patentowej
+  - Forki o zamkniętym kodzie są dozwolone

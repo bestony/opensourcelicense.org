@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: b568f07f3285ed81
+summary: Čínská permisivní licence s patentovou licencí a odvetou. Čínský a
+  anglický text jsou rovnocenné; při rozporu má přednost čínský.
+analogy: Ochrana ve stylu Apache psaná s ohledem na čínské právo.
+pros:
+  - Oficiální dvojjazyčný text
+  - Patentová licence
+  - Schválena OSI
+cons:
+  - Mimo Čínu méně známá
+  - Omezená judikatura

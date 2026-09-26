@@ -1,0 +1,15 @@
+reviewed: false
+sourceHash: cdef0d42cb1ab51e
+summary: "Copyleft na poziomie biblioteki: zmiany w bibliotece pozostają
+  otwarte; zamknięte aplikacje mogą się z nią linkować, jeśli użytkownicy mogą
+  bibliotekę wymienić."
+analogy: "Wspólny silnik: możesz go włożyć do swojego auta, ale właściciele
+  muszą móc wymienić go na własny."
+pros:
+  - Pozwala aplikacjom własnościowym używać biblioteki
+  - Zmiany w bibliotece pozostają otwarte
+  - Licencja patentowa
+cons:
+  - Zasady ponownego linkowania są złożone, zwłaszcza przy linkowaniu statycznym
+    i na urządzeniach mobilnych
+  - Niektóre firmy nadal jej unikają

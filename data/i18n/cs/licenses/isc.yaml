@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 7db0448b4abf3505
+summary: "Kratší ekvivalent MIT: jakékoli užití při zachování informace o
+  autorských právech a povolení."
+analogy: Stejná kniha zdarma jako MIT, jen s kratší poznámkou na obálce.
+pros:
+  - Nejkratší běžná permisivní licence
+  - Výchozí pro mnoho balíčků npm
+cons:
+  - Žádná patentová licence
+  - Uzavřené forky jsou povoleny

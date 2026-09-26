@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: c882745d1b8524bb
+summary: Użytek komercyjny dozwolony z zasadami dopuszczalnego użytkowania;
+  bardzo duże usługi wymagają osobnej licencji, a niektóre terytoria są
+  wyłączone.
+analogy: Darmowy silnik z regulaminem, limitem rozmiaru i mapą miejsc, gdzie
+  wolno nim jeździć.
+pros:
+  - Użytek komercyjny dla większości użytkowników
+  - Obejmuje modele tekstowe, wideo i 3D
+cons:
+  - To nie jest open source
+  - Wyłączenia terytorialne

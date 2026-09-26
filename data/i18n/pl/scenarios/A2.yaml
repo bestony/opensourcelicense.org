@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 57d3e35a6ad686d1
+actor: other
+title: Ktoś tworzy fork i rozpowszechnia konkurencyjny produkt o zamkniętym kodzie
+cells:
+  apache-2.0: Musi oznaczyć zmodyfikowane pliki
+  mpl-2.0: Zmodyfikowane pliki MPL pozostają otwarte
+  lgpl-3.0: Zmiany w bibliotece pozostają otwarte
+  busl-1.1: Utwory zależne pozostają na BSL
+  elv2: Ograniczenia muszą zostać zachowane

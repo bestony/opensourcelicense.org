@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 22649412ed3dbb5f
+summary: "Knihovní copyleft: změny knihovny zůstávají otevřené; uzavřené
+  programy se s ní mohou slinkovat, pokud uživatelé mohou znovu slinkovat
+  upravenou knihovnu."
+analogy: Starší vydání vyměnitelného sdíleného motoru.
+pros:
+  - Umožňuje proprietárním aplikacím knihovnu používat
+  - Běžná u desktopových a multimediálních knihoven
+cons:
+  - Pravidla opětovného slinkování jsou složitá
+  - Žádná výslovná patentová licence

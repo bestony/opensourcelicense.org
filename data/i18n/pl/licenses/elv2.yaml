@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 1b47253adc7fb00d
+summary: "Source-available: swobodne używanie i modyfikowanie, ale nie wolno
+  oferować oprogramowania jako usługi zarządzanej ani obchodzić kluczy
+  licencyjnych."
+analogy: Gotuj z tym w domu lub w swojej restauracji, ale nie otwieraj sklepu
+  sprzedającego dokładnie to danie.
+pros:
+  - Krótka i jasna
+  - Celuje tylko w konkurentów oferujących usługi zarządzane
+cons:
+  - To nie jest open source
+  - Ogranicza forki i niektórych partnerów

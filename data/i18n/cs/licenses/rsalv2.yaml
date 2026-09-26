@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 50ad39245dfcc7f1
+summary: "Source-available licence od Redis: volné užití a úpravy, ale bez
+  nabízení softwaru jako spravované služby a bez obcházení licenčních klíčů."
+analogy: Vařte s tím kdekoli, ale neotvírejte obchod, který prodává toto jídlo.
+pros:
+  - Míří jen na konkurenty se spravovanými službami
+  - Krátká
+cons:
+  - Není open source
+  - Vyvolala fork Valkey

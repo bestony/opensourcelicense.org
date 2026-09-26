@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: c732ed2e04240901
+summary: "Copyleft pro příručky: kopie a upravené verze musí zůstat pod GFDL, se
+  zachovanou historií a neměnnými oddíly."
+analogy: Pravidlo sdílení receptu pro návod ke kuchařce.
+pros:
+  - Udržuje dokumentaci svobodnou
+  - Používají ji příručky GNU
+cons:
+  - Neměnné oddíly jsou kontroverzní
+  - Těžko se kombinuje s obsahem CC

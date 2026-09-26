@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 4f54478806088c0d
+summary: "Podwójna licencja Perla: odbiorcy wybierają Artistic License 1.0 albo
+  GPL (wersja 1 lub późniejsza)."
+analogy: Wybierz ten z dwóch regulaminów, który Ci odpowiada.
+pros:
+  - Wybór między warunkami niemal permisywnymi a copyleft
+  - Standard dla modułów CPAN
+cons:
+  - Artistic 1.0 jest nieprecyzyjna
+  - Brak licencji patentowej

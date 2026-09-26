@@ -1,0 +1,9 @@
+reviewed: false
+sourceHash: 883d4cd50ee79a28
+actor: other
+title: Dostawca chmury sprzedaje Twój projekt jako usługę zarządzaną
+cells:
+  gpl-3.0: To nie jest dystrybucja
+  agpl-3.0: Musi opublikować modyfikacje
+  sspl-1.0: Musi udostępnić cały stos usługi
+  busl-1.1: Chyba że zezwala na to Additional Use Grant

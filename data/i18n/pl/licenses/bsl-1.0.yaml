@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 3d7476dd1bfc7f5b
+summary: Licencja permisywna; informacja o licencji jest wymagana w kopiach kodu
+  źródłowego, ale nie w skompilowanych plikach binarnych.
+analogy: Zostaw nazwisko autora w książce kucharskiej, a nie na każdym podawanym
+  talerzu.
+pros:
+  - Nie wymaga informacji w plikach binarnych
+  - Standard dla bibliotek C++
+cons:
+  - Brak licencji patentowej
+  - Mniej znana poza C++

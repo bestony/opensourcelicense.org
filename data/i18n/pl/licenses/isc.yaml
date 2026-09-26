@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 7db0448b4abf3505
+summary: "Krótszy odpowiednik MIT: dowolny użytek pod warunkiem zachowania
+  informacji o prawach autorskich i zezwoleniu."
+analogy: Ta sama darmowa książka co MIT, z krótszą notką na okładce.
+pros:
+  - Najkrótsza popularna licencja permisywna
+  - Domyślna dla wielu pakietów npm
+cons:
+  - Brak licencji patentowej
+  - Zamknięte forki są dozwolone

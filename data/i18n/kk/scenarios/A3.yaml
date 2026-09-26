@@ -1,0 +1,9 @@
+reviewed: false
+sourceHash: b16411183c557a4e
+actor: other
+title: Жабық SaaS бэкендіне енгізілген (таратылмайды)
+cells:
+  agpl-3.0: Өзгертсе, жариялауы керек
+  sspl-1.0: Егер оның функционалы сервис ретінде ұсынылса
+  busl-1.1: Additional Use Grant-қа байланысты
+  elv2: Өнімнің өзін хостингтемесе

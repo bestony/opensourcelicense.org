@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: b568f07f3285ed81
+summary: Chińska licencja permisywna z licencją patentową i klauzulą odwetu.
+  Teksty chiński i angielski są równorzędne; w razie rozbieżności rozstrzyga
+  chiński.
+analogy: Ochrona w stylu Apache napisana z myślą o prawie chińskim.
+pros:
+  - Oficjalny tekst dwujęzyczny
+  - Licencja patentowa
+  - Zatwierdzona przez OSI
+cons:
+  - Mniej znana poza Chinami
+  - Niewielkie orzecznictwo

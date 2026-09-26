@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 6d33e2e6b797d27f
+summary: "Copyleft na poziomie pliku: zmiany w plikach na MPL muszą pozostać
+  otwarte, ale można je łączyć z zamkniętym kodem w innych plikach."
+analogy: Pożycz rozdział, a musisz udostępnić swoje poprawki do tego rozdziału,
+  ale reszta książki należy do Ciebie.
+pros:
+  - Równowaga między licencjami permisywnymi a copyleft
+  - Wyraźna licencja patentowa
+  - Domyślnie zgodna z GPL
+cons:
+  - Granice plików bywają niejasne
+  - Nie obejmuje użycia przez sieć

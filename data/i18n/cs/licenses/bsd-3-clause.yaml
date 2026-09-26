@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: db235a56ea57284f
+summary: Podobně jako MIT, navíc s ustanovením, které zakazuje používat vaše
+  jméno k propagaci odvozených produktů.
+analogy: "Kniha zdarma s poznámkou: „Netvrďte, že autor vaše vydání doporučuje.“"
+pros:
+  - Permisivní a dobře známá
+  - Chrání vaše jméno před zneužitím k propagaci
+cons:
+  - Žádná patentová licence
+  - Forky s uzavřeným kódem jsou povoleny

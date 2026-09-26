@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 0196a50e1d1c6b89
+summary: "Pro obsah a data: vyžaduje uvedení autorství a komerční užití není povoleno."
+analogy: Sdílejte fotku volně, ale ne v reklamách ani v produktech, které prodáváte.
+pros:
+  - Blokuje komerční opětovné užití
+  - Oficiální překlady
+cons:
+  - Není otevřená podle OSI ani Open Definition
+  - „Nekomerční“ bývá často nejasné
+  - Blokuje mnoho legitimních užití

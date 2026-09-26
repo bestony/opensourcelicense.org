@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 41352f96fddd8017
+summary: Copyleft na úrovni modulu s patentovou licencí a rozhodným právem státu
+  New York; nekompatibilní s GPL.
+analogy: První vydání pravidla Eclipse o sdílení kapitol.
+pros:
+  - Patentová licence
+  - Používají ji Clojure a JUnit 4
+cons:
+  - Nekompatibilní s GPL
+  - Nahrazena EPL-2.0

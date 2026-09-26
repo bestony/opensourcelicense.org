@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 3440c6c6f7e1c94d
+summary: "Copyleft na úrovni souboru od Apple: upravené dotčené soubory je nutné
+  zveřejnit, i když jsou externě nasazeny jako služba. Nekompatibilní s GPL."
+analogy: Sdílejte změny vypůjčeného souboru, i když jen poskytujete výsledek.
+pros:
+  - Pokrývá externí nasazení
+  - Patentová licence
+cons:
+  - Nekompatibilní s GPL
+  - Používá se hlavně v open source projektech Apple

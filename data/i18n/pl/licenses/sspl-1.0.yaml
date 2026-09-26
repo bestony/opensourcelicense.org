@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: c04c9ce2bbb6b016
+summary: Podobna do AGPL, ale oferowanie oprogramowania jako usługi wymaga
+  udostępnienia kodu źródłowego całego stosu usługi. Niezatwierdzona przez OSI.
+analogy: Jeśli prowadzisz restaurację z tym daniem, musisz też opublikować plany
+  swojej kuchni.
+pros:
+  - Silna ochrona przed dostawcami chmury
+cons:
+  - Nie jest open source według OSI
+  - Odrzucona przez wiele dystrybucji
+  - Może wywołać forki społeczności

@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: c77fe673047b3249
+actor: other
+title: Destylacja lub trenowanie innych modeli na jego wynikach
+cells:
+  llama: Nazwa musi zawierać „Llama”
+  openrail-m: Utwory zależne dziedziczą ograniczenia
+  cc-by-4.0: Uznanie autorstwa
+  cc-by-nc-4.0: Tylko użytek niekomercyjny
+  odc-by-1.0: Uznanie autorstwa
+  odbl-1.0: Uznanie autorstwa

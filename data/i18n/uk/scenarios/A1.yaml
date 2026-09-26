@@ -1,0 +1,9 @@
+reviewed: false
+sourceHash: 883d4cd50ee79a28
+actor: other
+title: Хмарний провайдер продає ваш проєкт як керований сервіс
+cells:
+  gpl-3.0: Це не розповсюдження
+  agpl-3.0: Має опублікувати модифікації
+  sspl-1.0: Має відкрити весь стек сервісу
+  busl-1.1: Якщо це не дозволяє Additional Use Grant

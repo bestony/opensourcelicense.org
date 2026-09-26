@@ -1,0 +1,8 @@
+reviewed: false
+sourceHash: 3a5f4b9bf27dddea
+actor: other
+title: Сіздің кодыңыз GPL-3.0 жобасына біріктіріледі
+cells:
+  apache-2.0: Бірақ GPL-2.0-мен үйлесімсіз
+  mpl-2.0: Үйлесімсіз деп белгіленбесе
+  agpl-3.0: AGPL бөлігі AGPL бойынша қалады

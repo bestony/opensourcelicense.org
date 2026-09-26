@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 4f30616160bfe68b
+actor: you
+title: Później zmieniasz licencję lub sprzedajesz licencje komercyjne
+  (kontrybutorzy nie podpisali CLA)
+cells:
+  mit: Nowe wersje mogą się zmienić; stare pozostają bez zmian
+  bsd-3-clause: Tak samo jak MIT
+  apache-2.0: Tak samo jak MIT
+  mpl-2.0: Pliki MPL muszą pozostać na MPL
+  lgpl-3.0: Wymaga zgody wszystkich kontrybutorów
+  mulanpsl-2.0: Tak samo jak MIT
+  busl-1.1: Zwykle opiera się na CLA
+  elv2: Zwykle opiera się na CLA

@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 1b47253adc7fb00d
+summary: "Source-available: volné užití a úpravy, ale software nesmíte nabízet
+  jako spravovanou službu ani obcházet licenční klíče."
+analogy: Vařte s tím doma nebo ve své restauraci, ale neotvírejte obchod, který
+  prodává právě toto jídlo.
+pros:
+  - Krátká a jasná
+  - Míří jen na konkurenty se spravovanými službami
+cons:
+  - Není open source
+  - Omezuje forky a některé partnery

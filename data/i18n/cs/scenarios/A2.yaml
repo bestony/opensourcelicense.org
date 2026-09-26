@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 57d3e35a6ad686d1
+actor: other
+title: Někdo vytvoří fork a šíří konkurenční produkt s uzavřeným kódem
+cells:
+  apache-2.0: Musí označit upravené soubory
+  mpl-2.0: Upravené soubory pod MPL zůstávají otevřené
+  lgpl-3.0: Změny knihovny zůstávají otevřené
+  busl-1.1: Odvozená díla zůstávají pod BSL
+  elv2: Omezení musí být zachována

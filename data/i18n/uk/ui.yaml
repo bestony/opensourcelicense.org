@@ -1,0 +1,360 @@
+reviewed: false
+sourceHash: a2d7eb045dde7649
+strings:
+  site.name: opensourcelicense.org
+  site.tagline: Інструмент для вибору ліцензії відкритого коду
+  site.description: Обирайте, порівнюйте та перевіряйте ліцензії open source.
+    Дізнайтеся, які ліцензії використовують реальні проєкти, що може піти не так
+    і що підходить вашому проєкту.
+  nav.home: Головна
+  nav.licenses: Ліцензії
+  nav.scenarios: Сценарії
+  nav.projects: Проєкти
+  nav.trends: Тренди
+  nav.compare: Порівняти
+  nav.wizard: Майстер
+  nav.chat: ШІ-консультант
+  nav.check: Перевірка залежностей
+  nav.menu: Меню
+  lang.switch: Мова
+  lang.suggest: "Ця сторінка доступна мовою: {language}."
+  lang.suggest.go: Перейти
+  lang.suggest.dismiss: Закрити
+  footer.disclaimer: Цей сайт надає загальну інформацію, а не юридичну
+    консультацію. У разі реального спору чи договору зверніться до юриста.
+  footer.source: Вихідний код (AGPL-3.0)
+  footer.data: Дані за ліцензією CC-BY-4.0
+  footer.report: Повідомити про помилку
+  footer.cite: Дані з opensourcelicense.org, CC-BY-4.0
+  footer.hosting: Працює на безкоштовному тарифі Cloudflare Workers
+  footer.dns: Домен розміщено в Cloudflare
+  badge.machine: Машинний переклад
+  badge.reviewed: Перевірений переклад
+  badge.fallback: Ще не перекладено — показано англійську версію
+  badge.stale: може бути застарілим
+  badge.unreviewed-data: Чернетка — ще не перевірено юристом
+  common.updated: Дані оновлено {date}
+  common.back: Назад
+  common.copy: Копіювати
+  common.copied: Скопійовано
+  common.download: Завантажити
+  common.close: Закрити
+  common.all: Усі
+  common.yes: Так
+  common.no: Ні
+  common.unknown: Невідомо
+  common.none: Немає
+  common.more: Більше
+  common.loading: Завантаження…
+  common.error: Щось пішло не так.
+  common.search: Пошук
+  home.title: Обирайте ліцензію open source усвідомлено
+  home.lead: Не лише «яку ліцензію обрати», а й що обрали схожі проєкти, яким буде
+    найгірший сценарій і що робити далі.
+  home.entry.chat.title: Поговоріть із ШІ-консультантом
+  home.entry.chat.body: Опишіть свій проєкт своїми словами. Отримайте профіль,
+    уточнювальні запитання та звіт.
+  home.entry.projects.title: Подивіться, що використовують інші
+  home.entry.projects.body: Ліцензії відомих проєктів і причини, чому деякі з них їх змінили.
+  home.entry.wizard.title: Фільтруйте крок за кроком
+  home.entry.wizard.body: Дайте відповідь на кілька запитань і отримайте
+    впорядкований список із поясненнями.
+  home.wall: Ліцензії популярних проєктів
+  home.changes: Нещодавні зміни ліцензій
+  home.scenarios: Що може піти не так?
+  home.scenarios.body: 27 крайніх сценаріїв × 17 стовпців ліцензій, окрема
+    сторінка для кожної клітинки.
+  family.permissive: Дозвільна
+  family.weak-copyleft: Слабкий копілефт
+  family.strong-copyleft: Сильний копілефт
+  family.network-copyleft: Мережевий копілефт
+  family.source-available: Source-available (код доступний для перегляду)
+  family.model: Ліцензія моделі
+  family.content: Контент / дані
+  verdict.allow: Дозволено
+  verdict.conditional: За умов
+  verdict.deny: Заборонено ліцензією
+  verdict.silent: Не врегульовано
+  verdict.tbd: На перевірці
+  verdict.legend: "Позначення: ✓ інша сторона може це зробити · ◐ за умов · ✗
+    ліцензія це забороняє · — ліцензія мовчить (діє загальне право)"
+  actor.other: Це робить хтось інший
+  actor.you: Ви хочете це зробити
+  actor.contributor: Це робить контриб'ютор
+  actor.both: Стосується обох сторін
+  group.A: Комерційна конкуренція
+  group.B: Патенти та право
+  group.C: Розвиток і бізнес
+  group.D: Використання та дотримання вимог
+  group.E: ШІ-моделі та дані
+  matrix.code: Ліцензії для коду
+  matrix.model: Ліцензії для моделей і даних
+  term.commercial-use: Комерційне використання
+  term.modification: Модифікація
+  term.distribution: Розповсюдження
+  term.private-use: Приватне використання
+  term.patent-use: Патентна ліцензія
+  term.non-production-use: Невиробниче використання
+  term.converts-to-open-source: Згодом стає open source
+  term.include-copyright: Зберігати повідомлення про авторське право
+  term.include-license: Додавати ліцензію
+  term.document-changes: Позначати зміни
+  term.disclose-source: Розкривати вихідний код
+  term.same-license: Та сама ліцензія для похідних творів
+  term.same-license-file: Та сама ліцензія (на рівні файлу)
+  term.same-license-library: Та сама ліцензія (на рівні бібліотеки)
+  term.allow-relinking: Дозволяти повторне компонування
+  term.network-use-disclose: Використання через мережу — це розповсюдження
+  term.service-stack-disclose: Відкрити весь стек сервісу
+  term.keep-limitations: Зберігати обмеження
+  term.attribution: Зазначення авторства
+  term.attribution-built-with: Показувати «Built with»
+  term.name-prefix: Правило префікса в назві
+  term.acceptable-use-policy: Політика допустимого використання
+  term.use-restrictions-pass-through: Передавати обмеження використання
+  term.indicate-changes: Зазначати зміни
+  term.liability: Без відповідальності
+  term.warranty: Без гарантій
+  term.trademark-use: Без прав на торговельні марки
+  term.no-endorsement: Заборона використання імені для реклами
+  term.production-use-restricted: Виробниче використання обмежене
+  term.no-managed-service: Заборона керованого сервісу
+  term.no-license-key-circumvention: Заборона обходу ліцензійних ключів
+  term.mau-threshold: Поріг кількості користувачів
+  term.use-restrictions: Обмеження використання
+  term.non-commercial: Лише некомерційне використання
+  licenses.title: "Ліцензії відкритого коду: довідник"
+  licenses.lead: "{count} ліцензій — від дозвільних до source-available та
+    ліцензій ШІ-моделей."
+  licenses.col.license: Ліцензія
+  licenses.col.family: Родина
+  licenses.col.osi: OSI
+  licenses.col.fsf: Вільна за FSF
+  licenses.col.projects: Проєкти
+  licenses.filter: Фільтр за родиною
+  license.permissions: Дозволи
+  license.conditions: Умови
+  license.limitations: Обмеження
+  license.summary: Простими словами
+  license.analogy: Аналогія
+  license.pros: Переваги
+  license.cons: Недоліки
+  license.scenarios: Крайні сценарії
+  license.radar: Радар найгірших сценаріїв
+  license.projects: Відомі проєкти, що її використовують
+  license.projects.count: "Відомих проєктів на нашій мапі з цією ліцензією: {count}."
+  license.projects.none: Жоден проєкт на нашій мапі ще не використовує цю ліцензію.
+  license.projects.since: Перейшов на неї {date}
+  license.projects.also: "Також доступний за ліцензіями: {licenses}"
+  license.projects.former: Проєкти, що від неї відмовилися
+  license.text: Офіційний текст
+  license.text.official: "Офіційний текст мовою: {language}"
+  license.text.note: Юридичну силу має лише офіційний текст. Ми не перекладаємо тексти ліцензій.
+  license.compare: Порівняти з…
+  license.spdx: Ідентифікатор SPDX
+  radar.anti-freeride: Захист від безоплатного використання
+  radar.anti-closed-fork: Захист від закритих форків
+  radar.patent: Патентний захист
+  radar.adoption-friction: Бар'єри для впровадження
+  radar.relicense-difficulty: Складність зміни ліцензії
+  radar.misuse-control: Контроль зловживань
+  radar.derivative-control: Контроль похідних творів
+  radar.commercial-control: Комерційний контроль
+  radar.note: Обчислено на основі матриці сценаріїв. Вище значення означає більше
+    цієї властивості, а не «краще».
+  scenarios.title: Матриця крайніх сценаріїв для ліцензій
+  scenarios.lead: Що відбувається після вибору ліцензії? Кожна клітинка відповідає
+    на одне запитання і має власну сторінку.
+  scenarios.highlight: Виділити ліцензію
+  scenarios.expand: Розгорнути все
+  scenarios.collapse: Згорнути все
+  scenarios.silent-note: Рядки лише з «—» тут навмисно. Відповідь залежить від
+    трудових договорів (C6), законодавства про експортний контроль (D5) або
+    поточних судових справ (D6), а не від ліцензії.
+  scenario.flow.you: Ви публікуєте за {license}
+  scenario.flow.they: Ситуація
+  scenario.flow.result: Результат
+  scenario.clause: Відповідне положення
+  scenario.case: Реальний випадок
+  scenario.others: Той самий сценарій, інші ліцензії
+  scenario.other-scenarios: Інші сценарії для {license}
+  scenario.no-clause: Конкретного положення немає. Діє загальне право.
+  scenario.review: Статус перевірки
+  scenario.review.none: Ще не перевірено юристом.
+  scenario.review.done: "Перевірено: {who}, {date}."
+  compare.title: Порівняння ліцензій open source
+  compare.lead: Оберіть дві або три ліцензії, щоб порівняти їх положення за
+    положенням і сценарій за сценарієм.
+  compare.pick: Додати ліцензію
+  compare.remove: Вилучити
+  compare.terms: Умови
+  compare.scenarios: Сценарії
+  compare.empty: Оберіть щонайменше дві ліцензії.
+  wizard.title: Майстер вибору ліцензії
+  wizard.lead: Дайте відповідь на кілька запитань. Рушій правил упорядкує ліцензії
+    та пояснить кожен пункт.
+  wizard.next: Далі
+  wizard.prev: Назад
+  wizard.finish: Переглянути результат
+  wizard.restart: Почати знову
+  wizard.skip: Пропустити
+  wizard.step: Крок {n} з {total}
+  wizard.to-chat: Продовжити з ШІ-консультантом
+  q.artifact_type: Що ви випускаєте?
+  q.openness_level: Наскільки відкритим це має бути?
+  q.avoid: Яких наслідків ви хочете уникнути?
+  q.avoid.hint: Оберіть будь-яку кількість.
+  q.adoption_goal: Що найважливіше?
+  q.dependencies: Чи залежите ви від коду з копілефтом?
+  q.dependencies.hint: Додайте SPDX-ідентифікатори ліцензій залежностей, наприклад GPL-3.0-only.
+  q.commercial_plan: Як ви плануєте заробляти, якщо взагалі плануєте?
+  q.jurisdiction: Де ви зареєстровані?
+  opt.artifact_type.library: Бібліотеку або SDK
+  opt.artifact_type.application: Застосунок або інструмент
+  opt.artifact_type.saas: Бекенд сервісу (SaaS)
+  opt.artifact_type.model: Ваги моделі
+  opt.artifact_type.dataset: Набір даних
+  opt.artifact_type.docs: Документацію або контент
+  opt.openness_level.open: Повністю відкрито — будь-хто може робити що завгодно
+  opt.openness_level.reciprocal: Відкрито, але покращення мають повертатися
+  opt.openness_level.source-available: Код видно, комерційне використання обмежене
+  opt.avoid.cloud-hosting: Хмарні провайдери продають це як сервіс
+  opt.avoid.closed-fork: Форки із закритим кодом
+  opt.avoid.patent-litigation: Патентні позови
+  opt.avoid.trademark-abuse: Зловживання моїм ім'ям або брендом
+  opt.avoid.harmful-use: Шкідливе використання
+  opt.avoid.big-company: Великі компанії використовують це безкоштовно
+  opt.adoption_goal.enterprise: Максимальне впровадження в компаніях
+  opt.adoption_goal.community: Внески спільноти
+  opt.adoption_goal.monetize: Заробіток на цьому
+  opt.commercial_plan.none: Немає плану
+  opt.commercial_plan.dual-license: Подвійне ліцензування
+  opt.commercial_plan.open-core: Open core
+  opt.commercial_plan.hosted: Хостинговий сервіс
+  opt.jurisdiction.cn: Китай
+  opt.jurisdiction.eu: Європейський Союз
+  opt.jurisdiction.us: Сполучені Штати
+  opt.jurisdiction.other: Інше
+  engine.part.avoid: "Захист від: {avoid}"
+  engine.part.openness: "Відповідність відкритості: {openness}"
+  engine.part.adoption: "Мета: {goal}"
+  engine.part.commercial: "Бізнес-план: {plan}"
+  engine.part.jurisdiction: "Юрисдикція: {jurisdiction}"
+  engine.part.dependency: "Сумісна лише за умов: {dependency}"
+  engine.excluded.dependency: Несумісна із залежністю {dependency}
+  engine.excluded.artifact: Не підходить для такого типу артефакту
+  advisory.needs-cla: Використовуйте ліцензійну угоду контриб'ютора (CLA). Вона
+    знадобиться, щоб продавати комерційні ліцензії або згодом змінити ліцензію.
+  advisory.consider-dco: Зазвичай достатньо Developer Certificate of Origin (DCO, «Signed-off-by»).
+  advisory.busl-change-date: Укажіть у заголовку BSL Additional Use Grant, Change Date і Change License.
+  advisory.model-card: Укажіть ліцензію в метаданих картки моделі або набору даних
+    (поле «license:»).
+  advisory.notice-file: Додайте файл NOTICE і зберігайте його під час повторного розповсюдження.
+  advisory.consult-lawyer: Перед випуском попросіть юриста перевірити залежності та бізнес-умови.
+  advisory.network-source-link: Показуйте користувачам вашого мережевого сервісу посилання «Вихідний код».
+  report.title: Ваш ліцензійний звіт
+  report.lead: Цей звіт обчислюється у вашому браузері на основі профілю з
+    посилання. Поділіться посиланням, щоб поділитися звітом.
+  report.profile: Профіль проєкту
+  report.edit: Редагувати в майстрі
+  report.top: Рекомендовано
+  report.score: Оцінка {score}
+  report.why: Чому
+  report.excluded: Виключено
+  report.advisories: Наступні кроки
+  report.license-file: Файл LICENSE
+  report.header: Заголовок файлу
+  report.badge: Бейдж для README
+  report.share: Посилання для поширення
+  report.share.copy: Копіювати посилання
+  report.similar: Схожі проєкти
+  report.no-text: Машиночитного тексту немає. Візьміть його з офіційної сторінки.
+  report.invalid: Це посилання на звіт пошкоджене або походить зі старої версії.
+  report.empty: Профілю ще немає. Почніть із майстра або ШІ-консультанта.
+  chat.title: ШІ-консультант із ліцензій
+  chat.lead: Опишіть свій проєкт. Консультант поставить уточнювальні запитання,
+    рушій правил підбере ліцензії, а консультант їх пояснить.
+  chat.placeholder: "Наприклад: я створив векторну базу даних і боюся, що хмарні
+    провайдери її перепродаватимуть."
+  chat.send: Надіслати
+  chat.stop: Зупинити
+  chat.examples: Спробуйте приклад
+  chat.example.1: Я створив векторну базу даних і боюся, що хмарні провайдери її
+    перепродаватимуть.
+  chat.example.2: Невелика бібліотека компонентів React. Я хочу, щоб нею
+    користувалися компанії.
+  chat.example.3: Ми донавчили модель 7B і хочемо заблокувати шкідливе використання.
+  chat.profile: Профіль проєкту
+  chat.profile.hint: Натисніть на значення, щоб змінити його.
+  chat.candidates: Кандидати
+  chat.run: Отримати рекомендацію
+  chat.limit: Ви досягли денного ліміту. Спробуйте завтра або скористайтеся майстром.
+  chat.error: Консультант зараз недоступний. Майстер і далі працює.
+  chat.verify: Підтвердіть, що ви людина.
+  chat.disclaimer: Консультант може помилятися. Рекомендації надає рушій правил, і
+    це не юридична консультація.
+  chat.report: Відкрити повний звіт
+  projects.title: Мапа ліцензій проєктів з відкритим кодом
+  projects.lead: Ліцензії відомих проєктів та історія кожної зміни.
+  projects.filter.domain: Галузь
+  projects.filter.family: Родина ліцензій
+  projects.filter.owner: Власник
+  projects.filter.changed: Змінив ліцензію
+  projects.count: "Проєктів: {count}"
+  projects.empty: Жоден проєкт не відповідає цим фільтрам.
+  owner.company: Компанія
+  owner.foundation: Фонд
+  owner.individual: Приватна особа
+  owner.community: Спільнота
+  project.current: Поточна ліцензія
+  project.timeline: Історія ліцензій
+  project.reason: Причина
+  project.announcement: Оголошення
+  project.forks: Форки, що з'явилися після цього
+  project.fork-of: Форк {name}
+  project.repo: Репозиторій
+  project.similar: Схожі проєкти
+  project.review: Цей запис знайшов бот синхронізації, і він очікує на перевірку людиною.
+  project.initial: Початкова ліцензія
+  domain.database: Бази даних
+  domain.frontend: Фронтенд-фреймворки
+  domain.devops: DevOps
+  domain.ai-model: ШІ-моделі
+  domain.language: Мови та середовища виконання
+  domain.os: Операційні системи
+  domain.web: Вебсервери та бекенд
+  domain.tooling: Інструменти розробника
+  domain.data: Дані та аналітика
+  domain.observability: Спостережуваність
+  domain.messaging: Обмін повідомленнями та потокова обробка
+  domain.cms: CMS і застосунки
+  trends.title: Тренди ліцензій open source
+  trends.lead: Агреговано з мапи проєктів під час збирання сайту.
+  trends.family-share: Родини ліцензій за галузями
+  trends.changes: Зміни ліцензій за роками
+  trends.to-source-available: Проєкти, що перейшли з open source на source-available
+  search.lead: Шукайте ліцензії, сценарії та проєкти цією мовою.
+  search.noscript: Для пошуку потрібен JavaScript.
+  check.title: Перевірка сумісності ліцензій залежностей
+  check.lead: Вставте package.json, go.mod, Gemfile.lock, Cargo.toml або
+    requirements.txt. Розбір виконується у вашому браузері.
+  check.project-license: Ліцензія вашого проєкту
+  check.input: Маніфест
+  check.run: Перевірити
+  check.lookup: Шукати невідомі ліцензії онлайн (deps.dev)
+  check.col.package: Пакет
+  check.col.license: Ліцензія
+  check.col.status: Статус
+  check.status.compatible: Сумісна
+  check.status.conditional: За умов
+  check.status.incompatible: Конфлікт
+  check.status.unknown: Невідомо
+  check.summary: "Сумісних: {ok}, за умов: {warn}, конфліктів: {bad}, невідомих: {unknown}"
+  check.format: "Виявлений формат: {format}"
+  check.no-deps: Залежностей не знайдено.
+  check.license-hint: Додайте ліцензії в маніфест рядками «name@version
+    LICENSE-ID» або ввімкніть онлайн-пошук.
+  notfound.title: Сторінку не знайдено
+  notfound.body: Цієї сторінки не існує. Спробуйте довідник ліцензій.
+  domain.education: Освіта
+  domain.design: Шрифти та дизайн

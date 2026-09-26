@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 86907368675893f1
+summary: "Licence Responsible AI pro modely: permisivní podmínky a k tomu
+  omezení podle způsobu užití, která musí každé odvozené dílo předat dál."
+analogy: Nástroj zdarma se seznamem zakázaných použití, který putuje s každou kopií.
+pros:
+  - Povoluje komerční užití
+  - Udržuje omezení škodlivého užití v dalším řetězci
+cons:
+  - Není open source podle OSI
+  - Omezení se těžko vymáhají
+  - Existuje několik variant

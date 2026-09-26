@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: f6ef6656ac79990f
+summary: "Svobodná licence pro balíčky LaTeX: upravené soubory je nutné
+  přejmenovat nebo jasně označit, aby dokumenty všude fungovaly stejně."
+analogy: Písmo smíte upravit, ale své verzi dejte nový název.
+pros:
+  - Zajišťuje reprodukovatelnost dokumentů
+  - Standard v rámci CTAN
+cons:
+  - Neobvyklé pravidlo přejmenování
+  - Není kompatibilní s GPL

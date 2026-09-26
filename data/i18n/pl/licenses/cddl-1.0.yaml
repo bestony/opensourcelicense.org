@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 362187e701e25e6a
+summary: Copyleft na poziomie pliku wywodzący się z MPL, z licencją patentową;
+  niezgodna z GPL.
+analogy: Udostępnij zmiany w pożyczonym pliku; resztę możesz zostawić zamkniętą.
+pros:
+  - Zakres na poziomie pliku
+  - Licencja patentowa
+cons:
+  - Niezgodna z GPL (problem ZFS on Linux)
+  - Niewiele nowych projektów ją wybiera

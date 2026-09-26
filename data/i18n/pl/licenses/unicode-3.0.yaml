@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 72d99432db49e19d
+summary: Licencja permisywna dla danych i oprogramowania Unicode, takich jak ICU
+  i CLDR; zachowaj informację i nie używaj nazwy właściciela praw do promocji.
+analogy: "Darmowe wydawnictwo informacyjne: kopiuj je, zachowaj linijkę z autorem."
+pros:
+  - Permisywna
+  - Obejmuje pliki danych i kod
+cons:
+  - Brak licencji patentowej
+  - Używana głównie w projektach Unicode

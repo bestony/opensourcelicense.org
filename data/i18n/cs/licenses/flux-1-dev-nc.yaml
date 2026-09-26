@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 7d5b7fb367f9a074
+summary: Váhy modelu jen pro nekomerční užití; komerční užití vah vyžaduje
+  samostatnou licenci od Black Forest Labs.
+analogy: Půjčte si fotoaparát na vlastní projekty, ne na placená focení.
+pros:
+  - Otevřené váhy pro výzkum a koníčky
+  - Jasná cesta ke komerčnímu užití
+cons:
+  - Není open source
+  - Komerční užití vyžaduje placenou licenci

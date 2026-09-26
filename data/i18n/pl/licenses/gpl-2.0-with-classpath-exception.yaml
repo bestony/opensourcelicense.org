@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 841fb8980cea558f
+summary: GPL-2.0 dla samej biblioteki, z wyjątkiem pozwalającym niezależnym
+  programom linkować się z nią na dowolnej licencji.
+analogy: Wspólny silnik objęty zasadą udostępniania przepisu, ale Twój samochód
+  pozostaje Twój.
+pros:
+  - Aplikacje linkujące mogą być zamknięte
+  - Używana przez OpenJDK
+cons:
+  - Zmiany w bibliotece pozostają na GPL
+  - Niezgodna z projektami na GPL-3.0-only

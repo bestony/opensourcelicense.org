@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 3720e103ed28cbd1
+summary: "Source-available: jakékoli užití kromě konkurenčního produktu a každé
+  vydání se po dvou letech stane Apache-2.0."
+analogy: Výloha obchodu, jejíž zboží je po dvou letech zdarma pro všechny.
+pros:
+  - Krátká a předvídatelná
+  - Kód se po dvou letech stane open source
+cons:
+  - Není open source
+  - „Konkurenční užití“ se může těžko posuzovat

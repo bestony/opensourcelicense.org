@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 3ab9492f75e7adb0
+summary: "Silný copyleft: pokud šíříte software nebo odvozená díla, musíte
+  zveřejnit úplný zdrojový kód pod GPL-3.0."
+analogy: "Recept, který říká: kdo podává jídlo podle něj, musí rozdat i celý recept."
+pros:
+  - Udržuje všechna šířená odvozená díla otevřená
+  - Patentová licence a ochrana proti tivoizaci
+  - Silná komunitní tradice
+cons:
+  - Mnoho firem se jí vyhýbá
+  - Nepokrývá SaaS (nejde o šíření)
+  - Nekompatibilní s GPL-2.0-only

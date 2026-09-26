@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 38b4b3f3e07a3e99
+summary: "Licencja modelu dopuszczająca użytek komercyjny: utwory zależne
+  dozwolone, NVIDIA nie rości sobie praw do wyników, ale nie wolno obchodzić
+  wbudowanych zabezpieczeń."
+analogy: Darmowy silnik, z którego nie wolno zdejmować pasów bezpieczeństwa.
+pros:
+  - Użytek komercyjny dozwolony
+  - Brak roszczeń do wyników
+cons:
+  - To nie jest open source
+  - Zapis o zabezpieczeniach wymaga uwagi

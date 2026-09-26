@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: ddb7b2f148c13edb
+summary: Krátká permisivní licence s výslovnou patentovou licencí, kterou Oracle
+  používá pro GraalVM a další projekty.
+analogy: Kniha zdarma podle MIT s přidaným slibem ohledně patentů.
+pros:
+  - Krátká a permisivní
+  - Výslovná patentová licence
+cons:
+  - Žádné ustanovení o patentové odvetě
+  - Méně známá než MIT nebo Apache

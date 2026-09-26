@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 99f045fe47a729cc
+summary: "Source-available: volně používejte, upravujte a šiřte, kromě nabízení
+  SaaS produktu, který konkuruje Confluent."
+analogy: Použijte recept v jakékoli restauraci kromě té, která konkuruje autorově.
+pros:
+  - Úzké omezení
+  - Většiny uživatelů se netýká
+cons:
+  - Není open source
+  - Vylučuje cloudové konkurenty jen podle popisu

@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 50ad39245dfcc7f1
+summary: "Licencja source-available od Redis: swobodne używanie i modyfikowanie,
+  ale bez oferowania oprogramowania jako usługi zarządzanej i bez obchodzenia
+  kluczy licencyjnych."
+analogy: Gotuj z tym gdziekolwiek, ale nie otwieraj sklepu sprzedającego to danie.
+pros:
+  - Celuje tylko w konkurentów oferujących usługi zarządzane
+  - Krótka
+cons:
+  - To nie jest open source
+  - Wywołała fork Valkey

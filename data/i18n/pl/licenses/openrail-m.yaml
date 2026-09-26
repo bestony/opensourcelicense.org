@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 86907368675893f1
+summary: "Licencja Responsible AI dla modeli: warunki permisywne plus
+  ograniczenia użycia, które każdy utwór zależny musi przekazać dalej."
+analogy: Darmowe narzędzie z listą zakazanych zastosowań, która podróżuje z każdą kopią.
+pros:
+  - Zezwala na użytek komercyjny
+  - Utrzymuje ograniczenia szkodliwych zastosowań w dalszym łańcuchu
+cons:
+  - Nie jest open source według OSI
+  - Ograniczenia trudno egzekwować
+  - Istnieje kilka wariantów

@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cf76d86201254c1b
+summary: "Silný copyleft: šířená odvozená díla musí být celá zveřejněna pod
+  GPL-2.0. Žádná výslovná patentová licence; nekompatibilní s GPL-3.0, pokud se
+  nepoužije „or later“."
+analogy: Pravidlo sdílení receptu ve starším vydání.
+pros:
+  - Udržuje šířená odvozená díla otevřená
+  - Používá ji jádro Linuxu
+cons:
+  - Nekompatibilní s Apache-2.0 a GPL-3.0 (pouze tato verze)
+  - Žádná výslovná patentová licence

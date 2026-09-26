@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: ded3362d69058c2a
+summary: Apache-2.0 s výjimkou, která ruší požadavek na uvedení autorství u
+  zkompilovaného kódu a umožňuje použití v projektech pod GPL-2.0.
+analogy: Sada nástrojů Apache s poznámkou, že zbytky nástrojů ve vašem produktu
+  nevyžadují uvedení autora.
+pros:
+  - Patentová licence z Apache-2.0
+  - Funguje s kódem pod GPL-2.0
+cons:
+  - Delší než MIT
+  - Výjimka je určena pro projekty typu kompilátor

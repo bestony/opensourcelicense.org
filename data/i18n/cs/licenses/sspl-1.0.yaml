@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: c04c9ce2bbb6b016
+summary: Podobná AGPL, ale nabízení softwaru jako služby vyžaduje zveřejnit
+  zdrojový kód celého stacku služby. Není schválena OSI.
+analogy: Pokud provozujete restauraci s tímto jídlem, musíte zveřejnit i plány
+  své kuchyně.
+pros:
+  - Silná ochrana proti cloudovým poskytovatelům
+cons:
+  - Není open source podle OSI
+  - Mnoho distribucí ji odmítá
+  - Může vyvolat komunitní forky

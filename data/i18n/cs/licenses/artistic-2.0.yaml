@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cb1197749de0ea7e
+summary: Umožňuje volně upravovat a šířit, ale upravená verze musí být jasně
+  označena nebo přejmenována, případně musí být zpřístupněn její zdrojový kód.
+  Obsahuje patentová ustanovení.
+analogy: Udělejte remix písně, ale neprodávejte ho jako originál.
+pros:
+  - Chrání identitu originálu
+  - Kompatibilní s GPL
+cons:
+  - Podmínky jsou rozvláčné
+  - Mimo Raku a Perl vzácná

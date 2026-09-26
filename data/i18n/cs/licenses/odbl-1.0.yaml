@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 6a4054dc9cca8e7e
+summary: "Zachování licence pro databáze: data smíte používat komerčně, ale
+  veřejné odvozené databáze musí zůstat pod ODbL. Vytvořená díla, jako mapy nebo
+  obrázky, vyžadují jen uvedení autorství."
+analogy: Stavějte na sdílené mapě, a pokud zveřejníte vylepšenou mapovou
+  databázi, sdílejte ji zpět za stejných podmínek.
+pros:
+  - Udržuje vylepšené databáze otevřené
+  - Komerční užití povoleno
+  - Osvědčená díky OpenStreetMap
+cons:
+  - Povinnost zachovat licenci může bránit kombinování s jinými daty
+  - „Odvozená databáze“ je někdy nejasná

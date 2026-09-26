@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 0196a50e1d1c6b89
+summary: "Dla treści i danych: wymagane uznanie autorstwa, użytek komercyjny
+  jest niedozwolony."
+analogy: Udostępniaj zdjęcie swobodnie, ale nie w reklamach ani sprzedawanych
+  produktach.
+pros:
+  - Blokuje komercyjne ponowne użycie
+  - Oficjalne tłumaczenia
+cons:
+  - Nie jest otwarta według OSI ani Open Definition
+  - „Niekomercyjny” bywa niejasny
+  - Blokuje wiele uzasadnionych zastosowań

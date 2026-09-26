@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 3d7476dd1bfc7f5b
+summary: Permisivní licence; licenční upozornění je vyžadováno ve zdrojových
+  kopiích, ale ne ve zkompilovaných binárních souborech.
+analogy: Nechte jméno autora v kuchařce, ne na každém podávaném talíři.
+pros:
+  - V binárních souborech není nutné upozornění
+  - Standard pro knihovny C++
+cons:
+  - Žádná patentová licence
+  - Mimo C++ méně známá

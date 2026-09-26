@@ -1,0 +1,8 @@
+reviewed: false
+sourceHash: 3a5f4b9bf27dddea
+actor: other
+title: Twój kod zostaje włączony do projektu na GPL-3.0
+cells:
+  apache-2.0: Ale nie jest zgodna z GPL-2.0
+  mpl-2.0: Chyba że oznaczono jako niezgodne
+  agpl-3.0: Część na AGPL pozostaje na AGPL

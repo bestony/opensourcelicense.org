@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 841fb8980cea558f
+summary: GPL-2.0 pro samotnou knihovnu, s výjimkou, která nezávislým programům
+  umožňuje se s ní slinkovat pod libovolnou licencí.
+analogy: Sdílený motor podle pravidla sdílení receptu, ale vaše auto zůstává vaše.
+pros:
+  - Aplikace, které se s ní slinkují, mohou být uzavřené
+  - Používá ji OpenJDK
+cons:
+  - Změny knihovny zůstávají pod GPL
+  - Nekompatibilní s projekty pod GPL-3.0-only

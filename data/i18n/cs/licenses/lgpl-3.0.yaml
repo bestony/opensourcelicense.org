@@ -1,0 +1,15 @@
+reviewed: false
+sourceHash: cdef0d42cb1ab51e
+summary: "Copyleft na úrovni knihovny: změny knihovny zůstávají otevřené;
+  uzavřené aplikace se s ní mohou slinkovat, pokud uživatelé mohou knihovnu
+  vyměnit."
+analogy: "Sdílený motor: můžete ho dát do svého auta, ale majitelé ho musí moci
+  vyměnit za vlastní."
+pros:
+  - Umožňuje proprietárním aplikacím knihovnu používat
+  - Změny knihovny zůstávají otevřené
+  - Patentová licence
+cons:
+  - Pravidla opětovného slinkování jsou složitá, zejména u statického linkování
+    a mobilních zařízení
+  - Některé firmy se jí stále vyhýbají

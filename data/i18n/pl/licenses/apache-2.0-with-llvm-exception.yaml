@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: ded3362d69058c2a
+summary: Apache-2.0 z wyjątkiem, który znosi wymóg uznania autorstwa dla
+  skompilowanego kodu i pozwala używać go w projektach na GPL-2.0.
+analogy: Zestaw narzędzi Apache z dopiskiem, że resztki narzędzi w Twoim
+  produkcie nie wymagają podawania autora.
+pros:
+  - Licencja patentowa z Apache-2.0
+  - Współpracuje z kodem na GPL-2.0
+cons:
+  - Dłuższa niż MIT
+  - Wyjątek dotyczy projektów typu kompilator

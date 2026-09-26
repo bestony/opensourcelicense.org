@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 3720e103ed28cbd1
+summary: "Source-available: dowolny użytek z wyjątkiem konkurencyjnego produktu,
+  a każde wydanie po dwóch latach przechodzi na Apache-2.0."
+analogy: Witryna sklepowa, w której towar po dwóch latach staje się darmowy dla
+  wszystkich.
+pros:
+  - Krótka i przewidywalna
+  - Kod po dwóch latach staje się open source
+cons:
+  - To nie jest open source
+  - „Użycie konkurencyjne” bywa trudne do oceny

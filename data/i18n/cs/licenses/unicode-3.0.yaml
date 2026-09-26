@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 72d99432db49e19d
+summary: Permisivní licence pro data a software Unicode, jako jsou ICU a CLDR;
+  zachovejte upozornění a nepoužívejte jméno držitele práv k propagaci.
+analogy: "Příručka zdarma: kopírujte ji, zachovejte řádek s autorem."
+pros:
+  - Permisivní
+  - Pokrývá datové soubory i kód
+cons:
+  - Žádná patentová licence
+  - Používá se hlavně v projektech Unicode

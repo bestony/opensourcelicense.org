@@ -1,0 +1,7 @@
+reviewed: false
+sourceHash: d774574ea30fc483
+actor: other
+title: Modyfikacja wewnętrzna, bez dystrybucji i bez usługi zewnętrznej
+cells:
+  agpl-3.0: Interakcja użytkowników w intranecie jest sporna
+  busl-1.1: Zależy od Additional Use Grant

@@ -1,0 +1,8 @@
+reviewed: false
+sourceHash: 3a5f4b9bf27dddea
+actor: other
+title: Ваш код включено до проєкту під GPL-3.0
+cells:
+  apache-2.0: Але несумісна з GPL-2.0
+  mpl-2.0: Якщо не позначено як несумісне
+  agpl-3.0: Частина під AGPL залишається під AGPL
