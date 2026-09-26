@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 99f045fe47a729cc
+summary: "Source-available: frei nutzen, ändern und verbreiten, außer um ein
+  SaaS anzubieten, das mit Confluent konkurriert."
+analogy: Nutzen Sie das Rezept in jedem Restaurant außer einem, das mit dem des
+  Autors konkurriert.
+pros:
+  - Enge Einschränkung
+  - Die meisten Nutzer sind nicht betroffen
+cons:
+  - Keine Open Source
+  - Schließt Cloud-Konkurrenten nur per Beschreibung aus

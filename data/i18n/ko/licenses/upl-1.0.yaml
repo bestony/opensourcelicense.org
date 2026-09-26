@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: ddb7b2f148c13edb
+summary: 명시적 특허 허락이 있는 짧은 허용형 라이선스로, Oracle이 GraalVM 등에서 사용합니다.
+analogy: MIT의 무료 책에 특허 약속을 더한 것.
+pros:
+  - 짧고 허용적
+  - 명시적 특허 허락
+cons:
+  - 특허 보복 조항 없음
+  - MIT나 Apache보다 덜 알려짐

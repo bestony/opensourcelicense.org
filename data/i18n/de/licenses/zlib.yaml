@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: cec538ff11fd0ee8
+summary: "Freizügige Lizenz: Geänderter Quellcode muss als geändert
+  gekennzeichnet werden, die Herkunft darf nicht verschleiert werden, und der
+  Hinweis bleibt in Quellkopien."
+analogy: Leihen Sie das Rezept, aber wenn Sie es ändern, geben Sie es nicht als
+  Original aus.
+pros:
+  - Freizügig und kurz
+  - Beliebt für Spiele und native Bibliotheken
+cons:
+  - Keine Patentlizenz
+  - Geschlossene Forks sind erlaubt

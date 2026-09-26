@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 3d7476dd1bfc7f5b
+summary: "Licence permissive : la mention est requise dans les copies source,
+  mais pas dans les binaires compilés."
+analogy: Le nom de l'auteur figure dans le livre de recettes, pas sur chaque
+  assiette servie.
+pros:
+  - Pas de mention dans les binaires
+  - Standard pour les bibliothèques C++
+cons:
+  - Aucune licence de brevets
+  - Peu connue hors du C++

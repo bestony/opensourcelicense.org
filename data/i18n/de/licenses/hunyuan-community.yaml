@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: c882745d1b8524bb
+summary: Kommerzielle Nutzung mit Nutzungsrichtlinie erlaubt; sehr große Dienste
+  brauchen eine separate Lizenz, und einige Gebiete sind ausgenommen.
+analogy: Ein kostenloser Motor mit Regelwerk, Größengrenze und einer Karte
+  erlaubter Straßen.
+pros:
+  - Kommerzielle Nutzung für die meisten
+  - Deckt Text-, Video- und 3D-Modelle ab
+cons:
+  - Keine Open Source
+  - Gebietsausschlüsse

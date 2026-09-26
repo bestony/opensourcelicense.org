@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 2388a1183d57050c
+summary: "Freie Schriftlizenz: Schriften frei nutzen, einbetten und ändern;
+  geänderte Schriften müssen reservierte Namen ablegen, und die Schrift darf
+  nicht allein verkauft werden."
+analogy: Nutzen Sie die Schrift überall, aber verkaufen Sie die Schriftdatei
+  nicht allein.
+pros:
+  - Erlaubt Einbettung in Dokumente und Apps
+  - Standard für offene Schriften
+cons:
+  - Reservierte Schriftnamen erschweren Forks
+  - Nur für Schriften

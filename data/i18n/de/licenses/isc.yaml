@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 7db0448b4abf3505
+summary: "Kürzere MIT-Entsprechung: jede Nutzung, solange Copyright- und
+  Erlaubnishinweis erhalten bleiben."
+analogy: Dasselbe kostenlose Buch wie MIT, nur mit kürzerem Hinweis auf dem Umschlag.
+pros:
+  - Kürzeste verbreitete freizügige Lizenz
+  - Standard vieler npm-Pakete
+cons:
+  - Keine Patentlizenz
+  - Geschlossene Forks sind erlaubt

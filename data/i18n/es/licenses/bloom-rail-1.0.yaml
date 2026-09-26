@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 76c3b4e3dc7fbff1
+summary: "La primera licencia de IA responsable para un gran modelo de lenguaje:
+  acceso abierto con restricciones de uso que obligan a los derivados."
+analogy: Una herramienta gratuita con una lista de usos prohibidos en cada copia.
+pros:
+  - Permite el uso comercial
+  - Pionera de las licencias RAIL
+cons:
+  - OSI no la considera código abierto
+  - Restricciones difíciles de hacer cumplir

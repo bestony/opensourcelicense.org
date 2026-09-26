@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cf76d86201254c1b
+summary: "Copyleft fort : les dérivés distribués doivent être publiés
+  entièrement sous GPL-2.0. Pas de licence de brevets explicite ; incompatible
+  avec la GPL-3.0 sans « ou ultérieure »."
+analogy: La règle « donnez la recette », dans son ancienne édition.
+pros:
+  - Garde ouverts les dérivés distribués
+  - Utilisée par le noyau Linux
+cons:
+  - Incompatible avec Apache-2.0 et GPL-3.0 (version seule)
+  - Pas de licence de brevets explicite

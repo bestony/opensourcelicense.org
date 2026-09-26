@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 3440c6c6f7e1c94d
+summary: "Apples Copyleft auf Dateiebene: Geänderte Dateien müssen
+  veröffentlicht werden, auch bei externer Bereitstellung als Dienst. Nicht
+  kompatibel mit der GPL."
+analogy: Teilen Sie Änderungen an der geliehenen Datei, auch wenn Sie nur das
+  Ergebnis anbieten.
+pros:
+  - Deckt externe Bereitstellung ab
+  - Patentlizenz
+cons:
+  - Nicht kompatibel mit der GPL
+  - Meist auf Apples Open Source beschränkt

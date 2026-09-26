@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 3720e103ed28cbd1
+summary: "Código disponível: qualquer uso exceto produto concorrente, e cada
+  versão vira Apache-2.0 dois anos depois."
+analogy: Uma vitrine cujos itens ficam livres para todos depois de dois anos.
+pros:
+  - Curta e previsível
+  - O código vira aberto em dois anos
+cons:
+  - Não é código aberto
+  - '"Uso concorrente" pode ser difícil de avaliar'

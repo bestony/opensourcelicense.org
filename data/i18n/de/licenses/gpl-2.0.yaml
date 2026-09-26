@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cf76d86201254c1b
+summary: "Starkes Copyleft: Weitergegebene Ableitungen müssen vollständig unter
+  GPL-2.0 veröffentlicht werden. Keine ausdrückliche Patentlizenz; ohne „oder
+  später“ nicht kompatibel mit GPL-3.0."
+analogy: Die Regel „Rezept mitgeben“ in der älteren Fassung.
+pros:
+  - Hält weitergegebene Ableitungen offen
+  - Vom Linux-Kernel genutzt
+cons:
+  - Nicht kompatibel mit Apache-2.0 und GPL-3.0 (nur diese Version)
+  - Keine ausdrückliche Patentlizenz

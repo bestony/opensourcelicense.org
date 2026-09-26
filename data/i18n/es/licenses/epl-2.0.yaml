@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 5941dce0a6108d60
+summary: Copyleft débil a nivel de módulo con concesión de patentes; puede
+  designar la GPL como licencia secundaria para ser compatible.
+analogy: Comparte tus cambios en el capítulo prestado; el resto del libro es tuyo.
+pros:
+  - Copyleft amigable para empresas
+  - Concesión de patentes
+cons:
+  - Compatible con GPL solo si se declara licencia secundaria
+  - Los límites de módulo pueden ser difusos

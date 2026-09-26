@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: ded3362d69058c2a
+summary: Apache-2.0 más una excepción que elimina la atribución en el código
+  compilado y permite usarla con proyectos GPL-2.0.
+analogy: "La caja de herramientas de Apache con una nota: los restos de las
+  herramientas en tu producto no necesitan crédito."
+pros:
+  - Concesión de patentes de Apache-2.0
+  - Funciona con código GPL-2.0
+cons:
+  - Más larga que MIT
+  - La excepción está pensada para proyectos tipo compilador

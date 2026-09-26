@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: ded3362d69058c2a
+summary: Apache-2.0 plus eine Ausnahme, die die Namensnennung für kompilierten
+  Code entfallen lässt und die Nutzung mit GPL-2.0-Projekten erlaubt.
+analogy: "Der Apache-Werkzeugkasten mit dem Hinweis: Reste der Werkzeuge in
+  Ihrem Produkt brauchen keine Nennung."
+pros:
+  - Patentlizenz von Apache-2.0
+  - Mit GPL-2.0-Code nutzbar
+cons:
+  - Länger als MIT
+  - Ausnahme gedacht für Compiler-ähnliche Projekte

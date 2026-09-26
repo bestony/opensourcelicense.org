@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 5941dce0a6108d60
+summary: Copyleft fraco por módulo com concessão de patentes; pode indicar a GPL
+  como licença secundária para compatibilidade.
+analogy: Compartilhe as mudanças no capítulo emprestado; o resto do livro é seu.
+pros:
+  - Copyleft amigável a empresas
+  - Concessão de patentes
+cons:
+  - Compatível com GPL só com licença secundária declarada
+  - Limites de módulo podem ser confusos

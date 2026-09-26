@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 41352f96fddd8017
+summary: モジュール単位のコピーレフトで特許許諾付き。準拠法はニューヨーク州。GPL とは非互換。
+analogy: Eclipse の「章を共有する」ルールの初版。
+pros:
+  - 特許の許諾
+  - Clojure や JUnit 4 が採用
+cons:
+  - GPL と非互換
+  - EPL-2.0 に置き換えられた

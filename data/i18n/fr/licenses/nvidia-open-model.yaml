@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 38b4b3f3e07a3e99
+summary: "Licence de modèle utilisable commercialement : dérivés permis et
+  NVIDIA ne revendique pas les sorties, mais les garde-fous de sécurité intégrés
+  ne doivent pas être contournés."
+analogy: Un moteur gratuit dont on ne doit pas retirer les ceintures de sécurité.
+pros:
+  - Usage commercial permis
+  - Aucune revendication sur les sorties
+cons:
+  - Ce n'est pas de l'open source
+  - La clause sur les garde-fous demande de l'attention

@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 3d7476dd1bfc7f5b
+summary: "Licencia permisiva: el aviso es obligatorio en las copias fuente, pero
+  no en los binarios compilados."
+analogy: El nombre del autor va en el recetario, no en cada plato que sirves.
+pros:
+  - No exige aviso en binarios
+  - Estándar en bibliotecas C++
+cons:
+  - No concede patentes
+  - Poco conocida fuera de C++

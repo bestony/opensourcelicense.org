@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 72d99432db49e19d
+summary: "Freizügige Lizenz für Unicode-Daten und -Software wie ICU und CLDR:
+  Hinweis behalten und den Namen des Rechteinhabers nicht zur Werbung nutzen."
+analogy: "Ein kostenloses Nachschlagewerk: kopieren, Quellenzeile behalten."
+pros:
+  - Freizügig
+  - Deckt Datendateien und Code ab
+cons:
+  - Keine Patentlizenz
+  - Vor allem in Unicode-Projekten genutzt

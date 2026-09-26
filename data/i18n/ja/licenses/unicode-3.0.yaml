@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 72d99432db49e19d
+summary: ICU や CLDR など Unicode のデータとソフトウェア向けの寛容型ライセンス。表示を残し、著作権者の名前を宣伝に使わない。
+analogy: 無料の参考書。自由にコピーし、クレジットは残す。
+pros:
+  - 寛容
+  - データファイルとコードの両方を対象
+cons:
+  - 特許の許諾がない
+  - 主に Unicode のプロジェクトで使われる

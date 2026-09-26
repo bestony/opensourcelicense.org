@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 22649412ed3dbb5f
+summary: "Copyleft de biblioteca: los cambios a la biblioteca siguen abiertos;
+  los programas cerrados pueden enlazarla si el usuario puede reenlazar con una
+  versión modificada."
+analogy: La edición antigua del motor compartido reemplazable.
+pros:
+  - Permite que apps propietarias usen la biblioteca
+  - Común en bibliotecas de escritorio y multimedia
+cons:
+  - Reglas de reenlazado complejas
+  - Sin concesión expresa de patentes

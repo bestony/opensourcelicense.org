@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 92115efde43878b6
+summary: Gewichte nur für Forschung und persönliche Nutzung; jede kommerzielle
+  oder produktive Nutzung braucht eine kommerzielle Lizenz von Mistral AI.
+analogy: "Ein Bibliotheksbuch: lesen und studieren, nicht weiterverkaufen."
+pros:
+  - Offene Gewichte für die Forschung
+  - Änderungen zu Forschungszwecken erlaubt
+cons:
+  - Keine kommerzielle Nutzung
+  - Keine Open Source

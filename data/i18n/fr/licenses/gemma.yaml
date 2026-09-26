@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: c826929f8a1baf2e
+summary: "Conditions de modèle de Google : usage commercial permis, avec une
+  politique d'usages interdits transmise à tout dérivé, y compris les modèles
+  distillés."
+analogy: Un moteur gratuit avec un règlement qui accompagne chaque moteur reconstruit.
+pros:
+  - Usage commercial sans seuil d'utilisateurs
+  - Règles claires pour les dérivés
+cons:
+  - L'OSI ne la considère pas comme open source
+  - Google peut modifier la politique d'usage

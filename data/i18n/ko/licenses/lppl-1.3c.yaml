@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: f6ef6656ac79990f
+summary: LaTeX 패키지용 자유 라이선스. 문서가 어디서나 같게 조판되도록, 수정한 파일은 이름을 바꾸거나 분명히 표시해야 합니다.
+analogy: 서체를 바꿔도 되지만 당신의 판에는 새 이름을 붙이세요.
+pros:
+  - 문서 재현성 유지
+  - CTAN 전반의 표준
+cons:
+  - 이름 변경 규칙이 독특함
+  - GPL과 비호환

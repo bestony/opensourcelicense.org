@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: cec538ff11fd0ee8
+summary: "Licence permissive : le code modifié doit être signalé comme tel,
+  l'origine ne doit pas être travestie et la mention reste dans les copies
+  source."
+analogy: Empruntez la recette, mais si vous la modifiez, ne dites pas que c'est
+  l'originale.
+pros:
+  - Permissive et courte
+  - Populaire pour les jeux et bibliothèques natives
+cons:
+  - Aucune licence de brevets
+  - Les forks fermés sont permis

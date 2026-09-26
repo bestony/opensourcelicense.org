@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: f6ef6656ac79990f
+summary: "Licencia libre para paquetes LaTeX: los archivos modificados deben
+  renombrarse o marcarse para que los documentos se compongan igual en todas
+  partes."
+analogy: Puedes cambiar el tipo de letra, pero dale un nombre nuevo a tu versión.
+pros:
+  - Mantiene los documentos reproducibles
+  - Estándar en CTAN
+cons:
+  - La regla de renombrado es poco habitual
+  - Incompatible con la GPL

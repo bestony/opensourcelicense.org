@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 362187e701e25e6a
+summary: Copyleft por arquivo derivado da MPL, com concessão de patentes;
+  incompatível com a GPL.
+analogy: Compartilhe as mudanças no arquivo emprestado; o resto pode continuar fechado.
+pros:
+  - Escopo por arquivo
+  - Concessão de patentes
+cons:
+  - Incompatível com a GPL (o problema ZFS e Linux)
+  - Poucos projetos novos a adotam

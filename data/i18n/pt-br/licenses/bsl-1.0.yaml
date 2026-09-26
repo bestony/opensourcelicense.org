@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 3d7476dd1bfc7f5b
+summary: "Licença permissiva: o aviso é exigido nas cópias fonte, mas não nos
+  binários compilados."
+analogy: O nome do autor fica no livro de receitas, não em cada prato servido.
+pros:
+  - Sem aviso nos binários
+  - Padrão em bibliotecas C++
+cons:
+  - Não concede patentes
+  - Pouco conhecida fora do C++

@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 2388a1183d57050c
+summary: "Licença livre de fontes: use, incorpore e modifique fontes livremente,
+  mas versões modificadas precisam retirar os nomes reservados e a fonte não
+  pode ser vendida sozinha."
+analogy: Use a tipografia em todo lugar, mas não venda o arquivo de fonte sozinho.
+pros:
+  - Permite incorporar em documentos e apps
+  - Padrão de fontes abertas
+cons:
+  - Nomes reservados complicam forks
+  - Só para fontes

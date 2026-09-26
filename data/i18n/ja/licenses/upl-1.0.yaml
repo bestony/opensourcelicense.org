@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: ddb7b2f148c13edb
+summary: 明示的な特許許諾付きの短い寛容型ライセンス。Oracle が GraalVM などで使っている。
+analogy: MIT の無料の本に、特許についての約束を加えたもの。
+pros:
+  - 短く寛容
+  - 明示的な特許許諾
+cons:
+  - 特許報復条項がない
+  - MIT や Apache ほど知られていない

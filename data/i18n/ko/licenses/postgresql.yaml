@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: e8b5efadb2a71225
+summary: MIT·BSD와 비슷한 짧은 허용형 라이선스로, PostgreSQL과 그 생태계에서 씁니다.
+analogy: PostgreSQL 커뮤니티판 "무료 책".
+pros:
+  - 짧고 허용적
+  - PostgreSQL 생태계에 익숙
+cons:
+  - 특허 허락이 없음
+  - 폐쇄형 포크 허용

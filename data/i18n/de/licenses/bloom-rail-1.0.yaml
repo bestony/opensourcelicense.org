@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 76c3b4e3dc7fbff1
+summary: "Die erste Responsible-AI-Lizenz für ein großes Sprachmodell: offener
+  Zugang mit nutzungsbezogenen Einschränkungen, die Ableitungen binden."
+analogy: Ein kostenloses Werkzeug mit einer Liste verbotener Verwendungen an
+  jeder Kopie.
+pros:
+  - Erlaubt kommerzielle Nutzung
+  - Wegbereiter der RAIL-Lizenzen
+cons:
+  - Für die OSI keine Open Source
+  - Einschränkungen schwer durchsetzbar

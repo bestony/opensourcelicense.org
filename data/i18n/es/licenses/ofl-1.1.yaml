@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 2388a1183d57050c
+summary: "Licencia libre de tipografías: usa, incrusta y modifica fuentes
+  libremente, pero las versiones modificadas deben quitar los nombres reservados
+  y la fuente no puede venderse sola."
+analogy: Usa la tipografía en todas partes, pero no vendas el archivo de fuente
+  por sí solo.
+pros:
+  - Permite incrustar en documentos y apps
+  - Estándar de fuentes abiertas
+cons:
+  - Los nombres reservados complican los forks
+  - Solo para fuentes

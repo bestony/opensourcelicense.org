@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 626a2a9d93ec9cef
+summary: "Licença de modelo no estilo OpenRAIL: uso comercial permitido, com
+  restrições de uso repassadas aos derivados."
+analogy: Uma ferramenta grátis com uma lista de usos proibidos em cada cópia.
+pros:
+  - Permite uso comercial
+  - Restrições seguem adiante
+cons:
+  - A OSI não a considera código aberto
+  - Modelos DeepSeek mais novos passaram para MIT

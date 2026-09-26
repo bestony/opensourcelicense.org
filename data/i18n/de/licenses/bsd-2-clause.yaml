@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 261d8b56fb436858
+summary: "Wie MIT: Code frei nutzen; Copyright-Hinweis und Haftungsausschluss
+  bleiben in Quell- und Binärkopien erhalten."
+analogy: "Eine kostenlose Rezeptkarte: überall kopieren, aber die Zeile mit dem
+  Autor behalten."
+pros:
+  - Sehr kurz und freizügig
+  - In BSD-Systemen weit verbreitet
+cons:
+  - Keine Patentlizenz
+  - Geschlossene Forks sind erlaubt

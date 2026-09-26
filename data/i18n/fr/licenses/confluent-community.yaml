@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 99f045fe47a729cc
+summary: "Code source disponible : utilisation, modification et distribution
+  libres, sauf pour proposer un SaaS concurrent de Confluent."
+analogy: Utilisez la recette dans tout restaurant, sauf un qui concurrence celui
+  de l'auteur.
+pros:
+  - Restriction étroite
+  - La plupart des utilisateurs ne sont pas concernés
+cons:
+  - Ce n'est pas de l'open source
+  - Exclut les concurrents cloud uniquement par description

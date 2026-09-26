@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 41352f96fddd8017
+summary: 모듈 단위 카피레프트로 특허 허락이 있고 뉴욕주 법을 따릅니다. GPL과 비호환입니다.
+analogy: Eclipse "장 공유" 규칙의 초판.
+pros:
+  - 특허 허락
+  - Clojure, JUnit 4가 채택
+cons:
+  - GPL과 비호환
+  - EPL-2.0으로 대체됨

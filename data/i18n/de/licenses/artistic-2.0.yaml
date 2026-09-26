@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cb1197749de0ea7e
+summary: Erlaubt freies Ändern und Weitergeben, doch eine geänderte Version muss
+  klar gekennzeichnet, umbenannt oder mit Quellcode verfügbar sein. Enthält
+  Patentklauseln.
+analogy: Remixen Sie das Lied, aber verkaufen Sie Ihren Remix nicht als Original.
+pros:
+  - Schützt die Identität des Originals
+  - GPL-kompatibel
+cons:
+  - Umständlich formulierte Bedingungen
+  - Außerhalb von Raku und Perl selten

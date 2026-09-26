@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: ddb7b2f148c13edb
+summary: Licence permissive courte avec licence de brevets explicite, utilisée
+  par Oracle pour GraalVM et d'autres projets.
+analogy: Le livre gratuit de MIT, avec une promesse supplémentaire sur les brevets.
+pros:
+  - Courte et permissive
+  - Licence de brevets explicite
+cons:
+  - Pas de clause de rétorsion en matière de brevets
+  - Moins connue que MIT ou Apache

@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cf76d86201254c1b
+summary: "Copyleft fuerte: los derivados distribuidos deben publicarse completos
+  bajo GPL-2.0. No concede patentes expresamente y es incompatible con GPL-3.0
+  salvo con «o posterior»."
+analogy: La regla de entregar la receta, en su edición antigua.
+pros:
+  - Mantiene abiertos los derivados distribuidos
+  - La usa el kernel de Linux
+cons:
+  - Incompatible con Apache-2.0 y GPL-3.0 (versión única)
+  - Sin concesión expresa de patentes

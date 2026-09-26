@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 362187e701e25e6a
+summary: Copyleft auf Dateiebene, abgeleitet von der MPL, mit Patentlizenz;
+  nicht kompatibel mit der GPL.
+analogy: Teilen Sie Änderungen an der geliehenen Datei; der Rest darf
+  geschlossen bleiben.
+pros:
+  - Geltung pro Datei
+  - Patentlizenz
+cons:
+  - Nicht kompatibel mit der GPL (das ZFS-und-Linux-Problem)
+  - Kaum noch neu gewählt

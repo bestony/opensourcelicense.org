@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 38b4b3f3e07a3e99
+summary: "Kommerziell nutzbare Modelllizenz: Ableitungen erlaubt, NVIDIA
+  beansprucht keine Rechte an Ausgaben, doch eingebaute Sicherheitsvorkehrungen
+  dürfen nicht umgangen werden."
+analogy: Ein kostenloser Motor, an dem die Sicherheitsgurte bleiben müssen.
+pros:
+  - Kommerzielle Nutzung erlaubt
+  - Keine Ansprüche an Ausgaben
+cons:
+  - Keine Open Source
+  - Klausel zu Sicherheitsvorkehrungen beachten

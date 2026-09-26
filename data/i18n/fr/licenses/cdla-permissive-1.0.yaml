@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 97ea126725162df2
+summary: "Licence de données permissive de la Linux Foundation : utilisation et
+  partage libres des données ; les résultats comme les modèles entraînés ne sont
+  pas restreints."
+analogy: Utilisez le jeu de données pour tout ; joignez l'accord quand vous
+  transmettez les données.
+pros:
+  - Libère expressément les résultats de calcul
+  - Écrite pour les données
+cons:
+  - Moins connue que les CC
+  - La version 2.0 est plus simple

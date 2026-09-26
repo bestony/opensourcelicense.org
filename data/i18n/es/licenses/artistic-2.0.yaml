@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cb1197749de0ea7e
+summary: Permite modificar y distribuir libremente, pero una versión modificada
+  debe marcarse claramente, renombrarse o publicar su código. Incluye cláusulas
+  de patentes.
+analogy: Remezcla la canción, pero no vendas tu remezcla como la original.
+pros:
+  - Protege la identidad del original
+  - Compatible con GPL
+cons:
+  - Condiciones extensas
+  - Rara fuera de Raku y Perl

@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 3d7476dd1bfc7f5b
+summary: "Freizügige Lizenz: Der Hinweis ist in Quellkopien nötig, nicht aber in
+  kompilierten Binärdateien."
+analogy: Der Name des Autors steht im Rezeptbuch, nicht auf jedem servierten Teller.
+pros:
+  - Kein Hinweis in Binärdateien
+  - Standard für C++-Bibliotheken
+cons:
+  - Keine Patentlizenz
+  - Außerhalb von C++ wenig bekannt

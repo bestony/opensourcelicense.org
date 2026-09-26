@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: ded3362d69058c2a
+summary: Apache-2.0에 예외를 더한 것. 컴파일된 코드에는 저작자 표시가 필요 없고 GPL-2.0 프로젝트와도 함께 쓸 수 있습니다.
+analogy: Apache 도구 상자에 "제품에 남은 도구 흔적은 표시 불필요"라는 메모가 붙은 것.
+pros:
+  - Apache-2.0의 특허 허락
+  - GPL-2.0 코드와 호환
+cons:
+  - MIT보다 김
+  - 예외는 컴파일러 유형 프로젝트용

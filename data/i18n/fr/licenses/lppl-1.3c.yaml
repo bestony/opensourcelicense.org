@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: f6ef6656ac79990f
+summary: "Licence libre pour les paquets LaTeX : les fichiers modifiés doivent
+  être renommés ou clairement signalés pour que les documents se composent
+  partout de la même façon."
+analogy: Vous pouvez modifier la police, mais donnez un nouveau nom à votre version.
+pros:
+  - Garde les documents reproductibles
+  - Standard sur CTAN
+cons:
+  - Règle de renommage inhabituelle
+  - Incompatible avec la GPL

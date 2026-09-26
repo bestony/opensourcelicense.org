@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 841fb8980cea558f
+summary: GPL-2.0 für die Bibliothek selbst, plus eine Ausnahme, die unabhängigen
+  Programmen das Linken unter beliebiger Lizenz erlaubt.
+analogy: Ein gemeinsamer Motor mit Rezeptregel, doch Ihr eigenes Auto bleibt Ihres.
+pros:
+  - Linkende Anwendungen dürfen geschlossen sein
+  - Von OpenJDK genutzt
+cons:
+  - Änderungen an der Bibliothek bleiben GPL
+  - Nicht kompatibel mit reinen GPL-3.0-Projekten

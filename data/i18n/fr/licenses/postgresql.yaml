@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: e8b5efadb2a71225
+summary: Licence permissive courte, proche de MIT et BSD, utilisée par
+  PostgreSQL et son écosystème.
+analogy: La version communautaire PostgreSQL du livre gratuit.
+pros:
+  - Courte et permissive
+  - Familière dans l'écosystème PostgreSQL
+cons:
+  - Aucune licence de brevets
+  - Les forks fermés sont permis

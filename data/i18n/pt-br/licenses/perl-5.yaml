@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 4f54478806088c0d
+summary: "Licença dupla do Perl: quem recebe escolhe a Artistic License 1.0 ou a
+  GPL (versão 1 ou posterior)."
+analogy: Escolha o livro de regras que preferir entre dois.
+pros:
+  - Escolha entre termos quase permissivos e copyleft
+  - Padrão para módulos CPAN
+cons:
+  - A Artistic 1.0 é vaga
+  - Sem concessão de patentes

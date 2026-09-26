@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 22649412ed3dbb5f
+summary: "Copyleft auf Bibliotheksebene: Änderungen an der Bibliothek bleiben
+  offen; geschlossene Programme dürfen linken, wenn Nutzer mit einer geänderten
+  Bibliothek neu linken können."
+analogy: Die ältere Fassung des austauschbaren gemeinsamen Motors.
+pros:
+  - Proprietäre Apps dürfen die Bibliothek nutzen
+  - Häufig bei Desktop- und Multimedia-Bibliotheken
+cons:
+  - Komplexe Regeln zum Neu-Linken
+  - Keine ausdrückliche Patentlizenz

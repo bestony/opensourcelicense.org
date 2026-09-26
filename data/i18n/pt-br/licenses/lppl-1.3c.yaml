@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: f6ef6656ac79990f
+summary: "Licença livre para pacotes LaTeX: arquivos modificados devem ser
+  renomeados ou marcados para que os documentos sejam compostos igual em todo
+  lugar."
+analogy: Pode alterar a fonte, mas dê um nome novo à sua versão.
+pros:
+  - Mantém documentos reproduzíveis
+  - Padrão no CTAN
+cons:
+  - Regra de renomeação incomum
+  - Incompatível com a GPL

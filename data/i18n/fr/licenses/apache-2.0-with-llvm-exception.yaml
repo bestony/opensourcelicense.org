@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: ded3362d69058c2a
+summary: Apache-2.0 plus une exception qui supprime l'attribution pour le code
+  compilé et permet l'usage avec des projets GPL-2.0.
+analogy: "La boîte à outils Apache, avec une note : les restes des outils dans
+  votre produit ne demandent pas de crédit."
+pros:
+  - Licence de brevets d'Apache-2.0
+  - Compatible avec du code GPL-2.0
+cons:
+  - Plus longue que MIT
+  - Exception pensée pour les projets de type compilateur

@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 2388a1183d57050c
+summary: "Licence libre de polices : utilisez, intégrez et modifiez librement
+  les polices, mais les versions modifiées doivent abandonner les noms réservés,
+  et la police ne peut pas être vendue seule."
+analogy: Utilisez la police partout, mais ne vendez pas le fichier de police seul.
+pros:
+  - Permet l'intégration dans les documents et applications
+  - Standard des polices libres
+cons:
+  - Les noms réservés compliquent les forks
+  - Uniquement pour les polices

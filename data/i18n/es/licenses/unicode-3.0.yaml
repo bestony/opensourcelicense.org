@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 72d99432db49e19d
+summary: "Licencia permisiva para datos y software de Unicode como ICU y CLDR:
+  conserva el aviso y no uses el nombre del titular para promoción."
+analogy: "Un libro de referencia gratuito: cópialo y deja la línea de crédito."
+pros:
+  - Permisiva
+  - Cubre archivos de datos y código
+cons:
+  - No concede patentes
+  - Se usa sobre todo en proyectos de Unicode

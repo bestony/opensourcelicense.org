@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 97ea126725162df2
+summary: "Freizügige Datenlizenz der Linux Foundation: Daten frei nutzen und
+  teilen; Ergebnisse wie trainierte Modelle werden nicht eingeschränkt."
+analogy: Nutzen Sie den Datensatz für alles; legen Sie bei der Weitergabe die
+  Vereinbarung bei.
+pros:
+  - Stellt Berechnungsergebnisse ausdrücklich frei
+  - Für Daten geschrieben
+cons:
+  - Weniger bekannt als CC-Lizenzen
+  - Version 2.0 ist einfacher

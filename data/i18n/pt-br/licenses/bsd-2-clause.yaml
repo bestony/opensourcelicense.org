@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 261d8b56fb436858
+summary: "Como a MIT: use o código livremente e mantenha o aviso de copyright e
+  o aviso de isenção nas cópias fonte e binárias."
+analogy: "Um cartão de receita grátis: copie onde quiser, mas mantenha a linha
+  do autor."
+pros:
+  - Muito curta e permissiva
+  - Muito usada em sistemas BSD
+cons:
+  - Não concede patentes
+  - Forks fechados são permitidos

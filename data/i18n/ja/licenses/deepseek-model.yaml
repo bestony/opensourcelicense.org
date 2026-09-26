@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 626a2a9d93ec9cef
+summary: OpenRAIL 型のモデルライセンス。商用利用は可能で、用途に基づく制限が派生物に引き継がれる。
+analogy: 禁止用途のリストがすべてのコピーに付いて回る無料の道具。
+pros:
+  - 商用利用が可能
+  - 利用制限が下流まで続く
+cons:
+  - OSI はオープンソースと認めていない
+  - 新しい DeepSeek モデルは MIT に移行した

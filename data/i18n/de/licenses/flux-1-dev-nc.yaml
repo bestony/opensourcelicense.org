@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 7d5b7fb367f9a074
+summary: Modellgewichte nur für nicht kommerzielle Nutzung; kommerzielle Nutzung
+  der Gewichte braucht eine separate Lizenz von Black Forest Labs.
+analogy: Leihen Sie die Kamera für eigene Projekte, nicht für bezahlte Aufträge.
+pros:
+  - Offene Gewichte für Forschung und Hobby
+  - Klarer kommerzieller Weg
+cons:
+  - Keine Open Source
+  - Kommerzielle Nutzung braucht eine kostenpflichtige Lizenz

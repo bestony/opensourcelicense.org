@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: ddb7b2f148c13edb
+summary: Kurze freizügige Lizenz mit ausdrücklicher Patentlizenz, von Oracle für
+  GraalVM und andere Projekte genutzt.
+analogy: Das kostenlose MIT-Buch mit einem zusätzlichen Patentversprechen.
+pros:
+  - Kurz und freizügig
+  - Ausdrückliche Patentlizenz
+cons:
+  - Keine Patent-Vergeltungsklausel
+  - Weniger bekannt als MIT oder Apache

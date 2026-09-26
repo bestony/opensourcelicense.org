@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: ddb7b2f148c13edb
+summary: Licencia permisiva corta con concesión expresa de patentes, usada por
+  Oracle en GraalVM y otros proyectos.
+analogy: El libro gratis de MIT con una promesa añadida sobre patentes.
+pros:
+  - Corta y permisiva
+  - Concesión expresa de patentes
+cons:
+  - Sin cláusula de represalia por patentes
+  - Menos conocida que MIT o Apache

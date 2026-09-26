@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 3720e103ed28cbd1
+summary: "Code source disponible : tout usage sauf un produit concurrent, et
+  chaque version passe sous Apache-2.0 deux ans plus tard."
+analogy: Une vitrine dont les articles deviennent libres pour tous après deux ans.
+pros:
+  - Courte et prévisible
+  - Le code devient open source après deux ans
+cons:
+  - Ce n'est pas de l'open source
+  - L'« usage concurrent » peut être difficile à juger

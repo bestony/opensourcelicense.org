@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 3440c6c6f7e1c94d
+summary: Apple의 파일 단위 카피레프트. 수정한 대상 파일은 외부에 서비스로 배포하는 경우에도 공개해야 합니다. GPL과 비호환입니다.
+analogy: 빌린 파일의 수정은 결과만 제공하는 경우에도 공유하세요.
+pros:
+  - 외부 배포까지 포괄
+  - 특허 허락
+cons:
+  - GPL과 비호환
+  - 주로 Apple 오픈소스에 한정

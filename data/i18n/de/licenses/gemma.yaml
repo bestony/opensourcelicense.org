@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: c826929f8a1baf2e
+summary: "Googles Modellbedingungen: kommerzielle Nutzung erlaubt, mit einer
+  Richtlinie verbotener Nutzungen, die für jede Ableitung gilt, auch für
+  destillierte Modelle."
+analogy: Ein kostenloser Motor mit einem Regelwerk, das jeden umgebauten Motor
+  begleitet.
+pros:
+  - Kommerzielle Nutzung ohne Nutzerschwelle
+  - Klare Regeln für Ableitungen
+cons:
+  - Für die OSI keine Open Source
+  - Google kann die Nutzungsrichtlinie ändern

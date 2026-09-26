@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 8efe233d77d28069
+summary: TII による Apache-2.0 ベースのモデルライセンスで、利用規定付き。ロイヤリティなしで商用利用できる。
+analogy: 禁止用途の短いリストが付いた Apache の道具箱。
+pros:
+  - ロイヤリティ不要の商用利用
+  - Apache-2.0 がベース
+cons:
+  - OSI はオープンソースと認めていない
+  - 利用規定が更新されることがある

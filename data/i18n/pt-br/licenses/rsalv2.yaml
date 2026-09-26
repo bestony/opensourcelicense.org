@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 50ad39245dfcc7f1
+summary: "Licença de código disponível da Redis: uso e modificação gratuitos,
+  mas não é permitido oferecer como serviço gerenciado nem burlar chaves de
+  licença."
+analogy: Cozinhe com ele em qualquer lugar, mas não abra uma loja que venda este prato.
+pros:
+  - Mira só concorrentes de serviço gerenciado
+  - Curta
+cons:
+  - Não é código aberto
+  - Provocou o fork Valkey

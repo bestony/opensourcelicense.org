@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 3440c6c6f7e1c94d
+summary: "Copyleft da Apple por arquivo: arquivos modificados devem ser
+  publicados, inclusive quando implantados externamente como serviço.
+  Incompatível com a GPL."
+analogy: Compartilhe as mudanças no arquivo emprestado mesmo que você só sirva o
+  resultado.
+pros:
+  - Cobre implantação externa
+  - Concessão de patentes
+cons:
+  - Incompatível com a GPL
+  - Restrita principalmente ao código aberto da Apple

@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 841fb8980cea558f
+summary: GPL-2.0 para a biblioteca, mais uma exceção que permite a programas
+  independentes se ligarem a ela sob qualquer licença.
+analogy: Um motor compartilhado sob a regra da receita, mas o seu carro continua seu.
+pros:
+  - Aplicativos que a usam podem ser fechados
+  - Usada pelo OpenJDK
+cons:
+  - Mudanças na biblioteca continuam GPL
+  - Incompatível com projetos só GPL-3.0

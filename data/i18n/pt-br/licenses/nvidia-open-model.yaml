@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 38b4b3f3e07a3e99
+summary: "Licença de modelo com uso comercial: permite derivados e a NVIDIA não
+  reivindica as saídas, mas as proteções de segurança embutidas não podem ser
+  burladas."
+analogy: Um motor grátis do qual você não pode tirar os cintos de segurança.
+pros:
+  - Permite uso comercial
+  - Não reivindica as saídas
+cons:
+  - Não é código aberto
+  - A cláusula de proteções exige cuidado

@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cf76d86201254c1b
+summary: 'Copyleft forte: derivados distribuídos devem ser publicados por
+  inteiro sob GPL-2.0. Não há concessão expressa de patentes e é incompatível
+  com GPL-3.0 sem "ou posterior".'
+analogy: A regra de entregar a receita, na edição antiga.
+pros:
+  - Mantém abertos os derivados distribuídos
+  - Usada pelo kernel Linux
+cons:
+  - Incompatível com Apache-2.0 e GPL-3.0 (versão única)
+  - Sem concessão expressa de patentes

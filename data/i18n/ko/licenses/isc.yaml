@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 7db0448b4abf3505
+summary: MIT와 같은 효과의 더 짧은 라이선스. 저작권 및 허가 고지만 유지하면 어떤 용도든 가능합니다.
+analogy: MIT와 같은 무료 책, 표지의 안내문만 더 짧습니다.
+pros:
+  - 가장 짧은 일반 허용형 라이선스
+  - 많은 npm 패키지의 기본값
+cons:
+  - 특허 허락이 없음
+  - 폐쇄형 포크 허용

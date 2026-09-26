@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 261d8b56fb436858
+summary: "Comme MIT : utilisez librement le code et conservez la mention de
+  copyright et l'avertissement dans les copies source et binaires."
+analogy: "Une fiche recette gratuite : copiez-la partout, mais gardez la ligne
+  de l'auteur."
+pros:
+  - Très courte et permissive
+  - Très utilisée dans les systèmes BSD
+cons:
+  - Aucune licence de brevets
+  - Les forks fermés sont permis

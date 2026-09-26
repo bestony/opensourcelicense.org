@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 50ad39245dfcc7f1
+summary: "Source-available-Lizenz von Redis: kostenlos nutzbar und änderbar,
+  aber nicht als Managed Service anzubieten und ohne Umgehung von
+  Lizenzschlüsseln."
+analogy: Kochen Sie überall damit, aber eröffnen Sie keinen Laden, der genau
+  dieses Gericht verkauft.
+pros:
+  - Zielt nur auf Managed-Service-Konkurrenten
+  - Kurz
+cons:
+  - Keine Open Source
+  - Löste den Valkey-Fork aus

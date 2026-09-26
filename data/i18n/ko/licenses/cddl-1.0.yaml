@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 362187e701e25e6a
+summary: MPL에서 파생된 파일 단위 카피레프트로 특허 허락이 있습니다. GPL과 비호환입니다.
+analogy: 빌린 파일의 수정은 공유하고, 나머지는 닫아 둬도 됩니다.
+pros:
+  - 파일 단위 범위
+  - 특허 허락
+cons:
+  - GPL과 비호환 (ZFS와 Linux 문제)
+  - 새로 채택하는 프로젝트가 드묾

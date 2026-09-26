@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 362187e701e25e6a
+summary: MPL から派生したファイル単位のコピーレフトで、特許許諾付き。GPL とは非互換。
+analogy: 借りたファイルの変更は共有し、残りは閉じたままでもよい。
+pros:
+  - ファイル単位の範囲
+  - 特許の許諾
+cons:
+  - GPL と非互換（ZFS と Linux の問題）
+  - 新規採用はまれ

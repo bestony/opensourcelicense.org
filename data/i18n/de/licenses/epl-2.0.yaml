@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 5941dce0a6108d60
+summary: Schwaches Copyleft auf Modulebene mit Patentlizenz; kann die GPL als
+  Sekundärlizenz für Kompatibilität benennen.
+analogy: Teilen Sie Änderungen am geliehenen Kapitel; der Rest des Buches gehört Ihnen.
+pros:
+  - Unternehmensfreundliches Copyleft
+  - Patentlizenz
+cons:
+  - GPL-Kompatibilität nur mit erklärter Sekundärlizenz
+  - Modulgrenzen können unklar sein

@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 362187e701e25e6a
+summary: Copyleft au niveau du fichier, dérivé de la MPL, avec licence de
+  brevets ; incompatible avec la GPL.
+analogy: Partagez les modifications du fichier emprunté ; le reste peut rester fermé.
+pros:
+  - Portée par fichier
+  - Licence de brevets
+cons:
+  - Incompatible avec la GPL (le problème ZFS et Linux)
+  - Peu de nouveaux projets l'adoptent

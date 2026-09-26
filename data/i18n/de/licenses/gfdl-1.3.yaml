@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: c732ed2e04240901
+summary: "Copyleft für Handbücher: Kopien und geänderte Fassungen bleiben unter
+  der GFDL, mit Historie und unveränderlichen Abschnitten."
+analogy: Die Rezeptregel, angewendet auf das Handbuch zum Kochbuch.
+pros:
+  - Hält Dokumentation frei
+  - Von GNU-Handbüchern genutzt
+cons:
+  - Unveränderliche Abschnitte sind umstritten
+  - Schwer mit CC-Inhalten kombinierbar

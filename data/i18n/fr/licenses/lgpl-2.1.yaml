@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 22649412ed3dbb5f
+summary: "Copyleft de bibliothèque : les modifications de la bibliothèque
+  restent ouvertes ; des programmes fermés peuvent s'y lier si l'utilisateur
+  peut les relier à une version modifiée."
+analogy: L'ancienne édition du moteur partagé remplaçable.
+pros:
+  - Permet aux applications propriétaires d'utiliser la bibliothèque
+  - Courante pour les bibliothèques bureautiques et multimédias
+cons:
+  - Règles de réédition de liens complexes
+  - Pas de licence de brevets explicite

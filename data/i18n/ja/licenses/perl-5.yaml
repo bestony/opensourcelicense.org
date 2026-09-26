@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 4f54478806088c0d
+summary: Perl のデュアルライセンス。受け取った人は Artistic License 1.0 か GPL（バージョン 1 以降）を選べる。
+analogy: 2 冊のルールブックから好きな方を選ぶ。
+pros:
+  - 寛容寄りとコピーレフトを選べる
+  - CPAN モジュールの標準
+cons:
+  - Artistic 1.0 はあいまい
+  - 特許の許諾がない

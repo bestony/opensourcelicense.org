@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 50ad39245dfcc7f1
+summary: "Licence à code source disponible de Redis : usage et modification
+  gratuits, mais interdiction de la proposer comme service géré ou de contourner
+  les clés de licence."
+analogy: Cuisinez avec partout, mais n'ouvrez pas une boutique qui vend ce plat.
+pros:
+  - Vise seulement les concurrents proposant un service géré
+  - Courte
+cons:
+  - Ce n'est pas de l'open source
+  - A déclenché le fork Valkey
