@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: f6ef6656ac79990f
+summary: "Leseni huru kwa vifurushi vya LaTeX: faili zilizobadilishwa lazima
+  zibadilishwe jina au ziwekwe alama wazi ili nyaraka zifanye kazi sawa kila
+  mahali."
+analogy: Unaweza kubadilisha mwandiko, lakini lipe toleo lako jina jipya.
+pros:
+  - Inafanya nyaraka ziweze kuzalishwa upya sawasawa
+  - Kiwango cha kawaida katika CTAN
+cons:
+  - Kanuni ya kubadilisha jina si ya kawaida
+  - Haioani na GPL

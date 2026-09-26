@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 41352f96fddd8017
+summary: I-copyleft yezinga lemojula enemvume ye-patent nomthetho wase-New York;
+  ayihambisani ne-GPL.
+analogy: Uhlelo lokuqala lomthetho we-Eclipse wokwabelana ngezahluko.
+pros:
+  - Imvume ye-patent
+  - Isetshenziswa yi-Clojure ne-JUnit 4
+cons:
+  - Ayihambisani ne-GPL
+  - Ithathelwe indawo yi-EPL-2.0

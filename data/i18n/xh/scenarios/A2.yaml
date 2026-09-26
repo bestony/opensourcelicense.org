@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 57d3e35a6ad686d1
+actor: other
+title: Umntu wenza i-fork aze asasaze imbangi enekhowudi evaliweyo
+cells:
+  apache-2.0: Kufuneka aphawule iifayile ezilungisiweyo
+  mpl-2.0: Iifayile ze-MPL ezilungisiweyo zihlala zivulelekile
+  lgpl-3.0: Utshintsho kwilayibrari luhlala luvulelekile
+  busl-1.1: Imisebenzi evela kuyo ihlala phantsi kwe-BSL
+  elv2: Izithintelo kufuneka zigcinwe

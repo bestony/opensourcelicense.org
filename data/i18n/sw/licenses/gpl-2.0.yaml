@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cf76d86201254c1b
+summary: "Copyleft thabiti: kazi zinazotokana zinazosambazwa lazima zitolewe
+  kikamilifu chini ya GPL-2.0. Hakuna ruhusa ya wazi ya hataza; haioani na
+  GPL-3.0 isipokuwa 'or later' itumike."
+analogy: Kanuni ya kushiriki mapishi, katika toleo lake la zamani.
+pros:
+  - Inaweka kazi zinazotokana zinazosambazwa wazi
+  - Inatumiwa na kernel ya Linux
+cons:
+  - Haioani na Apache-2.0 na GPL-3.0 (toleo pekee)
+  - Hakuna ruhusa ya wazi ya hataza

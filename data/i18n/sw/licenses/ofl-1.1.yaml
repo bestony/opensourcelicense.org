@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 2388a1183d57050c
+summary: "Leseni huru ya fonti: tumia, pachika na badilisha fonti kwa uhuru,
+  lakini fonti zilizobadilishwa lazima ziache majina yaliyohifadhiwa, na fonti
+  haziwezi kuuzwa peke yake."
+analogy: Tumia mwandiko kila mahali, lakini usiuze faili tupu la fonti.
+pros:
+  - Inaruhusu kupachika kwenye nyaraka na programu
+  - Kiwango cha kawaida kwa fonti huria
+cons:
+  - Majina ya fonti yaliyohifadhiwa yanatatiza fork
+  - Kwa fonti pekee

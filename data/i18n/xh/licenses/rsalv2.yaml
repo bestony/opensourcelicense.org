@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 50ad39245dfcc7f1
+summary: "Ilayisensi ye-source-available ye-Redis: isimahla ukuyisebenzisa
+  nokuyilungisa, kodwa hayi ukunikezela ngesoftwe njengenkonzo elawulwayo okanye
+  ukugwenxa izitshixo zelayisensi."
+analogy: Pheka ngayo naphi na, kodwa ungavuli ivenkile ethengisa esi sitya.
+pros:
+  - Ijolise kwiimbangi zeenkonzo ezilawulwayo kuphela
+  - Imfutshane
+cons:
+  - Ayiyo i-open source
+  - Ibangele i-fork ye-Valkey

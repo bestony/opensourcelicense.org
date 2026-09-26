@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 3d7476dd1bfc7f5b
+summary: Ilayisensi evumela kakhulu; isaziso siyafuneka kwiikopi zomthombo kodwa
+  hayi kwii-binary ezihlanganisiweyo.
+analogy: Gcina igama lombhali kwincwadi yokupheka, hayi kwisitya ngasinye osiphakayo.
+pros:
+  - Akufuneki saziso kwii-binary
+  - Ngumgangatho oqhelekileyo weelayibrari ze-C++
+cons:
+  - Akukho mvume ye-patent
+  - Ayaziwa kangako ngaphandle kwe-C++

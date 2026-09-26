@@ -1,0 +1,8 @@
+reviewed: false
+sourceHash: d30cdd2632a3c255
+actor: other
+title: ลิงก์เข้ากับแอปหรือเฟิร์มแวร์แบบปิดซอร์สแล้วแจกจ่าย
+cells:
+  mpl-2.0: ระดับไฟล์
+  lgpl-3.0: ต้องอนุญาตให้ลิงก์ใหม่
+  busl-1.1: ขึ้นอยู่กับ Additional Use Grant

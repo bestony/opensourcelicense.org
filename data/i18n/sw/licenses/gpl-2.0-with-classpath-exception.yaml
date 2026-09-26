@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 841fb8980cea558f
+summary: GPL-2.0 kwa maktaba yenyewe, pamoja na msamaha unaoruhusu programu huru
+  kuiunganisha chini ya leseni yoyote.
+analogy: Injini ya pamoja chini ya kanuni ya kushiriki mapishi, lakini gari lako
+  linabaki lako.
+pros:
+  - Programu zinazoiunganisha zinaweza kufungwa
+  - Inatumiwa na OpenJDK
+cons:
+  - Mabadiliko ya maktaba yanabaki GPL
+  - Haioani na miradi ya GPL-3.0-only

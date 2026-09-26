@@ -1,0 +1,8 @@
+reviewed: false
+sourceHash: 3a5f4b9bf27dddea
+actor: other
+title: Ikhowudi yakho idityaniswa neprojekthi ye-GPL-3.0
+cells:
+  apache-2.0: Kodwa ayihambelani ne-GPL-2.0
+  mpl-2.0: Ngaphandle kokuba iphawulwe njengengahambelaniyo
+  agpl-3.0: Inxalenye ye-AGPL ihlala iyi-AGPL

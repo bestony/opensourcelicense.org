@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: e8b5efadb2a71225
+summary: Leseni fupi ya ruhusa pana inayofanana na MIT na BSD, inayotumiwa na
+  PostgreSQL na mfumo wake ikolojia.
+analogy: Toleo la jamii ya PostgreSQL lenyewe la kitabu cha bure.
+pros:
+  - Fupi na ya ruhusa pana
+  - Inajulikana katika mfumo ikolojia wa PostgreSQL
+cons:
+  - Hakuna ruhusa ya hataza
+  - Fork zilizofungwa zinaruhusiwa

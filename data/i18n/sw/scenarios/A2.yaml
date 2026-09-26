@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 57d3e35a6ad686d1
+actor: other
+title: Mtu anaifanyia fork na kusambaza mshindani wa msimbo uliofungwa
+cells:
+  apache-2.0: Lazima aweke alama kwenye faili zilizobadilishwa
+  mpl-2.0: Faili za MPL zilizobadilishwa zinabaki wazi
+  lgpl-3.0: Mabadiliko ya maktaba yanabaki wazi
+  busl-1.1: Kazi zinazotokana zinabaki chini ya BSL
+  elv2: Vikwazo lazima vihifadhiwe

@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 626a2a9d93ec9cef
+summary: "Ilayisensi yemodeli yohlobo lwe-OpenRAIL: ukusetyenziswa kwezorhwebo
+  kuvumelekile, kunye nezithintelo ezisekelwe ekusetyenzisweni ezidlulela
+  kwimisebenzi evela kuyo."
+analogy: Isixhobo sasimahla esinoluhlu losetyenziso olwalelweyo
+  oluncanyathiselwe kwikopi nganye.
+pros:
+  - Ukusetyenziswa kwezorhwebo kuvumelekile
+  - Izithintelo zokusetyenziswa ziyaqhubekela phambili
+cons:
+  - Ayiyo i-open source ngokwe-OSI
+  - Iimodeli ezintsha ze-DeepSeek zifudukele kwi-MIT

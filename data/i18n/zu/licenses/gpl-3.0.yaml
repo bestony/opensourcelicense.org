@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 3ab9492f75e7adb0
+summary: "I-copyleft eqinile: uma usabalalisa isofthiwe noma imisebenzi ephuma
+  kuyo, kufanele ukhiphe ikhodi yomthombo ephelele ngaphansi kwe-GPL-3.0."
+analogy: "Iresiphi ethi: noma ubani ophakela isidlo esisekelwe kuyo kufanele
+  anikeze neresiphi ephelele."
+pros:
+  - Igcina konke okuphuma kukho okusabalalisiwe kuvulekile
+  - Imvume ye-patent nokulwa ne-tivoization
+  - Isiko lomphakathi eliqinile
+cons:
+  - Izinkampani eziningi ziyayigwema
+  - Ayihlanganisi i-SaaS (akukho kusabalalisa)
+  - Ayihambisani ne-GPL-2.0-only

@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 7db0448b4abf3505
+summary: "Ilayisensi emfutshane elingana ne-MIT: nakuphi na ukusetyenziswa
+  kugcinwe isaziso se-copyright nesemvume."
+analogy: Incwadi yasimahla efanayo ne-MIT, enenqaku elifutshane kwiqweqwe.
+pros:
+  - Ilayisensi evumela kakhulu eqhelekileyo emfutshane kunazo zonke
+  - Ekhethwa ngokungagqibekanga kwiiphakheji ezininzi ze-npm
+cons:
+  - Akukho mvume ye-patent
+  - Ii-fork ezivaliweyo ziyavumeleka

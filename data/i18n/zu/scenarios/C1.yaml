@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 4f30616160bfe68b
+actor: you
+title: Kamuva ushintsha ilayisense noma uthengisa amalayisense ezohwebo
+  (abanikeli abasayinanga i-CLA)
+cells:
+  mit: Izinguqulo ezintsha zingashintsha; ezindala zihlala zinjalo
+  bsd-3-clause: Kufana ne-MIT
+  apache-2.0: Kufana ne-MIT
+  mpl-2.0: Amafayela e-MPL kufanele ahlale e-MPL
+  lgpl-3.0: Kudinga imvume yabo bonke abanikeli
+  mulanpsl-2.0: Kufana ne-MIT
+  busl-1.1: Ngokuvamile kuncike ku-CLA
+  elv2: Ngokuvamile kuncike ku-CLA

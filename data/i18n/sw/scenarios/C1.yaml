@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 4f30616160bfe68b
+actor: you
+title: Baadaye unabadilisha leseni au kuuza leseni za kibiashara (wachangiaji
+  hawakusaini CLA)
+cells:
+  mit: Matoleo mapya yanaweza kubadilika; ya zamani yanabaki
+  bsd-3-clause: Sawa na MIT
+  apache-2.0: Sawa na MIT
+  mpl-2.0: Faili za MPL lazima zibaki MPL
+  lgpl-3.0: Inahitaji idhini ya wachangiaji wote
+  mulanpsl-2.0: Sawa na MIT
+  busl-1.1: Kwa kawaida hutegemea CLA
+  elv2: Kwa kawaida hutegemea CLA

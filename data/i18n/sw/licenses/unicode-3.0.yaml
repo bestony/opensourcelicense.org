@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 72d99432db49e19d
+summary: Leseni ya ruhusa pana kwa data na programu za Unicode kama ICU na CLDR;
+  hifadhi tangazo na usitumie jina la mwenye hakimiliki kwa matangazo.
+analogy: "Kitabu cha marejeo cha bure: kinakili, hifadhi mstari wa kutaja chanzo."
+pros:
+  - Ya ruhusa pana
+  - Inahusu faili za data na msimbo
+cons:
+  - Hakuna ruhusa ya hataza
+  - Hutumika hasa kwa miradi ya Unicode

@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 41352f96fddd8017
+summary: Copyleft ya kiwango cha moduli yenye ruhusa ya hataza na sheria ya New
+  York; haioani na GPL.
+analogy: Toleo la kwanza la kanuni ya Eclipse ya kushiriki sura.
+pros:
+  - Ruhusa ya hataza
+  - Inatumiwa na Clojure na JUnit 4
+cons:
+  - Haioani na GPL
+  - Imechukuliwa nafasi na EPL-2.0

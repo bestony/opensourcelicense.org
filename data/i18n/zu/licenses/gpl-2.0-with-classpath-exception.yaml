@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 841fb8980cea558f
+summary: I-GPL-2.0 yelayibhulali uqobo, kanye nokukhululwa okuvumela izinhlelo
+  ezizimele ukuthi zixhumane nayo ngaphansi kwanoma iyiphi ilayisense.
+analogy: Injini eyabelwana ngaphansi komthetho wokwabelana ngeresiphi, kodwa
+  imoto yakho ihlala ingeyakho.
+pros:
+  - Izinhlelo ezixhumana nayo zingavalwa
+  - Isetshenziswa yi-OpenJDK
+cons:
+  - Izinguquko zelayibhulali zihlala ziyi-GPL
+  - Ayihambisani namaphrojekthi e-GPL-3.0-only

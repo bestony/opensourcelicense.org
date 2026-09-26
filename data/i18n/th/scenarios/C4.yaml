@@ -1,0 +1,7 @@
+reviewed: false
+sourceHash: a00bd38725037c38
+actor: other
+title: โปรเจกต์ถูกทิ้งร้างและมีคน fork ไปพัฒนาต่อ
+cells:
+  busl-1.1: ถูกจำกัดจนถึง Change Date
+  elv2: ข้อจำกัดยังคงอยู่

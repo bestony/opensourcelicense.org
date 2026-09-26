@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 50ad39245dfcc7f1
+summary: "Leseni ya source-available ya Redis: bure kutumia na kubadilisha,
+  lakini si kutoa programu kama huduma inayosimamiwa au kukwepa funguo za
+  leseni."
+analogy: Pika nayo popote, lakini usifungue duka linalouza mlo huu.
+pros:
+  - Inalenga washindani wa huduma zinazosimamiwa pekee
+  - Fupi
+cons:
+  - Si chanzo huria
+  - Ilisababisha fork ya Valkey

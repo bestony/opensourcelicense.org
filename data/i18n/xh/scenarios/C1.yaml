@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 4f30616160bfe68b
+actor: you
+title: Kamva utshintsha ilayisensi okanye uthengisa iilayisensi zorhwebo
+  (abanikeli abasayinanga CLA)
+cells:
+  mit: Iinguqulelo ezintsha zingatshintsha; ezindala zihlala zinjalo
+  bsd-3-clause: Kuyafana ne-MIT
+  apache-2.0: Kuyafana ne-MIT
+  mpl-2.0: Iifayile ze-MPL kufuneka zihlale zi-MPL
+  lgpl-3.0: Kufuna imvume yabo bonke abanikeli
+  mulanpsl-2.0: Kuyafana ne-MIT
+  busl-1.1: Idla ngokuxhomekeka kwi-CLA
+  elv2: Idla ngokuxhomekeka kwi-CLA

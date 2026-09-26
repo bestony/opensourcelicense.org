@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cb1197749de0ea7e
+summary: Ikuvumela ukuguqula nokusabalalisa ngokukhululeka, kodwa inguqulo
+  eguquliwe kufanele iphawulwe ngokucacile noma iqanjwe kabusha, noma ikhodi
+  yayo yomthombo yenziwe itholakale. Inemigomo ye-patent.
+analogy: Yenza i-remix yengoma, kodwa ungathengisi i-remix yakho njengengoma yokuqala.
+pros:
+  - Ivikela ubunjalo bomsebenzi wokuqala
+  - Iyahambisana ne-GPL
+cons:
+  - Imibandela inamagama amaningi
+  - Ayivamile ngaphandle kwe-Raku ne-Perl

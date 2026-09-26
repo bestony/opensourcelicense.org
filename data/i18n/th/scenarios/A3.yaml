@@ -1,0 +1,9 @@
+reviewed: false
+sourceHash: b16411183c557a4e
+actor: other
+title: ฝังอยู่ในแบ็กเอนด์ SaaS แบบปิดซอร์ส (ไม่มีการแจกจ่าย)
+cells:
+  agpl-3.0: ต้องเผยแพร่หากมีการแก้ไข
+  sspl-1.0: หากนำฟังก์ชันของมันไปให้บริการ
+  busl-1.1: ขึ้นอยู่กับ Additional Use Grant
+  elv2: ไม่ได้โฮสต์ตัวผลิตภัณฑ์เอง

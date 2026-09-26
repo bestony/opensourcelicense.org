@@ -1,0 +1,9 @@
+reviewed: false
+sourceHash: b16411183c557a4e
+actor: other
+title: Imejumuishwa kwenye backend ya SaaS ya msimbo uliofungwa (bila kusambazwa)
+cells:
+  agpl-3.0: Lazima ichapishwe ikiwa imebadilishwa
+  sspl-1.0: Ikiwa utendaji wake unatolewa kama huduma
+  busl-1.1: Inategemea Additional Use Grant
+  elv2: Si kupangisha bidhaa yenyewe

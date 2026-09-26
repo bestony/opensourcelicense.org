@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 4f54478806088c0d
+summary: "Ilayisensi ephindwe kabini ye-Perl: abamkeli bakhetha i-Artistic
+  License 1.0 okanye i-GPL (inguqulelo 1 okanye kamva)."
+analogy: Khetha nayiphi na kwiincwadi ezimbini zemithetho ekufaneleyo.
+pros:
+  - Ukukhetha phakathi kwemimiselo ephantse ivumele kakhulu ne-copyleft
+  - Ngumgangatho oqhelekileyo weemodyuli ze-CPAN
+cons:
+  - I-Artistic 1.0 ayicacanga
+  - Akukho mvume ye-patent

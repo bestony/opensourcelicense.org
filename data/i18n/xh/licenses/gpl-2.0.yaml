@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: cf76d86201254c1b
+summary: "I-copyleft eyomeleleyo: imisebenzi evela kuyo esasaziweyo kufuneka
+  ikhutshwe ngokupheleleyo phantsi kwe-GPL-2.0. Akukho mvume ye-patent
+  ecacileyo; ayihambelani ne-GPL-3.0 ngaphandle kokuba kusetyenziswe u-'or
+  later'."
+analogy: Umthetho wokwabelana ngeresiphi, kuhlelo lwawo oludala.
+pros:
+  - Igcina imisebenzi evela kuyo esasaziweyo ivulelekile
+  - Isetyenziswa yi-kernel ye-Linux
+cons:
+  - Ayihambelani ne-Apache-2.0 ne-GPL-3.0 (inguqulelo enye kuphela)
+  - Akukho mvume ye-patent ecacileyo

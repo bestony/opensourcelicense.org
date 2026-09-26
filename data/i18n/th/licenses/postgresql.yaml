@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: e8b5efadb2a71225
+summary: ไลเซนส์แบบผ่อนปรนสั้น ๆ คล้าย MIT และ BSD ใช้โดย PostgreSQL และระบบนิเวศ
+analogy: หนังสือฟรีฉบับของชุมชน PostgreSQL เอง
+pros:
+  - สั้นและผ่อนปรน
+  - คุ้นเคยในระบบนิเวศ PostgreSQL
+cons:
+  - ไม่มีการให้สิทธิบัตร
+  - อนุญาตให้ fork แบบปิดได้

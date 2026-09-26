@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: ded3362d69058c2a
+summary: Apache-2.0 pamoja na msamaha unaoondoa sharti la kutaja chanzo kwa
+  msimbo uliokusanywa (compiled) na kuifanya itumike na miradi ya GPL-2.0.
+analogy: Sanduku la zana la Apache, pamoja na dokezo kwamba mabaki ya zana ndani
+  ya bidhaa yako hayahitaji kutajwa.
+pros:
+  - Ruhusa ya hataza ya Apache-2.0
+  - Inafanya kazi na msimbo wa GPL-2.0
+cons:
+  - Ndefu kuliko MIT
+  - Msamaha ni mahususi kwa miradi ya aina ya compiler

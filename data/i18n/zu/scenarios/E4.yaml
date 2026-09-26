@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cf07449a9c3b7eaf
+actor: other
+title: Ithuthukisiwe (fine-tune), yaqanjwa kabusha futhi yakhishwa njengezisindo
+  ezivaliwe
+cells:
+  llama: Kufanele ifake ilayisense futhi ibonise "Built with Llama"
+  openrail-m: Kufanele idlulisele imikhawulo yokusetshenziswa
+  cc-by-4.0: Ukubalula umthombo
+  cc-by-nc-4.0: Okungekona kwezohwebo kuphela
+  odc-by-1.0: Ukubalula umthombo
+  odbl-1.0: Izizindalwazi eziphuma kuyo zihlala ziyi-ODbL

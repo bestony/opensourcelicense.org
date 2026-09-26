@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 50ad39245dfcc7f1
+summary: "Ilayisense ye-source-available ye-Redis: mahhala ukusebenzisa
+  nokuguqula, kodwa hhayi ukunikeza isofthiwe njengesevisi ephethwe noma
+  ukugwema okhiye belayisense."
+analogy: Pheka ngayo noma kuphi, kodwa ungavuli isitolo esithengisa lesi sidlo.
+pros:
+  - Iqondise izimbangi zesevisi ephethwe kuphela
+  - Imfushane
+cons:
+  - Akuyona i-open source
+  - Yabangela i-fork ye-Valkey

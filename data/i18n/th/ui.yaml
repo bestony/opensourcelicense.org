@@ -1,0 +1,351 @@
+reviewed: false
+sourceHash: a2d7eb045dde7649
+strings:
+  site.name: opensourcelicense.org
+  site.tagline: เครื่องมือช่วยเลือกสัญญาอนุญาตโอเพนซอร์ส (Open Source License)
+  site.description: เลือก เปรียบเทียบ และทดสอบสัญญาอนุญาตโอเพนซอร์สในสถานการณ์จริง
+    ดูว่าโปรเจกต์ที่มีชื่อเสียงใช้ไลเซนส์อะไร อะไรอาจผิดพลาดได้
+    และไลเซนส์ไหนเหมาะกับโปรเจกต์ของคุณ
+  nav.home: หน้าแรก
+  nav.licenses: ไลเซนส์
+  nav.scenarios: สถานการณ์
+  nav.projects: โปรเจกต์
+  nav.trends: แนวโน้ม
+  nav.compare: เปรียบเทียบ
+  nav.wizard: ตัวช่วยเลือก
+  nav.chat: ที่ปรึกษา AI
+  nav.check: ตรวจสอบ dependency
+  nav.menu: เมนู
+  lang.switch: ภาษา
+  lang.suggest: หน้านี้มีให้อ่านเป็นภาษา{language}
+  lang.suggest.go: เปลี่ยน
+  lang.suggest.dismiss: ปิด
+  footer.disclaimer: เว็บไซต์นี้ให้ข้อมูลทั่วไป ไม่ใช่คำแนะนำทางกฎหมาย
+    หากมีข้อพิพาทหรือสัญญาจริง โปรดปรึกษาทนายความ
+  footer.source: ซอร์สโค้ด (AGPL-3.0)
+  footer.data: ข้อมูลภายใต้ CC-BY-4.0
+  footer.report: แจ้งข้อผิดพลาด
+  footer.cite: ข้อมูลจาก opensourcelicense.org, CC-BY-4.0
+  footer.hosting: ทำงานบน Cloudflare Workers แพ็กเกจฟรี
+  footer.dns: โดเมนโฮสต์บน Cloudflare
+  badge.machine: แปลโดยเครื่อง
+  badge.reviewed: คำแปลที่ตรวจทานแล้ว
+  badge.fallback: ยังไม่ได้แปล — แสดงเป็นภาษาอังกฤษ
+  badge.stale: อาจไม่เป็นปัจจุบัน
+  badge.unreviewed-data: ฉบับร่าง — ยังไม่ได้ตรวจทานโดยทนายความ
+  common.updated: อัปเดตข้อมูลเมื่อ {date}
+  common.back: ย้อนกลับ
+  common.copy: คัดลอก
+  common.copied: คัดลอกแล้ว
+  common.download: ดาวน์โหลด
+  common.close: ปิด
+  common.all: ทั้งหมด
+  common.yes: ใช่
+  common.no: ไม่ใช่
+  common.unknown: ไม่ทราบ
+  common.none: ไม่มี
+  common.more: เพิ่มเติม
+  common.loading: กำลังโหลด…
+  common.error: เกิดข้อผิดพลาดบางอย่าง
+  common.search: ค้นหา
+  home.title: เลือกไลเซนส์โอเพนซอร์สอย่างรู้เท่าทัน
+  home.lead: ไม่ใช่แค่ "ใช้ไลเซนส์อะไรดี" แต่รวมถึงโปรเจกต์ที่คล้ายกันเลือกอะไร
+    กรณีเลวร้ายที่สุดเป็นอย่างไร และควรทำอะไรต่อ
+  home.entry.chat.title: คุยกับที่ปรึกษา AI
+  home.entry.chat.body: อธิบายโปรเจกต์ของคุณด้วยคำพูดของคุณเอง แล้วรับโปรไฟล์
+    คำถามต่อเนื่อง และรายงาน
+  home.entry.projects.title: ดูว่าคนอื่นใช้อะไร
+  home.entry.projects.body: ไลเซนส์ของโปรเจกต์ที่มีชื่อเสียง และเหตุผลที่บางโปรเจกต์เปลี่ยนไลเซนส์
+  home.entry.wizard.title: คัดกรองทีละขั้นตอน
+  home.entry.wizard.body: ตอบคำถามไม่กี่ข้อ แล้วรับรายชื่อไลเซนส์ที่จัดอันดับพร้อมคำอธิบาย
+  home.wall: ไลเซนส์ของโปรเจกต์ยอดนิยม
+  home.changes: การเปลี่ยนไลเซนส์ล่าสุด
+  home.scenarios: อะไรอาจผิดพลาดได้บ้าง?
+  home.scenarios.body: 27 สถานการณ์สุดขั้ว × 17 คอลัมน์ไลเซนส์ หนึ่งหน้าต่อหนึ่งช่อง
+  family.permissive: แบบผ่อนปรน (Permissive)
+  family.weak-copyleft: Copyleft แบบอ่อน
+  family.strong-copyleft: Copyleft แบบเข้ม
+  family.network-copyleft: Copyleft ครอบคลุมเครือข่าย
+  family.source-available: เปิดเผยซอร์ส (Source-available)
+  family.model: ไลเซนส์โมเดล
+  family.content: เนื้อหา / ข้อมูล
+  verdict.allow: อนุญาต
+  verdict.conditional: มีเงื่อนไข
+  verdict.deny: ไลเซนส์ห้ามไว้
+  verdict.silent: ไม่ได้กล่าวถึง
+  verdict.tbd: อยู่ระหว่างตรวจสอบ
+  verdict.legend: "คำอธิบาย: ✓ อีกฝ่ายทำได้ · ◐ ทำได้โดยมีเงื่อนไข · ✗
+    ไลเซนส์ห้ามไว้ · — ไลเซนส์ไม่ได้กล่าวถึง (ใช้กฎหมายทั่วไป)"
+  actor.other: ผู้อื่นทำสิ่งนี้
+  actor.you: คุณต้องการทำสิ่งนี้
+  actor.contributor: ผู้ร่วมพัฒนาทำสิ่งนี้
+  actor.both: ใช้กับทั้งสองฝ่าย
+  group.A: การแข่งขันเชิงพาณิชย์
+  group.B: สิทธิบัตรและกฎหมาย
+  group.C: การเปลี่ยนแปลงและธุรกิจ
+  group.D: การใช้งานและการปฏิบัติตาม
+  group.E: โมเดล AI และข้อมูล
+  matrix.code: ไลเซนส์สำหรับโค้ด
+  matrix.model: ไลเซนส์สำหรับโมเดลและข้อมูล
+  term.commercial-use: ใช้เชิงพาณิชย์
+  term.modification: แก้ไขดัดแปลง
+  term.distribution: แจกจ่าย
+  term.private-use: ใช้ส่วนตัว
+  term.patent-use: การให้สิทธิบัตร
+  term.non-production-use: ใช้ที่ไม่ใช่ระบบใช้งานจริง
+  term.converts-to-open-source: เปลี่ยนเป็นโอเพนซอร์สในภายหลัง
+  term.include-copyright: คงประกาศลิขสิทธิ์ไว้
+  term.include-license: แนบไลเซนส์
+  term.document-changes: ระบุการเปลี่ยนแปลง
+  term.disclose-source: เปิดเผยซอร์สโค้ด
+  term.same-license: งานดัดแปลงใช้ไลเซนส์เดียวกัน
+  term.same-license-file: ไลเซนส์เดียวกัน (ระดับไฟล์)
+  term.same-license-library: ไลเซนส์เดียวกัน (ระดับไลบรารี)
+  term.allow-relinking: อนุญาตให้ลิงก์ใหม่
+  term.network-use-disclose: การใช้ผ่านเครือข่ายถือเป็นการแจกจ่าย
+  term.service-stack-disclose: เปิดเผยทั้ง service stack
+  term.keep-limitations: คงข้อจำกัดไว้
+  term.attribution: ระบุที่มา
+  term.attribution-built-with: แสดง "Built with"
+  term.name-prefix: กฎคำนำหน้าชื่อ
+  term.acceptable-use-policy: นโยบายการใช้งานที่ยอมรับได้
+  term.use-restrictions-pass-through: ส่งต่อข้อจำกัดการใช้งาน
+  term.indicate-changes: ระบุการเปลี่ยนแปลง
+  term.liability: ไม่รับผิด
+  term.warranty: ไม่รับประกัน
+  term.trademark-use: ไม่ให้สิทธิในเครื่องหมายการค้า
+  term.no-endorsement: ห้ามอ้างการรับรอง
+  term.production-use-restricted: จำกัดการใช้งานจริง (production)
+  term.no-managed-service: ห้ามให้บริการแบบ managed service
+  term.no-license-key-circumvention: ห้ามเลี่ยง license key
+  term.mau-threshold: เกณฑ์จำนวนผู้ใช้
+  term.use-restrictions: ข้อจำกัดการใช้งาน
+  term.non-commercial: ไม่ใช่เชิงพาณิชย์เท่านั้น
+  licenses.title: คลังไลเซนส์โอเพนซอร์ส
+  licenses.lead: "{count} ไลเซนส์ ตั้งแต่แบบผ่อนปรน ไปจนถึงแบบ source-available
+    และไลเซนส์โมเดล"
+  licenses.col.license: ไลเซนส์
+  licenses.col.family: กลุ่ม
+  licenses.col.osi: OSI
+  licenses.col.fsf: FSF free
+  licenses.col.projects: โปรเจกต์
+  licenses.filter: กรองตามกลุ่ม
+  license.permissions: สิทธิที่ได้รับ
+  license.conditions: เงื่อนไข
+  license.limitations: ข้อจำกัด
+  license.summary: อธิบายแบบเข้าใจง่าย
+  license.analogy: เปรียบเทียบ
+  license.pros: ข้อดี
+  license.cons: ข้อเสีย
+  license.scenarios: สถานการณ์สุดขั้ว
+  license.radar: เรดาร์กรณีเลวร้ายที่สุด
+  license.projects: โปรเจกต์ที่มีชื่อเสียงที่ใช้ไลเซนส์นี้
+  license.projects.count: โปรเจกต์ที่มีชื่อเสียง {count} โปรเจกต์ในแผนที่ของเราใช้ไลเซนส์นี้
+  license.projects.none: ยังไม่มีโปรเจกต์ในแผนที่ของเราที่ใช้ไลเซนส์นี้
+  license.projects.since: เปลี่ยนมาใช้เมื่อ {date}
+  license.projects.also: "มีให้ภายใต้ไลเซนส์อื่นด้วย: {licenses}"
+  license.projects.former: โปรเจกต์ที่เลิกใช้ไลเซนส์นี้
+  license.text: ข้อความทางการ
+  license.text.official: ข้อความทางการภาษา{language}
+  license.text.note: เฉพาะข้อความทางการเท่านั้นที่มีผลผูกพันทางกฎหมาย เราไม่แปลข้อความไลเซนส์
+  license.compare: เปรียบเทียบกับ…
+  license.spdx: รหัส SPDX
+  radar.anti-freeride: ป้องกันการใช้ฟรีโดยไม่ตอบแทน
+  radar.anti-closed-fork: ป้องกัน fork แบบปิด
+  radar.patent: การคุ้มครองสิทธิบัตร
+  radar.adoption-friction: อุปสรรคในการนำไปใช้
+  radar.relicense-difficulty: เปลี่ยนไลเซนส์ได้ยาก
+  radar.misuse-control: ควบคุมการใช้ในทางที่ผิด
+  radar.derivative-control: ควบคุมงานดัดแปลง
+  radar.commercial-control: ควบคุมการใช้เชิงพาณิชย์
+  radar.note: คำนวณจากตารางสถานการณ์ ค่าสูงหมายถึงมีคุณสมบัตินั้นมากกว่า
+    ไม่ได้แปลว่า "ดีกว่า"
+  scenarios.title: ตารางสถานการณ์สุดขั้วของไลเซนส์
+  scenarios.lead: เลือกไลเซนส์แล้วจะเกิดอะไรขึ้น? แต่ละช่องตอบหนึ่งคำถามและมีหน้าของตัวเอง
+  scenarios.highlight: ไฮไลต์ไลเซนส์
+  scenarios.expand: ขยายทั้งหมด
+  scenarios.collapse: ยุบทั้งหมด
+  scenarios.silent-note: แถวที่มีแต่ "—" ตั้งใจใส่ไว้ คำตอบขึ้นอยู่กับสัญญาจ้างงาน
+    (C6) กฎหมายควบคุมการส่งออก (D5) หรือคดีที่ยังดำเนินอยู่ (D6)
+    ไม่ใช่ตัวไลเซนส์
+  scenario.flow.you: คุณเผยแพร่ภายใต้ {license}
+  scenario.flow.they: สถานการณ์
+  scenario.flow.result: ผลลัพธ์
+  scenario.clause: ข้อที่เกี่ยวข้อง
+  scenario.case: กรณีจริง
+  scenario.others: สถานการณ์เดียวกัน ไลเซนส์อื่น
+  scenario.other-scenarios: สถานการณ์อื่นของ {license}
+  scenario.no-clause: ไม่มีข้อที่ระบุเฉพาะ ใช้กฎหมายทั่วไป
+  scenario.review: สถานะการตรวจทาน
+  scenario.review.none: ยังไม่ได้ตรวจทานโดยทนายความ
+  scenario.review.done: ตรวจทานโดย {who} เมื่อ {date}
+  compare.title: เปรียบเทียบไลเซนส์โอเพนซอร์ส
+  compare.lead: เลือกสองหรือสามไลเซนส์เพื่อเปรียบเทียบทีละข้อและทีละสถานการณ์
+  compare.pick: เพิ่มไลเซนส์
+  compare.remove: นำออก
+  compare.terms: ข้อกำหนด
+  compare.scenarios: สถานการณ์
+  compare.empty: เลือกอย่างน้อยสองไลเซนส์
+  wizard.title: ตัวช่วยเลือกไลเซนส์
+  wizard.lead: ตอบคำถามไม่กี่ข้อ เอนจินกฎจะจัดอันดับไลเซนส์และอธิบายทุกคะแนน
+  wizard.next: ถัดไป
+  wizard.prev: ย้อนกลับ
+  wizard.finish: ดูผลลัพธ์
+  wizard.restart: เริ่มใหม่
+  wizard.skip: ข้าม
+  wizard.step: ขั้นตอนที่ {n} จาก {total}
+  wizard.to-chat: ทำต่อกับที่ปรึกษา AI
+  q.artifact_type: คุณจะเผยแพร่อะไร?
+  q.openness_level: คุณต้องการเปิดกว้างแค่ไหน?
+  q.avoid: คุณต้องการหลีกเลี่ยงผลลัพธ์ใดบ้าง?
+  q.avoid.hint: เลือกได้หลายข้อ
+  q.adoption_goal: อะไรสำคัญที่สุด?
+  q.dependencies: คุณพึ่งพาโค้ดแบบ copyleft หรือไม่?
+  q.dependencies.hint: เพิ่มรหัส SPDX ของไลเซนส์ dependency เช่น GPL-3.0-only
+  q.commercial_plan: คุณจะหารายได้อย่างไร (ถ้ามี)?
+  q.jurisdiction: คุณอยู่ที่ไหน?
+  opt.artifact_type.library: ไลบรารีหรือ SDK
+  opt.artifact_type.application: แอปพลิเคชันหรือเครื่องมือ
+  opt.artifact_type.saas: แบ็กเอนด์ของบริการ (SaaS)
+  opt.artifact_type.model: น้ำหนักโมเดล (model weights)
+  opt.artifact_type.dataset: ชุดข้อมูล
+  opt.artifact_type.docs: เอกสารหรือเนื้อหา
+  opt.openness_level.open: เปิดเต็มที่ — ใครจะทำอะไรก็ได้
+  opt.openness_level.reciprocal: เปิด แต่การปรับปรุงต้องส่งกลับมา
+  opt.openness_level.source-available: เห็นซอร์สได้ แต่จำกัดการใช้เชิงพาณิชย์
+  opt.avoid.cloud-hosting: ผู้ให้บริการคลาวด์นำไปขายเป็นบริการ
+  opt.avoid.closed-fork: fork แบบปิดซอร์ส
+  opt.avoid.patent-litigation: การฟ้องร้องเรื่องสิทธิบัตร
+  opt.avoid.trademark-abuse: การนำชื่อหรือแบรนด์ของฉันไปใช้ในทางที่ผิด
+  opt.avoid.harmful-use: การใช้งานที่เป็นอันตราย
+  opt.avoid.big-company: บริษัทใหญ่นำไปใช้ฟรี
+  opt.adoption_goal.enterprise: ให้บริษัทต่าง ๆ นำไปใช้มากที่สุด
+  opt.adoption_goal.community: การมีส่วนร่วมจากชุมชน
+  opt.adoption_goal.monetize: สร้างรายได้จากโปรเจกต์
+  opt.commercial_plan.none: ยังไม่มีแผน
+  opt.commercial_plan.dual-license: ไลเซนส์คู่ (dual licensing)
+  opt.commercial_plan.open-core: Open core
+  opt.commercial_plan.hosted: บริการแบบโฮสต์
+  opt.jurisdiction.cn: จีน
+  opt.jurisdiction.eu: สหภาพยุโรป
+  opt.jurisdiction.us: สหรัฐอเมริกา
+  opt.jurisdiction.other: อื่น ๆ
+  engine.part.avoid: "ป้องกัน: {avoid}"
+  engine.part.openness: "ความเหมาะสมด้านความเปิดกว้าง: {openness}"
+  engine.part.adoption: "เป้าหมาย: {goal}"
+  engine.part.commercial: "แผนธุรกิจ: {plan}"
+  engine.part.jurisdiction: "เขตอำนาจศาล: {jurisdiction}"
+  engine.part.dependency: "เข้ากันได้โดยมีเงื่อนไขเท่านั้น: {dependency}"
+  engine.excluded.dependency: เข้ากันไม่ได้กับ dependency {dependency}
+  engine.excluded.artifact: ไม่เหมาะกับงานประเภทนี้
+  advisory.needs-cla: ใช้ข้อตกลงอนุญาตสำหรับผู้ร่วมพัฒนา (CLA)
+    คุณจะต้องใช้เมื่อต้องการขายไลเซนส์เชิงพาณิชย์หรือเปลี่ยนไลเซนส์ในภายหลัง
+  advisory.consider-dco: โดยทั่วไป Developer Certificate of Origin (DCO,
+    "Signed-off-by") ก็เพียงพอแล้ว
+  advisory.busl-change-date: กำหนด Additional Use Grant, Change Date และ Change License ในส่วนหัวของ BSL
+  advisory.model-card: ระบุไลเซนส์ในเมทาดาทาของ model card หรือ dataset card (ฟิลด์ "license:")
+  advisory.notice-file: เพิ่มไฟล์ NOTICE และคงไว้เมื่อแจกจ่ายต่อ
+  advisory.consult-lawyer: ให้ทนายความตรวจสอบ dependency และเงื่อนไขทางธุรกิจก่อนเผยแพร่
+  advisory.network-source-link: แสดงลิงก์ "ซอร์สโค้ด" ให้ผู้ใช้บริการเครือข่ายของคุณเห็น
+  report.title: รายงานไลเซนส์ของคุณ
+  report.lead: รายงานนี้คำนวณในเบราว์เซอร์ของคุณจากโปรไฟล์ในลิงก์ แชร์ลิงก์เพื่อแชร์รายงาน
+  report.profile: โปรไฟล์โปรเจกต์
+  report.edit: แก้ไขในตัวช่วยเลือก
+  report.top: แนะนำ
+  report.score: คะแนน {score}
+  report.why: เหตุผล
+  report.excluded: ถูกคัดออก
+  report.advisories: ขั้นตอนถัดไป
+  report.license-file: ไฟล์ LICENSE
+  report.header: ส่วนหัวไฟล์
+  report.badge: แบดจ์สำหรับ README
+  report.share: ลิงก์สำหรับแชร์
+  report.share.copy: คัดลอกลิงก์
+  report.similar: โปรเจกต์ที่คล้ายกัน
+  report.no-text: ไม่มีข้อความที่เครื่องอ่านได้ โปรดดูจากหน้าทางการ
+  report.invalid: ลิงก์รายงานนี้เสียหรือมาจากเวอร์ชันเก่า
+  report.empty: ยังไม่มีโปรไฟล์ เริ่มจากตัวช่วยเลือกหรือที่ปรึกษา AI
+  chat.title: ที่ปรึกษาไลเซนส์ AI
+  chat.lead: อธิบายโปรเจกต์ของคุณ ที่ปรึกษาจะถามคำถามต่อเนื่อง
+    เอนจินกฎจะเลือกไลเซนส์ และที่ปรึกษาจะอธิบายให้ฟัง
+  chat.placeholder: "ตัวอย่าง: ฉันสร้างฐานข้อมูลเวกเตอร์
+    และกังวลว่าผู้ให้บริการคลาวด์จะนำไปขายต่อ"
+  chat.send: ส่ง
+  chat.stop: หยุด
+  chat.examples: ลองตัวอย่าง
+  chat.example.1: ฉันสร้างฐานข้อมูลเวกเตอร์ และกังวลว่าผู้ให้บริการคลาวด์จะนำไปขายต่อ
+  chat.example.2: ไลบรารีคอมโพเนนต์ React ขนาดเล็ก ฉันอยากให้บริษัทต่าง ๆ นำไปใช้
+  chat.example.3: เราปรับแต่ง (fine-tune) โมเดล 7B และต้องการป้องกันการใช้งานที่เป็นอันตราย
+  chat.profile: โปรไฟล์โปรเจกต์
+  chat.profile.hint: คลิกที่ค่าเพื่อแก้ไข
+  chat.candidates: ตัวเลือก
+  chat.run: รับคำแนะนำ
+  chat.limit: คุณใช้ครบโควตาของวันนี้แล้ว โปรดลองใหม่พรุ่งนี้หรือใช้ตัวช่วยเลือก
+  chat.error: ที่ปรึกษายังไม่พร้อมใช้งานในขณะนี้ แต่ตัวช่วยเลือกยังใช้ได้
+  chat.verify: โปรดยืนยันว่าคุณเป็นมนุษย์
+  chat.disclaimer: ที่ปรึกษาอาจผิดพลาดได้ คำแนะนำมาจากเอนจินกฎ และนี่ไม่ใช่คำแนะนำทางกฎหมาย
+  chat.report: เปิดรายงานฉบับเต็ม
+  projects.title: แผนที่ไลเซนส์ของโปรเจกต์
+  projects.lead: ไลเซนส์ของโปรเจกต์ที่มีชื่อเสียง และเบื้องหลังการเปลี่ยนไลเซนส์แต่ละครั้ง
+  projects.filter.domain: สาขา
+  projects.filter.family: กลุ่มไลเซนส์
+  projects.filter.owner: เจ้าของ
+  projects.filter.changed: เคยเปลี่ยนไลเซนส์
+  projects.count: "{count} โปรเจกต์"
+  projects.empty: ไม่มีโปรเจกต์ที่ตรงกับตัวกรองเหล่านี้
+  owner.company: บริษัท
+  owner.foundation: มูลนิธิ
+  owner.individual: บุคคล
+  owner.community: ชุมชน
+  project.current: ไลเซนส์ปัจจุบัน
+  project.timeline: ไทม์ไลน์ไลเซนส์
+  project.reason: เหตุผล
+  project.announcement: ประกาศ
+  project.forks: fork ที่เกิดขึ้นตามมา
+  project.fork-of: fork ของ {name}
+  project.repo: รีโพซิทอรี
+  project.similar: โปรเจกต์ที่คล้ายกัน
+  project.review: รายการนี้พบโดยบอทซิงก์และกำลังรอการตรวจทานโดยมนุษย์
+  project.initial: ไลเซนส์เริ่มต้น
+  domain.database: ฐานข้อมูล
+  domain.frontend: เฟรมเวิร์กฟรอนต์เอนด์
+  domain.devops: DevOps
+  domain.ai-model: โมเดล AI
+  domain.language: ภาษาและรันไทม์
+  domain.os: ระบบปฏิบัติการ
+  domain.web: เว็บเซิร์ฟเวอร์และแบ็กเอนด์
+  domain.tooling: เครื่องมือนักพัฒนา
+  domain.data: ข้อมูลและการวิเคราะห์
+  domain.observability: การติดตามสังเกตระบบ (Observability)
+  domain.messaging: Messaging และ streaming
+  domain.cms: CMS และแอปพลิเคชัน
+  trends.title: แนวโน้มไลเซนส์โอเพนซอร์ส
+  trends.lead: รวบรวมจากแผนที่โปรเจกต์ตอน build
+  trends.family-share: กลุ่มไลเซนส์แยกตามสาขา
+  trends.changes: การเปลี่ยนไลเซนส์รายปี
+  trends.to-source-available: โปรเจกต์ที่เปลี่ยนจากโอเพนซอร์สเป็น source-available
+  search.lead: ค้นหาไลเซนส์ สถานการณ์ และโปรเจกต์ในภาษานี้
+  search.noscript: การค้นหาต้องใช้ JavaScript
+  check.title: ตรวจสอบไลเซนส์ของ dependency
+  check.lead: วาง package.json, go.mod, Gemfile.lock, Cargo.toml หรือ
+    requirements.txt การแยกวิเคราะห์ทำในเบราว์เซอร์ของคุณ
+  check.project-license: ไลเซนส์ของโปรเจกต์คุณ
+  check.input: ไฟล์ manifest
+  check.run: ตรวจสอบ
+  check.lookup: ค้นหาไลเซนส์ที่ไม่ทราบทางออนไลน์ (deps.dev)
+  check.col.package: แพ็กเกจ
+  check.col.license: ไลเซนส์
+  check.col.status: สถานะ
+  check.status.compatible: เข้ากันได้
+  check.status.conditional: มีเงื่อนไข
+  check.status.incompatible: ขัดแย้ง
+  check.status.unknown: ไม่ทราบ
+  check.summary: เข้ากันได้ {ok} รายการ, มีเงื่อนไข {warn}, ขัดแย้ง {bad}, ไม่ทราบ {unknown}
+  check.format: "รูปแบบที่ตรวจพบ: {format}"
+  check.no-deps: ไม่พบ dependency
+  check.license-hint: เพิ่มไลเซนส์ใน manifest เป็นบรรทัด "name@version LICENSE-ID"
+    หรือเปิดการค้นหาออนไลน์
+  notfound.title: ไม่พบหน้า
+  notfound.body: ไม่มีหน้านี้ ลองไปที่คลังไลเซนส์
+  domain.education: การศึกษา
+  domain.design: ฟอนต์และการออกแบบ

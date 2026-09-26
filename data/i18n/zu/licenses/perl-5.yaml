@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 4f54478806088c0d
+summary: "Ilayisense ekabili ye-Perl: abamukeli bakhetha i-Artistic License 1.0
+  noma i-GPL (inguqulo 1 noma kamuva)."
+analogy: Khetha noma iyiphi yezincwadi ezimbili zemithetho ekufanelayo.
+pros:
+  - Ukukhetha phakathi kwemigomo ecishe ivumele kakhulu ne-copyleft
+  - Iyindinganiso yamamojula e-CPAN
+cons:
+  - I-Artistic 1.0 ayicacile
+  - Ayikho imvume ye-patent

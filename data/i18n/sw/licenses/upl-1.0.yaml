@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: ddb7b2f148c13edb
+summary: Leseni fupi ya ruhusa pana yenye ruhusa ya wazi ya hataza, inayotumiwa
+  na Oracle kwa GraalVM na miradi mingine.
+analogy: Kitabu cha bure cha MIT, chenye ahadi ya ziada kuhusu hataza.
+pros:
+  - Fupi na ya ruhusa pana
+  - Ruhusa ya wazi ya hataza
+cons:
+  - Hakuna kifungu cha kulipiza kisasi kwa hataza
+  - Haijulikani sana kama MIT au Apache

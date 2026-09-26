@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: ded3362d69058c2a
+summary: I-Apache-2.0 kanye nokukhululwa okususa isidingo sokubalula umthombo
+  kukhodi ehlanganisiwe (compiled) futhi kuyenze isebenziseke namaphrojekthi
+  e-GPL-2.0.
+analogy: Ibhokisi lamathuluzi le-Apache, nenothi elithi izinsalela zamathuluzi
+  emkhiqizweni wakho azidingi kubalulwa.
+pros:
+  - Imvume ye-patent ye-Apache-2.0
+  - Isebenza nekhodi ye-GPL-2.0
+cons:
+  - Inde kune-MIT
+  - Ukukhululwa kuqondene namaphrojekthi afana nama-compiler

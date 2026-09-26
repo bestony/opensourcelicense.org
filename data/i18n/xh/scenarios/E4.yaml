@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cf07449a9c3b7eaf
+actor: other
+title: Iphuculwe (fine-tune), yathiywa ngokutsha yaza yakhutshwa njengezisindo
+  ezivaliweyo
+cells:
+  llama: Kufuneka ifake ilayisensi kwaye ibonise "Built with Llama"
+  openrail-m: Kufuneka idlulisele izithintelo zokusetyenziswa
+  cc-by-4.0: Ukukhankanya umthombo
+  cc-by-nc-4.0: Ingeyiyo eyorhwebo kuphela
+  odc-by-1.0: Ukukhankanya umthombo
+  odbl-1.0: Iidatabheyisi ezivela kuyo zihlala zi-ODbL

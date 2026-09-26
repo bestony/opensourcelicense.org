@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cf76d86201254c1b
+summary: "I-copyleft eqinile: okuphuma kukho okusabalalisiwe kufanele kukhishwe
+  ngokuphelele ngaphansi kwe-GPL-2.0. Ayikho imvume ye-patent ecacile;
+  ayihambisani ne-GPL-3.0 ngaphandle uma kusetshenziswa u-'or later'."
+analogy: Umthetho wokwabelana ngeresiphi, ohlelweni lwawo oludala.
+pros:
+  - Igcina okuphuma kukho okusabalalisiwe kuvulekile
+  - Isetshenziswa yi-kernel ye-Linux
+cons:
+  - Ayihambisani ne-Apache-2.0 ne-GPL-3.0 (inguqulo eyodwa kuphela)
+  - Ayikho imvume ye-patent ecacile

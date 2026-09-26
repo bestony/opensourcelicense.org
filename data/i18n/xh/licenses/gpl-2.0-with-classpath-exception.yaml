@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 841fb8980cea558f
+summary: I-GPL-2.0 yelayibrari ngokwayo, kunye nokukhululwa okuvumela iinkqubo
+  ezizimeleyo ukuba zidibane nayo phantsi kwayo nayiphi na ilayisensi.
+analogy: Injini ekwabelwana ngayo phantsi komthetho wokwabelana ngeresiphi,
+  kodwa imoto yakho ihlala iyeyakho.
+pros:
+  - Usetyenziso oludibana nayo lunokuvalwa
+  - Isetyenziswa yi-OpenJDK
+cons:
+  - Utshintsho kwilayibrari luhlala luyi-GPL
+  - Ayihambelani neeprojekthi ze-GPL-3.0-only

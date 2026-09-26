@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 7db0448b4abf3505
+summary: "Ilayisense emfushane elingana ne-MIT: noma yikuphi ukusetshenziswa
+  kugcinwe isaziso se-copyright nesemvume."
+analogy: Incwadi yamahhala efanayo ne-MIT, enenothi elifushane ekhaveni.
+pros:
+  - Ilayisense evumela kakhulu evamile emfushane kunazo zonke
+  - Okuzenzakalelayo kumaphakheji amaningi e-npm
+cons:
+  - Ayikho imvume ye-patent
+  - Ama-fork avaliwe ayavunyelwa

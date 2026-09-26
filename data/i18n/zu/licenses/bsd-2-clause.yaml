@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 261d8b56fb436858
+summary: "Njenge-MIT: sebenzisa ikhodi ngokukhululeka; gcina isaziso
+  se-copyright nesimemezelo sokungathwali sibopho kumakhophi omthombo
+  nawe-binary."
+analogy: "Ikhadi leresiphi lamahhala: likopishe noma kuphi, gcina nje umugqa
+  wegama lombhali ngezansi."
+pros:
+  - Imfushane kakhulu futhi ivumela kakhulu
+  - Isetshenziswa kabanzi kumasistimu e-BSD
+cons:
+  - Ayikho imvume ye-patent
+  - Ama-fork avaliwe ayavunyelwa

@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: c04c9ce2bbb6b016
+summary: Kama AGPL, lakini kutoa programu kama huduma kunahitaji kutoa msimbo
+  chanzo wa mfumo mzima wa huduma. Haijaidhinishwa na OSI.
+analogy: Ukiendesha mgahawa wenye mlo huu, lazima pia uchapishe michoro ya jiko lako.
+pros:
+  - Ulinzi imara dhidi ya watoa huduma za wingu
+cons:
+  - Si chanzo huria kwa vigezo vya OSI
+  - Imekataliwa na distribution nyingi
+  - Inaweza kusababisha fork za jamii

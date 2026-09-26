@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: cf07449a9c3b7eaf
+actor: other
+title: ถูก fine-tune เปลี่ยนชื่อ และเผยแพร่เป็นน้ำหนักโมเดลแบบปิด
+cells:
+  llama: ต้องแนบไลเซนส์และแสดง "Built with Llama"
+  openrail-m: ต้องส่งต่อข้อจำกัดการใช้งาน
+  cc-by-4.0: ระบุที่มา
+  cc-by-nc-4.0: ไม่ใช่เชิงพาณิชย์เท่านั้น
+  odc-by-1.0: ระบุที่มา
+  odbl-1.0: ฐานข้อมูลดัดแปลงยังคงเป็น ODbL

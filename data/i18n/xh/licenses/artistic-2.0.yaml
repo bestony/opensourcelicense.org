@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cb1197749de0ea7e
+summary: Ikuvumela ukulungisa nokusasaza ngokukhululekileyo, kodwa inguqulelo
+  elungisiweyo kufuneka iphawulwe ngokucacileyo okanye ithiywe ngokutsha, okanye
+  ikhowudi yayo yomthombo yenziwe ifumaneke. Inemimiselo ye-patent.
+analogy: Yenza i-remix yengoma, kodwa ungathengisi i-remix yakho njengengoma yokuqala.
+pros:
+  - Ikhusela ubuni bomsebenzi wokuqala
+  - Iyahambelana ne-GPL
+cons:
+  - Imiqathango inamagama amaninzi
+  - Inqabile ngaphandle kwe-Raku ne-Perl

@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: c04c9ce2bbb6b016
+summary: Ifana ne-AGPL, kodwa ukunikeza isofthiwe njengesevisi kudinga ukukhipha
+  ikhodi yomthombo yayo yonke i-service stack. Ayigunyazwe yi-OSI.
+analogy: Uma uqhuba indawo yokudlela enalesi sidlo, kufanele futhi ushicilele
+  amapulani ekhishi lakho.
+pros:
+  - Ukuvikela okuqinile kubahlinzeki be-cloud
+cons:
+  - Akuyona i-open source ngokwe-OSI
+  - Yenqatshwe ngama-distribution amaningi
+  - Ingadala ama-fork omphakathi

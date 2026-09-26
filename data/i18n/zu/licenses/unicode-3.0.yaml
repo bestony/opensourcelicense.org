@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 72d99432db49e19d
+summary: Ilayisense evumela kakhulu yedatha nesofthiwe ye-Unicode efana ne-ICU
+  ne-CLDR; gcina isaziso futhi ungasebenzisi igama lomnikazi we-copyright
+  ukukhangisa.
+analogy: "Incwadi yokubheka yamahhala: yikopishe, gcina umugqa wokubalula."
+pros:
+  - Ivumela kakhulu
+  - Ihlanganisa amafayela edatha nekhodi
+cons:
+  - Ayikho imvume ye-patent
+  - Isetshenziswa kakhulu kumaphrojekthi e-Unicode

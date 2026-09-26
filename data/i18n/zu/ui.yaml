@@ -1,0 +1,370 @@
+reviewed: false
+sourceHash: a2d7eb045dde7649
+strings:
+  site.name: opensourcelicense.org
+  site.tagline: Ithuluzi lokukhetha amalayisense e-open source (umthombo ovulekile)
+  site.description: Khetha, qhathanisa futhi uhlole amalayisense e-open source.
+    Bona ukuthi amaphrojekthi angempela asebenzisa yiphi, yini engahamba kabi,
+    nokuthi iyiphi efanele iphrojekthi yakho.
+  nav.home: Ekhaya
+  nav.licenses: Amalayisense
+  nav.scenarios: Izimo
+  nav.projects: Amaphrojekthi
+  nav.trends: Imikhuba
+  nav.compare: Qhathanisa
+  nav.wizard: Umhlahlandlela
+  nav.chat: Umeluleki we-AI
+  nav.check: Ukuhlola okuncikile
+  nav.menu: Imenyu
+  lang.switch: Ulimi
+  lang.suggest: Leli khasi liyatholakala nge-{language}.
+  lang.suggest.go: Shintsha
+  lang.suggest.dismiss: Vala
+  footer.disclaimer: Le sayithi inikeza ulwazi olujwayelekile, hhayi iseluleko
+    sezomthetho. Uma unengxabano noma inkontileka yangempela, khuluma nommeli.
+  footer.source: Ikhodi yomthombo (AGPL-3.0)
+  footer.data: Idatha ngaphansi kwe-CC-BY-4.0
+  footer.report: Bika iphutha
+  footer.cite: Idatha evela ku-opensourcelicense.org, CC-BY-4.0
+  footer.hosting: Isebenza ohlelweni lwamahhala lwe-Cloudflare Workers
+  footer.dns: Isizinda sibanjwe yi-Cloudflare
+  badge.machine: Ukuhumusha ngomshini
+  badge.reviewed: Ukuhumusha okubuyekeziwe
+  badge.fallback: Akukahunyushwa — kuboniswa ngesiNgisi
+  badge.stale: kungenzeka kuphelelwe yisikhathi
+  badge.unreviewed-data: Okusalungiswa — akukabuyekezwa ngummeli
+  common.updated: Idatha ibuyekezwe ngo-{date}
+  common.back: Emuva
+  common.copy: Kopisha
+  common.copied: Kukopishiwe
+  common.download: Landa
+  common.close: Vala
+  common.all: Konke
+  common.yes: Yebo
+  common.no: Cha
+  common.unknown: Akwaziwa
+  common.none: Lutho
+  common.more: Okwengeziwe
+  common.loading: Kuyalayisha…
+  common.error: Kukhona okungahambanga kahle.
+  common.search: Sesha
+  home.title: Khetha ilayisense ye-open source uqaphile
+  home.lead: Hhayi nje "iyiphi ilayisense", kodwa futhi ukuthi amaphrojekthi
+    afanayo akhethani, isimo esibi kakhulu sibukeka kanjani, nokuthi yini
+    okufanele uyenze ngokulandelayo.
+  home.entry.chat.title: Khuluma nomeluleki we-AI
+  home.entry.chat.body: Chaza iphrojekthi yakho ngamazwi akho. Thola iphrofayela,
+    imibuzo yokulandelela nombiko.
+  home.entry.projects.title: Bona ukuthi abanye basebenzisani
+  home.entry.projects.body: Amalayisense amaphrojekthi aziwayo, nokuthi kungani amanye awo ashintsha.
+  home.entry.wizard.title: Hlunga isinyathelo ngesinyathelo
+  home.entry.wizard.body: Phendula imibuzo embalwa uthole uhlu olufushane
+    oluhlelwe ngokulandelana nezincazelo.
+  home.wall: Amalayisense amaphrojekthi adumile
+  home.changes: Izinguquko zamalayisense zakamuva
+  home.scenarios: Yini engahamba kabi?
+  home.scenarios.body: Izimo ezingama-27 ezeqisayo × amakholomu angu-17
+    amalayisense, ikhasi elilodwa ngeseli ngalinye.
+  family.permissive: Evumela kakhulu (Permissive)
+  family.weak-copyleft: I-copyleft ebuthakathaka
+  family.strong-copyleft: I-copyleft eqinile
+  family.network-copyleft: I-copyleft yenethiwekhi
+  family.source-available: Ikhodi ebonakalayo (Source-available)
+  family.model: Ilayisense yemodeli
+  family.content: Okuqukethwe / idatha
+  verdict.allow: Kuvunyelwe
+  verdict.conditional: Ngemibandela
+  verdict.deny: Kuvinjelwe yilayisense
+  verdict.silent: Akukhulunywa ngakho
+  verdict.tbd: Kusabuyekezwa
+  verdict.legend: "Isihluthulelo: ✓ olunye uhlangothi lungakwenza lokhu · ◐
+    ngemibandela · ✗ ilayisense iyakuvimba · — ilayisense ithulile (kusebenza
+    umthetho ojwayelekile)"
+  actor.other: Omunye umuntu wenza lokhu
+  actor.you: Wena ufuna ukwenza lokhu
+  actor.contributor: Umnikeli wenza lokhu
+  actor.both: Kusebenza ezinhlangothini zombili
+  group.A: Ukuncintisana kwezohwebo
+  group.B: Ama-patent nomthetho
+  group.C: Ukuthuthuka nebhizinisi
+  group.D: Ukusetshenziswa nokuhambisana nemithetho
+  group.E: Amamodeli e-AI nedatha
+  matrix.code: Amalayisense ekhodi
+  matrix.model: Amalayisense amamodeli nedatha
+  term.commercial-use: Ukusetshenziswa kwezohwebo
+  term.modification: Ukuguqula
+  term.distribution: Ukusabalalisa
+  term.private-use: Ukusetshenziswa komuntu siqu
+  term.patent-use: Imvume ye-patent
+  term.non-production-use: Ukusetshenziswa okungekona okokukhiqiza
+  term.converts-to-open-source: Iba yi-open source kamuva
+  term.include-copyright: Gcina isaziso se-copyright
+  term.include-license: Faka ilayisense
+  term.document-changes: Phawula izinguquko
+  term.disclose-source: Dalula ikhodi yomthombo
+  term.same-license: Ilayisense efanayo kokuphuma kukho
+  term.same-license-file: Ilayisense efanayo (ezingeni lefayela)
+  term.same-license-library: Ilayisense efanayo (ezingeni lelayibhulali)
+  term.allow-relinking: Vumela ukuxhuma kabusha
+  term.network-use-disclose: Ukusetshenziswa ngenethiwekhi kuwukusabalalisa
+  term.service-stack-disclose: Khipha yonke i-service stack
+  term.keep-limitations: Gcina imikhawulo
+  term.attribution: Ukubalula umthombo
+  term.attribution-built-with: Bonisa "Built with"
+  term.name-prefix: Umthetho wesiqalo segama
+  term.acceptable-use-policy: Inqubomgomo yokusetshenziswa okwamukelekayo
+  term.use-restrictions-pass-through: Dlulisela imikhawulo yokusetshenziswa
+  term.indicate-changes: Khombisa izinguquko
+  term.liability: Akukho sibopho
+  term.warranty: Akukho siqinisekiso
+  term.trademark-use: Awekho amalungelo ophawu lokuhweba
+  term.no-endorsement: Akukho ukugunyaza
+  term.production-use-restricted: Ukusetshenziswa kokukhiqiza kunqunyelwe
+  term.no-managed-service: Akukho sevisi ephethwe
+  term.no-license-key-circumvention: Akukho ukugwema ukhiye welayisense
+  term.mau-threshold: Umkhawulo wabasebenzisi
+  term.use-restrictions: Imikhawulo yokusetshenziswa
+  term.non-commercial: Okungekona kwezohwebo kuphela
+  licenses.title: Umtapo wamalayisense e-open source
+  licenses.lead: Amalayisense angu-{count}, kusukela kwavumela kakhulu kuya
+    kwe-source-available namalayisense amamodeli.
+  licenses.col.license: Ilayisense
+  licenses.col.family: Umndeni
+  licenses.col.osi: OSI
+  licenses.col.fsf: Ikhululekile ku-FSF
+  licenses.col.projects: Amaphrojekthi
+  licenses.filter: Hlunga ngomndeni
+  license.permissions: Izimvume
+  license.conditions: Imibandela
+  license.limitations: Imikhawulo
+  license.summary: Ngamazwi alula
+  license.analogy: Isifaniso
+  license.pros: Izinzuzo
+  license.cons: Ububi
+  license.scenarios: Izimo ezeqisayo
+  license.radar: I-radar yesimo esibi kakhulu
+  license.projects: Amaphrojekthi aziwayo ayisebenzisayo
+  license.projects.count: Amaphrojekthi aziwayo angu-{count} emephini yethu asebenzisa le layisense.
+  license.projects.none: Ayikho iphrojekthi emephini yethu esebenzisa le layisense okwamanje.
+  license.projects.since: Yashintshela kuyo ngo-{date}
+  license.projects.also: "Iyatholakala futhi ngaphansi kwe: {licenses}"
+  license.projects.former: Amaphrojekthi ayishiyile
+  license.text: Umbhalo osemthethweni
+  license.text.official: Umbhalo osemthethweni nge-{language}
+  license.text.note: Umbhalo osemthethweni kuphela obophayo ngokomthetho.
+    Asiyihumushi imibhalo yamalayisense.
+  license.compare: Qhathanisa no…
+  license.spdx: Isihlonzi se-SPDX
+  radar.anti-freeride: Ivimba ukuzuza mahhala
+  radar.anti-closed-fork: Ivimba ama-fork avaliwe
+  radar.patent: Ukuvikelwa kwe-patent
+  radar.adoption-friction: Izithiyo zokwamukelwa
+  radar.relicense-difficulty: Kunzima ukushintsha ilayisense
+  radar.misuse-control: Ukulawula ukusetshenziswa kabi
+  radar.derivative-control: Ukulawula okuphuma kukho
+  radar.commercial-control: Ukulawula kwezohwebo
+  radar.note: Kubalwe kusuka kuthebula lezimo. Inani eliphezulu lisho okwengeziwe
+    kwaleso sici, hhayi "okungcono".
+  scenarios.title: Ithebula lezimo ezeqisayo zamalayisense
+  scenarios.lead: Kwenzekani ngemuva kokukhetha ilayisense? Iseli ngalinye
+    liphendula umbuzo owodwa futhi linekhasi lalo.
+  scenarios.highlight: Gqamisa ilayisense
+  scenarios.expand: Nweba konke
+  scenarios.collapse: Goqa konke
+  scenarios.silent-note: Imigqa ene-"—" kuphela ikhona ngenhloso. Impendulo incike
+    ezinkontilekeni zomsebenzi (C6), emthethweni wokulawula ukuthekelisa (D5)
+    noma emacaleni asaqhubeka (D6), hhayi elayisensini.
+  scenario.flow.you: Ushicilela ngaphansi kwe-{license}
+  scenario.flow.they: Isimo
+  scenario.flow.result: Umphumela
+  scenario.clause: Isigatshana esifanele
+  scenario.case: Isibonelo sangempela
+  scenario.others: Isimo esifanayo, amanye amalayisense
+  scenario.other-scenarios: Ezinye izimo ze-{license}
+  scenario.no-clause: Asikho isigatshana esiqondile. Kusebenza umthetho ojwayelekile.
+  scenario.review: Isimo sokubuyekezwa
+  scenario.review.none: Akukabuyekezwa ngummeli.
+  scenario.review.done: Kubuyekezwe ngu-{who} ngo-{date}.
+  compare.title: Qhathanisa amalayisense e-open source
+  compare.lead: Khetha amalayisense amabili noma amathathu ukuze uwaqhathanise
+    isigatshana ngesigatshana nesimo ngesimo.
+  compare.pick: Engeza ilayisense
+  compare.remove: Susa
+  compare.terms: Imigomo
+  compare.scenarios: Izimo
+  compare.empty: Khetha okungenani amalayisense amabili.
+  wizard.title: Umhlahlandlela wokukhetha ilayisense
+  wizard.lead: Phendula imibuzo embalwa. Injini yemithetho ihlela amalayisense
+    futhi ichaze iphuzu ngalinye.
+  wizard.next: Okulandelayo
+  wizard.prev: Emuva
+  wizard.finish: Bona umphumela
+  wizard.restart: Qala kabusha
+  wizard.skip: Yeqa
+  wizard.step: Isinyathelo {n} kwezingu-{total}
+  wizard.to-chat: Qhubeka nomeluleki we-AI
+  q.artifact_type: Ukhipha ini?
+  q.openness_level: Ufuna ivuleke kangakanani?
+  q.avoid: Yimiphi imiphumela ofuna ukuyigwema?
+  q.avoid.hint: Khetha noma mingaki.
+  q.adoption_goal: Yini ebaluleke kakhulu?
+  q.dependencies: Ingabe uncike kukhodi ye-copyleft?
+  q.dependencies.hint: Engeza izihlonzi ze-SPDX zamalayisense okuncikile kukho,
+    isibonelo GPL-3.0-only.
+  q.commercial_plan: Uzokwenza kanjani imali, uma ikhona?
+  q.jurisdiction: Ukuphi?
+  opt.artifact_type.library: Ilayibhulali noma i-SDK
+  opt.artifact_type.application: Uhlelo lokusebenza noma ithuluzi
+  opt.artifact_type.saas: I-backend yesevisi (SaaS)
+  opt.artifact_type.model: Izisindo zemodeli (weights)
+  opt.artifact_type.dataset: Iqoqo ledatha
+  opt.artifact_type.docs: Imibhalo noma okuqukethwe
+  opt.openness_level.open: Ivuleke ngokuphelele — noma ubani angenza noma yini
+  opt.openness_level.reciprocal: Ivulekile, kodwa ukuthuthukiswa kufanele kubuyiswe
+  opt.openness_level.source-available: Ikhodi iyabonakala, ukusetshenziswa kwezohwebo kunqunyelwe
+  opt.avoid.cloud-hosting: Abahlinzeki be-cloud bayithengisa njengesevisi
+  opt.avoid.closed-fork: Ama-fork anekhodi evaliwe
+  opt.avoid.patent-litigation: Amacala e-patent
+  opt.avoid.trademark-abuse: Ukusetshenziswa kabi kwegama noma uphawu lwami
+  opt.avoid.harmful-use: Ukusetshenziswa okuyingozi
+  opt.avoid.big-company: Izinkampani ezinkulu ziyisebenzisa mahhala
+  opt.adoption_goal.enterprise: Ukwamukelwa okukhulu yizinkampani
+  opt.adoption_goal.community: Iminikelo yomphakathi
+  opt.adoption_goal.monetize: Ukwenza imali ngayo
+  opt.commercial_plan.none: Alukho uhlelo
+  opt.commercial_plan.dual-license: Amalayisense amabili (dual licensing)
+  opt.commercial_plan.open-core: Open core
+  opt.commercial_plan.hosted: Isevisi ebanjiwe
+  opt.jurisdiction.cn: eShayina
+  opt.jurisdiction.eu: I-European Union
+  opt.jurisdiction.us: I-United States
+  opt.jurisdiction.other: Okunye
+  engine.part.avoid: "Ukuvikelwa ku: {avoid}"
+  engine.part.openness: "Ukufaneleka kokuvuleka: {openness}"
+  engine.part.adoption: "Umgomo: {goal}"
+  engine.part.commercial: "Uhlelo lwebhizinisi: {plan}"
+  engine.part.jurisdiction: "Indawo yomthetho: {jurisdiction}"
+  engine.part.dependency: "Iyahambisana kuphela ngemibandela: {dependency}"
+  engine.excluded.dependency: Ayihambisani nokuncikile kukho {dependency}
+  engine.excluded.artifact: Ayifanele lolu hlobo lomsebenzi
+  advisory.needs-cla: Sebenzisa Isivumelwano Selayisense Yomnikeli (CLA).
+    Uzosidinga ukuze uthengise amalayisense ezohwebo noma ushintshe ilayisense
+    kamuva.
+  advisory.consider-dco: I-Developer Certificate of Origin (DCO, "Signed-off-by") ivamise ukwanela.
+  advisory.busl-change-date: Setha i-Additional Use Grant, i-Change Date ne-Change
+    License enhlokweni ye-BSL.
+  advisory.model-card: Faka ilayisense ku-metadata yekhadi lemodeli noma leqoqo
+    ledatha (inkambu ethi "license:").
+  advisory.notice-file: Engeza ifayela le-NOTICE futhi uligcine lapho usabalalisa kabusha.
+  advisory.consult-lawyer: Cela ummeli ahlole okuncikile nemigomo yebhizinisi ngaphambi kokukhipha.
+  advisory.network-source-link: Bonisa isixhumanisi esithi "Ikhodi yomthombo"
+    kubasebenzisi besevisi yakho yenethiwekhi.
+  report.title: Umbiko wakho welayisense
+  report.lead: Lo mbiko ubalwa esipheqululini sakho kusukela kuphrofayela
+    esesixhumanisini. Yabelana ngesixhumanisi ukuze wabelane ngombiko.
+  report.profile: Iphrofayela yephrojekthi
+  report.edit: Hlela kumhlahlandlela
+  report.top: Kunconyiwe
+  report.score: Amaphuzu {score}
+  report.why: Kungani
+  report.excluded: Kukhishiwe
+  report.advisories: Izinyathelo ezilandelayo
+  report.license-file: Ifayela le-LICENSE
+  report.header: Unhlokweni wefayela
+  report.badge: Ibheji ye-README
+  report.share: Isixhumanisi sokwabelana
+  report.share.copy: Kopisha isixhumanisi
+  report.similar: Amaphrojekthi afanayo
+  report.no-text: Awukho umbhalo ofundeka ngomshini. Wuthole ekhasini elisemthethweni.
+  report.invalid: Lesi sixhumanisi sombiko siphukile noma sivela enguqulweni endala.
+  report.empty: Ayikho iphrofayela okwamanje. Qala ngomhlahlandlela noma ngomeluleki we-AI.
+  chat.title: Umeluleki we-AI wamalayisense
+  chat.lead: Chaza iphrojekthi yakho. Umeluleki ubuza imibuzo yokulandelela,
+    injini yemithetho ikhetha amalayisense, bese umeluleki ewachaza.
+  chat.placeholder: "Isibonelo: Ngakhe isizindalwazi se-vector futhi
+    ngikhathazekile ukuthi abahlinzeki be-cloud bazosithengisa kabusha."
+  chat.send: Thumela
+  chat.stop: Misa
+  chat.examples: Zama isibonelo
+  chat.example.1: Ngakhe isizindalwazi se-vector futhi ngikhathazekile ukuthi
+    abahlinzeki be-cloud bazosithengisa kabusha.
+  chat.example.2: Ilayibhulali encane yezingxenye ze-React. Ngifuna izinkampani ziyisebenzise.
+  chat.example.3: Sithuthukise (fine-tune) imodeli ye-7B futhi sifuna ukuvimba
+    ukusetshenziswa okuyingozi.
+  chat.profile: Iphrofayela yephrojekthi
+  chat.profile.hint: Chofoza inani ukuze ulishintshe.
+  chat.candidates: Abangenele ukukhethwa
+  chat.run: Thola isincomo
+  chat.limit: Ufinyelele umkhawulo wanamuhla. Sicela uzame futhi kusasa noma
+    usebenzise umhlahlandlela.
+  chat.error: Umeluleki akatholakali okwamanje. Umhlahlandlela usasebenza.
+  chat.verify: Sicela uqinisekise ukuthi ungumuntu.
+  chat.disclaimer: Umeluleki angenza amaphutha. Izincomo zivela enjinini
+    yemithetho, futhi lokhu akusona iseluleko sezomthetho.
+  chat.report: Vula umbiko ogcwele
+  projects.title: Imephu yamalayisense amaphrojekthi
+  projects.lead: Amalayisense amaphrojekthi aziwayo nendaba engemuva kwenguquko ngayinye.
+  projects.filter.domain: Umkhakha
+  projects.filter.family: Umndeni welayisense
+  projects.filter.owner: Umnikazi
+  projects.filter.changed: Yashintsha ilayisense
+  projects.count: Amaphrojekthi angu-{count}
+  projects.empty: Ayikho iphrojekthi ehambisana nalezi zihlungi.
+  owner.company: Inkampani
+  owner.foundation: Isisekelo
+  owner.individual: Umuntu ngamunye
+  owner.community: Umphakathi
+  project.current: Ilayisense yamanje
+  project.timeline: Umlando welayisense
+  project.reason: Isizathu
+  project.announcement: Isimemezelo
+  project.forks: Ama-fork alandela
+  project.fork-of: I-fork ye-{name}
+  project.repo: Inqolobane (repository)
+  project.similar: Amaphrojekthi afanayo
+  project.review: Lokhu kufakiwe kutholwe yi-bot yokuvumelanisa futhi kulinde
+    ukubuyekezwa ngumuntu.
+  project.initial: Ilayisense yokuqala
+  domain.database: Isizindalwazi
+  domain.frontend: Uhlaka lwe-frontend
+  domain.devops: DevOps
+  domain.ai-model: Imodeli ye-AI
+  domain.language: Ulimi nesikhathi sokusebenza
+  domain.os: Uhlelo lokusebenza lwekhompyutha
+  domain.web: Iseva yewebhu ne-backend
+  domain.tooling: Amathuluzi onjiniyela
+  domain.data: Idatha nokuhlaziya
+  domain.observability: Ukuqapha amasistimu
+  domain.messaging: Imilayezo nokusakaza
+  domain.cms: I-CMS nezinhlelo zokusebenza
+  trends.title: Imikhuba yamalayisense e-open source
+  trends.lead: Kuhlanganiswe kusukela emephini yamaphrojekthi ngesikhathi sokwakha isayithi.
+  trends.family-share: Imindeni yamalayisense ngomkhakha
+  trends.changes: Izinguquko zamalayisense ngonyaka
+  trends.to-source-available: Amaphrojekthi asuka ku-open source aya ku-source-available
+  search.lead: Sesha amalayisense, izimo namaphrojekthi ngalolu limi.
+  search.noscript: Ukusesha kudinga i-JavaScript.
+  check.title: Ukuhlola amalayisense okuncikile
+  check.lead: Namathisela i-package.json, go.mod, Gemfile.lock, Cargo.toml noma
+    requirements.txt. Ukuhlaziya kwenzeka esipheqululini sakho.
+  check.project-license: Ilayisense yephrojekthi yakho
+  check.input: Ifayela le-manifest
+  check.run: Hlola
+  check.lookup: Bheka amalayisense angaziwa ku-inthanethi (deps.dev)
+  check.col.package: Iphakheji
+  check.col.license: Ilayisense
+  check.col.status: Isimo
+  check.status.compatible: Iyahambisana
+  check.status.conditional: Ngemibandela
+  check.status.incompatible: Ukungqubuzana
+  check.status.unknown: Akwaziwa
+  check.summary: "{ok} ziyahambisana, {warn} ngemibandela, {bad} ukungqubuzana,
+    {unknown} azaziwa"
+  check.format: "Ifomethi etholakele: {format}"
+  check.no-deps: Akukho okuncikile okutholakele.
+  check.license-hint: Engeza ilayisense ku-manifest njengemigqa ethi "name@version
+    LICENSE-ID", noma uvule ukubheka ku-inthanethi.
+  notfound.title: Ikhasi alitholakalanga
+  notfound.body: Leli khasi alikho. Zama umtapo wamalayisense.
+  domain.education: Imfundo
+  domain.design: Amafonti nokuklama

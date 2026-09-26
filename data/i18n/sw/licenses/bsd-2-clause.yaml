@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 261d8b56fb436858
+summary: "Kama MIT: tumia msimbo kwa uhuru; hifadhi tangazo la hakimiliki na
+  kanusho katika nakala za msimbo chanzo na binary."
+analogy: "Kadi ya mapishi ya bure: inakili popote, hifadhi tu mstari wa jina la
+  mwandishi chini."
+pros:
+  - Fupi sana na ya ruhusa pana
+  - Inatumika sana katika mifumo ya BSD
+cons:
+  - Hakuna ruhusa ya hataza
+  - Fork zilizofungwa zinaruhusiwa

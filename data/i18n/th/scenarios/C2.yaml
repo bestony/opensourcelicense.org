@@ -1,0 +1,8 @@
+reviewed: false
+sourceHash: 3a5f4b9bf27dddea
+actor: other
+title: โค้ดของคุณถูกรวมเข้าในโปรเจกต์ GPL-3.0
+cells:
+  apache-2.0: แต่เข้ากันไม่ได้กับ GPL-2.0
+  mpl-2.0: เว้นแต่ระบุว่าเข้ากันไม่ได้
+  agpl-3.0: ส่วนที่เป็น AGPL ยังคงเป็น AGPL

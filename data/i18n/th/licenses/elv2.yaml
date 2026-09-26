@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 1b47253adc7fb00d
+summary: "Source-available: ใช้และแก้ไขได้ฟรี แต่ห้ามให้บริการแบบ managed
+  service หรือเลี่ยง license key"
+analogy: ทำอาหารที่บ้านหรือในร้านของคุณได้ แต่ห้ามเปิดร้านที่ขายเมนูนี้โดยตรง
+pros:
+  - สั้นและชัดเจน
+  - มุ่งเป้าเฉพาะคู่แข่งที่ให้บริการแบบ managed service
+cons:
+  - ไม่ใช่โอเพนซอร์ส
+  - จำกัดการ fork และพันธมิตรบางราย

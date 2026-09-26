@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 3d7476dd1bfc7f5b
+summary: Leseni ya ruhusa pana; tangazo linahitajika katika nakala za msimbo
+  chanzo lakini si katika binary zilizokusanywa.
+analogy: Hifadhi jina la mwandishi kwenye kitabu cha mapishi, si kwenye kila
+  sahani unayoandaa.
+pros:
+  - Hakuna tangazo linalohitajika kwenye binary
+  - Kiwango cha kawaida kwa maktaba za C++
+cons:
+  - Hakuna ruhusa ya hataza
+  - Haijulikani sana nje ya C++

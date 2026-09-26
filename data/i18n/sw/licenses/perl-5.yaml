@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 4f54478806088c0d
+summary: "Leseni mbili ya Perl: wapokeaji huchagua Artistic License 1.0 au GPL
+  (toleo 1 au la baadaye)."
+analogy: Chagua kitabu kimojawapo kati ya viwili vya kanuni kinachokufaa.
+pros:
+  - Chaguo kati ya masharti ya karibu ruhusa pana na copyleft
+  - Kiwango cha kawaida kwa moduli za CPAN
+cons:
+  - Artistic 1.0 haiko wazi
+  - Hakuna ruhusa ya hataza

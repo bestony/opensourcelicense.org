@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 3ab9492f75e7adb0
+summary: "I-copyleft eyomeleleyo: ukuba usasaza isoftwe okanye imisebenzi evela
+  kuyo, kufuneka ukhuphe ikhowudi yomthombo epheleleyo phantsi kwe-GPL-3.0."
+analogy: "Iresiphi ethi: nabani na ophakela isitya esisekelwe kuyo kufuneka
+  anike neresiphi epheleleyo."
+pros:
+  - Igcina yonke imisebenzi evela kuyo esasaziweyo ivulelekile
+  - Imvume ye-patent nokulwa ne-tivoization
+  - Isithethe soluntu esomeleleyo
+cons:
+  - Iinkampani ezininzi ziyayiphepha
+  - Ayigubunguli i-SaaS (akukho kusasaza)
+  - Ayihambelani ne-GPL-2.0-only

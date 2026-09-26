@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: f6ef6656ac79990f
+summary: "Ilayisensi ekhululekileyo yeephakheji ze-LaTeX: iifayile
+  ezilungisiweyo kufuneka zithiywe ngokutsha okanye ziphawulwe ngokucacileyo
+  ukuze amaxwebhu asebenze ngendlela efanayo kuyo yonke indawo."
+analogy: Ungalitshintsha uhlobo loonobumba, kodwa nika inguqulelo yakho igama elitsha.
+pros:
+  - Igcina amaxwebhu enokuveliswa kwakhona ngokufanayo
+  - Ngumgangatho oqhelekileyo kulo lonke i-CTAN
+cons:
+  - Umthetho wokuthiya ngokutsha awuqhelekanga
+  - Ayihambelani ne-GPL

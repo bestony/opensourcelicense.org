@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: c77fe673047b3249
+actor: other
+title: การกลั่นโมเดล (distillation) หรือการฝึกโมเดลอื่นจากผลลัพธ์ของมัน
+cells:
+  llama: ชื่อต้องมีคำว่า "Llama"
+  openrail-m: งานดัดแปลงรับข้อจำกัดต่อไปด้วย
+  cc-by-4.0: ระบุที่มา
+  cc-by-nc-4.0: ไม่ใช่เชิงพาณิชย์เท่านั้น
+  odc-by-1.0: ระบุที่มา
+  odbl-1.0: ระบุที่มา

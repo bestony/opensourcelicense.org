@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 3ab9492f75e7adb0
+summary: "Copyleft thabiti: ukisambaza programu au kazi zinazotokana, lazima
+  utoe msimbo chanzo kamili chini ya GPL-3.0."
+analogy: "Mapishi yanayosema: yeyote anayeandaa mlo unaotokana na haya lazima
+  atoe mapishi kamili pia."
+pros:
+  - Inaweka kazi zote zinazotokana zinazosambazwa wazi
+  - Ruhusa ya hataza na kupinga tivoization
+  - Utamaduni imara wa jamii
+cons:
+  - Makampuni mengi yanaiepuka
+  - Haihusu SaaS (hakuna usambazaji)
+  - Haioani na GPL-2.0-only

@@ -1,0 +1,363 @@
+reviewed: false
+sourceHash: a2d7eb045dde7649
+strings:
+  site.name: opensourcelicense.org
+  site.tagline: Zana ya kuchagua leseni za chanzo huria (open source)
+  site.description: Chagua, linganisha na ujaribu leseni za chanzo huria (open
+    source). Ona miradi halisi inatumia leseni gani, nini kinaweza kwenda
+    vibaya, na ipi inafaa mradi wako.
+  nav.home: Mwanzo
+  nav.licenses: Leseni
+  nav.scenarios: Hali
+  nav.projects: Miradi
+  nav.trends: Mienendo
+  nav.compare: Linganisha
+  nav.wizard: Mwongozo
+  nav.chat: Mshauri wa AI
+  nav.check: Ukaguzi wa tegemezi
+  nav.menu: Menyu
+  lang.switch: Lugha
+  lang.suggest: Ukurasa huu unapatikana kwa {language}.
+  lang.suggest.go: Badilisha
+  lang.suggest.dismiss: Funga
+  footer.disclaimer: Tovuti hii inatoa taarifa za jumla, si ushauri wa kisheria.
+    Kwa mgogoro au mkataba halisi, zungumza na wakili.
+  footer.source: Msimbo chanzo (AGPL-3.0)
+  footer.data: Data chini ya CC-BY-4.0
+  footer.report: Ripoti kosa
+  footer.cite: Data kutoka opensourcelicense.org, CC-BY-4.0
+  footer.hosting: Inaendeshwa kwenye mpango wa bure wa Cloudflare Workers
+  footer.dns: Kikoa kimehifadhiwa kwenye Cloudflare
+  badge.machine: Tafsiri ya mashine
+  badge.reviewed: Tafsiri iliyokaguliwa
+  badge.fallback: Bado haijatafsiriwa — inaonyeshwa kwa Kiingereza
+  badge.stale: huenda imepitwa na wakati
+  badge.unreviewed-data: Rasimu — bado haijakaguliwa na wakili
+  common.updated: Data ilisasishwa {date}
+  common.back: Rudi
+  common.copy: Nakili
+  common.copied: Imenakiliwa
+  common.download: Pakua
+  common.close: Funga
+  common.all: Zote
+  common.yes: Ndiyo
+  common.no: Hapana
+  common.unknown: Haijulikani
+  common.none: Hakuna
+  common.more: Zaidi
+  common.loading: Inapakia…
+  common.error: Hitilafu imetokea.
+  common.search: Tafuta
+  home.title: Chagua leseni ya chanzo huria ukiwa na uelewa kamili
+  home.lead: Si tu "leseni gani", bali pia miradi inayofanana ilichagua nini, hali
+    mbaya zaidi inaonekanaje, na hatua inayofuata.
+  home.entry.chat.title: Ongea na mshauri wa AI
+  home.entry.chat.body: Eleza mradi wako kwa maneno yako mwenyewe. Pata wasifu,
+    maswali ya ufuatiliaji na ripoti.
+  home.entry.projects.title: Ona wengine wanatumia nini
+  home.entry.projects.body: Leseni za miradi maarufu, na kwa nini baadhi yake zilibadilika.
+  home.entry.wizard.title: Chuja hatua kwa hatua
+  home.entry.wizard.body: Jibu maswali machache upate orodha fupi iliyopangwa kwa
+    ubora na yenye maelezo.
+  home.wall: Leseni za miradi maarufu
+  home.changes: Mabadiliko ya leseni ya hivi karibuni
+  home.scenarios: Nini kinaweza kwenda vibaya?
+  home.scenarios.body: Hali 27 kali × safu 17 za leseni, ukurasa mmoja kwa kila kisanduku.
+  family.permissive: Ruhusa pana (Permissive)
+  family.weak-copyleft: Copyleft dhaifu
+  family.strong-copyleft: Copyleft thabiti
+  family.network-copyleft: Copyleft ya mtandao
+  family.source-available: Msimbo unaoonekana (Source-available)
+  family.model: Leseni ya modeli
+  family.content: Maudhui / data
+  verdict.allow: Inaruhusiwa
+  verdict.conditional: Kwa masharti
+  verdict.deny: Imezuiwa na leseni
+  verdict.silent: Haijashughulikiwa
+  verdict.tbd: Inakaguliwa
+  verdict.legend: "Ufunguo: ✓ upande mwingine unaweza kufanya hivi · ◐ kwa
+    masharti · ✗ leseni inazuia · — leseni iko kimya (sheria ya jumla
+    inatumika)"
+  actor.other: Mtu mwingine anafanya hivi
+  actor.you: Wewe unataka kufanya hivi
+  actor.contributor: Mchangiaji anafanya hivi
+  actor.both: Inahusu pande zote mbili
+  group.A: Ushindani wa kibiashara
+  group.B: Hataza na sheria
+  group.C: Mabadiliko na biashara
+  group.D: Matumizi na utiifu
+  group.E: Modeli za AI na data
+  matrix.code: Leseni za msimbo
+  matrix.model: Leseni za modeli na data
+  term.commercial-use: Matumizi ya kibiashara
+  term.modification: Kubadilisha
+  term.distribution: Usambazaji
+  term.private-use: Matumizi binafsi
+  term.patent-use: Ruhusa ya hataza
+  term.non-production-use: Matumizi yasiyo ya uzalishaji
+  term.converts-to-open-source: Inageuka kuwa chanzo huria baadaye
+  term.include-copyright: Hifadhi tangazo la hakimiliki
+  term.include-license: Jumuisha leseni
+  term.document-changes: Weka alama kwenye mabadiliko
+  term.disclose-source: Fichua msimbo chanzo
+  term.same-license: Leseni ileile kwa kazi zinazotokana
+  term.same-license-file: Leseni ileile (kiwango cha faili)
+  term.same-license-library: Leseni ileile (kiwango cha maktaba)
+  term.allow-relinking: Ruhusu kuunganisha upya
+  term.network-use-disclose: Matumizi kupitia mtandao ni usambazaji
+  term.service-stack-disclose: Toa mfumo mzima wa huduma
+  term.keep-limitations: Hifadhi vikwazo
+  term.attribution: Kutaja chanzo
+  term.attribution-built-with: Onyesha "Built with"
+  term.name-prefix: Kanuni ya kiambishi cha jina
+  term.acceptable-use-policy: Sera ya matumizi yanayokubalika
+  term.use-restrictions-pass-through: Pitisha vikwazo vya matumizi
+  term.indicate-changes: Onyesha mabadiliko
+  term.liability: Hakuna dhima
+  term.warranty: Hakuna dhamana
+  term.trademark-use: Hakuna haki za alama ya biashara
+  term.no-endorsement: Hakuna uidhinishaji
+  term.production-use-restricted: Matumizi ya uzalishaji yamezuiwa
+  term.no-managed-service: Hakuna huduma inayosimamiwa
+  term.no-license-key-circumvention: Hakuna kukwepa ufunguo wa leseni
+  term.mau-threshold: Kiwango cha watumiaji
+  term.use-restrictions: Vikwazo vya matumizi
+  term.non-commercial: Yasiyo ya kibiashara pekee
+  licenses.title: Maktaba ya leseni za chanzo huria
+  licenses.lead: Leseni {count}, kuanzia za ruhusa pana hadi source-available na
+    leseni za modeli.
+  licenses.col.license: Leseni
+  licenses.col.family: Familia
+  licenses.col.osi: OSI
+  licenses.col.fsf: Huru kwa FSF
+  licenses.col.projects: Miradi
+  licenses.filter: Chuja kwa familia
+  license.permissions: Ruhusa
+  license.conditions: Masharti
+  license.limitations: Vikwazo
+  license.summary: Kwa maneno rahisi
+  license.analogy: Mfano
+  license.pros: Faida
+  license.cons: Hasara
+  license.scenarios: Hali kali
+  license.radar: Rada ya hali mbaya zaidi
+  license.projects: Miradi maarufu inayoitumia
+  license.projects.count: Miradi maarufu {count} katika ramani yetu inatumia leseni hii.
+  license.projects.none: Bado hakuna mradi katika ramani yetu unaotumia leseni hii.
+  license.projects.since: Ilihamia leseni hii tarehe {date}
+  license.projects.also: "Inatolewa pia chini ya: {licenses}"
+  license.projects.former: Miradi iliyoiacha leseni hii
+  license.text: Maandishi rasmi
+  license.text.official: Maandishi rasmi kwa {language}
+  license.text.note: Maandishi rasmi pekee ndiyo yanayofunga kisheria. Hatutafsiri
+    maandishi ya leseni.
+  license.compare: Linganisha na…
+  license.spdx: Kitambulisho cha SPDX
+  radar.anti-freeride: Inazuia kunufaika bila kuchangia
+  radar.anti-closed-fork: Inazuia fork zilizofungwa
+  radar.patent: Ulinzi wa hataza
+  radar.adoption-friction: Vikwazo vya kupitishwa
+  radar.relicense-difficulty: Ugumu wa kubadilisha leseni
+  radar.misuse-control: Udhibiti wa matumizi mabaya
+  radar.derivative-control: Udhibiti wa kazi zinazotokana
+  radar.commercial-control: Udhibiti wa kibiashara
+  radar.note: Imekokotolewa kutoka jedwali la hali. Thamani kubwa inamaanisha sifa
+    hiyo zaidi, si "bora zaidi".
+  scenarios.title: Jedwali la hali kali za leseni
+  scenarios.lead: Nini hutokea baada ya kuchagua leseni? Kila kisanduku kinajibu
+    swali moja na kina ukurasa wake.
+  scenarios.highlight: Angazia leseni
+  scenarios.expand: Panua zote
+  scenarios.collapse: Kunja zote
+  scenarios.silent-note: Safu zenye "—" pekee ziko hapa kwa makusudi. Jibu
+    linategemea mikataba ya ajira (C6), sheria za udhibiti wa mauzo nje (D5) au
+    kesi zinazoendelea (D6), si leseni.
+  scenario.flow.you: Unachapisha chini ya {license}
+  scenario.flow.they: Hali
+  scenario.flow.result: Matokeo
+  scenario.clause: Kifungu husika
+  scenario.case: Kisa halisi
+  scenario.others: Hali ileile, leseni nyingine
+  scenario.other-scenarios: Hali nyingine za {license}
+  scenario.no-clause: Hakuna kifungu mahususi. Sheria ya jumla inatumika.
+  scenario.review: Hali ya ukaguzi
+  scenario.review.none: Bado haijakaguliwa na wakili.
+  scenario.review.done: Imekaguliwa na {who} tarehe {date}.
+  compare.title: Linganisha leseni za chanzo huria
+  compare.lead: Chagua leseni mbili au tatu uzilinganishe kifungu kwa kifungu na
+    hali kwa hali.
+  compare.pick: Ongeza leseni
+  compare.remove: Ondoa
+  compare.terms: Masharti
+  compare.scenarios: Hali
+  compare.empty: Chagua angalau leseni mbili.
+  wizard.title: Mwongozo wa kuchagua leseni
+  wizard.lead: Jibu maswali machache. Injini ya kanuni inapanga leseni na kueleza
+    kila alama.
+  wizard.next: Endelea
+  wizard.prev: Rudi
+  wizard.finish: Ona matokeo
+  wizard.restart: Anza upya
+  wizard.skip: Ruka
+  wizard.step: Hatua {n} kati ya {total}
+  wizard.to-chat: Endelea na mshauri wa AI
+  q.artifact_type: Unatoa nini?
+  q.openness_level: Unataka iwe wazi kwa kiasi gani?
+  q.avoid: Ni matokeo gani unataka kuepuka?
+  q.avoid.hint: Chagua idadi yoyote.
+  q.adoption_goal: Nini ni muhimu zaidi?
+  q.dependencies: Je, unategemea msimbo wa copyleft?
+  q.dependencies.hint: Ongeza vitambulisho vya SPDX vya leseni za tegemezi, kwa mfano GPL-3.0-only.
+  q.commercial_plan: Utapataje pesa, kama utapata?
+  q.jurisdiction: Uko wapi?
+  opt.artifact_type.library: Maktaba au SDK
+  opt.artifact_type.application: Programu au zana
+  opt.artifact_type.saas: Backend ya huduma (SaaS)
+  opt.artifact_type.model: Uzito wa modeli (weights)
+  opt.artifact_type.dataset: Seti ya data
+  opt.artifact_type.docs: Nyaraka au maudhui
+  opt.openness_level.open: Wazi kabisa — mtu yeyote anaweza kufanya lolote
+  opt.openness_level.reciprocal: Wazi, lakini maboresho lazima yarudishwe
+  opt.openness_level.source-available: Msimbo unaonekana, matumizi ya kibiashara yana kikomo
+  opt.avoid.cloud-hosting: Watoa huduma za wingu kuiuza kama huduma
+  opt.avoid.closed-fork: Fork za msimbo uliofungwa
+  opt.avoid.patent-litigation: Kesi za hataza
+  opt.avoid.trademark-abuse: Matumizi mabaya ya jina au chapa yangu
+  opt.avoid.harmful-use: Matumizi yenye madhara
+  opt.avoid.big-company: Makampuni makubwa kuitumia bure
+  opt.adoption_goal.enterprise: Kupitishwa zaidi na makampuni
+  opt.adoption_goal.community: Michango ya jamii
+  opt.adoption_goal.monetize: Kupata pesa kutokana nayo
+  opt.commercial_plan.none: Hakuna mpango
+  opt.commercial_plan.dual-license: Leseni mbili (dual licensing)
+  opt.commercial_plan.open-core: Open core
+  opt.commercial_plan.hosted: Huduma inayopangishwa
+  opt.jurisdiction.cn: China
+  opt.jurisdiction.eu: Umoja wa Ulaya
+  opt.jurisdiction.us: Marekani
+  opt.jurisdiction.other: Nyingine
+  engine.part.avoid: "Ulinzi dhidi ya: {avoid}"
+  engine.part.openness: "Ulinganifu wa uwazi: {openness}"
+  engine.part.adoption: "Lengo: {goal}"
+  engine.part.commercial: "Mpango wa biashara: {plan}"
+  engine.part.jurisdiction: "Mamlaka ya kisheria: {jurisdiction}"
+  engine.part.dependency: "Inaoana kwa masharti tu: {dependency}"
+  engine.excluded.dependency: Haioani na tegemezi {dependency}
+  engine.excluded.artifact: Haifai kwa aina hii ya kazi
+  advisory.needs-cla: Tumia Mkataba wa Leseni ya Mchangiaji (CLA). Utauhitaji
+    kuuza leseni za kibiashara au kubadilisha leseni baadaye.
+  advisory.consider-dco: Developer Certificate of Origin (DCO, "Signed-off-by") kwa kawaida inatosha.
+  advisory.busl-change-date: Weka Additional Use Grant, Change Date na Change
+    License kwenye kichwa cha BSL.
+  advisory.model-card: Weka leseni kwenye metadata ya kadi ya modeli au ya seti ya
+    data (sehemu ya "license:").
+  advisory.notice-file: Ongeza faili la NOTICE na ulihifadhi unaposambaza upya.
+  advisory.consult-lawyer: Mwombe wakili akague tegemezi na masharti ya biashara kabla ya kutoa.
+  advisory.network-source-link: Onyesha kiungo cha "Msimbo chanzo" kwa watumiaji wa huduma yako ya mtandao.
+  report.title: Ripoti yako ya leseni
+  report.lead: Ripoti hii inakokotolewa kwenye kivinjari chako kutoka kwa wasifu
+    ulio kwenye kiungo. Shiriki kiungo ili kushiriki ripoti.
+  report.profile: Wasifu wa mradi
+  report.edit: Hariri kwenye mwongozo
+  report.top: Inapendekezwa
+  report.score: Alama {score}
+  report.why: Kwa nini
+  report.excluded: Zimeondolewa
+  report.advisories: Hatua zinazofuata
+  report.license-file: Faili la LICENSE
+  report.header: Kichwa cha faili
+  report.badge: Beji ya README
+  report.share: Kiungo cha kushiriki
+  report.share.copy: Nakili kiungo
+  report.similar: Miradi inayofanana
+  report.no-text: Hakuna maandishi yanayosomeka na mashine. Yapate kwenye ukurasa rasmi.
+  report.invalid: Kiungo hiki cha ripoti kimeharibika au ni cha toleo la zamani.
+  report.empty: Bado hakuna wasifu. Anza na mwongozo au mshauri wa AI.
+  chat.title: Mshauri wa leseni wa AI
+  chat.lead: Eleza mradi wako. Mshauri anauliza maswali ya ufuatiliaji, injini ya
+    kanuni inachagua leseni, na mshauri anazieleza.
+  chat.placeholder: "Kwa mfano: Nimetengeneza hifadhidata ya vekta na nina
+    wasiwasi watoa huduma za wingu wataiuza upya."
+  chat.send: Tuma
+  chat.stop: Simamisha
+  chat.examples: Jaribu mfano
+  chat.example.1: Nimetengeneza hifadhidata ya vekta na nina wasiwasi watoa huduma
+    za wingu wataiuza upya.
+  chat.example.2: Maktaba ndogo ya vipengele vya React. Nataka makampuni yaitumie.
+  chat.example.3: Tumeboresha (fine-tune) modeli ya 7B na tunataka kuzuia matumizi
+    yenye madhara.
+  chat.profile: Wasifu wa mradi
+  chat.profile.hint: Bofya thamani ili kuibadilisha.
+  chat.candidates: Chaguo zinazowezekana
+  chat.run: Pata pendekezo
+  chat.limit: Umefikia kikomo cha leo. Tafadhali jaribu tena kesho au tumia mwongozo.
+  chat.error: Mshauri hapatikani kwa sasa. Mwongozo bado unafanya kazi.
+  chat.verify: Tafadhali thibitisha kuwa wewe ni binadamu.
+  chat.disclaimer: Mshauri anaweza kukosea. Mapendekezo yanatoka kwa injini ya
+    kanuni, na huu si ushauri wa kisheria.
+  chat.report: Fungua ripoti kamili
+  projects.title: Ramani ya leseni za miradi
+  projects.lead: Leseni za miradi maarufu na simulizi nyuma ya kila badiliko.
+  projects.filter.domain: Nyanja
+  projects.filter.family: Familia ya leseni
+  projects.filter.owner: Mmiliki
+  projects.filter.changed: Ilibadilisha leseni
+  projects.count: Miradi {count}
+  projects.empty: Hakuna mradi unaolingana na vichujio hivi.
+  owner.company: Kampuni
+  owner.foundation: Taasisi
+  owner.individual: Mtu binafsi
+  owner.community: Jamii
+  project.current: Leseni ya sasa
+  project.timeline: Historia ya leseni
+  project.reason: Sababu
+  project.announcement: Tangazo
+  project.forks: Fork zilizofuata
+  project.fork-of: Fork ya {name}
+  project.repo: Hazina (repository)
+  project.similar: Miradi inayofanana
+  project.review: Kipengee hiki kilipatikana na roboti ya kusawazisha na
+    kinasubiri ukaguzi wa binadamu.
+  project.initial: Leseni ya awali
+  domain.database: Hifadhidata
+  domain.frontend: Mfumo wa frontend
+  domain.devops: DevOps
+  domain.ai-model: Modeli ya AI
+  domain.language: Lugha na mazingira ya uendeshaji
+  domain.os: Mfumo wa uendeshaji
+  domain.web: Seva ya wavuti na backend
+  domain.tooling: Zana za wasanidi
+  domain.data: Data na uchanganuzi
+  domain.observability: Ufuatiliaji wa mifumo
+  domain.messaging: Ujumbe na utiririshaji
+  domain.cms: CMS na programu
+  trends.title: Mienendo ya leseni za chanzo huria
+  trends.lead: Imejumlishwa kutoka ramani ya miradi wakati wa kujenga tovuti.
+  trends.family-share: Familia za leseni kwa nyanja
+  trends.changes: Mabadiliko ya leseni kwa mwaka
+  trends.to-source-available: Miradi iliyohama kutoka chanzo huria kwenda source-available
+  search.lead: Tafuta leseni, hali na miradi kwa lugha hii.
+  search.noscript: Utafutaji unahitaji JavaScript.
+  check.title: Ukaguzi wa leseni za tegemezi
+  check.lead: Bandika package.json, go.mod, Gemfile.lock, Cargo.toml au
+    requirements.txt. Uchanganuzi unafanyika kwenye kivinjari chako.
+  check.project-license: Leseni ya mradi wako
+  check.input: Faili la manifest
+  check.run: Kagua
+  check.lookup: Tafuta leseni zisizojulikana mtandaoni (deps.dev)
+  check.col.package: Kifurushi
+  check.col.license: Leseni
+  check.col.status: Hali
+  check.status.compatible: Inaoana
+  check.status.conditional: Kwa masharti
+  check.status.incompatible: Mgongano
+  check.status.unknown: Haijulikani
+  check.summary: "{ok} zinaoana, {warn} kwa masharti, {bad} migongano, {unknown} hazijulikani"
+  check.format: "Muundo uliotambuliwa: {format}"
+  check.no-deps: Hakuna tegemezi zilizopatikana.
+  check.license-hint: Ongeza leseni kwenye manifest kama mistari ya "name@version
+    LICENSE-ID", au washa utafutaji mtandaoni.
+  notfound.title: Ukurasa haukupatikana
+  notfound.body: Ukurasa huu haupo. Jaribu maktaba ya leseni.
+  domain.education: Elimu
+  domain.design: Fonti na usanifu

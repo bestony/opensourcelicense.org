@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 362187e701e25e6a
+summary: I-copyleft yenqanaba lefayile evela kwi-MPL, enemvume ye-patent;
+  ayihambelani ne-GPL.
+analogy: Yabelana ngotshintsho kwifayile oyibolekileyo; okunye ungakuvala ukuba uthanda.
+pros:
+  - Umda wenqanaba lefayile
+  - Imvume ye-patent
+cons:
+  - Ayihambelani ne-GPL (ingxaki ye-ZFS kwi-Linux)
+  - Zimbalwa iiprojekthi ezintsha eziyamkelayo

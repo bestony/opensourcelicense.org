@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 50ad39245dfcc7f1
+summary: "ไลเซนส์ source-available ของ Redis: ใช้และแก้ไขได้ฟรี
+  แต่ห้ามนำซอฟต์แวร์ไปให้บริการแบบ managed service หรือเลี่ยง license key"
+analogy: ทำอาหารได้ทุกที่ แต่ห้ามเปิดร้านที่ขายเมนูนี้
+pros:
+  - มุ่งเป้าเฉพาะคู่แข่งที่ให้บริการแบบ managed service
+  - สั้น
+cons:
+  - ไม่ใช่โอเพนซอร์ส
+  - เป็นชนวนให้เกิด fork ชื่อ Valkey

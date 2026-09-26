@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 8efe233d77d28069
+summary: Ilayisense yemodeli evela ku-TII esekelwe ku-Apache-2.0 enenqubomgomo
+  yokusetshenziswa okwamukelekayo; ukusetshenziswa kwezohwebo kuvunyelwe
+  ngaphandle kwemali yelungelo.
+analogy: Ibhokisi lamathuluzi le-Apache elinohlu olufushane lokusetshenziswa
+  okwenqatshelwe.
+pros:
+  - Ukusetshenziswa kwezohwebo ngaphandle kwemali yelungelo
+  - Isekelwe ku-Apache-2.0
+cons:
+  - Akuyona i-open source ngokwe-OSI
+  - Inqubomgomo yokusetshenziswa ingabuyekezwa

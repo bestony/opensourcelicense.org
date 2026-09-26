@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 362187e701e25e6a
+summary: Copyleft ya kiwango cha faili inayotokana na MPL, yenye ruhusa ya
+  hataza; haioani na GPL.
+analogy: Shiriki mabadiliko ya faili uliloazima; sehemu nyingine unaweza
+  kuzifunga ukipenda.
+pros:
+  - Wigo wa kiwango cha faili
+  - Ruhusa ya hataza
+cons:
+  - Haioani na GPL (tatizo la ZFS kwenye Linux)
+  - Miradi mipya michache inaitumia

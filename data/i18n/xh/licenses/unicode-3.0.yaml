@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 72d99432db49e19d
+summary: Ilayisensi evumela kakhulu yedatha nesoftwe ye-Unicode efana ne-ICU
+  ne-CLDR; gcina isaziso kwaye ungalisebenzisi igama lomnini we-copyright
+  ukuthengisa.
+analogy: "Incwadi yesalathiso yasimahla: yikope, gcina umgca wokukhankanya."
+pros:
+  - Ivumela kakhulu
+  - Igubungela iifayile zedatha nekhowudi
+cons:
+  - Akukho mvume ye-patent
+  - Isetyenziswa ikakhulu kwiiprojekthi ze-Unicode

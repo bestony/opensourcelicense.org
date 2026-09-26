@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: cf07449a9c3b7eaf
+actor: other
+title: Imeboreshwa (fine-tune), kubadilishwa jina na kutolewa kama uzito uliofungwa
+cells:
+  llama: Lazima ijumuishe leseni na ionyeshe "Built with Llama"
+  openrail-m: Lazima ipitishe vikwazo vya matumizi
+  cc-by-4.0: Kutaja chanzo
+  cc-by-nc-4.0: Yasiyo ya kibiashara pekee
+  odc-by-1.0: Kutaja chanzo
+  odbl-1.0: Hifadhidata zinazotokana zinabaki ODbL
