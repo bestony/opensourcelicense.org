@@ -38,8 +38,9 @@ Key rules:
 | Command | Action |
 | --- | --- |
 | `pnpm dev` / `astro dev --background` | Dev server at `localhost:4321` (no `/api`) |
-| `pnpm build` | Build the site to `dist/` and the Pagefind search index |
-| `pnpm cf:preview` | Build and run the Worker locally with `wrangler dev` (uses the remote Workers AI binding) |
+| `pnpm build` | Build the site to `dist/`, move the offloaded pages to `dist-r2/`, build the Pagefind search index |
+| `pnpm offload:upload [--local] [--dry-run]` | Sync `dist-r2/` to the R2 bucket (only new or changed pages are uploaded) |
+| `pnpm cf:preview` | Build, upload the offloaded pages to local R2, and run the Worker with `wrangler dev` (uses the remote Workers AI binding) |
 | `pnpm validate [--strict]` | Data integrity check (`--strict` fails on `tbd` cells: release gate) |
 | `pnpm check` | `astro check` and the Worker type check |
 | `pnpm test` | Unit tests and the engine eval set |
@@ -50,7 +51,9 @@ Key rules:
 
 ## Deployment (Cloudflare Workers)
 
-`wrangler.jsonc` serves `dist/` as static assets and runs the Worker only for `/api/*`.
+`wrangler.jsonc` serves `dist/` as static assets and runs the Worker for `/api/*` and for requests that miss the assets.
+
+- Offloaded pages: project pages and scenario × license cell pages of every language except English (about 50,000 pages) are served from the R2 bucket `opensourcelicense-pages` (binding `PAGES`), with the edge cache in front. Create the bucket once with `wrangler r2 bucket create opensourcelicense-pages`. The deploy uploads them before `wrangler deploy` (`pnpm offload:upload`, needs R2 edit permission on `CLOUDFLARE_API_TOKEN`). The rules are in `src/domain/offload.ts`.
 
 - Workers AI binding `AI`; model from `ADVISOR_MODEL` (default `@cf/meta/llama-3.1-8b-instruct-fp8-fast`).
 - Bot protection: Turnstile. Secrets `TURNSTILE_SECRET` (widget secret) and `SESSION_SECRET` (random; also signs session tokens) via `wrangler secret put`. Build variable `PUBLIC_TURNSTILE_SITE_KEY` (a GitHub repository variable, injected by CI); the widget stays disabled while it is unset. `TURNSTILE_HOSTNAMES` allowlists the hostnames that may solve the widget and fails closed; siteverify also requires the `chat` action. Without the two secrets, bot protection is off (logged as a warning).
@@ -70,4 +73,6 @@ Code: AGPL-3.0-or-later (`LICENSE`). Data in `data/`: CC-BY-4.0 (`data/LICENSE`)
 
 ## Limits to watch
 
-- The static build has about 18,000 files. The Cloudflare Workers free plan allows 20,000 static assets per deployment (paid plans allow more). Adding many more licenses or languages needs a paid plan or fewer generated pages (for example, dropping per-language scenario-cell pages).
+- Static assets: the Cloudflare Workers free plan allows 20,000 per deployment. With 42 languages, `dist/` has about 10,500 files; the rest (about 50,000 pages, 2.4 GB) is in R2. Check `find dist -type f | wc -l` after adding licenses, projects or languages; move more routes to R2 in `src/domain/offload.ts` if needed.
+- R2 free tier: 10 GB storage, 1 million writes and 10 million reads per month. The upload sends only changed pages, but a change to shared markup (CSS, header, UI strings) changes every page, which is about 50,000 writes. That allows about 20 such deploys per month.
+- Worker free plan: 100,000 requests per day. Each view of an offloaded page is one Worker request (static assets are free).
