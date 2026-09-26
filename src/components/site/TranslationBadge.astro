@@ -6,9 +6,11 @@ interface Props {
   fallback: boolean;
   reviewed: boolean;
   isDefault: boolean;
+  stale?: boolean;
 }
-const { t, fallback, reviewed, isDefault } = Astro.props;
-const label = fallback ? t("badge.fallback") : isDefault ? null : reviewed ? t("badge.reviewed") : t("badge.machine");
+const { t, fallback, reviewed, isDefault, stale = false } = Astro.props;
+const base = fallback ? t("badge.fallback") : isDefault ? null : reviewed ? t("badge.reviewed") : t("badge.machine");
+const label = base && stale ? `${base} · ${t("badge.stale")}` : base;
 ---
 
-{label && <span class:list={["inline-block border px-1 text-sm", reviewed && !fallback ? "border-border text-muted-foreground" : "border-verdict-conditional text-verdict-conditional"]}>{label}</span>}
+{label && <span class:list={["inline-block border px-1 text-sm", reviewed && !fallback && !stale ? "border-border text-muted-foreground" : "border-verdict-conditional text-verdict-conditional"]}>{label}</span>}

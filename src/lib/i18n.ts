@@ -38,13 +38,15 @@ export interface Localized<T> {
   from: Locale;
   fallback: boolean;
   reviewed: boolean;
+  /** translation made from an older English source */
+  stale: boolean;
 }
 
-function pick<T extends { reviewed: boolean }>(table: Record<string, T>, locale: Locale, key: string): Localized<T> | undefined {
+function pick<T extends { reviewed: boolean; stale?: boolean }>(table: Record<string, T>, locale: Locale, key: string): Localized<T> | undefined {
   const own = table[`${locale}/${key}`];
-  if (own) return { value: own, from: locale, fallback: false, reviewed: own.reviewed };
+  if (own) return { value: own, from: locale, fallback: false, reviewed: own.reviewed, stale: !!own.stale };
   const def = table[`${DEFAULT_LOCALE}/${key}`];
-  if (def) return { value: def, from: DEFAULT_LOCALE, fallback: locale !== DEFAULT_LOCALE, reviewed: def.reviewed };
+  if (def) return { value: def, from: DEFAULT_LOCALE, fallback: locale !== DEFAULT_LOCALE, reviewed: def.reviewed, stale: false };
   return undefined;
 }
 

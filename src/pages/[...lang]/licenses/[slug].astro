@@ -41,7 +41,7 @@ const others = cat.licenseList.filter((l) => l.slug !== slug && l.matrices.some(
       <span class="text-muted-foreground">{t("license.spdx")}: <code>{lic.spdx}</code></span>
       <span class="text-muted-foreground">OSI {lic.osi === true ? "✓" : lic.osi === false ? "✗" : "?"}</span>
       <span class="text-muted-foreground">{t("common.updated", { date: fmtDate(lic.updatedAt) })}</span>
-      {text && <TranslationBadge t={t} fallback={text.fallback} reviewed={text.reviewed} isDefault={locale === DEFAULT_LOCALE} />}
+      {text && <TranslationBadge t={t} fallback={text.fallback} reviewed={text.reviewed} stale={text.stale} isDefault={locale === DEFAULT_LOCALE} />}
     </div>
   </PageHeader>
 

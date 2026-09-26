@@ -93,6 +93,8 @@ export const projectSchema = z.object({
 export const licenseTextSchema = z.object({
   reviewed: z.boolean().default(false),
   sourceHash: z.string().optional(),
+  /** computed by the loader: sourceHash no longer matches the English source */
+  stale: z.boolean().optional(),
   name: z.string().optional(),
   summary: z.string(),
   analogy: z.string().optional(),
@@ -103,6 +105,8 @@ export const licenseTextSchema = z.object({
 export const scenarioTextSchema = z.object({
   reviewed: z.boolean().default(false),
   sourceHash: z.string().optional(),
+  /** computed by the loader: sourceHash no longer matches the English source */
+  stale: z.boolean().optional(),
   title: z.string(),
   actor: z.string().optional(),
   description: z.string().optional(),
@@ -112,6 +116,8 @@ export const scenarioTextSchema = z.object({
 export const uiSchema = z.object({
   reviewed: z.boolean().default(false),
   sourceHash: z.string().optional(),
+  /** computed by the loader: sourceHash no longer matches the English source */
+  stale: z.boolean().optional(),
   strings: z.record(z.string(), z.string()),
 });
 

@@ -20,6 +20,8 @@ import {
   uiSchema,
 } from "@/domain/schema";
 import { z } from "astro/zod";
+import { DEFAULT_LOCALE } from "@/domain/locales";
+import { sourceHash } from "@/domain/text-hash";
 
 export class DataError extends Error {
   constructor(
@@ -49,6 +51,16 @@ function readDir<T>(dir: string, schema: z.ZodType<T>): Record<string, T> {
   return out;
 }
 
+/** Flags translations whose sourceHash no longer matches the English entry. */
+function markStale(table: Record<string, { sourceHash?: string; stale?: boolean }>): void {
+  for (const [key, entry] of Object.entries(table)) {
+    const [locale, id] = [key.slice(0, key.indexOf("/")), key.slice(key.indexOf("/") + 1)];
+    if (locale === DEFAULT_LOCALE || !entry.sourceHash) continue;
+    const source = table[`${DEFAULT_LOCALE}/${id}`];
+    if (source && entry.sourceHash !== sourceHash(source as Record<string, unknown>)) entry.stale = true;
+  }
+}
+
 export function loadRawData(root = "data"): RawData {
   const licenseTexts: RawData["licenseTexts"] = {};
   const scenarioTexts: RawData["scenarioTexts"] = {};
@@ -61,6 +73,11 @@ export function loadRawData(root = "data"): RawData {
     const uiFile = join(base, "ui.yaml");
     if (existsSync(uiFile)) ui[locale] = readYaml(uiFile, uiSchema);
   }
+  markStale(licenseTexts);
+  markStale(scenarioTexts);
+  for (const [locale, entry] of Object.entries(ui))
+    if (locale !== DEFAULT_LOCALE && ui[DEFAULT_LOCALE] && entry.sourceHash && entry.sourceHash !== sourceHash(ui[DEFAULT_LOCALE]))
+      entry.stale = true;
   const matricesFile = join(root, "matrices.yaml");
   const matrices = readYaml(matricesFile, matrixSchema.array());
   return {

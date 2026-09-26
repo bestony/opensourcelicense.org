@@ -130,6 +130,13 @@ export function validateCatalog(cat: Catalog, opts: IntegrityOptions): Issue[] {
     if (missing.length)
       add(level, "i18n.missing", `data/i18n/${locale}`, `${missing.length} missing: ${missing.slice(0, 8).join(", ")}${missing.length > 8 ? " …" : ""}`);
   }
+  const stale = [
+    ...Object.entries(texts.licenseTexts).filter(([, v]) => v.stale).map(([k]) => `licenses:${k}`),
+    ...Object.entries(texts.scenarioTexts).filter(([, v]) => v.stale).map(([k]) => `scenarios:${k}`),
+    ...Object.entries(texts.ui).filter(([, v]) => v.stale).map(([k]) => `ui:${k}`),
+  ];
+  if (stale.length)
+    add("warn", "i18n.stale", "data/i18n", `${stale.length} translation(s) older than the English source: ${stale.slice(0, 8).join(", ")}${stale.length > 8 ? " …" : ""}`);
   const defUi = texts.ui[opts.defaultLocale]?.strings ?? {};
   for (const locale of opts.locales) {
     if (locale === opts.defaultLocale) continue;
