@@ -1,0 +1,9 @@
+name: StarCoder
+domain: ai-model
+owner: community
+ownerName: BigCode
+hf: bigcode/starcoder
+current:
+  - openrail-m
+tags:
+  - model-weights

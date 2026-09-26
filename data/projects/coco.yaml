@@ -1,0 +1,9 @@
+name: COCO annotations
+domain: data
+owner: community
+ownerName: COCO Consortium
+homepage: https://cocodataset.org/#termsofuse
+current:
+  - cc-by-4.0
+tags:
+  - dataset

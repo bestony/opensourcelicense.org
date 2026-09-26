@@ -1,0 +1,9 @@
+name: Open Images annotations
+domain: data
+owner: company
+ownerName: Google
+homepage: https://storage.googleapis.com/openimages/web/index.html
+current:
+  - cc-by-4.0
+tags:
+  - dataset

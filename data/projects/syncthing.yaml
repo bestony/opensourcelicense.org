@@ -1,0 +1,7 @@
+name: Syncthing
+domain: tooling
+owner: foundation
+ownerName: Syncthing Foundation
+repo: syncthing/syncthing
+current:
+  - mpl-2.0

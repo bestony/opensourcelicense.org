@@ -1,0 +1,9 @@
+name: Galactica
+domain: ai-model
+owner: company
+ownerName: Meta
+hf: facebook/galactica-6.7b
+current:
+  - cc-by-nc-4.0
+tags:
+  - model-weights

@@ -1,0 +1,7 @@
+name: GNU Guile
+domain: language
+owner: foundation
+ownerName: Free Software Foundation
+homepage: https://www.gnu.org/software/guile/
+current:
+  - lgpl-3.0

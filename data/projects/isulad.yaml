@@ -1,0 +1,9 @@
+name: iSulad
+domain: devops
+owner: foundation
+ownerName: openEuler community
+homepage: https://gitee.com/openeuler/iSulad
+current:
+  - mulanpsl-2.0
+tags:
+  - china

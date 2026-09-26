@@ -1,0 +1,9 @@
+name: Llama 3.3
+domain: ai-model
+owner: company
+ownerName: Meta
+hf: meta-llama/Llama-3.3-70B-Instruct
+current:
+  - llama
+tags:
+  - model-weights

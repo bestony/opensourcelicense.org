@@ -1,0 +1,9 @@
+name: openGauss
+domain: database
+owner: foundation
+ownerName: openGauss community
+homepage: https://gitee.com/opengauss/openGauss-server
+current:
+  - mulanpsl-2.0
+tags:
+  - china

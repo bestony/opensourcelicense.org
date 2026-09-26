@@ -1,0 +1,7 @@
+name: NumPy
+domain: data
+owner: community
+ownerName: NumPy developers
+repo: numpy/numpy
+current:
+  - bsd-3-clause

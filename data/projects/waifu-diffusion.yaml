@@ -1,0 +1,9 @@
+name: Waifu Diffusion
+domain: ai-model
+owner: community
+ownerName: hakurei
+hf: hakurei/waifu-diffusion
+current:
+  - openrail-m
+tags:
+  - model-weights

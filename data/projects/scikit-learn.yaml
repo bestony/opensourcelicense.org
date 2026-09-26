@@ -1,0 +1,7 @@
+name: scikit-learn
+domain: ai-model
+owner: community
+ownerName: scikit-learn developers
+repo: scikit-learn/scikit-learn
+current:
+  - bsd-3-clause

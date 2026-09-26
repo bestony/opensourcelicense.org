@@ -1,0 +1,9 @@
+name: Command R (open weights)
+domain: ai-model
+owner: company
+ownerName: Cohere For AI
+hf: CohereForAI/c4ai-command-r-v01
+current:
+  - cc-by-nc-4.0
+tags:
+  - model-weights

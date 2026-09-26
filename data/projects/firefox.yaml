@@ -1,0 +1,7 @@
+name: Firefox
+domain: web
+owner: foundation
+ownerName: Mozilla
+homepage: https://www.mozilla.org/MPL/
+current:
+  - mpl-2.0

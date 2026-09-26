@@ -39,6 +39,12 @@ describe("integrity", () => {
     expect(errors(raw, { ...opts, strictTbd: true }).map((e) => e.code)).toContain("scenario.tbd");
   });
 
+  it("requires enough projects per license", () => {
+    const raw = realRaw();
+    for (const [slug, p] of Object.entries(raw.projects)) if (p.current.includes("llama")) delete raw.projects[slug];
+    expect(errors(raw).map((e) => e.path)).toContain("data/licenses/llama.yaml");
+  });
+
   it("missing default-locale text is an error", () => {
     const raw = realRaw();
     delete raw.licenseTexts["en/mit"];

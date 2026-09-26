@@ -1,0 +1,7 @@
+name: GIMP
+domain: cms
+owner: community
+ownerName: GIMP developers
+homepage: https://www.gimp.org/about/
+current:
+  - gpl-3.0

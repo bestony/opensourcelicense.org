@@ -1,0 +1,9 @@
+name: Stanford Alpaca data
+domain: data
+owner: community
+ownerName: Stanford CRFM
+repo: tatsu-lab/stanford_alpaca
+current:
+  - cc-by-nc-4.0
+tags:
+  - dataset

@@ -1,0 +1,7 @@
+name: GNU Bash
+domain: tooling
+owner: foundation
+ownerName: Free Software Foundation
+homepage: https://www.gnu.org/software/bash/
+current:
+  - gpl-3.0

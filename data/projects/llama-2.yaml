@@ -1,0 +1,9 @@
+name: Llama 2
+domain: ai-model
+owner: company
+ownerName: Meta
+hf: meta-llama/Llama-2-7b-hf
+current:
+  - llama
+tags:
+  - model-weights

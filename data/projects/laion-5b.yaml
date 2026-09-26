@@ -1,0 +1,9 @@
+name: LAION-5B
+domain: data
+owner: community
+ownerName: LAION
+homepage: https://laion.ai/blog/laion-5b/
+current:
+  - cc-by-4.0
+tags:
+  - dataset

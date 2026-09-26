@@ -1,0 +1,9 @@
+name: Kubernetes documentation
+domain: cms
+owner: foundation
+ownerName: CNCF
+repo: kubernetes/website
+current:
+  - cc-by-4.0
+tags:
+  - docs

@@ -1,0 +1,9 @@
+name: A-Tune
+domain: devops
+owner: foundation
+ownerName: openEuler community
+homepage: https://gitee.com/openeuler/A-Tune
+current:
+  - mulanpsl-2.0
+tags:
+  - china

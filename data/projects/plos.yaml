@@ -1,0 +1,9 @@
+name: PLOS journal articles
+domain: cms
+owner: foundation
+ownerName: Public Library of Science
+homepage: https://plos.org/license/
+current:
+  - cc-by-4.0
+tags:
+  - docs

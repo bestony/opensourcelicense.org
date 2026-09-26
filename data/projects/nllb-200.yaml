@@ -1,0 +1,9 @@
+name: NLLB-200
+domain: ai-model
+owner: company
+ownerName: Meta
+hf: facebook/nllb-200-distilled-600M
+current:
+  - cc-by-nc-4.0
+tags:
+  - model-weights

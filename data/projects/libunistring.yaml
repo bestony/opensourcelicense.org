@@ -1,0 +1,9 @@
+name: GNU libunistring
+domain: language
+owner: foundation
+ownerName: Free Software Foundation
+homepage: https://www.gnu.org/software/libunistring/
+current:
+  - lgpl-3.0
+  - gpl-2.0
+needsReview: true

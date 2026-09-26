@@ -11,6 +11,9 @@ export interface Issue {
   message: string;
 }
 
+/** Every license page must show at least this many real-world projects. */
+export const MIN_PROJECTS_PER_LICENSE = 5;
+
 export interface IntegrityOptions {
   locales: readonly string[];
   defaultLocale: string;
@@ -106,6 +109,13 @@ export function validateCatalog(cat: Catalog, opts: IntegrityOptions): Issue[] {
       for (const f of ev.forks)
         if (!cat.projects.has(f)) add("error", "project.unknown-fork", path, `fork "${f}" is not a project`);
     if (p.needsReview) add("warn", "project.needs-review", path, "needs human review");
+  }
+
+  // Coverage: each license needs enough real-world examples.
+  for (const l of cat.licenseList) {
+    const n = cat.projectsByLicense.get(l.slug)?.length ?? 0;
+    if (n < MIN_PROJECTS_PER_LICENSE)
+      add("error", "license.min-projects", `data/licenses/${l.slug}.yaml`, `only ${n} project(s) use it; need at least ${MIN_PROJECTS_PER_LICENSE}`);
   }
 
   // i18n coverage.

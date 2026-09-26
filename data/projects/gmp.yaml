@@ -1,0 +1,8 @@
+name: GNU MP (GMP)
+domain: language
+owner: foundation
+ownerName: Free Software Foundation
+homepage: https://gmplib.org/
+current:
+  - lgpl-3.0
+  - gpl-2.0

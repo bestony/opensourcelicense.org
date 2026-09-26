@@ -1,0 +1,7 @@
+name: LibreOffice
+domain: cms
+owner: foundation
+ownerName: The Document Foundation
+homepage: https://www.libreoffice.org/about-us/licenses/
+current:
+  - mpl-2.0

@@ -1,0 +1,9 @@
+name: Aya 23
+domain: ai-model
+owner: company
+ownerName: Cohere For AI
+hf: CohereForAI/aya-23-8B
+current:
+  - cc-by-nc-4.0
+tags:
+  - model-weights

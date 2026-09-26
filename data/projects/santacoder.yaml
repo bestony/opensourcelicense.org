@@ -1,0 +1,9 @@
+name: SantaCoder
+domain: ai-model
+owner: community
+ownerName: BigCode
+hf: bigcode/santacoder
+current:
+  - openrail-m
+tags:
+  - model-weights

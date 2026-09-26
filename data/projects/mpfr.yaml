@@ -1,0 +1,7 @@
+name: GNU MPFR
+domain: language
+owner: foundation
+ownerName: Free Software Foundation
+homepage: https://www.mpfr.org/
+current:
+  - lgpl-3.0

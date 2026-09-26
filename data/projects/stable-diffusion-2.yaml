@@ -1,0 +1,9 @@
+name: Stable Diffusion 2.1
+domain: ai-model
+owner: company
+ownerName: Stability AI
+hf: stabilityai/stable-diffusion-2-1
+current:
+  - openrail-m
+tags:
+  - model-weights

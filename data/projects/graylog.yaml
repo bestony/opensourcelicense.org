@@ -1,0 +1,10 @@
+name: Graylog
+domain: observability
+owner: company
+ownerName: Graylog
+repo: Graylog2/graylog2-server
+current:
+  - sspl-1.0
+tags:
+  - cloud-vendor
+needsReview: true

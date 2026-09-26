@@ -1,0 +1,7 @@
+name: Django
+domain: web
+owner: foundation
+ownerName: Django Software Foundation
+repo: django/django
+current:
+  - bsd-3-clause

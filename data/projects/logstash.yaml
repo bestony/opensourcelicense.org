@@ -1,0 +1,9 @@
+name: Logstash
+domain: observability
+owner: company
+ownerName: Elastic
+repo: elastic/logstash
+current:
+  - sspl-1.0
+  - elv2
+needsReview: true
