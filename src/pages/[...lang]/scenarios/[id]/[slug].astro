@@ -30,7 +30,7 @@ const cases = [...new Set([...(cell.caseRef ? [cell.caseRef] : []), ...(cat.case
 const report = issueUrl(`Cell ${id} × ${lic.spdx} looks wrong`, `Cell: ${id} × ${lic.spdx}\nCurrent verdict: ${cell.verdict}\n\nWhy it is wrong (quote the clause):\n`);
 ---
 
-<Layout locale={locale} title={title} description={`${lic.shortName}: ${verdictLabel}${note ? ` — ${note}` : ""}`}>
+<Layout locale={locale} title={title} description={`${lic.shortName}: ${verdictLabel}${note ? ` — ${note}` : ""}`} searchable={false}>
   <p class="mb-2 flex flex-wrap gap-4">
     <a href={href(`/scenarios/${id}`)}>← {id}</a>
     <a href={href(`/licenses/${slug}`)}>← {lic.shortName}</a>
@@ -93,7 +93,7 @@ const report = issueUrl(`Cell ${id} × ${lic.spdx} looks wrong`, `Cell: ${id} ×
     </p>
   </section>
 
-  <section class="mb-8">
+  <section class="mb-8" data-pagefind-ignore>
     <h2 class="term-heading mb-2 text-2xl">{t("scenario.others")}</h2>
     <ul class="flex flex-wrap gap-2">
       {
@@ -111,7 +111,7 @@ const report = issueUrl(`Cell ${id} × ${lic.spdx} looks wrong`, `Cell: ${id} ×
     </ul>
   </section>
 
-  <section>
+  <section data-pagefind-ignore>
     <h2 class="term-heading mb-2 text-2xl">{t("scenario.other-scenarios", { license: lic.shortName })}</h2>
     <ul class="columns-1 gap-6 sm:columns-2">
       {

@@ -26,7 +26,7 @@ const report = issueUrl(`Project ${p.name} looks wrong`, `Project: ${slug}\n\nWh
 
 <Layout locale={locale} title={p.name} description={`${p.name}: ${p.current.map((id) => info(id).name).join(" / ")}`}>
   <p class="mb-2"><a href={href("/projects")}>← {t("projects.title")}</a></p>
-  <PageHeader title={p.name}>
+  <PageHeader title={p.name} searchWeight={10}>
     <p class="text-muted-foreground">
       {t(`domain.${p.domain}`)} · {p.ownerName ?? t(`owner.${p.owner}`)} ({t(`owner.${p.owner}`)})
       {parent && <> · <a href={href(`/projects/${parent.slug}`)}>{t("project.fork-of", { name: parent.name })}</a></>}

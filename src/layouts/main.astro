@@ -14,9 +14,11 @@ interface Props {
   description?: string;
   noindex?: boolean;
   wide?: boolean;
+  /** Include this page in the on-site Pagefind index. */
+  searchable?: boolean;
 }
 
-const { locale = DEFAULT_LOCALE, title, description, noindex = false, wide = false } = Astro.props;
+const { locale = DEFAULT_LOCALE, title, description, noindex = false, wide = false, searchable = true } = Astro.props;
 const ctx = pageContext(locale);
 const { t } = ctx;
 const siteName = t("site.name");
@@ -58,7 +60,7 @@ const meta = LOCALE_META[locale];
     <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:start-2 focus:top-2 bg-primary text-primary-foreground px-2">Skip to content</a>
     <Header locale={locale} path={path} />
     <LangSuggest locale={locale} path={path} />
-    <main id="main" class:list={["mx-auto w-full flex-1 px-4 py-8", wide ? "max-w-7xl" : "max-w-5xl"]} data-pagefind-body>
+    <main id="main" class:list={["mx-auto w-full flex-1 px-4 py-8", wide ? "max-w-7xl" : "max-w-5xl"]} data-pagefind-body={searchable ? "" : undefined}>
       <slot />
     </main>
     <Footer locale={locale} path={path} />

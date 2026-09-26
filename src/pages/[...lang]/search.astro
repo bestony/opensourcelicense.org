@@ -34,7 +34,18 @@ const { t } = pageContext(locale);
     s.onload = function () {
       var q = new URLSearchParams(location.search).get("q") || "";
       // eslint-disable-next-line no-undef
-      var ui = new PagefindUI({ element: "#search", showSubResults: true, resetStyles: false });
+      var ui = new PagefindUI({
+        element: "#search",
+        showSubResults: true,
+        resetStyles: false,
+        // Long license pages should not lose to short scenario-cell pages.
+        ranking: { pageLength: 0.1, termFrequency: 0.8 },
+        processResult: function (r) {
+          r.url = r.url.replace(/(.)\/$/, "$1");
+          if (r.sub_results) r.sub_results.forEach(function (s) { s.url = s.url.replace(/(.)\/(#|$)/, "$1$2"); });
+          return r;
+        },
+      });
       if (q) ui.triggerSearch(q);
     };
     s.onerror = function () {
