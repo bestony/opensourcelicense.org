@@ -1,0 +1,19 @@
+---
+import Layout from "@/layouts/main.astro";
+import PageHeader from "@/components/site/PageHeader.astro";
+import Compare from "@/components/islands/Compare";
+import { clientRaw } from "@/lib/client-data";
+import type { Locale } from "@/lib/i18n";
+import { localeStaticPaths, pageContext } from "@/lib/page";
+
+export const getStaticPaths = localeStaticPaths;
+const { locale } = Astro.props as { locale: Locale };
+const { cat, t } = pageContext(locale);
+---
+
+<Layout locale={locale} title={t("compare.title")} wide>
+  <PageHeader title={t("compare.title")} lead={t("compare.lead")}>
+    <p class="text-sm text-muted-foreground">{t("verdict.legend")}</p>
+  </PageHeader>
+  <Compare client:load raw={clientRaw(cat, locale)} locale={locale} initial={["mit", "apache-2.0"]} />
+</Layout>
