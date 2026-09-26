@@ -129,6 +129,11 @@ strings:
   license.scenarios: 极端场景
   license.radar: 最坏情况雷达图
   license.projects: 使用它的知名项目
+  license.projects.count: 图谱中有 {count} 个知名项目使用该许可证。
+  license.projects.none: 图谱中暂无项目使用该许可证。
+  license.projects.since: 于 {date} 改用
+  license.projects.also: 同时提供：{licenses}
+  license.projects.former: 曾经使用、后来改掉的项目
   license.text: 官方原文
   license.text.official: 官方{language}文本
   license.text.note: 只有官方文本具有法律效力，本站不自行翻译许可证原文。

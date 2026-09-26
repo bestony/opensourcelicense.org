@@ -129,6 +129,11 @@ strings:
   license.scenarios: Extreme scenarios
   license.radar: Worst-case radar
   license.projects: Well-known projects using it
+  license.projects.count: "{count} well-known projects in our map use this license."
+  license.projects.none: No project in our map uses this license yet.
+  license.projects.since: Switched to it on {date}
+  license.projects.also: "Also offered under: {licenses}"
+  license.projects.former: Projects that moved away from it
   license.text: Official text
   license.text.official: Official text in {language}
   license.text.note: Only the official text is legally binding. We do not translate license texts.

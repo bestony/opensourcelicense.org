@@ -6,6 +6,7 @@ import FamilyTag from "@/components/site/FamilyTag.astro";
 import VerdictBadge from "@/components/site/VerdictBadge.astro";
 import Radar from "@/components/site/Radar.astro";
 import TranslationBadge from "@/components/site/TranslationBadge.astro";
+import LicenseProjects from "@/components/site/LicenseProjects.astro";
 import { cellKey } from "@/domain/catalog";
 import { computeRadar } from "@/domain/radar";
 import { LOCALE_META } from "@/domain/locales";
@@ -19,10 +20,10 @@ export function getStaticPaths() {
 
 const { locale } = Astro.props as { locale: Locale };
 const { slug } = Astro.params as { slug: string };
-const { cat, t, href, fmtDate } = pageContext(locale);
+const ctx = pageContext(locale);
+const { cat, t, href, fmtDate } = ctx;
 const lic = cat.licenses.get(slug)!;
 const text = licenseText(cat.raw, locale, slug);
-const projects = cat.projectsByLicense.get(slug) ?? [];
 const officialOwn = lic.officialTexts[locale];
 const body = lic.hasText ? readFileSync(`data/texts/${slug}.txt`, "utf8") : undefined;
 const sections = [
@@ -69,6 +70,8 @@ const others = cat.licenseList.filter((l) => l.slug !== slug && l.matrices.some(
       </section>
     )
   }
+
+  <LicenseProjects ctx={ctx} slug={slug} />
 
   <section class="mb-10 grid gap-4 md:grid-cols-3">
     {
@@ -125,23 +128,6 @@ const others = cat.licenseList.filter((l) => l.slug !== slug && l.matrices.some(
         </section>
       );
     })
-  }
-
-  {
-    projects.length > 0 && (
-      <section class="mb-10">
-        <h2 class="term-heading mb-3 text-2xl">{t("license.projects")}</h2>
-        <ul class="flex flex-wrap gap-2">
-          {projects.map((p) => (
-            <li>
-              <a href={href(`/projects/${p.slug}`)} class="inline-block border border-border px-2 no-underline hover:border-primary">
-                {p.name}
-              </a>
-            </li>
-          ))}
-        </ul>
-      </section>
-    )
   }
 
   <section class="mb-10">

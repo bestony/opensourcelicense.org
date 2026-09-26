@@ -44,7 +44,14 @@ const families = FAMILIES.filter((f) => cat.licenseList.some((l) => l.family ===
               <td class="py-2 pe-4"><FamilyTag family={l.family} label={t(`family.${l.family}`)} /></td>
               <td class="py-2 pe-4 text-center">{tri(l.osi)}</td>
               <td class="py-2 pe-4 text-center">{tri(l.fsf)}</td>
-              <td class="py-2 pe-4 text-end">{cat.projectsByLicense.get(l.slug)?.length ?? 0}</td>
+              <td class="py-2 pe-4 text-end">
+                <span class="tabular-nums">{cat.projectsByLicense.get(l.slug)?.length ?? 0}</span>
+                <span class="block text-sm">
+                  {(cat.projectsByLicense.get(l.slug) ?? []).slice(0, 3).map((p, i) => (
+                    <>{i > 0 && ", "}<a href={href(`/projects/${p.slug}`)} class="text-muted-foreground hover:text-primary">{p.name}</a></>
+                  ))}
+                </span>
+              </td>
               <td class="py-2 text-sm">{licenseText(cat.raw, locale, l.slug)?.value.summary}</td>
             </tr>
           ))

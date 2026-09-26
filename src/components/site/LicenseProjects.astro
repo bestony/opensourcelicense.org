@@ -1,0 +1,70 @@
+---
+/**
+ * Well-known projects that use (or used) a license, shown near the top of the
+ * license page so readers can relate the license to software they know.
+ */
+import type { Project } from "@/domain/catalog";
+import type { PageContext } from "@/lib/page";
+
+interface Props {
+  ctx: PageContext;
+  slug: string;
+}
+const { ctx, slug } = Astro.props;
+const { cat, t, href, fmtDate } = ctx;
+const current = cat.projectsByLicense.get(slug) ?? [];
+// When did a current user adopt this license (if it switched to it)?
+const adoptedAt = (p: Project) => p.timeline.findLast((e) => e.to.includes(slug) && !e.from.includes(slug))?.date;
+// Projects that dropped this license.
+const former = cat.projectList
+  .map((p) => ({ p, e: p.timeline.find((e) => e.from.includes(slug) && !e.to.includes(slug)) }))
+  .filter((x): x is { p: Project; e: NonNullable<typeof x.e> } => !!x.e && !x.p.current.includes(slug));
+const name = (id: string) => cat.licenseInfo(id).name;
+const others = (p: Project) => p.current.filter((id) => id !== slug);
+---
+
+<section class="mb-10" aria-labelledby="license-projects">
+  <h2 id="license-projects" class="term-heading mb-1 text-2xl">{t("license.projects")}</h2>
+  <p class="mb-3 text-sm text-muted-foreground">{t("license.projects.count", { count: current.length })}</p>
+  {
+    current.length === 0 ? (
+      <p class="text-muted-foreground">{t("license.projects.none")}</p>
+    ) : (
+      <ul class="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+        {current.map((p) => {
+          const since = adoptedAt(p);
+          return (
+            <li>
+              <a href={href(`/projects/${p.slug}`)} class="block h-full border border-border p-2 no-underline hover:border-primary hover:bg-muted">
+                <span class="block text-primary">{p.name}</span>
+                <span class="block text-sm text-muted-foreground">
+                  {t(`domain.${p.domain}`)} · {p.ownerName ?? t(`owner.${p.owner}`)}
+                </span>
+                {since && <span class="block text-sm text-verdict-conditional">{t("license.projects.since", { date: fmtDate(since) })}</span>}
+                {others(p).length > 0 && (
+                  <span class="block text-sm text-muted-foreground">{t("license.projects.also", { licenses: others(p).map(name).join(" / ") })}</span>
+                )}
+              </a>
+            </li>
+          );
+        })}
+      </ul>
+    )
+  }
+  {
+    former.length > 0 && (
+      <div class="mt-4">
+        <h3 class="mb-2 text-lg">{t("license.projects.former")}</h3>
+        <ul class="space-y-1">
+          {former.map(({ p, e }) => (
+            <li class="flex flex-wrap gap-x-3">
+              <span class="w-28 text-muted-foreground">{fmtDate(e.date)}</span>
+              <a href={href(`/projects/${p.slug}`)}>{p.name}</a>
+              <span class="text-muted-foreground">→ {e.to.map(name).join(" / ")}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    )
+  }
+</section>
