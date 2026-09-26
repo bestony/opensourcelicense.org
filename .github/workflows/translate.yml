@@ -1,0 +1,50 @@
+name: Machine translation drafts
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/i18n/en/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: Translate new and changed English texts
+        run: pnpm translate
+        env:
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_AI_TOKEN }}
+      - name: Validate
+        run: pnpm validate
+      - name: Open pull request
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if git diff --quiet && [ -z "$(git ls-files --others --exclude-standard data/i18n)" ]; then
+            echo "Nothing to translate."
+            exit 0
+          fi
+          branch="chore/translations-$(date +%Y%m%d%H%M)"
+          git config user.name "translation-bot"
+          git config user.email "translation-bot@users.noreply.github.com"
+          git switch -c "$branch"
+          git add data/i18n
+          git commit -m "chore(i18n): machine translation drafts $(date +%Y-%m-%d)"
+          git push -u origin "$branch"
+          gh pr create --title "chore(i18n): machine translation drafts" \
+            --body "Machine translation drafts (reviewed: false). Reviewers: fix the text, then set reviewed: true."
