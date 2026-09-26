@@ -6,7 +6,7 @@ import react from "@astrojs/react";
 import sitemap from "@astrojs/sitemap";
 import icon from "astro-icon";
 import integrity from "./src/integrations/integrity.ts";
-import { DEFAULT_LOCALE, LOCALES, LOCALE_META } from "./src/domain/locales.ts";
+import { DEFAULT_LOCALE, LOCALES } from "./src/domain/locales.ts";
 
 // https://astro.build/config
 export default defineConfig({
@@ -28,12 +28,10 @@ export default defineConfig({
     integrity({ strictTbd: process.env.OSL_STRICT_TBD === "1" }),
     react(),
     icon(),
-    sitemap({
-      i18n: {
-        defaultLocale: DEFAULT_LOCALE,
-        locales: Object.fromEntries(LOCALES.map((l) => [l, LOCALE_META[l].tag])),
-      },
-    }),
+    // hreflang alternates live in each page's <head> (src/layouts/main.astro). Repeating
+    // 42+ alternates per URL here made one sitemap file about 200 MB, over the 25 MiB
+    // Workers asset limit and Google's 50 MB sitemap limit.
+    sitemap({ entryLimit: 10000 }),
   ],
 
   fonts: [
