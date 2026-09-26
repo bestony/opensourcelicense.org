@@ -4,6 +4,7 @@ import { validateMessages } from "../worker/validate";
 import { issueSession, verifySession, SESSION_TTL_MS } from "../worker/session";
 import { checkRateLimit } from "../worker/ratelimit";
 import { handleChat } from "../worker/chat";
+import { handleDeps } from "../worker/deps";
 import { normalizeReply, toChatMessages } from "../worker/workers-ai";
 import { createLogger } from "@/lib/log";
 import { realRaw } from "./helpers";
@@ -180,5 +181,39 @@ describe("worker/chat", () => {
     const c = ctx();
     const res = await handleChat(req({ messages: msgs }), { ASSETS: assets, AI: { run: async () => { throw new Error("boom"); } } as never }, c as never, log);
     expect((await events(res, c)).map((e) => e.code ?? e.type)).toEqual(["upstream"]);
+  });
+});
+
+describe("worker/deps", () => {
+  const memCache = () => {
+    const m = new Map<string, Response>();
+    return { m, match: async (r: Request) => m.get(r.url)?.clone(), put: async (r: Request, res: Response) => void m.set(r.url, res) };
+  };
+  const get = (q: string) => new Request(`https://opensourcelicense.org/api/deps?${q}`);
+
+  it("validates input", async () => {
+    expect((await handleDeps(get("system=maven&name=x"), log)).status).toBe(400);
+    expect((await handleDeps(get("system=npm&name=%3Cscript%3E"), log)).status).toBe(400);
+  });
+
+  it("resolves the default version, returns licenses and caches", async () => {
+    const fetcher = vi.fn(async (u: string) =>
+      u.endsWith("/versions/19.0.0")
+        ? Response.json({ licenses: ["MIT"] })
+        : Response.json({ versions: [{ versionKey: { version: "18.0.0" } }, { versionKey: { version: "19.0.0" }, isDefault: true }] }),
+    );
+    const cache = memCache();
+    const r1 = await handleDeps(get("system=npm&name=react"), log, { fetcher: fetcher as never, cache });
+    expect(await r1.json()).toEqual({ system: "npm", name: "react", version: "19.0.0", licenses: ["MIT"], source: "deps.dev" });
+    await handleDeps(get("system=npm&name=react"), log, { fetcher: fetcher as never, cache });
+    expect(fetcher).toHaveBeenCalledTimes(2);
+    expect(fetcher.mock.calls[0][0]).toBe("https://api.deps.dev/v3/systems/NPM/packages/react");
+  });
+
+  it("encodes scoped names and reports misses", async () => {
+    const fetcher = vi.fn(async () => new Response("nope", { status: 404 }));
+    const r = await handleDeps(get("system=npm&name=%40scope%2Fpkg&version=1.0.0"), log, { fetcher: fetcher as never, cache: memCache() });
+    expect(r.status).toBe(404);
+    expect((fetcher.mock.calls[0] as unknown[])[0]).toBe("https://api.deps.dev/v3/systems/NPM/packages/%40scope%2Fpkg/versions/1.0.0");
   });
 });

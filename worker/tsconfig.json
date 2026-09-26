@@ -11,5 +11,5 @@
     "isolatedModules": true,
     "paths": { "@/*": ["../src/*"] }
   },
-  "include": ["./**/*.ts", "../src/domain/**/*.ts", "../src/lib/log.ts"]
+  "include": ["./**/*.ts", "../src/domain/**/*.ts", "../src/lib/log.ts", "../src/lib/deps-dev.ts"]
 }

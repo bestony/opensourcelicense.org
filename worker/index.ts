@@ -4,6 +4,7 @@
  */
 import { createLogger, setLogLevel, type LogLevel } from "../src/lib/log";
 import { handleChat } from "./chat";
+import { handleDeps } from "./deps";
 import type { Env } from "./env";
 
 export default {
@@ -16,6 +17,7 @@ export default {
     try {
       let res: Response;
       if (url.pathname === "/api/chat") res = await handleChat(req, env, ctx, createLogger(`worker.chat.${requestId}`));
+      else if (url.pathname === "/api/deps") res = await handleDeps(req, createLogger(`worker.deps.${requestId}`));
       else if (url.pathname.startsWith("/api/")) res = Response.json({ type: "error", code: "bad_request", message: "not found" }, { status: 404 });
       else res = await env.ASSETS.fetch(req);
       log.debug("request", { requestId, method: req.method, status: res.status, ms: Date.now() - started });
