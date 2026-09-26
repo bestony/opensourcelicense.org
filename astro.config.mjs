@@ -12,7 +12,7 @@ import { DEFAULT_LOCALE, LOCALES, LOCALE_META } from "./src/domain/locales.ts";
 export default defineConfig({
   site: "https://opensourcelicense.org",
   output: "static",
-  trailingSlash: "ignore",
+  trailingSlash: "never",
 
   i18n: {
     defaultLocale: DEFAULT_LOCALE,

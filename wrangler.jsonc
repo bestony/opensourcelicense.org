@@ -8,6 +8,8 @@
     "directory": "./dist",
     "binding": "ASSETS",
     "not_found_handling": "404-page",
+    // Pages are linked without a trailing slash (astro trailingSlash: "never").
+    "html_handling": "drop-trailing-slash",
     "run_worker_first": ["/api/*"]
   },
   // Rate limiting is enabled once a KV namespace is bound:

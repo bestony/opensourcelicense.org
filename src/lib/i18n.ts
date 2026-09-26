@@ -8,11 +8,11 @@ import type { LicenseText, ScenarioText } from "@/domain/schema";
 
 export { DEFAULT_LOCALE, LOCALES, type Locale };
 
-/** "/licenses/mit" -> "/zh-cn/licenses/mit" (default locale has no prefix). */
+/** "/licenses/mit" -> "/zh-cn/licenses/mit" (default locale has no prefix, no trailing slashes). */
 export function localizedPath(locale: Locale, path: string): string {
-  const clean = path.startsWith("/") ? path : `/${path}`;
+  const clean = path.startsWith("/") ? path.replace(/(.)\/+$/, "$1") : `/${path}`;
   if (locale === DEFAULT_LOCALE) return clean;
-  return clean === "/" ? `/${locale}/` : `/${locale}${clean}`;
+  return clean === "/" ? `/${locale}` : `/${locale}${clean}`;
 }
 
 /** Strip a locale prefix from a pathname. */
