@@ -1,3 +1,6 @@
 # Copy to .dev.vars for `pnpm cf:preview`. Never commit .dev.vars.
 TURNSTILE_SECRET=
 SESSION_SECRET=
+
+# Local hostnames that may solve the widget; production lives in wrangler.jsonc.
+TURNSTILE_HOSTNAMES=localhost,127.0.0.1

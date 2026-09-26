@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import type { AskQuestionInput, ChatErrorCode, ChatEvent } from "@/domain/advisor";
+import { TURNSTILE_ACTION, type AskQuestionInput, type ChatErrorCode, type ChatEvent } from "@/domain/advisor";
 import { recommend, type Recommendation } from "@/domain/engine";
 import { emptyProfile, missingFields, sanitizeProfile, type Profile } from "@/domain/profile";
 import { decodeProfile, encodeProfile } from "@/domain/profile-codec";
@@ -25,7 +25,7 @@ interface Pending {
 declare global {
   interface Window {
     turnstile?: {
-      render: (el: HTMLElement, opts: { sitekey: string; callback: (t: string) => void; "error-callback"?: () => void; appearance?: string }) => string;
+      render: (el: HTMLElement, opts: { sitekey: string; action?: string; callback: (t: string) => void; "error-callback"?: () => void; appearance?: string }) => string;
       reset: (id?: string) => void;
     };
   }
@@ -39,7 +39,7 @@ function useTurnstile(siteKey: string | undefined) {
     if (!siteKey || !ref.current) return;
     const el = ref.current;
     const render = () => {
-      if (window.turnstile && !widget.current) widget.current = window.turnstile.render(el, { sitekey: siteKey, callback: setToken, appearance: "interaction-only" });
+      if (window.turnstile && !widget.current) widget.current = window.turnstile.render(el, { sitekey: siteKey, action: TURNSTILE_ACTION, callback: setToken, appearance: "interaction-only" });
     };
     if (window.turnstile) {
       render();

@@ -4,13 +4,13 @@
  * sends the whole conversation on each request.
  */
 import type { RawData } from "../src/domain/catalog";
-import type { ChatErrorCode, ChatEvent, ChatRequest } from "../src/domain/advisor";
+import { TURNSTILE_ACTION, type ChatErrorCode, type ChatEvent, type ChatRequest } from "../src/domain/advisor";
 import type { Logger } from "../src/lib/log";
 import type { Env } from "./env";
 import { buildSystemPrompt } from "./prompt";
 import { checkRateLimit } from "./ratelimit";
 import { issueSession, verifySession } from "./session";
-import { verifyTurnstile } from "./turnstile";
+import { parseHostnames, verifyTurnstile } from "./turnstile";
 import { MAX_BODY_BYTES, validateMessages } from "./validate";
 import { normalizeReply, toChatMessages, WORKERS_AI_TOOLS, type Turn } from "./workers-ai";
 
@@ -67,7 +67,11 @@ export async function handleChat(req: Request, env: Env, ctx: ExecutionContext, 
   if (env.TURNSTILE_SECRET && env.SESSION_SECRET) {
     if (!(await verifySession(env.SESSION_SECRET, body.sessionToken))) {
       if (!body.turnstileToken) return jsonError(403, "verification", "turnstile token required");
-      const r = await verifyTurnstile(env.TURNSTILE_SECRET, body.turnstileToken, ip, deps.fetcher);
+      const r = await verifyTurnstile(env.TURNSTILE_SECRET, body.turnstileToken, ip, {
+        action: TURNSTILE_ACTION,
+        hostnames: parseHostnames(env.TURNSTILE_HOSTNAMES),
+        fetcher: deps.fetcher,
+      });
       log.info("turnstile checked", { success: r.success, errorCodes: r.errorCodes });
       if (!r.success) return jsonError(403, "verification");
       events.push({ type: "session", token: await issueSession(env.SESSION_SECRET) });

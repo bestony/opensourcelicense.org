@@ -17,6 +17,9 @@ export const TOOL_UPDATE_PROFILE = "update_profile";
 export const TOOL_ASK_QUESTION = "ask_question";
 export const TOOL_FINALIZE = "finalize";
 
+/** Action the chat widget is rendered with; the worker requires it on siteverify. */
+export const TURNSTILE_ACTION = "chat";
+
 /** JSON-schema tool definitions (Anthropic tool format, without SDK types). */
 export const ADVISOR_TOOLS = [
   {

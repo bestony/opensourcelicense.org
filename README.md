@@ -53,7 +53,7 @@ Key rules:
 `wrangler.jsonc` serves `dist/` as static assets and runs the Worker only for `/api/*`.
 
 - Workers AI binding `AI`; model from `ADVISOR_MODEL` (default `@cf/meta/llama-3.1-8b-instruct-fp8-fast`).
-- Secrets: `wrangler secret put TURNSTILE_SECRET` and `SESSION_SECRET`. Build variable: `PUBLIC_TURNSTILE_SITE_KEY`. Without them, bot protection is off (logged as a warning).
+- Bot protection: Turnstile. Secrets `TURNSTILE_SECRET` (widget secret) and `SESSION_SECRET` (random; also signs session tokens) via `wrangler secret put`. Build variable `PUBLIC_TURNSTILE_SITE_KEY` (a GitHub repository variable, injected by CI); the widget stays disabled while it is unset. `TURNSTILE_HOSTNAMES` allowlists the hostnames that may solve the widget and fails closed; siteverify also requires the `chat` action. Without the two secrets, bot protection is off (logged as a warning).
 - Rate limiting: create a KV namespace (`wrangler kv namespace create RATE_LIMIT`) and bind it as `RATE_LIMIT`; `DAILY_LIMIT` sets model turns per client per day.
 - GitHub Actions secrets: `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID` (deploy); `CLOUDFLARE_AI_TOKEN` (translation drafts).
 

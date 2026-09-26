@@ -3,6 +3,7 @@ import { buildPrompt } from "./worker-helpers";
 import { validateMessages } from "../worker/validate";
 import { issueSession, verifySession, SESSION_TTL_MS } from "../worker/session";
 import { checkRateLimit } from "../worker/ratelimit";
+import { parseHostnames, verifyTurnstile } from "../worker/turnstile";
 import { handleChat } from "../worker/chat";
 import { handleDeps } from "../worker/deps";
 import { normalizeReply, toChatMessages } from "../worker/workers-ai";
@@ -126,6 +127,37 @@ describe("worker/workers-ai text tool calls", () => {
   });
 });
 
+describe("worker/turnstile", () => {
+  const expected = { action: "chat", hostnames: ["a.com"] };
+  const verify = (payload: Record<string, unknown>) =>
+    verifyTurnstile("s", "tok", "1.2.3.4", { ...expected, fetcher: (async () => Response.json(payload)) as never });
+
+  it("parses the comma-separated allowlist", () => {
+    expect(parseHostnames(undefined)).toEqual([]);
+    expect(parseHostnames(" a.com , B.com ,, ")).toEqual(["a.com", "b.com"]);
+  });
+
+  it("fails closed on bad tokens, a missing allowlist and upstream errors", async () => {
+    expect(await verifyTurnstile("s", undefined, null, expected)).toEqual({ success: false, errorCodes: ["invalid-token"] });
+    expect(await verifyTurnstile("s", "x".repeat(2049), null, expected)).toEqual({ success: false, errorCodes: ["invalid-token"] });
+    expect(await verifyTurnstile("s", "tok", null, { action: "chat", hostnames: [] })).toEqual({ success: false, errorCodes: ["hostnames-not-configured"] });
+    const offline = vi.fn(async () => {
+      throw new Error("no network");
+    });
+    expect(await verifyTurnstile("s", "tok", null, { ...expected, fetcher: offline as never })).toEqual({ success: false, errorCodes: ["network-error"] });
+    const broken = vi.fn(async () => new Response("", { status: 500 }));
+    expect(await verifyTurnstile("s", "tok", null, { ...expected, fetcher: broken as never })).toEqual({ success: false, errorCodes: ["http-500"] });
+  });
+
+  it("requires success, the expected action and an allowed hostname", async () => {
+    expect(await verify({ success: true, action: "chat", hostname: "a.com" })).toEqual({ success: true, errorCodes: [] });
+    expect(await verify({ success: true, action: "chat", hostname: "A.com" })).toEqual({ success: true, errorCodes: [] });
+    expect(await verify({ success: true, action: "chat", hostname: "b.com" })).toEqual({ success: false, errorCodes: ["hostname-mismatch"] });
+    expect(await verify({ success: true, action: "signup", hostname: "a.com" })).toEqual({ success: false, errorCodes: ["action-mismatch"] });
+    expect(await verify({ "error-codes": ["timeout-or-duplicate"] })).toEqual({ success: false, errorCodes: ["timeout-or-duplicate"] });
+  });
+});
+
 describe("worker/chat", () => {
   const assets = { fetch: async () => new Response(JSON.stringify(realRaw()), { headers: { etag: "x" } }) } as never;
   const ctx = () => {
@@ -148,14 +180,24 @@ describe("worker/chat", () => {
   });
 
   it("requires Turnstile when configured", async () => {
-    const env = { ASSETS: assets, AI: ai({}) as never, TURNSTILE_SECRET: "t", SESSION_SECRET: "s" };
+    const env = { ASSETS: assets, AI: ai({}) as never, TURNSTILE_SECRET: "t", SESSION_SECRET: "s", TURNSTILE_HOSTNAMES: "opensourcelicense.org" };
     expect((await handleChat(req({ messages: msgs }), env, ctx() as never, log)).status).toBe(403);
     const failing = vi.fn(async () => Response.json({ success: false, "error-codes": ["invalid-input-response"] }));
     expect((await handleChat(req({ messages: msgs, turnstileToken: "bad" }), env, ctx() as never, log, { fetcher: failing as typeof fetch })).status).toBe(403);
-    const ok = vi.fn(async () => Response.json({ success: true }));
+    const ok = vi.fn(async () => Response.json({ success: true, action: "chat", hostname: "opensourcelicense.org" }));
     const c = ctx();
     const res = await handleChat(req({ messages: msgs, turnstileToken: "good" }), { ...env, AI: ai({ response: "hi" }) as never }, c as never, log, { fetcher: ok as typeof fetch });
     expect((await events(res, c))[0].type).toBe("session");
+  });
+
+  it("rejects tokens from another action, another hostname or without an allowlist", async () => {
+    const env = { ASSETS: assets, AI: ai({}) as never, TURNSTILE_SECRET: "t", SESSION_SECRET: "s", TURNSTILE_HOSTNAMES: "opensourcelicense.org" };
+    const body = { messages: msgs, turnstileToken: "tok" };
+    const otherAction = vi.fn(async () => Response.json({ success: true, action: "signup", hostname: "opensourcelicense.org" }));
+    expect((await handleChat(req(body), env, ctx() as never, log, { fetcher: otherAction as typeof fetch })).status).toBe(403);
+    const otherHost = vi.fn(async () => Response.json({ success: true, action: "chat", hostname: "evil.example" }));
+    expect((await handleChat(req(body), env, ctx() as never, log, { fetcher: otherHost as typeof fetch })).status).toBe(403);
+    expect((await handleChat(req(body), { ...env, TURNSTILE_HOSTNAMES: undefined }, ctx() as never, log, { fetcher: otherAction as typeof fetch })).status).toBe(403);
   });
 
   it("enforces the daily limit", async () => {

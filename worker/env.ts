@@ -4,6 +4,8 @@ export interface Env {
   AI?: Ai;
   RATE_LIMIT?: KVNamespace;
   TURNSTILE_SECRET?: string;
+  /** comma-separated frontend hostnames allowed to solve the widget */
+  TURNSTILE_HOSTNAMES?: string;
   /** HMAC secret for session tokens and IP hashing */
   SESSION_SECRET?: string;
   /** Workers AI model id with function calling support */
