@@ -1,0 +1,132 @@
+---
+import Layout from "@/layouts/main.astro";
+import PageHeader from "@/components/site/PageHeader.astro";
+import VerdictBadge from "@/components/site/VerdictBadge.astro";
+import { cellKey } from "@/domain/catalog";
+import { VERDICT_CLASS, VERDICT_SYMBOL } from "@/domain/verdict";
+import { getCatalog } from "@/lib/data";
+import { cellNote, scenarioText, type Locale } from "@/lib/i18n";
+import { issueUrl, localizedStaticPaths, pageContext } from "@/lib/page";
+
+export function getStaticPaths() {
+  const cat = getCatalog();
+  return localizedStaticPaths([...cat.cells.values()].map((c) => ({ params: { id: c.scenarioId, slug: c.license } })));
+}
+const { locale } = Astro.props as { locale: Locale };
+const { id, slug } = Astro.params as { id: string; slug: string };
+const { cat, t, href, fmtDate } = pageContext(locale);
+const s = cat.scenarios.get(id)!;
+const lic = cat.licenses.get(slug)!;
+const cell = cat.cells.get(cellKey(id, slug))!;
+const text = scenarioText(cat.raw, locale, id)?.value;
+const note = cellNote(cat.raw, locale, id, slug);
+const verdictLabel = t(`verdict.${cell.verdict}`);
+const title = `${text?.title ?? id} — ${lic.shortName}`;
+const siblings = cat.matrices.get(s.matrix)!.columns.filter((c) => c !== slug);
+const rowScenarios = (cat.scenariosByMatrix.get(s.matrix) ?? []).filter((x) => x.id !== id);
+const cases = [...new Set([...(cell.caseRef ? [cell.caseRef] : []), ...(cat.casesByCell.get(cellKey(id, slug)) ?? [])])]
+  .map((p) => cat.projects.get(p))
+  .filter((p) => !!p);
+const report = issueUrl(`Cell ${id} × ${lic.spdx} looks wrong`, `Cell: ${id} × ${lic.spdx}\nCurrent verdict: ${cell.verdict}\n\nWhy it is wrong (quote the clause):\n`);
+---
+
+<Layout locale={locale} title={title} description={`${lic.shortName}: ${verdictLabel}${note ? ` — ${note}` : ""}`}>
+  <p class="mb-2 flex flex-wrap gap-4">
+    <a href={href(`/scenarios/${id}`)}>← {id}</a>
+    <a href={href(`/licenses/${slug}`)}>← {lic.shortName}</a>
+  </p>
+  <PageHeader title={title} />
+
+  <ol class="mb-8 grid gap-3 md:grid-cols-3">
+    <li class="border border-border p-4">
+      <div class="text-sm text-muted-foreground">1 · {t("scenario.flow.you", { license: lic.shortName })}</div>
+      <a href={href(`/licenses/${slug}`)} class="text-xl text-primary">{lic.name}</a>
+    </li>
+    <li class="border border-border p-4">
+      <div class="text-sm text-muted-foreground">2 · {t("scenario.flow.they")}</div>
+      <div class="text-xl">{text?.title}</div>
+      {text?.actor && <div class="text-sm text-muted-foreground">{t(`actor.${text.actor}`)}</div>}
+    </li>
+    <li class:list={["border-2 p-4", `border-current ${VERDICT_CLASS[cell.verdict]}`]}>
+      <div class="text-sm">3 · {t("scenario.flow.result")}</div>
+      <div class="text-3xl"><span aria-hidden="true">{VERDICT_SYMBOL[cell.verdict]}</span> {verdictLabel}</div>
+      {note && <div class="text-lg text-foreground">{note}</div>}
+    </li>
+  </ol>
+
+  <section class="mb-8 space-y-2">
+    <h2 class="term-heading text-2xl">{t("scenario.clause")}</h2>
+    {
+      cell.clause ? (
+        <blockquote class="border-s-2 border-primary ps-3">
+          <p>
+            {lic.shortName} {cell.clause.ref} — <a href={lic.textUrl} rel="noopener">{t("license.text")}</a>
+          </p>
+          {cell.clause.quote && <p class="font-mono text-sm" lang="en">“{cell.clause.quote}”</p>}
+        </blockquote>
+      ) : (
+        <p class="text-muted-foreground">{t("scenario.no-clause")}</p>
+      )
+    }
+  </section>
+
+  {
+    cases.length > 0 && (
+      <section class="mb-8">
+        <h2 class="term-heading mb-2 text-2xl">{t("scenario.case")}</h2>
+        <ul class="space-y-1">
+          {cases.map((p) => (
+            <li>
+              <a href={href(`/projects/${p.slug}`)}>{p.name}</a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )
+  }
+
+  <section class="mb-8 text-sm text-muted-foreground">
+    <p>
+      {t("scenario.review")}:{" "}
+      {s.reviewedBy && s.reviewedAt ? t("scenario.review.done", { who: s.reviewedBy, date: fmtDate(s.reviewedAt) }) : t("scenario.review.none")}{" "}
+      <a href={report} rel="noopener">{t("footer.report")}</a>
+    </p>
+  </section>
+
+  <section class="mb-8">
+    <h2 class="term-heading mb-2 text-2xl">{t("scenario.others")}</h2>
+    <ul class="flex flex-wrap gap-2">
+      {
+        siblings.map((c) => {
+          const other = cat.cells.get(cellKey(id, c))!;
+          return (
+            <li>
+              <a href={href(`/scenarios/${id}/${c}`)} class="inline-flex items-center gap-1 border border-border px-2 no-underline hover:border-primary">
+                <VerdictBadge verdict={other.verdict} label={t(`verdict.${other.verdict}`)} /> {cat.licenses.get(c)?.shortName}
+              </a>
+            </li>
+          );
+        })
+      }
+    </ul>
+  </section>
+
+  <section>
+    <h2 class="term-heading mb-2 text-2xl">{t("scenario.other-scenarios", { license: lic.shortName })}</h2>
+    <ul class="columns-1 gap-6 sm:columns-2">
+      {
+        rowScenarios.map((x) => {
+          const c = cat.cells.get(cellKey(x.id, slug))!;
+          return (
+            <li class="break-inside-avoid">
+              <a href={href(`/scenarios/${x.id}/${slug}`)} class="flex gap-2 no-underline hover:underline">
+                <VerdictBadge verdict={c.verdict} label={t(`verdict.${c.verdict}`)} />
+                <span class="text-muted-foreground">{x.id}</span> {scenarioText(cat.raw, locale, x.id)?.value.title}
+              </a>
+            </li>
+          );
+        })
+      }
+    </ul>
+  </section>
+</Layout>

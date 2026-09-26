@@ -1,0 +1,53 @@
+---
+import type { RadarPoint } from "@/domain/radar";
+
+interface Props {
+  points: RadarPoint[];
+  labels: Record<string, string>;
+  size?: number;
+  title: string;
+}
+const { points, labels, size = 260, title } = Astro.props;
+const n = points.length;
+const c = size / 2;
+const r = size / 2 - 24;
+const angle = (i: number) => -Math.PI / 2 + (2 * Math.PI * i) / n;
+const pt = (i: number, v: number) => [c + Math.cos(angle(i)) * r * v, c + Math.sin(angle(i)) * r * v] as const;
+const poly = points.map((p, i) => pt(i, Math.max(p.value, 0.02)).join(",")).join(" ");
+const rings = [0.25, 0.5, 0.75, 1];
+---
+
+<figure class="space-y-3">
+  <svg viewBox={`0 0 ${size} ${size}`} width={size} height={size} role="img" aria-label={title} class="h-auto max-w-full">
+    <title>{title}</title>
+    {rings.map((k) => <polygon points={points.map((_, i) => pt(i, k).join(",")).join(" ")} fill="none" stroke="var(--border)" />)}
+    {points.map((_, i) => <line x1={c} y1={c} x2={pt(i, 1)[0]} y2={pt(i, 1)[1]} stroke="var(--border)" />)}
+    <polygon points={poly} fill="color-mix(in oklch, var(--primary) 30%, transparent)" stroke="var(--primary)" stroke-width="2" />
+    {
+      points.map((_, i) => {
+        const [x, y] = pt(i, 1.1);
+        return (
+          <text x={x} y={y} text-anchor="middle" dominant-baseline="middle" fill="var(--muted-foreground)" font-size="14">
+            {i + 1}
+          </text>
+        );
+      })
+    }
+  </svg>
+  <figcaption>
+    <ol class="space-y-1 text-sm">
+      {
+        points.map((p, i) => (
+          <li class="flex items-center gap-2">
+            <span class="w-4 text-muted-foreground">{i + 1}</span>
+            <span class="flex-1">{labels[p.id] ?? p.id}</span>
+            <span class="inline-block h-2 w-16 bg-muted" aria-hidden="true">
+              <span class="block h-2 bg-primary" style={`width:${Math.round(p.value * 100)}%`} />
+            </span>
+            <span class="w-8 text-end tabular-nums">{Math.round(p.value * 100)}</span>
+          </li>
+        ))
+      }
+    </ol>
+  </figcaption>
+</figure>

@@ -1,0 +1,17 @@
+---
+import type { Verdict } from "@/domain/schema";
+import { VERDICT_CLASS, VERDICT_SYMBOL } from "@/domain/verdict";
+
+interface Props {
+  verdict: Verdict;
+  label: string;
+  showLabel?: boolean;
+  class?: string;
+}
+const { verdict, label, showLabel = false, class: cls } = Astro.props;
+---
+
+<span class:list={["inline-flex items-center gap-1", VERDICT_CLASS[verdict], cls]} title={label}>
+  <span aria-hidden="true" class="text-lg leading-none">{VERDICT_SYMBOL[verdict]}</span>
+  <span class:list={[!showLabel && "sr-only"]}>{label}</span>
+</span>

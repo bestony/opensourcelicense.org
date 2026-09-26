@@ -1,0 +1,126 @@
+---
+import Layout from "@/layouts/main.astro";
+import PageHeader from "@/components/site/PageHeader.astro";
+import { cellKey } from "@/domain/catalog";
+import { VERDICT_CLASS, VERDICT_SYMBOL } from "@/domain/verdict";
+import { cellNote, scenarioText, type Locale } from "@/lib/i18n";
+import { localeStaticPaths, pageContext } from "@/lib/page";
+
+export const getStaticPaths = localeStaticPaths;
+const { locale } = Astro.props as { locale: Locale };
+const { cat, t, href } = pageContext(locale);
+const matrices = [...cat.matrices.values()];
+---
+
+<Layout locale={locale} title={t("scenarios.title")} wide>
+  <PageHeader title={t("scenarios.title")} lead={t("scenarios.lead")}>
+    <p class="text-sm text-muted-foreground">{t("verdict.legend")}</p>
+  </PageHeader>
+
+  <div class="mb-6 flex flex-wrap items-center gap-3">
+    <label class="flex items-center gap-2">
+      {t("scenarios.highlight")}
+      <select data-highlight class="border border-border bg-background px-1">
+        <option value="">—</option>
+        {cat.licenseList.map((l) => <option value={l.slug}>{l.shortName}</option>)}
+      </select>
+    </label>
+    <button type="button" class="border border-border px-2" data-toggle-all="open">{t("scenarios.expand")}</button>
+    <button type="button" class="border border-border px-2" data-toggle-all="close">{t("scenarios.collapse")}</button>
+  </div>
+
+  {
+    matrices.map((m) => (
+      <section class="mb-10">
+        <h2 class="term-heading mb-3 text-2xl">{t(`matrix.${m.id}`)}</h2>
+        {m.groups.map((g) => {
+          const rows = (cat.scenariosByMatrix.get(m.id) ?? []).filter((s) => s.group === g.id);
+          return (
+            <details open class="mb-4 border border-border" data-group>
+              <summary class="cursor-pointer bg-muted px-3 py-2 text-lg">
+                {g.id} · {t(`group.${g.id}`)} <span class="text-muted-foreground">({rows.length})</span>
+              </summary>
+              <div class="overflow-x-auto">
+                <table class="w-full border-collapse text-sm">
+                  <thead>
+                    <tr class="border-b border-border">
+                      <th class="sticky start-0 min-w-56 bg-background p-2 text-start font-normal text-muted-foreground">ID</th>
+                      {m.columns.map((c) => (
+                        <th class="p-2 font-normal" data-col={c}>
+                          <a href={href(`/licenses/${c}`)} class="whitespace-nowrap no-underline hover:underline">
+                            {cat.licenses.get(c)?.shortName}
+                          </a>
+                        </th>
+                      ))}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {rows.map((s) => (
+                      <tr class="border-b border-border">
+                        <th class="sticky start-0 bg-background p-2 text-start font-normal">
+                          <a href={href(`/scenarios/${s.id}`)} class="no-underline hover:underline">
+                            <span class="text-muted-foreground">{s.id}</span> {scenarioText(cat.raw, locale, s.id)?.value.title}
+                          </a>
+                        </th>
+                        {m.columns.map((c) => {
+                          const cell = cat.cells.get(cellKey(s.id, c))!;
+                          const note = cellNote(cat.raw, locale, s.id, c);
+                          const label = t(`verdict.${cell.verdict}`);
+                          return (
+                            <td class="p-1 text-center align-top" data-col={c}>
+                              <a
+                                href={href(`/scenarios/${s.id}/${c}`)}
+                                class:list={["block px-1 py-1 no-underline hover:bg-muted", VERDICT_CLASS[cell.verdict]]}
+                                title={note ? `${label} — ${note}` : label}
+                              >
+                                <span aria-hidden="true" class="text-lg">{VERDICT_SYMBOL[cell.verdict]}</span>
+                                <span class="sr-only">{label}</span>
+                                {note && <span class="block text-xs leading-tight text-muted-foreground">{note}</span>}
+                              </a>
+                            </td>
+                          );
+                        })}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </details>
+          );
+        })}
+      </section>
+    ))
+  }
+
+  <p class="text-muted-foreground">{t("scenarios.silent-note")}</p>
+</Layout>
+
+<style is:global>
+  [data-col].is-highlight {
+    background: color-mix(in oklch, var(--primary) 15%, transparent);
+  }
+</style>
+
+<script>
+  const select = document.querySelector<HTMLSelectElement>("[data-highlight]");
+  const apply = (slug: string) => {
+    document.querySelectorAll<HTMLElement>("[data-col]").forEach((el) => el.classList.toggle("is-highlight", !!slug && el.dataset.col === slug));
+  };
+  const initial = new URLSearchParams(location.search).get("license") ?? "";
+  if (select) {
+    select.value = initial;
+    apply(initial);
+    select.addEventListener("change", () => {
+      apply(select.value);
+      const u = new URL(location.href);
+      if (select.value) u.searchParams.set("license", select.value);
+      else u.searchParams.delete("license");
+      history.replaceState(null, "", u);
+    });
+  }
+  document.querySelectorAll<HTMLButtonElement>("[data-toggle-all]").forEach((b) =>
+    b.addEventListener("click", () => {
+      document.querySelectorAll<HTMLDetailsElement>("details[data-group]").forEach((d) => (d.open = b.dataset.toggleAll === "open"));
+    }),
+  );
+</script>

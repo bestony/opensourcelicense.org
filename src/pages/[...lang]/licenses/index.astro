@@ -1,0 +1,74 @@
+---
+import Layout from "@/layouts/main.astro";
+import PageHeader from "@/components/site/PageHeader.astro";
+import FamilyTag from "@/components/site/FamilyTag.astro";
+import { FAMILIES } from "@/domain/schema";
+import { licenseText, type Locale } from "@/lib/i18n";
+import { localeStaticPaths, pageContext } from "@/lib/page";
+
+export const getStaticPaths = localeStaticPaths;
+const { locale } = Astro.props as { locale: Locale };
+const { cat, t, href } = pageContext(locale);
+const tri = (v: boolean | "unknown") => (v === "unknown" ? t("common.unknown") : v ? "✓" : "✗");
+const families = FAMILIES.filter((f) => cat.licenseList.some((l) => l.family === f));
+---
+
+<Layout locale={locale} title={t("licenses.title")} wide>
+  <PageHeader title={t("licenses.title")} lead={t("licenses.lead", { count: cat.licenses.size })} />
+
+  <div class="mb-4 flex flex-wrap items-center gap-2" role="group" aria-label={t("licenses.filter")} data-family-filter>
+    <button type="button" class="border border-primary bg-primary px-2 text-primary-foreground" data-family="" aria-pressed="true">{t("common.all")}</button>
+    {families.map((f) => <button type="button" class="border border-border px-2" data-family={f} aria-pressed="false">{t(`family.${f}`)}</button>)}
+  </div>
+
+  <div class="overflow-x-auto">
+    <table class="w-full border-collapse text-start">
+      <thead>
+        <tr class="border-b border-border text-muted-foreground">
+          <th class="py-2 pe-4 text-start font-normal">{t("licenses.col.license")}</th>
+          <th class="py-2 pe-4 text-start font-normal">{t("licenses.col.family")}</th>
+          <th class="py-2 pe-4 text-center font-normal">{t("licenses.col.osi")}</th>
+          <th class="py-2 pe-4 text-center font-normal">{t("licenses.col.fsf")}</th>
+          <th class="py-2 pe-4 text-end font-normal">{t("licenses.col.projects")}</th>
+          <th class="py-2 text-start font-normal">{t("license.summary")}</th>
+        </tr>
+      </thead>
+      <tbody>
+        {
+          cat.licenseList.map((l) => (
+            <tr class="border-b border-border align-top" data-row-family={l.family}>
+              <td class="py-2 pe-4">
+                <a href={href(`/licenses/${l.slug}`)} class="text-primary">{l.shortName}</a>
+                <div class="text-sm text-muted-foreground">{l.spdx}</div>
+              </td>
+              <td class="py-2 pe-4"><FamilyTag family={l.family} label={t(`family.${l.family}`)} /></td>
+              <td class="py-2 pe-4 text-center">{tri(l.osi)}</td>
+              <td class="py-2 pe-4 text-center">{tri(l.fsf)}</td>
+              <td class="py-2 pe-4 text-end">{cat.projectsByLicense.get(l.slug)?.length ?? 0}</td>
+              <td class="py-2 text-sm">{licenseText(cat.raw, locale, l.slug)?.value.summary}</td>
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
+  </div>
+</Layout>
+
+<script>
+  const group = document.querySelector("[data-family-filter]");
+  group?.addEventListener("click", (e) => {
+    const btn = (e.target as HTMLElement).closest<HTMLButtonElement>("button[data-family]");
+    if (!btn) return;
+    const fam = btn.dataset.family;
+    group.querySelectorAll<HTMLButtonElement>("button").forEach((b) => {
+      const on = b === btn;
+      b.setAttribute("aria-pressed", String(on));
+      b.classList.toggle("bg-primary", on);
+      b.classList.toggle("text-primary-foreground", on);
+      b.classList.toggle("border-primary", on);
+    });
+    document.querySelectorAll<HTMLElement>("[data-row-family]").forEach((row) => {
+      row.hidden = !!fam && row.dataset.rowFamily !== fam;
+    });
+  });
+</script>

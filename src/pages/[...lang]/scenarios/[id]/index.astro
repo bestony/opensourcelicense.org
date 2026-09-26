@@ -1,0 +1,50 @@
+---
+import Layout from "@/layouts/main.astro";
+import PageHeader from "@/components/site/PageHeader.astro";
+import VerdictBadge from "@/components/site/VerdictBadge.astro";
+import FamilyTag from "@/components/site/FamilyTag.astro";
+import { cellKey } from "@/domain/catalog";
+import { getCatalog } from "@/lib/data";
+import { cellNote, scenarioText, type Locale } from "@/lib/i18n";
+import { localizedStaticPaths, pageContext } from "@/lib/page";
+
+export function getStaticPaths() {
+  return localizedStaticPaths([...getCatalog().scenarios.keys()].map((id) => ({ params: { id } })));
+}
+const { locale } = Astro.props as { locale: Locale };
+const { id } = Astro.params as { id: string };
+const { cat, t, href } = pageContext(locale);
+const s = cat.scenarios.get(id)!;
+const text = scenarioText(cat.raw, locale, id)?.value;
+const cols = cat.matrices.get(s.matrix)!.columns;
+---
+
+<Layout locale={locale} title={`${id} · ${text?.title}`}>
+  <p class="mb-2"><a href={href("/scenarios")}>← {t("scenarios.title")}</a></p>
+  <PageHeader title={`${id} · ${text?.title ?? id}`}>
+    <p class="text-muted-foreground">{t(`group.${s.group}`)} · {text?.actor ? t(`actor.${text.actor}`) : ""}</p>
+    {text?.description && <p>{text.description}</p>}
+  </PageHeader>
+  <ul class="divide-y divide-border border-y border-border">
+    {
+      cols.map((c) => {
+        const lic = cat.licenses.get(c)!;
+        const cell = cat.cells.get(cellKey(id, c))!;
+        const note = cellNote(cat.raw, locale, id, c);
+        return (
+          <li>
+            <a href={href(`/scenarios/${id}/${c}`)} class="grid grid-cols-[8rem_2rem_1fr] items-start gap-3 py-2 no-underline hover:bg-muted sm:grid-cols-[10rem_12rem_2rem_1fr]">
+              <span class="text-primary">{lic.shortName}</span>
+              <span class="hidden sm:block"><FamilyTag family={lic.family} label={t(`family.${lic.family}`)} /></span>
+              <VerdictBadge verdict={cell.verdict} label={t(`verdict.${cell.verdict}`)} />
+              <span>
+                {t(`verdict.${cell.verdict}`)}
+                {note && <span class="text-muted-foreground"> — {note}</span>}
+              </span>
+            </a>
+          </li>
+        );
+      })
+    }
+  </ul>
+</Layout>

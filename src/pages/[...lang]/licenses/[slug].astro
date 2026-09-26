@@ -1,0 +1,174 @@
+---
+import { readFileSync } from "node:fs";
+import Layout from "@/layouts/main.astro";
+import PageHeader from "@/components/site/PageHeader.astro";
+import FamilyTag from "@/components/site/FamilyTag.astro";
+import VerdictBadge from "@/components/site/VerdictBadge.astro";
+import Radar from "@/components/site/Radar.astro";
+import TranslationBadge from "@/components/site/TranslationBadge.astro";
+import { cellKey } from "@/domain/catalog";
+import { computeRadar } from "@/domain/radar";
+import { LOCALE_META } from "@/domain/locales";
+import { getCatalog } from "@/lib/data";
+import { cellNote, DEFAULT_LOCALE, licenseText, scenarioText, type Locale } from "@/lib/i18n";
+import { localizedStaticPaths, pageContext } from "@/lib/page";
+
+export function getStaticPaths() {
+  return localizedStaticPaths([...getCatalog().licenses.keys()].map((slug) => ({ params: { slug } })));
+}
+
+const { locale } = Astro.props as { locale: Locale };
+const { slug } = Astro.params as { slug: string };
+const { cat, t, href, fmtDate } = pageContext(locale);
+const lic = cat.licenses.get(slug)!;
+const text = licenseText(cat.raw, locale, slug);
+const projects = cat.projectsByLicense.get(slug) ?? [];
+const officialOwn = lic.officialTexts[locale];
+const body = lic.hasText ? readFileSync(`data/texts/${slug}.txt`, "utf8") : undefined;
+const sections = [
+  ["license.permissions", lic.permissions, "text-verdict-allow", "+"],
+  ["license.conditions", lic.conditions, "text-verdict-conditional", "!"],
+  ["license.limitations", lic.limitations, "text-verdict-deny", "-"],
+] as const;
+const others = cat.licenseList.filter((l) => l.slug !== slug && l.matrices.some((m) => lic.matrices.includes(m)));
+---
+
+<Layout locale={locale} title={lic.name} description={text?.value.summary}>
+  <PageHeader title={lic.name}>
+    <div class="flex flex-wrap items-center gap-3 text-sm">
+      <FamilyTag family={lic.family} label={t(`family.${lic.family}`)} />
+      <span class="text-muted-foreground">{t("license.spdx")}: <code>{lic.spdx}</code></span>
+      <span class="text-muted-foreground">OSI {lic.osi === true ? "✓" : lic.osi === false ? "✗" : "?"}</span>
+      <span class="text-muted-foreground">{t("common.updated", { date: fmtDate(lic.updatedAt) })}</span>
+      {text && <TranslationBadge t={t} fallback={text.fallback} reviewed={text.reviewed} isDefault={locale === DEFAULT_LOCALE} />}
+    </div>
+  </PageHeader>
+
+  {
+    text && (
+      <section class="mb-10 grid gap-6 md:grid-cols-2">
+        <div class="space-y-3">
+          <h2 class="term-heading text-2xl">{t("license.summary")}</h2>
+          <p class="text-lg">{text.value.summary}</p>
+          {text.value.analogy && (
+            <p class="border-s-2 border-primary ps-3 text-muted-foreground">
+              <span class="text-foreground">{t("license.analogy")}:</span> {text.value.analogy}
+            </p>
+          )}
+        </div>
+        <div class="grid gap-4 sm:grid-cols-2">
+          <div>
+            <h3 class="mb-1 text-verdict-allow">{t("license.pros")}</h3>
+            <ul class="space-y-1">{text.value.pros.map((p) => <li>+ {p}</li>)}</ul>
+          </div>
+          <div>
+            <h3 class="mb-1 text-verdict-deny">{t("license.cons")}</h3>
+            <ul class="space-y-1">{text.value.cons.map((p) => <li>- {p}</li>)}</ul>
+          </div>
+        </div>
+      </section>
+    )
+  }
+
+  <section class="mb-10 grid gap-4 md:grid-cols-3">
+    {
+      sections.map(([key, items, cls, mark]) => (
+        <div class="border border-border p-4">
+          <h2 class:list={["mb-2 text-xl", cls]}>{t(key)}</h2>
+          <ul class="space-y-1">
+            {items.map((i) => (
+              <li>
+                <span class={cls} aria-hidden="true">{mark}</span> {t(`term.${i}`)}
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))
+    }
+  </section>
+
+  {
+    lic.matrices.map((m) => {
+      const scenarios = cat.scenariosByMatrix.get(m) ?? [];
+      const radar = computeRadar(cat, slug, m);
+      const labels = Object.fromEntries(radar.map((p) => [p.id, t(`radar.${p.id}`)]));
+      return (
+        <section class="mb-10">
+          <h2 class="term-heading mb-4 text-2xl">
+            {t("license.scenarios")} · {t(`matrix.${m}`)}
+          </h2>
+          <div class="grid gap-6 lg:grid-cols-[1fr_auto]">
+            <ul class="divide-y divide-border border-y border-border">
+              {scenarios.map((s) => {
+                const cell = cat.cells.get(cellKey(s.id, slug))!;
+                const note = cellNote(cat.raw, locale, s.id, slug);
+                return (
+                  <li>
+                    <a href={href(`/scenarios/${s.id}/${slug}`)} class="flex items-start gap-3 py-2 no-underline hover:bg-muted">
+                      <span class="w-8 shrink-0 text-muted-foreground">{s.id}</span>
+                      <VerdictBadge verdict={cell.verdict} label={t(`verdict.${cell.verdict}`)} class="w-6 shrink-0" />
+                      <span class="flex-1">
+                        {scenarioText(cat.raw, locale, s.id)?.value.title}
+                        {note && <span class="block text-sm text-muted-foreground">{note}</span>}
+                      </span>
+                    </a>
+                  </li>
+                );
+              })}
+            </ul>
+            <div class="space-y-2">
+              <h3 class="text-xl">{t("license.radar")}</h3>
+              <Radar points={radar} labels={labels} title={`${t("license.radar")} — ${lic.shortName}`} />
+              <p class="max-w-xs text-sm text-muted-foreground">{t("radar.note")}</p>
+            </div>
+          </div>
+        </section>
+      );
+    })
+  }
+
+  {
+    projects.length > 0 && (
+      <section class="mb-10">
+        <h2 class="term-heading mb-3 text-2xl">{t("license.projects")}</h2>
+        <ul class="flex flex-wrap gap-2">
+          {projects.map((p) => (
+            <li>
+              <a href={href(`/projects/${p.slug}`)} class="inline-block border border-border px-2 no-underline hover:border-primary">
+                {p.name}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )
+  }
+
+  <section class="mb-10">
+    <h2 class="term-heading mb-3 text-2xl">{t("license.compare")}</h2>
+    <ul class="flex flex-wrap gap-2">
+      {others.map((o) => (
+        <li><a href={`${href("/compare")}?a=${slug}&b=${o.slug}`} class="inline-block border border-border px-2 no-underline hover:border-primary">{o.shortName}</a></li>
+      ))}
+    </ul>
+  </section>
+
+  <section>
+    <h2 class="term-heading mb-3 text-2xl">{t("license.text")}</h2>
+    <p class="mb-2 text-sm text-muted-foreground">{t("license.text.note")}</p>
+    <p class="mb-3 flex flex-wrap gap-4">
+      <a href={lic.textUrl} rel="noopener">{lic.textUrl}</a>
+      {officialOwn && locale !== DEFAULT_LOCALE && (
+        <a href={officialOwn} rel="noopener">{t("license.text.official", { language: LOCALE_META[locale].label })}</a>
+      )}
+    </p>
+    {
+      body && (
+        <details class="border border-border">
+          <summary class="cursor-pointer px-3 py-2">{lic.name}</summary>
+          <pre class="max-h-[32rem] overflow-auto whitespace-pre-wrap px-3 py-2 font-mono text-sm" lang="en">{body}</pre>
+        </details>
+      )
+    }
+  </section>
+</Layout>

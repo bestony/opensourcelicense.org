@@ -1,0 +1,14 @@
+---
+import type { Family } from "@/domain/schema";
+import { FAMILY_CLASS } from "@/domain/verdict";
+
+interface Props {
+  family: Family;
+  label: string;
+}
+const { family, label } = Astro.props;
+---
+
+<span class:list={["inline-flex items-center gap-1 border px-1 text-sm", FAMILY_CLASS[family].text, FAMILY_CLASS[family].border]}>
+  <span aria-hidden="true" class:list={["inline-block size-2", FAMILY_CLASS[family].bg]}></span>{label}
+</span>
