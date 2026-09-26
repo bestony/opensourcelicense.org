@@ -1,3 +1,4 @@
+import { readFileSync } from "node:fs";
 import { describe, expect, it, vi } from "vitest";
 import { isOffloadedPath, offloadKey, pathnameOfBuiltFile } from "@/domain/offload";
 import { createLogger } from "@/lib/log";
@@ -92,5 +93,27 @@ describe("servePage", () => {
     expect(await servePage(new Request("https://x.org/de/projects/redis"), e, ctx(), log, undefined)).toBeUndefined();
     expect(await servePage(new Request("https://x.org/de/projects/redis", { method: "POST" }), e, ctx(), log, undefined)).toBeUndefined();
     expect(await servePage(new Request("https://x.org/de/projects/redis"), { ASSETS: {} as never }, ctx(), log, undefined)).toBeUndefined();
+  });
+});
+
+describe("wrangler run_worker_first", () => {
+  // Deep glob as documented for Workers assets: "*" matches any characters, "!" excludes.
+  const toRegex = (glob: string) => new RegExp(`^${glob.replace(/[.+?^${}()|[\]\\]/g, "\\$&").replaceAll("*", ".*")}$`);
+  const patterns = (() => {
+    const text = readFileSync("wrangler.jsonc", "utf8").replace(/^\s*\/\/.*$/gm, "");
+    return (JSON.parse(text) as { assets: { run_worker_first: string[] } }).assets.run_worker_first;
+  })();
+  const runsWorkerFirst = (path: string) =>
+    patterns.some((p) => !p.startsWith("!") && toRegex(p).test(path)) && !patterns.some((p) => p.startsWith("!") && toRegex(p.slice(1)).test(path));
+
+  it("routes every offloaded page to the Worker and keeps static pages asset-first", () => {
+    for (const path of ["/de/projects/redis", "/zgh/projects/linux", "/pt-br/scenarios/A1/mit", "/ar/scenarios/E6/apache-2.0"]) {
+      expect(isOffloadedPath(path)).toBe(true);
+      expect(runsWorkerFirst(path), path).toBe(true);
+    }
+    for (const path of ["/projects/redis", "/scenarios/A1/mit", "/de/projects/trends", "/de/scenarios/A1", "/de/licenses/mit", "/de"]) {
+      expect(runsWorkerFirst(path), path).toBe(false);
+    }
+    expect(runsWorkerFirst("/api/chat")).toBe(true);
   });
 });

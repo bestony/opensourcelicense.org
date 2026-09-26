@@ -10,7 +10,9 @@
     "not_found_handling": "404-page",
     // Pages are linked without a trailing slash (astro trailingSlash: "never").
     "html_handling": "drop-trailing-slash",
-    "run_worker_first": ["/api/*"]
+    // /api/* and the pages offloaded to R2 (src/domain/offload.ts). Without these patterns,
+    // not_found_handling answers the offloaded pages with 404 before the Worker runs.
+    "run_worker_first": ["/api/*", "/*/projects/*", "/*/scenarios/*/*", "!/*/projects/trends"]
   },
   // Rate limiting is enabled once a KV namespace is bound:
   //   wrangler kv namespace create RATE_LIMIT
