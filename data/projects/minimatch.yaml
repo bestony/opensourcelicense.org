@@ -1,0 +1,7 @@
+name: minimatch
+domain: tooling
+owner: individual
+ownerName: Isaac Z. Schlueter
+repo: isaacs/minimatch
+current:
+  - isc

@@ -1,0 +1,7 @@
+name: Clojure
+domain: language
+owner: individual
+ownerName: Rich Hickey
+repo: clojure/clojure
+current:
+  - epl-1.0

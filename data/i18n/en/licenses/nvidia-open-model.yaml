@@ -1,0 +1,10 @@
+reviewed: true
+summary: "Commercially usable model license: derivatives allowed, NVIDIA claims
+  no rights in outputs, but built-in safety guardrails must not be bypassed."
+analogy: A free engine whose safety belts you must not remove.
+pros:
+  - Commercial use allowed
+  - No claim on outputs
+cons:
+  - Not open source
+  - Guardrail clause needs care

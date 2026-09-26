@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 38b4b3f3e07a3e99
+summary: 可商用的模型许可：允许衍生，NVIDIA 不主张输出权利，但不得绕过内置安全防护。
+analogy: 一台免费发动机，但不能拆掉安全带。
+pros:
+  - 允许商用
+  - 不主张输出权利
+cons:
+  - 不是开源许可证
+  - 防护条款需留意

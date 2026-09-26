@@ -1,0 +1,7 @@
+name: DBI
+domain: database
+owner: community
+ownerName: Tim Bunce and contributors
+homepage: https://metacpan.org/pod/DBI
+current:
+  - perl-5

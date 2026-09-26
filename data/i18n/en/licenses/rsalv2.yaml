@@ -1,0 +1,10 @@
+reviewed: true
+summary: "Source-available license by Redis: free to use and modify, but not to
+  offer the software as a managed service or bypass license keys."
+analogy: Cook with it anywhere, but don't open a store that sells this dish.
+pros:
+  - Targets only managed-service competitors
+  - Short
+cons:
+  - Not open source
+  - Triggered the Valkey fork

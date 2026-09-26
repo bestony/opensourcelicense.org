@@ -1,0 +1,7 @@
+name: Hunyuan3D-2
+domain: ai-model
+owner: company
+ownerName: Tencent
+hf: tencent/Hunyuan3D-2
+current:
+  - hunyuan-community

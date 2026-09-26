@@ -1,0 +1,8 @@
+name: xsv
+domain: tooling
+owner: individual
+ownerName: Andrew Gallant
+repo: BurntSushi/xsv
+current:
+  - mit
+  - unlicense

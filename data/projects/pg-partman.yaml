@@ -1,0 +1,7 @@
+name: pg_partman
+domain: database
+owner: community
+ownerName: pg_partman maintainers
+repo: pgpartman/pg_partman
+current:
+  - postgresql

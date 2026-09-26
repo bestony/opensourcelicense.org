@@ -1,0 +1,7 @@
+name: FLUX.1 Fill [dev]
+domain: ai-model
+owner: company
+ownerName: Black Forest Labs
+hf: black-forest-labs/FLUX.1-Fill-dev
+current:
+  - flux-1-dev-nc

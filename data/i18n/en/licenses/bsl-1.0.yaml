@@ -1,0 +1,10 @@
+reviewed: true
+summary: Permissive license; the notice is required in source copies but not in
+  compiled binaries.
+analogy: Keep the author's name in the recipe book, not on every plate you serve.
+pros:
+  - No notice needed in binaries
+  - Standard for C++ libraries
+cons:
+  - No patent grant
+  - Less known outside C++

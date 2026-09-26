@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 5941dce0a6108d60
+summary: 模块级弱 Copyleft，含专利授权；可指定 GPL 作为次要许可证以获得兼容性。
+analogy: 借来的章节改了要分享，书的其余部分归你。
+pros:
+  - 对商业友好的 Copyleft
+  - 专利授权
+cons:
+  - 仅在声明次要许可证时与 GPL 兼容
+  - 模块边界有时不清晰

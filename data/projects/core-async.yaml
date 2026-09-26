@@ -1,0 +1,7 @@
+name: core.async
+domain: language
+owner: community
+ownerName: Clojure core
+repo: clojure/core.async
+current:
+  - epl-1.0

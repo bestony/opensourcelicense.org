@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 4f54478806088c0d
+summary: Perl 的双许可证：接收者可选 Artistic 1.0 或 GPL（1 或更高版本）。
+analogy: 两本规则手册，挑一本适合你的。
+pros:
+  - 可在偏宽松和 Copyleft 之间选择
+  - CPAN 模块的标准做法
+cons:
+  - Artistic 1.0 措辞模糊
+  - 没有专利授权

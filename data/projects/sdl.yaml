@@ -1,0 +1,7 @@
+name: SDL
+domain: frontend
+owner: community
+ownerName: SDL developers
+repo: libsdl-org/SDL
+current:
+  - zlib

@@ -1,0 +1,11 @@
+reviewed: true
+summary: "Strong copyleft: distributed derivatives must be released in full
+  under GPL-2.0. No explicit patent grant; incompatible with GPL-3.0 unless 'or
+  later' is used."
+analogy: The share-the-recipe rule, in its older edition.
+pros:
+  - Keeps distributed derivatives open
+  - Used by the Linux kernel
+cons:
+  - Incompatible with Apache-2.0 and GPL-3.0 (only version)
+  - No explicit patent grant

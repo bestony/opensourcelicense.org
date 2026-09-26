@@ -1,0 +1,7 @@
+name: GraalPy
+domain: language
+owner: company
+ownerName: Oracle
+repo: oracle/graalpython
+current:
+  - upl-1.0

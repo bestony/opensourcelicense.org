@@ -1,0 +1,7 @@
+name: systemd
+domain: os
+owner: community
+ownerName: systemd project
+repo: systemd/systemd
+current:
+  - lgpl-2.1

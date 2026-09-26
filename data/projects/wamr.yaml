@@ -1,0 +1,7 @@
+name: WebAssembly Micro Runtime
+domain: language
+owner: foundation
+ownerName: Bytecode Alliance
+repo: bytecodealliance/wasm-micro-runtime
+current:
+  - apache-2.0-with-llvm-exception

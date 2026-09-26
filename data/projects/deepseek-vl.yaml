@@ -1,0 +1,7 @@
+name: DeepSeek-VL
+domain: ai-model
+owner: company
+ownerName: DeepSeek
+hf: deepseek-ai/deepseek-vl-7b-chat
+current:
+  - deepseek-model

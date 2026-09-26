@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 626a2a9d93ec9cef
+summary: OpenRAIL 風格的模型許可：允許商用，附帶基於用途的限制，並傳遞給衍生模型。
+analogy: 一件免費工具，每份複製都附著禁止用途清單。
+pros:
+  - 允許商用
+  - 使用限制向下遊傳遞
+cons:
+  - OSI 不認為是開源
+  - 較新的 DeepSeek 模型已改用 MIT

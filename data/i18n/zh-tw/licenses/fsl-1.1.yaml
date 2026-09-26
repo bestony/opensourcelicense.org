@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 3720e103ed28cbd1
+summary: 原始碼可見：除競爭性產品外均可使用，每個版本兩年後轉為 Apache-2.0。
+analogy: 櫥窗裡的商品兩年後對所有人免費。
+pros:
+  - 簡短、可預期
+  - 兩年後程式碼轉為開源
+cons:
+  - 不是開源授權條款
+  - “競爭性使用”有時難以判斷

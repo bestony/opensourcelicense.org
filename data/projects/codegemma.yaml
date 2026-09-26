@@ -1,0 +1,7 @@
+name: CodeGemma
+domain: ai-model
+owner: company
+ownerName: Google
+hf: google/codegemma-7b
+current:
+  - gemma

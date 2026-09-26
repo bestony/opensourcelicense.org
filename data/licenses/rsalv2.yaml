@@ -1,0 +1,25 @@
+spdx: LicenseRef-RSALv2
+name: Redis Source Available License v2
+shortName: RSALv2
+family: source-available
+osi: false
+fsf: false
+permissions:
+  - commercial-use
+  - modification
+  - distribution
+  - private-use
+conditions:
+  - include-copyright
+  - keep-limitations
+limitations:
+  - liability
+  - warranty
+  - no-managed-service
+  - no-license-key-circumvention
+textUrl: https://redis.io/legal/rsalv2-agreement/
+officialTexts: {}
+hasText: false
+matrices:
+  - code
+updatedAt: 2026-09-26

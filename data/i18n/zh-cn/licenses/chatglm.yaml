@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 6b573c3cf6eaeea1
+summary: 权重可免费用于学术研究；登记后可免费商用，需遵守使用限制。
+analogy: 学习免费；用于商业前先登记。
+pros:
+  - 登记后可商用
+  - 中文模型使用广泛
+cons:
+  - 不是开源许可证
+  - 需要登记

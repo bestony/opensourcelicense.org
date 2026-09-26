@@ -1,0 +1,7 @@
+name: dyld
+domain: os
+owner: company
+ownerName: Apple
+repo: apple-oss-distributions/dyld
+current:
+  - apsl-2.0

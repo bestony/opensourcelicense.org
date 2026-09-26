@@ -1,0 +1,23 @@
+spdx: LicenseRef-DeepSeek-Model
+name: DeepSeek License Agreement
+shortName: DeepSeek License
+family: model
+osi: false
+fsf: false
+permissions:
+  - commercial-use
+  - modification
+  - distribution
+conditions:
+  - include-license
+  - use-restrictions-pass-through
+limitations:
+  - liability
+  - warranty
+  - use-restrictions
+textUrl: https://github.com/deepseek-ai/DeepSeek-LLM/blob/main/LICENSE-MODEL
+officialTexts: {}
+hasText: false
+matrices:
+  - model
+updatedAt: 2026-09-26

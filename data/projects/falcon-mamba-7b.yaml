@@ -1,0 +1,7 @@
+name: Falcon Mamba 7B
+domain: ai-model
+owner: company
+ownerName: Technology Innovation Institute
+hf: tiiuae/falcon-mamba-7b
+current:
+  - falcon-llm-2.0

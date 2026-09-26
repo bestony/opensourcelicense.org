@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: f6ef6656ac79990f
+summary: LaTeX 宏包的自由授權條款：修改後的檔案須改名或明確標註，以保證文件在各處排版一致。
+analogy: 可以改字型，但請給你的版本起個新名字。
+pros:
+  - 保證文件可復現
+  - CTAN 的通用做法
+cons:
+  - 改名規則不常見
+  - 與 GPL 不相容

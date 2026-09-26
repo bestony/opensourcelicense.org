@@ -1,0 +1,7 @@
+name: Bullet Physics
+domain: tooling
+owner: community
+ownerName: Bullet developers
+repo: bulletphysics/bullet3
+current:
+  - zlib

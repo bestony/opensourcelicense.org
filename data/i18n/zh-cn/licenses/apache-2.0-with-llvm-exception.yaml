@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: ded3362d69058c2a
+summary: Apache-2.0 加一条例外：编译产物无需署名，并可与 GPL-2.0 项目配合使用。
+analogy: Apache 的工具箱，附一张说明：工具在你产品里留下的部分无需署名。
+pros:
+  - 保留 Apache-2.0 的专利授权
+  - 可与 GPL-2.0 代码配合
+cons:
+  - 比 MIT 长
+  - 例外条款主要面向编译器类项目

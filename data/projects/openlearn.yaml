@@ -1,0 +1,8 @@
+name: OpenLearn
+domain: education
+owner: foundation
+ownerName: The Open University
+homepage: https://www.open.edu/openlearn/
+current:
+  - cc-by-nc-sa-4.0
+needsReview: true

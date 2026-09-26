@@ -1,0 +1,8 @@
+name: Eclipse Mosquitto
+domain: messaging
+owner: foundation
+ownerName: Eclipse Foundation
+repo: eclipse/mosquitto
+current:
+  - epl-2.0
+needsReview: true

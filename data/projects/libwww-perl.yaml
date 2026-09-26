@@ -1,0 +1,7 @@
+name: libwww-perl (LWP)
+domain: web
+owner: community
+ownerName: libwww-perl authors
+repo: libwww-perl/libwww-perl
+current:
+  - perl-5

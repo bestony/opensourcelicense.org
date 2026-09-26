@@ -1,0 +1,7 @@
+name: BLOOM 1B7
+domain: ai-model
+owner: community
+ownerName: BigScience
+hf: bigscience/bloom-1b7
+current:
+  - bloom-rail-1.0

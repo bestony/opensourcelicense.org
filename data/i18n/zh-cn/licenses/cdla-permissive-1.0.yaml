@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 97ea126725162df2
+summary: Linux 基金会的宽松数据许可：可自由使用和分享数据，训练出的模型等结果不受限制。
+analogy: 数据集随便用；转交数据时附上协议即可。
+pros:
+  - 明确不限制计算结果
+  - 专为数据编写
+cons:
+  - 知名度不如 CC
+  - 2.0 版更简洁

@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: ddb7b2f148c13edb
+summary: 帶明示專利授權的簡短寬鬆授權條款，Oracle 在 GraalVM 等專案中使用。
+analogy: MIT 那本免費書，外加一條專利承諾。
+pros:
+  - 簡短寬鬆
+  - 明示專利授權
+cons:
+  - 沒有專利報復條款
+  - 知名度不如 MIT 或 Apache

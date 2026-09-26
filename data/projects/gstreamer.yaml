@@ -1,0 +1,7 @@
+name: GStreamer
+domain: tooling
+owner: community
+ownerName: GStreamer project
+homepage: https://gitlab.freedesktop.org/gstreamer/gstreamer
+current:
+  - lgpl-2.1

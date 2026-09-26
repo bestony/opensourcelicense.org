@@ -1,0 +1,10 @@
+reviewed: true
+summary: Apache-2.0-based model license from TII with an acceptable use policy;
+  commercial use allowed without royalties.
+analogy: Apache's toolkit with a short list of forbidden uses.
+pros:
+  - Royalty-free commercial use
+  - Based on Apache-2.0
+cons:
+  - Not open source by OSI
+  - Use policy can be updated

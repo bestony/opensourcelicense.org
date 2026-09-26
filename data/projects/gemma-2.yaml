@@ -1,0 +1,7 @@
+name: Gemma 2
+domain: ai-model
+owner: company
+ownerName: Google
+hf: google/gemma-2-9b
+current:
+  - gemma

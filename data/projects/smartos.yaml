@@ -1,0 +1,8 @@
+name: SmartOS
+domain: os
+owner: company
+ownerName: MNX Cloud
+repo: TritonDataCenter/smartos-live
+current:
+  - cddl-1.0
+needsReview: true

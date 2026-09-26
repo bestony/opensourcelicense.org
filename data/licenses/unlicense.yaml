@@ -1,0 +1,21 @@
+spdx: Unlicense
+name: The Unlicense
+shortName: Unlicense
+family: permissive
+osi: true
+fsf: true
+permissions:
+  - commercial-use
+  - modification
+  - distribution
+  - private-use
+conditions: []
+limitations:
+  - liability
+  - warranty
+textUrl: https://spdx.org/licenses/Unlicense.html
+officialTexts: {}
+hasText: true
+matrices:
+  - code
+updatedAt: 2026-09-26

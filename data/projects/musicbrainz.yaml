@@ -1,0 +1,7 @@
+name: MusicBrainz core data
+domain: data
+owner: foundation
+ownerName: MetaBrainz Foundation
+homepage: https://musicbrainz.org/doc/About/Data_License
+current:
+  - cc0-1.0

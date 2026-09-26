@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 3440c6c6f7e1c94d
+summary: Apple 的檔案級 Copyleft：修改過的受保護檔案須公開，即使只是對外部署為服務。與 GPL 不相容。
+analogy: 借來的檔案改了要分享，哪怕你只是對外提供服務。
+pros:
+  - 覆蓋對外部署
+  - 專利授權
+cons:
+  - 與 GPL 不相容
+  - 主要用於 Apple 的開源專案

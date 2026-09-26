@@ -1,0 +1,24 @@
+spdx: LicenseRef-Confluent-Community-1.0
+name: Confluent Community License 1.0
+shortName: Confluent CL
+family: source-available
+osi: false
+fsf: false
+permissions:
+  - commercial-use
+  - modification
+  - distribution
+  - private-use
+conditions:
+  - include-copyright
+  - keep-limitations
+limitations:
+  - liability
+  - warranty
+  - no-managed-service
+textUrl: https://www.confluent.io/confluent-community-license
+officialTexts: {}
+hasText: false
+matrices:
+  - code
+updatedAt: 2026-09-26

@@ -1,0 +1,10 @@
+reviewed: true
+summary: "Google's model terms: commercial use allowed, with a prohibited-use
+  policy that passes to every derivative, including distilled models."
+analogy: A free engine with a rulebook that every rebuilt engine must carry.
+pros:
+  - Commercial use without a user threshold
+  - Clear derivative rules
+cons:
+  - Not open source by OSI
+  - Google may update the use policy

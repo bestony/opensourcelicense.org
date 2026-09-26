@@ -1,0 +1,7 @@
+name: Confluent REST Proxy
+domain: messaging
+owner: company
+ownerName: Confluent
+repo: confluentinc/kafka-rest
+current:
+  - confluent-community

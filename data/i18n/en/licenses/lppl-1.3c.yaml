@@ -1,0 +1,10 @@
+reviewed: true
+summary: "Free license for LaTeX packages: modified files must be renamed or
+  clearly marked so documents keep working the same everywhere."
+analogy: You may alter the typeface, but give your version a new name.
+pros:
+  - Keeps documents reproducible
+  - Standard across CTAN
+cons:
+  - Rename rule is unusual
+  - Not GPL-compatible

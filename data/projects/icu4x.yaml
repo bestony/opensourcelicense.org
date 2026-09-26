@@ -1,0 +1,7 @@
+name: ICU4X
+domain: language
+owner: foundation
+ownerName: Unicode Consortium
+repo: unicode-org/icu4x
+current:
+  - unicode-3.0

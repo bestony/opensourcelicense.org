@@ -1,0 +1,7 @@
+name: Ministral 8B
+domain: ai-model
+owner: company
+ownerName: Mistral AI
+hf: mistralai/Ministral-8B-Instruct-2410
+current:
+  - mistral-research

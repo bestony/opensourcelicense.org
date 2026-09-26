@@ -1,0 +1,7 @@
+name: cfn-lint
+domain: devops
+owner: company
+ownerName: AWS
+repo: aws-cloudformation/cfn-lint
+current:
+  - mit-0

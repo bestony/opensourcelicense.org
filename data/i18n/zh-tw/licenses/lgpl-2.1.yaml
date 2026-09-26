@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 22649412ed3dbb5f
+summary: 庫級 Copyleft：對庫的修改須開源；允許閉源程式連結，但須讓使用者能換用修改後的庫重新連結。
+analogy: “可更換的共享發動機”的舊版本。
+pros:
+  - 允許專有應用使用該庫
+  - 桌面與多媒體庫中常見
+cons:
+  - 重連結要求複雜
+  - 沒有明示專利授權

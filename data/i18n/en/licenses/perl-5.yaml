@@ -1,0 +1,10 @@
+reviewed: true
+summary: "Perl's dual license: recipients choose the Artistic License 1.0 or the
+  GPL (version 1 or later)."
+analogy: Pick whichever of two rulebooks suits you.
+pros:
+  - Choice between permissive-ish and copyleft terms
+  - Standard for CPAN modules
+cons:
+  - Artistic 1.0 is vague
+  - No patent grant

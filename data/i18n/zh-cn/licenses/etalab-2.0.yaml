@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: fc00161877a61017
+summary: 法国政府开放许可：可自由复用公共数据（含商用），需署名。
+analogy: 法国公共数据，注明来源即可复用。
+pros:
+  - 署名规则简单
+  - 与 CC BY、ODC-By 兼容
+cons:
+  - 针对法国
+  - 主要用于公共数据

@@ -1,0 +1,8 @@
+name: Falcon-H1
+domain: ai-model
+owner: company
+ownerName: Technology Innovation Institute
+hf: tiiuae/Falcon-H1-7B-Instruct
+current:
+  - falcon-llm-2.0
+needsReview: true

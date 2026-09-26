@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: ddb7b2f148c13edb
+summary: 带明示专利授权的简短宽松许可证，Oracle 在 GraalVM 等项目中使用。
+analogy: MIT 那本免费书，外加一条专利承诺。
+pros:
+  - 简短宽松
+  - 明示专利授权
+cons:
+  - 没有专利报复条款
+  - 知名度不如 MIT 或 Apache

@@ -1,0 +1,7 @@
+name: GLFW
+domain: frontend
+owner: community
+ownerName: GLFW developers
+repo: glfw/glfw
+current:
+  - zlib

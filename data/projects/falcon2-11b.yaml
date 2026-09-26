@@ -1,0 +1,7 @@
+name: Falcon 2 11B
+domain: ai-model
+owner: company
+ownerName: Technology Innovation Institute
+hf: tiiuae/falcon-11B
+current:
+  - falcon-llm-2.0

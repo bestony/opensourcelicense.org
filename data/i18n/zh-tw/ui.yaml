@@ -1,5 +1,5 @@
 reviewed: false
-sourceHash: d83a2e48ed5947b0
+sourceHash: a2d7eb045dde7649
 strings:
   site.name: opensourcelicense.org
   site.tagline: 開源授權條款決策工作臺
@@ -331,3 +331,5 @@ strings:
   check.license-hint: 可以按 “名稱@版本 授權條款ID” 每行一個填寫，或開啟線上查詢。
   notfound.title: 頁面不存在
   notfound.body: 這個頁面不存在，去授權條款庫看看吧。
+  domain.education: 教育
+  domain.design: 字型與設計

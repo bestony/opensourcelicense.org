@@ -1,0 +1,23 @@
+spdx: LicenseRef-BigScience-BLOOM-RAIL-1.0
+name: BigScience BLOOM RAIL License v1.0
+shortName: BLOOM RAIL 1.0
+family: model
+osi: false
+fsf: false
+permissions:
+  - commercial-use
+  - modification
+  - distribution
+conditions:
+  - include-license
+  - use-restrictions-pass-through
+limitations:
+  - liability
+  - warranty
+  - use-restrictions
+textUrl: https://huggingface.co/spaces/bigscience/license
+officialTexts: {}
+hasText: false
+matrices:
+  - model
+updatedAt: 2026-09-26

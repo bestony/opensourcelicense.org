@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: cb1197749de0ea7e
+summary: 允许自由修改和分发，但修改版须明确标注、改名或公开源码；包含专利条款。
+analogy: 可以翻唱，但别把翻唱版当原唱卖。
+pros:
+  - 保护原版的身份
+  - 与 GPL 兼容
+cons:
+  - 条款较繁琐
+  - Raku 与 Perl 之外少见

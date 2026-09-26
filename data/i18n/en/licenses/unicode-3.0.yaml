@@ -1,0 +1,10 @@
+reviewed: true
+summary: Permissive license for Unicode data and software such as ICU and CLDR;
+  keep the notice and do not use the copyright holder's name for promotion.
+analogy: "A free reference book: copy it, keep the credit line."
+pros:
+  - Permissive
+  - Covers data files and code
+cons:
+  - No patent grant
+  - Mostly used for Unicode projects

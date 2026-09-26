@@ -1,0 +1,11 @@
+reviewed: true
+summary: Commercial use allowed with an acceptable use policy; very large
+  services need a separate license, and some territories are excluded.
+analogy: A free engine with a rulebook, a size limit, and a map of where it may
+  be driven.
+pros:
+  - Commercial use for most users
+  - Covers text, video and 3D models
+cons:
+  - Not open source
+  - Territory exclusions

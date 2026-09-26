@@ -1,0 +1,7 @@
+name: JUnit 5
+domain: tooling
+owner: community
+ownerName: JUnit team
+repo: junit-team/junit5
+current:
+  - epl-2.0

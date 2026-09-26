@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 5941dce0a6108d60
+summary: 模組級弱 Copyleft，含專利授權；可指定 GPL 作為次要授權條款以獲得相容性。
+analogy: 借來的章節改了要分享，書的其餘部分歸你。
+pros:
+  - 對商業友好的 Copyleft
+  - 專利授權
+cons:
+  - 僅在宣告次要授權條款時與 GPL 相容
+  - 模組邊界有時不清晰

@@ -1,0 +1,7 @@
+name: pgAdmin 4
+domain: database
+owner: community
+ownerName: pgAdmin team
+repo: pgadmin-org/pgadmin4
+current:
+  - postgresql

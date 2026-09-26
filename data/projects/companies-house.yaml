@@ -1,0 +1,7 @@
+name: Companies House data
+domain: data
+owner: foundation
+ownerName: Companies House
+homepage: https://download.companieshouse.gov.uk/en_output.html
+current:
+  - ogl-uk-3.0

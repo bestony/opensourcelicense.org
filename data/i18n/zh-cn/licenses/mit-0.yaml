@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 8ec9c821f74124a9
+summary: 去掉署名要求的 MIT：使用、复制、售卖都无需保留任何声明。
+analogy: 一本免费书，连封面上的作者名都可以换掉。
+pros:
+  - 无需署名
+  - 适合示例代码和片段
+cons:
+  - 没有专利授权
+  - 作者得不到署名保障

@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 261d8b56fb436858
+summary: 与 MIT 类似：可自由使用代码，源码和二进制分发时保留版权声明与免责声明。
+analogy: 一张免费菜谱卡：随便复印，只要保留底部的作者署名。
+pros:
+  - 非常简短、宽松
+  - BSD 系统广泛采用
+cons:
+  - 没有专利授权
+  - 允许闭源 fork

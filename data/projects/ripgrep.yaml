@@ -1,0 +1,8 @@
+name: ripgrep
+domain: tooling
+owner: individual
+ownerName: Andrew Gallant
+repo: BurntSushi/ripgrep
+current:
+  - mit
+  - unlicense

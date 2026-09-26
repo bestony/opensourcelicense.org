@@ -1,0 +1,7 @@
+name: ChatGLM2-6B
+domain: ai-model
+owner: company
+ownerName: Zhipu AI / THUDM
+hf: THUDM/chatglm2-6b
+current:
+  - chatglm

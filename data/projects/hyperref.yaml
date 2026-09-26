@@ -1,0 +1,7 @@
+name: hyperref
+domain: tooling
+owner: community
+ownerName: The LaTeX Project
+repo: latex3/hyperref
+current:
+  - lppl-1.3c

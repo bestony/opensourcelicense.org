@@ -1,0 +1,7 @@
+name: XNU kernel
+domain: os
+owner: company
+ownerName: Apple
+repo: apple-oss-distributions/xnu
+current:
+  - apsl-2.0

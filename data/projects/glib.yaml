@@ -1,0 +1,7 @@
+name: GLib
+domain: language
+owner: community
+ownerName: GNOME
+homepage: https://gitlab.gnome.org/GNOME/glib
+current:
+  - lgpl-2.1

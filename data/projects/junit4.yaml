@@ -1,0 +1,7 @@
+name: JUnit 4
+domain: tooling
+owner: community
+ownerName: JUnit team
+repo: junit-team/junit4
+current:
+  - epl-1.0

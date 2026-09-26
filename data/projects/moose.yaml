@@ -1,0 +1,7 @@
+name: Moose
+domain: language
+owner: community
+ownerName: Moose authors
+homepage: https://metacpan.org/pod/Moose
+current:
+  - perl-5

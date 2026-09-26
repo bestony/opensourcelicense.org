@@ -1,5 +1,5 @@
 reviewed: false
-sourceHash: d83a2e48ed5947b0
+sourceHash: a2d7eb045dde7649
 strings:
   site.name: opensourcelicense.org
   site.tagline: Рабочее место для выбора лицензий открытого ПО
@@ -355,3 +355,5 @@ strings:
   check.license-hint: Укажите лицензию строками «имя@версия ID-ЛИЦЕНЗИИ» или включите онлайн-поиск.
   notfound.title: Страница не найдена
   notfound.body: Такой страницы нет. Загляните в библиотеку лицензий.
+  domain.education: Образование
+  domain.design: Шрифты и дизайн

@@ -1,0 +1,8 @@
+name: memchr (Rust crate)
+domain: tooling
+owner: individual
+ownerName: Andrew Gallant
+repo: BurntSushi/memchr
+current:
+  - mit
+  - unlicense

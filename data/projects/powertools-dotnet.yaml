@@ -1,0 +1,7 @@
+name: Powertools for AWS Lambda (.NET)
+domain: devops
+owner: company
+ownerName: AWS
+repo: aws-powertools/powertools-lambda-dotnet
+current:
+  - mit-0

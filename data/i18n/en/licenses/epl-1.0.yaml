@@ -1,0 +1,10 @@
+reviewed: true
+summary: Module-level copyleft with a patent grant and New York governing law;
+  incompatible with the GPL.
+analogy: The first edition of the Eclipse chapter-sharing rule.
+pros:
+  - Patent grant
+  - Used by Clojure and JUnit 4
+cons:
+  - Incompatible with the GPL
+  - Superseded by EPL-2.0

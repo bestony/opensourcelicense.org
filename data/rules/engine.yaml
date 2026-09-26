@@ -48,6 +48,29 @@ openness:
 # adoption_goal -> per-license adjustment.
 adoption:
   enterprise:
+    gpl-2.0: -4
+    gpl-2.0-with-classpath-exception: 0
+    lgpl-2.1: 0
+    epl-2.0: 0
+    epl-1.0: -1
+    cddl-1.0: -1
+    apsl-2.0: -2
+    lppl-1.3c: -1
+    perl-5: -1
+    artistic-2.0: -1
+    bsd-2-clause: 3
+    isc: 3
+    zlib: 2
+    bsl-1.0: 2
+    mit-0: 2
+    postgresql: 2
+    unicode-3.0: 1
+    upl-1.0: 2
+    unlicense: 1
+    apache-2.0-with-llvm-exception: 3
+    fsl-1.1: -2
+    rsalv2: -3
+    confluent-community: -2
     mit: 3
     apache-2.0: 4
     bsd-3-clause: 3
@@ -66,6 +89,8 @@ adoption:
     llama: -1
     openrail-m: 0
   community:
+    gpl-2.0: 1
+    cc-by-sa-4.0: 1
     odbl-1.0: 2
     gpl-3.0: 2
     agpl-3.0: 1
@@ -80,6 +105,8 @@ adoption:
     openrail-m: 1
     llama: -1
   monetize:
+    fsl-1.1: 2
+    rsalv2: 1
     agpl-3.0: 3
     busl-1.1: 3
     elv2: 3
@@ -125,8 +152,8 @@ artifactMatrix:
 
 # Optional candidate whitelist per artifact type.
 artifactCandidates:
-  dataset: [cc-by-4.0, cc-by-nc-4.0, odc-by-1.0, odbl-1.0, mit, apache-2.0]
-  docs: [cc-by-4.0, cc-by-nc-4.0]
+  dataset: [cc-by-4.0, cc-by-nc-4.0, cc-by-sa-4.0, cc-by-nc-sa-4.0, cc0-1.0, odc-by-1.0, odbl-1.0, cdla-permissive-1.0, ogl-uk-3.0, etalab-2.0, mit, apache-2.0]
+  docs: [cc-by-4.0, cc-by-nc-4.0, cc-by-sa-4.0, cc-by-nc-sa-4.0, cc0-1.0, gfdl-1.3]
 
 # Radar dimensions per matrix. `score` maps a verdict to 0..1 (higher = more of that dimension).
 radar:

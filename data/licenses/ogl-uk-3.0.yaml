@@ -1,0 +1,23 @@
+spdx: OGL-UK-3.0
+name: Open Government Licence v3.0 (UK)
+shortName: OGL-UK-3.0
+family: content
+osi: false
+fsf: unknown
+permissions:
+  - commercial-use
+  - modification
+  - distribution
+  - private-use
+conditions:
+  - attribution
+limitations:
+  - liability
+  - warranty
+  - trademark-use
+textUrl: https://spdx.org/licenses/OGL-UK-3.0.html
+officialTexts: {}
+hasText: true
+matrices:
+  - model
+updatedAt: 2026-09-26

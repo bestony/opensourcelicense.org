@@ -1,0 +1,7 @@
+name: node-glob
+domain: tooling
+owner: individual
+ownerName: Isaac Z. Schlueter
+repo: isaacs/node-glob
+current:
+  - isc

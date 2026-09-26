@@ -1,0 +1,7 @@
+name: amsmath
+domain: tooling
+owner: foundation
+ownerName: American Mathematical Society
+homepage: https://ctan.org/pkg/amsmath
+current:
+  - lppl-1.3c

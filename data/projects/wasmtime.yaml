@@ -1,0 +1,7 @@
+name: Wasmtime
+domain: language
+owner: foundation
+ownerName: Bytecode Alliance
+repo: bytecodealliance/wasmtime
+current:
+  - apache-2.0-with-llvm-exception

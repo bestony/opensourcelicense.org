@@ -1,0 +1,7 @@
+name: PaliGemma
+domain: ai-model
+owner: company
+ownerName: Google
+hf: google/paligemma-3b-pt-224
+current:
+  - gemma

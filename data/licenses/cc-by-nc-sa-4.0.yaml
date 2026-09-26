@@ -1,0 +1,26 @@
+spdx: CC-BY-NC-SA-4.0
+name: Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+shortName: CC BY-NC-SA 4.0
+family: content
+osi: false
+fsf: false
+permissions:
+  - modification
+  - distribution
+  - private-use
+conditions:
+  - attribution
+  - indicate-changes
+  - same-license
+limitations:
+  - liability
+  - warranty
+  - trademark-use
+  - patent-use
+  - non-commercial
+textUrl: https://spdx.org/licenses/CC-BY-NC-SA-4.0.html
+officialTexts: {}
+hasText: true
+matrices:
+  - model
+updatedAt: 2026-09-26

@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: cec538ff11fd0ee8
+summary: 宽松许可证：修改后的源码须标明已修改，不得歪曲来源，源码副本须保留声明。
+analogy: 借用菜谱可以，但改了之后别说这是原版。
+pros:
+  - 宽松、简短
+  - 游戏与原生库中常见
+cons:
+  - 没有专利授权
+  - 允许闭源 fork

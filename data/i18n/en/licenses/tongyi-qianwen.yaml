@@ -1,0 +1,11 @@
+reviewed: true
+summary: "Alibaba's model license for the largest Qwen models: commercial use
+  allowed, with attribution and a separate license above 100 million monthly
+  active users."
+analogy: A free engine, with a special contract for very large carmakers.
+pros:
+  - Commercial use for most users
+  - Strong multilingual models
+cons:
+  - Not open source
+  - User threshold

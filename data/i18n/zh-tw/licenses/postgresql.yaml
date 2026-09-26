@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: e8b5efadb2a71225
+summary: 與 MIT、BSD 類似的簡短寬鬆授權條款，PostgreSQL 及其生態使用。
+analogy: PostgreSQL 社群版本的“免費書”。
+pros:
+  - 簡短寬鬆
+  - PostgreSQL 生態熟悉
+cons:
+  - 沒有專利授權
+  - 允許閉源 fork

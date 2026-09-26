@@ -1,0 +1,7 @@
+name: Pony compiler
+domain: language
+owner: community
+ownerName: Pony team
+repo: ponylang/ponyc
+current:
+  - bsd-2-clause

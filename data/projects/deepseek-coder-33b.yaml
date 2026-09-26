@@ -1,0 +1,7 @@
+name: DeepSeek Coder 33B
+domain: ai-model
+owner: company
+ownerName: DeepSeek
+hf: deepseek-ai/deepseek-coder-33b-base
+current:
+  - deepseek-model

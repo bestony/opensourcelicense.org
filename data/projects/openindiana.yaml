@@ -1,0 +1,7 @@
+name: OpenIndiana
+domain: os
+owner: community
+ownerName: OpenIndiana
+homepage: https://www.openindiana.org/
+current:
+  - cddl-1.0

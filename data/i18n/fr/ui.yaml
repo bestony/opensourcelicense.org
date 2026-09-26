@@ -1,5 +1,5 @@
 reviewed: false
-sourceHash: d83a2e48ed5947b0
+sourceHash: a2d7eb045dde7649
 strings:
   site.name: opensourcelicense.org
   site.tagline: Un atelier de décision pour les licences open source
@@ -366,3 +366,5 @@ strings:
     ID-LICENCE », ou activez la recherche en ligne.
   notfound.title: Page introuvable
   notfound.body: Cette page n'existe pas. Essayez la bibliothèque de licences.
+  domain.education: Éducation
+  domain.design: Polices et design

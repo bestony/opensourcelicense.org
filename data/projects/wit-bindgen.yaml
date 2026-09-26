@@ -1,0 +1,7 @@
+name: wit-bindgen
+domain: tooling
+owner: foundation
+ownerName: Bytecode Alliance
+repo: bytecodealliance/wit-bindgen
+current:
+  - apache-2.0-with-llvm-exception

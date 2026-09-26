@@ -1,0 +1,8 @@
+name: Truffle Language Framework
+domain: language
+owner: company
+ownerName: Oracle
+repo: oracle/graal
+current:
+  - upl-1.0
+needsReview: true

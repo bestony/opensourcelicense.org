@@ -1,0 +1,10 @@
+reviewed: true
+summary: "An OpenRAIL-style model license: commercial use allowed, with
+  use-based restrictions that pass to derivatives."
+analogy: A free tool with a forbidden-uses list attached to every copy.
+pros:
+  - Commercial use allowed
+  - Use restrictions travel downstream
+cons:
+  - Not open source by OSI
+  - Newer DeepSeek models moved to MIT

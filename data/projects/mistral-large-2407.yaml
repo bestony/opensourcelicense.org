@@ -1,0 +1,7 @@
+name: Mistral Large 2 (2407)
+domain: ai-model
+owner: company
+ownerName: Mistral AI
+hf: mistralai/Mistral-Large-Instruct-2407
+current:
+  - mistral-research

@@ -1,0 +1,7 @@
+name: ksqlDB
+domain: messaging
+owner: company
+ownerName: Confluent
+repo: confluentinc/ksql
+current:
+  - confluent-community

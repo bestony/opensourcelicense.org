@@ -1,0 +1,7 @@
+name: Perl 5
+domain: language
+owner: community
+ownerName: Perl 5 Porters
+repo: Perl/perl5
+current:
+  - perl-5

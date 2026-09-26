@@ -1,5 +1,5 @@
 reviewed: false
-sourceHash: d83a2e48ed5947b0
+sourceHash: a2d7eb045dde7649
 strings:
   site.name: opensourcelicense.org
   site.tagline: Un banco de trabajo para decidir licencias de código abierto
@@ -360,3 +360,5 @@ strings:
     activa la consulta en línea.
   notfound.title: Página no encontrada
   notfound.body: Esta página no existe. Prueba con la biblioteca de licencias.
+  domain.education: Educación
+  domain.design: Tipografías y diseño

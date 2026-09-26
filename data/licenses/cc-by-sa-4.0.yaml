@@ -1,0 +1,26 @@
+spdx: CC-BY-SA-4.0
+name: Creative Commons Attribution-ShareAlike 4.0
+shortName: CC BY-SA 4.0
+family: content
+osi: false
+fsf: true
+permissions:
+  - commercial-use
+  - modification
+  - distribution
+  - private-use
+conditions:
+  - attribution
+  - indicate-changes
+  - same-license
+limitations:
+  - liability
+  - warranty
+  - trademark-use
+  - patent-use
+textUrl: https://spdx.org/licenses/CC-BY-SA-4.0.html
+officialTexts: {}
+hasText: true
+matrices:
+  - model
+updatedAt: 2026-09-26

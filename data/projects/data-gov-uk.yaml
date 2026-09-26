@@ -1,0 +1,7 @@
+name: data.gov.uk
+domain: data
+owner: foundation
+ownerName: UK Government
+homepage: https://www.data.gov.uk/
+current:
+  - ogl-uk-3.0

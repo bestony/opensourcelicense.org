@@ -1,0 +1,7 @@
+name: GNU Classpath
+domain: language
+owner: foundation
+ownerName: Free Software Foundation
+homepage: https://www.gnu.org/software/classpath/
+current:
+  - gpl-2.0-with-classpath-exception

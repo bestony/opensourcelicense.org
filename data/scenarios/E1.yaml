@@ -23,3 +23,43 @@ cells:
     verdict: allow
   odbl-1.0:
     verdict: allow
+  cc0-1.0:
+    verdict: allow
+  cc-by-sa-4.0:
+    verdict: allow
+  cc-by-nc-sa-4.0:
+    verdict: conditional
+  gfdl-1.3:
+    verdict: allow
+  ofl-1.1:
+    verdict: allow
+  cdla-permissive-1.0:
+    verdict: allow
+  ogl-uk-3.0:
+    verdict: allow
+  etalab-2.0:
+    verdict: allow
+  gemma:
+    verdict: deny
+  deepseek-model:
+    verdict: deny
+  bloom-rail-1.0:
+    verdict: deny
+  stability-community:
+    verdict: deny
+  flux-1-dev-nc:
+    verdict: deny
+  hunyuan-community:
+    verdict: deny
+  mistral-research:
+    verdict: conditional
+  tongyi-qianwen:
+    verdict: conditional
+  falcon-llm-2.0:
+    verdict: deny
+  nvidia-open-model:
+    verdict: conditional
+  baichuan-2:
+    verdict: deny
+  chatglm:
+    verdict: deny

@@ -1,0 +1,8 @@
+name: Mistral Small (2409)
+domain: ai-model
+owner: company
+ownerName: Mistral AI
+hf: mistralai/Mistral-Small-Instruct-2409
+current:
+  - mistral-research
+needsReview: true

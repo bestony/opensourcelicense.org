@@ -1,0 +1,7 @@
+name: Rakudo (Raku)
+domain: language
+owner: community
+ownerName: Raku community
+repo: rakudo/rakudo
+current:
+  - artistic-2.0

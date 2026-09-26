@@ -1,0 +1,7 @@
+name: Mistral-NeMo-Minitron 8B
+domain: ai-model
+owner: company
+ownerName: NVIDIA
+hf: nvidia/Mistral-NeMo-Minitron-8B-Base
+current:
+  - nvidia-open-model

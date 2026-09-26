@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 7d5b7fb367f9a074
+summary: 模型权重仅限非商业使用；权重的商业使用需向 Black Forest Labs 另行取得许可。
+analogy: 相机可以借去做自己的项目，但不能接商单。
+pros:
+  - 研究与业余用途开放权重
+  - 商业路径清晰
+cons:
+  - 不是开源许可证
+  - 商用需付费许可

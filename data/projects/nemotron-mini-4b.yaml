@@ -1,0 +1,8 @@
+name: Nemotron-Mini-4B
+domain: ai-model
+owner: company
+ownerName: NVIDIA
+hf: nvidia/Nemotron-Mini-4B-Instruct
+current:
+  - nvidia-open-model
+needsReview: true

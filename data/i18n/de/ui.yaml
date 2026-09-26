@@ -1,5 +1,5 @@
 reviewed: false
-sourceHash: d83a2e48ed5947b0
+sourceHash: a2d7eb045dde7649
 strings:
   site.name: opensourcelicense.org
   site.tagline: Eine Entscheidungswerkbank für Open-Source-Lizenzen
@@ -367,3 +367,5 @@ strings:
     oder aktivieren Sie die Online-Suche.
   notfound.title: Seite nicht gefunden
   notfound.body: Diese Seite gibt es nicht. Versuchen Sie es mit der Lizenzbibliothek.
+  domain.education: Bildung
+  domain.design: Schriften und Design

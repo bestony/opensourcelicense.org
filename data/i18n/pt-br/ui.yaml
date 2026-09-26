@@ -1,5 +1,5 @@
 reviewed: false
-sourceHash: d83a2e48ed5947b0
+sourceHash: a2d7eb045dde7649
 strings:
   site.name: opensourcelicense.org
   site.tagline: Uma bancada de decisão para licenças de código aberto
@@ -357,3 +357,5 @@ strings:
     ative a consulta online.
   notfound.title: Página não encontrada
   notfound.body: Esta página não existe. Experimente a biblioteca de licenças.
+  domain.education: Educação
+  domain.design: Fontes e design

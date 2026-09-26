@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 72d99432db49e19d
+summary: 适用于 ICU、CLDR 等 Unicode 数据与软件的宽松许可证；须保留声明，不得用版权方名义宣传。
+analogy: 一本免费参考书：随便复制，保留署名即可。
+pros:
+  - 宽松
+  - 同时覆盖数据文件和代码
+cons:
+  - 没有专利授权
+  - 主要用于 Unicode 项目

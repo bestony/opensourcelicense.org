@@ -1,0 +1,7 @@
+name: Unicode Character Database
+domain: data
+owner: foundation
+ownerName: Unicode Consortium
+homepage: https://www.unicode.org/license.txt
+current:
+  - unicode-3.0

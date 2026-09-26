@@ -1,0 +1,8 @@
+name: Codecov
+domain: devops
+owner: company
+ownerName: Sentry
+homepage: https://about.codecov.io/blog/codecov-is-now-open-source/
+current:
+  - fsl-1.1
+needsReview: true

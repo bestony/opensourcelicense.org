@@ -1,0 +1,7 @@
+name: Eclipse IDE
+domain: tooling
+owner: foundation
+ownerName: Eclipse Foundation
+homepage: https://www.eclipse.org/eclipseide/
+current:
+  - epl-2.0

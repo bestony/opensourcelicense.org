@@ -1,0 +1,7 @@
+name: Stable Audio Open
+domain: ai-model
+owner: company
+ownerName: Stability AI
+hf: stabilityai/stable-audio-open-1.0
+current:
+  - stability-community

@@ -1,0 +1,23 @@
+spdx: LPPL-1.3c
+name: LaTeX Project Public License v1.3c
+shortName: LPPL-1.3c
+family: weak-copyleft
+osi: true
+fsf: true
+permissions:
+  - commercial-use
+  - modification
+  - distribution
+  - private-use
+conditions:
+  - include-copyright
+  - document-changes
+limitations:
+  - liability
+  - warranty
+textUrl: https://spdx.org/licenses/LPPL-1.3c.html
+officialTexts: {}
+hasText: true
+matrices:
+  - code
+updatedAt: 2026-09-26

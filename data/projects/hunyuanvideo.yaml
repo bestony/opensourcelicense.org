@@ -1,0 +1,7 @@
+name: HunyuanVideo
+domain: ai-model
+owner: company
+ownerName: Tencent
+hf: tencent/HunyuanVideo
+current:
+  - hunyuan-community

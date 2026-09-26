@@ -1,0 +1,10 @@
+reviewed: true
+summary: "Library copyleft: changes to the library stay open; closed programs
+  may link to it if users can relink with a modified library."
+analogy: The older edition of the replaceable shared engine.
+pros:
+  - Lets proprietary apps use the library
+  - Common in desktop and multimedia libraries
+cons:
+  - Relinking rules are complex
+  - No explicit patent grant

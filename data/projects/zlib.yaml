@@ -1,0 +1,7 @@
+name: zlib
+domain: tooling
+owner: individual
+ownerName: Jean-loup Gailly and Mark Adler
+repo: madler/zlib
+current:
+  - zlib

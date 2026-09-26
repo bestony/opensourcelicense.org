@@ -1,0 +1,7 @@
+name: LZ4
+domain: tooling
+owner: individual
+ownerName: Yann Collet
+repo: lz4/lz4
+current:
+  - bsd-2-clause

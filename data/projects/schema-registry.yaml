@@ -1,0 +1,7 @@
+name: Confluent Schema Registry
+domain: messaging
+owner: company
+ownerName: Confluent
+repo: confluentinc/schema-registry
+current:
+  - confluent-community

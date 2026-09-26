@@ -1,0 +1,7 @@
+name: DeepSeek-Coder-V2
+domain: ai-model
+owner: company
+ownerName: DeepSeek
+hf: deepseek-ai/DeepSeek-Coder-V2-Instruct
+current:
+  - deepseek-model

@@ -1,0 +1,7 @@
+name: DeepSeek LLM 67B
+domain: ai-model
+owner: company
+ownerName: DeepSeek
+hf: deepseek-ai/deepseek-llm-67b-base
+current:
+  - deepseek-model

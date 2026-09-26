@@ -1,0 +1,21 @@
+spdx: MIT-0
+name: MIT No Attribution
+shortName: MIT-0
+family: permissive
+osi: true
+fsf: unknown
+permissions:
+  - commercial-use
+  - modification
+  - distribution
+  - private-use
+conditions: []
+limitations:
+  - liability
+  - warranty
+textUrl: https://spdx.org/licenses/MIT-0.html
+officialTexts: {}
+hasText: true
+matrices:
+  - code
+updatedAt: 2026-09-26

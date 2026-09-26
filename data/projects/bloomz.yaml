@@ -1,0 +1,7 @@
+name: BLOOMZ
+domain: ai-model
+owner: community
+ownerName: BigScience
+hf: bigscience/bloomz
+current:
+  - bloom-rail-1.0

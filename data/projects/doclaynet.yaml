@@ -1,0 +1,7 @@
+name: DocLayNet
+domain: data
+owner: company
+ownerName: IBM
+repo: DS4SD/DocLayNet
+current:
+  - cdla-permissive-1.0

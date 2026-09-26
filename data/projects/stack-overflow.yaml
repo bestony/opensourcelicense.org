@@ -1,0 +1,7 @@
+name: Stack Overflow content
+domain: cms
+owner: company
+ownerName: Stack Exchange
+homepage: https://stackoverflow.com/help/licensing
+current:
+  - cc-by-sa-4.0

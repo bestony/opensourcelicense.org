@@ -1,0 +1,7 @@
+name: LaTeX2e
+domain: tooling
+owner: community
+ownerName: The LaTeX Project
+repo: latex3/latex2e
+current:
+  - lppl-1.3c

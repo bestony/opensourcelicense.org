@@ -1,0 +1,7 @@
+name: pg_cron
+domain: database
+owner: company
+ownerName: Citus Data (Microsoft)
+repo: citusdata/pg_cron
+current:
+  - postgresql

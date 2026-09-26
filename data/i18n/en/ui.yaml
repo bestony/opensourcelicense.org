@@ -2,7 +2,8 @@ reviewed: true
 strings:
   site.name: opensourcelicense.org
   site.tagline: A decision workbench for open source licenses
-  site.description: Choose, compare and stress-test open source licenses. See what real projects use, what can go wrong, and what fits your project.
+  site.description: Choose, compare and stress-test open source licenses. See what
+    real projects use, what can go wrong, and what fits your project.
   nav.home: Home
   nav.licenses: Licenses
   nav.scenarios: Scenarios
@@ -17,11 +18,12 @@ strings:
   lang.suggest: This page is available in {language}.
   lang.suggest.go: Switch
   lang.suggest.dismiss: Dismiss
-  footer.disclaimer: This site gives general information, not legal advice. For a real dispute or contract, talk to a lawyer.
+  footer.disclaimer: This site gives general information, not legal advice. For a
+    real dispute or contract, talk to a lawyer.
   footer.source: Source code (AGPL-3.0)
   footer.data: Data under CC-BY-4.0
   footer.report: Report an error
-  footer.cite: "Data from opensourcelicense.org, CC-BY-4.0"
+  footer.cite: Data from opensourcelicense.org, CC-BY-4.0
   footer.hosting: Runs on the Cloudflare Workers free plan
   footer.dns: Domain hosted on Cloudflare
   badge.machine: Machine translation
@@ -36,8 +38,8 @@ strings:
   common.download: Download
   common.close: Close
   common.all: All
-  common.yes: "Yes"
-  common.no: "No"
+  common.yes: Yes
+  common.no: No
   common.unknown: Unknown
   common.none: None
   common.more: More
@@ -45,9 +47,11 @@ strings:
   common.error: Something went wrong.
   common.search: Search
   home.title: Pick an open source license with your eyes open
-  home.lead: Not only "which license", but what similar projects chose, what the worst case looks like, and what to do next.
+  home.lead: Not only "which license", but what similar projects chose, what the
+    worst case looks like, and what to do next.
   home.entry.chat.title: Talk to the AI advisor
-  home.entry.chat.body: Describe your project in your own words. Get a profile, follow-up questions and a report.
+  home.entry.chat.body: Describe your project in your own words. Get a profile,
+    follow-up questions and a report.
   home.entry.projects.title: See what others use
   home.entry.projects.body: Licenses of well-known projects, and why some of them changed.
   home.entry.wizard.title: Filter step by step
@@ -68,7 +72,8 @@ strings:
   verdict.deny: Blocked by license
   verdict.silent: Not addressed
   verdict.tbd: Under review
-  verdict.legend: "Legend: ✓ the other party can do this · ◐ with conditions · ✗ the license blocks it · — the license is silent (general law applies)"
+  verdict.legend: "Legend: ✓ the other party can do this · ◐ with conditions · ✗
+    the license blocks it · — the license is silent (general law applies)"
   actor.other: Someone else does this
   actor.you: You want to do this
   actor.contributor: A contributor does this
@@ -150,13 +155,17 @@ strings:
   radar.misuse-control: Misuse control
   radar.derivative-control: Derivative control
   radar.commercial-control: Commercial control
-  radar.note: Computed from the scenario matrix. Higher means more of that property, not "better".
+  radar.note: Computed from the scenario matrix. Higher means more of that
+    property, not "better".
   scenarios.title: Extreme scenario matrix
-  scenarios.lead: What happens after you pick a license? Each cell answers one question and has its own page.
+  scenarios.lead: What happens after you pick a license? Each cell answers one
+    question and has its own page.
   scenarios.highlight: Highlight a license
   scenarios.expand: Expand all
   scenarios.collapse: Collapse all
-  scenarios.silent-note: Rows with only "—" are here on purpose. The answer depends on employment contracts (C6), export-control law (D5) or ongoing lawsuits (D6), not on the license.
+  scenarios.silent-note: Rows with only "—" are here on purpose. The answer
+    depends on employment contracts (C6), export-control law (D5) or ongoing
+    lawsuits (D6), not on the license.
   scenario.flow.you: You publish under {license}
   scenario.flow.they: The situation
   scenario.flow.result: Result
@@ -169,14 +178,16 @@ strings:
   scenario.review.none: Not yet reviewed by a lawyer.
   scenario.review.done: Reviewed by {who} on {date}.
   compare.title: Compare licenses
-  compare.lead: Pick two or three licenses to compare clause by clause and scenario by scenario.
+  compare.lead: Pick two or three licenses to compare clause by clause and
+    scenario by scenario.
   compare.pick: Add a license
   compare.remove: Remove
   compare.terms: Terms
   compare.scenarios: Scenarios
   compare.empty: Select at least two licenses.
   wizard.title: License wizard
-  wizard.lead: Answer a few questions. The rule engine ranks the licenses and explains every point.
+  wizard.lead: Answer a few questions. The rule engine ranks the licenses and
+    explains every point.
   wizard.next: Next
   wizard.prev: Back
   wizard.finish: See the result
@@ -227,15 +238,18 @@ strings:
   engine.part.dependency: "Only compatible with conditions: {dependency}"
   engine.excluded.dependency: Incompatible with dependency {dependency}
   engine.excluded.artifact: Not suitable for this kind of artifact
-  advisory.needs-cla: Use a Contributor License Agreement (CLA). You will need it to sell commercial licenses or change the license later.
+  advisory.needs-cla: Use a Contributor License Agreement (CLA). You will need it
+    to sell commercial licenses or change the license later.
   advisory.consider-dco: A Developer Certificate of Origin (DCO, "Signed-off-by") is usually enough.
-  advisory.busl-change-date: Set the Additional Use Grant, the Change Date and the Change License in the BSL header.
+  advisory.busl-change-date: Set the Additional Use Grant, the Change Date and the
+    Change License in the BSL header.
   advisory.model-card: Put the license in the model or dataset card metadata ("license:" field).
   advisory.notice-file: Add a NOTICE file and keep it when you redistribute.
   advisory.consult-lawyer: Ask a lawyer to check the dependency and business terms before you release.
   advisory.network-source-link: Show a "Source code" link to users of your network service.
   report.title: Your license report
-  report.lead: This report is computed in your browser from the profile in the link. Share the link to share the report.
+  report.lead: This report is computed in your browser from the profile in the
+    link. Share the link to share the report.
   report.profile: Project profile
   report.edit: Edit in the wizard
   report.top: Recommended
@@ -253,8 +267,10 @@ strings:
   report.invalid: This report link is broken or from an old version.
   report.empty: No profile yet. Start with the wizard or the AI advisor.
   chat.title: AI license advisor
-  chat.lead: Describe your project. The advisor asks follow-up questions, the rule engine picks the licenses, and the advisor explains them.
-  chat.placeholder: "For example: I built a vector database and I worry cloud vendors will resell it."
+  chat.lead: Describe your project. The advisor asks follow-up questions, the rule
+    engine picks the licenses, and the advisor explains them.
+  chat.placeholder: "For example: I built a vector database and I worry cloud
+    vendors will resell it."
   chat.send: Send
   chat.stop: Stop
   chat.examples: Try an example
@@ -268,7 +284,8 @@ strings:
   chat.limit: You reached today's limit. Please try again tomorrow or use the wizard.
   chat.error: The advisor is not available right now. The wizard still works.
   chat.verify: Please confirm you are human.
-  chat.disclaimer: The advisor can make mistakes. Recommendations come from the rule engine, and this is not legal advice.
+  chat.disclaimer: The advisor can make mistakes. Recommendations come from the
+    rule engine, and this is not legal advice.
   chat.report: Open the full report
   projects.title: Project license map
   projects.lead: Licenses of well-known projects and the story behind every change.
@@ -312,7 +329,8 @@ strings:
   search.lead: Search licenses, scenarios and projects in this language.
   search.noscript: Search needs JavaScript.
   check.title: Dependency license check
-  check.lead: Paste a package.json, go.mod, Gemfile.lock, Cargo.toml or requirements.txt. Parsing happens in your browser.
+  check.lead: Paste a package.json, go.mod, Gemfile.lock, Cargo.toml or
+    requirements.txt. Parsing happens in your browser.
   check.project-license: Your project license
   check.input: Manifest
   check.run: Check
@@ -327,6 +345,9 @@ strings:
   check.summary: "{ok} compatible, {warn} with conditions, {bad} conflicts, {unknown} unknown"
   check.format: "Detected format: {format}"
   check.no-deps: No dependencies found.
-  check.license-hint: Add the license in the manifest as "name@version LICENSE-ID" lines, or enable online lookup.
+  check.license-hint: Add the license in the manifest as "name@version LICENSE-ID"
+    lines, or enable online lookup.
   notfound.title: Page not found
   notfound.body: This page does not exist. Try the license library.
+  domain.education: Education
+  domain.design: Fonts and design

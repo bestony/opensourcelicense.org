@@ -1,0 +1,24 @@
+spdx: GFDL-1.3-only
+name: GNU Free Documentation License v1.3 only
+shortName: GFDL-1.3
+family: content
+osi: false
+fsf: true
+permissions:
+  - commercial-use
+  - modification
+  - distribution
+  - private-use
+conditions:
+  - include-copyright
+  - same-license
+  - document-changes
+limitations:
+  - liability
+  - warranty
+textUrl: https://spdx.org/licenses/GFDL-1.3-only.html
+officialTexts: {}
+hasText: true
+matrices:
+  - model
+updatedAt: 2026-09-26

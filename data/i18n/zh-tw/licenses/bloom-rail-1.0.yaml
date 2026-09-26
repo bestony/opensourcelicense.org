@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 76c3b4e3dc7fbff1
+summary: 首個面向大語言模型的負責任 AI 許可：開放獲取，附帶約束衍生模型的用途限制。
+analogy: 一件免費工具，每份複製都附著禁止用途清單。
+pros:
+  - 允許商用
+  - 開創了 RAIL 許可
+cons:
+  - OSI 不認為是開源
+  - 限制難以執行

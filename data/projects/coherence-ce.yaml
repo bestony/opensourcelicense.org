@@ -1,0 +1,7 @@
+name: Coherence Community Edition
+domain: database
+owner: company
+ownerName: Oracle
+repo: oracle/coherence
+current:
+  - upl-1.0

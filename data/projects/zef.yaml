@@ -1,0 +1,8 @@
+name: zef
+domain: tooling
+owner: individual
+ownerName: Nick Logan
+repo: ugexe/zef
+current:
+  - artistic-2.0
+needsReview: true

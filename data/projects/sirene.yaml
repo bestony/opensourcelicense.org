@@ -1,0 +1,7 @@
+name: Sirene database
+domain: data
+owner: foundation
+ownerName: INSEE
+homepage: https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/
+current:
+  - etalab-2.0

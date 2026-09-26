@@ -1,0 +1,10 @@
+reviewed: true
+summary: Weak copyleft at the module level with a patent grant; can name the GPL
+  as a secondary license for compatibility.
+analogy: Share your changes to the borrowed chapter; the rest of the book is yours.
+pros:
+  - Business-friendly copyleft
+  - Patent grant
+cons:
+  - GPL compatibility only with a declared secondary license
+  - Module boundaries can be unclear

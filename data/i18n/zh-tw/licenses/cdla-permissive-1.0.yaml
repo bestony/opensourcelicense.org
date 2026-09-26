@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 97ea126725162df2
+summary: Linux 基金會的寬鬆資料許可：可自由使用和分享資料，訓練出的模型等結果不受限制。
+analogy: 資料集隨便用；轉交資料時附上協議即可。
+pros:
+  - 明確不限制計算結果
+  - 專為資料編寫
+cons:
+  - 知名度不如 CC
+  - 2.0 版更簡潔

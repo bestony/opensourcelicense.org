@@ -1,0 +1,7 @@
+name: Phobos (D standard library)
+domain: language
+owner: foundation
+ownerName: D Language Foundation
+repo: dlang/phobos
+current:
+  - bsl-1.0

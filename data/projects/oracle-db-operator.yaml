@@ -1,0 +1,8 @@
+name: Oracle Database Operator for Kubernetes
+domain: devops
+owner: company
+ownerName: Oracle
+repo: oracle/oracle-database-operator
+current:
+  - upl-1.0
+needsReview: true

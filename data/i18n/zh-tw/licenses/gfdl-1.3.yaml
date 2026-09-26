@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: c732ed2e04240901
+summary: 手冊的 Copyleft：副本與修改版須保持 GFDL，並保留歷史與不變章節。
+analogy: 給菜譜書的說明書也加上“交出菜譜”的規則。
+pros:
+  - 保持文件自由
+  - GNU 手冊採用
+cons:
+  - 不變章節存在爭議
+  - 難以與 CC 內容混用

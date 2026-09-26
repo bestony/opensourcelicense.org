@@ -1,0 +1,27 @@
+spdx: APSL-2.0
+name: Apple Public Source License 2.0
+shortName: APSL-2.0
+family: weak-copyleft
+osi: true
+fsf: true
+permissions:
+  - commercial-use
+  - modification
+  - distribution
+  - private-use
+  - patent-use
+conditions:
+  - include-copyright
+  - disclose-source
+  - same-license-file
+  - network-use-disclose
+limitations:
+  - liability
+  - warranty
+  - trademark-use
+textUrl: https://spdx.org/licenses/APSL-2.0.html
+officialTexts: {}
+hasText: true
+matrices:
+  - code
+updatedAt: 2026-09-26

@@ -1,0 +1,10 @@
+reviewed: true
+summary: "A shorter MIT-equivalent license: any use with the copyright and
+  permission notice kept."
+analogy: The same free book as MIT, with a shorter note on the cover.
+pros:
+  - Shortest common permissive license
+  - Default for many npm packages
+cons:
+  - No patent grant
+  - Closed forks are allowed

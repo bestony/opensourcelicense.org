@@ -1,0 +1,7 @@
+name: youtube-dl
+domain: tooling
+owner: community
+ownerName: ytdl-org
+repo: ytdl-org/youtube-dl
+current:
+  - unlicense

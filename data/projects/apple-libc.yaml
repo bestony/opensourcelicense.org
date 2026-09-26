@@ -1,0 +1,7 @@
+name: Apple Libc
+domain: os
+owner: company
+ownerName: Apple
+repo: apple-oss-distributions/Libc
+current:
+  - apsl-2.0

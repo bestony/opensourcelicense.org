@@ -1,0 +1,7 @@
+name: PubTabNet
+domain: data
+owner: company
+ownerName: IBM
+repo: ibm-aur-nlp/PubTabNet
+current:
+  - cdla-permissive-1.0

@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 6b573c3cf6eaeea1
+summary: 權重可免費用於學術研究；登記後可免費商用，需遵守使用限制。
+analogy: 學習免費；用於商業前先登記。
+pros:
+  - 登記後可商用
+  - 中文模型使用廣泛
+cons:
+  - 不是開源授權條款
+  - 需要登記

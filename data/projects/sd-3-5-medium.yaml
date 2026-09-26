@@ -1,0 +1,7 @@
+name: Stable Diffusion 3.5 Medium
+domain: ai-model
+owner: company
+ownerName: Stability AI
+hf: stabilityai/stable-diffusion-3.5-medium
+current:
+  - stability-community

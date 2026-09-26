@@ -1,0 +1,7 @@
+name: Leiningen
+domain: tooling
+owner: individual
+ownerName: Phil Hagelberg
+repo: technomancy/leiningen
+current:
+  - epl-1.0

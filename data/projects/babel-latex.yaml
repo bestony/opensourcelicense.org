@@ -1,0 +1,7 @@
+name: babel (LaTeX)
+domain: tooling
+owner: community
+ownerName: The LaTeX Project
+repo: latex3/babel
+current:
+  - lppl-1.3c

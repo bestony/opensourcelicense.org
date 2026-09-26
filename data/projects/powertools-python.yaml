@@ -1,0 +1,7 @@
+name: Powertools for AWS Lambda (Python)
+domain: devops
+owner: company
+ownerName: AWS
+repo: aws-powertools/powertools-lambda-python
+current:
+  - mit-0

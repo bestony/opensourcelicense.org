@@ -1,25 +1,44 @@
-# Licenses that projects use but that are not (yet) in the scenario matrices.
-# id -> display name and family (for colouring and filters).
-gpl-2.0: { name: GPL-2.0, family: strong-copyleft, spdx: GPL-2.0-only }
-gpl-2.0-with-classpath-exception: { name: GPL-2.0 + Classpath exception, family: weak-copyleft, spdx: GPL-2.0-only WITH Classpath-exception-2.0 }
-lgpl-2.1: { name: LGPL-2.1, family: weak-copyleft, spdx: LGPL-2.1-only }
-bsd-2-clause: { name: BSD-2, family: permissive, spdx: BSD-2-Clause }
-bsd-patents: { name: BSD + Patents, family: permissive, spdx: LicenseRef-BSD-Patents }
-postgresql: { name: PostgreSQL License, family: permissive, spdx: PostgreSQL }
-python-2.0: { name: PSF License 2.0, family: permissive, spdx: Python-2.0 }
-apache-2.0-with-llvm-exception: { name: Apache-2.0 + LLVM exception, family: permissive, spdx: Apache-2.0 WITH LLVM-exception }
-ncsa: { name: NCSA, family: permissive, spdx: NCSA }
-openssl: { name: OpenSSL/SSLeay, family: permissive, spdx: OpenSSL }
-curl: { name: curl License, family: permissive, spdx: curl }
-public-domain: { name: Public domain, family: permissive, spdx: LicenseRef-Public-Domain }
-cc0-1.0: { name: CC0 1.0, family: content, spdx: CC0-1.0 }
-cc-by-sa-4.0: { name: CC BY-SA 4.0, family: content, spdx: CC-BY-SA-4.0 }
-rsalv2: { name: RSALv2, family: source-available, spdx: LicenseRef-RSALv2 }
-cockroach-csl: { name: CockroachDB Software License, family: source-available, spdx: LicenseRef-CockroachDB-Software-License }
-tsl: { name: Timescale License, family: source-available, spdx: LicenseRef-Timescale }
-fsl-1.1: { name: FSL-1.1, family: source-available, spdx: FSL-1.1-ALv2 }
-sustainable-use: { name: Sustainable Use License, family: source-available, spdx: LicenseRef-Sustainable-Use }
-apache-2.0-commons-clause: { name: Apache-2.0 + Commons Clause, family: source-available, spdx: LicenseRef-Apache-2.0-Commons-Clause }
-bloom-rail-1.0: { name: BigScience BLOOM RAIL 1.0, family: model, spdx: LicenseRef-BigScience-BLOOM-RAIL-1.0 }
-gemma: { name: Gemma Terms of Use, family: model, spdx: LicenseRef-Gemma }
-tii-falcon: { name: TII Falcon LLM License, family: model, spdx: LicenseRef-TII-Falcon }
+bsd-patents:
+  name: BSD + Patents
+  family: permissive
+  spdx: LicenseRef-BSD-Patents
+python-2.0:
+  name: PSF License 2.0
+  family: permissive
+  spdx: Python-2.0
+ncsa:
+  name: NCSA
+  family: permissive
+  spdx: NCSA
+openssl:
+  name: OpenSSL/SSLeay
+  family: permissive
+  spdx: OpenSSL
+curl:
+  name: curl License
+  family: permissive
+  spdx: curl
+public-domain:
+  name: Public domain
+  family: permissive
+  spdx: LicenseRef-Public-Domain
+cockroach-csl:
+  name: CockroachDB Software License
+  family: source-available
+  spdx: LicenseRef-CockroachDB-Software-License
+tsl:
+  name: Timescale License
+  family: source-available
+  spdx: LicenseRef-Timescale
+sustainable-use:
+  name: Sustainable Use License
+  family: source-available
+  spdx: LicenseRef-Sustainable-Use
+apache-2.0-commons-clause:
+  name: Apache-2.0 + Commons Clause
+  family: source-available
+  spdx: LicenseRef-Apache-2.0-Commons-Clause
+tii-falcon:
+  name: TII Falcon LLM License
+  family: model
+  spdx: LicenseRef-TII-Falcon

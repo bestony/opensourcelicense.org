@@ -1,0 +1,11 @@
+reviewed: true
+summary: "Like MIT: use the code freely; keep the copyright notice and
+  disclaimer in source and binary copies."
+analogy: "A free recipe card: copy it anywhere, just keep the author's line at
+  the bottom."
+pros:
+  - Very short and permissive
+  - Widely used in BSD systems
+cons:
+  - No patent grant
+  - Closed forks are allowed

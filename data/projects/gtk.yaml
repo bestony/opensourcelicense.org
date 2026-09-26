@@ -1,0 +1,7 @@
+name: GTK
+domain: frontend
+owner: community
+ownerName: GNOME
+homepage: https://gitlab.gnome.org/GNOME/gtk
+current:
+  - lgpl-2.1

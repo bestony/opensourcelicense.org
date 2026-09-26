@@ -1,0 +1,11 @@
+reviewed: true
+summary: Apache-2.0 plus an exception that removes attribution needs for
+  compiled code and makes it usable with GPL-2.0 projects.
+analogy: Apache's toolkit, with a note that the tools' leftovers in your product
+  need no credit.
+pros:
+  - Patent grant of Apache-2.0
+  - Works with GPL-2.0 code
+cons:
+  - Longer than MIT
+  - Exception is specific to compiler-like projects

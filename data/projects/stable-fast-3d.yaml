@@ -1,0 +1,7 @@
+name: Stable Fast 3D
+domain: ai-model
+owner: company
+ownerName: Stability AI
+hf: stabilityai/stable-fast-3d
+current:
+  - stability-community

@@ -1,0 +1,10 @@
+reviewed: true
+summary: "Copyleft for manuals: copies and modified versions must stay under the
+  GFDL, with history and invariant sections kept."
+analogy: The share-the-recipe rule for the cookbook's manual.
+pros:
+  - Keeps documentation free
+  - Used by GNU manuals
+cons:
+  - Invariant sections are controversial
+  - Hard to mix with CC content

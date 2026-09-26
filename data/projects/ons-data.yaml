@@ -1,0 +1,7 @@
+name: ONS statistics
+domain: data
+owner: foundation
+ownerName: Office for National Statistics
+homepage: https://www.ons.gov.uk/methodology/geography/licences
+current:
+  - ogl-uk-3.0

@@ -1,0 +1,7 @@
+name: ClojureScript
+domain: language
+owner: community
+ownerName: Clojure core
+repo: clojure/clojurescript
+current:
+  - epl-1.0

@@ -1,0 +1,7 @@
+name: SQuAD 2.0
+domain: data
+owner: community
+ownerName: Stanford NLP
+hf: rajpurkar/squad_v2
+current:
+  - cc-by-sa-4.0

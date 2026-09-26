@@ -1,0 +1,7 @@
+name: data.gouv.fr
+domain: data
+owner: foundation
+ownerName: Etalab (French government)
+homepage: https://www.data.gouv.fr/
+current:
+  - etalab-2.0

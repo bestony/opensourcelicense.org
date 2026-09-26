@@ -1,0 +1,7 @@
+name: memoir
+domain: tooling
+owner: individual
+ownerName: Peter Wilson and maintainers
+homepage: https://ctan.org/pkg/memoir
+current:
+  - lppl-1.3c

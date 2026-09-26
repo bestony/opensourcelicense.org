@@ -1,0 +1,7 @@
+name: PubLayNet
+domain: data
+owner: company
+ownerName: IBM
+repo: ibm-aur-nlp/PubLayNet
+current:
+  - cdla-permissive-1.0

@@ -1,0 +1,7 @@
+name: legislation.gov.uk
+domain: data
+owner: foundation
+ownerName: The National Archives
+homepage: https://www.legislation.gov.uk/
+current:
+  - ogl-uk-3.0

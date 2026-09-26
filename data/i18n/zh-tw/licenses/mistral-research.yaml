@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 92115efde43878b6
+summary: 權重僅限研究與個人使用；任何商業或生產用途都需向 Mistral AI 取得商業許可。
+analogy: 圖書館的書：可以閱讀研究，不能轉賣。
+pros:
+  - 面向研究開放權重
+  - 允許為研究而修改
+cons:
+  - 不能商用
+  - 不是開源授權條款

@@ -1,0 +1,23 @@
+spdx: CC0-1.0
+name: Creative Commons Zero v1.0 Universal
+shortName: CC0
+family: content
+osi: false
+fsf: true
+permissions:
+  - commercial-use
+  - modification
+  - distribution
+  - private-use
+conditions: []
+limitations:
+  - liability
+  - warranty
+  - trademark-use
+  - patent-use
+textUrl: https://spdx.org/licenses/CC0-1.0.html
+officialTexts: {}
+hasText: true
+matrices:
+  - model
+updatedAt: 2026-09-26

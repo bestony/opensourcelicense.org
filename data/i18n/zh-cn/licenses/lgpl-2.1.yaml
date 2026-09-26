@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 22649412ed3dbb5f
+summary: 库级 Copyleft：对库的修改须开源；允许闭源程序链接，但须让用户能换用修改后的库重新链接。
+analogy: “可更换的共享发动机”的旧版本。
+pros:
+  - 允许专有应用使用该库
+  - 桌面与多媒体库中常见
+cons:
+  - 重链接要求复杂
+  - 没有明示专利授权

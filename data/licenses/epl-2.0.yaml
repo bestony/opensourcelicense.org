@@ -1,0 +1,26 @@
+spdx: EPL-2.0
+name: Eclipse Public License 2.0
+shortName: EPL-2.0
+family: weak-copyleft
+osi: true
+fsf: true
+permissions:
+  - commercial-use
+  - modification
+  - distribution
+  - private-use
+  - patent-use
+conditions:
+  - include-copyright
+  - disclose-source
+  - same-license-file
+limitations:
+  - liability
+  - warranty
+  - trademark-use
+textUrl: https://spdx.org/licenses/EPL-2.0.html
+officialTexts: {}
+hasText: true
+matrices:
+  - code
+updatedAt: 2026-09-26

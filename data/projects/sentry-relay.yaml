@@ -1,0 +1,8 @@
+name: Sentry Relay
+domain: observability
+owner: company
+ownerName: Sentry
+repo: getsentry/relay
+current:
+  - fsl-1.1
+needsReview: true

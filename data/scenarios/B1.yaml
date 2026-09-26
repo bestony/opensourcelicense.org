@@ -31,3 +31,49 @@ cells:
     verdict: silent
   elv2:
     verdict: deny
+  bsd-2-clause:
+    verdict: silent
+  isc:
+    verdict: silent
+  unlicense:
+    verdict: silent
+  zlib:
+    verdict: silent
+  bsl-1.0:
+    verdict: silent
+  mit-0:
+    verdict: silent
+  postgresql:
+    verdict: silent
+  unicode-3.0:
+    verdict: silent
+  apache-2.0-with-llvm-exception:
+    verdict: deny
+  gpl-2.0:
+    verdict: silent
+  gpl-2.0-with-classpath-exception:
+    verdict: silent
+  lgpl-2.1:
+    verdict: silent
+  epl-2.0:
+    verdict: deny
+  epl-1.0:
+    verdict: deny
+  cddl-1.0:
+    verdict: deny
+  apsl-2.0:
+    verdict: deny
+  artistic-2.0:
+    verdict: deny
+  perl-5:
+    verdict: silent
+  lppl-1.3c:
+    verdict: silent
+  fsl-1.1:
+    verdict: deny
+  rsalv2:
+    verdict: deny
+  confluent-community:
+    verdict: silent
+  upl-1.0:
+    verdict: silent

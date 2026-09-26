@@ -1,0 +1,10 @@
+reviewed: true
+summary: Model weights for non-commercial use only; commercial use of the
+  weights needs a separate license from Black Forest Labs.
+analogy: Borrow the camera for your own projects, not for paid shoots.
+pros:
+  - Open weights for research and hobby use
+  - Clear commercial path
+cons:
+  - Not open source
+  - Commercial use needs a paid license

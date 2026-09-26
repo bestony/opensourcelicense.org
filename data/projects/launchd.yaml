@@ -1,0 +1,8 @@
+name: launchd
+domain: os
+owner: company
+ownerName: Apple
+repo: apple-oss-distributions/launchd
+current:
+  - apsl-2.0
+needsReview: true

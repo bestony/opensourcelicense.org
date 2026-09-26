@@ -24,3 +24,49 @@ cells:
     verdict: conditional
   elv2:
     verdict: allow
+  bsd-2-clause:
+    verdict: allow
+  isc:
+    verdict: allow
+  unlicense:
+    verdict: allow
+  zlib:
+    verdict: allow
+  bsl-1.0:
+    verdict: allow
+  mit-0:
+    verdict: allow
+  postgresql:
+    verdict: allow
+  unicode-3.0:
+    verdict: allow
+  apache-2.0-with-llvm-exception:
+    verdict: allow
+  gpl-2.0:
+    verdict: conditional
+  gpl-2.0-with-classpath-exception:
+    verdict: conditional
+  lgpl-2.1:
+    verdict: conditional
+  epl-2.0:
+    verdict: conditional
+  epl-1.0:
+    verdict: conditional
+  cddl-1.0:
+    verdict: conditional
+  apsl-2.0:
+    verdict: conditional
+  artistic-2.0:
+    verdict: conditional
+  perl-5:
+    verdict: conditional
+  lppl-1.3c:
+    verdict: conditional
+  fsl-1.1:
+    verdict: conditional
+  rsalv2:
+    verdict: allow
+  confluent-community:
+    verdict: allow
+  upl-1.0:
+    verdict: allow

@@ -1,0 +1,8 @@
+name: SynthTabNet
+domain: data
+owner: company
+ownerName: IBM
+repo: IBM/SynthTabNet
+current:
+  - cdla-permissive-1.0
+needsReview: true

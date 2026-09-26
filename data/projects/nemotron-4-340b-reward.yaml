@@ -1,0 +1,7 @@
+name: Nemotron-4 340B Reward
+domain: ai-model
+owner: company
+ownerName: NVIDIA
+hf: nvidia/Nemotron-4-340B-Reward
+current:
+  - nvidia-open-model

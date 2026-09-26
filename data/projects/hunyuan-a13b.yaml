@@ -1,0 +1,8 @@
+name: Hunyuan-A13B
+domain: ai-model
+owner: company
+ownerName: Tencent
+hf: tencent/Hunyuan-A13B-Instruct
+current:
+  - hunyuan-community
+needsReview: true

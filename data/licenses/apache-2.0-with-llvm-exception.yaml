@@ -1,0 +1,25 @@
+spdx: Apache-2.0 WITH LLVM-exception
+name: Apache License 2.0 with LLVM Exception
+shortName: Apache-2.0+LLVM
+family: permissive
+osi: true
+fsf: true
+permissions:
+  - commercial-use
+  - modification
+  - distribution
+  - private-use
+  - patent-use
+conditions:
+  - include-copyright
+  - document-changes
+limitations:
+  - liability
+  - warranty
+  - trademark-use
+textUrl: https://llvm.org/LICENSE.txt
+officialTexts: {}
+hasText: true
+matrices:
+  - code
+updatedAt: 2026-09-26

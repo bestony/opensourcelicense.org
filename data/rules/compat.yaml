@@ -1,16 +1,19 @@
 # Dependency (inbound) license -> project (outbound) licenses that may be
 # distributed together with it. Simplified; not legal advice.
+# allow: "*" or a list; conditional: allowed with extra conditions; deny: exceptions to "*".
 
 # SPDX id (lowercase) -> inbound class.
 classes:
-  permissive: [mit, bsd-2-clause, bsd-3-clause, isc, 0bsd, unlicense, zlib, apache-2.0, mulanpsl-2.0, cc0-1.0, python-2.0, bsl-1.0, blueoak-1.0.0, x11, postgresql]
-  mpl: [mpl-2.0, epl-2.0]
-  lgpl: [lgpl-2.1, lgpl-2.1-only, lgpl-2.1-or-later, lgpl-3.0, lgpl-3.0-only, lgpl-3.0-or-later]
+  permissive: [mit, mit-0, bsd-2-clause, bsd-3-clause, isc, 0bsd, unlicense, zlib, bsl-1.0, postgresql, unicode-3.0, upl-1.0, cc0-1.0, python-2.0, blueoak-1.0.0, x11, apache-2.0, apache-2.0-with-llvm-exception, mulanpsl-2.0, artistic-2.0, perl-5]
+  mpl: [mpl-2.0]
+  epl2: [epl-2.0]
+  gpl-incompatible-weak: [epl-1.0, cddl-1.0, apsl-2.0, lppl-1.3c]
+  lgpl: [lgpl-2.1, lgpl-2.1-only, lgpl-2.1-or-later, lgpl-3.0, lgpl-3.0-only, lgpl-3.0-or-later, gpl-2.0-with-classpath-exception]
   gpl2only: [gpl-2.0, gpl-2.0-only]
   gpl3: [gpl-3.0, gpl-3.0-only, gpl-3.0-or-later, gpl-2.0-or-later]
   agpl: [agpl-3.0, agpl-3.0-only, agpl-3.0-or-later]
   sspl: [sspl-1.0]
-  source-available: [busl-1.1, bsl-1.1, elv2, elastic-2.0]
+  source-available: [busl-1.1, bsl-1.1, elv2, elastic-2.0, fsl-1.1, rsalv2, confluent-community]
   noncommercial: [cc-by-nc-4.0]
   share-alike-data: [odbl-1.0]
   attribution-data: [cc-by-4.0, odc-by-1.0]
@@ -21,11 +24,19 @@ rules:
   mpl:
     allow: "*"
     note: File-level copyleft. Modified MPL files stay under the MPL.
+  epl2:
+    allow: "*"
+    conditional: [gpl-2.0, gpl-3.0, agpl-3.0]
+    note: GPL combination only if the code names the GPL as a Secondary License.
+  gpl-incompatible-weak:
+    allow: "*"
+    deny: [gpl-2.0, gpl-3.0, agpl-3.0]
+    note: Weak copyleft that the FSF lists as incompatible with the GPL.
   lgpl:
     allow: "*"
     note: Dynamic linking only. The library must stay replaceable.
   gpl2only:
-    allow: []
+    allow: [gpl-2.0]
     note: GPL-2.0-only is not compatible with any GPL-3.0 family license.
   gpl3:
     allow: [gpl-3.0, agpl-3.0]
@@ -39,7 +50,7 @@ rules:
     allow: []
     note: Source-available terms cannot be relicensed as open source.
   noncommercial:
-    allow: [cc-by-nc-4.0]
+    allow: [cc-by-nc-4.0, cc-by-nc-sa-4.0]
   share-alike-data:
     allow: [odbl-1.0]
     note: Derivative databases must stay under ODbL.

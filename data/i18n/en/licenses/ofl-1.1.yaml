@@ -1,0 +1,10 @@
+reviewed: true
+summary: "Free font license: use, embed and modify fonts freely, but modified
+  fonts must drop reserved names, and the fonts may not be sold by themselves."
+analogy: Use the typeface everywhere, but don't sell the bare font file.
+pros:
+  - Allows embedding in documents and apps
+  - Standard for open fonts
+cons:
+  - Reserved font names complicate forks
+  - Only for fonts

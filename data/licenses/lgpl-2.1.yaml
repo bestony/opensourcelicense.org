@@ -1,0 +1,25 @@
+spdx: LGPL-2.1-only
+name: GNU Lesser General Public License v2.1 only
+shortName: LGPL-2.1
+family: weak-copyleft
+osi: true
+fsf: true
+permissions:
+  - commercial-use
+  - modification
+  - distribution
+  - private-use
+conditions:
+  - include-copyright
+  - disclose-source
+  - same-license-library
+  - allow-relinking
+limitations:
+  - liability
+  - warranty
+textUrl: https://spdx.org/licenses/LGPL-2.1-only.html
+officialTexts: {}
+hasText: true
+matrices:
+  - code
+updatedAt: 2026-09-26

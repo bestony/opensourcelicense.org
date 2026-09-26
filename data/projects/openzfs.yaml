@@ -1,0 +1,7 @@
+name: OpenZFS
+domain: os
+owner: community
+ownerName: OpenZFS
+repo: openzfs/zfs
+current:
+  - cddl-1.0

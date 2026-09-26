@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 50ad39245dfcc7f1
+summary: Redis 的源码可见许可证：可免费使用和修改，但不得作为托管服务提供或绕过许可证密钥。
+analogy: 哪里都能用它做菜，但不能开专卖这道菜的店。
+pros:
+  - 只针对托管服务竞争者
+  - 简短
+cons:
+  - 不是开源许可证
+  - 引发了 Valkey 分叉

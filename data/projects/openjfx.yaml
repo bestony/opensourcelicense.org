@@ -1,0 +1,7 @@
+name: OpenJFX
+domain: frontend
+owner: community
+ownerName: OpenJDK
+repo: openjdk/jfx
+current:
+  - gpl-2.0-with-classpath-exception

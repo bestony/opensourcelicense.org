@@ -1,0 +1,8 @@
+name: GitButler
+domain: tooling
+owner: company
+ownerName: GitButler
+repo: gitbutlerapp/gitbutler
+current:
+  - fsl-1.1
+needsReview: true

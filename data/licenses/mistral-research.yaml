@@ -1,0 +1,22 @@
+spdx: LicenseRef-Mistral-Research
+name: Mistral AI Research License
+shortName: Mistral Research
+family: model
+osi: false
+fsf: false
+permissions:
+  - modification
+  - distribution
+  - private-use
+conditions:
+  - include-license
+limitations:
+  - liability
+  - warranty
+  - non-commercial
+textUrl: https://mistral.ai/licenses/MRL-0.1.md
+officialTexts: {}
+hasText: false
+matrices:
+  - model
+updatedAt: 2026-09-26

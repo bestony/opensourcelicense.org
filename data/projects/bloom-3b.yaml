@@ -1,0 +1,7 @@
+name: BLOOM 3B
+domain: ai-model
+owner: community
+ownerName: BigScience
+hf: bigscience/bloom-3b
+current:
+  - bloom-rail-1.0

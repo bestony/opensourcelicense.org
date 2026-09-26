@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 72d99432db49e19d
+summary: 適用於 ICU、CLDR 等 Unicode 資料與軟體的寬鬆授權條款；須保留宣告，不得用版權方名義宣傳。
+analogy: 一本免費參考書：隨便複製，保留署名即可。
+pros:
+  - 寬鬆
+  - 同時覆蓋資料檔案和程式碼
+cons:
+  - 沒有專利授權
+  - 主要用於 Unicode 專案

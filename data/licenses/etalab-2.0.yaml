@@ -1,0 +1,22 @@
+spdx: etalab-2.0
+name: Licence Ouverte / Open Licence 2.0 (Etalab)
+shortName: Etalab-2.0
+family: content
+osi: false
+fsf: unknown
+permissions:
+  - commercial-use
+  - modification
+  - distribution
+  - private-use
+conditions:
+  - attribution
+limitations:
+  - liability
+  - warranty
+textUrl: https://spdx.org/licenses/etalab-2.0.html
+officialTexts: {}
+hasText: true
+matrices:
+  - model
+updatedAt: 2026-09-26

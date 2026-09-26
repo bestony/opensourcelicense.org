@@ -1,5 +1,5 @@
 reviewed: false
-sourceHash: d83a2e48ed5947b0
+sourceHash: a2d7eb045dde7649
 strings:
   site.name: opensourcelicense.org
   site.tagline: オープンソースライセンスの意思決定ワークベンチ
@@ -332,3 +332,5 @@ strings:
   check.license-hint: マニフェストに「名前@バージョン ライセンスID」の形式で 1 行ずつ書くか、オンライン検索を有効にしてください。
   notfound.title: ページが見つかりません
   notfound.body: このページは存在しません。ライセンス一覧をご覧ください。
+  domain.education: 教育
+  domain.design: フォントとデザイン

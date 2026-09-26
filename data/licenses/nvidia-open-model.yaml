@@ -1,0 +1,22 @@
+spdx: LicenseRef-NVIDIA-Open-Model
+name: NVIDIA Open Model License
+shortName: NVIDIA Open Model
+family: model
+osi: false
+fsf: false
+permissions:
+  - commercial-use
+  - modification
+  - distribution
+conditions:
+  - include-license
+  - attribution
+limitations:
+  - liability
+  - warranty
+textUrl: https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license/
+officialTexts: {}
+hasText: false
+matrices:
+  - model
+updatedAt: 2026-09-26

@@ -1,0 +1,7 @@
+name: GCC Manual
+domain: education
+owner: foundation
+ownerName: Free Software Foundation
+homepage: https://gcc.gnu.org/onlinedocs/
+current:
+  - gfdl-1.3

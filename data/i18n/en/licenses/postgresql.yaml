@@ -1,0 +1,10 @@
+reviewed: true
+summary: A short permissive license similar to MIT and BSD, used by PostgreSQL
+  and its ecosystem.
+analogy: The PostgreSQL community's own version of the free book.
+pros:
+  - Short and permissive
+  - Familiar to the PostgreSQL ecosystem
+cons:
+  - No patent grant
+  - Closed forks are allowed

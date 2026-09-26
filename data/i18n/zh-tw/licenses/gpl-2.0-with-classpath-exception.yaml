@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 841fb8980cea558f
+summary: 庫本身適用 GPL-2.0，另有例外：獨立程式可以任意授權條款與其連結。
+analogy: 受“交出菜譜”規則約束的共享發動機，但你的車仍歸你。
+pros:
+  - 連結它的應用可以閉源
+  - OpenJDK 採用
+cons:
+  - 對庫本身的修改仍須 GPL
+  - 與僅限 GPL-3.0 的專案不相容

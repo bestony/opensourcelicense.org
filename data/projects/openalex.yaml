@@ -1,0 +1,7 @@
+name: OpenAlex
+domain: data
+owner: foundation
+ownerName: OurResearch
+homepage: https://openalex.org/
+current:
+  - cc0-1.0

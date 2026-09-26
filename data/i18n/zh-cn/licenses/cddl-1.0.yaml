@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 362187e701e25e6a
+summary: 源自 MPL 的文件级 Copyleft，含专利授权；与 GPL 不兼容。
+analogy: 借来的文件改了要分享，其余部分可以不公开。
+pros:
+  - 文件级范围
+  - 专利授权
+cons:
+  - 与 GPL 不兼容（ZFS 与 Linux 的问题）
+  - 新项目很少采用

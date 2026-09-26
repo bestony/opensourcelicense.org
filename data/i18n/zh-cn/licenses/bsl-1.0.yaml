@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 3d7476dd1bfc7f5b
+summary: 宽松许可证：源码副本须保留声明，编译后的二进制则不需要。
+analogy: 菜谱书里保留作者名即可，不必印在每一盘菜上。
+pros:
+  - 二进制分发无需附声明
+  - C++ 库的常见选择
+cons:
+  - 没有专利授权
+  - C++ 圈外知名度较低

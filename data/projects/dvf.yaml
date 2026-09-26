@@ -1,0 +1,7 @@
+name: Demandes de valeurs foncières (DVF)
+domain: data
+owner: foundation
+ownerName: DGFiP
+homepage: https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/
+current:
+  - etalab-2.0

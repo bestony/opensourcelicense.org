@@ -1,0 +1,9 @@
+name: RedisJSON
+domain: database
+owner: company
+ownerName: Redis Ltd.
+repo: RedisJSON/RedisJSON
+current:
+  - rsalv2
+  - sspl-1.0
+needsReview: true

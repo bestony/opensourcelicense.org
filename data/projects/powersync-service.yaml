@@ -1,0 +1,8 @@
+name: PowerSync Service
+domain: database
+owner: company
+ownerName: JourneyApps
+repo: powersync-ja/powersync-service
+current:
+  - fsl-1.1
+needsReview: true

@@ -22,3 +22,43 @@ cells:
     verdict: conditional
     clause:
       ref: §4.4 Share alike
+  cc0-1.0:
+    verdict: allow
+  cc-by-sa-4.0:
+    verdict: conditional
+  cc-by-nc-sa-4.0:
+    verdict: deny
+  gfdl-1.3:
+    verdict: conditional
+  ofl-1.1:
+    verdict: conditional
+  cdla-permissive-1.0:
+    verdict: conditional
+  ogl-uk-3.0:
+    verdict: allow
+  etalab-2.0:
+    verdict: allow
+  gemma:
+    verdict: silent
+  deepseek-model:
+    verdict: silent
+  bloom-rail-1.0:
+    verdict: silent
+  stability-community:
+    verdict: silent
+  flux-1-dev-nc:
+    verdict: deny
+  hunyuan-community:
+    verdict: silent
+  mistral-research:
+    verdict: deny
+  tongyi-qianwen:
+    verdict: silent
+  falcon-llm-2.0:
+    verdict: silent
+  nvidia-open-model:
+    verdict: silent
+  baichuan-2:
+    verdict: silent
+  chatglm:
+    verdict: silent

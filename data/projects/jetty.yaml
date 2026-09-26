@@ -1,0 +1,8 @@
+name: Eclipse Jetty
+domain: web
+owner: foundation
+ownerName: Eclipse Foundation
+repo: jetty/jetty.project
+current:
+  - epl-2.0
+  - apache-2.0

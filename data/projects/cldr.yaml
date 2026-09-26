@@ -1,0 +1,7 @@
+name: Unicode CLDR
+domain: data
+owner: foundation
+ownerName: Unicode Consortium
+repo: unicode-org/cldr
+current:
+  - unicode-3.0

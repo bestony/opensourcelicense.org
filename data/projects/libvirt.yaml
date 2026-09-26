@@ -1,0 +1,7 @@
+name: libvirt
+domain: devops
+owner: community
+ownerName: libvirt project
+homepage: https://gitlab.com/libvirt/libvirt
+current:
+  - lgpl-2.1

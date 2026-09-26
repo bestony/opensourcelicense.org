@@ -1,0 +1,8 @@
+name: Cosmos-1.0 Diffusion
+domain: ai-model
+owner: company
+ownerName: NVIDIA
+hf: nvidia/Cosmos-1.0-Diffusion-7B-Text2World
+current:
+  - nvidia-open-model
+needsReview: true

@@ -1,0 +1,7 @@
+name: FinTabNet
+domain: data
+owner: company
+ownerName: IBM
+homepage: https://developer.ibm.com/exchanges/data/all/fintabnet/
+current:
+  - cdla-permissive-1.0

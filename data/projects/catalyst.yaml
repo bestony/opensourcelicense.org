@@ -1,0 +1,7 @@
+name: Catalyst
+domain: web
+owner: community
+ownerName: Catalyst team
+homepage: https://metacpan.org/pod/Catalyst
+current:
+  - perl-5

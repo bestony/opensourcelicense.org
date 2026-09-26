@@ -1,0 +1,7 @@
+name: Wikidata
+domain: data
+owner: foundation
+ownerName: Wikimedia Foundation
+homepage: https://www.wikidata.org/wiki/Wikidata:Licensing
+current:
+  - cc0-1.0

@@ -1,0 +1,9 @@
+name: RedisBloom
+domain: database
+owner: company
+ownerName: Redis Ltd.
+repo: RedisBloom/RedisBloom
+current:
+  - rsalv2
+  - sspl-1.0
+needsReview: true

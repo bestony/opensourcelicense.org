@@ -1,0 +1,10 @@
+reviewed: true
+summary: Free for research, non-commercial use, and commercial use below USD 1M
+  annual revenue; larger companies need an enterprise license.
+analogy: Free admission for small businesses; big ones buy a ticket.
+pros:
+  - Free for individuals and small companies
+  - Covers recent Stability models
+cons:
+  - Not open source
+  - Revenue threshold needs tracking

@@ -1,0 +1,10 @@
+reviewed: true
+summary: "Permissive data license from the Linux Foundation: use and share data
+  freely; results such as trained models are not restricted."
+analogy: Use the dataset for anything; include the agreement when you pass the data on.
+pros:
+  - Explicitly frees computational results
+  - Written for data
+cons:
+  - Less known than CC licenses
+  - Version 2.0 is simpler

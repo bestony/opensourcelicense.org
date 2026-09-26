@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: f6ef6656ac79990f
+summary: LaTeX 宏包的自由许可证：修改后的文件须改名或明确标注，以保证文档在各处排版一致。
+analogy: 可以改字体，但请给你的版本起个新名字。
+pros:
+  - 保证文档可复现
+  - CTAN 的通用做法
+cons:
+  - 改名规则不常见
+  - 与 GPL 不兼容

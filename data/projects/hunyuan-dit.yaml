@@ -1,0 +1,7 @@
+name: HunyuanDiT
+domain: ai-model
+owner: company
+ownerName: Tencent
+hf: Tencent-Hunyuan/HunyuanDiT
+current:
+  - hunyuan-community

@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: c826929f8a1baf2e
+summary: Google 的模型條款：允許商用，附帶禁止用途政策，須傳遞給包括蒸餾模型在內的所有衍生模型。
+analogy: 一臺免費發動機，附帶的規則手冊要跟著每臺改裝發動機走。
+pros:
+  - 商用無使用者數門檻
+  - 衍生規則清楚
+cons:
+  - OSI 不認為是開源
+  - Google 可能更新使用政策

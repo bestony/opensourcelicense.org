@@ -1,0 +1,7 @@
+name: TinyXML-2
+domain: tooling
+owner: individual
+ownerName: Lee Thomason
+repo: leethomason/tinyxml2
+current:
+  - zlib

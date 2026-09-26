@@ -1,0 +1,7 @@
+name: Qwen1.5-72B
+domain: ai-model
+owner: company
+ownerName: Alibaba Cloud
+hf: Qwen/Qwen1.5-72B
+current:
+  - tongyi-qianwen

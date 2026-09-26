@@ -1,0 +1,10 @@
+reviewed: true
+summary: "Source-available: any use except a competing product, and each release
+  becomes Apache-2.0 two years later."
+analogy: A shop window whose items become free for everyone after two years.
+pros:
+  - Short and predictable
+  - Code becomes open source after two years
+cons:
+  - Not open source
+  - '"Competing use" can be hard to judge'

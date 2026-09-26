@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 7db0448b4abf3505
+summary: 相当于更短的 MIT：保留版权与许可声明即可任意使用。
+analogy: 和 MIT 同一本免费书，只是封面上的说明更短。
+pros:
+  - 最短的常见宽松许可证
+  - 许多 npm 包的默认选择
+cons:
+  - 没有专利授权
+  - 允许闭源 fork

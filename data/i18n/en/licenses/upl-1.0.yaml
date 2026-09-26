@@ -1,0 +1,10 @@
+reviewed: true
+summary: A short permissive license with an express patent grant, used by Oracle
+  for GraalVM and other projects.
+analogy: The MIT free book, with an added promise about patents.
+pros:
+  - Short and permissive
+  - Express patent grant
+cons:
+  - No patent retaliation clause
+  - Less known than MIT or Apache

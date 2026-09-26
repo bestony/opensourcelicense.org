@@ -1,0 +1,10 @@
+reviewed: true
+summary: Weights for research and personal use only; any commercial or
+  production use needs a commercial license from Mistral AI.
+analogy: "A library book: read and study it, don't resell it."
+pros:
+  - Open weights for research
+  - Allows modification for research
+cons:
+  - No commercial use
+  - Not open source

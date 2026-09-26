@@ -1,0 +1,24 @@
+spdx: OFL-1.1
+name: SIL Open Font License 1.1
+shortName: OFL-1.1
+family: content
+osi: true
+fsf: true
+permissions:
+  - commercial-use
+  - modification
+  - distribution
+  - private-use
+conditions:
+  - include-copyright
+  - same-license
+  - name-prefix
+limitations:
+  - liability
+  - warranty
+textUrl: https://spdx.org/licenses/OFL-1.1.html
+officialTexts: {}
+hasText: true
+matrices:
+  - model
+updatedAt: 2026-09-26

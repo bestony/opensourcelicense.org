@@ -1,0 +1,7 @@
+name: Kafka Connect JDBC
+domain: messaging
+owner: company
+ownerName: Confluent
+repo: confluentinc/kafka-connect-jdbc
+current:
+  - confluent-community

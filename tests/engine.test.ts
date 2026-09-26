@@ -52,8 +52,9 @@ describe("engine", () => {
 
   it("limits datasets to data licenses", () => {
     const r = run({ artifact_type: "dataset", openness_level: "open", adoption_goal: "enterprise" });
-    expect(r.ranked.map((x) => x.license).sort()).toEqual(["apache-2.0", "cc-by-4.0", "cc-by-nc-4.0", "mit", "odbl-1.0", "odc-by-1.0"]);
-    expect(r.excluded.map((e) => e.license).sort()).toEqual(["llama", "openrail-m"]);
+    const allowed = cat.rules.artifactCandidates.dataset;
+    expect(r.ranked.map((x) => x.license).sort()).toEqual([...allowed].sort());
+    expect(r.excluded.map((e) => e.license)).toEqual(expect.arrayContaining(["llama", "openrail-m", "gemma"]));
   });
 
   it("prefers MulanPSL-2.0 in the cn jurisdiction", () => {

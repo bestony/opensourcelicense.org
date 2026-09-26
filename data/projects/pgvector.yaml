@@ -1,0 +1,7 @@
+name: pgvector
+domain: database
+owner: individual
+ownerName: Andrew Kane
+repo: pgvector/pgvector
+current:
+  - postgresql

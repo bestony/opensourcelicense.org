@@ -1,0 +1,11 @@
+reviewed: true
+summary: "File-level copyleft by Apple: modified covered files must be
+  published, including when deployed externally as a service. Incompatible with
+  the GPL."
+analogy: Share changes to the borrowed file, also when you only serve the result.
+pros:
+  - Covers external deployment
+  - Patent grant
+cons:
+  - Incompatible with the GPL
+  - Mostly limited to Apple's open source

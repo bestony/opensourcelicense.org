@@ -1,0 +1,7 @@
+name: Boost C++ Libraries
+domain: language
+owner: community
+ownerName: Boost
+repo: boostorg/boost
+current:
+  - bsl-1.0

@@ -1,0 +1,10 @@
+reviewed: true
+summary: "Source-available: use, modify and distribute freely, except to offer a
+  SaaS product that competes with Confluent."
+analogy: Use the recipe in any restaurant except one that competes with the author's.
+pros:
+  - Narrow restriction
+  - Most users are unaffected
+cons:
+  - Not open source
+  - Excludes cloud competitors only by description

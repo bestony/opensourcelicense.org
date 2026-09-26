@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: cf76d86201254c1b
+summary: 强 Copyleft：分发的衍生作品须以 GPL-2.0 完整开源。没有明示专利授权；除非使用“或更高版本”，否则与 GPL-3.0 不兼容。
+analogy: “交出菜谱”规则的旧版本。
+pros:
+  - 分发的衍生作品保持开源
+  - Linux 内核采用
+cons:
+  - （仅限版本时）与 Apache-2.0 和 GPL-3.0 不兼容
+  - 没有明示专利授权

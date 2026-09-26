@@ -1,0 +1,7 @@
+name: Base Adresse Nationale
+domain: data
+owner: foundation
+ownerName: French government
+homepage: https://adresse.data.gouv.fr/
+current:
+  - etalab-2.0

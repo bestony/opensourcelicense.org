@@ -1,0 +1,22 @@
+spdx: BSD-2-Clause
+name: BSD 2-Clause "Simplified" License
+shortName: BSD-2
+family: permissive
+osi: true
+fsf: true
+permissions:
+  - commercial-use
+  - modification
+  - distribution
+  - private-use
+conditions:
+  - include-copyright
+limitations:
+  - liability
+  - warranty
+textUrl: https://spdx.org/licenses/BSD-2-Clause.html
+officialTexts: {}
+hasText: true
+matrices:
+  - code
+updatedAt: 2026-09-26

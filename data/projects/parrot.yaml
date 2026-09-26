@@ -1,0 +1,7 @@
+name: Parrot VM
+domain: language
+owner: community
+ownerName: Parrot Foundation
+repo: parrot/parrot
+current:
+  - artistic-2.0

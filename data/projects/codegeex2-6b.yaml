@@ -1,0 +1,8 @@
+name: CodeGeeX2-6B
+domain: ai-model
+owner: company
+ownerName: Zhipu AI / THUDM
+hf: THUDM/codegeex2-6b
+current:
+  - chatglm
+needsReview: true

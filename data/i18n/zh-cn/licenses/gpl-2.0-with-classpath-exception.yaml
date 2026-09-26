@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 841fb8980cea558f
+summary: 库本身适用 GPL-2.0，另有例外：独立程序可以任意许可证与其链接。
+analogy: 受“交出菜谱”规则约束的共享发动机，但你的车仍归你。
+pros:
+  - 链接它的应用可以闭源
+  - OpenJDK 采用
+cons:
+  - 对库本身的修改仍须 GPL
+  - 与仅限 GPL-3.0 的项目不兼容

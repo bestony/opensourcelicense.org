@@ -1,0 +1,7 @@
+name: wasm-tools
+domain: tooling
+owner: foundation
+ownerName: Bytecode Alliance
+repo: bytecodealliance/wasm-tools
+current:
+  - apache-2.0-with-llvm-exception

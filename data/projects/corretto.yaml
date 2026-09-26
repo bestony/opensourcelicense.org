@@ -1,0 +1,7 @@
+name: Amazon Corretto
+domain: language
+owner: company
+ownerName: Amazon
+repo: corretto/corretto-21
+current:
+  - gpl-2.0-with-classpath-exception

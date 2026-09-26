@@ -1,0 +1,8 @@
+name: Stable Video 4D
+domain: ai-model
+owner: company
+ownerName: Stability AI
+hf: stabilityai/sv4d
+current:
+  - stability-community
+needsReview: true

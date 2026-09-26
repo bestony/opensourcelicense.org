@@ -1,0 +1,7 @@
+name: Pixtral Large
+domain: ai-model
+owner: company
+ownerName: Mistral AI
+hf: mistralai/Pixtral-Large-Instruct-2411
+current:
+  - mistral-research

@@ -1,0 +1,7 @@
+name: MoarVM
+domain: language
+owner: community
+ownerName: Raku community
+repo: MoarVM/MoarVM
+current:
+  - artistic-2.0

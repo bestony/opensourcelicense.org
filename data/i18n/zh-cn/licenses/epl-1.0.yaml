@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 41352f96fddd8017
+summary: 模块级 Copyleft，含专利授权，适用纽约州法律；与 GPL 不兼容。
+analogy: Eclipse“章节共享”规则的第一版。
+pros:
+  - 专利授权
+  - Clojure、JUnit 4 采用
+cons:
+  - 与 GPL 不兼容
+  - 已被 EPL-2.0 取代

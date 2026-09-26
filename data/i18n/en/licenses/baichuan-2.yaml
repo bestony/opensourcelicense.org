@@ -1,0 +1,10 @@
+reviewed: true
+summary: Free commercial use for services below one million daily active users,
+  after registration; larger services need a separate license.
+analogy: A free engine for small fleets after you register the car.
+pros:
+  - Free for most commercial users
+  - Strong Chinese language models
+cons:
+  - Not open source
+  - Registration and user threshold

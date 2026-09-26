@@ -1,0 +1,11 @@
+reviewed: true
+summary: Lets you modify and distribute freely, but a modified version must be
+  clearly marked or renamed, or its source made available. Includes patent
+  terms.
+analogy: Remix the song, but don't sell your remix as the original.
+pros:
+  - Protects the original's identity
+  - GPL-compatible
+cons:
+  - Conditions are wordy
+  - Rare outside Raku and Perl

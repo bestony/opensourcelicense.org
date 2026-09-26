@@ -1,0 +1,7 @@
+name: Homebrew
+domain: tooling
+owner: community
+ownerName: Homebrew
+repo: Homebrew/brew
+current:
+  - bsd-2-clause

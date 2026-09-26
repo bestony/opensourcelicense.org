@@ -1,0 +1,22 @@
+spdx: CDLA-Permissive-1.0
+name: Community Data License Agreement – Permissive 1.0
+shortName: CDLA-Permissive-1.0
+family: content
+osi: false
+fsf: unknown
+permissions:
+  - commercial-use
+  - modification
+  - distribution
+  - private-use
+conditions:
+  - include-license
+limitations:
+  - liability
+  - warranty
+textUrl: https://spdx.org/licenses/CDLA-Permissive-1.0.html
+officialTexts: {}
+hasText: true
+matrices:
+  - model
+updatedAt: 2026-09-26

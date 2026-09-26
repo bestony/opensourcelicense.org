@@ -1,0 +1,10 @@
+reviewed: true
+summary: File-level copyleft derived from the MPL, with a patent grant;
+  incompatible with the GPL.
+analogy: Share changes to the borrowed file; keep the rest closed if you like.
+pros:
+  - File-level scope
+  - Patent grant
+cons:
+  - Incompatible with the GPL (the ZFS-on-Linux problem)
+  - Few new projects adopt it

@@ -1,0 +1,10 @@
+reviewed: true
+summary: "Permissive license: altered source must be marked as altered, the
+  origin must not be misrepresented, and the notice stays in source copies."
+analogy: Borrow the recipe, but if you change it, don't claim it is the original.
+pros:
+  - Permissive and short
+  - Popular for games and native libraries
+cons:
+  - No patent grant
+  - Closed forks are allowed

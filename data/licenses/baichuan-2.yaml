@@ -1,0 +1,23 @@
+spdx: LicenseRef-Baichuan-2-Community
+name: Baichuan 2 Model Community License
+shortName: Baichuan 2
+family: model
+osi: false
+fsf: false
+permissions:
+  - commercial-use
+  - modification
+  - distribution
+conditions:
+  - include-license
+  - acceptable-use-policy
+limitations:
+  - liability
+  - warranty
+  - mau-threshold
+textUrl: https://huggingface.co/baichuan-inc/Baichuan2-7B-Base/blob/main/Community%20License%20for%20Baichuan%202%20Model.pdf
+officialTexts: {}
+hasText: false
+matrices:
+  - model
+updatedAt: 2026-09-26

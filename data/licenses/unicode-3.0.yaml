@@ -1,0 +1,23 @@
+spdx: Unicode-3.0
+name: Unicode License v3
+shortName: Unicode-3.0
+family: permissive
+osi: true
+fsf: unknown
+permissions:
+  - commercial-use
+  - modification
+  - distribution
+  - private-use
+conditions:
+  - include-copyright
+limitations:
+  - liability
+  - warranty
+  - no-endorsement
+textUrl: https://spdx.org/licenses/Unicode-3.0.html
+officialTexts: {}
+hasText: true
+matrices:
+  - code
+updatedAt: 2026-09-26

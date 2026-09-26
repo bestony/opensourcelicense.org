@@ -1,0 +1,7 @@
+name: Hunyuan-Large
+domain: ai-model
+owner: company
+ownerName: Tencent
+hf: tencent/Tencent-Hunyuan-Large
+current:
+  - hunyuan-community

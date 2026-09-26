@@ -1,0 +1,8 @@
+name: Légifrance open data
+domain: data
+owner: foundation
+ownerName: DILA
+homepage: https://www.legifrance.gouv.fr/contenu/pied-de-page/open-data-et-api
+current:
+  - etalab-2.0
+needsReview: true

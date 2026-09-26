@@ -1,0 +1,23 @@
+spdx: LicenseRef-Stability-AI-Community
+name: Stability AI Community License
+shortName: Stability Community
+family: model
+osi: false
+fsf: false
+permissions:
+  - modification
+  - distribution
+  - private-use
+conditions:
+  - include-license
+  - acceptable-use-policy
+limitations:
+  - liability
+  - warranty
+  - mau-threshold
+textUrl: https://stability.ai/community-license-agreement
+officialTexts: {}
+hasText: false
+matrices:
+  - model
+updatedAt: 2026-09-26

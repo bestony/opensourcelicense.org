@@ -1,0 +1,7 @@
+name: yt-dlp
+domain: tooling
+owner: community
+ownerName: yt-dlp
+repo: yt-dlp/yt-dlp
+current:
+  - unlicense

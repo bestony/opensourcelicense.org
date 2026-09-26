@@ -1,0 +1,23 @@
+spdx: LicenseRef-Tongyi-Qianwen
+name: Tongyi Qianwen License Agreement
+shortName: Qwen License
+family: model
+osi: false
+fsf: false
+permissions:
+  - commercial-use
+  - modification
+  - distribution
+conditions:
+  - include-license
+  - attribution-built-with
+limitations:
+  - liability
+  - warranty
+  - mau-threshold
+textUrl: https://huggingface.co/Qwen/Qwen2.5-72B-Instruct/blob/main/LICENSE
+officialTexts: {}
+hasText: false
+matrices:
+  - model
+updatedAt: 2026-09-26

@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: cec538ff11fd0ee8
+summary: 寬鬆授權條款：修改後的原始碼須標明已修改，不得歪曲來源，原始碼副本須保留宣告。
+analogy: 借用菜譜可以，但改了之後別說這是原版。
+pros:
+  - 寬鬆、簡短
+  - 遊戲與原生庫中常見
+cons:
+  - 沒有專利授權
+  - 允許閉源 fork

@@ -1,0 +1,10 @@
+reviewed: true
+summary: GPL-2.0 for the library itself, plus an exception that lets independent
+  programs link to it under any license.
+analogy: A shared engine under the share-the-recipe rule, but your own car stays yours.
+pros:
+  - Applications linking to it can be closed
+  - Used by OpenJDK
+cons:
+  - Changes to the library stay GPL
+  - Incompatible with GPL-3.0-only projects

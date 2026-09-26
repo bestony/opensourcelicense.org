@@ -1,0 +1,7 @@
+name: GraalJS
+domain: language
+owner: company
+ownerName: Oracle
+repo: oracle/graaljs
+current:
+  - upl-1.0

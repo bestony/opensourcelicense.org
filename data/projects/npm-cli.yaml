@@ -1,0 +1,7 @@
+name: npm CLI
+domain: tooling
+owner: company
+ownerName: GitHub
+repo: npm/cli
+current:
+  - artistic-2.0

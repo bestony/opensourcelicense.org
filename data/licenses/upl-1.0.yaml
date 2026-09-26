@@ -1,0 +1,23 @@
+spdx: UPL-1.0
+name: Universal Permissive License v1.0
+shortName: UPL-1.0
+family: permissive
+osi: true
+fsf: true
+permissions:
+  - commercial-use
+  - modification
+  - distribution
+  - private-use
+  - patent-use
+conditions:
+  - include-copyright
+limitations:
+  - liability
+  - warranty
+textUrl: https://spdx.org/licenses/UPL-1.0.html
+officialTexts: {}
+hasText: true
+matrices:
+  - code
+updatedAt: 2026-09-26

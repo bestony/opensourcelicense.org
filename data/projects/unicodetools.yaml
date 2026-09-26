@@ -1,0 +1,7 @@
+name: Unicode Tools
+domain: tooling
+owner: foundation
+ownerName: Unicode Consortium
+repo: unicode-org/unicodetools
+current:
+  - unicode-3.0

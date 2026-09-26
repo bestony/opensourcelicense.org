@@ -1,0 +1,10 @@
+reviewed: true
+summary: "The first Responsible AI License for a large language model: open
+  access with use-based restrictions that bind derivatives."
+analogy: A free tool with a forbidden-uses list attached to every copy.
+pros:
+  - Allows commercial use
+  - Pioneered RAIL licensing
+cons:
+  - Not open source by OSI
+  - Restrictions are hard to enforce

@@ -1,0 +1,7 @@
+name: range-v3
+domain: language
+owner: individual
+ownerName: Eric Niebler
+repo: ericniebler/range-v3
+current:
+  - bsl-1.0

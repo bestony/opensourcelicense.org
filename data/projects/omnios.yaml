@@ -1,0 +1,7 @@
+name: OmniOS
+domain: os
+owner: community
+ownerName: OmniOS Community Edition
+homepage: https://omnios.org/
+current:
+  - cddl-1.0

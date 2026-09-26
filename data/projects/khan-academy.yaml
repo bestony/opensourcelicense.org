@@ -1,0 +1,7 @@
+name: Khan Academy content
+domain: education
+owner: foundation
+ownerName: Khan Academy
+homepage: https://www.khanacademy.org/about/tos
+current:
+  - cc-by-nc-sa-4.0

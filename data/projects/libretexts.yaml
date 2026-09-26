@@ -1,0 +1,8 @@
+name: LibreTexts
+domain: education
+owner: foundation
+ownerName: LibreTexts
+homepage: https://libretexts.org/
+current:
+  - cc-by-nc-sa-4.0
+needsReview: true

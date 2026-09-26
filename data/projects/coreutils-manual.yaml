@@ -1,0 +1,7 @@
+name: GNU Coreutils Manual
+domain: education
+owner: foundation
+ownerName: Free Software Foundation
+homepage: https://www.gnu.org/software/coreutils/manual/
+current:
+  - gfdl-1.3

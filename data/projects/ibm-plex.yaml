@@ -1,0 +1,7 @@
+name: IBM Plex
+domain: design
+owner: company
+ownerName: IBM
+repo: IBM/plex
+current:
+  - ofl-1.1

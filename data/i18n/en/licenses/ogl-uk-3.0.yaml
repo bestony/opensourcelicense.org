@@ -1,0 +1,10 @@
+reviewed: true
+summary: "UK public-sector licence: use government information freely, including
+  commercially, with attribution."
+analogy: Public records you may reuse, as long as you credit the source.
+pros:
+  - Simple attribution rule
+  - Compatible with CC BY 4.0
+cons:
+  - UK-specific wording
+  - Some data is excluded (personal data, logos)

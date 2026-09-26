@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 99f045fe47a729cc
+summary: 原始碼可見：可自由使用、修改、分發，但不得提供與 Confluent 競爭的 SaaS 產品。
+analogy: 任何餐廳都能用這份菜譜，除了和作者競爭的那家。
+pros:
+  - 限制範圍窄
+  - 大多數使用者不受影響
+cons:
+  - 不是開源授權條款
+  - 僅以描述方式排除雲競爭者

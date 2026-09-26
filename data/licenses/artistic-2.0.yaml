@@ -1,0 +1,24 @@
+spdx: Artistic-2.0
+name: Artistic License 2.0
+shortName: Artistic-2.0
+family: weak-copyleft
+osi: true
+fsf: true
+permissions:
+  - commercial-use
+  - modification
+  - distribution
+  - private-use
+  - patent-use
+conditions:
+  - include-copyright
+  - document-changes
+limitations:
+  - liability
+  - warranty
+textUrl: https://spdx.org/licenses/Artistic-2.0.html
+officialTexts: {}
+hasText: true
+matrices:
+  - code
+updatedAt: 2026-09-26

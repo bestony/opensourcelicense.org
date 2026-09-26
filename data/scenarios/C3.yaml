@@ -26,3 +26,49 @@ cells:
     verdict: deny
   elv2:
     verdict: deny
+  bsd-2-clause:
+    verdict: deny
+  isc:
+    verdict: deny
+  unlicense:
+    verdict: deny
+  zlib:
+    verdict: deny
+  bsl-1.0:
+    verdict: deny
+  mit-0:
+    verdict: deny
+  postgresql:
+    verdict: deny
+  unicode-3.0:
+    verdict: deny
+  apache-2.0-with-llvm-exception:
+    verdict: deny
+  gpl-2.0:
+    verdict: deny
+  gpl-2.0-with-classpath-exception:
+    verdict: deny
+  lgpl-2.1:
+    verdict: deny
+  epl-2.0:
+    verdict: deny
+  epl-1.0:
+    verdict: deny
+  cddl-1.0:
+    verdict: deny
+  apsl-2.0:
+    verdict: deny
+  artistic-2.0:
+    verdict: deny
+  perl-5:
+    verdict: allow
+  lppl-1.3c:
+    verdict: deny
+  fsl-1.1:
+    verdict: deny
+  rsalv2:
+    verdict: deny
+  confluent-community:
+    verdict: deny
+  upl-1.0:
+    verdict: deny

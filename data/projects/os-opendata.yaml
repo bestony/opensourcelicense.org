@@ -1,0 +1,7 @@
+name: OS OpenData
+domain: data
+owner: foundation
+ownerName: Ordnance Survey
+homepage: https://www.ordnancesurvey.co.uk/products/os-open-data
+current:
+  - ogl-uk-3.0

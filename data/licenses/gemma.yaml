@@ -1,0 +1,24 @@
+spdx: LicenseRef-Gemma
+name: Gemma Terms of Use
+shortName: Gemma
+family: model
+osi: false
+fsf: false
+permissions:
+  - commercial-use
+  - modification
+  - distribution
+conditions:
+  - include-license
+  - acceptable-use-policy
+  - use-restrictions-pass-through
+limitations:
+  - liability
+  - warranty
+  - use-restrictions
+textUrl: https://ai.google.dev/gemma/terms
+officialTexts: {}
+hasText: false
+matrices:
+  - model
+updatedAt: 2026-09-26

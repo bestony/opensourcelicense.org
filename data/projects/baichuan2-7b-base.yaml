@@ -1,0 +1,7 @@
+name: Baichuan2-7B-Base
+domain: ai-model
+owner: company
+ownerName: Baichuan
+hf: baichuan-inc/Baichuan2-7B-Base
+current:
+  - baichuan-2

@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 3720e103ed28cbd1
+summary: 源码可见：除竞争性产品外均可使用，每个版本两年后转为 Apache-2.0。
+analogy: 橱窗里的商品两年后对所有人免费。
+pros:
+  - 简短、可预期
+  - 两年后代码转为开源
+cons:
+  - 不是开源许可证
+  - “竞争性使用”有时难以判断

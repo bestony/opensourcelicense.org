@@ -1,0 +1,7 @@
+name: Eclipse Temurin
+domain: language
+owner: foundation
+ownerName: Eclipse Adoptium
+homepage: https://adoptium.net/
+current:
+  - gpl-2.0-with-classpath-exception

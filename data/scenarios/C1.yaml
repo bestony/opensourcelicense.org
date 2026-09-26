@@ -27,3 +27,49 @@ cells:
     verdict: conditional
   elv2:
     verdict: conditional
+  bsd-2-clause:
+    verdict: conditional
+  isc:
+    verdict: conditional
+  unlicense:
+    verdict: allow
+  zlib:
+    verdict: conditional
+  bsl-1.0:
+    verdict: conditional
+  mit-0:
+    verdict: conditional
+  postgresql:
+    verdict: conditional
+  unicode-3.0:
+    verdict: conditional
+  apache-2.0-with-llvm-exception:
+    verdict: conditional
+  gpl-2.0:
+    verdict: deny
+  gpl-2.0-with-classpath-exception:
+    verdict: deny
+  lgpl-2.1:
+    verdict: deny
+  epl-2.0:
+    verdict: conditional
+  epl-1.0:
+    verdict: conditional
+  cddl-1.0:
+    verdict: conditional
+  apsl-2.0:
+    verdict: conditional
+  artistic-2.0:
+    verdict: conditional
+  perl-5:
+    verdict: conditional
+  lppl-1.3c:
+    verdict: conditional
+  fsl-1.1:
+    verdict: conditional
+  rsalv2:
+    verdict: conditional
+  confluent-community:
+    verdict: conditional
+  upl-1.0:
+    verdict: conditional

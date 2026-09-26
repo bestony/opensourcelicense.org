@@ -1,0 +1,7 @@
+name: rimraf
+domain: tooling
+owner: individual
+ownerName: Isaac Z. Schlueter
+repo: isaacs/rimraf
+current:
+  - isc

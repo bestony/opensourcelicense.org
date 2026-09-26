@@ -22,3 +22,43 @@ cells:
     verdict: conditional
     clause:
       ref: §4.3 Notice for Produced Works
+  cc0-1.0:
+    verdict: allow
+  cc-by-sa-4.0:
+    verdict: conditional
+  cc-by-nc-sa-4.0:
+    verdict: conditional
+  gfdl-1.3:
+    verdict: conditional
+  ofl-1.1:
+    verdict: allow
+  cdla-permissive-1.0:
+    verdict: allow
+  ogl-uk-3.0:
+    verdict: allow
+  etalab-2.0:
+    verdict: allow
+  gemma:
+    verdict: conditional
+  deepseek-model:
+    verdict: conditional
+  bloom-rail-1.0:
+    verdict: conditional
+  stability-community:
+    verdict: conditional
+  flux-1-dev-nc:
+    verdict: conditional
+  hunyuan-community:
+    verdict: conditional
+  mistral-research:
+    verdict: conditional
+  tongyi-qianwen:
+    verdict: conditional
+  falcon-llm-2.0:
+    verdict: allow
+  nvidia-open-model:
+    verdict: allow
+  baichuan-2:
+    verdict: conditional
+  chatglm:
+    verdict: conditional

@@ -1,0 +1,7 @@
+name: Kafka Connect HDFS
+domain: messaging
+owner: company
+ownerName: Confluent
+repo: confluentinc/kafka-connect-hdfs
+current:
+  - confluent-community

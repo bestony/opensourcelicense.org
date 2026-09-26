@@ -1,0 +1,7 @@
+name: illumos
+domain: os
+owner: community
+ownerName: illumos community
+repo: illumos/illumos-gate
+current:
+  - cddl-1.0

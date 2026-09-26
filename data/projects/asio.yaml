@@ -1,0 +1,7 @@
+name: Asio
+domain: language
+owner: individual
+ownerName: Christopher Kohlhoff
+repo: chriskohlhoff/asio
+current:
+  - bsl-1.0

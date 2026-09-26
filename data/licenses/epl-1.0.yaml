@@ -1,0 +1,25 @@
+spdx: EPL-1.0
+name: Eclipse Public License 1.0
+shortName: EPL-1.0
+family: weak-copyleft
+osi: true
+fsf: true
+permissions:
+  - commercial-use
+  - modification
+  - distribution
+  - private-use
+  - patent-use
+conditions:
+  - include-copyright
+  - disclose-source
+  - same-license-file
+limitations:
+  - liability
+  - warranty
+textUrl: https://spdx.org/licenses/EPL-1.0.html
+officialTexts: {}
+hasText: true
+matrices:
+  - code
+updatedAt: 2026-09-26

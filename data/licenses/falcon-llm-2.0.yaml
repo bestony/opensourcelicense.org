@@ -1,0 +1,23 @@
+spdx: LicenseRef-TII-Falcon-2.0
+name: TII Falcon License 2.0
+shortName: Falcon License 2.0
+family: model
+osi: false
+fsf: false
+permissions:
+  - commercial-use
+  - modification
+  - distribution
+conditions:
+  - include-license
+  - acceptable-use-policy
+limitations:
+  - liability
+  - warranty
+  - use-restrictions
+textUrl: https://falconllm.tii.ae/falcon-terms-and-conditions.html
+officialTexts: {}
+hasText: false
+matrices:
+  - model
+updatedAt: 2026-09-26

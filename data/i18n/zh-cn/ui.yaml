@@ -1,5 +1,5 @@
 reviewed: false
-sourceHash: d83a2e48ed5947b0
+sourceHash: a2d7eb045dde7649
 strings:
   site.name: opensourcelicense.org
   site.tagline: 开源许可证决策工作台
@@ -331,3 +331,5 @@ strings:
   check.license-hint: 可以按 “名称@版本 许可证ID” 每行一个填写，或开启在线查询。
   notfound.title: 页面不存在
   notfound.body: 这个页面不存在，去许可证库看看吧。
+  domain.education: 教育
+  domain.design: 字体与设计

@@ -1,0 +1,7 @@
+name: Catch2
+domain: tooling
+owner: community
+ownerName: Catch2 maintainers
+repo: catchorg/Catch2
+current:
+  - bsl-1.0

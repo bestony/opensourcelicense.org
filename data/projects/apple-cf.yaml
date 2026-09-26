@@ -1,0 +1,8 @@
+name: CoreFoundation (CF-Lite)
+domain: os
+owner: company
+ownerName: Apple
+repo: apple-oss-distributions/CF
+current:
+  - apsl-2.0
+needsReview: true

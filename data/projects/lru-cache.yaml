@@ -1,0 +1,7 @@
+name: lru-cache
+domain: tooling
+owner: individual
+ownerName: Isaac Z. Schlueter
+repo: isaacs/node-lru-cache
+current:
+  - isc

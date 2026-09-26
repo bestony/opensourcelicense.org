@@ -1,0 +1,7 @@
+name: Falcon3-10B
+domain: ai-model
+owner: company
+ownerName: Technology Innovation Institute
+hf: tiiuae/Falcon3-10B-Instruct
+current:
+  - falcon-llm-2.0
