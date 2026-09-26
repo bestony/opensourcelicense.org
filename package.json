@@ -2,7 +2,6 @@
   "name": "opensourcelicense-org",
   "type": "module",
   "version": "0.0.1",
-  "packageManager": "pnpm@11.1.2",
   "engines": {
     "node": ">=22.12.0"
   },
@@ -12,7 +11,10 @@
     "preview": "astro preview",
     "astro": "astro",
     "deploy": "astro build && wrangler deploy",
-    "cf:preview": "astro build && wrangler dev"
+    "cf:preview": "astro build && wrangler dev",
+    "test": "vitest run",
+    "validate": "tsx scripts/validate.ts",
+    "check": "astro check"
   },
   "dependencies": {
     "@astrojs/react": "^7.0.0",
