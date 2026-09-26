@@ -1,0 +1,8 @@
+reviewed: false
+sourceHash: d30cdd2632a3c255
+actor: other
+title: একটি ক্লোজড-সোর্স অ্যাপ বা ফার্মওয়্যারে লিংক করে বিতরণ
+cells:
+  mpl-2.0: ফাইল স্তরে
+  lgpl-3.0: রিলিংকিংয়ের অনুমতি দিতে হবে
+  busl-1.1: Additional Use Grant এর ওপর নির্ভর করে

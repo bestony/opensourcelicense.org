@@ -1,0 +1,8 @@
+reviewed: false
+sourceHash: d30cdd2632a3c255
+actor: other
+title: क्लोज़्ड-सोर्स ऐप या फ़र्मवेयर में लिंक करके वितरित
+cells:
+  mpl-2.0: फ़ाइल-स्तरीय
+  lgpl-3.0: री-लिंकिंग की अनुमति देनी होगी
+  busl-1.1: Additional Use Grant पर निर्भर

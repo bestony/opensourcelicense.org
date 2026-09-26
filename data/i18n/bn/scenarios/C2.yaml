@@ -1,0 +1,8 @@
+reviewed: false
+sourceHash: 3a5f4b9bf27dddea
+actor: other
+title: আপনার কোড একটি GPL-3.0 প্রজেক্টে মার্জ করা হয়
+cells:
+  apache-2.0: তবে GPL-2.0-এর সঙ্গে সামঞ্জস্যপূর্ণ নয়
+  mpl-2.0: যদি না অসামঞ্জস্যপূর্ণ হিসেবে চিহ্নিত থাকে
+  agpl-3.0: AGPL অংশটি AGPL-ই থাকে

@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: c77fe673047b3249
+actor: other
+title: ڈسٹلیشن، یا اس کے آؤٹ پٹ پر دوسرے ماڈلز کی تربیت
+cells:
+  llama: نام میں “Llama” شامل ہونا لازم ہے
+  openrail-m: ماخوذ کام پابندیاں ورثے میں پاتے ہیں
+  cc-by-4.0: انتساب
+  cc-by-nc-4.0: صرف غیر تجارتی
+  odc-by-1.0: انتساب
+  odbl-1.0: انتساب

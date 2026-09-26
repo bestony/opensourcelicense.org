@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: e8b5efadb2a71225
+summary: MIT اور BSD جیسا ایک مختصر پرمسیو لائسنس، جسے PostgreSQL اور اس کا ایکو
+  سسٹم استعمال کرتا ہے۔
+analogy: مفت کتاب کا PostgreSQL کمیونٹی والا اپنا ورژن۔
+pros:
+  - مختصر اور پرمسیو
+  - PostgreSQL ایکو سسٹم میں مانوس
+cons:
+  - پیٹنٹ اجازت نہیں
+  - بند فورک کی اجازت ہے

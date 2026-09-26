@@ -1,0 +1,8 @@
+reviewed: false
+sourceHash: 3a5f4b9bf27dddea
+actor: other
+title: உங்கள் குறியீடு ஒரு GPL-3.0 திட்டத்தில் இணைக்கப்படுகிறது
+cells:
+  apache-2.0: ஆனால் GPL-2.0 உடன் இணக்கமற்றது
+  mpl-2.0: இணக்கமற்றது எனக் குறிக்கப்படாவிட்டால்
+  agpl-3.0: AGPL பகுதி AGPL ஆகவே இருக்கும்

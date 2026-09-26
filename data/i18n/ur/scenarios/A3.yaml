@@ -1,0 +1,9 @@
+reviewed: false
+sourceHash: b16411183c557a4e
+actor: other
+title: کلوزڈ سورس SaaS بیک اینڈ میں شامل (تقسیم نہیں کیا گیا)
+cells:
+  agpl-3.0: ترمیم ہونے پر شائع کرنا لازم ہے
+  sspl-1.0: اگر اس کی فعالیت بطور سروس پیش کی جائے
+  busl-1.1: Additional Use Grant پر منحصر
+  elv2: خود پروڈکٹ کو ہوسٹ نہیں کرنا

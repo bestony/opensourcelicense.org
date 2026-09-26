@@ -1,0 +1,8 @@
+reviewed: false
+sourceHash: 3a5f4b9bf27dddea
+actor: other
+title: आपका कोड किसी GPL-3.0 प्रोजेक्ट में मिला दिया जाता है
+cells:
+  apache-2.0: पर GPL-2.0 के साथ संगत नहीं
+  mpl-2.0: जब तक असंगत चिह्नित न हो
+  agpl-3.0: AGPL वाला हिस्सा AGPL ही रहता है

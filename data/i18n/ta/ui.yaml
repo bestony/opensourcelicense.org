@@ -1,0 +1,377 @@
+reviewed: false
+sourceHash: a2d7eb045dde7649
+strings:
+  site.name: opensourcelicense.org
+  site.tagline: ஓப்பன் சோர்ஸ் உரிமங்களைத் தேர்ந்தெடுத்து ஒப்பிடும் பணிமேசை
+  site.description: ஓப்பன் சோர்ஸ் (திறந்த மூல) உரிமங்களைத் தேர்ந்தெடுங்கள்,
+    ஒப்பிடுங்கள், சோதித்துப் பாருங்கள். உண்மையான திட்டங்கள் எந்த உரிமத்தைப்
+    பயன்படுத்துகின்றன, என்ன தவறு நடக்கலாம், உங்கள் திட்டத்துக்கு எது பொருந்தும்
+    என்பதைப் பாருங்கள்.
+  nav.home: முகப்பு
+  nav.licenses: உரிமங்கள்
+  nav.scenarios: சூழ்நிலைகள்
+  nav.projects: திட்டங்கள்
+  nav.trends: போக்குகள்
+  nav.compare: ஒப்பீடு
+  nav.wizard: வழிகாட்டி
+  nav.chat: AI ஆலோசகர்
+  nav.check: சார்புநிலை சரிபார்ப்பு
+  nav.menu: பட்டியல்
+  lang.switch: மொழி
+  lang.suggest: இந்தப் பக்கம் {language} மொழியில் கிடைக்கிறது.
+  lang.suggest.go: மாற்று
+  lang.suggest.dismiss: மூடு
+  footer.disclaimer: இந்தத் தளம் பொதுவான தகவல்களை மட்டுமே தருகிறது, சட்ட ஆலோசனை
+    அல்ல. உண்மையான தகராறு அல்லது ஒப்பந்தத்துக்கு வழக்கறிஞரை அணுகுங்கள்.
+  footer.source: மூலக் குறியீடு (AGPL-3.0)
+  footer.data: தரவு CC-BY-4.0 உரிமத்தின் கீழ்
+  footer.report: பிழையைத் தெரிவிக்கவும்
+  footer.cite: "தரவு: opensourcelicense.org, CC-BY-4.0"
+  footer.hosting: Cloudflare Workers இலவசத் திட்டத்தில் இயங்குகிறது
+  footer.dns: டொமைன் Cloudflare-இல் ஹோஸ்ட் செய்யப்பட்டுள்ளது
+  badge.machine: இயந்திர மொழிபெயர்ப்பு
+  badge.reviewed: சரிபார்க்கப்பட்ட மொழிபெயர்ப்பு
+  badge.fallback: இன்னும் மொழிபெயர்க்கப்படவில்லை — ஆங்கிலத்தில் காட்டப்படுகிறது
+  badge.stale: பழையதாக இருக்கலாம்
+  badge.unreviewed-data: வரைவு — இன்னும் வழக்கறிஞர் சரிபார்க்கவில்லை
+  common.updated: "தரவு புதுப்பிப்பு: {date}"
+  common.back: பின்செல்
+  common.copy: நகலெடு
+  common.copied: நகலெடுக்கப்பட்டது
+  common.download: பதிவிறக்கு
+  common.close: மூடு
+  common.all: அனைத்தும்
+  common.yes: ஆம்
+  common.no: இல்லை
+  common.unknown: தெரியாது
+  common.none: எதுவுமில்லை
+  common.more: மேலும்
+  common.loading: ஏற்றுகிறது…
+  common.error: ஏதோ தவறு நடந்துவிட்டது.
+  common.search: தேடு
+  home.title: சரியான ஓப்பன் சோர்ஸ் உரிமத்தைத் தெளிவாகப் புரிந்து தேர்ந்தெடுங்கள்
+  home.lead: “எந்த உரிமம்” என்பது மட்டுமல்ல; ஒத்த திட்டங்கள் எதைத் தேர்ந்தெடுத்தன,
+    மோசமான சூழ்நிலை எப்படி இருக்கும், அடுத்து என்ன செய்ய வேண்டும் என்பதும்.
+  home.entry.chat.title: AI ஆலோசகருடன் பேசுங்கள்
+  home.entry.chat.body: உங்கள் திட்டத்தை உங்கள் சொந்த வார்த்தைகளில் விவரியுங்கள்.
+    சுயவிவரம், தொடர் கேள்விகள் மற்றும் ஓர் அறிக்கையைப் பெறுங்கள்.
+  home.entry.projects.title: மற்றவர்கள் எதைப் பயன்படுத்துகிறார்கள் எனப் பாருங்கள்
+  home.entry.projects.body: நன்கு அறியப்பட்ட திட்டங்களின் உரிமங்கள், அவற்றில் சில
+    ஏன் உரிமத்தை மாற்றின என்பதும்.
+  home.entry.wizard.title: படிப்படியாக வடிகட்டுங்கள்
+  home.entry.wizard.body: சில கேள்விகளுக்குப் பதிலளித்து, தரவரிசைப்படுத்தப்பட்ட,
+    விளக்கத்துடன் கூடிய சுருக்கப் பட்டியலைப் பெறுங்கள்.
+  home.wall: பிரபல திட்டங்களின் உரிமங்கள்
+  home.changes: சமீபத்திய உரிம மாற்றங்கள்
+  home.scenarios: என்ன தவறு நடக்கலாம்?
+  home.scenarios.body: 27 தீவிர சூழ்நிலைகள் × 17 உரிம நெடுவரிசைகள், ஒவ்வொரு
+    கட்டத்துக்கும் தனிப் பக்கம்.
+  family.permissive: அனுமதிமிக்கது (Permissive)
+  family.weak-copyleft: பலவீனமான காப்பிலெஃப்ட்
+  family.strong-copyleft: வலுவான காப்பிலெஃப்ட்
+  family.network-copyleft: நெட்வொர்க் காப்பிலெஃப்ட்
+  family.source-available: மூலம் கிடைக்கும் (Source-available)
+  family.model: மாடல் உரிமம்
+  family.content: உள்ளடக்கம் / தரவு
+  verdict.allow: அனுமதிக்கப்படும்
+  verdict.conditional: நிபந்தனைகளுடன்
+  verdict.deny: உரிமத்தால் தடுக்கப்படும்
+  verdict.silent: குறிப்பிடப்படவில்லை
+  verdict.tbd: பரிசீலனையில்
+  verdict.legend: "குறியீடுகள்: ✓ மறுதரப்பு இதைச் செய்யலாம் · ◐ நிபந்தனைகளுடன் · ✗
+    உரிமம் இதைத் தடுக்கிறது · — உரிமம் இதைப் பற்றிப் பேசவில்லை (பொதுச் சட்டம்
+    பொருந்தும்)"
+  actor.other: வேறொருவர் இதைச் செய்கிறார்
+  actor.you: நீங்கள் இதைச் செய்ய விரும்புகிறீர்கள்
+  actor.contributor: ஒரு பங்களிப்பாளர் இதைச் செய்கிறார்
+  actor.both: இரு தரப்புக்கும் பொருந்தும்
+  group.A: வணிகப் போட்டி
+  group.B: காப்புரிமையும் சட்டமும்
+  group.C: வளர்ச்சியும் வணிகமும்
+  group.D: பயன்பாடும் இணக்கமும்
+  group.E: AI மாடல்களும் தரவும்
+  matrix.code: குறியீட்டு உரிமங்கள்
+  matrix.model: மாடல் மற்றும் தரவு உரிமங்கள்
+  term.commercial-use: வணிகப் பயன்பாடு
+  term.modification: மாற்றம் செய்தல்
+  term.distribution: விநியோகம்
+  term.private-use: தனிப்பட்ட பயன்பாடு
+  term.patent-use: காப்புரிமை வழங்கல்
+  term.non-production-use: தயாரிப்பு அல்லாத பயன்பாடு
+  term.converts-to-open-source: பின்னர் ஓப்பன் சோர்ஸாக மாறும்
+  term.include-copyright: பதிப்புரிமை அறிவிப்பை வைத்திருங்கள்
+  term.include-license: உரிமத்தைச் சேர்க்கவும்
+  term.document-changes: மாற்றங்களைக் குறிக்கவும்
+  term.disclose-source: மூலக் குறியீட்டை வெளியிடவும்
+  term.same-license: வழிப்படைப்புகளுக்கு அதே உரிமம்
+  term.same-license-file: அதே உரிமம் (கோப்பு நிலை)
+  term.same-license-library: அதே உரிமம் (லைப்ரரி நிலை)
+  term.allow-relinking: மறு இணைப்பை அனுமதிக்கவும்
+  term.network-use-disclose: நெட்வொர்க் பயன்பாடும் விநியோகமே
+  term.service-stack-disclose: முழு சேவை அடுக்கையும் வெளியிடவும்
+  term.keep-limitations: வரம்புகளைத் தக்கவைக்கவும்
+  term.attribution: படைப்பாளர் குறிப்பு
+  term.attribution-built-with: “Built with” காட்டவும்
+  term.name-prefix: பெயர் முன்னொட்டு விதி
+  term.acceptable-use-policy: ஏற்கத்தக்க பயன்பாட்டுக் கொள்கை
+  term.use-restrictions-pass-through: பயன்பாட்டுக் கட்டுப்பாடுகளைக் கடத்தவும்
+  term.indicate-changes: மாற்றங்களைச் சுட்டிக்காட்டவும்
+  term.liability: பொறுப்பு இல்லை
+  term.warranty: உத்தரவாதம் இல்லை
+  term.trademark-use: வர்த்தகமுத்திரை உரிமை இல்லை
+  term.no-endorsement: ஒப்புதல் கோரல் இல்லை
+  term.production-use-restricted: தயாரிப்புப் பயன்பாடு வரம்பிடப்பட்டது
+  term.no-managed-service: நிர்வகிக்கப்பட்ட சேவை இல்லை
+  term.no-license-key-circumvention: உரிமச் சாவியைத் தவிர்க்கக் கூடாது
+  term.mau-threshold: பயனர் வரம்பு
+  term.use-restrictions: பயன்பாட்டுக் கட்டுப்பாடுகள்
+  term.non-commercial: வணிகமற்ற பயன்பாடு மட்டும்
+  licenses.title: ஓப்பன் சோர்ஸ் உரிமப் பட்டியல்
+  licenses.lead: "{count} உரிமங்கள் — அனுமதிமிக்கவை முதல் மூலம் கிடைக்கும் மற்றும்
+    மாடல் உரிமங்கள் வரை."
+  licenses.col.license: உரிமம்
+  licenses.col.family: வகை
+  licenses.col.osi: OSI
+  licenses.col.fsf: FSF கட்டற்றது
+  licenses.col.projects: திட்டங்கள்
+  licenses.filter: வகைப்படி வடிகட்டு
+  license.permissions: அனுமதிகள்
+  license.conditions: நிபந்தனைகள்
+  license.limitations: வரம்புகள்
+  license.summary: எளிய சொற்களில்
+  license.analogy: உவமை
+  license.pros: நன்மைகள்
+  license.cons: குறைகள்
+  license.scenarios: தீவிர சூழ்நிலைகள்
+  license.radar: மோசமான சூழ்நிலை ரேடார்
+  license.projects: இதைப் பயன்படுத்தும் பிரபல திட்டங்கள்
+  license.projects.count: எங்கள் வரைபடத்தில் உள்ள {count} பிரபல திட்டங்கள் இந்த
+    உரிமத்தைப் பயன்படுத்துகின்றன.
+  license.projects.none: எங்கள் வரைபடத்தில் இன்னும் எந்தத் திட்டமும் இந்த உரிமத்தைப் பயன்படுத்தவில்லை.
+  license.projects.since: "{date} அன்று இதற்கு மாறியது"
+  license.projects.also: "இவற்றின் கீழும் கிடைக்கிறது: {licenses}"
+  license.projects.former: இதைவிட்டு விலகிய திட்டங்கள்
+  license.text: அதிகாரப்பூர்வ உரை
+  license.text.official: "{language} மொழியில் அதிகாரப்பூர்வ உரை"
+  license.text.note: அதிகாரப்பூர்வ உரைக்கு மட்டுமே சட்டப்படி கட்டுப்படுத்தும் வலு
+    உண்டு. நாங்கள் உரிம உரைகளை மொழிபெயர்ப்பதில்லை.
+  license.compare: இதனுடன் ஒப்பிடு…
+  license.spdx: SPDX அடையாளங்காட்டி
+  radar.anti-freeride: இலவசச் சுரண்டலைத் தடுக்கும்
+  radar.anti-closed-fork: மூடிய ஃபோர்க்குகளைத் தடுக்கும்
+  radar.patent: காப்புரிமைப் பாதுகாப்பு
+  radar.adoption-friction: ஏற்பதில் உள்ள தடை
+  radar.relicense-difficulty: உரிமத்தை மாற்றுவது கடினம்
+  radar.misuse-control: தவறான பயன்பாட்டுக் கட்டுப்பாடு
+  radar.derivative-control: வழிப்படைப்புக் கட்டுப்பாடு
+  radar.commercial-control: வணிகக் கட்டுப்பாடு
+  radar.note: சூழ்நிலை அணியிலிருந்து கணக்கிடப்பட்டது. அதிக மதிப்பு என்றால் அந்தப்
+    பண்பு அதிகம் என்று பொருள், “சிறந்தது” என்று அல்ல.
+  scenarios.title: தீவிர சூழ்நிலை அணி
+  scenarios.lead: உரிமத்தைத் தேர்ந்தெடுத்த பிறகு என்ன நடக்கும்? ஒவ்வொரு கட்டமும்
+    ஒரு கேள்விக்குப் பதிலளிக்கிறது, அதற்கெனத் தனிப் பக்கம் உண்டு.
+  scenarios.highlight: ஓர் உரிமத்தை முன்னிலைப்படுத்து
+  scenarios.expand: அனைத்தையும் விரி
+  scenarios.collapse: அனைத்தையும் சுருக்கு
+  scenarios.silent-note: “—” மட்டுமே உள்ள வரிசைகள் வேண்டுமென்றே வைக்கப்பட்டுள்ளன.
+    இவற்றின் பதில் உரிமத்தைச் சார்ந்ததல்ல; வேலை ஒப்பந்தங்கள் (C6), ஏற்றுமதிக்
+    கட்டுப்பாட்டுச் சட்டம் (D5) அல்லது நடந்துகொண்டிருக்கும் வழக்குகள் (D6)
+    ஆகியவற்றைச் சார்ந்தது.
+  scenario.flow.you: நீங்கள் {license} உரிமத்தின் கீழ் வெளியிடுகிறீர்கள்
+  scenario.flow.they: சூழ்நிலை
+  scenario.flow.result: முடிவு
+  scenario.clause: தொடர்புடைய பிரிவு
+  scenario.case: உண்மை நிகழ்வு
+  scenario.others: அதே சூழ்நிலை, பிற உரிமங்கள்
+  scenario.other-scenarios: "{license} உரிமத்தின் பிற சூழ்நிலைகள்"
+  scenario.no-clause: குறிப்பிட்ட பிரிவு இல்லை. பொதுச் சட்டம் பொருந்தும்.
+  scenario.review: சரிபார்ப்பு நிலை
+  scenario.review.none: இன்னும் வழக்கறிஞர் சரிபார்க்கவில்லை.
+  scenario.review.done: "{date} அன்று {who} சரிபார்த்தார்."
+  compare.title: ஓப்பன் சோர்ஸ் உரிம ஒப்பீடு
+  compare.lead: பிரிவு வாரியாகவும் சூழ்நிலை வாரியாகவும் ஒப்பிட இரண்டு அல்லது
+    மூன்று உரிமங்களைத் தேர்ந்தெடுங்கள்.
+  compare.pick: உரிமத்தைச் சேர்
+  compare.remove: நீக்கு
+  compare.terms: விதிமுறைகள்
+  compare.scenarios: சூழ்நிலைகள்
+  compare.empty: குறைந்தது இரண்டு உரிமங்களைத் தேர்ந்தெடுங்கள்.
+  wizard.title: உரிமத் தேர்வு வழிகாட்டி
+  wizard.lead: சில கேள்விகளுக்குப் பதிலளியுங்கள். விதி இயந்திரம் உரிமங்களைத்
+    தரவரிசைப்படுத்தி ஒவ்வொரு புள்ளியையும் விளக்குகிறது.
+  wizard.next: அடுத்து
+  wizard.prev: முந்தையது
+  wizard.finish: முடிவைப் பார்
+  wizard.restart: மீண்டும் தொடங்கு
+  wizard.skip: தவிர்
+  wizard.step: படி {n} / {total}
+  wizard.to-chat: AI ஆலோசகரில் தொடரவும்
+  q.artifact_type: நீங்கள் எதை வெளியிடுகிறீர்கள்?
+  q.openness_level: இது எவ்வளவு திறந்ததாக இருக்க வேண்டும்?
+  q.avoid: எந்த விளைவுகளைத் தவிர்க்க விரும்புகிறீர்கள்?
+  q.avoid.hint: எத்தனை வேண்டுமானாலும் தேர்ந்தெடுக்கலாம்.
+  q.adoption_goal: எது மிக முக்கியம்?
+  q.dependencies: நீங்கள் காப்பிலெஃப்ட் குறியீட்டைச் சார்ந்திருக்கிறீர்களா?
+  q.dependencies.hint: சார்புநிலை உரிமங்களின் SPDX id-களைச் சேர்க்கவும்,
+    எடுத்துக்காட்டாக GPL-3.0-only.
+  q.commercial_plan: வருமானம் ஈட்டுவதாக இருந்தால், எப்படி?
+  q.jurisdiction: நீங்கள் எங்கு இருக்கிறீர்கள்?
+  opt.artifact_type.library: ஒரு லைப்ரரி அல்லது SDK
+  opt.artifact_type.application: ஒரு பயன்பாடு அல்லது கருவி
+  opt.artifact_type.saas: ஒரு சேவை பின்புலம் (SaaS)
+  opt.artifact_type.model: மாடல் எடைகள் (weights)
+  opt.artifact_type.dataset: ஒரு தரவுத்தொகுப்பு
+  opt.artifact_type.docs: ஆவணங்கள் அல்லது உள்ளடக்கம்
+  opt.openness_level.open: முழுமையாகத் திறந்தது — யாரும் எதையும் செய்யலாம்
+  opt.openness_level.reciprocal: திறந்தது, ஆனால் மேம்பாடுகள் திரும்ப வர வேண்டும்
+  opt.openness_level.source-available: மூலம் தெரியும், வணிகப் பயன்பாடு வரம்பிடப்பட்டது
+  opt.avoid.cloud-hosting: கிளவுட் நிறுவனங்கள் இதைச் சேவையாக விற்பது
+  opt.avoid.closed-fork: மூடிய மூல ஃபோர்க்குகள்
+  opt.avoid.patent-litigation: காப்புரிமை வழக்குகள்
+  opt.avoid.trademark-abuse: என் பெயர் அல்லது பிராண்டின் தவறான பயன்பாடு
+  opt.avoid.harmful-use: தீங்கான பயன்பாடுகள்
+  opt.avoid.big-company: பெரிய நிறுவனங்கள் இதை இலவசமாகப் பயன்படுத்துவது
+  opt.adoption_goal.enterprise: நிறுவனங்களால் அதிகபட்ச ஏற்பு
+  opt.adoption_goal.community: சமூகப் பங்களிப்புகள்
+  opt.adoption_goal.monetize: இதிலிருந்து வருமானம் ஈட்டுதல்
+  opt.commercial_plan.none: திட்டம் இல்லை
+  opt.commercial_plan.dual-license: இரட்டை உரிமம்
+  opt.commercial_plan.open-core: ஓப்பன் கோர்
+  opt.commercial_plan.hosted: ஹோஸ்ட் செய்யப்பட்ட சேவை
+  opt.jurisdiction.cn: சீனா
+  opt.jurisdiction.eu: ஐரோப்பிய ஒன்றியம்
+  opt.jurisdiction.us: அமெரிக்கா
+  opt.jurisdiction.other: பிற
+  engine.part.avoid: "இதிலிருந்து பாதுகாப்பு: {avoid}"
+  engine.part.openness: "திறந்தநிலைப் பொருத்தம்: {openness}"
+  engine.part.adoption: "இலக்கு: {goal}"
+  engine.part.commercial: "வணிகத் திட்டம்: {plan}"
+  engine.part.jurisdiction: "அதிகார வரம்பு: {jurisdiction}"
+  engine.part.dependency: "நிபந்தனைகளுடன் மட்டுமே இணக்கமானது: {dependency}"
+  engine.excluded.dependency: சார்புநிலை {dependency} உடன் இணக்கமற்றது
+  engine.excluded.artifact: இந்த வகை வெளியீட்டுக்குப் பொருந்தாது
+  advisory.needs-cla: பங்களிப்பாளர் உரிம ஒப்பந்தத்தை (CLA) பயன்படுத்துங்கள். வணிக
+    உரிமங்களை விற்க அல்லது பின்னர் உரிமத்தை மாற்ற இது தேவைப்படும்.
+  advisory.consider-dco: டெவலப்பர் மூலச் சான்றிதழ் (DCO, “Signed-off-by”) பொதுவாகப் போதுமானது.
+  advisory.busl-change-date: BSL தலைப்பில் Additional Use Grant, Change Date
+    மற்றும் Change License ஆகியவற்றை அமைக்கவும்.
+  advisory.model-card: உரிமத்தை மாடல் அல்லது தரவுத்தொகுப்பு அட்டையின்
+    மெட்டாடேட்டாவில் (“license:” புலம்) சேர்க்கவும்.
+  advisory.notice-file: ஒரு NOTICE கோப்பைச் சேர்த்து, மறுவிநியோகம் செய்யும்போது அதைத் தக்கவைக்கவும்.
+  advisory.consult-lawyer: வெளியிடுவதற்கு முன் சார்புநிலைகளையும் வணிக
+    விதிமுறைகளையும் வழக்கறிஞரிடம் சரிபார்க்கச் சொல்லுங்கள்.
+  advisory.network-source-link: உங்கள் நெட்வொர்க் சேவையின் பயனர்களுக்கு “மூலக்
+    குறியீடு” இணைப்பைக் காட்டுங்கள்.
+  report.title: உங்கள் உரிம அறிக்கை
+  report.lead: இந்த அறிக்கை இணைப்பில் உள்ள சுயவிவரத்திலிருந்து உங்கள் உலாவியிலேயே
+    கணக்கிடப்படுகிறது. அறிக்கையைப் பகிர இணைப்பைப் பகிருங்கள்.
+  report.profile: திட்டச் சுயவிவரம்
+  report.edit: வழிகாட்டியில் திருத்து
+  report.top: பரிந்துரைக்கப்பட்டவை
+  report.score: மதிப்பெண் {score}
+  report.why: ஏன்
+  report.excluded: விலக்கப்பட்டவை
+  report.advisories: அடுத்த படிகள்
+  report.license-file: LICENSE கோப்பு
+  report.header: கோப்புத் தலைப்பு
+  report.badge: README பேட்ஜ்
+  report.share: இணைப்பைப் பகிர்
+  report.share.copy: இணைப்பை நகலெடு
+  report.similar: ஒத்த திட்டங்கள்
+  report.no-text: இயந்திரம் படிக்கக்கூடிய உரை இல்லை. அதிகாரப்பூர்வப்
+    பக்கத்திலிருந்து பெறுங்கள்.
+  report.invalid: இந்த அறிக்கை இணைப்பு உடைந்துள்ளது அல்லது பழைய பதிப்பைச் சேர்ந்தது.
+  report.empty: இன்னும் சுயவிவரம் இல்லை. வழிகாட்டி அல்லது AI ஆலோசகருடன் தொடங்குங்கள்.
+  chat.title: AI உரிம ஆலோசகர்
+  chat.lead: உங்கள் திட்டத்தை விவரியுங்கள். ஆலோசகர் தொடர் கேள்விகளைக் கேட்கிறது,
+    விதி இயந்திரம் உரிமங்களைத் தேர்ந்தெடுக்கிறது, ஆலோசகர் அவற்றை விளக்குகிறது.
+  chat.placeholder: "எடுத்துக்காட்டு: நான் ஒரு வெக்டர் தரவுத்தளத்தை
+    உருவாக்கியுள்ளேன்; கிளவுட் நிறுவனங்கள் அதை மறுவிற்பனை செய்யுமோ என்று
+    கவலைப்படுகிறேன்."
+  chat.send: அனுப்பு
+  chat.stop: நிறுத்து
+  chat.examples: ஓர் எடுத்துக்காட்டை முயலுங்கள்
+  chat.example.1: நான் ஒரு வெக்டர் தரவுத்தளத்தை உருவாக்கியுள்ளேன்; கிளவுட்
+    நிறுவனங்கள் அதை மறுவிற்பனை செய்யுமோ என்று கவலைப்படுகிறேன்.
+  chat.example.2: ஒரு சிறிய React கூறு லைப்ரரி. நிறுவனங்கள் இதைப் பயன்படுத்த
+    வேண்டும் என்று விரும்புகிறேன்.
+  chat.example.3: நாங்கள் ஒரு 7B மாடலை ஃபைன்-டியூன் செய்துள்ளோம்; தீங்கான
+    பயன்பாடுகளைத் தடுக்க விரும்புகிறோம்.
+  chat.profile: திட்டச் சுயவிவரம்
+  chat.profile.hint: மாற்ற ஒரு மதிப்பைக் கிளிக் செய்யுங்கள்.
+  chat.candidates: தேர்வுக்குரியவை
+  chat.run: பரிந்துரையைப் பெறு
+  chat.limit: இன்றைய வரம்பை அடைந்துவிட்டீர்கள். நாளை மீண்டும் முயலுங்கள் அல்லது
+    வழிகாட்டியைப் பயன்படுத்துங்கள்.
+  chat.error: ஆலோசகர் இப்போது கிடைக்கவில்லை. வழிகாட்டி இன்னும் வேலை செய்கிறது.
+  chat.verify: நீங்கள் மனிதர்தான் என்பதை உறுதிப்படுத்துங்கள்.
+  chat.disclaimer: ஆலோசகர் தவறு செய்யலாம். பரிந்துரைகள் விதி இயந்திரத்திலிருந்து
+    வருகின்றன; இது சட்ட ஆலோசனை அல்ல.
+  chat.report: முழு அறிக்கையைத் திற
+  projects.title: திட்ட உரிம வரைபடம்
+  projects.lead: நன்கு அறியப்பட்ட திட்டங்களின் உரிமங்களும் ஒவ்வொரு மாற்றத்தின்
+    பின்னணிக் கதையும்.
+  projects.filter.domain: துறை
+  projects.filter.family: உரிம வகை
+  projects.filter.owner: உரிமையாளர்
+  projects.filter.changed: உரிமம் மாறியது
+  projects.count: "{count} திட்டங்கள்"
+  projects.empty: இந்த வடிகட்டிகளுக்குப் பொருந்தும் திட்டம் எதுவும் இல்லை.
+  owner.company: நிறுவனம்
+  owner.foundation: அறக்கட்டளை
+  owner.individual: தனிநபர்
+  owner.community: சமூகம்
+  project.current: தற்போதைய உரிமம்
+  project.timeline: உரிமக் காலவரிசை
+  project.reason: காரணம்
+  project.announcement: அறிவிப்பு
+  project.forks: தொடர்ந்து வந்த ஃபோர்க்குகள்
+  project.fork-of: "{name} இன் ஃபோர்க்"
+  project.repo: களஞ்சியம் (Repository)
+  project.similar: ஒத்த திட்டங்கள்
+  project.review: இந்தப் பதிவு ஒத்திசைவு பாட் மூலம் கண்டறியப்பட்டது; மனிதச்
+    சரிபார்ப்புக்காகக் காத்திருக்கிறது.
+  project.initial: தொடக்க உரிமம்
+  domain.database: தரவுத்தளம்
+  domain.frontend: ஃப்ரண்ட்எண்ட் கட்டமைப்பு
+  domain.devops: DevOps
+  domain.ai-model: AI மாடல்
+  domain.language: நிரல் மொழியும் இயக்கச் சூழலும்
+  domain.os: இயக்க முறைமை
+  domain.web: வலை சர்வர் மற்றும் பேக்எண்ட்
+  domain.tooling: டெவலப்பர் கருவிகள்
+  domain.data: தரவு மற்றும் பகுப்பாய்வு
+  domain.observability: கண்காணிப்புத் திறன் (Observability)
+  domain.messaging: செய்தியிடல் மற்றும் ஸ்ட்ரீமிங்
+  domain.cms: CMS மற்றும் பயன்பாடுகள்
+  trends.title: ஓப்பன் சோர்ஸ் உரிமப் போக்குகள்
+  trends.lead: உருவாக்க நேரத்தில் திட்ட வரைபடத்திலிருந்து தொகுக்கப்பட்டது.
+  trends.family-share: துறைவாரியான உரிம வகைகள்
+  trends.changes: ஆண்டுவாரியான உரிம மாற்றங்கள்
+  trends.to-source-available: ஓப்பன் சோர்ஸிலிருந்து மூலம் கிடைக்கும் உரிமத்துக்கு மாறிய திட்டங்கள்
+  search.lead: இந்த மொழியில் உரிமங்கள், சூழ்நிலைகள் மற்றும் திட்டங்களைத் தேடுங்கள்.
+  search.noscript: தேடலுக்கு JavaScript தேவை.
+  check.title: சார்புநிலை உரிம இணக்கச் சரிபார்ப்பு
+  check.lead: package.json, go.mod, Gemfile.lock, Cargo.toml அல்லது
+    requirements.txt ஒட்டுங்கள். பகுப்பாய்வு உங்கள் உலாவியிலேயே நடைபெறுகிறது.
+  check.project-license: உங்கள் திட்டத்தின் உரிமம்
+  check.input: மேனிஃபெஸ்ட்
+  check.run: சரிபார்
+  check.lookup: தெரியாத உரிமங்களை இணையத்தில் தேடு (deps.dev)
+  check.col.package: தொகுப்பு
+  check.col.license: உரிமம்
+  check.col.status: நிலை
+  check.status.compatible: இணக்கமானது
+  check.status.conditional: நிபந்தனைகளுடன்
+  check.status.incompatible: முரண்பாடு
+  check.status.unknown: தெரியாது
+  check.summary: "{ok} இணக்கமானவை, {warn} நிபந்தனைகளுடன், {bad} முரண்பாடுகள்,
+    {unknown} தெரியாதவை"
+  check.format: "கண்டறியப்பட்ட வடிவம்: {format}"
+  check.no-deps: சார்புநிலைகள் எதுவும் கிடைக்கவில்லை.
+  check.license-hint: மேனிஃபெஸ்ட்டில் உரிமத்தை “name@version LICENSE-ID” வரிகளாகச்
+    சேர்க்கவும், அல்லது இணையத் தேடலை இயக்கவும்.
+  notfound.title: பக்கம் கிடைக்கவில்லை
+  notfound.body: இந்தப் பக்கம் இல்லை. உரிமப் பட்டியலைப் பாருங்கள்.
+  domain.education: கல்வி
+  domain.design: எழுத்துருக்களும் வடிவமைப்பும்

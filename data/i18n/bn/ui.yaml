@@ -1,0 +1,360 @@
+reviewed: false
+sourceHash: a2d7eb045dde7649
+strings:
+  site.name: opensourcelicense.org
+  site.tagline: ওপেন সোর্স লাইসেন্স বাছাই ও তুলনার ওয়ার্কবেঞ্চ
+  site.description: ওপেন সোর্স লাইসেন্স বাছাই করুন, তুলনা করুন এবং যাচাই করে
+    দেখুন। দেখুন আসল প্রজেক্টগুলো কোন লাইসেন্স ব্যবহার করে, কী ভুল হতে পারে এবং
+    আপনার প্রজেক্টের জন্য কোনটি মানানসই।
+  nav.home: হোম
+  nav.licenses: লাইসেন্স
+  nav.scenarios: পরিস্থিতি
+  nav.projects: প্রজেক্ট
+  nav.trends: প্রবণতা
+  nav.compare: তুলনা
+  nav.wizard: উইজার্ড
+  nav.chat: AI পরামর্শদাতা
+  nav.check: ডিপেন্ডেন্সি যাচাই
+  nav.menu: মেনু
+  lang.switch: ভাষা
+  lang.suggest: এই পেজটি {language} ভাষায় পাওয়া যায়।
+  lang.suggest.go: পরিবর্তন করুন
+  lang.suggest.dismiss: বন্ধ করুন
+  footer.disclaimer: এই সাইট সাধারণ তথ্য দেয়, আইনি পরামর্শ নয়। প্রকৃত বিরোধ বা
+    চুক্তির ক্ষেত্রে একজন আইনজীবীর সঙ্গে কথা বলুন।
+  footer.source: সোর্স কোড (AGPL-3.0)
+  footer.data: ডেটা CC-BY-4.0 এর অধীনে
+  footer.report: ভুল জানান
+  footer.cite: "ডেটা: opensourcelicense.org, CC-BY-4.0"
+  footer.hosting: Cloudflare Workers-এর ফ্রি প্ল্যানে চলে
+  footer.dns: ডোমেইন Cloudflare-এ হোস্ট করা
+  badge.machine: মেশিন অনুবাদ
+  badge.reviewed: পর্যালোচিত অনুবাদ
+  badge.fallback: এখনও অনুবাদ হয়নি — ইংরেজিতে দেখানো হচ্ছে
+  badge.stale: পুরোনো হতে পারে
+  badge.unreviewed-data: খসড়া — এখনও কোনো আইনজীবী পর্যালোচনা করেননি
+  common.updated: "ডেটা হালনাগাদ: {date}"
+  common.back: ফিরে যান
+  common.copy: কপি করুন
+  common.copied: কপি হয়েছে
+  common.download: ডাউনলোড
+  common.close: বন্ধ করুন
+  common.all: সব
+  common.yes: হ্যাঁ
+  common.no: না
+  common.unknown: অজানা
+  common.none: কোনোটিই নয়
+  common.more: আরও
+  common.loading: লোড হচ্ছে…
+  common.error: কিছু একটা ভুল হয়েছে।
+  common.search: খুঁজুন
+  home.title: জেনে-বুঝে সঠিক ওপেন সোর্স লাইসেন্স বাছাই করুন
+  home.lead: শুধু “কোন লাইসেন্স” নয়, বরং একই ধরনের প্রজেক্টগুলো কী বেছে নিয়েছে,
+    সবচেয়ে খারাপ পরিস্থিতি কেমন হতে পারে এবং এরপর কী করতে হবে।
+  home.entry.chat.title: AI পরামর্শদাতার সঙ্গে কথা বলুন
+  home.entry.chat.body: নিজের ভাষায় আপনার প্রজেক্টের বর্ণনা দিন। একটি প্রোফাইল,
+    পরবর্তী প্রশ্ন এবং একটি রিপোর্ট পান।
+  home.entry.projects.title: অন্যরা কী ব্যবহার করে দেখুন
+  home.entry.projects.body: পরিচিত প্রজেক্টগুলোর লাইসেন্স, এবং তাদের কয়েকটি কেন লাইসেন্স বদলেছে।
+  home.entry.wizard.title: ধাপে ধাপে বাছাই করুন
+  home.entry.wizard.body: কয়েকটি প্রশ্নের উত্তর দিন এবং র‍্যাংক করা, ব্যাখ্যাসহ একটি ছোট তালিকা পান।
+  home.wall: জনপ্রিয় প্রজেক্টের লাইসেন্স
+  home.changes: সাম্প্রতিক লাইসেন্স পরিবর্তন
+  home.scenarios: কী ভুল হতে পারে?
+  home.scenarios.body: 27টি চরম পরিস্থিতি × 17টি লাইসেন্স কলাম, প্রতিটি ঘরের নিজস্ব পেজ।
+  family.permissive: পারমিসিভ
+  family.weak-copyleft: দুর্বল কপিলেফট
+  family.strong-copyleft: শক্তিশালী কপিলেফট
+  family.network-copyleft: নেটওয়ার্ক কপিলেফট
+  family.source-available: সোর্স-উপলব্ধ
+  family.model: মডেল লাইসেন্স
+  family.content: কনটেন্ট / ডেটা
+  verdict.allow: অনুমোদিত
+  verdict.conditional: শর্তসাপেক্ষে
+  verdict.deny: লাইসেন্স দ্বারা নিষিদ্ধ
+  verdict.silent: উল্লেখ নেই
+  verdict.tbd: পর্যালোচনাধীন
+  verdict.legend: "চিহ্ন: ✓ অন্য পক্ষ এটি করতে পারে · ◐ শর্তসাপেক্ষে · ✗ লাইসেন্স
+    এটি নিষেধ করে · — লাইসেন্স এ বিষয়ে নীরব (সাধারণ আইন প্রযোজ্য)"
+  actor.other: অন্য কেউ এটি করে
+  actor.you: আপনি এটি করতে চান
+  actor.contributor: একজন অবদানকারী এটি করেন
+  actor.both: উভয় পক্ষের জন্য প্রযোজ্য
+  group.A: বাণিজ্যিক প্রতিযোগিতা
+  group.B: পেটেন্ট ও আইন
+  group.C: বিবর্তন ও ব্যবসা
+  group.D: ব্যবহার ও সম্মতি
+  group.E: AI মডেল ও ডেটা
+  matrix.code: কোড লাইসেন্স
+  matrix.model: মডেল ও ডেটা লাইসেন্স
+  term.commercial-use: বাণিজ্যিক ব্যবহার
+  term.modification: পরিবর্তন
+  term.distribution: বিতরণ
+  term.private-use: ব্যক্তিগত ব্যবহার
+  term.patent-use: পেটেন্ট অনুমতি
+  term.non-production-use: নন-প্রোডাকশন ব্যবহার
+  term.converts-to-open-source: পরে ওপেন সোর্সে রূপান্তরিত হয়
+  term.include-copyright: কপিরাইট নোটিশ রাখুন
+  term.include-license: লাইসেন্স অন্তর্ভুক্ত করুন
+  term.document-changes: পরিবর্তন চিহ্নিত করুন
+  term.disclose-source: সোর্স কোড প্রকাশ করুন
+  term.same-license: উদ্ভূত কাজে একই লাইসেন্স
+  term.same-license-file: একই লাইসেন্স (ফাইল স্তরে)
+  term.same-license-library: একই লাইসেন্স (লাইব্রেরি স্তরে)
+  term.allow-relinking: রিলিংকিংয়ের অনুমতি দিন
+  term.network-use-disclose: নেটওয়ার্ক ব্যবহারও বিতরণ
+  term.service-stack-disclose: পুরো সার্ভিস স্ট্যাক প্রকাশ করুন
+  term.keep-limitations: সীমাবদ্ধতা বজায় রাখুন
+  term.attribution: কৃতিত্ব স্বীকার
+  term.attribution-built-with: “Built with” দেখান
+  term.name-prefix: নামের উপসর্গের নিয়ম
+  term.acceptable-use-policy: গ্রহণযোগ্য ব্যবহার নীতি
+  term.use-restrictions-pass-through: ব্যবহারের বিধিনিষেধ পরবর্তীদের কাছে পৌঁছে দিন
+  term.indicate-changes: পরিবর্তন উল্লেখ করুন
+  term.liability: কোনো দায় নেই
+  term.warranty: কোনো ওয়ারেন্টি নেই
+  term.trademark-use: ট্রেডমার্ক অধিকার নেই
+  term.no-endorsement: সমর্থনের দাবি নয়
+  term.production-use-restricted: প্রোডাকশন ব্যবহার সীমিত
+  term.no-managed-service: ম্যানেজড সার্ভিস নয়
+  term.no-license-key-circumvention: লাইসেন্স কী এড়ানো যাবে না
+  term.mau-threshold: ব্যবহারকারীর সীমা
+  term.use-restrictions: ব্যবহারের বিধিনিষেধ
+  term.non-commercial: শুধু অবাণিজ্যিক
+  licenses.title: ওপেন সোর্স লাইসেন্স তালিকা
+  licenses.lead: "{count}টি লাইসেন্স — পারমিসিভ থেকে শুরু করে সোর্স-উপলব্ধ ও মডেল
+    লাইসেন্স পর্যন্ত।"
+  licenses.col.license: লাইসেন্স
+  licenses.col.family: শ্রেণি
+  licenses.col.osi: OSI
+  licenses.col.fsf: FSF ফ্রি
+  licenses.col.projects: প্রজেক্ট
+  licenses.filter: শ্রেণি অনুযায়ী বাছাই
+  license.permissions: অনুমতি
+  license.conditions: শর্ত
+  license.limitations: সীমাবদ্ধতা
+  license.summary: সহজ ভাষায়
+  license.analogy: উপমা
+  license.pros: সুবিধা
+  license.cons: অসুবিধা
+  license.scenarios: চরম পরিস্থিতি
+  license.radar: সবচেয়ে খারাপ পরিস্থিতির রাডার
+  license.projects: এটি ব্যবহারকারী পরিচিত প্রজেক্ট
+  license.projects.count: আমাদের ম্যাপে {count}টি পরিচিত প্রজেক্ট এই লাইসেন্স ব্যবহার করে।
+  license.projects.none: আমাদের ম্যাপে এখনও কোনো প্রজেক্ট এই লাইসেন্স ব্যবহার করে না।
+  license.projects.since: "{date} তারিখে এতে পরিবর্তন করা হয়েছে"
+  license.projects.also: "এগুলোর অধীনেও পাওয়া যায়: {licenses}"
+  license.projects.former: যেসব প্রজেক্ট এটি ছেড়ে গেছে
+  license.text: অফিসিয়াল পাঠ্য
+  license.text.official: "{language} ভাষায় অফিসিয়াল পাঠ্য"
+  license.text.note: শুধু অফিসিয়াল পাঠ্যই আইনত বাধ্যতামূলক। আমরা লাইসেন্সের পাঠ্য অনুবাদ করি না।
+  license.compare: এর সঙ্গে তুলনা করুন…
+  license.spdx: SPDX শনাক্তকারী
+  radar.anti-freeride: বিনা খরচে সুবিধা নেওয়া ঠেকায়
+  radar.anti-closed-fork: বন্ধ ফর্ক ঠেকায়
+  radar.patent: পেটেন্ট সুরক্ষা
+  radar.adoption-friction: গ্রহণে বাধা
+  radar.relicense-difficulty: লাইসেন্স বদলানো কঠিন
+  radar.misuse-control: অপব্যবহার নিয়ন্ত্রণ
+  radar.derivative-control: উদ্ভূত কাজের নিয়ন্ত্রণ
+  radar.commercial-control: বাণিজ্যিক নিয়ন্ত্রণ
+  radar.note: পরিস্থিতি ম্যাট্রিক্স থেকে হিসাব করা। বেশি মান মানে সেই বৈশিষ্ট্য
+    বেশি, “ভালো” নয়।
+  scenarios.title: চরম পরিস্থিতির ম্যাট্রিক্স
+  scenarios.lead: লাইসেন্স বাছাইয়ের পর কী ঘটে? প্রতিটি ঘর একটি প্রশ্নের উত্তর
+    দেয় এবং তার নিজস্ব পেজ আছে।
+  scenarios.highlight: একটি লাইসেন্স হাইলাইট করুন
+  scenarios.expand: সব খুলুন
+  scenarios.collapse: সব বন্ধ করুন
+  scenarios.silent-note: শুধু “—” থাকা সারিগুলো ইচ্ছাকৃতভাবে রাখা হয়েছে। এগুলোর
+    উত্তর লাইসেন্সের ওপর নয়, বরং চাকরির চুক্তি (C6), রপ্তানি নিয়ন্ত্রণ আইন
+    (D5) বা চলমান মামলার (D6) ওপর নির্ভর করে।
+  scenario.flow.you: আপনি {license} এর অধীনে প্রকাশ করেন
+  scenario.flow.they: পরিস্থিতি
+  scenario.flow.result: ফলাফল
+  scenario.clause: সংশ্লিষ্ট ধারা
+  scenario.case: বাস্তব ঘটনা
+  scenario.others: একই পরিস্থিতি, অন্য লাইসেন্স
+  scenario.other-scenarios: "{license} এর অন্যান্য পরিস্থিতি"
+  scenario.no-clause: নির্দিষ্ট কোনো ধারা নেই। সাধারণ আইন প্রযোজ্য।
+  scenario.review: পর্যালোচনার অবস্থা
+  scenario.review.none: এখনও কোনো আইনজীবী পর্যালোচনা করেননি।
+  scenario.review.done: "{date} তারিখে {who} পর্যালোচনা করেছেন।"
+  compare.title: ওপেন সোর্স লাইসেন্স তুলনা
+  compare.lead: ধারা ধরে ধরে এবং পরিস্থিতি ধরে ধরে তুলনার জন্য দুটি বা তিনটি
+    লাইসেন্স বেছে নিন।
+  compare.pick: লাইসেন্স যোগ করুন
+  compare.remove: সরান
+  compare.terms: শর্তাবলি
+  compare.scenarios: পরিস্থিতি
+  compare.empty: অন্তত দুটি লাইসেন্স বেছে নিন।
+  wizard.title: লাইসেন্স বাছাইয়ের উইজার্ড
+  wizard.lead: কয়েকটি প্রশ্নের উত্তর দিন। রুল ইঞ্জিন লাইসেন্সগুলোকে র‍্যাংক করে
+    এবং প্রতিটি পয়েন্ট ব্যাখ্যা করে।
+  wizard.next: পরবর্তী
+  wizard.prev: পূর্ববর্তী
+  wizard.finish: ফলাফল দেখুন
+  wizard.restart: আবার শুরু করুন
+  wizard.skip: এড়িয়ে যান
+  wizard.step: ধাপ {n} / {total}
+  wizard.to-chat: AI পরামর্শদাতায় চালিয়ে যান
+  q.artifact_type: আপনি কী প্রকাশ করছেন?
+  q.openness_level: আপনি এটি কতটা উন্মুক্ত রাখতে চান?
+  q.avoid: কোন ফলাফলগুলো আপনি এড়াতে চান?
+  q.avoid.hint: যতগুলো খুশি বেছে নিন।
+  q.adoption_goal: সবচেয়ে গুরুত্বপূর্ণ কী?
+  q.dependencies: আপনি কি কপিলেফট কোডের ওপর নির্ভর করেন?
+  q.dependencies.hint: ডিপেন্ডেন্সি লাইসেন্সগুলোর SPDX id যোগ করুন, যেমন GPL-3.0-only।
+  q.commercial_plan: আপনি কীভাবে আয় করবেন, যদি করেন?
+  q.jurisdiction: আপনি কোথায় অবস্থিত?
+  opt.artifact_type.library: একটি লাইব্রেরি বা SDK
+  opt.artifact_type.application: একটি অ্যাপ্লিকেশন বা টুল
+  opt.artifact_type.saas: একটি সার্ভিস ব্যাকএন্ড (SaaS)
+  opt.artifact_type.model: মডেল ওয়েট
+  opt.artifact_type.dataset: একটি ডেটাসেট
+  opt.artifact_type.docs: ডকুমেন্টেশন বা কনটেন্ট
+  opt.openness_level.open: সম্পূর্ণ উন্মুক্ত — যে কেউ যা খুশি করতে পারে
+  opt.openness_level.reciprocal: উন্মুক্ত, তবে উন্নতিগুলো ফেরত আসতে হবে
+  opt.openness_level.source-available: সোর্স দেখা যায়, বাণিজ্যিক ব্যবহার সীমিত
+  opt.avoid.cloud-hosting: ক্লাউড কোম্পানি এটি সার্ভিস হিসেবে বিক্রি করবে
+  opt.avoid.closed-fork: ক্লোজড-সোর্স ফর্ক
+  opt.avoid.patent-litigation: পেটেন্ট মামলা
+  opt.avoid.trademark-abuse: আমার নাম বা ব্র্যান্ডের অপব্যবহার
+  opt.avoid.harmful-use: ক্ষতিকর ব্যবহার
+  opt.avoid.big-company: বড় কোম্পানি এটি বিনামূল্যে ব্যবহার করবে
+  opt.adoption_goal.enterprise: কোম্পানিগুলোর সর্বোচ্চ গ্রহণ
+  opt.adoption_goal.community: কমিউনিটির অবদান
+  opt.adoption_goal.monetize: এ থেকে আয় করা
+  opt.commercial_plan.none: কোনো পরিকল্পনা নেই
+  opt.commercial_plan.dual-license: ডুয়াল লাইসেন্সিং
+  opt.commercial_plan.open-core: ওপেন কোর
+  opt.commercial_plan.hosted: হোস্টেড সার্ভিস
+  opt.jurisdiction.cn: চীন
+  opt.jurisdiction.eu: ইউরোপীয় ইউনিয়ন
+  opt.jurisdiction.us: মার্কিন যুক্তরাষ্ট্র
+  opt.jurisdiction.other: অন্যান্য
+  engine.part.avoid: "যা থেকে সুরক্ষা: {avoid}"
+  engine.part.openness: "উন্মুক্ততার সঙ্গে মিল: {openness}"
+  engine.part.adoption: "লক্ষ্য: {goal}"
+  engine.part.commercial: "ব্যবসায়িক পরিকল্পনা: {plan}"
+  engine.part.jurisdiction: "এখতিয়ার: {jurisdiction}"
+  engine.part.dependency: "শুধু শর্তসাপেক্ষে সামঞ্জস্যপূর্ণ: {dependency}"
+  engine.excluded.dependency: ডিপেন্ডেন্সি {dependency} এর সঙ্গে অসামঞ্জস্যপূর্ণ
+  engine.excluded.artifact: এই ধরনের আর্টিফ্যাক্টের জন্য উপযুক্ত নয়
+  advisory.needs-cla: কন্ট্রিবিউটর লাইসেন্স এগ্রিমেন্ট (CLA) ব্যবহার করুন।
+    বাণিজ্যিক লাইসেন্স বিক্রি করতে বা পরে লাইসেন্স বদলাতে এটি দরকার হবে।
+  advisory.consider-dco: ডেভেলপার সার্টিফিকেট অব অরিজিন (DCO, “Signed-off-by”) সাধারণত যথেষ্ট।
+  advisory.busl-change-date: BSL হেডারে Additional Use Grant, Change Date এবং
+    Change License নির্ধারণ করুন।
+  advisory.model-card: লাইসেন্সটি মডেল বা ডেটাসেট কার্ডের মেটাডেটায় (“license:” ফিল্ড) লিখুন।
+  advisory.notice-file: একটি NOTICE ফাইল যোগ করুন এবং পুনর্বিতরণের সময় সেটি রাখুন।
+  advisory.consult-lawyer: রিলিজের আগে একজন আইনজীবীকে দিয়ে ডিপেন্ডেন্সি ও
+    ব্যবসায়িক শর্তাবলি যাচাই করান।
+  advisory.network-source-link: আপনার নেটওয়ার্ক সার্ভিসের ব্যবহারকারীদের একটি “সোর্স কোড” লিংক দেখান।
+  report.title: আপনার লাইসেন্স রিপোর্ট
+  report.lead: লিংকে থাকা প্রোফাইল থেকে এই রিপোর্টটি আপনার ব্রাউজারে তৈরি হয়।
+    রিপোর্ট শেয়ার করতে লিংকটি শেয়ার করুন।
+  report.profile: প্রজেক্ট প্রোফাইল
+  report.edit: উইজার্ডে সম্পাদনা করুন
+  report.top: প্রস্তাবিত
+  report.score: স্কোর {score}
+  report.why: কেন
+  report.excluded: বাদ দেওয়া
+  report.advisories: পরবর্তী পদক্ষেপ
+  report.license-file: LICENSE ফাইল
+  report.header: ফাইল হেডার
+  report.badge: README ব্যাজ
+  report.share: লিংক শেয়ার করুন
+  report.share.copy: লিংক কপি করুন
+  report.similar: একই ধরনের প্রজেক্ট
+  report.no-text: মেশিনে পাঠযোগ্য পাঠ্য নেই। অফিসিয়াল পেজ থেকে সংগ্রহ করুন।
+  report.invalid: এই রিপোর্ট লিংকটি ভাঙা বা পুরোনো সংস্করণের।
+  report.empty: এখনও কোনো প্রোফাইল নেই। উইজার্ড বা AI পরামর্শদাতা দিয়ে শুরু করুন।
+  chat.title: AI লাইসেন্স পরামর্শদাতা
+  chat.lead: আপনার প্রজেক্টের বর্ণনা দিন। পরামর্শদাতা পরবর্তী প্রশ্ন করে, রুল
+    ইঞ্জিন লাইসেন্স বাছাই করে, আর পরামর্শদাতা সেগুলো ব্যাখ্যা করে।
+  chat.placeholder: "যেমন: আমি একটি ভেক্টর ডেটাবেস বানিয়েছি এবং ভয় পাচ্ছি ক্লাউড
+    কোম্পানিগুলো এটি আবার বিক্রি করবে।"
+  chat.send: পাঠান
+  chat.stop: থামান
+  chat.examples: একটি উদাহরণ চেষ্টা করুন
+  chat.example.1: আমি একটি ভেক্টর ডেটাবেস বানিয়েছি এবং ভয় পাচ্ছি ক্লাউড
+    কোম্পানিগুলো এটি আবার বিক্রি করবে।
+  chat.example.2: একটি ছোট React কম্পোনেন্ট লাইব্রেরি। আমি চাই কোম্পানিগুলো এটি ব্যবহার করুক।
+  chat.example.3: আমরা একটি 7B মডেল ফাইন-টিউন করেছি এবং ক্ষতিকর ব্যবহার আটকাতে চাই।
+  chat.profile: প্রজেক্ট প্রোফাইল
+  chat.profile.hint: পরিবর্তন করতে একটি মানে ক্লিক করুন।
+  chat.candidates: প্রার্থী লাইসেন্স
+  chat.run: সুপারিশ পান
+  chat.limit: আপনি আজকের সীমায় পৌঁছে গেছেন। অনুগ্রহ করে আগামীকাল আবার চেষ্টা করুন
+    অথবা উইজার্ড ব্যবহার করুন।
+  chat.error: পরামর্শদাতা এখন উপলব্ধ নয়। উইজার্ড এখনও কাজ করে।
+  chat.verify: অনুগ্রহ করে নিশ্চিত করুন যে আপনি মানুষ।
+  chat.disclaimer: পরামর্শদাতা ভুল করতে পারে। সুপারিশ আসে রুল ইঞ্জিন থেকে, এবং এটি
+    আইনি পরামর্শ নয়।
+  chat.report: পূর্ণ রিপোর্ট খুলুন
+  projects.title: প্রজেক্ট লাইসেন্স ম্যাপ
+  projects.lead: পরিচিত প্রজেক্টগুলোর লাইসেন্স এবং প্রতিটি পরিবর্তনের পেছনের গল্প।
+  projects.filter.domain: ক্ষেত্র
+  projects.filter.family: লাইসেন্স শ্রেণি
+  projects.filter.owner: মালিক
+  projects.filter.changed: লাইসেন্স বদলেছে
+  projects.count: "{count}টি প্রজেক্ট"
+  projects.empty: এই ফিল্টারগুলোর সঙ্গে কোনো প্রজেক্ট মেলে না।
+  owner.company: কোম্পানি
+  owner.foundation: ফাউন্ডেশন
+  owner.individual: ব্যক্তি
+  owner.community: কমিউনিটি
+  project.current: বর্তমান লাইসেন্স
+  project.timeline: লাইসেন্সের টাইমলাইন
+  project.reason: কারণ
+  project.announcement: ঘোষণা
+  project.forks: পরবর্তী ফর্কগুলো
+  project.fork-of: "{name} এর ফর্ক"
+  project.repo: রিপোজিটরি
+  project.similar: একই ধরনের প্রজেক্ট
+  project.review: এই এন্ট্রিটি সিঙ্ক বট খুঁজে পেয়েছে এবং মানুষের পর্যালোচনার অপেক্ষায় আছে।
+  project.initial: প্রাথমিক লাইসেন্স
+  domain.database: ডেটাবেস
+  domain.frontend: ফ্রন্টএন্ড ফ্রেমওয়ার্ক
+  domain.devops: DevOps
+  domain.ai-model: AI মডেল
+  domain.language: প্রোগ্রামিং ভাষা ও রানটাইম
+  domain.os: অপারেটিং সিস্টেম
+  domain.web: ওয়েব সার্ভার ও ব্যাকএন্ড
+  domain.tooling: ডেভেলপার টুল
+  domain.data: ডেটা ও অ্যানালিটিক্স
+  domain.observability: অবজারভেবিলিটি
+  domain.messaging: মেসেজিং ও স্ট্রিমিং
+  domain.cms: CMS ও অ্যাপ
+  trends.title: ওপেন সোর্স লাইসেন্সের প্রবণতা
+  trends.lead: বিল্ডের সময় প্রজেক্ট ম্যাপ থেকে সংকলিত।
+  trends.family-share: ক্ষেত্র অনুযায়ী লাইসেন্স শ্রেণি
+  trends.changes: বছর অনুযায়ী লাইসেন্স পরিবর্তন
+  trends.to-source-available: যেসব প্রজেক্ট ওপেন সোর্স থেকে সোর্স-উপলব্ধে সরে গেছে
+  search.lead: এই ভাষায় লাইসেন্স, পরিস্থিতি ও প্রজেক্ট খুঁজুন।
+  search.noscript: খোঁজার জন্য JavaScript প্রয়োজন।
+  check.title: ডিপেন্ডেন্সি লাইসেন্স সামঞ্জস্যতা যাচাই
+  check.lead: package.json, go.mod, Gemfile.lock, Cargo.toml বা requirements.txt
+    পেস্ট করুন। পার্সিং আপনার ব্রাউজারেই হয়।
+  check.project-license: আপনার প্রজেক্টের লাইসেন্স
+  check.input: ম্যানিফেস্ট
+  check.run: যাচাই করুন
+  check.lookup: অজানা লাইসেন্স অনলাইনে খুঁজুন (deps.dev)
+  check.col.package: প্যাকেজ
+  check.col.license: লাইসেন্স
+  check.col.status: অবস্থা
+  check.status.compatible: সামঞ্জস্যপূর্ণ
+  check.status.conditional: শর্তসাপেক্ষে
+  check.status.incompatible: বিরোধ
+  check.status.unknown: অজানা
+  check.summary: "{ok}টি সামঞ্জস্যপূর্ণ, {warn}টি শর্তসাপেক্ষে, {bad}টি বিরোধ,
+    {unknown}টি অজানা"
+  check.format: "শনাক্ত করা ফরম্যাট: {format}"
+  check.no-deps: কোনো ডিপেন্ডেন্সি পাওয়া যায়নি।
+  check.license-hint: ম্যানিফেস্টে লাইসেন্সটি “name@version LICENSE-ID” লাইন
+    হিসেবে যোগ করুন, অথবা অনলাইন খোঁজ চালু করুন।
+  notfound.title: পেজ পাওয়া যায়নি
+  notfound.body: এই পেজটির অস্তিত্ব নেই। লাইসেন্স তালিকা দেখুন।
+  domain.education: শিক্ষা
+  domain.design: ফন্ট ও ডিজাইন

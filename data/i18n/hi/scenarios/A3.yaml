@@ -1,0 +1,9 @@
+reviewed: false
+sourceHash: b16411183c557a4e
+actor: other
+title: क्लोज़्ड-सोर्स SaaS बैकएंड में शामिल (वितरित नहीं)
+cells:
+  agpl-3.0: संशोधित होने पर प्रकाशित करना होगा
+  sspl-1.0: यदि इसकी कार्यक्षमता सर्विस के रूप में दी जाए
+  busl-1.1: Additional Use Grant पर निर्भर
+  elv2: उत्पाद को ही होस्ट नहीं करना

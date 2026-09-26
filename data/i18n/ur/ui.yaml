@@ -1,0 +1,355 @@
+reviewed: false
+sourceHash: a2d7eb045dde7649
+strings:
+  site.name: opensourcelicense.org
+  site.tagline: اوپن سورس لائسنس منتخب کرنے اور موازنہ کرنے کا ورک بینچ
+  site.description: اوپن سورس لائسنس منتخب کریں، ان کا موازنہ کریں اور انہیں
+    پرکھیں۔ دیکھیں کہ حقیقی پروجیکٹ کون سا لائسنس استعمال کرتے ہیں، کیا غلط ہو
+    سکتا ہے اور آپ کے پروجیکٹ کے لیے کیا موزوں ہے۔
+  nav.home: ہوم
+  nav.licenses: لائسنس
+  nav.scenarios: منظرنامے
+  nav.projects: پروجیکٹ
+  nav.trends: رجحانات
+  nav.compare: موازنہ
+  nav.wizard: وزرڈ
+  nav.chat: AI مشیر
+  nav.check: ڈیپینڈنسی جانچ
+  nav.menu: مینو
+  lang.switch: زبان
+  lang.suggest: یہ صفحہ {language} میں دستیاب ہے۔
+  lang.suggest.go: تبدیل کریں
+  lang.suggest.dismiss: بند کریں
+  footer.disclaimer: یہ سائٹ عمومی معلومات فراہم کرتی ہے، قانونی مشورہ نہیں۔ کسی
+    حقیقی تنازع یا معاہدے کے لیے وکیل سے رجوع کریں۔
+  footer.source: سورس کوڈ (AGPL-3.0)
+  footer.data: ڈیٹا CC-BY-4.0 کے تحت
+  footer.report: غلطی کی اطلاع دیں
+  footer.cite: "ڈیٹا: opensourcelicense.org، CC-BY-4.0"
+  footer.hosting: Cloudflare Workers کے مفت پلان پر چلتا ہے
+  footer.dns: ڈومین Cloudflare پر ہوسٹ ہے
+  badge.machine: مشینی ترجمہ
+  badge.reviewed: نظرثانی شدہ ترجمہ
+  badge.fallback: ابھی ترجمہ نہیں ہوا — انگریزی میں دکھایا جا رہا ہے
+  badge.stale: پرانا ہو سکتا ہے
+  badge.unreviewed-data: مسودہ — ابھی کسی وکیل نے نظرثانی نہیں کی
+  common.updated: "ڈیٹا اپ ڈیٹ: {date}"
+  common.back: واپس
+  common.copy: کاپی کریں
+  common.copied: کاپی ہو گیا
+  common.download: ڈاؤن لوڈ
+  common.close: بند کریں
+  common.all: سب
+  common.yes: ہاں
+  common.no: نہیں
+  common.unknown: نامعلوم
+  common.none: کوئی نہیں
+  common.more: مزید
+  common.loading: لوڈ ہو رہا ہے…
+  common.error: کچھ غلط ہو گیا۔
+  common.search: تلاش
+  home.title: سوچ سمجھ کر درست اوپن سورس لائسنس کا انتخاب کریں
+  home.lead: صرف “کون سا لائسنس” نہیں، بلکہ ملتے جلتے پروجیکٹس نے کیا چنا، بدترین
+    صورت کیسی ہوتی ہے اور آگے کیا کرنا ہے۔
+  home.entry.chat.title: AI مشیر سے بات کریں
+  home.entry.chat.body: اپنے پروجیکٹ کو اپنے الفاظ میں بیان کریں۔ پروفائل، مزید
+    سوالات اور ایک رپورٹ حاصل کریں۔
+  home.entry.projects.title: دیکھیں دوسرے کیا استعمال کرتے ہیں
+  home.entry.projects.body: معروف پروجیکٹس کے لائسنس، اور ان میں سے کچھ نے لائسنس کیوں بدلا۔
+  home.entry.wizard.title: قدم بہ قدم چھانٹیں
+  home.entry.wizard.body: چند سوالات کے جواب دیں اور درجہ بند، وضاحت شدہ مختصر فہرست حاصل کریں۔
+  home.wall: مقبول پروجیکٹس کے لائسنس
+  home.changes: حالیہ لائسنس تبدیلیاں
+  home.scenarios: کیا غلط ہو سکتا ہے؟
+  home.scenarios.body: 27 انتہائی منظرنامے × 17 لائسنس کالم، ہر خانے کا اپنا صفحہ۔
+  family.permissive: پرمسیو
+  family.weak-copyleft: کمزور کاپی لیفٹ
+  family.strong-copyleft: مضبوط کاپی لیفٹ
+  family.network-copyleft: نیٹ ورک کاپی لیفٹ
+  family.source-available: سورس دستیاب
+  family.model: ماڈل لائسنس
+  family.content: مواد / ڈیٹا
+  verdict.allow: اجازت ہے
+  verdict.conditional: شرائط کے ساتھ
+  verdict.deny: لائسنس کی رو سے ممنوع
+  verdict.silent: ذکر نہیں
+  verdict.tbd: زیرِ غور
+  verdict.legend: "علامات: ✓ دوسرا فریق یہ کر سکتا ہے · ◐ شرائط کے ساتھ · ✗ لائسنس
+    اسے روکتا ہے · — لائسنس اس پر خاموش ہے (عام قانون لاگو ہوتا ہے)"
+  actor.other: کوئی اور یہ کرتا ہے
+  actor.you: آپ یہ کرنا چاہتے ہیں
+  actor.contributor: کوئی معاون یہ کرتا ہے
+  actor.both: دونوں فریقوں پر لاگو
+  group.A: تجارتی مسابقت
+  group.B: پیٹنٹ اور قانون
+  group.C: ارتقا اور کاروبار
+  group.D: استعمال اور تعمیل
+  group.E: AI ماڈل اور ڈیٹا
+  matrix.code: کوڈ لائسنس
+  matrix.model: ماڈل اور ڈیٹا لائسنس
+  term.commercial-use: تجارتی استعمال
+  term.modification: ترمیم
+  term.distribution: تقسیم
+  term.private-use: نجی استعمال
+  term.patent-use: پیٹنٹ کی اجازت
+  term.non-production-use: غیر پروڈکشن استعمال
+  term.converts-to-open-source: بعد میں اوپن سورس بن جاتا ہے
+  term.include-copyright: کاپی رائٹ نوٹس برقرار رکھیں
+  term.include-license: لائسنس شامل کریں
+  term.document-changes: تبدیلیوں کی نشان دہی کریں
+  term.disclose-source: سورس کوڈ ظاہر کریں
+  term.same-license: ماخوذ کاموں کے لیے وہی لائسنس
+  term.same-license-file: وہی لائسنس (فائل کی سطح)
+  term.same-license-library: وہی لائسنس (لائبریری کی سطح)
+  term.allow-relinking: ری لنکنگ کی اجازت دیں
+  term.network-use-disclose: نیٹ ورک استعمال بھی تقسیم ہے
+  term.service-stack-disclose: پورا سروس اسٹیک جاری کریں
+  term.keep-limitations: پابندیاں برقرار رکھیں
+  term.attribution: انتساب
+  term.attribution-built-with: “Built with” دکھائیں
+  term.name-prefix: نام کے سابقے کا اصول
+  term.acceptable-use-policy: قابلِ قبول استعمال کی پالیسی
+  term.use-restrictions-pass-through: استعمال کی پابندیاں آگے منتقل کریں
+  term.indicate-changes: تبدیلیاں بتائیں
+  term.liability: کوئی ذمہ داری نہیں
+  term.warranty: کوئی وارنٹی نہیں
+  term.trademark-use: ٹریڈ مارک کے حقوق نہیں
+  term.no-endorsement: توثیق کا دعویٰ نہیں
+  term.production-use-restricted: پروڈکشن استعمال محدود
+  term.no-managed-service: منیجڈ سروس نہیں
+  term.no-license-key-circumvention: لائسنس کی کو بائی پاس نہیں
+  term.mau-threshold: صارفین کی حد
+  term.use-restrictions: استعمال کی پابندیاں
+  term.non-commercial: صرف غیر تجارتی
+  licenses.title: اوپن سورس لائسنس کی فہرست
+  licenses.lead: "{count} لائسنس — پرمسیو سے لے کر سورس دستیاب اور ماڈل لائسنس تک۔"
+  licenses.col.license: لائسنس
+  licenses.col.family: زمرہ
+  licenses.col.osi: OSI
+  licenses.col.fsf: FSF فری
+  licenses.col.projects: پروجیکٹ
+  licenses.filter: زمرے کے لحاظ سے چھانٹیں
+  license.permissions: اجازتیں
+  license.conditions: شرائط
+  license.limitations: پابندیاں
+  license.summary: آسان الفاظ میں
+  license.analogy: تمثیل
+  license.pros: فوائد
+  license.cons: نقصانات
+  license.scenarios: انتہائی منظرنامے
+  license.radar: بدترین صورت کا ریڈار
+  license.projects: اسے استعمال کرنے والے معروف پروجیکٹ
+  license.projects.count: ہمارے نقشے میں {count} معروف پروجیکٹ یہ لائسنس استعمال کرتے ہیں۔
+  license.projects.none: ہمارے نقشے میں ابھی کوئی پروجیکٹ یہ لائسنس استعمال نہیں کرتا۔
+  license.projects.since: "{date} کو اس پر منتقل ہوا"
+  license.projects.also: "ان کے تحت بھی دستیاب: {licenses}"
+  license.projects.former: وہ پروجیکٹ جو اسے چھوڑ گئے
+  license.text: سرکاری متن
+  license.text.official: "{language} میں سرکاری متن"
+  license.text.note: صرف سرکاری متن قانونی طور پر پابند ہے۔ ہم لائسنس کے متون کا ترجمہ نہیں کرتے۔
+  license.compare: اس سے موازنہ کریں…
+  license.spdx: SPDX شناخت کنندہ
+  radar.anti-freeride: مفت خوری روکتا ہے
+  radar.anti-closed-fork: بند فورک روکتا ہے
+  radar.patent: پیٹنٹ تحفظ
+  radar.adoption-friction: اپنانے میں رکاوٹ
+  radar.relicense-difficulty: لائسنس بدلنا مشکل
+  radar.misuse-control: غلط استعمال پر کنٹرول
+  radar.derivative-control: ماخوذ کاموں پر کنٹرول
+  radar.commercial-control: تجارتی کنٹرول
+  radar.note: منظرنامہ میٹرکس سے حساب کیا گیا۔ زیادہ قدر کا مطلب اس خصوصیت کی
+    زیادتی ہے، “بہتر” نہیں۔
+  scenarios.title: انتہائی منظرناموں کا میٹرکس
+  scenarios.lead: لائسنس منتخب کرنے کے بعد کیا ہوتا ہے؟ ہر خانہ ایک سوال کا جواب
+    دیتا ہے اور اس کا اپنا صفحہ ہے۔
+  scenarios.highlight: کسی لائسنس کو نمایاں کریں
+  scenarios.expand: سب کھولیں
+  scenarios.collapse: سب بند کریں
+  scenarios.silent-note: صرف “—” والی قطاریں جان بوجھ کر رکھی گئی ہیں۔ ان کا جواب
+    لائسنس پر نہیں بلکہ ملازمت کے معاہدوں (C6)، برآمدی کنٹرول کے قانون (D5) یا
+    جاری مقدمات (D6) پر منحصر ہے۔
+  scenario.flow.you: آپ {license} کے تحت شائع کرتے ہیں
+  scenario.flow.they: صورتِ حال
+  scenario.flow.result: نتیجہ
+  scenario.clause: متعلقہ شق
+  scenario.case: حقیقی مثال
+  scenario.others: یہی منظرنامہ، دوسرے لائسنس
+  scenario.other-scenarios: "{license} کے دیگر منظرنامے"
+  scenario.no-clause: کوئی مخصوص شق نہیں۔ عام قانون لاگو ہوتا ہے۔
+  scenario.review: نظرثانی کی حالت
+  scenario.review.none: ابھی کسی وکیل نے نظرثانی نہیں کی۔
+  scenario.review.done: "{who} نے {date} کو نظرثانی کی۔"
+  compare.title: اوپن سورس لائسنس کا موازنہ
+  compare.lead: شق بہ شق اور منظرنامہ بہ منظرنامہ موازنے کے لیے دو یا تین لائسنس منتخب کریں۔
+  compare.pick: لائسنس شامل کریں
+  compare.remove: ہٹائیں
+  compare.terms: شرائط
+  compare.scenarios: منظرنامے
+  compare.empty: کم از کم دو لائسنس منتخب کریں۔
+  wizard.title: لائسنس کے انتخاب کا وزرڈ
+  wizard.lead: چند سوالات کے جواب دیں۔ رول انجن لائسنسوں کی درجہ بندی کرتا ہے اور
+    ہر نکتے کی وضاحت کرتا ہے۔
+  wizard.next: آگے
+  wizard.prev: پیچھے
+  wizard.finish: نتیجہ دیکھیں
+  wizard.restart: دوبارہ شروع کریں
+  wizard.skip: چھوڑیں
+  wizard.step: مرحلہ {n} از {total}
+  wizard.to-chat: AI مشیر میں جاری رکھیں
+  q.artifact_type: آپ کیا جاری کر رہے ہیں؟
+  q.openness_level: آپ اسے کتنا کھلا رکھنا چاہتے ہیں؟
+  q.avoid: آپ کن نتائج سے بچنا چاہتے ہیں؟
+  q.avoid.hint: جتنے چاہیں منتخب کریں۔
+  q.adoption_goal: سب سے زیادہ اہم کیا ہے؟
+  q.dependencies: کیا آپ کاپی لیفٹ کوڈ پر انحصار کرتے ہیں؟
+  q.dependencies.hint: ڈیپینڈنسی لائسنسوں کے SPDX id شامل کریں، مثلاً GPL-3.0-only۔
+  q.commercial_plan: آپ پیسے کیسے کمائیں گے، اگر کمائیں گے؟
+  q.jurisdiction: آپ کہاں مقیم ہیں؟
+  opt.artifact_type.library: ایک لائبریری یا SDK
+  opt.artifact_type.application: ایک ایپلیکیشن یا ٹول
+  opt.artifact_type.saas: ایک سروس بیک اینڈ (SaaS)
+  opt.artifact_type.model: ماڈل ویٹس
+  opt.artifact_type.dataset: ایک ڈیٹاسیٹ
+  opt.artifact_type.docs: دستاویزات یا مواد
+  opt.openness_level.open: مکمل کھلا — کوئی بھی کچھ بھی کر سکتا ہے
+  opt.openness_level.reciprocal: کھلا، لیکن بہتریاں واپس آنی چاہییں
+  opt.openness_level.source-available: سورس نظر آتا ہے، تجارتی استعمال محدود
+  opt.avoid.cloud-hosting: کلاؤڈ کمپنیاں اسے بطور سروس بیچیں
+  opt.avoid.closed-fork: کلوزڈ سورس فورک
+  opt.avoid.patent-litigation: پیٹنٹ مقدمات
+  opt.avoid.trademark-abuse: میرے نام یا برانڈ کا غلط استعمال
+  opt.avoid.harmful-use: نقصان دہ استعمال
+  opt.avoid.big-company: بڑی کمپنیاں اسے مفت استعمال کریں
+  opt.adoption_goal.enterprise: کمپنیوں کی طرف سے زیادہ سے زیادہ اپنایا جانا
+  opt.adoption_goal.community: کمیونٹی کی شراکت
+  opt.adoption_goal.monetize: اس سے پیسے کمانا
+  opt.commercial_plan.none: کوئی منصوبہ نہیں
+  opt.commercial_plan.dual-license: ڈوئل لائسنسنگ
+  opt.commercial_plan.open-core: اوپن کور
+  opt.commercial_plan.hosted: ہوسٹڈ سروس
+  opt.jurisdiction.cn: چین
+  opt.jurisdiction.eu: یورپی یونین
+  opt.jurisdiction.us: ریاست ہائے متحدہ امریکہ
+  opt.jurisdiction.other: دیگر
+  engine.part.avoid: "اس سے تحفظ: {avoid}"
+  engine.part.openness: "کھلے پن سے مطابقت: {openness}"
+  engine.part.adoption: "ہدف: {goal}"
+  engine.part.commercial: "کاروباری منصوبہ: {plan}"
+  engine.part.jurisdiction: "دائرۂ اختیار: {jurisdiction}"
+  engine.part.dependency: "صرف شرائط کے ساتھ مطابقت: {dependency}"
+  engine.excluded.dependency: ڈیپینڈنسی {dependency} سے غیر مطابقت
+  engine.excluded.artifact: اس قسم کے آرٹیفیکٹ کے لیے موزوں نہیں
+  advisory.needs-cla: کنٹریبیوٹر لائسنس ایگریمنٹ (CLA) استعمال کریں۔ تجارتی لائسنس
+    بیچنے یا بعد میں لائسنس بدلنے کے لیے اس کی ضرورت ہوگی۔
+  advisory.consider-dco: ڈیولپر سرٹیفکیٹ آف اوریجن (DCO، “Signed-off-by”) عموماً کافی ہوتا ہے۔
+  advisory.busl-change-date: BSL ہیڈر میں Additional Use Grant، Change Date اور Change License مقرر کریں۔
+  advisory.model-card: لائسنس کو ماڈل یا ڈیٹاسیٹ کارڈ کے میٹا ڈیٹا (“license:” فیلڈ) میں درج کریں۔
+  advisory.notice-file: ایک NOTICE فائل شامل کریں اور دوبارہ تقسیم کرتے وقت اسے برقرار رکھیں۔
+  advisory.consult-lawyer: ریلیز سے پہلے کسی وکیل سے ڈیپینڈنسی اور کاروباری شرائط کی جانچ کروائیں۔
+  advisory.network-source-link: اپنی نیٹ ورک سروس کے صارفین کو “سورس کوڈ” لنک دکھائیں۔
+  report.title: آپ کی لائسنس رپورٹ
+  report.lead: یہ رپورٹ لنک میں موجود پروفائل سے آپ کے براؤزر میں تیار ہوتی ہے۔
+    رپورٹ شیئر کرنے کے لیے لنک شیئر کریں۔
+  report.profile: پروجیکٹ پروفائل
+  report.edit: وزرڈ میں ترمیم کریں
+  report.top: تجویز کردہ
+  report.score: اسکور {score}
+  report.why: کیوں
+  report.excluded: خارج شدہ
+  report.advisories: اگلے اقدامات
+  report.license-file: LICENSE فائل
+  report.header: فائل ہیڈر
+  report.badge: README بیج
+  report.share: لنک شیئر کریں
+  report.share.copy: لنک کاپی کریں
+  report.similar: ملتے جلتے پروجیکٹ
+  report.no-text: مشین سے پڑھنے کے قابل متن دستیاب نہیں۔ اسے سرکاری صفحے سے حاصل کریں۔
+  report.invalid: یہ رپورٹ لنک خراب ہے یا پرانے ورژن کا ہے۔
+  report.empty: ابھی کوئی پروفائل نہیں۔ وزرڈ یا AI مشیر سے شروع کریں۔
+  chat.title: AI لائسنس مشیر
+  chat.lead: اپنے پروجیکٹ کو بیان کریں۔ مشیر مزید سوالات پوچھتا ہے، رول انجن
+    لائسنس منتخب کرتا ہے، اور مشیر ان کی وضاحت کرتا ہے۔
+  chat.placeholder: "مثال کے طور پر: میں نے ایک ویکٹر ڈیٹا بیس بنایا ہے اور مجھے
+    ڈر ہے کہ کلاؤڈ کمپنیاں اسے دوبارہ بیچیں گی۔"
+  chat.send: بھیجیں
+  chat.stop: روکیں
+  chat.examples: کوئی مثال آزمائیں
+  chat.example.1: میں نے ایک ویکٹر ڈیٹا بیس بنایا ہے اور مجھے ڈر ہے کہ کلاؤڈ
+    کمپنیاں اسے دوبارہ بیچیں گی۔
+  chat.example.2: ایک چھوٹی React کمپوننٹ لائبریری۔ میں چاہتا ہوں کہ کمپنیاں اسے استعمال کریں۔
+  chat.example.3: ہم نے ایک 7B ماڈل کو فائن ٹیون کیا ہے اور نقصان دہ استعمال روکنا چاہتے ہیں۔
+  chat.profile: پروجیکٹ پروفائل
+  chat.profile.hint: تبدیل کرنے کے لیے کسی قدر پر کلک کریں۔
+  chat.candidates: امیدوار
+  chat.run: تجویز حاصل کریں
+  chat.limit: آپ آج کی حد تک پہنچ گئے ہیں۔ براہِ کرم کل دوبارہ کوشش کریں یا وزرڈ
+    استعمال کریں۔
+  chat.error: مشیر ابھی دستیاب نہیں ہے۔ وزرڈ اب بھی کام کرتا ہے۔
+  chat.verify: براہِ کرم تصدیق کریں کہ آپ انسان ہیں۔
+  chat.disclaimer: مشیر غلطی کر سکتا ہے۔ تجاویز رول انجن سے آتی ہیں، اور یہ قانونی
+    مشورہ نہیں ہے۔
+  chat.report: مکمل رپورٹ کھولیں
+  projects.title: پروجیکٹ لائسنس کا نقشہ
+  projects.lead: معروف پروجیکٹس کے لائسنس اور ہر تبدیلی کے پیچھے کی کہانی۔
+  projects.filter.domain: شعبہ
+  projects.filter.family: لائسنس کا زمرہ
+  projects.filter.owner: مالک
+  projects.filter.changed: لائسنس بدلا
+  projects.count: "{count} پروجیکٹ"
+  projects.empty: ان فلٹرز سے کوئی پروجیکٹ مطابقت نہیں رکھتا۔
+  owner.company: کمپنی
+  owner.foundation: فاؤنڈیشن
+  owner.individual: فرد
+  owner.community: کمیونٹی
+  project.current: موجودہ لائسنس
+  project.timeline: لائسنس کی ٹائم لائن
+  project.reason: وجہ
+  project.announcement: اعلان
+  project.forks: بعد میں بننے والے فورک
+  project.fork-of: "{name} کا فورک"
+  project.repo: ریپوزٹری
+  project.similar: ملتے جلتے پروجیکٹ
+  project.review: یہ اندراج سنک بوٹ نے تلاش کیا ہے اور انسانی نظرثانی کا منتظر ہے۔
+  project.initial: ابتدائی لائسنس
+  domain.database: ڈیٹا بیس
+  domain.frontend: فرنٹ اینڈ فریم ورک
+  domain.devops: DevOps
+  domain.ai-model: AI ماڈل
+  domain.language: زبان اور رن ٹائم
+  domain.os: آپریٹنگ سسٹم
+  domain.web: ویب سرور اور بیک اینڈ
+  domain.tooling: ڈیولپر ٹولز
+  domain.data: ڈیٹا اور اینالیٹکس
+  domain.observability: آبزرویبلٹی
+  domain.messaging: میسجنگ اور اسٹریمنگ
+  domain.cms: CMS اور ایپس
+  trends.title: اوپن سورس لائسنس کے رجحانات
+  trends.lead: بلڈ کے وقت پروجیکٹ نقشے سے جمع کیا گیا۔
+  trends.family-share: شعبے کے لحاظ سے لائسنس زمرے
+  trends.changes: سال کے لحاظ سے لائسنس تبدیلیاں
+  trends.to-source-available: وہ پروجیکٹ جو اوپن سورس سے سورس دستیاب پر منتقل ہوئے
+  search.lead: اس زبان میں لائسنس، منظرنامے اور پروجیکٹ تلاش کریں۔
+  search.noscript: تلاش کے لیے JavaScript ضروری ہے۔
+  check.title: ڈیپینڈنسی لائسنس مطابقت کی جانچ
+  check.lead: package.json، go.mod، Gemfile.lock، Cargo.toml یا requirements.txt
+    پیسٹ کریں۔ پارسنگ آپ کے براؤزر میں ہوتی ہے۔
+  check.project-license: آپ کے پروجیکٹ کا لائسنس
+  check.input: مینی فیسٹ
+  check.run: جانچیں
+  check.lookup: نامعلوم لائسنس آن لائن تلاش کریں (deps.dev)
+  check.col.package: پیکیج
+  check.col.license: لائسنس
+  check.col.status: حالت
+  check.status.compatible: مطابقت رکھتا ہے
+  check.status.conditional: شرائط کے ساتھ
+  check.status.incompatible: تصادم
+  check.status.unknown: نامعلوم
+  check.summary: "{ok} مطابقت رکھتے ہیں، {warn} شرائط کے ساتھ، {bad} تصادم، {unknown} نامعلوم"
+  check.format: "شناخت شدہ فارمیٹ: {format}"
+  check.no-deps: کوئی ڈیپینڈنسی نہیں ملی۔
+  check.license-hint: مینی فیسٹ میں لائسنس کو “name@version LICENSE-ID” سطروں کی
+    صورت میں شامل کریں، یا آن لائن تلاش فعال کریں۔
+  notfound.title: صفحہ نہیں ملا
+  notfound.body: یہ صفحہ موجود نہیں ہے۔ لائسنس کی فہرست دیکھیں۔
+  domain.education: تعلیم
+  domain.design: فونٹس اور ڈیزائن

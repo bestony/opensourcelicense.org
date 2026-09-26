@@ -1,0 +1,8 @@
+reviewed: false
+sourceHash: 3a5f4b9bf27dddea
+actor: other
+title: آپ کا کوڈ کسی GPL-3.0 پروجیکٹ میں ضم کر دیا جاتا ہے
+cells:
+  apache-2.0: لیکن GPL-2.0 سے مطابقت نہیں
+  mpl-2.0: الا یہ کہ غیر مطابق قرار دیا گیا ہو
+  agpl-3.0: AGPL والا حصہ AGPL ہی رہتا ہے

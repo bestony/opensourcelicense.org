@@ -1,0 +1,7 @@
+reviewed: false
+sourceHash: a00bd38725037c38
+actor: other
+title: প্রজেক্টটি পরিত্যক্ত এবং কেউ এটি চালিয়ে নিতে ফর্ক করে
+cells:
+  busl-1.1: Change Date পর্যন্ত সীমাবদ্ধ
+  elv2: সীমাবদ্ধতা বহাল থাকে

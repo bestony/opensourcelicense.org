@@ -1,0 +1,9 @@
+reviewed: false
+sourceHash: 883d4cd50ee79a28
+actor: other
+title: کوئی کلاؤڈ کمپنی آپ کے پروجیکٹ کو منیجڈ سروس کے طور پر بیچتی ہے
+cells:
+  gpl-3.0: تقسیم نہیں ہے
+  agpl-3.0: ترامیم شائع کرنا لازم ہے
+  sspl-1.0: پورا سروس اسٹیک جاری کرنا لازم ہے
+  busl-1.1: الا یہ کہ Additional Use Grant اس کی اجازت دے
