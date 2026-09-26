@@ -62,11 +62,14 @@ const families = FAMILIES.filter((f) => cat.licenseList.some((l) => l.family ===
 </Layout>
 
 <script>
+  import { track } from "@/lib/analytics";
+
   const group = document.querySelector("[data-family-filter]");
   group?.addEventListener("click", (e) => {
     const btn = (e.target as HTMLElement).closest<HTMLButtonElement>("button[data-family]");
     if (!btn) return;
     const fam = btn.dataset.family;
+    track("license_filter", { family: fam || "all" });
     group.querySelectorAll<HTMLButtonElement>("button").forEach((b) => {
       const on = b === btn;
       b.setAttribute("aria-pressed", String(on));

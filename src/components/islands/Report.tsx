@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { recommend } from "@/domain/engine";
 import type { Profile } from "@/domain/profile";
 import { decodeProfile, encodeProfile } from "@/domain/profile-codec";
+import { track } from "@/lib/analytics";
 import { ProfileCard } from "./ProfileCard";
 import { RecommendationView } from "./RecommendationView";
 import { copyText, TermButton, useIsland, type IslandProps } from "./shared";
@@ -27,6 +28,12 @@ export default function Report(props: IslandProps) {
   }, []);
 
   const rec = useMemo(() => (state.kind === "ok" ? recommend(state.profile, cat) : null), [state, cat]);
+  const topLicense = rec?.top[0]?.license;
+
+  // One event per rendered recommendation (initial load and every hash change).
+  useEffect(() => {
+    if (rec) track("report_view", { license: topLicense ?? "none", candidates: rec.top.length });
+  }, [rec, topLicense]);
 
   if (state.kind === "loading") return <p className="text-muted-foreground">{t("common.loading")}</p>;
   if (state.kind !== "ok" || !rec)
@@ -58,6 +65,7 @@ export default function Report(props: IslandProps) {
           <TermButton
             onClick={async () => {
               if (await copyText(window.location.href)) {
+                track("report_share_copy", { license: topLicense });
                 setCopied(true);
                 setTimeout(() => setCopied(false), 1500);
               }

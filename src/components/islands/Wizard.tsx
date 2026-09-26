@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { emptyProfile, sanitizeProfile, type Profile } from "@/domain/profile";
 import { decodeProfile, encodeProfile } from "@/domain/profile-codec";
+import { track } from "@/lib/analytics";
 import { Choice, TermButton, useIsland, type IslandProps } from "./shared";
 import { STEPS } from "./wizard-steps";
 
@@ -29,7 +30,20 @@ export default function Wizard(props: IslandProps) {
     setDepInput("");
   };
 
+  const next = () => {
+    track("wizard_step", { step: i + 1, field: step.field });
+    setI(i + 1);
+  };
+
+  const restart = () => {
+    track("wizard_restart", { step: i + 1 });
+    setProfile(emptyProfile());
+    setI(0);
+  };
+
   const finish = (path: "/r" | "/chat") => {
+    track("wizard_step", { step: i + 1, field: step.field });
+    track("wizard_complete", { target: path === "/r" ? "report" : "chat" });
     window.location.href = `${href(path)}#${encodeProfile(profile)}`;
   };
 
@@ -107,7 +121,7 @@ export default function Wizard(props: IslandProps) {
           ← {t("wizard.prev")}
         </TermButton>
         {!last && (
-          <TermButton onClick={() => setI(i + 1)} disabled={!answered} className="border-primary bg-primary text-primary-foreground">
+          <TermButton onClick={next} disabled={!answered} className="border-primary bg-primary text-primary-foreground">
             {step.optional && !answered ? t("wizard.skip") : t("wizard.next")} →
           </TermButton>
         )}
@@ -116,7 +130,7 @@ export default function Wizard(props: IslandProps) {
             {t("wizard.finish")} →
           </TermButton>
         )}
-        <TermButton onClick={() => (setProfile(emptyProfile()), setI(0))}>{t("wizard.restart")}</TermButton>
+        <TermButton onClick={restart}>{t("wizard.restart")}</TermButton>
         {last && <TermButton onClick={() => finish("/chat")}>{t("wizard.to-chat")}</TermButton>}
       </div>
     </div>

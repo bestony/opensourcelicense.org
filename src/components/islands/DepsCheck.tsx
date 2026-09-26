@@ -2,6 +2,7 @@ import { useMemo, useState } from "react";
 import { buildCompatIndex, type CompatStatus } from "@/domain/compat";
 import { parseManifest, type Dep, type ParseResult } from "@/domain/deps";
 import { evaluateDeps, summarizeVerdicts, type DepVerdict } from "@/domain/deps/check";
+import { track } from "@/lib/analytics";
 import { createLogger } from "@/lib/log";
 import { cn } from "@/lib/utils";
 import { mapLimit } from "@/lib/map-limit";
@@ -45,17 +46,24 @@ export default function DepsCheck(props: IslandProps) {
   const run = async () => {
     const r = parseManifest(text);
     setParsed(r ?? null);
-    if (!r) return setVerdicts([]);
+    if (!r) {
+      track("deps_check_empty", { online });
+      return setVerdicts([]);
+    }
     let deps = r.deps;
-    setVerdicts(evaluateDeps(deps, project, idx));
+    let result = evaluateDeps(deps, project, idx);
+    setVerdicts(result);
     const todo = deps.filter((d) => !d.license && LOOKUP_SYSTEMS.has(d.system)).slice(0, MAX_LOOKUPS);
     if (online && todo.length) {
       setBusy(true);
       const found = new Map((await mapLimit(todo, 6, lookup)).map((d) => [`${d.system}:${d.name}`, d]));
       deps = deps.map((d) => found.get(`${d.system}:${d.name}`) ?? d);
       setBusy(false);
-      setVerdicts(evaluateDeps(deps, project, idx));
+      result = evaluateDeps(deps, project, idx);
+      setVerdicts(result);
     }
+    // Only aggregate counts are sent; package names never leave the page.
+    track("deps_check_run", { project, format: r.format, online, deps: deps.length, ...summarizeVerdicts(result) });
   };
 
   const summary = summarizeVerdicts(verdicts);
@@ -94,7 +102,12 @@ export default function DepsCheck(props: IslandProps) {
         <TermButton onClick={run} disabled={!text.trim() || busy} className="border-primary bg-primary text-primary-foreground">
           {busy ? t("common.loading") : t("check.run")}
         </TermButton>
-        <TermButton onClick={() => setText(SAMPLE)}>{t("chat.examples")}</TermButton>
+        <TermButton
+          onClick={() => {
+            track("deps_check_sample", {});
+            setText(SAMPLE);
+          }}
+        >{t("chat.examples")}</TermButton>
       </div>
 
       {parsed === null && <p className="text-verdict-deny">{t("check.no-deps")}</p>}

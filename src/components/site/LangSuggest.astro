@@ -32,6 +32,7 @@ const options = LOCALES.filter((l) => l !== locale).map((l) => {
 
 <script>
   import { matchLocale } from "@/domain/locales";
+  import { track } from "@/lib/analytics";
 
   const KEY = "osl:lang-choice";
   const box = document.querySelector<HTMLElement>("[data-lang-suggest]");
@@ -56,8 +57,12 @@ const options = LOCALES.filter((l) => l !== locale).map((l) => {
           localStorage.setItem(KEY, "1");
         } catch {}
       };
-      go.addEventListener("click", remember);
+      go.addEventListener("click", () => {
+        track("language_switch", { from: document.documentElement.lang.toLowerCase(), to: opt.locale, via: "suggest" });
+        remember();
+      });
       dismiss.addEventListener("click", () => {
+        track("language_suggest_dismiss", { suggested: opt.locale });
         remember();
         box.hidden = true;
       });

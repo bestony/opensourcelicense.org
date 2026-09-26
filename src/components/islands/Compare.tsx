@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { cellKey } from "@/domain/catalog";
 import { FAMILY_CLASS } from "@/domain/verdict";
+import { track } from "@/lib/analytics";
 import { cn } from "@/lib/utils";
 import { TermButton, useIsland, Verdict, type IslandProps } from "./shared";
 
@@ -40,8 +41,21 @@ export default function Compare(props: IslandProps & { initial?: string[] }) {
   }, [lics]);
   const sharedMatrices = [...cat.matrices.values()].filter((m) => lics.length > 0 && lics.every((l) => l.matrices.includes(m.id)));
 
-  const add = (slug: string) => slug && !selected.includes(slug) && setSelected([...selected, slug].slice(0, MAX));
-  const remove = (slug: string) => setSelected(selected.filter((s) => s !== slug));
+  const add = (slug: string) => {
+    if (!slug || selected.includes(slug) || selected.length >= MAX) return;
+    const next = [...selected, slug];
+    track("compare_add", { license: slug, count: next.length });
+    setSelected(next);
+  };
+  const remove = (slug: string) => {
+    const next = selected.filter((s) => s !== slug);
+    track("compare_remove", { license: slug, count: next.length });
+    setSelected(next);
+  };
+  const reset = () => {
+    track("compare_reset", { count: selected.length });
+    setSelected([]);
+  };
 
   return (
     <div className="space-y-8">
@@ -74,7 +88,7 @@ export default function Compare(props: IslandProps & { initial?: string[] }) {
             </select>
           </label>
         )}
-        {selected.length > 0 && <TermButton onClick={() => setSelected([])}>{t("wizard.restart")}</TermButton>}
+        {selected.length > 0 && <TermButton onClick={reset}>{t("wizard.restart")}</TermButton>}
       </div>
 
       {lics.length < 2 ? (

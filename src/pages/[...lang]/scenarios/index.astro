@@ -102,6 +102,8 @@ const matrices = [...cat.matrices.values()];
 </style>
 
 <script>
+  import { track } from "@/lib/analytics";
+
   const select = document.querySelector<HTMLSelectElement>("[data-highlight]");
   const apply = (slug: string) => {
     document.querySelectorAll<HTMLElement>("[data-col]").forEach((el) => el.classList.toggle("is-highlight", !!slug && el.dataset.col === slug));
@@ -112,6 +114,7 @@ const matrices = [...cat.matrices.values()];
     apply(initial);
     select.addEventListener("change", () => {
       apply(select.value);
+      track("scenario_highlight", { license: select.value || "none" });
       const u = new URL(location.href);
       if (select.value) u.searchParams.set("license", select.value);
       else u.searchParams.delete("license");

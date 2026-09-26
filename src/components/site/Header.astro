@@ -67,8 +67,12 @@ const active = (p: string) => path === p || path.startsWith(`${p}/`);
 </header>
 
 <script>
+  import { track } from "@/lib/analytics";
+
   document.querySelectorAll<HTMLSelectElement>("[data-lang-switch]").forEach((el) => {
     el.addEventListener("change", () => {
+      const to = (el.selectedOptions[0]?.lang ?? el.value).toLowerCase();
+      track("language_switch", { from: document.documentElement.lang.toLowerCase(), to, via: "header" });
       try {
         localStorage.setItem("osl:lang-choice", "1");
       } catch {}

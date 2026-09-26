@@ -3,6 +3,7 @@ import { TURNSTILE_ACTION, type AskQuestionInput, type ChatErrorCode, type ChatE
 import { recommend, type Recommendation } from "@/domain/engine";
 import { emptyProfile, missingFields, sanitizeProfile, type Profile } from "@/domain/profile";
 import { decodeProfile, encodeProfile } from "@/domain/profile-codec";
+import { track } from "@/lib/analytics";
 import { createLogger } from "@/lib/log";
 import { cn } from "@/lib/utils";
 import { runTools, type ToolResultBlock, type ToolUseBlock } from "./chat-tools";
@@ -119,6 +120,7 @@ export default function Chat(props: IslandProps & { turnstileSiteKey?: string })
       if (!res.ok || !res.body) {
         const body = (await res.json().catch(() => ({}))) as { code?: ChatErrorCode };
         log.warn("chat request failed", { status: res.status, code: body.code });
+        track("chat_error", { code: body.code ?? `http_${res.status}` });
         setError(body.code ?? "upstream");
         return undefined;
       }
@@ -129,6 +131,7 @@ export default function Chat(props: IslandProps & { turnstileSiteKey?: string })
         else if (e.type === "message") result = { content: e.content as Record<string, unknown>[], stop: e.stop_reason };
         else if (e.type === "error") {
           log.warn("chat stream error", { code: e.code });
+          track("chat_error", { code: e.code });
           setError(e.code);
         }
       }
@@ -168,6 +171,7 @@ export default function Chat(props: IslandProps & { turnstileSiteKey?: string })
       } catch (err) {
         if ((err as Error).name !== "AbortError") {
           log.error("chat failed", { err });
+          track("chat_error", { code: "client" });
           setError("upstream");
         }
       } finally {
@@ -181,9 +185,12 @@ export default function Chat(props: IslandProps & { turnstileSiteKey?: string })
   const profileNote = () =>
     profileDirty ? [{ type: "text", text: `[Project profile edited by the user: ${JSON.stringify(profile)}]` }] : [];
 
-  const send = (text: string) => {
+  const userTurns = messages.filter((m) => m.role === "user").length;
+
+  const send = (text: string, source: "input" | "example" = "input") => {
     const body = text.trim();
     if (!body || busy) return;
+    track("chat_send", { source, turn: userTurns + 1 });
     setInput("");
     let next: ApiMessage[];
     if (pending) {
@@ -203,6 +210,7 @@ export default function Chat(props: IslandProps & { turnstileSiteKey?: string })
 
   const answer = (value: string, label: string) => {
     if (!pending || busy) return;
+    track("chat_send", { source: "option", turn: userTurns + 1 });
     const field = pending.input.field;
     const patched =
       field === "avoid" || field === "dependencies"
@@ -239,7 +247,7 @@ export default function Chat(props: IslandProps & { turnstileSiteKey?: string })
               <ul className="space-y-2">
                 {["chat.example.1", "chat.example.2", "chat.example.3"].map((k) => (
                   <li key={k}>
-                    <button type="button" className="text-start underline" onClick={() => send(t(k))} disabled={busy || needsVerification}>
+                    <button type="button" className="text-start underline" onClick={() => send(t(k), "example")} disabled={busy || needsVerification}>
                       &gt; {t(k)}
                     </button>
                   </li>
@@ -281,7 +289,7 @@ export default function Chat(props: IslandProps & { turnstileSiteKey?: string })
           )}
           {rec && !busy && (
             <p>
-              <a href={reportHref} className="inline-block bg-primary px-2 text-primary-foreground no-underline">
+              <a href={reportHref} onClick={() => track("chat_report_open", { placement: "thread" })} className="inline-block bg-primary px-2 text-primary-foreground no-underline">
                 {t("chat.report")} →
               </a>
             </p>
@@ -315,7 +323,12 @@ export default function Chat(props: IslandProps & { turnstileSiteKey?: string })
             disabled={needsVerification}
           />
           {busy ? (
-            <TermButton onClick={() => abort.current?.abort()}>{t("chat.stop")}</TermButton>
+            <TermButton
+              onClick={() => {
+                track("chat_stop", {});
+                abort.current?.abort();
+              }}
+            >{t("chat.stop")}</TermButton>
           ) : (
             <TermButton type="submit" disabled={!input.trim() || needsVerification} className="border-primary bg-primary text-primary-foreground">
               {t("chat.send")}
@@ -358,7 +371,9 @@ export default function Chat(props: IslandProps & { turnstileSiteKey?: string })
           )}
           {live && (
             <p className="mt-3">
-              <a href={reportHref}>{t("chat.report")} →</a>
+              <a href={reportHref} onClick={() => track("chat_report_open", { placement: "sidebar" })}>
+                {t("chat.report")} →
+              </a>
             </p>
           )}
         </section>

@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import type { Recommendation, ScorePart } from "@/domain/engine";
 import { FAMILY_CLASS } from "@/domain/verdict";
+import { track, type AnalyticsEvents } from "@/lib/analytics";
 import { cn } from "@/lib/utils";
 import { copyText, TermButton, type IslandContext } from "./shared";
 
@@ -18,12 +19,15 @@ export function partLabel(ctx: IslandContext, p: ScorePart): string {
   return ctx.t(p.key, params);
 }
 
-function CopyButton({ text, ctx }: { text: string; ctx: IslandContext }) {
+type CopyKind = AnalyticsEvents["license_copy"]["kind"];
+
+function CopyButton({ text, ctx, license, kind }: { text: string; ctx: IslandContext; license: string; kind: CopyKind }) {
   const [done, setDone] = useState(false);
   return (
     <TermButton
       onClick={async () => {
         if (await copyText(text)) {
+          track("license_copy", { license, kind });
           setDone(true);
           setTimeout(() => setDone(false), 1500);
         }
@@ -56,6 +60,7 @@ function Deliverables({ slug, ctx }: { slug: string; ctx: IslandContext }) {
 
   const download = () => {
     if (!text) return;
+    track("license_download", { license: slug });
     const url = URL.createObjectURL(new Blob([text], { type: "text/plain" }));
     const a = document.createElement("a");
     a.href = url;
@@ -70,7 +75,7 @@ function Deliverables({ slug, ctx }: { slug: string; ctx: IslandContext }) {
         <h4>{ctx.t("report.license-file")}</h4>
         {lic.hasText ? (
           <div className="flex gap-2">
-            <CopyButton text={text ?? ""} ctx={ctx} />
+            <CopyButton text={text ?? ""} ctx={ctx} license={slug} kind="text" />
             <TermButton onClick={download} disabled={!text}>
               {ctx.t("common.download")}
             </TermButton>
@@ -87,12 +92,12 @@ function Deliverables({ slug, ctx }: { slug: string; ctx: IslandContext }) {
       <div className="space-y-2 border border-border p-3">
         <h4>{ctx.t("report.header")}</h4>
         <pre className="overflow-x-auto text-xs">{header}</pre>
-        <CopyButton text={header} ctx={ctx} />
+        <CopyButton text={header} ctx={ctx} license={slug} kind="spdx_header" />
       </div>
       <div className="space-y-2 border border-border p-3">
         <h4>{ctx.t("report.badge")}</h4>
         <pre className="overflow-x-auto text-xs">{badge}</pre>
-        <CopyButton text={badge} ctx={ctx} />
+        <CopyButton text={badge} ctx={ctx} license={slug} kind="badge" />
       </div>
     </div>
   );

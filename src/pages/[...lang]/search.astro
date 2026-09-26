@@ -54,3 +54,26 @@ const { t } = pageContext(locale);
     document.head.appendChild(s);
   })();
 </script>
+<script>
+  import { track } from "@/lib/analytics";
+
+  // Pagefind UI has no query callback, so watch its input and report settled queries only.
+  const SETTLE_MS = 1200;
+  const MIN_LENGTH = 2;
+  let timer: ReturnType<typeof setTimeout> | undefined;
+  let last = "";
+  const report = (raw: string) => {
+    const term = raw.trim().toLowerCase();
+    if (term.length < MIN_LENGTH || term === last) return;
+    last = term;
+    track("search", { search_term: term });
+  };
+  document.getElementById("search")?.addEventListener("input", (e) => {
+    const el = e.target as HTMLInputElement | null;
+    if (!el || el.tagName !== "INPUT") return;
+    clearTimeout(timer);
+    timer = setTimeout(() => report(el.value), SETTLE_MS);
+  });
+  const initial = new URLSearchParams(location.search).get("q");
+  if (initial) report(initial);
+</script>
