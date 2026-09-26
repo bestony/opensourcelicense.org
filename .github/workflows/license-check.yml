@@ -1,0 +1,40 @@
+name: License check
+
+on:
+  pull_request:
+    paths:
+      - "LICENSE*"
+      - "COPYING*"
+      - "**/package.json"
+      - "**/package-lock.json"
+      - "**/go.mod"
+      - "**/requirements.txt"
+      - "**/Cargo.toml"
+      - "**/Gemfile.lock"
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: Check licenses
+        run: pnpm license-check --base=${{ github.event.pull_request.base.sha }} --head=${{ github.event.pull_request.head.sha }} --fail-on-conflict
+      - name: Comment on the pull request
+        if: always() && hashFiles('pr-license-report.md') != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh pr comment ${{ github.event.pull_request.number }} --body-file pr-license-report.md --edit-last || gh pr comment ${{ github.event.pull_request.number }} --body-file pr-license-report.md
