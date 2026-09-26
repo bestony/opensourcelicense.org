@@ -1,0 +1,56 @@
+# Git hooks managed by lefthook: https://lefthook.dev
+# Hooks are installed by the lefthook postinstall script on `pnpm install`.
+# Skip once with LEFTHOOK=0 git commit ..., or skip one job with
+# LEFTHOOK_EXCLUDE=typecheck git commit ...
+
+# Fast checks, scoped to staged files.
+pre-commit:
+  parallel: true
+  skip:
+    - merge
+    - rebase
+  jobs:
+    - name: no-secrets
+      glob:
+        - "{,**/}.env"
+        - "{,**/}.env.*"
+        - "{,**/}.dev.vars"
+        - "{,**/}*.pem"
+        - "{,**/}*.key"
+      exclude:
+        - "{,**/}.env.example"
+      run: |
+        echo "Refusing to commit secret files: {staged_files}" >&2
+        exit 1
+
+    - name: validate
+      glob:
+        - "data/**"
+        - "src/domain/**"
+        - "src/lib/**"
+        - "scripts/**"
+      run: pnpm -s validate
+
+    - name: typecheck
+      glob: "*.{ts,tsx,astro}"
+      run: pnpm -s check
+
+    - name: test
+      glob: "*.{ts,tsx}"
+      run: pnpm exec vitest related --run --passWithNoTests {staged_files}
+
+# Full checks before code leaves the machine. Mirrors .github/workflows/ci.yml.
+pre-push:
+  parallel: true
+  jobs:
+    - name: validate
+      run: pnpm -s validate
+
+    - name: typecheck
+      run: pnpm -s check
+
+    - name: test
+      run: pnpm -s test
+
+    - name: build
+      run: pnpm -s build
