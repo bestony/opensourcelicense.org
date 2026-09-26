@@ -1,0 +1,9 @@
+reviewed: false
+sourceHash: 63feb6d0b2ecbcea
+title: Affiné, renommé et publié sous forme de poids fermés
+actor: other
+cells:
+  llama: Doit inclure la licence et afficher « Built with Llama »
+  openrail-m: Doit transmettre les restrictions d'usage
+  cc-by-4.0: Attribution
+  cc-by-nc-4.0: Usage non commercial uniquement

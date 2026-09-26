@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 3ab9492f75e7adb0
+summary: "Copyleft forte: se você distribuir o software ou derivados, precisa
+  publicar todo o código-fonte sob GPL-3.0."
+analogy: "Uma receita que diz: quem servir um prato feito com ela também deve
+  entregar a receita completa."
+pros:
+  - Mantém abertos todos os derivados distribuídos
+  - Concessão de patentes e proteção contra tivoização
+  - Forte tradição comunitária
+cons:
+  - Muitas empresas evitam
+  - Não cobre SaaS (não há distribuição)
+  - Não é compatível com GPL-2.0-only

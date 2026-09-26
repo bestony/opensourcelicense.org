@@ -1,0 +1,7 @@
+reviewed: false
+sourceHash: d774574ea30fc483
+title: Внутренние изменения без распространения и внешнего сервиса
+actor: other
+cells:
+  agpl-3.0: Взаимодействие с пользователями интрасети спорно
+  busl-1.1: Зависит от Additional Use Grant

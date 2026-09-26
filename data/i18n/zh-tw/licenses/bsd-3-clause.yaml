@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: db235a56ea57284f
+summary: 與 MIT 類似，另加一條：不得用作者名義為衍生產品背書。
+analogy: 免費的書附一張紙條：“別說作者推薦了你這個版本。”
+pros:
+  - 寬鬆、知名度高
+  - 防止名字被用於背書
+cons:
+  - 沒有明示專利授權
+  - 允許閉源 fork

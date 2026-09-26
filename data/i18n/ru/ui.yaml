@@ -1,0 +1,357 @@
+reviewed: false
+sourceHash: d83a2e48ed5947b0
+strings:
+  site.name: opensourcelicense.org
+  site.tagline: Рабочее место для выбора лицензий открытого ПО
+  site.description: Выбирайте, сравнивайте и проверяйте на прочность лицензии
+    открытого ПО. Узнайте, что используют реальные проекты, что может пойти не
+    так и что подходит вашему проекту.
+  nav.home: Главная
+  nav.licenses: Лицензии
+  nav.scenarios: Сценарии
+  nav.projects: Проекты
+  nav.trends: Тренды
+  nav.compare: Сравнение
+  nav.wizard: Мастер
+  nav.chat: ИИ-консультант
+  nav.check: Проверка зависимостей
+  nav.menu: Меню
+  lang.switch: Язык
+  lang.suggest: "Эта страница доступна на языке: {language}."
+  lang.suggest.go: Переключить
+  lang.suggest.dismiss: Скрыть
+  footer.disclaimer: Сайт даёт общую информацию, а не юридическую консультацию. В
+    реальном споре или при заключении договора обратитесь к юристу.
+  footer.source: Исходный код (AGPL-3.0)
+  footer.data: Данные по лицензии CC-BY-4.0
+  footer.report: Сообщить об ошибке
+  footer.cite: Данные opensourcelicense.org, CC-BY-4.0
+  footer.hosting: Работает на бесплатном тарифе Cloudflare Workers
+  footer.dns: Домен размещён в Cloudflare
+  badge.machine: Машинный перевод
+  badge.reviewed: Проверенный перевод
+  badge.fallback: Ещё не переведено — показан английский текст
+  badge.stale: может быть устаревшим
+  badge.unreviewed-data: Черновик — ещё не проверен юристом
+  common.updated: Данные обновлены {date}
+  common.back: Назад
+  common.copy: Копировать
+  common.copied: Скопировано
+  common.download: Скачать
+  common.close: Закрыть
+  common.all: Все
+  common.yes: Да
+  common.no: Нет
+  common.unknown: Неизвестно
+  common.none: Нет
+  common.more: Ещё
+  common.loading: Загрузка…
+  common.error: Что-то пошло не так.
+  common.search: Поиск
+  home.title: Выбирайте лицензию открытого ПО, понимая последствия
+  home.lead: Не только «какую лицензию выбрать», но и что выбрали похожие проекты,
+    каков худший сценарий и что делать дальше.
+  home.entry.chat.title: Поговорить с ИИ-консультантом
+  home.entry.chat.body: Опишите проект своими словами. Получите профиль, уточняющие вопросы и отчёт.
+  home.entry.projects.title: Посмотреть, что используют другие
+  home.entry.projects.body: Лицензии известных проектов и причины, по которым некоторые их сменили.
+  home.entry.wizard.title: Пошаговый отбор
+  home.entry.wizard.body: Ответьте на несколько вопросов и получите упорядоченный
+    список с объяснениями.
+  home.wall: Лицензии популярных проектов
+  home.changes: Недавние смены лицензий
+  home.scenarios: Что может пойти не так?
+  home.scenarios.body: 27 экстремальных сценариев × 17 столбцов лицензий, по
+    странице на каждую ячейку.
+  family.permissive: Разрешительная
+  family.weak-copyleft: Слабый копилефт
+  family.strong-copyleft: Сильный копилефт
+  family.network-copyleft: Сетевой копилефт
+  family.source-available: С открытым исходным кодом для просмотра
+  family.model: Лицензия модели
+  family.content: Контент / данные
+  verdict.allow: Разрешено
+  verdict.conditional: С условиями
+  verdict.deny: Запрещено лицензией
+  verdict.silent: Не урегулировано
+  verdict.tbd: На проверке
+  verdict.legend: "Обозначения: ✓ другая сторона может это сделать · ◐ с условиями
+    · ✗ лицензия запрещает · — лицензия не регулирует (действует общее право)"
+  actor.other: Это делает кто-то другой
+  actor.you: Это хотите сделать вы
+  actor.contributor: Это делает контрибьютор
+  actor.both: Касается обеих сторон
+  group.A: Коммерческая конкуренция
+  group.B: Патенты и право
+  group.C: Развитие и бизнес
+  group.D: Использование и соответствие
+  group.E: ИИ-модели и данные
+  matrix.code: Лицензии для кода
+  matrix.model: Лицензии для моделей и данных
+  term.commercial-use: Коммерческое использование
+  term.modification: Изменение
+  term.distribution: Распространение
+  term.private-use: Частное использование
+  term.patent-use: Патентная лицензия
+  term.non-production-use: Использование вне продакшена
+  term.converts-to-open-source: Позже становится открытой
+  term.include-copyright: Сохранять уведомление об авторских правах
+  term.include-license: Прилагать лицензию
+  term.document-changes: Отмечать изменения
+  term.disclose-source: Раскрывать исходный код
+  term.same-license: Та же лицензия для производных
+  term.same-license-file: Та же лицензия (на уровне файла)
+  term.same-license-library: Та же лицензия (на уровне библиотеки)
+  term.allow-relinking: Разрешать перекомпоновку
+  term.network-use-disclose: Сетевое использование считается распространением
+  term.service-stack-disclose: Раскрывать весь стек сервиса
+  term.keep-limitations: Сохранять ограничения
+  term.attribution: Указание авторства
+  term.attribution-built-with: Показывать «Built with»
+  term.name-prefix: Правило именования
+  term.acceptable-use-policy: Политика допустимого использования
+  term.use-restrictions-pass-through: Передавать ограничения использования
+  term.indicate-changes: Указывать изменения
+  term.liability: Без ответственности
+  term.warranty: Без гарантий
+  term.trademark-use: Без прав на товарные знаки
+  term.no-endorsement: Без одобрения от имени автора
+  term.production-use-restricted: Ограничение использования в продакшене
+  term.no-managed-service: Запрет управляемого сервиса
+  term.no-license-key-circumvention: Запрет обхода лицензионных ключей
+  term.mau-threshold: Порог числа пользователей
+  term.use-restrictions: Ограничения использования
+  term.non-commercial: Только некоммерческое использование
+  licenses.title: Библиотека лицензий
+  licenses.lead: "Лицензий: {count} — от разрешительных до лицензий с доступным
+    кодом и лицензий моделей."
+  licenses.col.license: Лицензия
+  licenses.col.family: Семейство
+  licenses.col.osi: OSI
+  licenses.col.fsf: Свободная (FSF)
+  licenses.col.projects: Проекты
+  licenses.filter: Фильтр по семейству
+  license.permissions: Разрешения
+  license.conditions: Условия
+  license.limitations: Ограничения
+  license.summary: Простыми словами
+  license.analogy: Аналогия
+  license.pros: Плюсы
+  license.cons: Минусы
+  license.scenarios: Экстремальные сценарии
+  license.radar: Радар худшего случая
+  license.projects: Известные проекты с этой лицензией
+  license.projects.count: "Известных проектов на нашей карте с этой лицензией: {count}."
+  license.projects.none: На нашей карте пока нет проектов с этой лицензией.
+  license.projects.since: Перешли на неё {date}
+  license.projects.also: "Также доступно по: {licenses}"
+  license.projects.former: Проекты, отказавшиеся от неё
+  license.text: Официальный текст
+  license.text.official: "Официальный текст на языке: {language}"
+  license.text.note: Юридическую силу имеет только официальный текст. Мы не
+    переводим тексты лицензий.
+  license.compare: Сравнить с…
+  license.spdx: Идентификатор SPDX
+  radar.anti-freeride: Защита от «халявщиков»
+  radar.anti-closed-fork: Защита от закрытых форков
+  radar.patent: Патентная защита
+  radar.adoption-friction: Барьер для внедрения
+  radar.relicense-difficulty: Сложность смены лицензии
+  radar.misuse-control: Контроль злоупотреблений
+  radar.derivative-control: Контроль производных
+  radar.commercial-control: Коммерческий контроль
+  radar.note: Рассчитано по матрице сценариев. Большее значение означает больше
+    этого свойства, а не «лучше».
+  scenarios.title: Матрица экстремальных сценариев
+  scenarios.lead: Что происходит после выбора лицензии? Каждая ячейка отвечает на
+    один вопрос и имеет свою страницу.
+  scenarios.highlight: Выделить лицензию
+  scenarios.expand: Развернуть всё
+  scenarios.collapse: Свернуть всё
+  scenarios.silent-note: Строки, где только «—», оставлены намеренно. Ответ
+    зависит от трудового договора (C6), экспортного контроля (D5) или идущих
+    судебных разбирательств (D6), а не от лицензии.
+  scenario.flow.you: Вы публикуете под {license}
+  scenario.flow.they: Ситуация
+  scenario.flow.result: Результат
+  scenario.clause: Соответствующий пункт
+  scenario.case: Реальный случай
+  scenario.others: Тот же сценарий, другие лицензии
+  scenario.other-scenarios: Другие сценарии для {license}
+  scenario.no-clause: Отдельного пункта нет. Действует общее право.
+  scenario.review: Статус проверки
+  scenario.review.none: Ещё не проверено юристом.
+  scenario.review.done: "Проверено: {who}, {date}."
+  compare.title: Сравнение лицензий
+  compare.lead: Выберите две или три лицензии и сравните их по пунктам и по сценариям.
+  compare.pick: Добавить лицензию
+  compare.remove: Удалить
+  compare.terms: Условия
+  compare.scenarios: Сценарии
+  compare.empty: Выберите хотя бы две лицензии.
+  wizard.title: Мастер выбора лицензии
+  wizard.lead: Ответьте на несколько вопросов. Движок правил ранжирует лицензии и
+    объясняет каждый балл.
+  wizard.next: Далее
+  wizard.prev: Назад
+  wizard.finish: Показать результат
+  wizard.restart: Начать заново
+  wizard.skip: Пропустить
+  wizard.step: Шаг {n} из {total}
+  wizard.to-chat: Продолжить с ИИ-консультантом
+  q.artifact_type: Что вы публикуете?
+  q.openness_level: Насколько открытым это должно быть?
+  q.avoid: Каких последствий вы хотите избежать?
+  q.avoid.hint: Можно выбрать несколько.
+  q.adoption_goal: Что важнее всего?
+  q.dependencies: Зависите ли вы от кода под копилефтом?
+  q.dependencies.hint: Добавьте идентификаторы SPDX лицензий зависимостей, например GPL-3.0-only.
+  q.commercial_plan: Как вы планируете зарабатывать, если планируете?
+  q.jurisdiction: Где вы находитесь?
+  opt.artifact_type.library: Библиотеку или SDK
+  opt.artifact_type.application: Приложение или инструмент
+  opt.artifact_type.saas: Бэкенд сервиса (SaaS)
+  opt.artifact_type.model: Веса модели
+  opt.artifact_type.dataset: Набор данных
+  opt.artifact_type.docs: Документацию или контент
+  opt.openness_level.open: Полностью открыто — кто угодно может делать что угодно
+  opt.openness_level.reciprocal: Открыто, но улучшения должны возвращаться
+  opt.openness_level.source-available: Код виден, коммерческое использование ограничено
+  opt.avoid.cloud-hosting: Облачные провайдеры продают это как сервис
+  opt.avoid.closed-fork: Закрытые форки
+  opt.avoid.patent-litigation: Патентные иски
+  opt.avoid.trademark-abuse: Злоупотребление моим именем или брендом
+  opt.avoid.harmful-use: Вредоносное использование
+  opt.avoid.big-company: Крупные компании пользуются бесплатно
+  opt.adoption_goal.enterprise: Максимальное внедрение в компаниях
+  opt.adoption_goal.community: Вклад сообщества
+  opt.adoption_goal.monetize: Заработок
+  opt.commercial_plan.none: Нет плана
+  opt.commercial_plan.dual-license: Двойное лицензирование
+  opt.commercial_plan.open-core: Open core
+  opt.commercial_plan.hosted: Хостинговый сервис
+  opt.jurisdiction.cn: Китай
+  opt.jurisdiction.eu: Европейский союз
+  opt.jurisdiction.us: США
+  opt.jurisdiction.other: Другое
+  engine.part.avoid: "Защита от: {avoid}"
+  engine.part.openness: "Соответствие открытости: {openness}"
+  engine.part.adoption: "Цель: {goal}"
+  engine.part.commercial: "Бизнес-план: {plan}"
+  engine.part.jurisdiction: "Юрисдикция: {jurisdiction}"
+  engine.part.dependency: "Совместимо только при условиях: {dependency}"
+  engine.excluded.dependency: Несовместимо с зависимостью {dependency}
+  engine.excluded.artifact: Не подходит для такого вида результата
+  advisory.needs-cla: Используйте соглашение с контрибьюторами (CLA). Оно
+    понадобится, чтобы продавать коммерческие лицензии или позже сменить
+    лицензию.
+  advisory.consider-dco: Обычно достаточно Developer Certificate of Origin (DCO, «Signed-off-by»).
+  advisory.busl-change-date: Укажите в заголовке BSL Additional Use Grant, Change Date и Change License.
+  advisory.model-card: Укажите лицензию в метаданных карточки модели или набора
+    данных (поле «license:»).
+  advisory.notice-file: Добавьте файл NOTICE и сохраняйте его при распространении.
+  advisory.consult-lawyer: Перед публикацией попросите юриста проверить зависимости и бизнес-условия.
+  advisory.network-source-link: Показывайте пользователям сетевого сервиса ссылку на «исходный код».
+  report.title: Ваш отчёт о лицензии
+  report.lead: Отчёт рассчитывается в браузере по профилю из ссылки. Поделитесь
+    ссылкой, чтобы поделиться отчётом.
+  report.profile: Профиль проекта
+  report.edit: Изменить в мастере
+  report.top: Рекомендуемые
+  report.score: Баллы {score}
+  report.why: Почему
+  report.excluded: Исключены
+  report.advisories: Следующие шаги
+  report.license-file: Файл LICENSE
+  report.header: Заголовок файла
+  report.badge: Значок для README
+  report.share: Ссылка для обмена
+  report.share.copy: Скопировать ссылку
+  report.similar: Похожие проекты
+  report.no-text: Нет машиночитаемого текста. Возьмите его на официальной странице.
+  report.invalid: Ссылка на отчёт повреждена или относится к старой версии.
+  report.empty: Профиля пока нет. Начните с мастера или ИИ-консультанта.
+  chat.title: ИИ-консультант по лицензиям
+  chat.lead: Опишите проект. Консультант задаст уточняющие вопросы, движок правил
+    выберет лицензии, а консультант объяснит выбор.
+  chat.placeholder: "Например: я сделал векторную базу данных и боюсь, что
+    облачные провайдеры будут её перепродавать."
+  chat.send: Отправить
+  chat.stop: Остановить
+  chat.examples: Попробуйте пример
+  chat.example.1: Я сделал векторную базу данных и боюсь, что облачные провайдеры
+    будут её перепродавать.
+  chat.example.2: Небольшая библиотека компонентов React. Хочу, чтобы компании её использовали.
+  chat.example.3: Мы дообучили модель на 7B и хотим запретить вредоносное использование.
+  chat.profile: Профиль проекта
+  chat.profile.hint: Нажмите на значение, чтобы изменить его.
+  chat.candidates: Кандидаты
+  chat.run: Получить рекомендацию
+  chat.limit: Дневной лимит исчерпан. Попробуйте завтра или воспользуйтесь мастером.
+  chat.error: Консультант сейчас недоступен. Мастер по-прежнему работает.
+  chat.verify: Подтвердите, что вы человек.
+  chat.disclaimer: Консультант может ошибаться. Рекомендации даёт движок правил, и
+    это не юридическая консультация.
+  chat.report: Открыть полный отчёт
+  projects.title: Карта лицензий проектов
+  projects.lead: Лицензии известных проектов и история каждой смены.
+  projects.filter.domain: Область
+  projects.filter.family: Семейство лицензий
+  projects.filter.owner: Владелец
+  projects.filter.changed: Меняли лицензию
+  projects.count: "Проектов: {count}"
+  projects.empty: Нет проектов, подходящих под эти фильтры.
+  owner.company: Компания
+  owner.foundation: Фонд
+  owner.individual: Частное лицо
+  owner.community: Сообщество
+  project.current: Текущая лицензия
+  project.timeline: История лицензий
+  project.reason: Причина
+  project.announcement: Объявление
+  project.forks: Последовавшие форки
+  project.fork-of: Форк {name}
+  project.repo: Репозиторий
+  project.similar: Похожие проекты
+  project.review: Эту запись нашёл бот синхронизации, она ждёт проверки человеком.
+  project.initial: Исходная лицензия
+  domain.database: База данных
+  domain.frontend: Фронтенд-фреймворк
+  domain.devops: DevOps
+  domain.ai-model: ИИ-модель
+  domain.language: Язык и среда выполнения
+  domain.os: Операционная система
+  domain.web: Веб-сервер и бэкенд
+  domain.tooling: Инструменты разработчика
+  domain.data: Данные и аналитика
+  domain.observability: Наблюдаемость
+  domain.messaging: Обмен сообщениями и стриминг
+  domain.cms: CMS и приложения
+  trends.title: Тренды лицензий
+  trends.lead: Собрано по карте проектов во время сборки.
+  trends.family-share: Семейства лицензий по областям
+  trends.changes: Смены лицензий по годам
+  trends.to-source-available: Проекты, перешедшие от открытого кода к лицензиям с доступным кодом
+  search.lead: Ищите лицензии, сценарии и проекты на этом языке.
+  search.noscript: Для поиска нужен JavaScript.
+  check.title: Проверка лицензий зависимостей
+  check.lead: Вставьте package.json, go.mod, Gemfile.lock, Cargo.toml или
+    requirements.txt. Разбор выполняется в браузере.
+  check.project-license: Лицензия вашего проекта
+  check.input: Манифест
+  check.run: Проверить
+  check.lookup: Искать неизвестные лицензии онлайн (deps.dev)
+  check.col.package: Пакет
+  check.col.license: Лицензия
+  check.col.status: Статус
+  check.status.compatible: Совместимо
+  check.status.conditional: С условиями
+  check.status.incompatible: Конфликт
+  check.status.unknown: Неизвестно
+  check.summary: "Совместимо: {ok}, с условиями: {warn}, конфликтов: {bad},
+    неизвестно: {unknown}"
+  check.format: "Определён формат: {format}"
+  check.no-deps: Зависимости не найдены.
+  check.license-hint: Укажите лицензию строками «имя@версия ID-ЛИЦЕНЗИИ» или включите онлайн-поиск.
+  notfound.title: Страница не найдена
+  notfound.body: Такой страницы нет. Загляните в библиотеку лицензий.

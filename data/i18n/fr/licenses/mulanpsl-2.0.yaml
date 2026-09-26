@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: b568f07f3285ed81
+summary: Licence permissive chinoise avec licence de brevets et rétorsion. Les
+  textes chinois et anglais font également foi ; en cas de conflit, le chinois
+  prévaut.
+analogy: Une protection de type Apache pensée pour le droit chinois.
+pros:
+  - Texte officiel bilingue
+  - Licence de brevets
+  - Approuvée par l'OSI
+cons:
+  - Moins connue hors de Chine
+  - Peu de jurisprudence

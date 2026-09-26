@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: afd85677afc1c999
+title: Jemand verkauft unveränderte Kopien
+actor: other
+cells:
+  mpl-2.0: Quellcode muss angeboten werden
+  lgpl-3.0: Quellcode muss angeboten werden
+  gpl-3.0: Quellcode muss angeboten werden
+  agpl-3.0: Quellcode muss angeboten werden
+  sspl-1.0: Quellcode muss angeboten werden
+  busl-1.1: Hängt vom Additional Use Grant ab

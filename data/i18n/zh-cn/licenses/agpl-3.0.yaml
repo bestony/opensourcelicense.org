@@ -1,4 +1,5 @@
 reviewed: false
+sourceHash: 1db86c42c600a813
 summary: 在 GPL-3.0 基础上增加网络条款：通过网络与修改版交互的用户也有权获得其源代码。
 analogy: 菜谱规则延伸到餐厅：在店里端上这道菜也算“给出去”。
 pros:

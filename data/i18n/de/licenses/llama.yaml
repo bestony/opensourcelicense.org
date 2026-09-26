@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 4803251a37336702
+summary: "Eigene Modelllizenz: kommerzielle Nutzung erlaubt, mit
+  Nutzungsrichtlinie, Regeln zu Namensnennung und Benennung sowie einer eigenen
+  Lizenz ab 700 Millionen monatlich aktiven Nutzern."
+analogy: Ein kostenloser Motor mit Regelwerk und einem Sondervertrag für die
+  allergrößten Autohersteller.
+pros:
+  - Kommerzielle Nutzung für die meisten erlaubt
+  - Großes Ökosystem
+cons:
+  - Für die OSI keine Open Source
+  - Pflichten aus Nutzungsrichtlinie und Benennung
+  - Bedingungen ändern sich zwischen Versionen

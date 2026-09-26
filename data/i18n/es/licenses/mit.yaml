@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 33f06e1e52928136
+summary: Permite hacer casi cualquier cosa con el código. Solo hay que conservar
+  el aviso de copyright y de licencia. Sin garantía.
+analogy: "Como un libro gratis en una cafetería: puedes llevártelo, copiarlo o
+  venderlo, pero el nombre del autor sigue en la portada."
+pros:
+  - Corta y ampliamente conocida
+  - La licencia más fácil de adoptar para las empresas
+  - Compatible con casi cualquier otra licencia
+cons:
+  - No concede patentes
+  - Cualquiera puede crear un competidor cerrado o alojado

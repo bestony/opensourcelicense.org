@@ -1,0 +1,9 @@
+reviewed: false
+sourceHash: b16411183c557a4e
+title: クローズドソースの SaaS バックエンドに組み込まれる（配布なし）
+actor: other
+cells:
+  agpl-3.0: 改変した場合は公開が必要
+  sspl-1.0: その機能をサービスとして提供する場合
+  busl-1.1: 追加利用許諾による
+  elv2: 製品自体のホスティングではない

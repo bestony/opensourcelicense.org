@@ -1,0 +1,8 @@
+reviewed: false
+sourceHash: 3a5f4b9bf27dddea
+title: Tu código se integra en un proyecto GPL-3.0
+actor: other
+cells:
+  apache-2.0: Pero no es compatible con GPL-2.0
+  mpl-2.0: Salvo que se marque como incompatible
+  agpl-3.0: La parte AGPL sigue siendo AGPL

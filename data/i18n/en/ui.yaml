@@ -27,6 +27,7 @@ strings:
   badge.machine: Machine translation
   badge.reviewed: Reviewed translation
   badge.fallback: Not yet translated — showing English
+  badge.stale: may be outdated
   badge.unreviewed-data: Draft — not yet reviewed by a lawyer
   common.updated: Data updated {date}
   common.back: Back
@@ -308,6 +309,8 @@ strings:
   trends.family-share: License families by domain
   trends.changes: License changes by year
   trends.to-source-available: Projects that moved from open source to source-available
+  search.lead: Search licenses, scenarios and projects in this language.
+  search.noscript: Search needs JavaScript.
   check.title: Dependency license check
   check.lead: Paste a package.json, go.mod, Gemfile.lock, Cargo.toml or requirements.txt. Parsing happens in your browser.
   check.project-license: Your project license

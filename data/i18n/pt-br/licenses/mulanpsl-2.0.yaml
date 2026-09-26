@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: b568f07f3285ed81
+summary: Licença permissiva chinesa com concessão de patentes e retaliação. Os
+  textos em chinês e inglês têm igual validade; em conflito, prevalece o chinês.
+analogy: Proteção no estilo Apache escrita pensando na lei chinesa.
+pros:
+  - Texto oficial bilíngue
+  - Concessão de patentes
+  - Aprovada pela OSI
+cons:
+  - Menos conhecida fora da China
+  - Pouca jurisprudência

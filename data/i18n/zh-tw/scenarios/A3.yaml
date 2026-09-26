@@ -1,0 +1,9 @@
+reviewed: false
+sourceHash: b16411183c557a4e
+title: 嵌入閉源 SaaS 後端（不分發）
+actor: other
+cells:
+  agpl-3.0: 若修改須公開
+  sspl-1.0: 若以其功能對外服務
+  busl-1.1: 視附加授權
+  elv2: 非託管其本身

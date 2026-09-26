@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 1b47253adc7fb00d
+summary: "Code source disponible : utilisation et modification gratuites, mais
+  interdiction de le proposer comme service géré ou de contourner les clés de
+  licence."
+analogy: Cuisinez avec chez vous ou dans votre restaurant, mais n'ouvrez pas une
+  boutique qui vend exactement ce plat.
+pros:
+  - Courte et claire
+  - Vise uniquement les concurrents proposant un service géré
+cons:
+  - Ce n'est pas de l'open source
+  - Limite les forks et certains partenaires

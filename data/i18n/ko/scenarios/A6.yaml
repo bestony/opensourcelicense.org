@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: afd85677afc1c999
+title: 누군가 수정하지 않은 사본을 판매
+actor: other
+cells:
+  mpl-2.0: 소스 제공 필요
+  lgpl-3.0: 소스 제공 필요
+  gpl-3.0: 소스 제공 필요
+  agpl-3.0: 소스 제공 필요
+  sspl-1.0: 소스 제공 필요
+  busl-1.1: 추가 사용 허가에 따라 다름

@@ -1,0 +1,9 @@
+reviewed: false
+sourceHash: 63feb6d0b2ecbcea
+title: Se ajusta, se renombra y se publica como pesos cerrados
+actor: other
+cells:
+  llama: Debe incluir la licencia y mostrar "Built with Llama"
+  openrail-m: Debe transmitir las restricciones de uso
+  cc-by-4.0: Atribución
+  cc-by-nc-4.0: Solo uso no comercial

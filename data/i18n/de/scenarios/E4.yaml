@@ -1,0 +1,9 @@
+reviewed: false
+sourceHash: 63feb6d0b2ecbcea
+title: Feinabgestimmt, umbenannt und als geschlossene Gewichte veröffentlicht
+actor: other
+cells:
+  llama: Lizenz beilegen und „Built with Llama“ anzeigen
+  openrail-m: Nutzungsbeschränkungen müssen weitergegeben werden
+  cc-by-4.0: Namensnennung
+  cc-by-nc-4.0: Nur nicht kommerziell

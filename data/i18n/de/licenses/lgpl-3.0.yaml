@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: cdef0d42cb1ab51e
+summary: "Copyleft auf Bibliotheksebene: Änderungen an der Bibliothek bleiben
+  offen; geschlossene Apps dürfen sie linken, wenn Nutzer die Bibliothek
+  austauschen können."
+analogy: "Ein gemeinsamer Motor: Er darf in Ihr Auto, aber die Besitzer müssen
+  ihn gegen ihren eigenen tauschen können."
+pros:
+  - Proprietäre Apps dürfen die Bibliothek nutzen
+  - Verbesserungen an der Bibliothek bleiben offen
+  - Patentlizenz
+cons:
+  - Regeln zum Neu-Linken sind komplex, besonders bei statischem Linken und mobil
+  - Manche Unternehmen meiden sie trotzdem

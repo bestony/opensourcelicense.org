@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: ce104e1cd96e85b1
+summary: "Código disponible: el uso en producción está limitado por el
+  Additional Use Grant, y cada versión pasa a una licencia abierta tras la
+  Change Date (máximo 4 años)."
+analogy: "Un escaparate: puedes mirar y probar, y en unos años el artículo queda
+  libre para todos."
+pros:
+  - Permite controlar el uso comercial
+  - El código pasa a ser abierto más adelante
+cons:
+  - No es código abierto
+  - Las condiciones varían según el proyecto
+  - Puede provocar forks

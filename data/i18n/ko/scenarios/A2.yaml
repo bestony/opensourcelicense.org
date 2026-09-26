@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 57d3e35a6ad686d1
+title: 누군가 포크해 폐쇄형 경쟁 제품을 배포
+actor: other
+cells:
+  apache-2.0: 수정한 파일 표시 필요
+  mpl-2.0: 수정한 MPL 파일은 계속 공개
+  lgpl-3.0: 라이브러리 변경은 계속 공개
+  busl-1.1: 파생물도 BSL 유지
+  elv2: 제한 조항 유지 필요

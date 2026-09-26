@@ -1,0 +1,9 @@
+reviewed: false
+sourceHash: efc2f2f54594209c
+title: 蒸餾/用輸出訓練其他模型
+actor: other
+cells:
+  llama: 名稱須含 “Llama”
+  openrail-m: 衍生須繼承限制
+  cc-by-4.0: 署名
+  cc-by-nc-4.0: 僅限非商用

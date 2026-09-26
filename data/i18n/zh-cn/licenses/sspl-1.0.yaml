@@ -1,4 +1,5 @@
 reviewed: false
+sourceHash: c04c9ce2bbb6b016
 summary: 类似 AGPL，但以服务形式提供软件时须公开整个服务栈的源代码；未获 OSI 认可。
 analogy: 用这道菜开餐厅，就得把整个厨房的图纸也公开。
 pros:

@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 4f30616160bfe68b
+title: Mais tarde você troca a licença ou vende licenças comerciais (sem CLA)
+actor: you
+cells:
+  mit: Novas versões podem mudar; as antigas permanecem
+  bsd-3-clause: Igual ao MIT
+  apache-2.0: Igual ao MIT
+  mpl-2.0: Arquivos MPL devem continuar MPL
+  lgpl-3.0: Exige o consentimento de todos os contribuidores
+  mulanpsl-2.0: Igual ao MIT
+  busl-1.1: Geralmente depende de um CLA
+  elv2: Geralmente depende de um CLA

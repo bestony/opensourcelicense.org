@@ -1,4 +1,5 @@
 reviewed: false
+sourceHash: 6d33e2e6b797d27f
 summary: 文件级 Copyleft：修改过的 MPL 文件必须保持开源，但可以与其他文件中的闭源代码组合。
 analogy: 借用某一章就要公开你对这一章的修改，书的其余部分仍归你。
 pros:

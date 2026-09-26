@@ -1,0 +1,15 @@
+reviewed: false
+sourceHash: cdef0d42cb1ab51e
+summary: "Copyleft a nivel de biblioteca: los cambios a la biblioteca deben
+  seguir abiertos; las apps cerradas pueden enlazarla si los usuarios pueden
+  sustituir la biblioteca."
+analogy: "Un motor compartido: puedes ponerlo en tu coche, pero el dueño debe
+  poder cambiarlo por el suyo."
+pros:
+  - Permite que apps propietarias usen la biblioteca
+  - Las mejoras a la biblioteca siguen abiertas
+  - Concesión de patentes
+cons:
+  - Las reglas de reenlazado son complejas, sobre todo con enlace estático y en
+    móviles
+  - Algunas empresas aún la evitan

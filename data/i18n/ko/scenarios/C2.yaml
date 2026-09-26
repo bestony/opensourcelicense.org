@@ -1,0 +1,8 @@
+reviewed: false
+sourceHash: 3a5f4b9bf27dddea
+title: 내 코드가 GPL-3.0 프로젝트에 병합됨
+actor: other
+cells:
+  apache-2.0: 단, GPL-2.0과는 비호환
+  mpl-2.0: 비호환으로 표시하지 않는 한
+  agpl-3.0: AGPL 부분은 AGPL 유지

@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 6d33e2e6b797d27f
+summary: "Copyleft por arquivo: alterações em arquivos MPL continuam abertas,
+  mas podem ser combinadas com código fechado em outros arquivos."
+analogy: Se pegar um capítulo emprestado, compartilhe suas edições nesse
+  capítulo; o resto do livro é seu.
+pros:
+  - Equilíbrio entre permissiva e copyleft
+  - Concessão expressa de patentes
+  - Compatível com GPL por padrão
+cons:
+  - Os limites de arquivo podem ser confusos
+  - Não cobre uso em rede

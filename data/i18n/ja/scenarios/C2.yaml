@@ -1,0 +1,8 @@
+reviewed: false
+sourceHash: 3a5f4b9bf27dddea
+title: あなたのコードが GPL-3.0 のプロジェクトに取り込まれる
+actor: other
+cells:
+  apache-2.0: ただし GPL-2.0 とは非互換
+  mpl-2.0: 非互換と明記されていない限り
+  agpl-3.0: AGPL の部分は AGPL のまま

@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 6d33e2e6b797d27f
+summary: 檔案級 Copyleft：修改過的 MPL 檔案必須保持開源，但可以與其他檔案中的閉原始碼組合。
+analogy: 借用某一章就要公開你對這一章的修改，書的其餘部分仍歸你。
+pros:
+  - 介於寬鬆與 Copyleft 之間
+  - 明示專利授權
+  - 預設與 GPL 相容
+cons:
+  - “檔案”邊界有時不清晰
+  - 不覆蓋網路使用

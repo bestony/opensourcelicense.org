@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 57d3e35a6ad686d1
+title: fork 後閉源分發競品
+actor: other
+cells:
+  apache-2.0: 須標註修改
+  mpl-2.0: 改動的 MPL 檔案須開源
+  lgpl-3.0: 庫的改動須開源
+  busl-1.1: 衍生仍為 BSL
+  elv2: 限制條款須保留

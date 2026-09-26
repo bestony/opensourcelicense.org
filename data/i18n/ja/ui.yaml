@@ -1,0 +1,334 @@
+reviewed: false
+sourceHash: d83a2e48ed5947b0
+strings:
+  site.name: opensourcelicense.org
+  site.tagline: オープンソースライセンスの意思決定ワークベンチ
+  site.description: オープンソースライセンスを選び、比較し、ストレステストする。実在のプロジェクトの選択、最悪のケース、あなたのプロジェクトに合うものが分かります。
+  nav.home: ホーム
+  nav.licenses: ライセンス
+  nav.scenarios: シナリオ
+  nav.projects: プロジェクト
+  nav.trends: トレンド
+  nav.compare: 比較
+  nav.wizard: ウィザード
+  nav.chat: AI アドバイザー
+  nav.check: 依存関係チェック
+  nav.menu: メニュー
+  lang.switch: 言語
+  lang.suggest: このページは{language}でもご覧いただけます。
+  lang.suggest.go: 切り替える
+  lang.suggest.dismiss: 閉じる
+  footer.disclaimer: 本サイトは一般的な情報を提供するもので、法的助言ではありません。実際の紛争や契約については弁護士に相談してください。
+  footer.source: ソースコード（AGPL-3.0）
+  footer.data: データは CC-BY-4.0
+  footer.report: 誤りを報告
+  footer.cite: "データ出典: opensourcelicense.org、CC-BY-4.0"
+  footer.hosting: Cloudflare Workers の無料プランで稼働しています
+  footer.dns: ドメインは Cloudflare で管理されています
+  badge.machine: 機械翻訳
+  badge.reviewed: レビュー済みの翻訳
+  badge.fallback: 未翻訳のため英語で表示しています
+  badge.stale: 古い可能性があります
+  badge.unreviewed-data: 草案（弁護士による確認前）
+  common.updated: "データ更新日: {date}"
+  common.back: 戻る
+  common.copy: コピー
+  common.copied: コピーしました
+  common.download: ダウンロード
+  common.close: 閉じる
+  common.all: すべて
+  common.yes: はい
+  common.no: いいえ
+  common.unknown: 不明
+  common.none: なし
+  common.more: さらに表示
+  common.loading: 読み込み中…
+  common.error: エラーが発生しました。
+  common.search: 検索
+  home.title: 結果を理解したうえでオープンソースライセンスを選ぶ
+  home.lead: 「どのライセンスか」だけでなく、似たプロジェクトの選択、最悪のケース、次にやるべきことまで。
+  home.entry.chat.title: AI アドバイザーに相談する
+  home.entry.chat.body: プロジェクトを自分の言葉で説明すると、プロフィール、追加の質問、レポートが得られます。
+  home.entry.projects.title: 他のプロジェクトを見る
+  home.entry.projects.body: 有名プロジェクトのライセンスと、変更した理由。
+  home.entry.wizard.title: 順番に絞り込む
+  home.entry.wizard.body: いくつかの質問に答えると、説明付きの候補リストが得られます。
+  home.wall: 人気プロジェクトのライセンス
+  home.changes: 最近のライセンス変更
+  home.scenarios: 何が起こりうるか？
+  home.scenarios.body: 27 の極端なシナリオ × 17 のライセンス列。各セルに専用ページがあります。
+  family.permissive: 寛容型
+  family.weak-copyleft: 弱いコピーレフト
+  family.strong-copyleft: 強いコピーレフト
+  family.network-copyleft: ネットワーク・コピーレフト
+  family.source-available: ソース公開型
+  family.model: モデルライセンス
+  family.content: コンテンツ／データ
+  verdict.allow: 可能
+  verdict.conditional: 条件付き
+  verdict.deny: ライセンスが禁止
+  verdict.silent: 規定なし
+  verdict.tbd: 確認中
+  verdict.legend: "凡例: ✓ 相手はそれができる · ◐ 条件付き · ✗ ライセンスが禁止 · — ライセンスに規定なし（一般法による）"
+  actor.other: 他者が行う
+  actor.you: あなたが行いたい
+  actor.contributor: コントリビューターが行う
+  actor.both: 双方に関係する
+  group.A: 商業的な競争
+  group.B: 特許と法律
+  group.C: 発展とビジネス
+  group.D: 利用とコンプライアンス
+  group.E: AI モデルとデータ
+  matrix.code: コードのライセンス
+  matrix.model: モデルとデータのライセンス
+  term.commercial-use: 商用利用
+  term.modification: 改変
+  term.distribution: 配布
+  term.private-use: 私的利用
+  term.patent-use: 特許の許諾
+  term.non-production-use: 非本番環境での利用
+  term.converts-to-open-source: 後にオープンソースへ移行
+  term.include-copyright: 著作権表示を残す
+  term.include-license: ライセンスを同梱
+  term.document-changes: 変更を明記
+  term.disclose-source: ソースを開示
+  term.same-license: 派生物も同じライセンス
+  term.same-license-file: 同じライセンス（ファイル単位）
+  term.same-license-library: 同じライセンス（ライブラリ単位）
+  term.allow-relinking: 再リンクを許可
+  term.network-use-disclose: ネットワーク利用も配布とみなす
+  term.service-stack-disclose: サービス全体のソースを公開
+  term.keep-limitations: 制限条項を維持
+  term.attribution: クレジット表示
+  term.attribution-built-with: '"Built with" を表示'
+  term.name-prefix: 名称の規則
+  term.acceptable-use-policy: 利用規定
+  term.use-restrictions-pass-through: 利用制限を引き継ぐ
+  term.indicate-changes: 変更を示す
+  term.liability: 責任を負わない
+  term.warranty: 保証なし
+  term.trademark-use: 商標権は付与しない
+  term.no-endorsement: 推奨表示の禁止
+  term.production-use-restricted: 本番利用の制限
+  term.no-managed-service: マネージドサービス禁止
+  term.no-license-key-circumvention: ライセンスキー回避の禁止
+  term.mau-threshold: ユーザー数のしきい値
+  term.use-restrictions: 利用制限
+  term.non-commercial: 非営利のみ
+  licenses.title: ライセンス一覧
+  licenses.lead: 寛容型からソース公開型、モデルライセンスまで {count} 件。
+  licenses.col.license: ライセンス
+  licenses.col.family: 系統
+  licenses.col.osi: OSI
+  licenses.col.fsf: FSF 自由
+  licenses.col.projects: プロジェクト
+  licenses.filter: 系統で絞り込む
+  license.permissions: 許可
+  license.conditions: 条件
+  license.limitations: 制限
+  license.summary: かんたんな説明
+  license.analogy: たとえ
+  license.pros: 長所
+  license.cons: 短所
+  license.scenarios: 極端なシナリオ
+  license.radar: 最悪ケースのレーダー
+  license.projects: このライセンスを使う有名プロジェクト
+  license.projects.count: マップ内の有名プロジェクト {count} 件がこのライセンスを使用しています。
+  license.projects.none: マップ内にはまだこのライセンスを使うプロジェクトがありません。
+  license.projects.since: "{date} に切り替え"
+  license.projects.also: "併用ライセンス: {licenses}"
+  license.projects.former: このライセンスから移行したプロジェクト
+  license.text: 公式テキスト
+  license.text.official: "{language}の公式テキスト"
+  license.text.note: 法的効力があるのは公式テキストのみです。ライセンス本文は翻訳しません。
+  license.compare: 他と比較…
+  license.spdx: SPDX 識別子
+  radar.anti-freeride: ただ乗り防止
+  radar.anti-closed-fork: クローズドフォーク防止
+  radar.patent: 特許保護
+  radar.adoption-friction: 導入の障壁
+  radar.relicense-difficulty: ライセンス変更の難しさ
+  radar.misuse-control: 悪用の制御
+  radar.derivative-control: 派生物の制御
+  radar.commercial-control: 商用の制御
+  radar.note: シナリオ表から自動計算。値が高いほどその性質が強いことを示し、「良い」という意味ではありません。
+  scenarios.title: 極端なシナリオ表
+  scenarios.lead: ライセンスを選んだ後に何が起こるか？各セルが一つの問いに答え、専用ページがあります。
+  scenarios.highlight: ライセンスを強調表示
+  scenarios.expand: すべて展開
+  scenarios.collapse: すべて折りたたむ
+  scenarios.silent-note: 「—」だけの行は意図的に残しています。答えはライセンスではなく、雇用契約（C6）、輸出管理法（D5）、係争中の訴訟（D6）に左右されます。
+  scenario.flow.you: "{license} で公開"
+  scenario.flow.they: 起きたこと
+  scenario.flow.result: 結果
+  scenario.clause: 関連条項
+  scenario.case: 実例
+  scenario.others: 同じシナリオでの他のライセンス
+  scenario.other-scenarios: "{license} の他のシナリオ"
+  scenario.no-clause: 特定の条項はありません。一般法が適用されます。
+  scenario.review: レビュー状況
+  scenario.review.none: まだ弁護士の確認を受けていません。
+  scenario.review.done: "{who} が {date} に確認。"
+  compare.title: ライセンスを比較
+  compare.lead: 2〜3 個のライセンスを選び、条項ごと・シナリオごとに比較します。
+  compare.pick: ライセンスを追加
+  compare.remove: 削除
+  compare.terms: 条項
+  compare.scenarios: シナリオ
+  compare.empty: 2 つ以上のライセンスを選んでください。
+  wizard.title: ライセンス・ウィザード
+  wizard.lead: いくつかの質問に答えると、ルールエンジンがライセンスを順位付けし、各点数の理由を説明します。
+  wizard.next: 次へ
+  wizard.prev: 戻る
+  wizard.finish: 結果を見る
+  wizard.restart: 最初からやり直す
+  wizard.skip: スキップ
+  wizard.step: ステップ {n} / {total}
+  wizard.to-chat: AI アドバイザーで続ける
+  q.artifact_type: 何を公開しますか？
+  q.openness_level: どの程度オープンにしたいですか？
+  q.avoid: 避けたい結果はどれですか？
+  q.avoid.hint: いくつでも選べます。
+  q.adoption_goal: 最も重視することは？
+  q.dependencies: コピーレフトのコードに依存していますか？
+  q.dependencies.hint: "依存先ライセンスの SPDX 識別子を追加してください（例: GPL-3.0-only）。"
+  q.commercial_plan: 収益化の予定は？
+  q.jurisdiction: 拠点はどこですか？
+  opt.artifact_type.library: ライブラリまたは SDK
+  opt.artifact_type.application: アプリケーションまたはツール
+  opt.artifact_type.saas: サービスのバックエンド（SaaS）
+  opt.artifact_type.model: モデルの重み
+  opt.artifact_type.dataset: データセット
+  opt.artifact_type.docs: ドキュメントまたはコンテンツ
+  opt.openness_level.open: 完全にオープン — 誰でも何でもできる
+  opt.openness_level.reciprocal: オープンだが、改良は還元してほしい
+  opt.openness_level.source-available: ソースは公開、商用は制限
+  opt.avoid.cloud-hosting: クラウド事業者によるサービスとしての販売
+  opt.avoid.closed-fork: クローズドソースのフォーク
+  opt.avoid.patent-litigation: 特許訴訟
+  opt.avoid.trademark-abuse: 名前やブランドの悪用
+  opt.avoid.harmful-use: 有害な用途
+  opt.avoid.big-company: 大企業のただ乗り
+  opt.adoption_goal.enterprise: 企業での採用を最大化
+  opt.adoption_goal.community: コミュニティからの貢献
+  opt.adoption_goal.monetize: 収益化
+  opt.commercial_plan.none: 予定なし
+  opt.commercial_plan.dual-license: デュアルライセンス
+  opt.commercial_plan.open-core: オープンコア
+  opt.commercial_plan.hosted: ホスティングサービス
+  opt.jurisdiction.cn: 中国
+  opt.jurisdiction.eu: 欧州連合
+  opt.jurisdiction.us: 米国
+  opt.jurisdiction.other: その他
+  engine.part.avoid: "防ぎたいこと: {avoid}"
+  engine.part.openness: "オープン度との適合: {openness}"
+  engine.part.adoption: "目標: {goal}"
+  engine.part.commercial: "ビジネス計画: {plan}"
+  engine.part.jurisdiction: "法域: {jurisdiction}"
+  engine.part.dependency: "条件付きでのみ互換: {dependency}"
+  engine.excluded.dependency: 依存先 {dependency} と互換性がありません
+  engine.excluded.artifact: この種類の成果物には適しません
+  advisory.needs-cla: コントリビューター・ライセンス契約（CLA）を使ってください。商用ライセンスの販売や将来のライセンス変更に必要です。
+  advisory.consider-dco: 通常は Developer Certificate of Origin（DCO、"Signed-off-by"）で十分です。
+  advisory.busl-change-date: BSL のヘッダーに追加利用許諾、変更日、変更後のライセンスを記載してください。
+  advisory.model-card: モデルカードやデータセットカードのメタデータ（"license:" フィールド）にライセンスを記載してください。
+  advisory.notice-file: NOTICE ファイルを追加し、再配布時にも残してください。
+  advisory.consult-lawyer: 公開前に依存関係とビジネス条件を弁護士に確認してもらってください。
+  advisory.network-source-link: ネットワークサービスの利用者に「ソースコード」へのリンクを表示してください。
+  report.title: ライセンスレポート
+  report.lead: このレポートはリンク内のプロフィールからブラウザで計算されます。リンクを共有すればレポートも共有できます。
+  report.profile: プロジェクトのプロフィール
+  report.edit: ウィザードで編集
+  report.top: おすすめ
+  report.score: スコア {score}
+  report.why: 理由
+  report.excluded: 除外
+  report.advisories: 次のステップ
+  report.license-file: LICENSE ファイル
+  report.header: ファイルヘッダー
+  report.badge: README バッジ
+  report.share: 共有リンク
+  report.share.copy: リンクをコピー
+  report.similar: 似たプロジェクト
+  report.no-text: 機械可読なテキストがありません。公式ページから入手してください。
+  report.invalid: このレポートのリンクは壊れているか、古いバージョンのものです。
+  report.empty: プロフィールがまだありません。ウィザードか AI アドバイザーから始めてください。
+  chat.title: AI ライセンスアドバイザー
+  chat.lead: プロジェクトを説明してください。アドバイザーが質問し、ルールエンジンがライセンスを選び、アドバイザーが説明します。
+  chat.placeholder: "例: ベクトルデータベースを作ったが、クラウド事業者に転売されるのが心配。"
+  chat.send: 送信
+  chat.stop: 停止
+  chat.examples: 例を試す
+  chat.example.1: ベクトルデータベースを作ったが、クラウド事業者に転売されるのが心配。
+  chat.example.2: 小さな React コンポーネントライブラリ。企業に使ってほしい。
+  chat.example.3: 7B モデルをファインチューニングした。有害な用途を禁止したい。
+  chat.profile: プロジェクトのプロフィール
+  chat.profile.hint: 値をクリックすると変更できます。
+  chat.candidates: 候補
+  chat.run: おすすめを表示
+  chat.limit: 本日の上限に達しました。明日もう一度試すか、ウィザードを使ってください。
+  chat.error: アドバイザーは現在利用できません。ウィザードは引き続き使えます。
+  chat.verify: 人間であることを確認してください。
+  chat.disclaimer: アドバイザーは誤ることがあります。推奨はルールエンジンによるもので、法的助言ではありません。
+  chat.report: 完全なレポートを開く
+  projects.title: プロジェクト・ライセンスマップ
+  projects.lead: 有名プロジェクトのライセンスと、変更の背景。
+  projects.filter.domain: 分野
+  projects.filter.family: ライセンス系統
+  projects.filter.owner: 所有者
+  projects.filter.changed: ライセンス変更あり
+  projects.count: "{count} 件のプロジェクト"
+  projects.empty: 条件に合うプロジェクトはありません。
+  owner.company: 企業
+  owner.foundation: 財団
+  owner.individual: 個人
+  owner.community: コミュニティ
+  project.current: 現在のライセンス
+  project.timeline: ライセンスの変遷
+  project.reason: 理由
+  project.announcement: 公式発表
+  project.forks: その後のフォーク
+  project.fork-of: "{name} のフォーク"
+  project.repo: リポジトリ
+  project.similar: 似たプロジェクト
+  project.review: このエントリは同期ボットが見つけたもので、人による確認待ちです。
+  project.initial: 当初のライセンス
+  domain.database: データベース
+  domain.frontend: フロントエンドフレームワーク
+  domain.devops: DevOps
+  domain.ai-model: AI モデル
+  domain.language: 言語とランタイム
+  domain.os: オペレーティングシステム
+  domain.web: Web サーバーとバックエンド
+  domain.tooling: 開発ツール
+  domain.data: データと分析
+  domain.observability: オブザーバビリティ
+  domain.messaging: メッセージングとストリーミング
+  domain.cms: CMS とアプリ
+  trends.title: ライセンスのトレンド
+  trends.lead: ビルド時にプロジェクトマップから集計。
+  trends.family-share: 分野別のライセンス系統
+  trends.changes: 年別のライセンス変更数
+  trends.to-source-available: オープンソースからソース公開型へ移行したプロジェクト
+  search.lead: この言語でライセンス、シナリオ、プロジェクトを検索します。
+  search.noscript: 検索には JavaScript が必要です。
+  check.title: 依存関係のライセンスチェック
+  check.lead: package.json、go.mod、Gemfile.lock、Cargo.toml、requirements.txt
+    を貼り付けてください。解析はブラウザ内で行われます。
+  check.project-license: あなたのプロジェクトのライセンス
+  check.input: マニフェスト
+  check.run: チェック
+  check.lookup: 不明なライセンスをオンラインで調べる（deps.dev）
+  check.col.package: パッケージ
+  check.col.license: ライセンス
+  check.col.status: 状態
+  check.status.compatible: 互換
+  check.status.conditional: 条件付き
+  check.status.incompatible: 競合
+  check.status.unknown: 不明
+  check.summary: 互換 {ok}、条件付き {warn}、競合 {bad}、不明 {unknown}
+  check.format: "検出した形式: {format}"
+  check.no-deps: 依存関係が見つかりません。
+  check.license-hint: マニフェストに「名前@バージョン ライセンスID」の形式で 1 行ずつ書くか、オンライン検索を有効にしてください。
+  notfound.title: ページが見つかりません
+  notfound.body: このページは存在しません。ライセンス一覧をご覧ください。

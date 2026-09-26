@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 0196a50e1d1c6b89
+summary: "Para contenido y datos: requiere atribución y no permite el uso comercial."
+analogy: Comparte la foto libremente, pero no en anuncios ni en productos que vendas.
+pros:
+  - Impide la reutilización comercial
+  - Traducciones oficiales
+cons:
+  - No cumple la OSI ni la Open Definition
+  - «No comercial» suele ser ambiguo
+  - Bloquea muchos usos legítimos

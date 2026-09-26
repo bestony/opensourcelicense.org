@@ -1,0 +1,9 @@
+reviewed: false
+sourceHash: 63feb6d0b2ecbcea
+title: 微調後換名閉源釋出
+actor: other
+cells:
+  llama: 須附協議並標註 Built with Llama
+  openrail-m: 須傳遞使用限制
+  cc-by-4.0: 署名
+  cc-by-nc-4.0: 僅限非商用

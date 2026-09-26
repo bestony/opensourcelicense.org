@@ -1,0 +1,8 @@
+reviewed: false
+sourceHash: d30cdd2632a3c255
+title: 連結進閉源 App / 韌體分發
+actor: other
+cells:
+  mpl-2.0: 檔案級
+  lgpl-3.0: 須允許替換重連結
+  busl-1.1: 視附加授權

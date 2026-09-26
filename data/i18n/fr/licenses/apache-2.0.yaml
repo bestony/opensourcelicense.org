@@ -1,0 +1,15 @@
+reviewed: false
+sourceHash: 637c87bc846f9159
+summary: Licence permissive avec licence de brevets explicite, clause de
+  rétorsion en matière de brevets et obligation de signaler les fichiers
+  modifiés.
+analogy: Une boîte à outils gratuite, accompagnée de la promesse de ne pas vous
+  poursuivre sur ses brevets — sauf si vous attaquez le premier.
+pros:
+  - Licence de brevets explicite de chaque contributeur
+  - Privilégiée par de nombreuses entreprises et fondations
+  - Protège les marques
+cons:
+  - Plus longue ; gestion du fichier NOTICE
+  - Incompatible avec GPL-2.0-only
+  - N'empêche pas les concurrents hébergés

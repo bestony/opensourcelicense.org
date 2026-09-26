@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 57d3e35a6ad686d1
+title: 誰かがフォークしてクローズドソースの競合製品を配布する
+actor: other
+cells:
+  apache-2.0: 改変ファイルの明記が必要
+  mpl-2.0: 改変した MPL ファイルは公開のまま
+  lgpl-3.0: ライブラリへの変更は公開のまま
+  busl-1.1: 派生物も BSL のまま
+  elv2: 制限条項の維持が必要

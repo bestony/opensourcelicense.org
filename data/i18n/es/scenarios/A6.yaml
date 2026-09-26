@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: afd85677afc1c999
+title: Alguien vende copias sin modificar
+actor: other
+cells:
+  mpl-2.0: Debe ofrecer el código fuente
+  lgpl-3.0: Debe ofrecer el código fuente
+  gpl-3.0: Debe ofrecer el código fuente
+  agpl-3.0: Debe ofrecer el código fuente
+  sspl-1.0: Debe ofrecer el código fuente
+  busl-1.1: Depende del Additional Use Grant

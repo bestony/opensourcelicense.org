@@ -1,0 +1,359 @@
+reviewed: false
+sourceHash: d83a2e48ed5947b0
+strings:
+  site.name: opensourcelicense.org
+  site.tagline: Uma bancada de decisão para licenças de código aberto
+  site.description: Escolha, compare e teste licenças de código aberto. Veja o que
+    projetos reais usam, o que pode dar errado e o que combina com o seu
+    projeto.
+  nav.home: Início
+  nav.licenses: Licenças
+  nav.scenarios: Cenários
+  nav.projects: Projetos
+  nav.trends: Tendências
+  nav.compare: Comparar
+  nav.wizard: Assistente
+  nav.chat: Consultor de IA
+  nav.check: Verificação de dependências
+  nav.menu: Menu
+  lang.switch: Idioma
+  lang.suggest: Esta página está disponível em {language}.
+  lang.suggest.go: Mudar
+  lang.suggest.dismiss: Dispensar
+  footer.disclaimer: Este site oferece informações gerais, não aconselhamento
+    jurídico. Para uma disputa ou contrato real, fale com um advogado.
+  footer.source: Código-fonte (AGPL-3.0)
+  footer.data: Dados sob CC-BY-4.0
+  footer.report: Informar um erro
+  footer.cite: Dados de opensourcelicense.org, CC-BY-4.0
+  footer.hosting: Roda no plano gratuito do Cloudflare Workers
+  footer.dns: Domínio hospedado na Cloudflare
+  badge.machine: Tradução automática
+  badge.reviewed: Tradução revisada
+  badge.fallback: Ainda não traduzido; exibindo em inglês
+  badge.stale: pode estar desatualizada
+  badge.unreviewed-data: Rascunho; ainda não revisado por um advogado
+  common.updated: Dados atualizados em {date}
+  common.back: Voltar
+  common.copy: Copiar
+  common.copied: Copiado
+  common.download: Baixar
+  common.close: Fechar
+  common.all: Todas
+  common.yes: Sim
+  common.no: Não
+  common.unknown: Desconhecido
+  common.none: Nenhuma
+  common.more: Mais
+  common.loading: Carregando…
+  common.error: Algo deu errado.
+  common.search: Buscar
+  home.title: Escolha uma licença de código aberto sabendo das consequências
+  home.lead: Não só "qual licença", mas o que projetos parecidos escolheram, qual
+    é o pior caso e o que fazer em seguida.
+  home.entry.chat.title: Converse com o consultor de IA
+  home.entry.chat.body: Descreva seu projeto com suas palavras. Receba um perfil,
+    perguntas de acompanhamento e um relatório.
+  home.entry.projects.title: Veja o que outros usam
+  home.entry.projects.body: Licenças de projetos conhecidos e por que alguns mudaram.
+  home.entry.wizard.title: Filtre passo a passo
+  home.entry.wizard.body: Responda algumas perguntas e receba uma lista ordenada e explicada.
+  home.wall: Licenças de projetos populares
+  home.changes: Mudanças recentes de licença
+  home.scenarios: O que pode dar errado?
+  home.scenarios.body: 27 cenários extremos × 17 colunas de licença, uma página por célula.
+  family.permissive: Permissiva
+  family.weak-copyleft: Copyleft fraco
+  family.strong-copyleft: Copyleft forte
+  family.network-copyleft: Copyleft de rede
+  family.source-available: Código disponível
+  family.model: Licença de modelo
+  family.content: Conteúdo / dados
+  verdict.allow: Permitido
+  verdict.conditional: Com condições
+  verdict.deny: Bloqueado pela licença
+  verdict.silent: Não tratado
+  verdict.tbd: Em revisão
+  verdict.legend: "Legenda: ✓ a outra parte pode fazer isso · ◐ com condições · ✗
+    a licença impede · — a licença não trata disso (vale a lei geral)"
+  actor.other: Outra pessoa faz isso
+  actor.you: Você quer fazer isso
+  actor.contributor: Um contribuidor faz isso
+  actor.both: Vale para os dois lados
+  group.A: Concorrência comercial
+  group.B: Patentes e lei
+  group.C: Evolução e negócio
+  group.D: Uso e conformidade
+  group.E: Modelos de IA e dados
+  matrix.code: Licenças de código
+  matrix.model: Licenças de modelos e dados
+  term.commercial-use: Uso comercial
+  term.modification: Modificação
+  term.distribution: Distribuição
+  term.private-use: Uso privado
+  term.patent-use: Concessão de patentes
+  term.non-production-use: Uso fora de produção
+  term.converts-to-open-source: Vira código aberto depois
+  term.include-copyright: Manter o aviso de copyright
+  term.include-license: Incluir a licença
+  term.document-changes: Indicar alterações
+  term.disclose-source: Divulgar o código-fonte
+  term.same-license: Mesma licença para derivados
+  term.same-license-file: Mesma licença (por arquivo)
+  term.same-license-library: Mesma licença (por biblioteca)
+  term.allow-relinking: Permitir religar
+  term.network-use-disclose: Uso em rede conta como distribuição
+  term.service-stack-disclose: Divulgar toda a pilha do serviço
+  term.keep-limitations: Manter as limitações
+  term.attribution: Atribuição
+  term.attribution-built-with: Exibir "Built with"
+  term.name-prefix: Regra de nome
+  term.acceptable-use-policy: Política de uso aceitável
+  term.use-restrictions-pass-through: Repassar restrições de uso
+  term.indicate-changes: Indicar alterações
+  term.liability: Sem responsabilidade
+  term.warranty: Sem garantia
+  term.trademark-use: Sem direitos de marca
+  term.no-endorsement: Sem endosso
+  term.production-use-restricted: Uso em produção restrito
+  term.no-managed-service: Sem serviço gerenciado
+  term.no-license-key-circumvention: Sem burlar chaves de licença
+  term.mau-threshold: Limite de usuários
+  term.use-restrictions: Restrições de uso
+  term.non-commercial: Somente uso não comercial
+  licenses.title: Biblioteca de licenças
+  licenses.lead: "{count} licenças, das permissivas às de código disponível e de modelos."
+  licenses.col.license: Licença
+  licenses.col.family: Família
+  licenses.col.osi: OSI
+  licenses.col.fsf: Livre (FSF)
+  licenses.col.projects: Projetos
+  licenses.filter: Filtrar por família
+  license.permissions: Permissões
+  license.conditions: Condições
+  license.limitations: Limitações
+  license.summary: Em poucas palavras
+  license.analogy: Analogia
+  license.pros: Vantagens
+  license.cons: Desvantagens
+  license.scenarios: Cenários extremos
+  license.radar: Radar do pior caso
+  license.projects: Projetos conhecidos que a usam
+  license.projects.count: "{count} projetos conhecidos do nosso mapa usam esta licença."
+  license.projects.none: Nenhum projeto do nosso mapa usa esta licença ainda.
+  license.projects.since: Adotada em {date}
+  license.projects.also: "Também oferecido sob: {licenses}"
+  license.projects.former: Projetos que a abandonaram
+  license.text: Texto oficial
+  license.text.official: Texto oficial em {language}
+  license.text.note: Só o texto oficial tem validade jurídica. Não traduzimos textos de licenças.
+  license.compare: Comparar com…
+  license.spdx: Identificador SPDX
+  radar.anti-freeride: Barra o aproveitamento
+  radar.anti-closed-fork: Barra forks fechados
+  radar.patent: Proteção de patentes
+  radar.adoption-friction: Atrito de adoção
+  radar.relicense-difficulty: Dificuldade de relicenciar
+  radar.misuse-control: Controle de mau uso
+  radar.derivative-control: Controle de derivados
+  radar.commercial-control: Controle comercial
+  radar.note: Calculado a partir da matriz de cenários. Mais alto significa mais
+    dessa propriedade, não "melhor".
+  scenarios.title: Matriz de cenários extremos
+  scenarios.lead: O que acontece depois de escolher uma licença? Cada célula
+    responde a uma pergunta e tem sua própria página.
+  scenarios.highlight: Destacar uma licença
+  scenarios.expand: Expandir tudo
+  scenarios.collapse: Recolher tudo
+  scenarios.silent-note: As linhas só com "—" estão aqui de propósito. A resposta
+    depende do contrato de trabalho (C6), do controle de exportações (D5) ou de
+    processos em andamento (D6), não da licença.
+  scenario.flow.you: Você publica sob {license}
+  scenario.flow.they: A situação
+  scenario.flow.result: Resultado
+  scenario.clause: Cláusula relevante
+  scenario.case: Caso real
+  scenario.others: O mesmo cenário com outras licenças
+  scenario.other-scenarios: Outros cenários para {license}
+  scenario.no-clause: Não há cláusula específica. Vale a lei geral.
+  scenario.review: Status da revisão
+  scenario.review.none: Ainda não revisado por um advogado.
+  scenario.review.done: Revisado por {who} em {date}.
+  compare.title: Comparar licenças
+  compare.lead: Escolha duas ou três licenças para comparar cláusula por cláusula
+    e cenário por cenário.
+  compare.pick: Adicionar uma licença
+  compare.remove: Remover
+  compare.terms: Termos
+  compare.scenarios: Cenários
+  compare.empty: Selecione pelo menos duas licenças.
+  wizard.title: Assistente de licenças
+  wizard.lead: Responda algumas perguntas. O motor de regras classifica as
+    licenças e explica cada ponto.
+  wizard.next: Próximo
+  wizard.prev: Voltar
+  wizard.finish: Ver o resultado
+  wizard.restart: Recomeçar
+  wizard.skip: Pular
+  wizard.step: Etapa {n} de {total}
+  wizard.to-chat: Continuar no consultor de IA
+  q.artifact_type: O que você vai publicar?
+  q.openness_level: Quão aberto você quer que seja?
+  q.avoid: Quais resultados você quer evitar?
+  q.avoid.hint: Escolha quantos quiser.
+  q.adoption_goal: O que importa mais?
+  q.dependencies: Você depende de código copyleft?
+  q.dependencies.hint: Adicione os identificadores SPDX das licenças das
+    dependências, por exemplo GPL-3.0-only.
+  q.commercial_plan: Como pretende ganhar dinheiro, se for o caso?
+  q.jurisdiction: Onde você está?
+  opt.artifact_type.library: Uma biblioteca ou SDK
+  opt.artifact_type.application: Um aplicativo ou ferramenta
+  opt.artifact_type.saas: Um backend de serviço (SaaS)
+  opt.artifact_type.model: Pesos de modelo
+  opt.artifact_type.dataset: Um conjunto de dados
+  opt.artifact_type.docs: Documentação ou conteúdo
+  opt.openness_level.open: Totalmente aberto; qualquer um pode fazer qualquer coisa
+  opt.openness_level.reciprocal: Aberto, mas melhorias devem voltar
+  opt.openness_level.source-available: Código visível, uso comercial limitado
+  opt.avoid.cloud-hosting: Provedores de nuvem vendendo como serviço
+  opt.avoid.closed-fork: Forks de código fechado
+  opt.avoid.patent-litigation: Processos de patente
+  opt.avoid.trademark-abuse: Uso indevido do meu nome ou marca
+  opt.avoid.harmful-use: Usos nocivos
+  opt.avoid.big-company: Grandes empresas usando de graça
+  opt.adoption_goal.enterprise: Máxima adoção por empresas
+  opt.adoption_goal.community: Contribuições da comunidade
+  opt.adoption_goal.monetize: Ganhar dinheiro com ele
+  opt.commercial_plan.none: Sem plano
+  opt.commercial_plan.dual-license: Licenciamento duplo
+  opt.commercial_plan.open-core: Open core
+  opt.commercial_plan.hosted: Serviço hospedado
+  opt.jurisdiction.cn: China
+  opt.jurisdiction.eu: União Europeia
+  opt.jurisdiction.us: Estados Unidos
+  opt.jurisdiction.other: Outro
+  engine.part.avoid: "Proteção contra: {avoid}"
+  engine.part.openness: "Adequação à abertura: {openness}"
+  engine.part.adoption: "Objetivo: {goal}"
+  engine.part.commercial: "Plano de negócio: {plan}"
+  engine.part.jurisdiction: "Jurisdição: {jurisdiction}"
+  engine.part.dependency: "Compatível só com condições: {dependency}"
+  engine.excluded.dependency: Incompatível com a dependência {dependency}
+  engine.excluded.artifact: Não é adequada para este tipo de artefato
+  advisory.needs-cla: Use um acordo de licença de contribuidor (CLA). Você vai
+    precisar dele para vender licenças comerciais ou mudar a licença depois.
+  advisory.consider-dco: Um Developer Certificate of Origin (DCO, "Signed-off-by") costuma bastar.
+  advisory.busl-change-date: Defina o Additional Use Grant, a Change Date e a
+    Change License no cabeçalho da BSL.
+  advisory.model-card: Informe a licença nos metadados do cartão do modelo ou do
+    conjunto de dados (campo "license:").
+  advisory.notice-file: Adicione um arquivo NOTICE e mantenha-o ao redistribuir.
+  advisory.consult-lawyer: Peça a um advogado para revisar as dependências e os
+    termos de negócio antes de publicar.
+  advisory.network-source-link: Mostre um link para o "código-fonte" aos usuários do seu serviço em rede.
+  report.title: Seu relatório de licença
+  report.lead: Este relatório é calculado no seu navegador a partir do perfil no
+    link. Compartilhe o link para compartilhar o relatório.
+  report.profile: Perfil do projeto
+  report.edit: Editar no assistente
+  report.top: Recomendadas
+  report.score: Pontuação {score}
+  report.why: Por quê
+  report.excluded: Excluídas
+  report.advisories: Próximos passos
+  report.license-file: Arquivo LICENSE
+  report.header: Cabeçalho de arquivo
+  report.badge: Selo para o README
+  report.share: Link de compartilhamento
+  report.share.copy: Copiar link
+  report.similar: Projetos semelhantes
+  report.no-text: Não há texto legível por máquina. Obtenha-o na página oficial.
+  report.invalid: Este link de relatório está quebrado ou é de uma versão antiga.
+  report.empty: Ainda não há perfil. Comece pelo assistente ou pelo consultor de IA.
+  chat.title: Consultor de licenças com IA
+  chat.lead: Descreva seu projeto. O consultor faz perguntas, o motor de regras
+    escolhe as licenças e o consultor as explica.
+  chat.placeholder: "Por exemplo: criei um banco de dados vetorial e tenho medo de
+    que provedores de nuvem o revendam."
+  chat.send: Enviar
+  chat.stop: Parar
+  chat.examples: Experimente um exemplo
+  chat.example.1: Criei um banco de dados vetorial e tenho medo de que provedores
+    de nuvem o revendam.
+  chat.example.2: Uma pequena biblioteca de componentes React. Quero que empresas a usem.
+  chat.example.3: Ajustamos um modelo de 7B e queremos bloquear usos nocivos.
+  chat.profile: Perfil do projeto
+  chat.profile.hint: Clique em um valor para alterá-lo.
+  chat.candidates: Candidatas
+  chat.run: Obter recomendação
+  chat.limit: Você atingiu o limite de hoje. Tente amanhã ou use o assistente.
+  chat.error: O consultor não está disponível agora. O assistente continua funcionando.
+  chat.verify: Confirme que você é humano.
+  chat.disclaimer: O consultor pode errar. As recomendações vêm do motor de regras
+    e não são aconselhamento jurídico.
+  chat.report: Abrir o relatório completo
+  projects.title: Mapa de licenças de projetos
+  projects.lead: Licenças de projetos conhecidos e a história por trás de cada mudança.
+  projects.filter.domain: Área
+  projects.filter.family: Família de licença
+  projects.filter.owner: Responsável
+  projects.filter.changed: Mudou de licença
+  projects.count: "{count} projetos"
+  projects.empty: Nenhum projeto corresponde a esses filtros.
+  owner.company: Empresa
+  owner.foundation: Fundação
+  owner.individual: Pessoa
+  owner.community: Comunidade
+  project.current: Licença atual
+  project.timeline: Linha do tempo de licenças
+  project.reason: Motivo
+  project.announcement: Anúncio
+  project.forks: Forks que vieram depois
+  project.fork-of: Fork de {name}
+  project.repo: Repositório
+  project.similar: Projetos semelhantes
+  project.review: Esta entrada foi encontrada pelo bot de sincronização e aguarda
+    revisão humana.
+  project.initial: Licença inicial
+  domain.database: Banco de dados
+  domain.frontend: Framework frontend
+  domain.devops: DevOps
+  domain.ai-model: Modelo de IA
+  domain.language: Linguagem e runtime
+  domain.os: Sistema operacional
+  domain.web: Servidor web e backend
+  domain.tooling: Ferramentas de desenvolvimento
+  domain.data: Dados e análise
+  domain.observability: Observabilidade
+  domain.messaging: Mensageria e streaming
+  domain.cms: CMS e aplicativos
+  trends.title: Tendências de licenças
+  trends.lead: Agregado a partir do mapa de projetos no momento da compilação.
+  trends.family-share: Famílias de licença por área
+  trends.changes: Mudanças de licença por ano
+  trends.to-source-available: Projetos que saíram do código aberto para código disponível
+  search.lead: Busque licenças, cenários e projetos neste idioma.
+  search.noscript: A busca precisa de JavaScript.
+  check.title: Verificação de licenças de dependências
+  check.lead: Cole um package.json, go.mod, Gemfile.lock, Cargo.toml ou
+    requirements.txt. A análise acontece no seu navegador.
+  check.project-license: Licença do seu projeto
+  check.input: Manifesto
+  check.run: Verificar
+  check.lookup: Consultar licenças desconhecidas online (deps.dev)
+  check.col.package: Pacote
+  check.col.license: Licença
+  check.col.status: Situação
+  check.status.compatible: Compatível
+  check.status.conditional: Com condições
+  check.status.incompatible: Conflito
+  check.status.unknown: Desconhecida
+  check.summary: "{ok} compatíveis, {warn} com condições, {bad} conflitos,
+    {unknown} desconhecidas"
+  check.format: "Formato detectado: {format}"
+  check.no-deps: Nenhuma dependência encontrada.
+  check.license-hint: Adicione a licença em linhas "nome@versão ID-DA-LICENÇA" ou
+    ative a consulta online.
+  notfound.title: Página não encontrada
+  notfound.body: Esta página não existe. Experimente a biblioteca de licenças.

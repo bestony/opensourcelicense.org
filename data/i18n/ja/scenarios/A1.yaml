@@ -1,0 +1,9 @@
+reviewed: false
+sourceHash: 883d4cd50ee79a28
+title: クラウド事業者があなたのプロジェクトをマネージドサービスとして販売する
+actor: other
+cells:
+  gpl-3.0: 配布に当たらない
+  agpl-3.0: 改変は公開が必要
+  sspl-1.0: サービス全体のソース公開が必要
+  busl-1.1: 追加利用許諾で認められない限り

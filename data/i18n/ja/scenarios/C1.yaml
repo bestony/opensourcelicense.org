@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 4f30616160bfe68b
+title: 後でライセンスを変更したり商用ライセンスを販売したりする（CLA 未締結）
+actor: you
+cells:
+  mit: 新バージョンは変更可、旧バージョンはそのまま
+  bsd-3-clause: MIT と同じ
+  apache-2.0: MIT と同じ
+  mpl-2.0: MPL ファイルは MPL のまま
+  lgpl-3.0: 全コントリビューターの同意が必要
+  mulanpsl-2.0: MIT と同じ
+  busl-1.1: 通常は CLA に依存
+  elv2: 通常は CLA に依存

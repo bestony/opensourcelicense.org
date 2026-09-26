@@ -1,0 +1,7 @@
+reviewed: false
+sourceHash: d774574ea30fc483
+title: 내부 수정만 함 (배포도 외부 서비스도 없음)
+actor: other
+cells:
+  agpl-3.0: 인트라넷 사용자와의 상호작용은 논란
+  busl-1.1: 추가 사용 허가에 따라 다름

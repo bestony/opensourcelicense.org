@@ -1,0 +1,333 @@
+reviewed: false
+sourceHash: d83a2e48ed5947b0
+strings:
+  site.name: opensourcelicense.org
+  site.tagline: 開源授權條款決策工作臺
+  site.description: 選擇、對比並壓力測試開源授權條款：看真實專案怎麼選、最壞會怎樣、你的專案該怎麼辦。
+  nav.home: 首頁
+  nav.licenses: 授權條款庫
+  nav.scenarios: 極端場景
+  nav.projects: 專案圖譜
+  nav.trends: 趨勢
+  nav.compare: 對比
+  nav.wizard: 逐項篩選
+  nav.chat: AI 顧問
+  nav.check: 依賴檢查
+  nav.menu: 選單
+  lang.switch: 語言
+  lang.suggest: 本頁有{language}版本。
+  lang.suggest.go: 切換
+  lang.suggest.dismiss: 不用了
+  footer.disclaimer: 本站提供一般性資訊，不構成法律意見。涉及真實糾紛或合同，請諮詢律師。
+  footer.source: 原始碼（AGPL-3.0）
+  footer.data: 資料採用 CC-BY-4.0
+  footer.report: 報告錯誤
+  footer.cite: 資料來自 opensourcelicense.org，CC-BY-4.0
+  footer.hosting: 執行在 Cloudflare Workers 免費方案上
+  footer.dns: 域名託管於 Cloudflare
+  badge.machine: 機器翻譯
+  badge.reviewed: 已稽核譯文
+  badge.fallback: 尚未翻譯，顯示英文
+  badge.stale: 可能已過時
+  badge.unreviewed-data: 初稿，尚未經律師稽核
+  common.updated: 資料更新於 {date}
+  common.back: 返回
+  common.copy: 複製
+  common.copied: 已複製
+  common.download: 下載
+  common.close: 關閉
+  common.all: 全部
+  common.yes: 是
+  common.no: 否
+  common.unknown: 未知
+  common.none: 無
+  common.more: 更多
+  common.loading: 載入中…
+  common.error: 出了點問題。
+  common.search: 搜尋
+  home.title: 看清後果，再選開源授權條款
+  home.lead: 不只回答“選哪個”，還告訴你同類項目怎麼選、最壞情況是什麼、接下來具體該做什麼。
+  home.entry.chat.title: 和 AI 聊聊我的專案
+  home.entry.chat.body: 用自己的話描述專案，得到專案畫像、追問和一份報告。
+  home.entry.projects.title: 看看別人用什麼
+  home.entry.projects.body: 知名專案的授權條款，以及有些專案為什麼改協議。
+  home.entry.wizard.title: 逐項篩選
+  home.entry.wizard.body: 回答幾個問題，得到帶解釋的排序候選。
+  home.wall: 熱門專案授權條款牆
+  home.changes: 近期授權條款變更
+  home.scenarios: 可能會發生什麼？
+  home.scenarios.body: 27 個極端場景 × 17 個授權條款列，每個格子一頁。
+  family.permissive: 寬鬆
+  family.weak-copyleft: 弱 Copyleft
+  family.strong-copyleft: 強 Copyleft
+  family.network-copyleft: 網路 Copyleft
+  family.source-available: 原始碼可見
+  family.model: 模型許可
+  family.content: 內容 / 資料
+  verdict.allow: 可以
+  verdict.conditional: 有條件
+  verdict.deny: 授權條款阻止
+  verdict.silent: 未約定
+  verdict.tbd: 待核
+  verdict.legend: 圖例：✓ 對方可以這麼做 · ◐ 有條件 · ✗ 授權條款阻止 · — 授權條款未約定（交由一般法律）
+  actor.other: 別人這麼做
+  actor.you: 你想這麼做
+  actor.contributor: 貢獻者這麼做
+  actor.both: 雙方都相關
+  group.A: 商業競爭
+  group.B: 專利與法律
+  group.C: 演進與商業化
+  group.D: 使用與合規
+  group.E: AI 模型與資料
+  matrix.code: 程式碼授權條款
+  matrix.model: 模型與資料許可
+  term.commercial-use: 商業使用
+  term.modification: 修改
+  term.distribution: 分發
+  term.private-use: 私人使用
+  term.patent-use: 專利授權
+  term.non-production-use: 非生產使用
+  term.converts-to-open-source: 日後轉為開源
+  term.include-copyright: 保留版權宣告
+  term.include-license: 附帶授權條款
+  term.document-changes: 標註修改
+  term.disclose-source: 公開原始碼
+  term.same-license: 衍生作品同協議
+  term.same-license-file: 同協議（檔案級）
+  term.same-license-library: 同協議（庫級）
+  term.allow-relinking: 允許重新連結
+  term.network-use-disclose: 網路使用視同分發
+  term.service-stack-disclose: 公開整個服務棧
+  term.keep-limitations: 保留限制條款
+  term.attribution: 署名
+  term.attribution-built-with: 標註 “Built with”
+  term.name-prefix: 命名規則
+  term.acceptable-use-policy: 可接受使用政策
+  term.use-restrictions-pass-through: 傳遞使用限制
+  term.indicate-changes: 註明修改
+  term.liability: 不承擔責任
+  term.warranty: 不提供擔保
+  term.trademark-use: 不授予商標權
+  term.no-endorsement: 不得背書
+  term.production-use-restricted: 限制生產使用
+  term.no-managed-service: 禁止託管服務
+  term.no-license-key-circumvention: 禁止繞過金鑰
+  term.mau-threshold: 使用者規模門檻
+  term.use-restrictions: 使用限制
+  term.non-commercial: 僅限非商用
+  licenses.title: 授權條款庫
+  licenses.lead: 共 {count} 個授權條款，覆蓋寬鬆、Copyleft、原始碼可見與模型許可。
+  licenses.col.license: 授權條款
+  licenses.col.family: 家族
+  licenses.col.osi: OSI
+  licenses.col.fsf: FSF 自由
+  licenses.col.projects: 專案數
+  licenses.filter: 按家族篩選
+  license.permissions: 允許
+  license.conditions: 義務
+  license.limitations: 限制
+  license.summary: 白話解讀
+  license.analogy: 類比
+  license.pros: 優點
+  license.cons: 缺點
+  license.scenarios: 極端場景
+  license.radar: 最壞情況雷達圖
+  license.projects: 使用它的知名專案
+  license.projects.count: 圖譜中有 {count} 個知名專案使用該授權條款。
+  license.projects.none: 圖譜中暫無專案使用該授權條款。
+  license.projects.since: 於 {date} 改用
+  license.projects.also: 同時提供：{licenses}
+  license.projects.former: 曾經使用、後來改掉的專案
+  license.text: 官方原文
+  license.text.official: 官方{language}文本
+  license.text.note: 只有官方文本具有法律效力，本站不自行翻譯授權條款原文。
+  license.compare: 與其他授權條款對比…
+  license.spdx: SPDX 標識
+  radar.anti-freeride: 防白嫖
+  radar.anti-closed-fork: 防閉源
+  radar.patent: 專利保護
+  radar.adoption-friction: 企業採納阻力
+  radar.relicense-difficulty: 改協議難度
+  radar.misuse-control: 濫用控制
+  radar.derivative-control: 衍生控制
+  radar.commercial-control: 商用控制
+  radar.note: 由場景矩陣自動計算。分數高表示該屬性更強，不代表“更好”。
+  scenarios.title: 極端場景矩陣
+  scenarios.lead: 選完授權條款之後會發生什麼？每個格子回答一個問題，並有獨立頁面。
+  scenarios.highlight: 高亮授權條款
+  scenarios.expand: 全部展開
+  scenarios.collapse: 全部摺疊
+  scenarios.silent-note: 全是“—”的行是有意保留的：答案取決於勞動合同與職務作品規定（C6）、出口管制法（D5）或仍在進行的訴訟（D6），與授權條款無關。
+  scenario.flow.you: 你以 {license} 釋出
+  scenario.flow.they: 發生的情況
+  scenario.flow.result: 後果
+  scenario.clause: 相關條款
+  scenario.case: 真實案例
+  scenario.others: 同一場景下的其他授權條款
+  scenario.other-scenarios: "{license} 的其他場景"
+  scenario.no-clause: 沒有專門條款，交由一般法律。
+  scenario.review: 稽核狀態
+  scenario.review.none: 尚未經律師稽核。
+  scenario.review.done: 由 {who} 於 {date} 稽核。
+  compare.title: 授權條款對比
+  compare.lead: 選兩到三個授權條款，逐條款、逐場景對比。
+  compare.pick: 新增授權條款
+  compare.remove: 移除
+  compare.terms: 條款
+  compare.scenarios: 場景
+  compare.empty: 請至少選擇兩個授權條款。
+  wizard.title: 逐項篩選
+  wizard.lead: 回答幾個問題，規則引擎會給授權條款排序，並解釋每一分的來源。
+  wizard.next: 下一步
+  wizard.prev: 上一步
+  wizard.finish: 檢視結果
+  wizard.restart: 重新開始
+  wizard.skip: 跳過
+  wizard.step: 第 {n} 步，共 {total} 步
+  wizard.to-chat: 帶入 AI 顧問繼續追問
+  q.artifact_type: 你要釋出的是什麼？
+  q.openness_level: 你希望開放到什麼程度？
+  q.avoid: 你想避免哪些結果？
+  q.avoid.hint: 可多選。
+  q.adoption_goal: 你最看重什麼？
+  q.dependencies: 是否依賴了 Copyleft 程式碼？
+  q.dependencies.hint: 填寫依賴授權條款的 SPDX 標識，例如 GPL-3.0-only。
+  q.commercial_plan: 打算怎麼賺錢（如果有）？
+  q.jurisdiction: 你在哪裡？
+  opt.artifact_type.library: 庫或 SDK
+  opt.artifact_type.application: 應用或工具
+  opt.artifact_type.saas: 服務後端（SaaS）
+  opt.artifact_type.model: 模型權重
+  opt.artifact_type.dataset: 資料集
+  opt.artifact_type.docs: 文件或內容
+  opt.openness_level.open: 完全開放，誰都可以隨便用
+  opt.openness_level.reciprocal: 開放，但改進要回饋
+  opt.openness_level.source-available: 原始碼可見，限制商用
+  opt.avoid.cloud-hosting: 被雲廠商做成服務售賣
+  opt.avoid.closed-fork: 被閉源 fork
+  opt.avoid.patent-litigation: 專利訴訟
+  opt.avoid.trademark-abuse: 名字或品牌被濫用
+  opt.avoid.harmful-use: 有害用途
+  opt.avoid.big-company: 大公司白嫖
+  opt.adoption_goal.enterprise: 最大化企業採納
+  opt.adoption_goal.community: 社群貢獻
+  opt.adoption_goal.monetize: 商業變現
+  opt.commercial_plan.none: 暫無計劃
+  opt.commercial_plan.dual-license: 雙許可
+  opt.commercial_plan.open-core: 開放核心
+  opt.commercial_plan.hosted: 託管服務
+  opt.jurisdiction.cn: 中國
+  opt.jurisdiction.eu: 歐盟
+  opt.jurisdiction.us: 美國
+  opt.jurisdiction.other: 其他
+  engine.part.avoid: 防範：{avoid}
+  engine.part.openness: 開放程度匹配：{openness}
+  engine.part.adoption: 目標：{goal}
+  engine.part.commercial: 商業計劃：{plan}
+  engine.part.jurisdiction: 管轄地：{jurisdiction}
+  engine.part.dependency: 與依賴 {dependency} 僅在滿足條件時相容
+  engine.excluded.dependency: 與依賴 {dependency} 不相容
+  engine.excluded.artifact: 不適合這類釋出物
+  advisory.needs-cla: 使用貢獻者許可協議（CLA）。日後出售商業授權或更換授權條款都需要它。
+  advisory.consider-dco: 通常使用開發者原創宣告（DCO，“Signed-off-by”）就夠了。
+  advisory.busl-change-date: 在 BSL 檔案頭中寫明附加使用授權、變更日與變更後的授權條款。
+  advisory.model-card: 在模型卡或資料集卡的後設資料中寫明授權條款（“license:” 欄位）。
+  advisory.notice-file: 新增 NOTICE 檔案，再分發時須保留。
+  advisory.consult-lawyer: 釋出前請律師核查依賴與商業條款。
+  advisory.network-source-link: 在網路服務中向用戶提供“原始碼”連結。
+  report.title: 你的授權條款報告
+  report.lead: 報告由瀏覽器根據連結中的專案畫像即時計算。分享連結即可分享報告。
+  report.profile: 專案畫像
+  report.edit: 在篩選器中修改
+  report.top: 推薦
+  report.score: 得分 {score}
+  report.why: 理由
+  report.excluded: 已排除
+  report.advisories: 下一步
+  report.license-file: LICENSE 檔案
+  report.header: 檔案頭模板
+  report.badge: README 徽章
+  report.share: 分享連結
+  report.share.copy: 複製連結
+  report.similar: 同類項目
+  report.no-text: 沒有可直接複製的文本，請到官方頁面獲取。
+  report.invalid: 報告連結已損壞或來自舊版本。
+  report.empty: 還沒有專案畫像。請先使用逐項篩選或 AI 顧問。
+  chat.title: AI 授權條款顧問
+  chat.lead: 描述你的專案。顧問會追問細節，規則引擎挑選授權條款，顧問再用白話解釋。
+  chat.placeholder: 例如：我做了一個向量資料庫，怕被雲廠商白嫖。
+  chat.send: 傳送
+  chat.stop: 停止
+  chat.examples: 試試示例
+  chat.example.1: 我做了一個向量資料庫，怕被雲廠商白嫖。
+  chat.example.2: 一個小型 React 元件庫，希望企業都能用。
+  chat.example.3: 我們微調了一個 7B 模型，想禁止有害用途。
+  chat.profile: 專案畫像
+  chat.profile.hint: 點選取值即可修改。
+  chat.candidates: 候選授權條款
+  chat.run: 生成推薦
+  chat.limit: 今天的對話次數已用完，請明天再試，或使用逐項篩選。
+  chat.error: 顧問暫時不可用，逐項篩選仍可使用。
+  chat.verify: 請確認你不是機器人。
+  chat.disclaimer: 顧問可能出錯。推薦結論來自規則引擎，不構成法律意見。
+  chat.report: 開啟完整報告
+  projects.title: 專案授權條款圖譜
+  projects.lead: 知名專案的授權條款，以及每次變更背後的故事。
+  projects.filter.domain: 領域
+  projects.filter.family: 授權條款家族
+  projects.filter.owner: 所屬
+  projects.filter.changed: 改過協議
+  projects.count: 共 {count} 個專案
+  projects.empty: 沒有符合條件的專案。
+  owner.company: 公司
+  owner.foundation: 基金會
+  owner.individual: 個人
+  owner.community: 社群
+  project.current: 當前授權條款
+  project.timeline: 授權條款時間線
+  project.reason: 原因
+  project.announcement: 官方公告
+  project.forks: 隨後出現的分叉
+  project.fork-of: 分叉自 {name}
+  project.repo: 程式碼倉庫
+  project.similar: 同類項目
+  project.review: 該條目由同步機器人發現，等待人工稽核。
+  project.initial: 初始授權條款
+  domain.database: 資料庫
+  domain.frontend: 前端框架
+  domain.devops: DevOps
+  domain.ai-model: AI 模型
+  domain.language: 語言與執行時
+  domain.os: 作業系統
+  domain.web: Web 服務與後端
+  domain.tooling: 開發工具
+  domain.data: 資料與分析
+  domain.observability: 可觀測性
+  domain.messaging: 訊息與流處理
+  domain.cms: CMS 與應用
+  trends.title: 授權條款趨勢
+  trends.lead: 構建時由專案圖譜聚合生成。
+  trends.family-share: 各領域授權條款家族佔比
+  trends.changes: 每年授權條款變更數
+  trends.to-source-available: 從開源轉為原始碼可見的專案
+  search.lead: 在當前語言中搜索授權條款、場景和專案。
+  search.noscript: 搜尋需要啟用 JavaScript。
+  check.title: 依賴授權條款檢查
+  check.lead: 貼上 package.json、go.mod、Gemfile.lock、Cargo.toml 或 requirements.txt，解析在瀏覽器內完成。
+  check.project-license: 你的專案授權條款
+  check.input: 清單檔案
+  check.run: 檢查
+  check.lookup: 線上查詢未知授權條款（deps.dev）
+  check.col.package: 依賴包
+  check.col.license: 授權條款
+  check.col.status: 狀態
+  check.status.compatible: 相容
+  check.status.conditional: 有條件
+  check.status.incompatible: 衝突
+  check.status.unknown: 未知
+  check.summary: 相容 {ok}，有條件 {warn}，衝突 {bad}，未知 {unknown}
+  check.format: 識別格式：{format}
+  check.no-deps: 沒有找到依賴。
+  check.license-hint: 可以按 “名稱@版本 授權條款ID” 每行一個填寫，或開啟線上查詢。
+  notfound.title: 頁面不存在
+  notfound.body: 這個頁面不存在，去授權條款庫看看吧。

@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: b568f07f3285ed81
+summary: Chinesische freizügige Lizenz mit Patentlizenz und Vergeltungsklausel.
+  Chinesischer und englischer Text sind gleichermaßen gültig; bei Widerspruch
+  gilt der chinesische.
+analogy: Schutz nach Apache-Art, geschrieben mit Blick auf chinesisches Recht.
+pros:
+  - Offizieller zweisprachiger Text
+  - Patentlizenz
+  - Von der OSI anerkannt
+cons:
+  - Außerhalb Chinas weniger bekannt
+  - Wenig Rechtsprechung

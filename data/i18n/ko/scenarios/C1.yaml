@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 4f30616160bfe68b
+title: 나중에 라이선스를 바꾸거나 상업 라이선스 판매 (기여자 CLA 없음)
+actor: you
+cells:
+  mit: 새 버전은 변경 가능, 이전 버전은 유지
+  bsd-3-clause: MIT와 같음
+  apache-2.0: MIT와 같음
+  mpl-2.0: MPL 파일은 MPL 유지
+  lgpl-3.0: 모든 기여자의 동의 필요
+  mulanpsl-2.0: MIT와 같음
+  busl-1.1: 보통 CLA에 의존
+  elv2: 보통 CLA에 의존

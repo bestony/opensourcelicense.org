@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: cdef0d42cb1ab51e
+summary: "Copyleft por biblioteca: alterações na biblioteca continuam abertas;
+  apps fechados podem usá-la se os usuários puderem substituir a biblioteca."
+analogy: "Um motor compartilhado: pode colocá-lo no seu carro, mas o dono
+  precisa poder trocá-lo pelo próprio."
+pros:
+  - Permite que apps proprietários usem a biblioteca
+  - Melhorias na biblioteca continuam abertas
+  - Concessão de patentes
+cons:
+  - Regras de religação complexas, principalmente em ligação estática e mobile
+  - Algumas empresas ainda evitam

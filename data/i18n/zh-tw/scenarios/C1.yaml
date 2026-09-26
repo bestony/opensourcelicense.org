@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 4f30616160bfe68b
+title: 作者日後改協議/賣商業授權（貢獻者未籤 CLA）
+actor: you
+cells:
+  mit: 新版可改，舊版不變
+  bsd-3-clause: 同 MIT
+  apache-2.0: 同 MIT
+  mpl-2.0: MPL 檔案須保持 MPL
+  lgpl-3.0: 需全體貢獻者同意
+  mulanpsl-2.0: 同 MIT
+  busl-1.1: 通常靠 CLA
+  elv2: 通常靠 CLA

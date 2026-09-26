@@ -1,4 +1,5 @@
 reviewed: false
+sourceHash: d83a2e48ed5947b0
 strings:
   site.name: opensourcelicense.org
   site.tagline: 开源许可证决策工作台
@@ -27,6 +28,7 @@ strings:
   badge.machine: 机器翻译
   badge.reviewed: 已审核译文
   badge.fallback: 尚未翻译，显示英文
+  badge.stale: 可能已过时
   badge.unreviewed-data: 初稿，尚未经律师审核
   common.updated: 数据更新于 {date}
   common.back: 返回
@@ -308,6 +310,8 @@ strings:
   trends.family-share: 各领域许可证家族占比
   trends.changes: 每年许可证变更数
   trends.to-source-available: 从开源转为源码可见的项目
+  search.lead: 在当前语言中搜索许可证、场景和项目。
+  search.noscript: 搜索需要启用 JavaScript。
   check.title: 依赖许可证检查
   check.lead: 粘贴 package.json、go.mod、Gemfile.lock、Cargo.toml 或 requirements.txt，解析在浏览器内完成。
   check.project-license: 你的项目许可证

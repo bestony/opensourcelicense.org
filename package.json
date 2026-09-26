@@ -2,12 +2,13 @@
   "name": "opensourcelicense-org",
   "type": "module",
   "version": "0.0.1",
+  "packageManager": "pnpm@11.1.2",
   "engines": {
     "node": ">=22.12.0"
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "astro build && pagefind --site dist",
     "preview": "astro preview",
     "astro": "astro",
     "deploy": "astro build && wrangler deploy",
@@ -16,7 +17,9 @@
     "validate": "tsx scripts/validate.ts",
     "check": "astro check && tsc -p worker",
     "sync": "tsx scripts/sync/index.ts",
-    "advisor:smoke": "tsx scripts/advisor-smoke.ts"
+    "advisor:smoke": "tsx scripts/advisor-smoke.ts",
+    "translate": "tsx scripts/translate/index.ts",
+    "license-check": "tsx scripts/pr-license-check.ts"
   },
   "dependencies": {
     "@astrojs/react": "^7.0.0",
@@ -44,6 +47,7 @@
     "@iconify-json/lucide": "^1.2.136",
     "astro-icon": "^1.2.0",
     "lefthook": "^2.1.14",
+    "opencc-js": "^1.4.2",
     "pagefind": "^1.5.2",
     "shadcn": "^4.21.0",
     "tsx": "^4.23.15",

@@ -1,0 +1,15 @@
+reviewed: false
+sourceHash: cdef0d42cb1ab51e
+summary: "Copyleft au niveau de la bibliothèque : les modifications de la
+  bibliothèque restent ouvertes ; des applications fermées peuvent s'y lier si
+  l'utilisateur peut remplacer la bibliothèque."
+analogy: "Un moteur partagé : vous pouvez le mettre dans votre voiture, mais le
+  propriétaire doit pouvoir le remplacer par le sien."
+pros:
+  - Permet aux applications propriétaires d'utiliser la bibliothèque
+  - Les améliorations de la bibliothèque restent ouvertes
+  - Licence de brevets
+cons:
+  - Règles de réédition de liens complexes, surtout en liaison statique et sur
+    mobile
+  - Certaines entreprises l'évitent encore

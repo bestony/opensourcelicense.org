@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 57d3e35a6ad686d1
+title: Jemand forkt es und verbreitet einen proprietären Konkurrenten
+actor: other
+cells:
+  apache-2.0: Geänderte Dateien müssen gekennzeichnet werden
+  mpl-2.0: Geänderte MPL-Dateien bleiben offen
+  lgpl-3.0: Änderungen an der Bibliothek bleiben offen
+  busl-1.1: Ableitungen bleiben unter BSL
+  elv2: Einschränkungen müssen erhalten bleiben

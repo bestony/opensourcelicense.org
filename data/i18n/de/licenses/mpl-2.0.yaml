@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 6d33e2e6b797d27f
+summary: "Copyleft auf Dateiebene: Änderungen an MPL-Dateien bleiben offen,
+  dürfen aber mit geschlossenem Code in anderen Dateien kombiniert werden."
+analogy: Wer ein Kapitel ausleiht, teilt seine Änderungen an diesem Kapitel; der
+  Rest des Buches gehört Ihnen.
+pros:
+  - Ausgewogen zwischen freizügig und Copyleft
+  - Ausdrückliche Patentlizenz
+  - Standardmäßig mit der GPL kompatibel
+cons:
+  - Dateigrenzen können unklar sein
+  - Deckt Netzwerknutzung nicht ab

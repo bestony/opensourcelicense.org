@@ -1,0 +1,9 @@
+reviewed: false
+sourceHash: efc2f2f54594209c
+title: Distillation, ou entraînement d'autres modèles sur ses sorties
+actor: other
+cells:
+  llama: Le nom doit contenir « Llama »
+  openrail-m: Les dérivés héritent des restrictions
+  cc-by-4.0: Attribution
+  cc-by-nc-4.0: Usage non commercial uniquement

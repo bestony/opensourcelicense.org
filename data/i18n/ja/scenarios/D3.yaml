@@ -1,0 +1,7 @@
+reviewed: false
+sourceHash: d774574ea30fc483
+title: 社内での改変のみ（配布も外部サービスもなし）
+actor: other
+cells:
+  agpl-3.0: 社内ネットワーク利用者との対話は議論がある
+  busl-1.1: 追加利用許諾による

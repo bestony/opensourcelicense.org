@@ -1,4 +1,5 @@
 reviewed: false
+sourceHash: cdef0d42cb1ab51e
 summary: 库级 Copyleft：对库本身的修改须开源；闭源应用可以链接它，但须允许用户替换该库。
 analogy: 一台共享发动机：可以装进你的车，但车主必须能换上自己的发动机。
 pros:

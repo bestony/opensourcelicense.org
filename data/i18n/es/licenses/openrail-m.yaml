@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 86907368675893f1
+summary: "Licencia de IA responsable para modelos: condiciones permisivas más
+  restricciones de uso que todo derivado debe transmitir."
+analogy: Una herramienta gratuita con una lista de usos prohibidos que acompaña
+  a cada copia.
+pros:
+  - Permite el uso comercial
+  - Mantiene las restricciones de usos dañinos aguas abajo
+cons:
+  - OSI no la considera código abierto
+  - Las restricciones son difíciles de hacer cumplir
+  - Existen varias variantes

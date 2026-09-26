@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 86907368675893f1
+summary: "Licence d'IA responsable pour les modèles : conditions permissives,
+  plus des restrictions d'usage que tout dérivé doit transmettre."
+analogy: Un outil gratuit accompagné d'une liste d'usages interdits qui suit
+  chaque copie.
+pros:
+  - Autorise l'usage commercial
+  - Les restrictions d'usages nuisibles se transmettent en aval
+cons:
+  - L'OSI ne la considère pas comme open source
+  - Restrictions difficiles à faire respecter
+  - Plusieurs variantes existent

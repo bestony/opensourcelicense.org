@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 86907368675893f1
+summary: "Licença de IA responsável para modelos: termos permissivos mais
+  restrições de uso que todo derivado deve repassar."
+analogy: Uma ferramenta grátis com uma lista de usos proibidos que acompanha cada cópia.
+pros:
+  - Permite uso comercial
+  - Mantém as restrições de uso nocivo adiante
+cons:
+  - A OSI não a considera código aberto
+  - Restrições difíceis de fazer valer
+  - Existem várias variantes

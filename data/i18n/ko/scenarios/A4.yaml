@@ -1,0 +1,8 @@
+reviewed: false
+sourceHash: d30cdd2632a3c255
+title: 폐쇄형 앱이나 펌웨어에 링크되어 배포
+actor: other
+cells:
+  mpl-2.0: 파일 단위
+  lgpl-3.0: 재링크 허용 필요
+  busl-1.1: 추가 사용 허가에 따라 다름

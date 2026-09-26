@@ -1,0 +1,8 @@
+reviewed: false
+sourceHash: d30cdd2632a3c255
+title: Ligado a um app ou firmware de código fechado e distribuído
+actor: other
+cells:
+  mpl-2.0: Por arquivo
+  lgpl-3.0: Deve permitir religar
+  busl-1.1: Depende do Additional Use Grant

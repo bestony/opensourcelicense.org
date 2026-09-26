@@ -1,0 +1,9 @@
+reviewed: false
+sourceHash: efc2f2f54594209c
+title: 증류 또는 출력으로 다른 모델 학습
+actor: other
+cells:
+  llama: 이름에 "Llama" 포함 필요
+  openrail-m: 파생물이 제한을 승계
+  cc-by-4.0: 저작자 표시
+  cc-by-nc-4.0: 비상업적 용도만

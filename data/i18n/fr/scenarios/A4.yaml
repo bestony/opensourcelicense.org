@@ -1,0 +1,8 @@
+reviewed: false
+sourceHash: d30cdd2632a3c255
+title: Lié dans une application ou un firmware propriétaire et distribué
+actor: other
+cells:
+  mpl-2.0: Au niveau du fichier
+  lgpl-3.0: Doit permettre la réédition de liens
+  busl-1.1: Dépend de l'Additional Use Grant

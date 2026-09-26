@@ -1,0 +1,8 @@
+reviewed: false
+sourceHash: 1c6d467c44e41ab7
+title: Вы хотите закрыть доступ только крупным компаниям или конкурентам
+actor: you
+cells:
+  sspl-1.0: Косвенно
+  busl-1.1: Через Additional Use Grant
+  elv2: Только для управляемых сервисов

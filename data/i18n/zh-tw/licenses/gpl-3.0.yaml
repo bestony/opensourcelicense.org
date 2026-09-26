@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 3ab9492f75e7adb0
+summary: 強 Copyleft：分發該軟體或其衍生作品時，必須以 GPL-3.0 公開完整原始碼。
+analogy: 一份菜譜寫著：誰用它做菜賣給別人，就必須把完整菜譜一起給出去。
+pros:
+  - 所有被分發的衍生作品保持開源
+  - 專利授權與反 Tivo 化
+  - 深厚的社群傳統
+cons:
+  - 許多企業迴避
+  - 不覆蓋 SaaS（不算分發）
+  - 與 GPL-2.0-only 不相容

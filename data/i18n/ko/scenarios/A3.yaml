@@ -1,0 +1,9 @@
+reviewed: false
+sourceHash: b16411183c557a4e
+title: 폐쇄형 SaaS 백엔드에 내장 (배포 없음)
+actor: other
+cells:
+  agpl-3.0: 수정 시 공개 필요
+  sspl-1.0: 그 기능을 서비스로 제공하는 경우
+  busl-1.1: 추가 사용 허가에 따라 다름
+  elv2: 제품 자체를 호스팅하는 것이 아님

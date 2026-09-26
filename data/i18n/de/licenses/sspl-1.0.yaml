@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: c04c9ce2bbb6b016
+summary: Ähnlich der AGPL, doch wer die Software als Dienst anbietet, muss den
+  Quellcode des gesamten Dienst-Stacks offenlegen. Nicht von der OSI anerkannt.
+analogy: Wer mit diesem Gericht ein Restaurant eröffnet, muss auch die Baupläne
+  der ganzen Küche veröffentlichen.
+pros:
+  - Stärkster Schutz gegenüber Cloud-Anbietern
+cons:
+  - Für die OSI keine Open Source
+  - Von vielen Distributionen abgelehnt
+  - Kann Community-Forks auslösen

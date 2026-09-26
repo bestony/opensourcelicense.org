@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 1db86c42c600a813
+summary: "GPL-3.0 plus Netzwerkklausel: Wer über ein Netzwerk mit einer
+  geänderten Version interagiert, muss deren Quellcode angeboten bekommen."
+analogy: "Die Rezeptregel gilt auch für Restaurants: Das Servieren gilt als
+  Herausgeben."
+pros:
+  - Schließt die SaaS-Lücke
+  - Gute Grundlage für duale Lizenzierung
+  - Von der OSI anerkannte Open Source
+cons:
+  - Viele Unternehmen verbieten sie grundsätzlich
+  - Unverändertes Hosting bleibt erlaubt

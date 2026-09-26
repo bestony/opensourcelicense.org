@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 3ab9492f75e7adb0
+summary: "Copyleft fort : si vous distribuez le logiciel ou des dérivés, vous
+  devez publier l'intégralité du code source sous GPL-3.0."
+analogy: "Une recette qui dit : quiconque sert un plat tiré de cette recette
+  doit aussi remettre la recette complète."
+pros:
+  - Tous les dérivés distribués restent ouverts
+  - Licence de brevets et protection contre la tivoïsation
+  - Forte tradition communautaire
+cons:
+  - Beaucoup d'entreprises l'évitent
+  - Ne couvre pas le SaaS (pas de distribution)
+  - Incompatible avec GPL-2.0-only

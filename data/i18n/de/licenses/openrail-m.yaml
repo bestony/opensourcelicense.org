@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 86907368675893f1
+summary: "Responsible-AI-Lizenz für Modelle: freizügige Bedingungen plus
+  nutzungsbezogene Einschränkungen, die jede Ableitung weitergeben muss."
+analogy: Ein kostenloses Werkzeug mit einer Liste verbotener Verwendungen, die
+  jede Kopie begleitet.
+pros:
+  - Erlaubt kommerzielle Nutzung
+  - Einschränkungen schädlicher Nutzung gelten auch weiter unten
+cons:
+  - Für die OSI keine Open Source
+  - Einschränkungen sind schwer durchzusetzen
+  - Es gibt mehrere Varianten

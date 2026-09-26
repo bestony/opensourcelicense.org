@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 637c87bc846f9159
+summary: Freizügige Lizenz mit ausdrücklicher Patentlizenz,
+  Patent-Vergeltungsklausel und der Pflicht, geänderte Dateien zu kennzeichnen.
+analogy: Ein kostenloser Werkzeugkasten mit dem Versprechen, Sie nicht wegen
+  seiner Patente zu verklagen – außer Sie klagen zuerst.
+pros:
+  - Ausdrückliche Patentlizenz jedes Beitragenden
+  - Von vielen Unternehmen und Stiftungen bevorzugt
+  - Schützt Marken
+cons:
+  - Länger; NOTICE-Datei muss beachtet werden
+  - Nicht kompatibel mit GPL-2.0-only
+  - Verhindert keine gehosteten Konkurrenten

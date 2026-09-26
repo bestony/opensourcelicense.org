@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 4803251a37336702
+summary: "Licencia propia para modelos: permite el uso comercial, con una
+  política de uso aceptable, reglas de atribución y de nombre, y una licencia
+  aparte por encima de 700 millones de usuarios activos mensuales."
+analogy: Un motor gratuito con reglamento y un contrato especial para los
+  mayores fabricantes de coches.
+pros:
+  - Uso comercial permitido para la mayoría
+  - Gran ecosistema
+cons:
+  - OSI no la considera código abierto
+  - Obligaciones de política de uso y de nombre
+  - Las condiciones cambian entre versiones

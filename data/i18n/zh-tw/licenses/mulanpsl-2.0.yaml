@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: b568f07f3285ed81
+summary: 中國的寬鬆授權條款，含專利授權與專利報復條款；中英文同等效力，衝突時以中文為準。
+analogy: 類似 Apache 的保護，但考慮了中國法律語境。
+pros:
+  - 官方中英雙語文本
+  - 專利授權
+  - OSI 認可
+cons:
+  - 海外認知度較低
+  - 判例較少

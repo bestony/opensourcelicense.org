@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: ce104e1cd96e85b1
+summary: "Code source disponible : l'usage en production est limité par
+  l'Additional Use Grant, et chaque version passe sous une licence ouverte après
+  la Change Date (4 ans maximum)."
+analogy: "Une vitrine : on peut regarder et essayer, et dans quelques années
+  l'article devient libre pour tous."
+pros:
+  - Permet de contrôler l'usage commercial
+  - Le code devient open source plus tard
+cons:
+  - Ce n'est pas de l'open source
+  - Les conditions varient selon les projets
+  - Peut déclencher des forks

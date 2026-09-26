@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 4803251a37336702
+summary: "Licence propre aux modèles : usage commercial autorisé, avec une
+  politique d'utilisation acceptable, des règles d'attribution et de nommage, et
+  une licence distincte au-delà de 700 millions d'utilisateurs actifs mensuels."
+analogy: Un moteur gratuit avec un règlement, et un contrat spécial pour les
+  plus grands constructeurs.
+pros:
+  - Usage commercial autorisé pour la plupart
+  - Grand écosystème
+cons:
+  - L'OSI ne la considère pas comme open source
+  - Obligations de politique d'usage et de nommage
+  - Les conditions changent selon les versions

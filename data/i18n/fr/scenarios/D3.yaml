@@ -1,0 +1,7 @@
+reviewed: false
+sourceHash: d774574ea30fc483
+title: Modification interne, sans distribution ni service externe
+actor: other
+cells:
+  agpl-3.0: L'interaction avec les utilisateurs de l'intranet est discutée
+  busl-1.1: Dépend de l'Additional Use Grant

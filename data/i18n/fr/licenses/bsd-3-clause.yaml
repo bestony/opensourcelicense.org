@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: db235a56ea57284f
+summary: Comme MIT, avec une clause interdisant d'utiliser votre nom pour
+  promouvoir des produits dérivés.
+analogy: "Un livre gratuit avec un mot : « Ne dites pas que l'auteur recommande
+  votre édition »."
+pros:
+  - Permissive et bien connue
+  - Protège votre nom contre toute caution abusive
+cons:
+  - Aucune licence de brevets
+  - Les forks fermés sont autorisés

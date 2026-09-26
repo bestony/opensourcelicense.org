@@ -1,0 +1,9 @@
+reviewed: false
+sourceHash: b16411183c557a4e
+title: Intégré dans un backend SaaS propriétaire (sans distribution)
+actor: other
+cells:
+  agpl-3.0: Doit publier en cas de modification
+  sspl-1.0: Si sa fonctionnalité est proposée comme service
+  busl-1.1: Dépend de l'Additional Use Grant
+  elv2: N'héberge pas le produit lui-même

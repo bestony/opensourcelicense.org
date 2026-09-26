@@ -1,0 +1,9 @@
+reviewed: false
+sourceHash: efc2f2f54594209c
+title: 蒸留、または出力を使った他モデルの学習
+actor: other
+cells:
+  llama: 名前に「Llama」を含める必要あり
+  openrail-m: 派生物は制限を引き継ぐ
+  cc-by-4.0: クレジット表示
+  cc-by-nc-4.0: 非営利のみ

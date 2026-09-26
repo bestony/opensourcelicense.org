@@ -1,0 +1,8 @@
+reviewed: false
+sourceHash: 3a5f4b9bf27dddea
+title: 程式碼被併入 GPL-3.0 專案
+actor: other
+cells:
+  apache-2.0: 但不相容 GPL-2.0
+  mpl-2.0: 除非標註不相容
+  agpl-3.0: AGPL 部分仍是 AGPL

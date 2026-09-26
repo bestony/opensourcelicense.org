@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 3ab9492f75e7adb0
+summary: "Starkes Copyleft: Wer die Software oder Ableitungen weitergibt, muss
+  den vollständigen Quellcode unter GPL-3.0 veröffentlichen."
+analogy: "Ein Rezept mit dem Hinweis: Wer ein Gericht danach serviert, muss auch
+  das ganze Rezept herausgeben."
+pros:
+  - Alle weitergegebenen Ableitungen bleiben offen
+  - Patentlizenz und Schutz vor Tivoisierung
+  - Starke Community-Tradition
+cons:
+  - Viele Unternehmen meiden sie
+  - Deckt SaaS nicht ab (keine Weitergabe)
+  - Nicht kompatibel mit GPL-2.0-only

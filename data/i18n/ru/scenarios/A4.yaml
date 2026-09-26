@@ -1,0 +1,8 @@
+reviewed: false
+sourceHash: d30cdd2632a3c255
+title: Скомпоновано с закрытым приложением или прошивкой и распространяется
+actor: other
+cells:
+  mpl-2.0: На уровне файла
+  lgpl-3.0: Нужно разрешить перекомпоновку
+  busl-1.1: Зависит от Additional Use Grant

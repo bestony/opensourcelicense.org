@@ -1,0 +1,9 @@
+reviewed: false
+sourceHash: 63feb6d0b2ecbcea
+title: ファインチューニングして名前を変え、クローズドな重みとして公開する
+actor: other
+cells:
+  llama: ライセンスを同梱し「Built with Llama」を表示する必要あり
+  openrail-m: 利用制限を引き継ぐ必要あり
+  cc-by-4.0: クレジット表示
+  cc-by-nc-4.0: 非営利のみ

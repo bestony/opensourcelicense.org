@@ -1,0 +1,8 @@
+reviewed: false
+sourceHash: 7bff91f5633ee310
+title: 가중치가 군사·감시·허위정보에 사용됨
+actor: other
+cells:
+  llama: 허용 사용 정책
+  openrail-m: 용도 기반 제한
+  cc-by-nc-4.0: 비상업적 용도만

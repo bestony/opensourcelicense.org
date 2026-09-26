@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 57d3e35a6ad686d1
+title: Quelqu'un forke le projet et distribue un concurrent propriétaire
+actor: other
+cells:
+  apache-2.0: Doit signaler les fichiers modifiés
+  mpl-2.0: Les fichiers MPL modifiés restent ouverts
+  lgpl-3.0: Les modifications de la bibliothèque restent ouvertes
+  busl-1.1: Les dérivés restent sous BSL
+  elv2: Les limitations doivent être conservées

@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: c04c9ce2bbb6b016
+summary: 類似 AGPL，但以服務形式提供軟體時須公開整個服務棧的原始碼；未獲 OSI 認可。
+analogy: 用這道菜開餐廳，就得把整個廚房的圖紙也公開。
+pros:
+  - 對雲廠商的約束最強
+cons:
+  - OSI 不認為是開源
+  - 許多發行版拒收
+  - 容易引發社群分叉

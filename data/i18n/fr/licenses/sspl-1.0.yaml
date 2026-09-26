@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: c04c9ce2bbb6b016
+summary: Proche de l'AGPL, mais proposer le logiciel comme service oblige à
+  publier le code de toute la pile du service. Non approuvée par l'OSI.
+analogy: Si vous ouvrez un restaurant avec ce plat, vous devez aussi publier les
+  plans de toute votre cuisine.
+pros:
+  - La protection la plus forte face aux fournisseurs cloud
+cons:
+  - L'OSI ne la considère pas comme open source
+  - Refusée par de nombreuses distributions
+  - Peut déclencher des forks communautaires

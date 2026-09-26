@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 1b47253adc7fb00d
+summary: "Source-available: kostenlos nutzbar und änderbar, aber nicht als
+  Managed Service anbietbar, und Lizenzschlüssel dürfen nicht umgangen werden."
+analogy: Kochen Sie damit zu Hause oder im eigenen Restaurant, aber eröffnen Sie
+  keinen Laden, der genau dieses Gericht verkauft.
+pros:
+  - Kurz und klar
+  - Zielt nur auf Managed-Service-Konkurrenten
+cons:
+  - Keine Open Source
+  - Schränkt Forks und manche Partner ein

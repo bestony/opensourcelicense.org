@@ -1,0 +1,9 @@
+reviewed: false
+sourceHash: efc2f2f54594209c
+title: Destilação ou treino de outros modelos com as saídas
+actor: other
+cells:
+  llama: O nome deve incluir "Llama"
+  openrail-m: Derivados herdam as restrições
+  cc-by-4.0: Atribuição
+  cc-by-nc-4.0: Somente uso não comercial
