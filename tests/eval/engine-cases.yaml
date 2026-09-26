@@ -1,0 +1,568 @@
+# Expert expectations for the rule engine: acceptable top-1 licenses per profile.
+# Target: >= 90% agreement (release gate for the AI advisor, which only explains engine output).
+- id: lib-enterprise-basic
+  profile:
+    artifact_type: library
+    openness_level: open
+    adoption_goal: enterprise
+    avoid: []
+    dependencies: []
+  expect:
+    - apache-2.0
+    - mit
+  note: Permissive for max adoption
+- id: lib-enterprise-patent
+  profile:
+    artifact_type: library
+    openness_level: open
+    adoption_goal: enterprise
+    avoid:
+      - patent-litigation
+    dependencies: []
+  expect:
+    - apache-2.0
+  note: Explicit patent grant
+- id: lib-enterprise-trademark
+  profile:
+    artifact_type: library
+    openness_level: open
+    adoption_goal: enterprise
+    avoid:
+      - trademark-abuse
+    dependencies: []
+  expect:
+    - apache-2.0
+    - bsd-3-clause
+  note: Trademark/endorsement clause
+- id: lib-community-open
+  profile:
+    artifact_type: library
+    openness_level: open
+    adoption_goal: community
+    avoid: []
+    dependencies: []
+  expect:
+    - mit
+    - apache-2.0
+  note: Permissive, community
+- id: lib-cn-enterprise
+  profile:
+    artifact_type: library
+    openness_level: open
+    adoption_goal: enterprise
+    avoid: []
+    dependencies: []
+    jurisdiction: cn
+  expect:
+    - apache-2.0
+    - mulanpsl-2.0
+  note: "China: MulanPSL is a good local option"
+- id: lib-cn-patent
+  profile:
+    artifact_type: library
+    openness_level: open
+    adoption_goal: enterprise
+    avoid:
+      - patent-litigation
+    dependencies: []
+    jurisdiction: cn
+  expect:
+    - apache-2.0
+    - mulanpsl-2.0
+- id: lib-reciprocal-enterprise
+  profile:
+    artifact_type: library
+    openness_level: reciprocal
+    adoption_goal: enterprise
+    avoid: []
+    dependencies: []
+  expect:
+    - mpl-2.0
+    - lgpl-3.0
+  note: Weak copyleft for libraries used by companies
+- id: lib-reciprocal-closedfork
+  profile:
+    artifact_type: library
+    openness_level: reciprocal
+    adoption_goal: enterprise
+    avoid:
+      - closed-fork
+    dependencies: []
+  expect:
+    - mpl-2.0
+    - lgpl-3.0
+- id: lib-reciprocal-community
+  profile:
+    artifact_type: library
+    openness_level: reciprocal
+    adoption_goal: community
+    avoid:
+      - closed-fork
+    dependencies: []
+  expect:
+    - gpl-3.0
+    - lgpl-3.0
+    - mpl-2.0
+- id: lib-gpl-dep
+  profile:
+    artifact_type: library
+    openness_level: open
+    adoption_goal: enterprise
+    avoid: []
+    dependencies:
+      - GPL-3.0-only
+  expect:
+    - gpl-3.0
+    - agpl-3.0
+  note: GPL dependency forces GPL family
+- id: lib-agpl-dep
+  profile:
+    artifact_type: library
+    openness_level: open
+    adoption_goal: enterprise
+    avoid: []
+    dependencies:
+      - AGPL-3.0-only
+  expect:
+    - agpl-3.0
+- id: lib-mit-dep
+  profile:
+    artifact_type: library
+    openness_level: open
+    adoption_goal: enterprise
+    avoid: []
+    dependencies:
+      - MIT
+      - ISC
+  expect:
+    - apache-2.0
+    - mit
+  note: Permissive deps do not constrain
+- id: lib-lgpl-dep
+  profile:
+    artifact_type: library
+    openness_level: open
+    adoption_goal: enterprise
+    avoid: []
+    dependencies:
+      - LGPL-2.1-only
+  expect:
+    - apache-2.0
+    - mit
+- id: app-community-reciprocal
+  profile:
+    artifact_type: application
+    openness_level: reciprocal
+    adoption_goal: community
+    avoid:
+      - closed-fork
+    dependencies: []
+  expect:
+    - gpl-3.0
+    - agpl-3.0
+  note: Desktop app kept open
+- id: app-community-open
+  profile:
+    artifact_type: application
+    openness_level: open
+    adoption_goal: community
+    avoid: []
+    dependencies: []
+  expect:
+    - mit
+    - apache-2.0
+- id: app-enterprise-open
+  profile:
+    artifact_type: application
+    openness_level: open
+    adoption_goal: enterprise
+    avoid: []
+    dependencies: []
+  expect:
+    - apache-2.0
+    - mit
+- id: app-reciprocal-patent
+  profile:
+    artifact_type: application
+    openness_level: reciprocal
+    adoption_goal: community
+    avoid:
+      - closed-fork
+      - patent-litigation
+    dependencies: []
+  expect:
+    - gpl-3.0
+    - agpl-3.0
+- id: app-dual-license
+  profile:
+    artifact_type: application
+    openness_level: reciprocal
+    adoption_goal: monetize
+    avoid:
+      - closed-fork
+    dependencies: []
+    commercial_plan: dual-license
+  expect:
+    - agpl-3.0
+    - gpl-3.0
+  note: Copyleft + commercial license
+- id: app-gpl2-dep
+  profile:
+    artifact_type: application
+    openness_level: reciprocal
+    adoption_goal: community
+    avoid: []
+    dependencies:
+      - GPL-3.0-or-later
+  expect:
+    - gpl-3.0
+    - agpl-3.0
+- id: saas-cloud-monetize-sa
+  profile:
+    artifact_type: saas
+    openness_level: source-available
+    adoption_goal: monetize
+    avoid:
+      - cloud-hosting
+    dependencies: []
+    commercial_plan: hosted
+  expect:
+    - busl-1.1
+    - elv2
+  note: Redis/Elastic style
+- id: saas-cloud-reciprocal
+  profile:
+    artifact_type: saas
+    openness_level: reciprocal
+    adoption_goal: community
+    avoid:
+      - cloud-hosting
+    dependencies: []
+  expect:
+    - agpl-3.0
+  note: AGPL closes the SaaS loophole
+- id: saas-cloud-reciprocal-monetize
+  profile:
+    artifact_type: saas
+    openness_level: reciprocal
+    adoption_goal: monetize
+    avoid:
+      - cloud-hosting
+    dependencies: []
+    commercial_plan: dual-license
+  expect:
+    - agpl-3.0
+  note: Grafana/MinIO style
+- id: saas-open-enterprise
+  profile:
+    artifact_type: saas
+    openness_level: open
+    adoption_goal: enterprise
+    avoid: []
+    dependencies: []
+  expect:
+    - apache-2.0
+    - mit
+- id: saas-sa-bigco
+  profile:
+    artifact_type: saas
+    openness_level: source-available
+    adoption_goal: monetize
+    avoid:
+      - big-company
+    dependencies: []
+  expect:
+    - busl-1.1
+  note: BSL additional use grant
+- id: saas-sa-opencore
+  profile:
+    artifact_type: saas
+    openness_level: source-available
+    adoption_goal: monetize
+    avoid:
+      - cloud-hosting
+    dependencies: []
+    commercial_plan: open-core
+  expect:
+    - elv2
+    - busl-1.1
+- id: saas-reciprocal-hosted
+  profile:
+    artifact_type: saas
+    openness_level: reciprocal
+    adoption_goal: monetize
+    avoid:
+      - cloud-hosting
+    dependencies: []
+    commercial_plan: hosted
+  expect:
+    - agpl-3.0
+- id: saas-open-cloud-community
+  profile:
+    artifact_type: saas
+    openness_level: open
+    adoption_goal: community
+    avoid:
+      - cloud-hosting
+    dependencies: []
+  expect:
+    - mit
+    - apache-2.0
+    - mpl-2.0
+  note: Open means accepting cloud reuse
+- id: db-sa-cloud
+  profile:
+    artifact_type: saas
+    openness_level: source-available
+    adoption_goal: monetize
+    avoid:
+      - cloud-hosting
+      - closed-fork
+    dependencies: []
+  expect:
+    - busl-1.1
+    - elv2
+    - sspl-1.0
+- id: devtool-open-enterprise-patent
+  profile:
+    artifact_type: application
+    openness_level: open
+    adoption_goal: enterprise
+    avoid:
+      - patent-litigation
+      - trademark-abuse
+    dependencies: []
+  expect:
+    - apache-2.0
+- id: sdk-cn-community
+  profile:
+    artifact_type: library
+    openness_level: open
+    adoption_goal: community
+    avoid: []
+    dependencies: []
+    jurisdiction: cn
+  expect:
+    - mulanpsl-2.0
+    - mit
+    - apache-2.0
+- id: model-open-enterprise
+  profile:
+    artifact_type: model
+    openness_level: open
+    adoption_goal: enterprise
+    avoid: []
+    dependencies: []
+  expect:
+    - apache-2.0
+    - mit
+  note: Mistral/Qwen style
+- id: model-harm
+  profile:
+    artifact_type: model
+    openness_level: source-available
+    adoption_goal: community
+    avoid:
+      - harmful-use
+    dependencies: []
+  expect:
+    - openrail-m
+    - llama
+  note: RAIL use restrictions
+- id: model-harm-enterprise
+  profile:
+    artifact_type: model
+    openness_level: open
+    adoption_goal: enterprise
+    avoid:
+      - harmful-use
+    dependencies: []
+  expect:
+    - apache-2.0
+    - openrail-m
+- id: model-bigco
+  profile:
+    artifact_type: model
+    openness_level: source-available
+    adoption_goal: monetize
+    avoid:
+      - big-company
+    dependencies: []
+  expect:
+    - llama
+    - cc-by-nc-4.0
+  note: Llama MAU threshold
+- id: model-monetize-harm
+  profile:
+    artifact_type: model
+    openness_level: source-available
+    adoption_goal: monetize
+    avoid:
+      - harmful-use
+      - big-company
+    dependencies: []
+  expect:
+    - llama
+- id: model-community-open
+  profile:
+    artifact_type: model
+    openness_level: open
+    adoption_goal: community
+    avoid: []
+    dependencies: []
+  expect:
+    - apache-2.0
+    - mit
+- id: model-research-nc
+  profile:
+    artifact_type: model
+    openness_level: source-available
+    adoption_goal: monetize
+    avoid:
+      - big-company
+    dependencies: []
+    commercial_plan: dual-license
+  expect:
+    - llama
+    - cc-by-nc-4.0
+- id: dataset-open
+  profile:
+    artifact_type: dataset
+    openness_level: open
+    adoption_goal: enterprise
+    avoid: []
+    dependencies: []
+  expect:
+    - cc-by-4.0
+    - apache-2.0
+    - mit
+- id: dataset-community
+  profile:
+    artifact_type: dataset
+    openness_level: open
+    adoption_goal: community
+    avoid: []
+    dependencies: []
+  expect:
+    - cc-by-4.0
+    - mit
+    - apache-2.0
+- id: dataset-nc
+  profile:
+    artifact_type: dataset
+    openness_level: source-available
+    adoption_goal: monetize
+    avoid: []
+    dependencies: []
+  expect:
+    - cc-by-nc-4.0
+  note: Non-commercial dataset
+- id: dataset-bigco
+  profile:
+    artifact_type: dataset
+    openness_level: source-available
+    adoption_goal: community
+    avoid:
+      - big-company
+    dependencies: []
+  expect:
+    - cc-by-nc-4.0
+- id: docs-open
+  profile:
+    artifact_type: docs
+    openness_level: open
+    adoption_goal: community
+    avoid: []
+    dependencies: []
+  expect:
+    - cc-by-4.0
+  note: Docs under CC BY
+- id: docs-enterprise
+  profile:
+    artifact_type: docs
+    openness_level: open
+    adoption_goal: enterprise
+    avoid: []
+    dependencies: []
+  expect:
+    - cc-by-4.0
+- id: docs-nc
+  profile:
+    artifact_type: docs
+    openness_level: source-available
+    adoption_goal: monetize
+    avoid: []
+    dependencies: []
+  expect:
+    - cc-by-nc-4.0
+- id: lib-monetize-dual
+  profile:
+    artifact_type: library
+    openness_level: reciprocal
+    adoption_goal: monetize
+    avoid: []
+    dependencies: []
+    commercial_plan: dual-license
+  expect:
+    - agpl-3.0
+    - gpl-3.0
+  note: Qt/MySQL style dual licensing
+- id: lib-opencore
+  profile:
+    artifact_type: library
+    openness_level: open
+    adoption_goal: monetize
+    avoid: []
+    dependencies: []
+    commercial_plan: open-core
+  expect:
+    - apache-2.0
+    - mit
+  note: Open core base under permissive
+- id: app-sa-monetize
+  profile:
+    artifact_type: application
+    openness_level: source-available
+    adoption_goal: monetize
+    avoid: []
+    dependencies: []
+  expect:
+    - busl-1.1
+    - elv2
+- id: saas-eu-reciprocal
+  profile:
+    artifact_type: saas
+    openness_level: reciprocal
+    adoption_goal: community
+    avoid:
+      - cloud-hosting
+      - closed-fork
+    dependencies: []
+    jurisdiction: eu
+  expect:
+    - agpl-3.0
+- id: lib-us-open
+  profile:
+    artifact_type: library
+    openness_level: open
+    adoption_goal: enterprise
+    avoid:
+      - patent-litigation
+      - closed-fork
+    dependencies: []
+    jurisdiction: us
+  expect:
+    - apache-2.0
+    - mpl-2.0
+- id: app-gpl-dep-dual
+  profile:
+    artifact_type: application
+    openness_level: reciprocal
+    adoption_goal: monetize
+    avoid: []
+    dependencies:
+      - GPL-3.0-only
+    commercial_plan: dual-license
+  expect:
+    - gpl-3.0
+    - agpl-3.0

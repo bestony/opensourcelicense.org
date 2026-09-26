@@ -221,6 +221,7 @@ strings:
   engine.part.adoption: "Goal: {goal}"
   engine.part.commercial: "Business plan: {plan}"
   engine.part.jurisdiction: "Jurisdiction: {jurisdiction}"
+  engine.part.dependency: "Only compatible with conditions: {dependency}"
   engine.excluded.dependency: Incompatible with dependency {dependency}
   engine.excluded.artifact: Not suitable for this kind of artifact
   advisory.needs-cla: Use a Contributor License Agreement (CLA). You will need it to sell commercial licenses or change the license later.

@@ -221,6 +221,7 @@ strings:
   engine.part.adoption: 目标：{goal}
   engine.part.commercial: 商业计划：{plan}
   engine.part.jurisdiction: 管辖地：{jurisdiction}
+  engine.part.dependency: 与依赖 {dependency} 仅在满足条件时兼容
   engine.excluded.dependency: 与依赖 {dependency} 不兼容
   engine.excluded.artifact: 不适合这类发布物
   advisory.needs-cla: 使用贡献者许可协议（CLA）。日后出售商业授权或更换许可证都需要它。

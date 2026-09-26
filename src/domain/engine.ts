@@ -44,6 +44,9 @@ export interface Recommendation {
   advisories: Advisory[];
 }
 
+/** Score change when a dependency is only compatible under extra conditions. */
+const CONDITIONAL_DEPENDENCY_PENALTY = -3;
+
 const compatCache = new WeakMap<Catalog, CompatIndex>();
 function compatIndex(cat: Catalog): CompatIndex {
   let idx = compatCache.get(cat);
@@ -65,6 +68,8 @@ export function recommend(profile: Profile, cat: Catalog): Recommendation {
   const whitelist = profile.artifact_type ? rules.artifactCandidates[profile.artifact_type] : undefined;
   const excluded: Excluded[] = [];
   const candidates: License[] = [];
+  /** dependencies that are only conditionally compatible, per candidate */
+  const conditionalDeps = new Map<string, string[]>();
 
   for (const slug of columns) {
     const lic = cat.licenses.get(slug);
@@ -73,14 +78,14 @@ export function recommend(profile: Profile, cat: Catalog): Recommendation {
       excluded.push({ license: slug, reasonKey: "engine.excluded.artifact", params: { artifact: profile.artifact_type ?? "" } });
       continue;
     }
-    const blocking = profile.dependencies
-      .map((d) => checkExpression(compatIndex(cat), d, slug))
-      .find((r) => r.status === "incompatible");
+    const checks = profile.dependencies.map((d) => checkExpression(compatIndex(cat), d, slug));
+    const blocking = checks.find((r) => r.status === "incompatible");
     if (blocking) {
       excluded.push({ license: slug, reasonKey: "engine.excluded.dependency", params: { dependency: blocking.dependency } });
       continue;
     }
     candidates.push(lic);
+    conditionalDeps.set(slug, checks.filter((r) => r.status === "conditional").map((r) => r.dependency));
   }
 
   const ranked: Ranked[] = candidates.map((lic) => {
@@ -104,6 +109,8 @@ export function recommend(profile: Profile, cat: Catalog): Recommendation {
       add("engine.part.commercial", { plan: profile.commercial_plan }, rules.commercial[profile.commercial_plan]?.[lic.slug]);
     if (profile.jurisdiction)
       add("engine.part.jurisdiction", { jurisdiction: profile.jurisdiction }, rules.jurisdiction[profile.jurisdiction]?.[lic.slug]);
+    for (const dep of conditionalDeps.get(lic.slug) ?? [])
+      parts.push({ key: "engine.part.dependency", params: { dependency: dep }, points: CONDITIONAL_DEPENDENCY_PENALTY });
     const score = round(parts.reduce((s, p) => s + p.points, 0));
     return { license: lic.slug, score, parts };
   });
