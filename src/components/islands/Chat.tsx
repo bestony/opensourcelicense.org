@@ -41,7 +41,10 @@ function useTurnstile(siteKey: string | undefined) {
     const render = () => {
       if (window.turnstile && !widget.current) widget.current = window.turnstile.render(el, { sitekey: siteKey, callback: setToken, appearance: "interaction-only" });
     };
-    if (window.turnstile) return render();
+    if (window.turnstile) {
+      render();
+      return;
+    }
     const s = document.createElement("script");
     s.src = "https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit";
     s.async = true;
@@ -91,7 +94,9 @@ export default function Chat(props: IslandProps & { turnstileSiteKey?: string })
     }
   }, []);
 
-  useEffect(() => bottom.current?.scrollIntoView({ behavior: "smooth", block: "nearest" }), [messages, streaming, pending]);
+  useEffect(() => {
+    bottom.current?.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  }, [messages, streaming, pending]);
 
   const live = useMemo(() => (missingFields(profile).length === 0 ? recommend(profile, cat) : undefined), [profile, cat]);
 
