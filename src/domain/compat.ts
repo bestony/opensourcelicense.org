@@ -37,6 +37,8 @@ export function checkPair(index: CompatIndex, dependency: string, project: strin
   const rule = index.data.rules[cls];
   if (!rule) return { dependency: dep, inboundClass: cls, status: "unknown" };
   const note = rule.note;
+  if (rule.deny.includes(project)) return { dependency: dep, inboundClass: cls, status: "incompatible", note };
+  if (rule.conditional.includes(project)) return { dependency: dep, inboundClass: cls, status: "conditional", note };
   if (rule.allow === "*" || rule.allow.includes(project)) return { dependency: dep, inboundClass: cls, status: "compatible", note };
   if (rule.conditional.includes(project)) return { dependency: dep, inboundClass: cls, status: "conditional", note };
   return { dependency: dep, inboundClass: cls, status: "incompatible", note };

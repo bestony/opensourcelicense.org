@@ -158,6 +158,8 @@ export const compatSchema = z.object({
     z.object({
       allow: z.union([z.literal("*"), z.array(slug)]),
       conditional: z.array(slug).default([]),
+      /** with allow "*": project licenses that are still incompatible */
+      deny: z.array(slug).default([]),
       note: z.string().optional(),
     }),
   ),

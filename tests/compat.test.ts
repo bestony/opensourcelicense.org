@@ -22,3 +22,13 @@ describe("compat", () => {
     expect(checkExpression(idx, "Foo-1.0", "mit").status).toBe("unknown");
   });
 });
+
+describe("compat exceptions", () => {
+  it("denies GPL-incompatible weak copyleft for GPL projects only", () => {
+    expect(checkExpression(idx, "CDDL-1.0", "gpl-2.0").status).toBe("incompatible");
+    expect(checkExpression(idx, "CDDL-1.0", "mit").status).toBe("compatible");
+    expect(checkExpression(idx, "EPL-2.0", "gpl-3.0").status).toBe("conditional");
+    expect(checkExpression(idx, "GPL-2.0-only", "gpl-2.0").status).toBe("compatible");
+    expect(checkExpression(idx, "GPL-2.0-only", "gpl-3.0").status).toBe("incompatible");
+  });
+});
