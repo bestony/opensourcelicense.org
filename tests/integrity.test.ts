@@ -1,11 +1,11 @@
 import { describe, expect, it } from "vitest";
 import { buildCatalog } from "@/domain/catalog";
-import { validateCatalog } from "@/domain/integrity";
+import { type IntegrityOptions, validateCatalog } from "@/domain/integrity";
 import { DEFAULT_LOCALE, LOCALES } from "@/domain/locales";
 import { realRaw } from "./helpers";
 
-const opts = { locales: LOCALES, defaultLocale: DEFAULT_LOCALE };
-const errors = (raw = realRaw(), o = opts) => validateCatalog(buildCatalog(raw), o).filter((i) => i.level === "error");
+const opts: IntegrityOptions = { locales: LOCALES, defaultLocale: DEFAULT_LOCALE };
+const errors = (raw = realRaw(), o: IntegrityOptions = opts) => validateCatalog(buildCatalog(raw), o).filter((i) => i.level === "error");
 
 describe("integrity", () => {
   it("real data has no errors", () => {
