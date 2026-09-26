@@ -1,0 +1,321 @@
+reviewed: false
+strings:
+  site.name: opensourcelicense.org
+  site.tagline: 开源许可证决策工作台
+  site.description: 选择、对比并压力测试开源许可证：看真实项目怎么选、最坏会怎样、你的项目该怎么办。
+  nav.home: 首页
+  nav.licenses: 许可证库
+  nav.scenarios: 极端场景
+  nav.projects: 项目图谱
+  nav.trends: 趋势
+  nav.compare: 对比
+  nav.wizard: 逐项筛选
+  nav.chat: AI 顾问
+  nav.check: 依赖检查
+  nav.menu: 菜单
+  lang.switch: 语言
+  lang.suggest: 本页有{language}版本。
+  lang.suggest.go: 切换
+  lang.suggest.dismiss: 不用了
+  footer.disclaimer: 本站提供一般性信息，不构成法律意见。涉及真实纠纷或合同，请咨询律师。
+  footer.source: 源代码（AGPL-3.0）
+  footer.data: 数据采用 CC-BY-4.0
+  footer.report: 报告错误
+  footer.cite: 数据来自 opensourcelicense.org，CC-BY-4.0
+  badge.machine: 机器翻译
+  badge.reviewed: 已审核译文
+  badge.fallback: 尚未翻译，显示英文
+  badge.unreviewed-data: 初稿，尚未经律师审核
+  common.updated: 数据更新于 {date}
+  common.back: 返回
+  common.copy: 复制
+  common.copied: 已复制
+  common.download: 下载
+  common.close: 关闭
+  common.all: 全部
+  common.yes: 是
+  common.no: 否
+  common.unknown: 未知
+  common.none: 无
+  common.more: 更多
+  common.loading: 加载中…
+  common.error: 出了点问题。
+  common.search: 搜索
+  home.title: 看清后果，再选开源许可证
+  home.lead: 不只回答“选哪个”，还告诉你同类项目怎么选、最坏情况是什么、接下来具体该做什么。
+  home.entry.chat.title: 和 AI 聊聊我的项目
+  home.entry.chat.body: 用自己的话描述项目，得到项目画像、追问和一份报告。
+  home.entry.projects.title: 看看别人用什么
+  home.entry.projects.body: 知名项目的许可证，以及有些项目为什么改协议。
+  home.entry.wizard.title: 逐项筛选
+  home.entry.wizard.body: 回答几个问题，得到带解释的排序候选。
+  home.wall: 热门项目许可证墙
+  home.changes: 近期许可证变更
+  home.scenarios: 可能会发生什么？
+  home.scenarios.body: 27 个极端场景 × 17 个许可证列，每个格子一页。
+  family.permissive: 宽松
+  family.weak-copyleft: 弱 Copyleft
+  family.strong-copyleft: 强 Copyleft
+  family.network-copyleft: 网络 Copyleft
+  family.source-available: 源码可见
+  family.model: 模型许可
+  family.content: 内容 / 数据
+  verdict.allow: 可以
+  verdict.conditional: 有条件
+  verdict.deny: 许可证阻止
+  verdict.silent: 未约定
+  verdict.tbd: 待核
+  verdict.legend: 图例：✓ 对方可以这么做 · ◐ 有条件 · ✗ 许可证阻止 · — 许可证未约定（交由一般法律）
+  actor.other: 别人这么做
+  actor.you: 你想这么做
+  actor.contributor: 贡献者这么做
+  actor.both: 双方都相关
+  group.A: 商业竞争
+  group.B: 专利与法律
+  group.C: 演进与商业化
+  group.D: 使用与合规
+  group.E: AI 模型与数据
+  matrix.code: 代码许可证
+  matrix.model: 模型与数据许可
+  term.commercial-use: 商业使用
+  term.modification: 修改
+  term.distribution: 分发
+  term.private-use: 私人使用
+  term.patent-use: 专利授权
+  term.non-production-use: 非生产使用
+  term.converts-to-open-source: 日后转为开源
+  term.include-copyright: 保留版权声明
+  term.include-license: 附带许可证
+  term.document-changes: 标注修改
+  term.disclose-source: 公开源码
+  term.same-license: 衍生作品同协议
+  term.same-license-file: 同协议（文件级）
+  term.same-license-library: 同协议（库级）
+  term.allow-relinking: 允许重新链接
+  term.network-use-disclose: 网络使用视同分发
+  term.service-stack-disclose: 公开整个服务栈
+  term.keep-limitations: 保留限制条款
+  term.attribution: 署名
+  term.attribution-built-with: 标注 “Built with”
+  term.name-prefix: 命名规则
+  term.acceptable-use-policy: 可接受使用政策
+  term.use-restrictions-pass-through: 传递使用限制
+  term.indicate-changes: 注明修改
+  term.liability: 不承担责任
+  term.warranty: 不提供担保
+  term.trademark-use: 不授予商标权
+  term.no-endorsement: 不得背书
+  term.production-use-restricted: 限制生产使用
+  term.no-managed-service: 禁止托管服务
+  term.no-license-key-circumvention: 禁止绕过密钥
+  term.mau-threshold: 用户规模门槛
+  term.use-restrictions: 使用限制
+  term.non-commercial: 仅限非商用
+  licenses.title: 许可证库
+  licenses.lead: 共 {count} 个许可证，覆盖宽松、Copyleft、源码可见与模型许可。
+  licenses.col.license: 许可证
+  licenses.col.family: 家族
+  licenses.col.osi: OSI
+  licenses.col.fsf: FSF 自由
+  licenses.col.projects: 项目数
+  licenses.filter: 按家族筛选
+  license.permissions: 允许
+  license.conditions: 义务
+  license.limitations: 限制
+  license.summary: 白话解读
+  license.analogy: 类比
+  license.pros: 优点
+  license.cons: 缺点
+  license.scenarios: 极端场景
+  license.radar: 最坏情况雷达图
+  license.projects: 使用它的知名项目
+  license.text: 官方原文
+  license.text.official: 官方{language}文本
+  license.text.note: 只有官方文本具有法律效力，本站不自行翻译许可证原文。
+  license.compare: 与其他许可证对比…
+  license.spdx: SPDX 标识
+  radar.anti-freeride: 防白嫖
+  radar.anti-closed-fork: 防闭源
+  radar.patent: 专利保护
+  radar.adoption-friction: 企业采纳阻力
+  radar.relicense-difficulty: 改协议难度
+  radar.misuse-control: 滥用控制
+  radar.derivative-control: 衍生控制
+  radar.commercial-control: 商用控制
+  radar.note: 由场景矩阵自动计算。分数高表示该属性更强，不代表“更好”。
+  scenarios.title: 极端场景矩阵
+  scenarios.lead: 选完许可证之后会发生什么？每个格子回答一个问题，并有独立页面。
+  scenarios.highlight: 高亮许可证
+  scenarios.expand: 全部展开
+  scenarios.collapse: 全部折叠
+  scenarios.silent-note: 全是“—”的行是有意保留的：答案取决于劳动合同与职务作品规定（C6）、出口管制法（D5）或仍在进行的诉讼（D6），与许可证无关。
+  scenario.flow.you: 你以 {license} 发布
+  scenario.flow.they: 发生的情况
+  scenario.flow.result: 后果
+  scenario.clause: 相关条款
+  scenario.case: 真实案例
+  scenario.others: 同一场景下的其他许可证
+  scenario.other-scenarios: "{license} 的其他场景"
+  scenario.no-clause: 没有专门条款，交由一般法律。
+  scenario.review: 审核状态
+  scenario.review.none: 尚未经律师审核。
+  scenario.review.done: 由 {who} 于 {date} 审核。
+  compare.title: 许可证对比
+  compare.lead: 选两到三个许可证，逐条款、逐场景对比。
+  compare.pick: 添加许可证
+  compare.remove: 移除
+  compare.terms: 条款
+  compare.scenarios: 场景
+  compare.empty: 请至少选择两个许可证。
+  wizard.title: 逐项筛选
+  wizard.lead: 回答几个问题，规则引擎会给许可证排序，并解释每一分的来源。
+  wizard.next: 下一步
+  wizard.prev: 上一步
+  wizard.finish: 查看结果
+  wizard.restart: 重新开始
+  wizard.skip: 跳过
+  wizard.step: 第 {n} 步，共 {total} 步
+  wizard.to-chat: 带入 AI 顾问继续追问
+  q.artifact_type: 你要发布的是什么？
+  q.openness_level: 你希望开放到什么程度？
+  q.avoid: 你想避免哪些结果？
+  q.avoid.hint: 可多选。
+  q.adoption_goal: 你最看重什么？
+  q.dependencies: 是否依赖了 Copyleft 代码？
+  q.dependencies.hint: 填写依赖许可证的 SPDX 标识，例如 GPL-3.0-only。
+  q.commercial_plan: 打算怎么赚钱（如果有）？
+  q.jurisdiction: 你在哪里？
+  opt.artifact_type.library: 库或 SDK
+  opt.artifact_type.application: 应用或工具
+  opt.artifact_type.saas: 服务后端（SaaS）
+  opt.artifact_type.model: 模型权重
+  opt.artifact_type.dataset: 数据集
+  opt.artifact_type.docs: 文档或内容
+  opt.openness_level.open: 完全开放，谁都可以随便用
+  opt.openness_level.reciprocal: 开放，但改进要回馈
+  opt.openness_level.source-available: 源码可见，限制商用
+  opt.avoid.cloud-hosting: 被云厂商做成服务售卖
+  opt.avoid.closed-fork: 被闭源 fork
+  opt.avoid.patent-litigation: 专利诉讼
+  opt.avoid.trademark-abuse: 名字或品牌被滥用
+  opt.avoid.harmful-use: 有害用途
+  opt.avoid.big-company: 大公司白嫖
+  opt.adoption_goal.enterprise: 最大化企业采纳
+  opt.adoption_goal.community: 社区贡献
+  opt.adoption_goal.monetize: 商业变现
+  opt.commercial_plan.none: 暂无计划
+  opt.commercial_plan.dual-license: 双许可
+  opt.commercial_plan.open-core: 开放核心
+  opt.commercial_plan.hosted: 托管服务
+  opt.jurisdiction.cn: 中国
+  opt.jurisdiction.eu: 欧盟
+  opt.jurisdiction.us: 美国
+  opt.jurisdiction.other: 其他
+  engine.part.avoid: 防范：{avoid}
+  engine.part.openness: 开放程度匹配：{openness}
+  engine.part.adoption: 目标：{goal}
+  engine.part.commercial: 商业计划：{plan}
+  engine.part.jurisdiction: 管辖地：{jurisdiction}
+  engine.excluded.dependency: 与依赖 {dependency} 不兼容
+  engine.excluded.artifact: 不适合这类发布物
+  advisory.needs-cla: 使用贡献者许可协议（CLA）。日后出售商业授权或更换许可证都需要它。
+  advisory.consider-dco: 通常使用开发者原创声明（DCO，“Signed-off-by”）就够了。
+  advisory.busl-change-date: 在 BSL 文件头中写明附加使用授权、变更日与变更后的许可证。
+  advisory.model-card: 在模型卡或数据集卡的元数据中写明许可证（“license:” 字段）。
+  advisory.notice-file: 添加 NOTICE 文件，再分发时须保留。
+  advisory.consult-lawyer: 发布前请律师核查依赖与商业条款。
+  advisory.network-source-link: 在网络服务中向用户提供“源代码”链接。
+  report.title: 你的许可证报告
+  report.lead: 报告由浏览器根据链接中的项目画像实时计算。分享链接即可分享报告。
+  report.profile: 项目画像
+  report.edit: 在筛选器中修改
+  report.top: 推荐
+  report.score: 得分 {score}
+  report.why: 理由
+  report.excluded: 已排除
+  report.advisories: 下一步
+  report.license-file: LICENSE 文件
+  report.header: 文件头模板
+  report.badge: README 徽章
+  report.share: 分享链接
+  report.share.copy: 复制链接
+  report.similar: 同类项目
+  report.no-text: 没有可直接复制的文本，请到官方页面获取。
+  report.invalid: 报告链接已损坏或来自旧版本。
+  report.empty: 还没有项目画像。请先使用逐项筛选或 AI 顾问。
+  chat.title: AI 许可证顾问
+  chat.lead: 描述你的项目。顾问会追问细节，规则引擎挑选许可证，顾问再用白话解释。
+  chat.placeholder: 例如：我做了一个向量数据库，怕被云厂商白嫖。
+  chat.send: 发送
+  chat.stop: 停止
+  chat.examples: 试试示例
+  chat.example.1: 我做了一个向量数据库，怕被云厂商白嫖。
+  chat.example.2: 一个小型 React 组件库，希望企业都能用。
+  chat.example.3: 我们微调了一个 7B 模型，想禁止有害用途。
+  chat.profile: 项目画像
+  chat.profile.hint: 点击取值即可修改。
+  chat.candidates: 候选许可证
+  chat.run: 生成推荐
+  chat.limit: 今天的对话次数已用完，请明天再试，或使用逐项筛选。
+  chat.error: 顾问暂时不可用，逐项筛选仍可使用。
+  chat.verify: 请确认你不是机器人。
+  chat.disclaimer: 顾问可能出错。推荐结论来自规则引擎，不构成法律意见。
+  chat.report: 打开完整报告
+  projects.title: 项目许可证图谱
+  projects.lead: 知名项目的许可证，以及每次变更背后的故事。
+  projects.filter.domain: 领域
+  projects.filter.family: 许可证家族
+  projects.filter.owner: 所属
+  projects.filter.changed: 改过协议
+  projects.count: 共 {count} 个项目
+  projects.empty: 没有符合条件的项目。
+  owner.company: 公司
+  owner.foundation: 基金会
+  owner.individual: 个人
+  owner.community: 社区
+  project.current: 当前许可证
+  project.timeline: 许可证时间线
+  project.reason: 原因
+  project.announcement: 官方公告
+  project.forks: 随后出现的分叉
+  project.fork-of: 分叉自 {name}
+  project.repo: 代码仓库
+  project.similar: 同类项目
+  project.review: 该条目由同步机器人发现，等待人工审核。
+  project.initial: 初始许可证
+  domain.database: 数据库
+  domain.frontend: 前端框架
+  domain.devops: DevOps
+  domain.ai-model: AI 模型
+  domain.language: 语言与运行时
+  domain.os: 操作系统
+  domain.web: Web 服务与后端
+  domain.tooling: 开发工具
+  domain.data: 数据与分析
+  domain.observability: 可观测性
+  domain.messaging: 消息与流处理
+  domain.cms: CMS 与应用
+  trends.title: 许可证趋势
+  trends.lead: 构建时由项目图谱聚合生成。
+  trends.family-share: 各领域许可证家族占比
+  trends.changes: 每年许可证变更数
+  trends.to-source-available: 从开源转为源码可见的项目
+  check.title: 依赖许可证检查
+  check.lead: 粘贴 package.json、go.mod、Gemfile.lock、Cargo.toml 或 requirements.txt，解析在浏览器内完成。
+  check.project-license: 你的项目许可证
+  check.input: 清单文件
+  check.run: 检查
+  check.lookup: 在线查询未知许可证（deps.dev）
+  check.col.package: 依赖包
+  check.col.license: 许可证
+  check.col.status: 状态
+  check.status.compatible: 兼容
+  check.status.conditional: 有条件
+  check.status.incompatible: 冲突
+  check.status.unknown: 未知
+  check.summary: 兼容 {ok}，有条件 {warn}，冲突 {bad}，未知 {unknown}
+  check.format: 识别格式：{format}
+  check.no-deps: 没有找到依赖。
+  check.license-hint: 可以按 “名称@版本 许可证ID” 每行一个填写，或开启在线查询。
+  notfound.title: 页面不存在
+  notfound.body: 这个页面不存在，去许可证库看看吧。

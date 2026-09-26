@@ -1,0 +1,24 @@
+---
+import type { Locale } from "@/lib/i18n";
+import { issueUrl, pageContext, REPO_URL } from "@/lib/page";
+
+interface Props {
+  locale: Locale;
+  path: string;
+}
+const { locale, path } = Astro.props;
+const { t } = pageContext(locale);
+const report = issueUrl(`Data error on ${path}`, `Page: https://opensourcelicense.org${path}\n\nWhat is wrong:\n\nSource (official text or announcement):\n`);
+---
+
+<footer class="mt-12 border-t border-border">
+  <div class="mx-auto max-w-7xl space-y-2 px-4 py-6 text-sm text-muted-foreground">
+    <p>⚠ {t("footer.disclaimer")}</p>
+    <p class="flex flex-wrap gap-x-4 gap-y-1">
+      <a href={REPO_URL} rel="noopener">{t("footer.source")}</a>
+      <a href={`${REPO_URL}/tree/main/data`} rel="noopener">{t("footer.data")}</a>
+      <a href={report} rel="noopener">{t("footer.report")}</a>
+      <span>{t("footer.cite")}</span>
+    </p>
+  </div>
+</footer>

@@ -1,0 +1,14 @@
+---
+import type { Translator } from "@/lib/i18n";
+
+interface Props {
+  t: Translator;
+  fallback: boolean;
+  reviewed: boolean;
+  isDefault: boolean;
+}
+const { t, fallback, reviewed, isDefault } = Astro.props;
+const label = fallback ? t("badge.fallback") : isDefault ? null : reviewed ? t("badge.reviewed") : t("badge.machine");
+---
+
+{label && <span class:list={["inline-block border px-1 text-sm", reviewed && !fallback ? "border-border text-muted-foreground" : "border-verdict-conditional text-verdict-conditional"]}>{label}</span>}

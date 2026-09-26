@@ -1,0 +1,67 @@
+---
+import { LOCALES, LOCALE_META } from "@/domain/locales";
+import { localizedPath, type Locale } from "@/lib/i18n";
+import { pageContext } from "@/lib/page";
+
+interface Props {
+  locale: Locale;
+  path: string;
+}
+const { locale, path } = Astro.props;
+const { cat } = pageContext(locale);
+// Pre-render the banner text in every target language; the script picks one.
+const options = LOCALES.filter((l) => l !== locale).map((l) => {
+  const strings = { ...cat.raw.ui.en?.strings, ...cat.raw.ui[l]?.strings };
+  return {
+    locale: l,
+    href: localizedPath(l, path),
+    text: (strings["lang.suggest"] ?? "").replace("{language}", LOCALE_META[l].label),
+    go: strings["lang.suggest.go"] ?? "Switch",
+    dismiss: strings["lang.suggest.dismiss"] ?? "Dismiss",
+  };
+});
+---
+
+<div data-lang-suggest data-current={locale} data-options={JSON.stringify(options)} hidden class="border-b border-border bg-muted">
+  <div class="mx-auto flex max-w-7xl flex-wrap items-center gap-3 px-4 py-2 text-sm">
+    <span data-text></span>
+    <a data-go class="bg-primary px-2 text-primary-foreground no-underline"></a>
+    <button type="button" data-dismiss class="underline"></button>
+  </div>
+</div>
+
+<script>
+  import { matchLocale } from "@/domain/locales";
+
+  const KEY = "osl:lang-choice";
+  const box = document.querySelector<HTMLElement>("[data-lang-suggest]");
+  let dismissed = false;
+  try {
+    dismissed = localStorage.getItem(KEY) !== null;
+  } catch {}
+  if (box && !dismissed) {
+    const target = matchLocale(navigator.languages ?? [navigator.language]);
+    const options = JSON.parse(box.dataset.options ?? "[]") as { locale: string; href: string; text: string; go: string; dismiss: string }[];
+    const opt = options.find((o) => o.locale === target);
+    if (target && target !== box.dataset.current && opt) {
+      box.querySelector("[data-text]")!.textContent = opt.text;
+      const go = box.querySelector<HTMLAnchorElement>("[data-go]")!;
+      go.textContent = opt.go;
+      go.href = opt.href;
+      go.lang = opt.locale;
+      const dismiss = box.querySelector<HTMLButtonElement>("[data-dismiss]")!;
+      dismiss.textContent = opt.dismiss;
+      const remember = () => {
+        try {
+          localStorage.setItem(KEY, "1");
+        } catch {}
+      };
+      go.addEventListener("click", remember);
+      dismiss.addEventListener("click", () => {
+        remember();
+        box.hidden = true;
+      });
+      box.hidden = false;
+    }
+  }
+</script>

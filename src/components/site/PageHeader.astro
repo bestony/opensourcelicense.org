@@ -1,0 +1,13 @@
+---
+interface Props {
+  title: string;
+  lead?: string;
+}
+const { title, lead } = Astro.props;
+---
+
+<header class="mb-8 space-y-2">
+  <h1 class="term-heading text-3xl text-primary md:text-4xl">{title}<span class="cursor" aria-hidden="true"></span></h1>
+  {lead && <p class="max-w-3xl text-lg text-muted-foreground">{lead}</p>}
+  <slot />
+</header>

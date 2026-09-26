@@ -1,0 +1,12 @@
+---
+import Layout from "@/layouts/main.astro";
+import { pageContext } from "@/lib/page";
+
+const { t, href } = pageContext("en");
+---
+
+<Layout title={t("notfound.title")} noindex>
+  <h1 class="term-heading mb-4 text-4xl text-primary">404 · {t("notfound.title")}</h1>
+  <p class="mb-4">{t("notfound.body")}</p>
+  <a href={href("/licenses")}>{t("nav.licenses")} →</a>
+</Layout>

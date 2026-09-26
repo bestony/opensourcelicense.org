@@ -1,25 +1,66 @@
 ---
 import { Font } from "astro:assets";
 import "@/styles/global.css";
+import Header from "@/components/site/Header.astro";
+import Footer from "@/components/site/Footer.astro";
+import LangSuggest from "@/components/site/LangSuggest.astro";
+import { DEFAULT_LOCALE, LOCALES, LOCALE_META } from "@/domain/locales";
+import { localizedPath, stripLocale, type Locale } from "@/lib/i18n";
+import { pageContext } from "@/lib/page";
 
 interface Props {
+  locale?: Locale;
   title?: string;
+  description?: string;
+  noindex?: boolean;
+  wide?: boolean;
 }
 
-const { title = "Open Source License" } = Astro.props;
+const { locale = DEFAULT_LOCALE, title, description, noindex = false, wide = false } = Astro.props;
+const ctx = pageContext(locale);
+const { t } = ctx;
+const siteName = t("site.name");
+const fullTitle = title ? `${title} · ${siteName}` : `${siteName} — ${t("site.tagline")}`;
+const desc = description ?? t("site.description");
+const { path } = stripLocale(Astro.url.pathname);
+const site = Astro.site ?? new URL("https://opensourcelicense.org");
+const canonical = new URL(localizedPath(locale, path), site).href;
+const meta = LOCALE_META[locale];
 ---
 
-<html lang="en">
+<html lang={meta.tag} dir={meta.dir}>
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="icon" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
+    <title>{fullTitle}</title>
+    <meta name="description" content={desc} />
+    <link rel="canonical" href={canonical} />
+    {
+      LOCALES.map((l) => (
+        <link rel="alternate" hreflang={LOCALE_META[l].tag} href={new URL(localizedPath(l, path), site).href} />
+      ))
+    }
+    <link rel="alternate" hreflang="x-default" href={new URL(path, site).href} />
+    {noindex && <meta name="robots" content="noindex" />}
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={desc} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content={meta.tag.replace("-", "_")} />
+    <meta name="theme-color" content="#000000" />
     <Font cssVariable="--font-vt323" preload />
-    <title>{title}</title>
+    <slot name="head" />
   </head>
-  <body>
-    <slot />
+  <body class="min-h-screen flex flex-col">
+    <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:start-2 focus:top-2 bg-primary text-primary-foreground px-2">Skip to content</a>
+    <Header locale={locale} path={path} />
+    <LangSuggest locale={locale} path={path} />
+    <main id="main" class:list={["mx-auto w-full flex-1 px-4 py-8", wide ? "max-w-7xl" : "max-w-5xl"]} data-pagefind-body>
+      <slot />
+    </main>
+    <Footer locale={locale} path={path} />
   </body>
 </html>

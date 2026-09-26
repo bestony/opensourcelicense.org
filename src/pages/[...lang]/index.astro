@@ -1,0 +1,104 @@
+---
+import Layout from "@/layouts/main.astro";
+import { FAMILY_CLASS } from "@/domain/verdict";
+import type { Locale } from "@/lib/i18n";
+import { localeStaticPaths, pageContext } from "@/lib/page";
+
+export const getStaticPaths = localeStaticPaths;
+const { locale } = Astro.props as { locale: Locale };
+const { cat, t, href, fmtDate } = pageContext(locale);
+
+const entries = [
+  { path: "/chat", title: "home.entry.chat.title", body: "home.entry.chat.body", primary: true },
+  { path: "/projects", title: "home.entry.projects.title", body: "home.entry.projects.body" },
+  { path: "/wizard", title: "home.entry.wizard.title", body: "home.entry.wizard.body" },
+];
+const familyOf = (spdx: string) => cat.licenses.get(spdx)?.family;
+const wall = cat.projectList.slice(0, 60);
+const changes = cat.projectList
+  .flatMap((p) => p.timeline.filter((e) => e.from.length > 0).map((e) => ({ p, e })))
+  .sort((a, b) => b.e.date.localeCompare(a.e.date))
+  .slice(0, 6);
+const name = (slug: string) => cat.licenses.get(slug)?.shortName ?? slug;
+---
+
+<Layout locale={locale}>
+  <section class="mb-12 space-y-4">
+    <p class="text-muted-foreground">~/opensourcelicense $ ./decide --explain</p>
+    <h1 class="text-4xl text-primary md:text-5xl">{t("home.title")}<span class="cursor" aria-hidden="true"></span></h1>
+    <p class="max-w-3xl text-xl text-muted-foreground">{t("home.lead")}</p>
+  </section>
+
+  <section class="mb-12 grid gap-4 md:grid-cols-3">
+    {
+      entries.map((e) => (
+        <a
+          href={href(e.path)}
+          class:list={[
+            "block border p-5 no-underline transition-shadow hover:shadow-lg",
+            e.primary ? "border-primary bg-primary text-primary-foreground" : "border-border",
+          ]}
+        >
+          <h2 class="mb-2 text-2xl">&gt; {t(e.title)}</h2>
+          <p class:list={[e.primary ? "" : "text-muted-foreground"]}>{t(e.body)}</p>
+        </a>
+      ))
+    }
+  </section>
+
+  {
+    wall.length > 0 && (
+      <section class="mb-12">
+        <h2 class="term-heading mb-4 text-2xl">{t("home.wall")}</h2>
+        <ul class="flex flex-wrap gap-2">
+          {wall.map((p) => {
+            const fam = familyOf(p.current[0]);
+            return (
+              <li>
+                <a
+                  href={href(`/projects/${p.slug}`)}
+                  class:list={["inline-flex items-center gap-2 border px-2 no-underline hover:bg-muted", fam ? FAMILY_CLASS[fam].border : "border-border"]}
+                  title={p.current.map(name).join(" / ")}
+                >
+                  <span aria-hidden="true" class:list={["inline-block size-2", fam ? FAMILY_CLASS[fam].bg : "bg-muted-foreground"]} />
+                  {p.name}
+                  <span class="text-sm text-muted-foreground">{p.current.map(name).join(" / ")}</span>
+                </a>
+              </li>
+            );
+          })}
+        </ul>
+        <p class="mt-3"><a href={href("/projects")}>{t("nav.projects")} →</a></p>
+      </section>
+    )
+  }
+
+  {
+    changes.length > 0 && (
+      <section class="mb-12">
+        <h2 class="term-heading mb-4 text-2xl">{t("home.changes")}</h2>
+        <ul class="divide-y divide-border border-y border-border">
+          {changes.map(({ p, e }) => (
+            <li class="flex flex-wrap items-baseline gap-x-3 py-2">
+              <span class="w-28 text-muted-foreground">{fmtDate(e.date)}</span>
+              <a href={href(`/projects/${p.slug}`)} class="text-primary">{p.name}</a>
+              <span>
+                {e.from.map(name).join(" / ")} → {e.to.map(name).join(" / ")}
+              </span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )
+  }
+
+  <section class="border border-border p-5">
+    <h2 class="mb-2 text-2xl">&gt; {t("home.scenarios")}</h2>
+    <p class="mb-3 text-muted-foreground">{t("home.scenarios.body")}</p>
+    <p class="flex flex-wrap gap-4">
+      <a href={href("/scenarios")}>{t("nav.scenarios")} →</a>
+      <a href={href("/licenses")}>{t("nav.licenses")} →</a>
+      <a href={href("/compare")}>{t("nav.compare")} →</a>
+    </p>
+  </section>
+</Layout>

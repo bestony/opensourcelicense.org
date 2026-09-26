@@ -192,3 +192,58 @@
     letter-spacing: var(--tracking-normal);
     }
 }
+/* ---- opensourcelicense.org tokens ---- */
+:root {
+    --family-permissive: oklch(0.8686 0.2776 144.4661);
+    --family-weak-copyleft: oklch(0.85 0.14 195);
+    --family-strong-copyleft: oklch(0.72 0.16 250);
+    --family-network-copyleft: oklch(0.72 0.22 320);
+    --family-source-available: oklch(0.82 0.17 75);
+    --family-model: oklch(0.72 0.17 290);
+    --family-content: oklch(0.9 0 0);
+    --verdict-allow: oklch(0.8686 0.2776 144.4661);
+    --verdict-conditional: oklch(0.82 0.17 75);
+    --verdict-deny: oklch(0.68 0.23 27);
+    --verdict-silent: oklch(0.5638 0.1872 143.2450);
+    --verdict-tbd: oklch(0.72 0.17 290);
+}
+
+@theme inline {
+    --color-family-permissive: var(--family-permissive);
+    --color-family-weak-copyleft: var(--family-weak-copyleft);
+    --color-family-strong-copyleft: var(--family-strong-copyleft);
+    --color-family-network-copyleft: var(--family-network-copyleft);
+    --color-family-source-available: var(--family-source-available);
+    --color-family-model: var(--family-model);
+    --color-family-content: var(--family-content);
+    --color-verdict-allow: var(--verdict-allow);
+    --color-verdict-conditional: var(--verdict-conditional);
+    --color-verdict-deny: var(--verdict-deny);
+    --color-verdict-silent: var(--verdict-silent);
+    --color-verdict-tbd: var(--verdict-tbd);
+}
+
+@layer base {
+  html {
+    font-size: 18px;
+    font-family: var(--font-sans), "PingFang SC", "Hiragino Sans", "Noto Sans CJK SC", "Microsoft YaHei", "Apple SD Gothic Neo", sans-serif;
+  }
+  :lang(zh), :lang(ja), :lang(ko) {
+    letter-spacing: 0.02em;
+  }
+  ::selection {
+    background: var(--primary);
+    color: var(--primary-foreground);
+  }
+  a {
+    text-underline-offset: 3px;
+  }
+}
+
+@layer components {
+  .prose-term p { margin-block: 0.5em; }
+  .term-heading::before { content: "> "; color: var(--muted-foreground); }
+  .cursor::after { content: "_"; animation: osl-blink 1s steps(1) infinite; }
+  @keyframes osl-blink { 50% { opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) { .cursor::after { animation: none; } }
+}

@@ -1,0 +1,77 @@
+---
+import { LOCALES, LOCALE_META } from "@/domain/locales";
+import { localizedPath, type Locale } from "@/lib/i18n";
+import { pageContext } from "@/lib/page";
+
+interface Props {
+  locale: Locale;
+  path: string;
+}
+const { locale, path } = Astro.props;
+const { t, href } = pageContext(locale);
+const nav = [
+  ["/licenses", "nav.licenses"],
+  ["/scenarios", "nav.scenarios"],
+  ["/projects", "nav.projects"],
+  ["/compare", "nav.compare"],
+  ["/wizard", "nav.wizard"],
+  ["/chat", "nav.chat"],
+  ["/check", "nav.check"],
+] as const;
+const active = (p: string) => path === p || path.startsWith(`${p}/`);
+---
+
+<header class="border-b border-border">
+  <div class="mx-auto flex max-w-7xl flex-wrap items-center gap-x-6 gap-y-2 px-4 py-3">
+    <a href={href("/")} class="text-xl text-primary no-underline hover:underline">
+      <span class="text-muted-foreground">$</span> opensourcelicense<span class="text-muted-foreground">.org</span>
+    </a>
+    <nav aria-label="Main" class="order-3 w-full md:order-none md:w-auto md:flex-1">
+      <ul class="flex flex-wrap gap-x-4 gap-y-1">
+        {
+          nav.map(([p, key]) => (
+            <li>
+              <a
+                href={href(p)}
+                aria-current={active(p) ? "page" : undefined}
+                class:list={[
+                  "no-underline hover:underline",
+                  active(p) ? "text-primary-foreground bg-primary px-1" : "text-foreground",
+                ]}
+              >
+                {t(key)}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+    <label class="ms-auto flex items-center gap-2 text-sm text-muted-foreground">
+      <span class="sr-only md:not-sr-only">{t("lang.switch")}</span>
+      <select
+        class="border border-border bg-background px-1 py-0.5 text-foreground"
+        data-lang-switch
+        aria-label={t("lang.switch")}
+      >
+        {
+          LOCALES.map((l) => (
+            <option value={localizedPath(l, path)} selected={l === locale} lang={LOCALE_META[l].tag}>
+              {LOCALE_META[l].label}
+            </option>
+          ))
+        }
+      </select>
+    </label>
+  </div>
+</header>
+
+<script>
+  document.querySelectorAll<HTMLSelectElement>("[data-lang-switch]").forEach((el) => {
+    el.addEventListener("change", () => {
+      try {
+        localStorage.setItem("osl:lang-choice", "1");
+      } catch {}
+      window.location.href = el.value + window.location.search + window.location.hash;
+    });
+  });
+</script>
