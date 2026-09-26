@@ -25,3 +25,6 @@ pnpm-debug.log*
 
 # wrangler
 .wrangler/
+
+# sync bot output
+sync-report.md
