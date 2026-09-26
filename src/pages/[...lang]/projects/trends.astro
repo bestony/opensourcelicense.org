@@ -1,0 +1,80 @@
+---
+import Layout from "@/layouts/main.astro";
+import PageHeader from "@/components/site/PageHeader.astro";
+import { changesByYear, familyShareByDomain, openToSourceAvailable } from "@/domain/projects";
+import { FAMILIES } from "@/domain/schema";
+import { FAMILY_CLASS } from "@/domain/verdict";
+import type { Locale } from "@/lib/i18n";
+import { localeStaticPaths, pageContext } from "@/lib/page";
+
+export const getStaticPaths = localeStaticPaths;
+const { locale } = Astro.props as { locale: Locale };
+const { cat, t, href, fmtDate } = pageContext(locale);
+const shares = familyShareByDomain(cat);
+const years = changesByYear(cat);
+const moves = openToSourceAvailable(cat);
+const maxYear = Math.max(1, ...years.map((y) => y.count));
+const name = (id: string) => cat.licenseInfo(id).name;
+const presentFamilies = FAMILIES.filter((f) => shares.some((s) => s.counts[f]));
+const segments = (s: (typeof shares)[number]) =>
+  presentFamilies
+    .filter((f) => s.counts[f])
+    .map((f) => ({ label: t(`family.${f}`), count: s.counts[f] ?? 0, pct: ((s.counts[f] ?? 0) / s.total) * 100, bg: FAMILY_CLASS[f].bg }));
+---
+
+<Layout locale={locale} title={t("trends.title")} wide>
+  <p class="mb-2"><a href={href("/projects")}>← {t("projects.title")}</a></p>
+  <PageHeader title={t("trends.title")} lead={t("trends.lead")} />
+
+  <section class="mb-12">
+    <h2 class="term-heading mb-4 text-2xl">{t("trends.family-share")}</h2>
+    <ul class="mb-4 flex flex-wrap gap-4 text-sm">
+      {presentFamilies.map((f) => <li class="flex items-center gap-1"><span class:list={["inline-block size-3", FAMILY_CLASS[f].bg]} aria-hidden="true" />{t(`family.${f}`)}</li>)}
+    </ul>
+    <div class="space-y-2">
+      {
+        shares.map((s) => (
+          <div class="grid grid-cols-[10rem_1fr_3rem] items-center gap-3">
+            <span class="truncate">{t(`domain.${s.domain}`)}</span>
+            <span class="flex h-5 overflow-hidden bg-muted" role="img" aria-label={segments(s).map((g) => `${g.label} ${g.count}`).join(", ")}>
+              {segments(s).map((g) => <span class:list={["block h-5", g.bg]} style={`width:${g.pct}%`} title={`${g.label}: ${g.count}`} />)}
+            </span>
+            <span class="text-end text-muted-foreground tabular-nums">{s.total}</span>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+
+  <section class="mb-12">
+    <h2 class="term-heading mb-4 text-2xl">{t("trends.changes")}</h2>
+    <div class="flex h-48 items-end gap-2 border-b border-border" role="img" aria-label={years.map((y) => `${y.year}: ${y.count}`).join(", ")}>
+      {
+        years.map((y) => (
+          <div class="flex flex-1 flex-col items-center justify-end gap-1">
+            <span class="text-sm tabular-nums">{y.count}</span>
+            <span class="block w-full max-w-12 bg-primary" style={`height:${(y.count / maxYear) * 9}rem`} />
+          </div>
+        ))
+      }
+    </div>
+    <div class="flex gap-2">
+      {years.map((y) => <span class="flex-1 text-center text-sm text-muted-foreground">{y.year}</span>)}
+    </div>
+  </section>
+
+  <section>
+    <h2 class="term-heading mb-4 text-2xl">{t("trends.to-source-available")}</h2>
+    <ul class="divide-y divide-border border-y border-border">
+      {
+        moves.map((m) => (
+          <li class="flex flex-wrap items-baseline gap-x-3 py-2">
+            <span class="w-28 text-muted-foreground">{fmtDate(m.date)}</span>
+            <a href={href(`/projects/${m.project.slug}`)} class="text-primary">{m.project.name}</a>
+            <span>{m.from.map(name).join(" / ")} → {m.to.map(name).join(" / ")}</span>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+</Layout>

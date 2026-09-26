@@ -13,13 +13,13 @@ const entries = [
   { path: "/projects", title: "home.entry.projects.title", body: "home.entry.projects.body" },
   { path: "/wizard", title: "home.entry.wizard.title", body: "home.entry.wizard.body" },
 ];
-const familyOf = (spdx: string) => cat.licenses.get(spdx)?.family;
+const familyOf = (id: string) => cat.licenseInfo(id).family;
 const wall = cat.projectList.slice(0, 60);
 const changes = cat.projectList
   .flatMap((p) => p.timeline.filter((e) => e.from.length > 0).map((e) => ({ p, e })))
   .sort((a, b) => b.e.date.localeCompare(a.e.date))
   .slice(0, 6);
-const name = (slug: string) => cat.licenses.get(slug)?.shortName ?? slug;
+const name = (id: string) => cat.licenseInfo(id).name;
 ---
 
 <Layout locale={locale}>

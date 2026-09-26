@@ -1,0 +1,153 @@
+---
+import Layout from "@/layouts/main.astro";
+import PageHeader from "@/components/site/PageHeader.astro";
+import FamilyTag from "@/components/site/FamilyTag.astro";
+import { similarProjects } from "@/domain/projects";
+import { FAMILY_CLASS } from "@/domain/verdict";
+import { getCatalog } from "@/lib/data";
+import { scenarioText, type Locale } from "@/lib/i18n";
+import { issueUrl, localizedStaticPaths, pageContext } from "@/lib/page";
+
+export function getStaticPaths() {
+  return localizedStaticPaths([...getCatalog().projects.keys()].map((slug) => ({ params: { slug } })));
+}
+const { locale } = Astro.props as { locale: Locale };
+const { slug } = Astro.params as { slug: string };
+const { cat, t, href, fmtDate } = pageContext(locale);
+const p = cat.projects.get(slug)!;
+const info = (id: string) => cat.licenseInfo(id);
+const lic = (id: string) => (cat.licenses.has(id) ? href(`/licenses/${id}`) : undefined);
+const parent = p.forkOf ? cat.projects.get(p.forkOf) : undefined;
+const forkedBy = cat.projectList.filter((o) => o.forkOf === slug);
+const similar = similarProjects(cat, p);
+const cases = [...cat.cells.values()].filter((c) => c.caseRef === slug);
+const report = issueUrl(`Project ${p.name} looks wrong`, `Project: ${slug}\n\nWhat is wrong:\n\nOfficial source:\n`);
+---
+
+<Layout locale={locale} title={p.name} description={`${p.name}: ${p.current.map((id) => info(id).name).join(" / ")}`}>
+  <p class="mb-2"><a href={href("/projects")}>← {t("projects.title")}</a></p>
+  <PageHeader title={p.name}>
+    <p class="text-muted-foreground">
+      {t(`domain.${p.domain}`)} · {p.ownerName ?? t(`owner.${p.owner}`)} ({t(`owner.${p.owner}`)})
+      {parent && <> · <a href={href(`/projects/${parent.slug}`)}>{t("project.fork-of", { name: parent.name })}</a></>}
+    </p>
+    {p.needsReview && <p class="border border-verdict-conditional px-2 text-verdict-conditional">{t("project.review")}</p>}
+  </PageHeader>
+
+  <section class="mb-8">
+    <h2 class="term-heading mb-3 text-2xl">{t("project.current")}</h2>
+    <ul class="flex flex-wrap gap-2">
+      {
+        p.current.map((id) => {
+          const i = info(id);
+          const url = lic(id);
+          return (
+            <li>
+              {i.family ? (
+                url ? (
+                  <a href={url} class="no-underline">
+                    <FamilyTag family={i.family} label={`${i.name} · ${t(`family.${i.family}`)}`} />
+                  </a>
+                ) : (
+                  <FamilyTag family={i.family} label={`${i.name} · ${t(`family.${i.family}`)}`} />
+                )
+              ) : (
+                i.name
+              )}
+            </li>
+          );
+        })
+      }
+    </ul>
+    <p class="mt-3 flex flex-wrap gap-4 text-sm">
+      {p.repo && <a href={`https://github.com/${p.repo}`} rel="noopener">{t("project.repo")}: {p.repo}</a>}
+      {p.hf && <a href={`https://huggingface.co/${p.hf}`} rel="noopener">Hugging Face: {p.hf}</a>}
+      {p.homepage && <a href={p.homepage} rel="noopener">{p.homepage}</a>}
+    </p>
+  </section>
+
+  {
+    p.timeline.length > 0 && (
+      <section class="mb-8">
+        <h2 class="term-heading mb-4 text-2xl">{t("project.timeline")}</h2>
+        <ol class="flex gap-0 overflow-x-auto pb-2">
+          <li class="min-w-56 flex-1 border-t-2 border-muted-foreground pe-4 pt-3">
+            <div class="text-sm text-muted-foreground">{t("project.initial")}</div>
+            <div>{p.timeline[0].from.map((id) => info(id).name).join(" / ") || "—"}</div>
+          </li>
+          {p.timeline.map((e) => (
+            <li class:list={["min-w-64 flex-1 border-t-2 pe-4 pt-3", (() => { const f = info(e.to[0]).family; return f ? FAMILY_CLASS[f].border : "border-primary"; })()]}>
+              <div class="text-sm text-muted-foreground">{fmtDate(e.date)}</div>
+              <div class="text-lg">
+                → {e.to.map((id) => info(id).name).join(" / ")}
+              </div>
+              {e.reason && (
+                <p class="text-sm" lang="en">
+                  <span class="text-muted-foreground">{t("project.reason")}:</span> {e.reason}
+                </p>
+              )}
+              <p class="text-sm">
+                <a href={e.url} rel="noopener">{t("project.announcement")} ↗</a>
+              </p>
+              {e.forks.length > 0 && (
+                <p class="text-sm">
+                  {t("project.forks")}:{" "}
+                  {e.forks.map((f, i) => (
+                    <>
+                      {i > 0 && ", "}
+                      <a href={href(`/projects/${f}`)}>{cat.projects.get(f)?.name ?? f}</a>
+                    </>
+                  ))}
+                </p>
+              )}
+            </li>
+          ))}
+        </ol>
+      </section>
+    )
+  }
+
+  {
+    forkedBy.length > 0 && (
+      <section class="mb-8">
+        <h2 class="term-heading mb-2 text-2xl">{t("project.forks")}</h2>
+        <ul class="flex flex-wrap gap-2">
+          {forkedBy.map((o) => (
+            <li><a href={href(`/projects/${o.slug}`)} class="inline-block border border-border px-2 no-underline hover:border-primary">{o.name} · {o.current.map((id) => info(id).name).join(" / ")}</a></li>
+          ))}
+        </ul>
+      </section>
+    )
+  }
+
+  {
+    cases.length > 0 && (
+      <section class="mb-8">
+        <h2 class="term-heading mb-2 text-2xl">{t("scenario.case")}</h2>
+        <ul class="space-y-1">
+          {cases.map((c) => (
+            <li><a href={href(`/scenarios/${c.scenarioId}/${c.license}`)}>{c.scenarioId} · {scenarioText(cat.raw, locale, c.scenarioId)?.value.title} × {info(c.license).name}</a></li>
+          ))}
+        </ul>
+      </section>
+    )
+  }
+
+  {
+    similar.length > 0 && (
+      <section class="mb-8">
+        <h2 class="term-heading mb-2 text-2xl">{t("project.similar")}</h2>
+        <ul class="flex flex-wrap gap-2">
+          {similar.map((o) => (
+            <li><a href={href(`/projects/${o.slug}`)} class="inline-block border border-border px-2 no-underline hover:border-primary">{o.name} <span class="text-sm text-muted-foreground">{o.current.map((id) => info(id).name).join(" / ")}</span></a></li>
+          ))}
+        </ul>
+      </section>
+    )
+  }
+
+  <p class="text-sm text-muted-foreground">
+    {p.syncedAt && <>{t("common.updated", { date: fmtDate(p.syncedAt) })} · </>}
+    <a href={report} rel="noopener">{t("footer.report")}</a>
+  </p>
+</Layout>
