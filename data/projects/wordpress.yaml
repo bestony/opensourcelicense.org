@@ -1,0 +1,7 @@
+name: WordPress
+domain: cms
+owner: foundation
+ownerName: WordPress Foundation
+repo: WordPress/WordPress
+current:
+  - gpl-2.0

@@ -1,0 +1,9 @@
+name: Stable Diffusion v1
+domain: ai-model
+owner: company
+ownerName: CompVis / Stability AI
+hf: CompVis/stable-diffusion-v1-4
+current:
+  - openrail-m
+tags:
+  - model-weights

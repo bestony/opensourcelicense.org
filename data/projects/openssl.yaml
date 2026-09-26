@@ -1,0 +1,16 @@
+name: OpenSSL
+domain: tooling
+owner: foundation
+ownerName: OpenSSL Foundation
+repo: openssl/openssl
+current:
+  - apache-2.0
+timeline:
+  - forks: []
+    date: 2021-09-07
+    from:
+      - openssl
+    to:
+      - apache-2.0
+    reason: OpenSSL 3.0 moves to a standard license with a patent grant.
+    url: https://www.openssl.org/blog/blog/2021/09/07/OpenSSL3.Final/

@@ -1,0 +1,7 @@
+name: Visual Studio Code (Code - OSS)
+domain: tooling
+owner: company
+ownerName: Microsoft
+repo: microsoft/vscode
+current:
+  - mit

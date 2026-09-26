@@ -1,0 +1,7 @@
+name: Nextcloud Server
+domain: cms
+owner: company
+ownerName: Nextcloud GmbH
+repo: nextcloud/server
+current:
+  - agpl-3.0

@@ -8,8 +8,10 @@ cells:
     verdict: allow
   apache-2.0:
     verdict: allow
+    caseRef: pekko
   mpl-2.0:
     verdict: allow
+    caseRef: opentofu
   lgpl-3.0:
     verdict: allow
   gpl-3.0:

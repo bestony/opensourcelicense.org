@@ -1,0 +1,7 @@
+name: Git
+domain: tooling
+owner: community
+ownerName: Git contributors
+repo: git/git
+current:
+  - gpl-2.0

@@ -1,0 +1,7 @@
+name: Android Open Source Project
+domain: os
+owner: company
+ownerName: Google
+homepage: https://source.android.com/docs/setup/about/licenses
+current:
+  - apache-2.0

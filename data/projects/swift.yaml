@@ -1,0 +1,7 @@
+name: Swift
+domain: language
+owner: company
+ownerName: Apple
+repo: swiftlang/swift
+current:
+  - apache-2.0

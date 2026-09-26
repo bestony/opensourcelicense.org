@@ -1,0 +1,7 @@
+name: jQuery
+domain: frontend
+owner: foundation
+ownerName: OpenJS Foundation
+repo: jquery/jquery
+current:
+  - mit

@@ -1,0 +1,7 @@
+name: etcd
+domain: database
+owner: foundation
+ownerName: CNCF
+repo: etcd-io/etcd
+current:
+  - apache-2.0

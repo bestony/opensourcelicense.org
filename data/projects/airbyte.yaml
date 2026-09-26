@@ -1,0 +1,18 @@
+name: Airbyte
+domain: data
+owner: company
+ownerName: Airbyte
+repo: airbytehq/airbyte
+current:
+  - elv2
+tags:
+  - cloud-vendor
+timeline:
+  - forks: []
+    date: 2021-09-27
+    from:
+      - mit
+    to:
+      - elv2
+    reason: Prevent competitors from offering Airbyte as a managed service.
+    url: https://airbyte.com/blog/a-new-license-to-future-proof-the-commoditization-of-data-integration

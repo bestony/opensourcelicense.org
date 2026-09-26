@@ -1,0 +1,7 @@
+name: Drupal
+domain: cms
+owner: community
+ownerName: Drupal community
+homepage: https://www.drupal.org/about/licensing
+current:
+  - gpl-2.0

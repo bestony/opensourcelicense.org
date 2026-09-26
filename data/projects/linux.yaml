@@ -1,0 +1,7 @@
+name: Linux kernel
+domain: os
+owner: community
+ownerName: Linux kernel community
+repo: torvalds/linux
+current:
+  - gpl-2.0

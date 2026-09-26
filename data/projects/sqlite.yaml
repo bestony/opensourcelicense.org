@@ -1,0 +1,7 @@
+name: SQLite
+domain: database
+owner: individual
+ownerName: D. Richard Hipp
+homepage: https://sqlite.org/copyright.html
+current:
+  - public-domain

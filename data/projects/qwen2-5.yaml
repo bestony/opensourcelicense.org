@@ -1,0 +1,9 @@
+name: Qwen2.5-7B
+domain: ai-model
+owner: company
+ownerName: Alibaba Cloud
+hf: Qwen/Qwen2.5-7B-Instruct
+current:
+  - apache-2.0
+tags:
+  - model-weights

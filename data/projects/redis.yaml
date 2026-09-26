@@ -1,0 +1,34 @@
+name: Redis
+domain: database
+owner: company
+ownerName: Redis Ltd.
+repo: redis/redis
+current:
+  - agpl-3.0
+  - rsalv2
+  - sspl-1.0
+tags:
+  - cloud-vendor
+timeline:
+  - forks:
+      - valkey
+    date: 2024-03-20
+    from:
+      - bsd-3-clause
+    to:
+      - rsalv2
+      - sspl-1.0
+    reason: Stop cloud providers from offering Redis as a service without
+      contributing back.
+    url: https://redis.io/blog/redis-adopts-dual-source-available-licensing/
+  - forks: []
+    date: 2025-05-01
+    from:
+      - rsalv2
+      - sspl-1.0
+    to:
+      - agpl-3.0
+      - rsalv2
+      - sspl-1.0
+    reason: Redis 8 adds AGPLv3 as a third option, an OSI-approved license.
+    url: https://redis.io/blog/agplv3/

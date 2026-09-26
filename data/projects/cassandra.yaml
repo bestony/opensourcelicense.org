@@ -1,0 +1,7 @@
+name: Apache Cassandra
+domain: database
+owner: foundation
+ownerName: Apache Software Foundation
+repo: apache/cassandra
+current:
+  - apache-2.0

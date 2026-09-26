@@ -1,0 +1,9 @@
+name: MySQL
+domain: database
+owner: company
+ownerName: Oracle
+repo: mysql/mysql-server
+current:
+  - gpl-2.0
+tags:
+  - dual-license

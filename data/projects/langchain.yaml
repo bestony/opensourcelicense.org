@@ -1,0 +1,7 @@
+name: LangChain
+domain: ai-model
+owner: company
+ownerName: LangChain
+repo: langchain-ai/langchain
+current:
+  - mit

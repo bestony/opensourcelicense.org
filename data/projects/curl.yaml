@@ -1,0 +1,7 @@
+name: curl
+domain: tooling
+owner: individual
+ownerName: Daniel Stenberg
+repo: curl/curl
+current:
+  - curl

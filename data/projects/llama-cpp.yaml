@@ -1,0 +1,7 @@
+name: llama.cpp
+domain: ai-model
+owner: community
+ownerName: ggml-org
+repo: ggml-org/llama.cpp
+current:
+  - mit

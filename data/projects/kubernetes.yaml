@@ -1,0 +1,7 @@
+name: Kubernetes
+domain: devops
+owner: foundation
+ownerName: CNCF
+repo: kubernetes/kubernetes
+current:
+  - apache-2.0

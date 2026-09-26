@@ -1,0 +1,7 @@
+name: Supabase
+domain: web
+owner: company
+ownerName: Supabase
+repo: supabase/supabase
+current:
+  - apache-2.0

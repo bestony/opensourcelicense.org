@@ -1,0 +1,18 @@
+name: MongoDB
+domain: database
+owner: company
+ownerName: MongoDB Inc.
+repo: mongodb/mongo
+current:
+  - sspl-1.0
+tags:
+  - cloud-vendor
+timeline:
+  - forks: []
+    date: 2018-10-16
+    from:
+      - agpl-3.0
+    to:
+      - sspl-1.0
+    reason: AGPL did not stop cloud providers from offering MongoDB as a service.
+    url: https://www.mongodb.com/legal/licensing/server-side-public-license/faq

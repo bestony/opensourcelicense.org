@@ -1,0 +1,9 @@
+name: Valkey
+domain: database
+owner: foundation
+ownerName: Linux Foundation
+repo: valkey-io/valkey
+homepage: https://valkey.io/
+current:
+  - bsd-3-clause
+forkOf: redis

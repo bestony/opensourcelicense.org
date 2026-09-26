@@ -6,8 +6,10 @@ cells:
     verdict: allow
   bsd-3-clause:
     verdict: allow
+    caseRef: redis
   apache-2.0:
     verdict: allow
+    caseRef: elasticsearch
   mpl-2.0:
     verdict: allow
   lgpl-3.0:
@@ -20,17 +22,21 @@ cells:
     verdict: conditional
     clause:
       ref: §13 Remote Network Interaction
+    caseRef: grafana
   mulanpsl-2.0:
     verdict: allow
   sspl-1.0:
     verdict: conditional
     clause:
       ref: §13 Offering the Program as a Service
+    caseRef: mongodb
   busl-1.1:
     verdict: deny
     clause:
       ref: Additional Use Grant
+    caseRef: cockroachdb
   elv2:
     verdict: deny
     clause:
       ref: Limitations (managed service)
+    caseRef: airbyte

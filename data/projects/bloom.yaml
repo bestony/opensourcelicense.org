@@ -1,0 +1,9 @@
+name: BLOOM
+domain: ai-model
+owner: community
+ownerName: BigScience
+hf: bigscience/bloom
+current:
+  - bloom-rail-1.0
+tags:
+  - model-weights

@@ -1,0 +1,9 @@
+name: Common Voice
+domain: data
+owner: foundation
+ownerName: Mozilla Foundation
+homepage: https://commonvoice.mozilla.org/
+current:
+  - cc0-1.0
+tags:
+  - dataset

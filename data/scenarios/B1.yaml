@@ -6,6 +6,7 @@ cells:
     verdict: silent
   bsd-3-clause:
     verdict: silent
+    caseRef: react
   apache-2.0:
     verdict: deny
     clause:

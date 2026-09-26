@@ -18,6 +18,7 @@ cells:
     verdict: conditional
     clause:
       ref: §13
+    caseRef: minio
   mulanpsl-2.0:
     verdict: allow
   sspl-1.0:

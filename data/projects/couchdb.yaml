@@ -1,0 +1,7 @@
+name: Apache CouchDB
+domain: database
+owner: foundation
+ownerName: Apache Software Foundation
+repo: apache/couchdb
+current:
+  - apache-2.0

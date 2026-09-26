@@ -6,10 +6,13 @@ cells:
     verdict: conditional
   bsd-3-clause:
     verdict: conditional
+    caseRef: redis
   apache-2.0:
     verdict: conditional
+    caseRef: elasticsearch
   mpl-2.0:
     verdict: conditional
+    caseRef: terraform
   lgpl-3.0:
     verdict: deny
   gpl-3.0:

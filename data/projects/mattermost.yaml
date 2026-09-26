@@ -1,0 +1,9 @@
+name: Mattermost
+domain: cms
+owner: company
+ownerName: Mattermost
+repo: mattermost/mattermost
+current:
+  - agpl-3.0
+tags:
+  - open-core

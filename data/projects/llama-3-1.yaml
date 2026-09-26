@@ -1,0 +1,9 @@
+name: Llama 3.1
+domain: ai-model
+owner: company
+ownerName: Meta
+hf: meta-llama/Llama-3.1-8B
+current:
+  - llama
+tags:
+  - model-weights

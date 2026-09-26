@@ -1,0 +1,9 @@
+name: Neo4j Community Edition
+domain: database
+owner: company
+ownerName: Neo4j
+repo: neo4j/neo4j
+current:
+  - gpl-3.0
+tags:
+  - open-core

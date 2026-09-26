@@ -8,6 +8,7 @@ import { basename, join } from "node:path";
 import { parse } from "yaml";
 import type { RawData } from "@/domain/catalog";
 import {
+  aliasSchema,
   compatSchema,
   engineRulesSchema,
   licenseSchema,
@@ -18,7 +19,7 @@ import {
   scenarioTextSchema,
   uiSchema,
 } from "@/domain/schema";
-import type { z } from "astro/zod";
+import { z } from "astro/zod";
 
 export class DataError extends Error {
   constructor(
@@ -72,5 +73,6 @@ export function loadRawData(root = "data"): RawData {
     ui,
     rules: readYaml(join(root, "rules/engine.yaml"), engineRulesSchema),
     compat: readYaml(join(root, "rules/compat.yaml"), compatSchema),
+    aliases: readYaml(join(root, "license-aliases.yaml"), z.record(z.string(), aliasSchema)),
   };
 }

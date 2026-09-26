@@ -1,0 +1,7 @@
+name: Svelte
+domain: frontend
+owner: community
+ownerName: Svelte contributors
+repo: sveltejs/svelte
+current:
+  - mit

@@ -1,0 +1,26 @@
+name: Sentry
+domain: observability
+owner: company
+ownerName: Sentry
+repo: getsentry/sentry
+current:
+  - fsl-1.1
+tags:
+  - cloud-vendor
+timeline:
+  - forks: []
+    date: 2019-11-06
+    from:
+      - bsd-3-clause
+    to:
+      - busl-1.1
+    reason: Stop companies from reselling Sentry as a hosted service.
+    url: https://blog.sentry.io/relicensing-sentry/
+  - forks: []
+    date: 2023-11-17
+    from:
+      - busl-1.1
+    to:
+      - fsl-1.1
+    reason: A simpler license with a two-year conversion to Apache-2.0.
+    url: https://blog.sentry.io/introducing-the-functional-source-license-freedom-without-free-riding/

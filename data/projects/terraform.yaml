@@ -1,0 +1,20 @@
+name: Terraform
+domain: devops
+owner: company
+ownerName: HashiCorp
+repo: hashicorp/terraform
+current:
+  - busl-1.1
+tags:
+  - cloud-vendor
+timeline:
+  - forks:
+      - opentofu
+    date: 2023-08-10
+    from:
+      - mpl-2.0
+    to:
+      - busl-1.1
+    reason: Stop vendors from building competing commercial products on HashiCorp's
+      work.
+    url: https://www.hashicorp.com/blog/hashicorp-adopts-business-source-license

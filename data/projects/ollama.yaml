@@ -1,0 +1,7 @@
+name: Ollama
+domain: ai-model
+owner: company
+ownerName: Ollama
+repo: ollama/ollama
+current:
+  - mit

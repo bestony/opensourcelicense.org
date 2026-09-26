@@ -1,0 +1,7 @@
+name: Go
+domain: language
+owner: company
+ownerName: Google
+repo: golang/go
+current:
+  - bsd-3-clause

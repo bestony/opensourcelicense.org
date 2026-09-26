@@ -1,0 +1,9 @@
+name: Wikipedia text
+domain: data
+owner: foundation
+ownerName: Wikimedia Foundation
+homepage: https://en.wikipedia.org/wiki/Wikipedia:Copyrights
+current:
+  - cc-by-sa-4.0
+tags:
+  - dataset

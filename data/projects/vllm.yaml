@@ -1,0 +1,7 @@
+name: vLLM
+domain: ai-model
+owner: foundation
+ownerName: PyTorch Foundation
+repo: vllm-project/vllm
+current:
+  - apache-2.0

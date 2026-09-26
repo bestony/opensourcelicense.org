@@ -1,0 +1,18 @@
+name: n8n
+domain: tooling
+owner: company
+ownerName: n8n GmbH
+repo: n8n-io/n8n
+current:
+  - sustainable-use
+tags:
+  - fair-code
+timeline:
+  - forks: []
+    date: 2022-03-17
+    from:
+      - apache-2.0-commons-clause
+    to:
+      - sustainable-use
+    reason: Clearer wording than Apache-2.0 with the Commons Clause.
+    url: https://blog.n8n.io/announcing-new-sustainable-use-license/

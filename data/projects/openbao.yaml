@@ -1,0 +1,8 @@
+name: OpenBao
+domain: devops
+owner: foundation
+ownerName: Linux Foundation
+repo: openbao/openbao
+current:
+  - mpl-2.0
+forkOf: vault

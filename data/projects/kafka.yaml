@@ -1,0 +1,7 @@
+name: Apache Kafka
+domain: messaging
+owner: foundation
+ownerName: Apache Software Foundation
+repo: apache/kafka
+current:
+  - apache-2.0

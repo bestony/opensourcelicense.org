@@ -1,0 +1,7 @@
+name: Next.js
+domain: frontend
+owner: company
+ownerName: Vercel
+repo: vercel/next.js
+current:
+  - mit

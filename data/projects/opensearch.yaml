@@ -1,0 +1,9 @@
+name: OpenSearch
+domain: database
+owner: foundation
+ownerName: OpenSearch Software Foundation
+repo: opensearch-project/OpenSearch
+homepage: https://opensearch.org/
+current:
+  - apache-2.0
+forkOf: elasticsearch

@@ -1,0 +1,7 @@
+name: ClickHouse
+domain: database
+owner: company
+ownerName: ClickHouse Inc.
+repo: ClickHouse/ClickHouse
+current:
+  - apache-2.0

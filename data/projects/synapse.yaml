@@ -1,0 +1,16 @@
+name: Synapse (Matrix)
+domain: messaging
+owner: company
+ownerName: Element
+repo: element-hq/synapse
+current:
+  - agpl-3.0
+timeline:
+  - forks: []
+    date: 2023-11-06
+    from:
+      - apache-2.0
+    to:
+      - agpl-3.0
+    reason: Make commercial users who build on Element's work contribute back.
+    url: https://element.io/blog/element-to-adopt-agplv3/

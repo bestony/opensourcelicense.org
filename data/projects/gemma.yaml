@@ -1,0 +1,9 @@
+name: Gemma
+domain: ai-model
+owner: company
+ownerName: Google
+hf: google/gemma-7b
+current:
+  - gemma
+tags:
+  - model-weights

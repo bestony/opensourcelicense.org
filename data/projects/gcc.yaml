@@ -1,0 +1,7 @@
+name: GCC
+domain: tooling
+owner: foundation
+ownerName: Free Software Foundation
+repo: gcc-mirror/gcc
+current:
+  - gpl-3.0

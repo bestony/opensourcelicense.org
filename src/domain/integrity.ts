@@ -89,8 +89,18 @@ export function validateCatalog(cat: Catalog, opts: IntegrityOptions): Issue[] {
         if (!cat.licenses.has(l)) add("error", "rules.unknown-license", "data/rules/engine.yaml", `${section}.${k}: "${l}"`);
 
   // Projects: references.
+  for (const alias of Object.keys(cat.raw.aliases))
+    if (cat.licenses.has(alias)) add("error", "alias.shadows-license", "data/license-aliases.yaml", `"${alias}" is already a license`);
   for (const p of cat.projectList) {
     const path = `data/projects/${p.slug}.yaml`;
+    const ids = [...p.current, ...p.timeline.flatMap((e) => [...e.from, ...e.to])];
+    for (const id of new Set(ids))
+      if (!cat.licenseInfo(id).known) add("error", "project.unknown-license", path, `license "${id}" is neither a license nor an alias`);
+    for (let i = 1; i < p.timeline.length; i++)
+      if (p.timeline[i].date < p.timeline[i - 1].date) add("error", "project.timeline-order", path, "timeline must be sorted by date");
+    const lastTo = p.timeline.at(-1)?.to;
+    if (lastTo && [...lastTo].sort().join() !== [...p.current].sort().join())
+      add("warn", "project.current-mismatch", path, "current license differs from the last timeline entry");
     if (p.forkOf && !cat.projects.has(p.forkOf)) add("error", "project.unknown-fork-of", path, `forkOf "${p.forkOf}"`);
     for (const ev of p.timeline)
       for (const f of ev.forks)

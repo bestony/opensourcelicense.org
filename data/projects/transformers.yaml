@@ -1,0 +1,7 @@
+name: Hugging Face Transformers
+domain: ai-model
+owner: company
+ownerName: Hugging Face
+repo: huggingface/transformers
+current:
+  - apache-2.0

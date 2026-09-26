@@ -1,0 +1,9 @@
+name: GitLab Community Edition
+domain: devops
+owner: company
+ownerName: GitLab
+repo: gitlabhq/gitlabhq
+current:
+  - mit
+tags:
+  - open-core

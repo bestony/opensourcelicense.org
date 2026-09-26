@@ -1,0 +1,33 @@
+name: Elasticsearch
+domain: database
+owner: company
+ownerName: Elastic
+repo: elastic/elasticsearch
+current:
+  - agpl-3.0
+  - sspl-1.0
+  - elv2
+tags:
+  - cloud-vendor
+timeline:
+  - forks:
+      - opensearch
+    date: 2021-01-14
+    from:
+      - apache-2.0
+    to:
+      - sspl-1.0
+      - elv2
+    reason: Stop cloud providers from offering Elasticsearch as a service.
+    url: https://www.elastic.co/blog/licensing-change
+  - forks: []
+    date: 2024-08-29
+    from:
+      - sspl-1.0
+      - elv2
+    to:
+      - agpl-3.0
+      - sspl-1.0
+      - elv2
+    reason: Adds AGPLv3 as an open source option.
+    url: https://www.elastic.co/blog/elasticsearch-is-open-source-again

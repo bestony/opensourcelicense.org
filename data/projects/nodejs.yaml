@@ -1,0 +1,7 @@
+name: Node.js
+domain: language
+owner: foundation
+ownerName: OpenJS Foundation
+repo: nodejs/node
+current:
+  - mit

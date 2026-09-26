@@ -1,0 +1,7 @@
+name: Apache HTTP Server
+domain: web
+owner: foundation
+ownerName: Apache Software Foundation
+repo: apache/httpd
+current:
+  - apache-2.0

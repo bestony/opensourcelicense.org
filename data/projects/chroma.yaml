@@ -1,0 +1,9 @@
+name: Chroma
+domain: database
+owner: company
+ownerName: Chroma
+repo: chroma-core/chroma
+current:
+  - apache-2.0
+tags:
+  - vector

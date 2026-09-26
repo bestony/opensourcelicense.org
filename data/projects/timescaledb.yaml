@@ -1,0 +1,10 @@
+name: TimescaleDB
+domain: database
+owner: company
+ownerName: Timescale
+repo: timescale/timescaledb
+current:
+  - apache-2.0
+  - tsl
+tags:
+  - open-core

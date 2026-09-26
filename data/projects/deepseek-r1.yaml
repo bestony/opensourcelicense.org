@@ -1,0 +1,9 @@
+name: DeepSeek-R1
+domain: ai-model
+owner: company
+ownerName: DeepSeek
+hf: deepseek-ai/DeepSeek-R1
+current:
+  - mit
+tags:
+  - model-weights

@@ -1,0 +1,7 @@
+name: Meilisearch
+domain: database
+owner: company
+ownerName: Meili
+repo: meilisearch/meilisearch
+current:
+  - mit

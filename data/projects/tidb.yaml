@@ -1,0 +1,7 @@
+name: TiDB
+domain: database
+owner: company
+ownerName: PingCAP
+repo: pingcap/tidb
+current:
+  - apache-2.0

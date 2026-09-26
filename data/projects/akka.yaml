@@ -1,0 +1,17 @@
+name: Akka
+domain: tooling
+owner: company
+ownerName: Lightbend
+repo: akka/akka
+current:
+  - busl-1.1
+timeline:
+  - forks:
+      - pekko
+    date: 2022-09-07
+    from:
+      - apache-2.0
+    to:
+      - busl-1.1
+    reason: Fund development by charging large commercial users.
+    url: https://www.lightbend.com/blog/why-we-are-changing-the-license-for-akka

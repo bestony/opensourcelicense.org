@@ -1,0 +1,7 @@
+name: RabbitMQ
+domain: messaging
+owner: company
+ownerName: Broadcom
+repo: rabbitmq/rabbitmq-server
+current:
+  - mpl-2.0

@@ -1,0 +1,9 @@
+name: Milvus
+domain: database
+owner: foundation
+ownerName: LF AI & Data
+repo: milvus-io/milvus
+current:
+  - apache-2.0
+tags:
+  - vector

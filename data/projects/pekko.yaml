@@ -1,0 +1,9 @@
+name: Apache Pekko
+domain: tooling
+owner: foundation
+ownerName: Apache Software Foundation
+repo: apache/pekko
+homepage: https://pekko.apache.org/
+current:
+  - apache-2.0
+forkOf: akka

@@ -1,0 +1,7 @@
+name: Caddy
+domain: web
+owner: company
+ownerName: ZeroSSL
+repo: caddyserver/caddy
+current:
+  - apache-2.0

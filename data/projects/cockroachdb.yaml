@@ -1,0 +1,26 @@
+name: CockroachDB
+domain: database
+owner: company
+ownerName: Cockroach Labs
+repo: cockroachdb/cockroach
+current:
+  - cockroach-csl
+tags:
+  - cloud-vendor
+timeline:
+  - forks: []
+    date: 2019-06-04
+    from:
+      - apache-2.0
+    to:
+      - busl-1.1
+    reason: Prevent cloud providers from selling CockroachDB as a service.
+    url: https://www.cockroachlabs.com/blog/oss-relicensing-cockroachdb/
+  - forks: []
+    date: 2024-08-15
+    from:
+      - busl-1.1
+    to:
+      - cockroach-csl
+    reason: Single enterprise edition with a free tier for small companies.
+    url: https://www.cockroachlabs.com/blog/enterprise-license-announcement/

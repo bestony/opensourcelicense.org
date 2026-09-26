@@ -1,0 +1,15 @@
+name: Grafana Loki
+domain: observability
+owner: company
+ownerName: Grafana Labs
+repo: grafana/loki
+current:
+  - agpl-3.0
+timeline:
+  - forks: []
+    date: 2021-04-20
+    from:
+      - apache-2.0
+    to:
+      - agpl-3.0
+    url: https://grafana.com/blog/2021/04/20/grafana-loki-tempo-relicensing-to-agplv3/

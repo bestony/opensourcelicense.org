@@ -1,0 +1,7 @@
+name: Jenkins
+domain: devops
+owner: foundation
+ownerName: CD Foundation
+repo: jenkinsci/jenkins
+current:
+  - mit

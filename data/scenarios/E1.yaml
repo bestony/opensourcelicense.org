@@ -14,6 +14,7 @@ cells:
     verdict: deny
     clause:
       ref: Attachment A
+    caseRef: stable-diffusion
   cc-by-4.0:
     verdict: allow
   cc-by-nc-4.0:

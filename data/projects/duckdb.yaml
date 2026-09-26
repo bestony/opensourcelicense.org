@@ -1,0 +1,7 @@
+name: DuckDB
+domain: database
+owner: foundation
+ownerName: DuckDB Foundation
+repo: duckdb/duckdb
+current:
+  - mit

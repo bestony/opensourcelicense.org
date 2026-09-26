@@ -1,0 +1,9 @@
+name: Phi-3
+domain: ai-model
+owner: company
+ownerName: Microsoft
+hf: microsoft/Phi-3-mini-4k-instruct
+current:
+  - mit
+tags:
+  - model-weights

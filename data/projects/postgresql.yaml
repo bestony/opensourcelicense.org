@@ -1,0 +1,7 @@
+name: PostgreSQL
+domain: database
+owner: community
+ownerName: PostgreSQL Global Development Group
+homepage: https://www.postgresql.org/about/licence/
+current:
+  - postgresql

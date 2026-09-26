@@ -10,6 +10,7 @@ cells:
     verdict: conditional
     clause:
       ref: §2 Additional Commercial Terms
+    caseRef: llama-3-1
   openrail-m:
     verdict: allow
   cc-by-4.0:

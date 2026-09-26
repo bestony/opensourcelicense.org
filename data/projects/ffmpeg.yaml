@@ -1,0 +1,7 @@
+name: FFmpeg
+domain: tooling
+owner: community
+ownerName: FFmpeg developers
+repo: FFmpeg/FFmpeg
+current:
+  - lgpl-2.1

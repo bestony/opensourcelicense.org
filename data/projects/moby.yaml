@@ -1,0 +1,7 @@
+name: Moby (Docker Engine)
+domain: devops
+owner: company
+ownerName: Docker
+repo: moby/moby
+current:
+  - apache-2.0

@@ -139,6 +139,12 @@ export const engineRulesSchema = z.object({
   topN: z.number().int().positive().default(3),
 });
 
+export const aliasSchema = z.object({
+  name: z.string().min(1),
+  family,
+  spdx: z.string().optional(),
+});
+
 export const compatSchema = z.object({
   classes: z.record(z.string(), z.array(z.string())),
   rules: z.record(
@@ -162,6 +168,7 @@ export type ScenarioText = z.infer<typeof scenarioTextSchema>;
 export type UiData = z.infer<typeof uiSchema>;
 export type EngineRules = z.infer<typeof engineRulesSchema>;
 export type CompatData = z.infer<typeof compatSchema>;
+export type AliasData = z.infer<typeof aliasSchema>;
 export type Family = (typeof FAMILIES)[number];
 export type Verdict = (typeof VERDICTS)[number];
 export type MatrixId = (typeof MATRIX_IDS)[number];

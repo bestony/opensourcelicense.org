@@ -1,0 +1,7 @@
+name: TensorFlow
+domain: ai-model
+owner: company
+ownerName: Google
+repo: tensorflow/tensorflow
+current:
+  - apache-2.0

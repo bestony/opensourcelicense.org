@@ -3,6 +3,7 @@
  * engine and the worker is O(1) through Maps built once here.
  */
 import type {
+  AliasData,
   CellData,
   CompatData,
   EngineRules,
@@ -29,6 +30,8 @@ export interface RawData {
   ui: Record<string, UiData>;
   rules: EngineRules;
   compat: CompatData;
+  /** licenses referenced by projects that are not in the matrices */
+  aliases: Record<string, AliasData>;
 }
 
 export interface License extends LicenseData {
@@ -65,6 +68,8 @@ export interface Catalog {
   casesByCell: Map<string, string[]>;
   rules: EngineRules;
   compat: CompatData;
+  /** display info for any license id used by projects (catalog licenses + aliases) */
+  licenseInfo: (id: string) => { name: string; family?: License["family"]; known: boolean };
 }
 
 export const cellKey = (scenarioId: string, license: string) => `${scenarioId}:${license}`;
@@ -136,5 +141,12 @@ export function buildCatalog(raw: RawData): Catalog {
     casesByCell,
     rules: raw.rules,
     compat: raw.compat,
+    licenseInfo: (id) => {
+      const l = licenses.get(id);
+      if (l) return { name: l.shortName, family: l.family, known: true };
+      const a = raw.aliases[id];
+      if (a) return { name: a.name, family: a.family, known: true };
+      return { name: id, known: false };
+    },
   };
 }

@@ -1,0 +1,9 @@
+name: OpenTofu
+domain: devops
+owner: foundation
+ownerName: Linux Foundation
+repo: opentofu/opentofu
+homepage: https://opentofu.org/
+current:
+  - mpl-2.0
+forkOf: terraform

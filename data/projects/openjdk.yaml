@@ -1,0 +1,7 @@
+name: OpenJDK
+domain: language
+owner: company
+ownerName: Oracle
+repo: openjdk/jdk
+current:
+  - gpl-2.0-with-classpath-exception

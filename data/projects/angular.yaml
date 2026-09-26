@@ -1,0 +1,7 @@
+name: Angular
+domain: frontend
+owner: company
+ownerName: Google
+repo: angular/angular
+current:
+  - mit

@@ -1,0 +1,8 @@
+name: OpenSearch Dashboards
+domain: observability
+owner: foundation
+ownerName: OpenSearch Software Foundation
+repo: opensearch-project/OpenSearch-Dashboards
+current:
+  - apache-2.0
+forkOf: kibana

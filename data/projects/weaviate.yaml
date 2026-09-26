@@ -1,0 +1,9 @@
+name: Weaviate
+domain: database
+owner: company
+ownerName: Weaviate
+repo: weaviate/weaviate
+current:
+  - bsd-3-clause
+tags:
+  - vector

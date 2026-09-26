@@ -1,0 +1,7 @@
+name: PyTorch
+domain: ai-model
+owner: foundation
+ownerName: PyTorch Foundation
+repo: pytorch/pytorch
+current:
+  - bsd-3-clause

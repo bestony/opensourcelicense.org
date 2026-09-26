@@ -1,0 +1,7 @@
+name: NATS Server
+domain: messaging
+owner: foundation
+ownerName: CNCF
+repo: nats-io/nats-server
+current:
+  - apache-2.0

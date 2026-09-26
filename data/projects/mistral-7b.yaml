@@ -1,0 +1,9 @@
+name: Mistral 7B
+domain: ai-model
+owner: company
+ownerName: Mistral AI
+hf: mistralai/Mistral-7B-v0.1
+current:
+  - apache-2.0
+tags:
+  - model-weights

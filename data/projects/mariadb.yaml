@@ -1,0 +1,8 @@
+name: MariaDB Server
+domain: database
+owner: foundation
+ownerName: MariaDB Foundation
+repo: MariaDB/server
+current:
+  - gpl-2.0
+forkOf: mysql

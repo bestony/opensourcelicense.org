@@ -1,0 +1,7 @@
+name: FreeBSD
+domain: os
+owner: foundation
+ownerName: FreeBSD Foundation
+repo: freebsd/freebsd-src
+current:
+  - bsd-2-clause

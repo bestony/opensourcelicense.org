@@ -1,0 +1,17 @@
+name: LLVM
+domain: tooling
+owner: foundation
+ownerName: LLVM Foundation
+repo: llvm/llvm-project
+current:
+  - apache-2.0-with-llvm-exception
+timeline:
+  - forks: []
+    date: 2019-09-19
+    from:
+      - ncsa
+    to:
+      - apache-2.0-with-llvm-exception
+    reason: Add an explicit patent grant while keeping GPL-2.0 compatibility through
+      the exception.
+    url: https://llvm.org/foundation/relicensing/

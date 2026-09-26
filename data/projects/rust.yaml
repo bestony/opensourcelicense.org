@@ -1,0 +1,8 @@
+name: Rust
+domain: language
+owner: foundation
+ownerName: Rust Foundation
+repo: rust-lang/rust
+current:
+  - mit
+  - apache-2.0

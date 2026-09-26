@@ -1,0 +1,7 @@
+name: CPython
+domain: language
+owner: foundation
+ownerName: Python Software Foundation
+repo: python/cpython
+current:
+  - python-2.0

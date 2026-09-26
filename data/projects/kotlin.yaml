@@ -1,0 +1,7 @@
+name: Kotlin
+domain: language
+owner: company
+ownerName: JetBrains
+repo: JetBrains/kotlin
+current:
+  - apache-2.0

@@ -1,0 +1,7 @@
+name: TypeScript
+domain: language
+owner: company
+ownerName: Microsoft
+repo: microsoft/TypeScript
+current:
+  - apache-2.0

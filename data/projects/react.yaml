@@ -1,0 +1,16 @@
+name: React
+domain: frontend
+owner: company
+ownerName: Meta
+repo: facebook/react
+current:
+  - mit
+timeline:
+  - forks: []
+    date: 2017-09-22
+    from:
+      - bsd-patents
+    to:
+      - mit
+    reason: Community and corporate concerns about the patent rider.
+    url: https://engineering.fb.com/2017/09/22/web/relicensing-react-jest-flow-and-immutable-js/

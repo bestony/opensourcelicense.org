@@ -1,0 +1,9 @@
+name: Qdrant
+domain: database
+owner: company
+ownerName: Qdrant
+repo: qdrant/qdrant
+current:
+  - apache-2.0
+tags:
+  - vector

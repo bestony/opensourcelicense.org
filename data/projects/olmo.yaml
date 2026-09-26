@@ -1,0 +1,10 @@
+name: OLMo
+domain: ai-model
+owner: foundation
+ownerName: Allen Institute for AI
+repo: allenai/OLMo
+hf: allenai/OLMo-7B
+current:
+  - apache-2.0
+tags:
+  - model-weights

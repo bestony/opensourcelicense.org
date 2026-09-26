@@ -1,0 +1,10 @@
+name: Qt
+domain: frontend
+owner: company
+ownerName: The Qt Company
+homepage: https://www.qt.io/licensing/
+current:
+  - lgpl-3.0
+  - gpl-3.0
+tags:
+  - dual-license

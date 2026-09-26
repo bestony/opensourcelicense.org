@@ -1,0 +1,7 @@
+name: Ansible
+domain: devops
+owner: company
+ownerName: Red Hat
+repo: ansible/ansible
+current:
+  - gpl-3.0

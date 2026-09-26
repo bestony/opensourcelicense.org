@@ -1,0 +1,30 @@
+name: Kibana
+domain: observability
+owner: company
+ownerName: Elastic
+repo: elastic/kibana
+current:
+  - agpl-3.0
+  - sspl-1.0
+  - elv2
+timeline:
+  - forks:
+      - opensearch-dashboards
+    date: 2021-01-14
+    from:
+      - apache-2.0
+    to:
+      - sspl-1.0
+      - elv2
+    reason: Same change as Elasticsearch.
+    url: https://www.elastic.co/blog/licensing-change
+  - forks: []
+    date: 2024-08-29
+    from:
+      - sspl-1.0
+      - elv2
+    to:
+      - agpl-3.0
+      - sspl-1.0
+      - elv2
+    url: https://www.elastic.co/blog/elasticsearch-is-open-source-again

@@ -1,0 +1,18 @@
+name: Plausible Analytics
+domain: data
+owner: company
+ownerName: Plausible Insights
+repo: plausible/analytics
+current:
+  - agpl-3.0
+tags:
+  - cloud-vendor
+timeline:
+  - forks: []
+    date: 2020-10-19
+    from:
+      - mit
+    to:
+      - agpl-3.0
+    reason: Stop corporations from reselling the product as a service.
+    url: https://plausible.io/blog/open-source-licenses

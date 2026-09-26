@@ -1,0 +1,7 @@
+name: NGINX
+domain: web
+owner: company
+ownerName: F5
+repo: nginx/nginx
+current:
+  - bsd-2-clause
