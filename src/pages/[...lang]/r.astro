@@ -1,0 +1,17 @@
+---
+import Layout from "@/layouts/main.astro";
+import PageHeader from "@/components/site/PageHeader.astro";
+import Report from "@/components/islands/Report";
+import { clientRaw } from "@/lib/client-data";
+import type { Locale } from "@/lib/i18n";
+import { localeStaticPaths, pageContext } from "@/lib/page";
+
+export const getStaticPaths = localeStaticPaths;
+const { locale } = Astro.props as { locale: Locale };
+const { cat, t } = pageContext(locale);
+---
+
+<Layout locale={locale} title={t("report.title")} noindex wide>
+  <PageHeader title={t("report.title")} lead={t("report.lead")} />
+  <Report client:only="react" raw={clientRaw(cat, locale)} locale={locale} />
+</Layout>

@@ -1,0 +1,17 @@
+---
+import Layout from "@/layouts/main.astro";
+import PageHeader from "@/components/site/PageHeader.astro";
+import Wizard from "@/components/islands/Wizard";
+import { clientRaw } from "@/lib/client-data";
+import type { Locale } from "@/lib/i18n";
+import { localeStaticPaths, pageContext } from "@/lib/page";
+
+export const getStaticPaths = localeStaticPaths;
+const { locale } = Astro.props as { locale: Locale };
+const { cat, t } = pageContext(locale);
+---
+
+<Layout locale={locale} title={t("wizard.title")}>
+  <PageHeader title={t("wizard.title")} lead={t("wizard.lead")} />
+  <Wizard client:load raw={clientRaw(cat, locale)} locale={locale} />
+</Layout>
