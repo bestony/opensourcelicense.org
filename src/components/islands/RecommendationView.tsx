@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import type { Recommendation, ScorePart } from "@/domain/engine";
-import type { Profile } from "@/domain/profile";
 import { FAMILY_CLASS } from "@/domain/verdict";
 import { cn } from "@/lib/utils";
 import { copyText, TermButton, type IslandContext } from "./shared";
@@ -99,7 +98,7 @@ function Deliverables({ slug, ctx }: { slug: string; ctx: IslandContext }) {
   );
 }
 
-export function RecommendationView({ rec, profile, ctx }: { rec: Recommendation; profile: Profile; ctx: IslandContext }) {
+export function RecommendationView({ rec, ctx }: { rec: Recommendation; ctx: IslandContext }) {
   const { t, href, cat } = ctx;
   const similar = [...new Set(rec.top.flatMap((r) => (cat.projectsByLicense.get(r.license) ?? []).slice(0, 4)))].slice(0, 8);
   return (

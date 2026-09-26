@@ -43,7 +43,7 @@ export default function Report(props: IslandProps) {
   const code = encodeProfile(state.profile);
   return (
     <div className="grid gap-8 lg:grid-cols-[1fr_20rem]">
-      <RecommendationView rec={rec} profile={state.profile} ctx={ctx} />
+      <RecommendationView rec={rec} ctx={ctx} />
       <aside className="space-y-4 lg:sticky lg:top-4 lg:self-start">
         <section className="border border-border p-4">
           <h2 className="mb-3 text-xl">{t("report.profile")}</h2>
