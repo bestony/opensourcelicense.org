@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 8efe233d77d28069
+summary: Ceadúnas samhla ó TII bunaithe ar Apache-2.0 le beartas úsáide
+  inghlactha; úsáid tráchtála ceadaithe gan ríchíosanna.
+analogy: Bosca uirlisí Apache le liosta gearr úsáidí toirmiscthe.
+pros:
+  - Úsáid tráchtála saor ó ríchíos
+  - Bunaithe ar Apache-2.0
+cons:
+  - Ní foinse oscailte é de réir OSI
+  - Is féidir an beartas úsáide a nuashonrú

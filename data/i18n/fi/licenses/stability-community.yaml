@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 7613875d13341275
+summary: Ilmainen tutkimukseen, ei-kaupalliseen käyttöön ja kaupalliseen
+  käyttöön alle miljoonan Yhdysvaltain dollarin vuosiliikevaihdolla; suuremmat
+  yritykset tarvitsevat yrityslisenssin.
+analogy: Vapaa pääsy pienyrityksille; suuret ostavat lipun.
+pros:
+  - Ilmainen yksityishenkilöille ja pienille yrityksille
+  - Kattaa uusimmat Stability-mallit
+cons:
+  - Ei avointa lähdekoodia
+  - Liikevaihtorajaa on seurattava

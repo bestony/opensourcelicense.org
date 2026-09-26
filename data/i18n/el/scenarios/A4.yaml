@@ -1,0 +1,8 @@
+reviewed: false
+sourceHash: d30cdd2632a3c255
+actor: other
+title: Συνδεδεμένο σε εφαρμογή ή firmware κλειστού κώδικα και διανεμημένο
+cells:
+  mpl-2.0: Σε επίπεδο αρχείου
+  lgpl-3.0: Πρέπει να επιτρέπεται η επανασύνδεση
+  busl-1.1: Εξαρτάται από το Additional Use Grant

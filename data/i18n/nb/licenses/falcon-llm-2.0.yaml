@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 8efe233d77d28069
+summary: Modellisens fra TII basert på Apache-2.0, med retningslinjer for
+  akseptabel bruk; kommersiell bruk er tillatt uten royalty.
+analogy: Apaches verktøykasse med en kort liste over forbudte bruksområder.
+pros:
+  - Royaltyfri kommersiell bruk
+  - Basert på Apache-2.0
+cons:
+  - Ikke åpen kildekode ifølge OSI
+  - Retningslinjene for bruk kan endres

@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: f6ef6656ac79990f
+summary: "Ceadúnas saor do phacáistí LaTeX: ní mór ainm nua a thabhairt ar
+  chomhaid mhionathraithe nó iad a mharcáil go soiléir ionas go n-oibreoidh
+  doiciméid ar an mbealach céanna i ngach áit."
+analogy: Is féidir leat an cló a athrú, ach tabhair ainm nua ar do leagan.
+pros:
+  - Coinníonn sé doiciméid in-atáirgthe
+  - Caighdeán ar fud CTAN
+cons:
+  - Is neamhghnách an riail athainmnithe
+  - Níl sé comhoiriúnach leis an GPL

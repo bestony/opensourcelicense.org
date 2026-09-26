@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 3d7476dd1bfc7f5b
+summary: Ceadúnas ceadaitheach; tá an fógra riachtanach i gcóipeanna foinse ach
+  ní i ndénártha tiomsaithe.
+analogy: Coinnigh ainm an údair sa leabhar oideas, ní ar gach pláta a riarann tú.
+pros:
+  - Níl fógra de dhíth i ndénártha
+  - Caighdeán do leabharlanna C++
+cons:
+  - Gan deonú paitinne
+  - Níos lú aithne air lasmuigh de C++

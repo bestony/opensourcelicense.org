@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 5941dce0a6108d60
+summary: Svak copyleft på modulnivå med patentlisens; kan angi GPL som
+  sekundærlisens for kompatibilitet.
+analogy: Del endringene dine i det lånte kapitlet; resten av boken er din.
+pros:
+  - Bedriftsvennlig copyleft
+  - Patentlisens
+cons:
+  - GPL-kompatibilitet bare med en erklært sekundærlisens
+  - Modulgrensene kan være uklare

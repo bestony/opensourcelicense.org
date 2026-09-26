@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 92115efde43878b6
+summary: Painot vain tutkimus- ja henkilökohtaiseen käyttöön; kaikki kaupallinen
+  käyttö tai tuotantokäyttö vaatii kaupallisen lisenssin Mistral AI:lta.
+analogy: "Kirjaston kirja: lue ja opiskele sitä, mutta älä myy sitä eteenpäin."
+pros:
+  - Avoimet painot tutkimukseen
+  - Sallii muokkaamisen tutkimustarkoituksiin
+cons:
+  - Ei kaupallista käyttöä
+  - Ei avointa lähdekoodia

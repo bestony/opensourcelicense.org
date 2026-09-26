@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 99f045fe47a729cc
+summary: "Lähdekoodi saatavilla: käytä, muokkaa ja levitä vapaasti, paitsi
+  Confluentin kanssa kilpailevan SaaS-tuotteen tarjoamiseen."
+analogy: Käytä reseptiä missä tahansa ravintolassa paitsi sellaisessa, joka
+  kilpailee tekijän ravintolan kanssa.
+pros:
+  - Suppea rajoitus
+  - Useimpiin käyttäjiin se ei vaikuta
+cons:
+  - Ei avointa lähdekoodia
+  - Rajaa pilvikilpailijat pois vain kuvauksen perusteella

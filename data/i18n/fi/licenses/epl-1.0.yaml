@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 41352f96fddd8017
+summary: Moduulitason copyleft patenttiluvalla ja New Yorkin osavaltion lailla
+  sovellettavana lakina; ei yhteensopiva GPL:n kanssa.
+analogy: Eclipsen lukujen jakamissäännön ensimmäinen painos.
+pros:
+  - Patenttilupa
+  - Clojuren ja JUnit 4:n käyttämä
+cons:
+  - Ei yhteensopiva GPL:n kanssa
+  - Korvattu EPL-2.0:lla

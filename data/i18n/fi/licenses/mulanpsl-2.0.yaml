@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: b568f07f3285ed81
+summary: Kiinalainen salliva lisenssi patenttiluvalla ja vastatoimilausekkeella.
+  Kiinan- ja englanninkielinen teksti ovat yhtä päteviä; ristiriidassa
+  kiinankielinen on ensisijainen.
+analogy: Apache-tyylinen suoja, joka on kirjoitettu Kiinan lakia silmällä pitäen.
+pros:
+  - Virallinen kaksikielinen teksti
+  - Patenttilupa
+  - OSI:n hyväksymä
+cons:
+  - Vähemmän tunnettu Kiinan ulkopuolella
+  - Vähän oikeuskäytäntöä

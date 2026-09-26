@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: c77fe673047b3249
+actor: other
+title: Destillering, eller trening av andre modeller på utdataene
+cells:
+  llama: Navnet må inneholde «Llama»
+  openrail-m: Avledede verk arver begrensningene
+  cc-by-4.0: Navngivelse
+  cc-by-nc-4.0: Kun ikke-kommersiell
+  odc-by-1.0: Navngivelse
+  odbl-1.0: Navngivelse

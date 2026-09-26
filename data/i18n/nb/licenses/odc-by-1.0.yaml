@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 7c50fe5f1b7f3c7d
+summary: "For databaser og datasett: all bruk, også kommersiell, hvis du
+  beholder navngivelsesmerknaden. Verk du lager ut fra dataene, trenger også en
+  merknad."
+analogy: Bruk kartdataene hvor som helst, bare si hvor de kommer fra.
+pros:
+  - Enkel regel for navngivelse
+  - Vanlig for store treningskorpus for AI
+  - Omfatter databaserettigheter, ikke bare opphavsrett
+cons:
+  - Ikke laget for programvare
+  - Ingen patentlisens

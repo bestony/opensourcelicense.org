@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: cdef0d42cb1ab51e
+summary: "Copyleft på biblioteknivå: endringer i biblioteket forblir åpne;
+  lukkede programmer kan lenke til det hvis brukerne kan bytte ut biblioteket."
+analogy: "En felles motor: du kan sette den i bilen din, men eierne må kunne
+  bytte den ut med sin egen."
+pros:
+  - Lar proprietære programmer bruke biblioteket
+  - Endringer i biblioteket forblir åpne
+  - Patentlisens
+cons:
+  - Reglene for ny lenking er kompliserte, særlig ved statisk lenking og på mobil
+  - Noen selskaper unngår den fortsatt

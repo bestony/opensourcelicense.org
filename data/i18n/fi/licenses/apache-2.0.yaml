@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 637c87bc846f9159
+summary: Salliva lisenssi, jossa on nimenomainen patenttilupa,
+  patenttivastatoimilauseke ja vaatimus merkitä muutetut tiedostot.
+analogy: Ilmainen työkalupakki, jonka mukana tulee lupaus olla haastamatta sinua
+  oikeuteen sen patenteista – ellet sinä haasta ensin.
+pros:
+  - Nimenomainen patenttilupa jokaiselta kehittäjältä
+  - Monien yritysten ja säätiöiden suosima
+  - Suojaa tavaramerkit
+cons:
+  - Pidempi; NOTICE-tiedoston käsittely
+  - Ei yhteensopiva GPL-2.0-only-lisenssin kanssa
+  - Ei estä ylläpidettyjä kilpailijoita

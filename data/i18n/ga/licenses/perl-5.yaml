@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 4f54478806088c0d
+summary: "Décheadúnas Perl: roghnaíonn faighteoirí an Artistic License 1.0 nó an
+  GPL (leagan 1 nó níos déanaí)."
+analogy: Roghnaigh cé acu den dá leabhar rialacha a oireann duit.
+pros:
+  - Rogha idir téarmaí measartha ceadaitheacha agus téarmaí copyleft
+  - Caighdeán do mhodúil CPAN
+cons:
+  - Tá Artistic 1.0 doiléir
+  - Gan deonú paitinne

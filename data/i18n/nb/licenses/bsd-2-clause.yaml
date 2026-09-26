@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 261d8b56fb436858
+summary: "Som MIT: bruk koden fritt; behold opphavsrettsmerknaden og
+  ansvarsfraskrivelsen i kildekode og binærfiler."
+analogy: "Et gratis oppskriftskort: kopier det hvor som helst, bare behold
+  forfatterlinjen nederst."
+pros:
+  - Svært kort og tillatende
+  - Mye brukt i BSD-systemer
+cons:
+  - Ingen patentlisens
+  - Lukkede forgreninger er tillatt

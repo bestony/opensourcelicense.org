@@ -1,0 +1,9 @@
+reviewed: false
+sourceHash: 883d4cd50ee79a28
+actor: other
+title: Pilvipalveluntarjoaja myy projektiasi hallinnoituna palveluna
+cells:
+  gpl-3.0: Ei levitystä
+  agpl-3.0: Muutokset on julkaistava
+  sspl-1.0: Koko palvelupino on julkaistava
+  busl-1.1: Ellei Additional Use Grant salli sitä

@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 4f54478806088c0d
+summary: "Perls doble lisens: mottakerne velger Artistic License 1.0 eller GPL
+  (versjon 1 eller senere)."
+analogy: Velg den av to regelbøker som passer deg.
+pros:
+  - Valg mellom nokså tillatende og copyleft-vilkår
+  - Standard for CPAN-moduler
+cons:
+  - Artistic 1.0 er vag
+  - Ingen patentlisens

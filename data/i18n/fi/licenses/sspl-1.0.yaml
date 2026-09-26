@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: c04c9ce2bbb6b016
+summary: AGPL:n kaltainen, mutta ohjelmiston tarjoaminen palveluna edellyttää
+  koko palvelupinon lähdekoodin julkaisemista. Ei OSI:n hyväksymä.
+analogy: Jos ravintolasi tarjoilee tätä ruokaa, sinun on julkaistava myös
+  keittiösi pohjapiirustukset.
+pros:
+  - Vahva suoja pilvipalveluntarjoajia vastaan
+cons:
+  - Ei avointa lähdekoodia OSI:n mukaan
+  - Monet jakelut ovat hylänneet sen
+  - Voi johtaa yhteisön haaroihin

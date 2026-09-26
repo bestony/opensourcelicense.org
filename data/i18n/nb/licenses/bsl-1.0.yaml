@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 3d7476dd1bfc7f5b
+summary: Tillatende lisens; merknaden kreves i kopier av kildekoden, men ikke i
+  kompilerte binærfiler.
+analogy: Behold forfatterens navn i kokeboken, ikke på hver tallerken du serverer.
+pros:
+  - Ingen merknad nødvendig i binærfiler
+  - Standard for C++-biblioteker
+cons:
+  - Ingen patentlisens
+  - Mindre kjent utenfor C++

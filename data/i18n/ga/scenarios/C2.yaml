@@ -1,0 +1,8 @@
+reviewed: false
+sourceHash: 3a5f4b9bf27dddea
+actor: other
+title: Cumascar do chód isteach i dtionscadal GPL-3.0
+cells:
+  apache-2.0: Ach níl sé comhoiriúnach le GPL-2.0
+  mpl-2.0: Mura bhfuil sé marcáilte mar neamh-chomhoiriúnach
+  agpl-3.0: Fanann an chuid AGPL faoi AGPL

@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 261d8b56fb436858
+summary: "Kuten MIT: käytä koodia vapaasti; säilytä tekijänoikeusilmoitus ja
+  vastuuvapauslauseke lähdekoodissa ja binääreissä."
+analogy: "Ilmainen reseptikortti: kopioi sitä minne tahansa, kunhan säilytät
+  tekijän rivin alareunassa."
+pros:
+  - Erittäin lyhyt ja salliva
+  - Laajasti käytössä BSD-järjestelmissä
+cons:
+  - Ei patenttilupaa
+  - Suljetut haarat ovat sallittuja

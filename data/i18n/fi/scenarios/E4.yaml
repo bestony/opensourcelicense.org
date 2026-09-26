@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: cf07449a9c3b7eaf
+actor: other
+title: Hienosäädetty, nimetty uudelleen ja julkaistu suljettuina painoina
+cells:
+  llama: Lisenssi on liitettävä ja näytettävä ”Built with Llama”
+  openrail-m: Käyttörajoitukset on siirrettävä eteenpäin
+  cc-by-4.0: Tekijän mainitseminen
+  cc-by-nc-4.0: Vain ei-kaupallinen
+  odc-by-1.0: Tekijän mainitseminen
+  odbl-1.0: Johdannaistietokannat pysyvät ODbL-lisenssin alaisina

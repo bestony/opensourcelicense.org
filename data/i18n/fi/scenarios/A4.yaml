@@ -1,0 +1,8 @@
+reviewed: false
+sourceHash: d30cdd2632a3c255
+actor: other
+title: Linkitetty suljetun lähdekoodin sovellukseen tai laiteohjelmistoon ja levitetty
+cells:
+  mpl-2.0: Tiedostotasolla
+  lgpl-3.0: Uudelleenlinkitys on sallittava
+  busl-1.1: Riippuu Additional Use Grantista

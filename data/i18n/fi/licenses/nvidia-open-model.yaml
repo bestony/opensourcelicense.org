@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 38b4b3f3e07a3e99
+summary: "Kaupallisesti käytettävä mallilisenssi: johdannaiset sallittu, NVIDIA
+  ei vaadi oikeuksia tuotoksiin, mutta sisäänrakennettuja turvamekanismeja ei
+  saa ohittaa."
+analogy: Ilmainen moottori, jonka turvavöitä et saa irrottaa.
+pros:
+  - Kaupallinen käyttö sallittu
+  - Ei vaatimuksia tuotoksiin
+cons:
+  - Ei avointa lähdekoodia
+  - Turvamekanismilauseke vaatii huolellisuutta

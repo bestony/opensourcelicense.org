@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: c882745d1b8524bb
+summary: Kommersiell bruk er tillatt med retningslinjer for akseptabel bruk;
+  svært store tjenester trenger en egen lisens, og enkelte territorier er
+  unntatt.
+analogy: En gratis motor med en regelbok, en størrelsesgrense og et kart over
+  hvor den kan kjøres.
+pros:
+  - Kommersiell bruk for de fleste brukere
+  - Omfatter tekst-, video- og 3D-modeller
+cons:
+  - Ikke åpen kildekode
+  - Territoriale unntak

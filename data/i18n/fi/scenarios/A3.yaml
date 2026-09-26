@@ -1,0 +1,9 @@
+reviewed: false
+sourceHash: b16411183c557a4e
+actor: other
+title: Upotettu suljetun lähdekoodin SaaS-taustajärjestelmään (ei levitetä)
+cells:
+  agpl-3.0: Julkaistava, jos muokattu
+  sspl-1.0: Jos sen toiminnallisuutta tarjotaan palveluna
+  busl-1.1: Riippuu Additional Use Grantista
+  elv2: Ei itse tuotteen ylläpitoa palveluna

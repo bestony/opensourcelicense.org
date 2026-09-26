@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: e8b5efadb2a71225
+summary: Ceadúnas ceadaitheach gearr cosúil le MIT agus BSD, a úsáideann
+  PostgreSQL agus a éiceachóras.
+analogy: Leagan phobal PostgreSQL féin den leabhar saor in aisce.
+pros:
+  - Gearr agus ceadaitheach
+  - Ar eolas in éiceachóras PostgreSQL
+cons:
+  - Gan deonú paitinne
+  - Tá forcanna dúnta ceadaithe

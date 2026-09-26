@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: c732ed2e04240901
+summary: "Copyleft for manualer: kopier og endrede versjoner må forbli under
+  GFDL, og historikk og uforanderlige avsnitt må beholdes."
+analogy: Del-oppskriften-regelen for kokebokens bruksanvisning.
+pros:
+  - Holder dokumentasjonen fri
+  - Brukes i GNU-manualer
+cons:
+  - Uforanderlige avsnitt er omstridte
+  - Vanskelig å kombinere med CC-innhold

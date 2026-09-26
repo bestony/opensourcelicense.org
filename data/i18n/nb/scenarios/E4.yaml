@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: cf07449a9c3b7eaf
+actor: other
+title: Finjustert, gitt nytt navn og utgitt som lukkede vekter
+cells:
+  llama: Må legge ved lisensen og vise «Built with Llama»
+  openrail-m: Må videreføre bruksbegrensningene
+  cc-by-4.0: Navngivelse
+  cc-by-nc-4.0: Kun ikke-kommersiell
+  odc-by-1.0: Navngivelse
+  odbl-1.0: Avledede databaser forblir ODbL

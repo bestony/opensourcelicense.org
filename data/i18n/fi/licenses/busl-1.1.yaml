@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: ce104e1cd96e85b1
+summary: "Lähdekoodi saatavilla: tuotantokäyttöä rajoittaa Additional Use Grant,
+  ja jokainen versio muuttuu avoimeksi lisenssiksi Change Daten jälkeen
+  (enintään 4 vuotta)."
+analogy: "Näyteikkuna: voit katsoa ja kokeilla, ja muutaman vuoden kuluttua
+  tuote on ilmainen kaikille."
+pros:
+  - Antaa hallita kaupallista käyttöä
+  - Koodista tulee myöhemmin avointa lähdekoodia
+cons:
+  - Ei avointa lähdekoodia
+  - Luvan ehdot vaihtelevat projekteittain
+  - Voi johtaa haaroihin

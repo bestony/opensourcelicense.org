@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 6a4054dc9cca8e7e
+summary: "Sama jakamisehto tietokannoille: saat käyttää dataa kaupallisesti,
+  mutta julkisten johdannaistietokantojen on pysyttävä ODbL-lisenssin alaisina.
+  Tuotetut teokset, kuten kartat tai kuvat, vaativat vain lähdemaininnan."
+analogy: Rakenna yhteisen kartan päälle, ja jos julkaiset parannetun
+  karttatietokannan, jaa se takaisin samoin ehdoin.
+pros:
+  - Pitää parannetut tietokannat avoimina
+  - Kaupallinen käyttö sallittu
+  - OpenStreetMapin koettelema
+cons:
+  - Sama jakamisehto voi estää yhdistämisen muuhun dataan
+  - ”Johdannaistietokanta” on toisinaan epäselvä

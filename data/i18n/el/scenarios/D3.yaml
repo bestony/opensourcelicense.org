@@ -1,0 +1,7 @@
+reviewed: false
+sourceHash: d774574ea30fc483
+actor: other
+title: Εσωτερική τροποποίηση, χωρίς διανομή και χωρίς εξωτερική υπηρεσία
+cells:
+  agpl-3.0: Η αλληλεπίδραση χρηστών σε intranet αμφισβητείται
+  busl-1.1: Εξαρτάται από το Additional Use Grant

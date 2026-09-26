@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: c826929f8a1baf2e
+summary: "Googlen malliehdot: kaupallinen käyttö sallittu, ja kiellettyjen
+  käyttötapojen käytäntö siirtyy jokaiseen johdannaiseen, myös tislattuihin
+  malleihin."
+analogy: Ilmainen moottori, jonka sääntökirja on oltava mukana jokaisessa
+  uudelleen rakennetussa moottorissa.
+pros:
+  - Kaupallinen käyttö ilman käyttäjärajaa
+  - Selkeät johdannaissäännöt
+cons:
+  - Ei avointa lähdekoodia OSI:n mukaan
+  - Google voi päivittää käyttökäytäntöä

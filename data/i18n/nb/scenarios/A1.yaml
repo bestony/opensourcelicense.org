@@ -1,0 +1,9 @@
+reviewed: false
+sourceHash: 883d4cd50ee79a28
+actor: other
+title: En skyleverandør selger prosjektet ditt som administrert tjeneste
+cells:
+  gpl-3.0: Ikke distribusjon
+  agpl-3.0: Må publisere endringer
+  sspl-1.0: Må frigi hele tjenestestakken
+  busl-1.1: Med mindre Additional Use Grant tillater det

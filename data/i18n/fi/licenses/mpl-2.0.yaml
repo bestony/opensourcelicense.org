@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 6d33e2e6b797d27f
+summary: "Tiedostotason copyleft: MPL-lisensoituihin tiedostoihin tehtyjen
+  muutosten on pysyttävä avoimina, mutta niitä voi yhdistää suljettuun koodiin
+  muissa tiedostoissa."
+analogy: Jos lainaat luvun, sinun on jaettava siihen tekemäsi muutokset, mutta
+  muu kirja on sinun.
+pros:
+  - Tasapaino sallivan ja copyleftin välillä
+  - Nimenomainen patenttilupa
+  - Oletuksena yhteensopiva GPL:n kanssa
+cons:
+  - Tiedostojen rajat voivat olla epäselviä
+  - Ei kata verkkokäyttöä

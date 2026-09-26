@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 38b4b3f3e07a3e99
+summary: "Modellisens som kan brukes kommersielt: avledede verk er tillatt,
+  NVIDIA krever ingen rettigheter til utdata, men innebygde sikkerhetsmekanismer
+  må ikke omgås."
+analogy: En gratis motor der du ikke får fjerne sikkerhetsbeltene.
+pros:
+  - Kommersiell bruk tillatt
+  - Ingen krav på utdata
+cons:
+  - Ikke åpen kildekode
+  - Klausulen om sikkerhetsmekanismer krever varsomhet

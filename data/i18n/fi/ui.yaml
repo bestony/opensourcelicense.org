@@ -1,0 +1,363 @@
+reviewed: false
+sourceHash: a2d7eb045dde7649
+strings:
+  site.name: opensourcelicense.org
+  site.tagline: Avoimen lähdekoodin lisenssien valinta ja vertailu
+  site.description: Valitse, vertaile ja stressitestaa avoimen lähdekoodin
+    lisenssejä. Katso, mitä lisenssejä tunnetut projektit käyttävät, mikä voi
+    mennä pieleen ja mikä sopii omaan projektiisi.
+  nav.home: Etusivu
+  nav.licenses: Lisenssit
+  nav.scenarios: Skenaariot
+  nav.projects: Projektit
+  nav.trends: Trendit
+  nav.compare: Vertaile
+  nav.wizard: Ohjattu valinta
+  nav.chat: Tekoälyneuvoja
+  nav.check: Riippuvuustarkistus
+  nav.menu: Valikko
+  lang.switch: Kieli
+  lang.suggest: Tämä sivu on saatavilla kielellä {language}.
+  lang.suggest.go: Vaihda
+  lang.suggest.dismiss: Sulje
+  footer.disclaimer: Tämä sivusto antaa yleistä tietoa, ei oikeudellista
+    neuvontaa. Todellisessa riita- tai sopimusasiassa käänny juristin puoleen.
+  footer.source: Lähdekoodi (AGPL-3.0)
+  footer.data: Tiedot lisenssillä CC-BY-4.0
+  footer.report: Ilmoita virheestä
+  footer.cite: "Tiedot: opensourcelicense.org, CC-BY-4.0"
+  footer.hosting: Toimii Cloudflare Workersin ilmaispaketilla
+  footer.dns: Verkkotunnusta ylläpitää Cloudflare
+  badge.machine: Konekäännös
+  badge.reviewed: Tarkistettu käännös
+  badge.fallback: Ei vielä käännetty – näytetään englanniksi
+  badge.stale: voi olla vanhentunut
+  badge.unreviewed-data: Luonnos – juristi ei ole vielä tarkistanut
+  common.updated: Tiedot päivitetty {date}
+  common.back: Takaisin
+  common.copy: Kopioi
+  common.copied: Kopioitu
+  common.download: Lataa
+  common.close: Sulje
+  common.all: Kaikki
+  common.yes: Kyllä
+  common.no: Ei
+  common.unknown: Tuntematon
+  common.none: Ei mitään
+  common.more: Lisää
+  common.loading: Ladataan…
+  common.error: Jokin meni vikaan.
+  common.search: Haku
+  home.title: Valitse avoimen lähdekoodin lisenssi tietoisesti
+  home.lead: Ei vain ”mikä lisenssi”, vaan myös mitä vastaavat projektit
+    valitsivat, miltä pahin tapaus näyttää ja mitä tehdä seuraavaksi.
+  home.entry.chat.title: Keskustele tekoälyneuvojan kanssa
+  home.entry.chat.body: Kuvaile projektiasi omin sanoin. Saat profiilin,
+    tarkentavia kysymyksiä ja raportin.
+  home.entry.projects.title: Katso, mitä muut käyttävät
+  home.entry.projects.body: Tunnettujen projektien lisenssit ja syyt, miksi osa niistä vaihtoi lisenssiä.
+  home.entry.wizard.title: Suodata vaihe vaiheelta
+  home.entry.wizard.body: Vastaa muutamaan kysymykseen ja saat perustellun, järjestetyn lyhytlistan.
+  home.wall: Suosittujen projektien lisenssit
+  home.changes: Viimeaikaiset lisenssimuutokset
+  home.scenarios: Mikä voi mennä pieleen?
+  home.scenarios.body: 27 äärimmäistä skenaariota × 17 lisenssisaraketta, oma sivu
+    jokaiselle solulle.
+  family.permissive: Salliva
+  family.weak-copyleft: Heikko copyleft
+  family.strong-copyleft: Vahva copyleft
+  family.network-copyleft: Verkko-copyleft
+  family.source-available: Lähdekoodi saatavilla
+  family.model: Mallilisenssi
+  family.content: Sisältö / data
+  verdict.allow: Sallittu
+  verdict.conditional: Ehdoin
+  verdict.deny: Lisenssi estää
+  verdict.silent: Ei säännelty
+  verdict.tbd: Tarkistettavana
+  verdict.legend: "Selite: ✓ toinen osapuoli voi tehdä tämän · ◐ ehdoin · ✗
+    lisenssi estää sen · — lisenssi ei sano mitään (yleinen laki pätee)"
+  actor.other: Joku muu tekee tämän
+  actor.you: Sinä haluat tehdä tämän
+  actor.contributor: Kehittäjä tekee tämän
+  actor.both: Koskee molempia osapuolia
+  group.A: Kaupallinen kilpailu
+  group.B: Patentit ja laki
+  group.C: Kehitys ja liiketoiminta
+  group.D: Käyttö ja vaatimustenmukaisuus
+  group.E: Tekoälymallit ja data
+  matrix.code: Koodin lisenssit
+  matrix.model: Mallien ja datan lisenssit
+  term.commercial-use: Kaupallinen käyttö
+  term.modification: Muokkaus
+  term.distribution: Levitys
+  term.private-use: Yksityinen käyttö
+  term.patent-use: Patenttilupa
+  term.non-production-use: Muu kuin tuotantokäyttö
+  term.converts-to-open-source: Muuttuu myöhemmin avoimeksi lähdekoodiksi
+  term.include-copyright: Säilytä tekijänoikeusilmoitus
+  term.include-license: Liitä lisenssi mukaan
+  term.document-changes: Merkitse muutokset
+  term.disclose-source: Julkaise lähdekoodi
+  term.same-license: Sama lisenssi johdannaisille
+  term.same-license-file: Sama lisenssi (tiedostotaso)
+  term.same-license-library: Sama lisenssi (kirjastotaso)
+  term.allow-relinking: Salli uudelleenlinkitys
+  term.network-use-disclose: Verkkokäyttö katsotaan levitykseksi
+  term.service-stack-disclose: Julkaise koko palvelupino
+  term.keep-limitations: Säilytä rajoitukset
+  term.attribution: Tekijän mainitseminen
+  term.attribution-built-with: Näytä ”Built with”
+  term.name-prefix: Nimen etuliitesääntö
+  term.acceptable-use-policy: Hyväksyttävän käytön käytäntö
+  term.use-restrictions-pass-through: Käyttörajoitusten siirtäminen eteenpäin
+  term.indicate-changes: Ilmoita muutokset
+  term.liability: Ei vastuuta
+  term.warranty: Ei takuuta
+  term.trademark-use: Ei tavaramerkkioikeuksia
+  term.no-endorsement: Ei suosittelua
+  term.production-use-restricted: Tuotantokäyttö rajoitettu
+  term.no-managed-service: Ei hallinnoitua palvelua
+  term.no-license-key-circumvention: Ei lisenssiavainten ohittamista
+  term.mau-threshold: Käyttäjäraja
+  term.use-restrictions: Käyttörajoitukset
+  term.non-commercial: Vain ei-kaupallinen
+  licenses.title: Avoimen lähdekoodin lisenssit
+  licenses.lead: "{count} lisenssiä sallivista lisensseistä lähdekoodi saatavilla
+    -lisensseihin ja mallilisensseihin."
+  licenses.col.license: Lisenssi
+  licenses.col.family: Perhe
+  licenses.col.osi: OSI
+  licenses.col.fsf: "FSF: vapaa"
+  licenses.col.projects: Projektit
+  licenses.filter: Suodata perheen mukaan
+  license.permissions: Oikeudet
+  license.conditions: Ehdot
+  license.limitations: Rajoitukset
+  license.summary: Selkokielellä
+  license.analogy: Vertaus
+  license.pros: Hyvät puolet
+  license.cons: Huonot puolet
+  license.scenarios: Äärimmäiset skenaariot
+  license.radar: Pahimman tapauksen tutka
+  license.projects: Tunnetut projektit, jotka käyttävät sitä
+  license.projects.count: "{count} kartassamme olevaa tunnettua projektia käyttää tätä lisenssiä."
+  license.projects.none: Yksikään kartassamme oleva projekti ei vielä käytä tätä lisenssiä.
+  license.projects.since: Vaihtoi siihen {date}
+  license.projects.also: "Tarjolla myös lisensseillä: {licenses}"
+  license.projects.former: Projektit, jotka luopuivat siitä
+  license.text: Virallinen teksti
+  license.text.official: Virallinen teksti kielellä {language}
+  license.text.note: Vain virallinen teksti on oikeudellisesti sitova. Emme käännä
+    lisenssitekstejä.
+  license.compare: Vertaa…
+  license.spdx: SPDX-tunniste
+  radar.anti-freeride: Estää vapaamatkustuksen
+  radar.anti-closed-fork: Estää suljetut haarat
+  radar.patent: Patenttisuoja
+  radar.adoption-friction: Käyttöönoton kynnys
+  radar.relicense-difficulty: Lisenssin vaihtamisen vaikeus
+  radar.misuse-control: Väärinkäytön hallinta
+  radar.derivative-control: Johdannaisten hallinta
+  radar.commercial-control: Kaupallinen hallinta
+  radar.note: Laskettu skenaariomatriisista. Suurempi arvo tarkoittaa enemmän
+    kyseistä ominaisuutta, ei ”parempaa”.
+  scenarios.title: Äärimmäisten skenaarioiden matriisi
+  scenarios.lead: Mitä tapahtuu, kun olet valinnut lisenssin? Jokainen solu vastaa
+    yhteen kysymykseen, ja sillä on oma sivunsa.
+  scenarios.highlight: Korosta lisenssi
+  scenarios.expand: Laajenna kaikki
+  scenarios.collapse: Tiivistä kaikki
+  scenarios.silent-note: Rivit, joilla on vain ”—”, ovat mukana tarkoituksella.
+    Vastaus riippuu työsopimuksista (C6), vientivalvontalaista (D5) tai vireillä
+    olevista oikeudenkäynneistä (D6), ei lisenssistä.
+  scenario.flow.you: Julkaiset lisenssillä {license}
+  scenario.flow.they: Tilanne
+  scenario.flow.result: Tulos
+  scenario.clause: Olennainen lauseke
+  scenario.case: Todellinen tapaus
+  scenario.others: Sama skenaario, muut lisenssit
+  scenario.other-scenarios: Muut skenaariot lisenssille {license}
+  scenario.no-clause: Ei erityistä lauseketta. Yleinen laki pätee.
+  scenario.review: Tarkistuksen tila
+  scenario.review.none: Juristi ei ole vielä tarkistanut.
+  scenario.review.done: Tarkistanut {who} {date}.
+  compare.title: Lisenssien vertailu
+  compare.lead: Valitse kaksi tai kolme lisenssiä ja vertaile niitä lauseke
+    lausekkeelta ja skenaario skenaariolta.
+  compare.pick: Lisää lisenssi
+  compare.remove: Poista
+  compare.terms: Ehdot
+  compare.scenarios: Skenaariot
+  compare.empty: Valitse vähintään kaksi lisenssiä.
+  wizard.title: Ohjattu lisenssin valinta
+  wizard.lead: Vastaa muutamaan kysymykseen. Sääntömoottori järjestää lisenssit ja
+    perustelee jokaisen pisteen.
+  wizard.next: Seuraava
+  wizard.prev: Takaisin
+  wizard.finish: Näytä tulos
+  wizard.restart: Aloita alusta
+  wizard.skip: Ohita
+  wizard.step: Vaihe {n}/{total}
+  wizard.to-chat: Jatka tekoälyneuvojan kanssa
+  q.artifact_type: Mitä julkaiset?
+  q.openness_level: Kuinka avoin sen pitäisi olla?
+  q.avoid: Mitä lopputuloksia haluat välttää?
+  q.avoid.hint: Valitse niin monta kuin haluat.
+  q.adoption_goal: Mikä on tärkeintä?
+  q.dependencies: Oletko riippuvainen copyleft-koodista?
+  q.dependencies.hint: Lisää riippuvuuksien lisenssien SPDX-tunnisteet, esimerkiksi GPL-3.0-only.
+  q.commercial_plan: Miten aiot ansaita rahaa, jos ollenkaan?
+  q.jurisdiction: Missä toimit?
+  opt.artifact_type.library: Kirjasto tai SDK
+  opt.artifact_type.application: Sovellus tai työkalu
+  opt.artifact_type.saas: Palvelun taustajärjestelmä (SaaS)
+  opt.artifact_type.model: Mallin painot
+  opt.artifact_type.dataset: Tietoaineisto
+  opt.artifact_type.docs: Dokumentaatio tai sisältö
+  opt.openness_level.open: Täysin avoin – kuka tahansa saa tehdä mitä tahansa
+  opt.openness_level.reciprocal: Avoin, mutta parannukset on jaettava takaisin
+  opt.openness_level.source-available: Lähdekoodi näkyvissä, kaupallista käyttöä rajoitettu
+  opt.avoid.cloud-hosting: Pilvipalveluntarjoajat myyvät sitä palveluna
+  opt.avoid.closed-fork: Suljetun lähdekoodin haarat
+  opt.avoid.patent-litigation: Patenttioikeudenkäynnit
+  opt.avoid.trademark-abuse: Nimeni tai brändini väärinkäyttö
+  opt.avoid.harmful-use: Haitallinen käyttö
+  opt.avoid.big-company: Suuryritykset käyttävät sitä ilmaiseksi
+  opt.adoption_goal.enterprise: Mahdollisimman laaja käyttö yrityksissä
+  opt.adoption_goal.community: Yhteisön panos
+  opt.adoption_goal.monetize: Rahan ansaitseminen sillä
+  opt.commercial_plan.none: Ei suunnitelmaa
+  opt.commercial_plan.dual-license: Kaksoislisensointi
+  opt.commercial_plan.open-core: Open core
+  opt.commercial_plan.hosted: Ylläpidetty palvelu
+  opt.jurisdiction.cn: Kiina
+  opt.jurisdiction.eu: Euroopan unioni
+  opt.jurisdiction.us: Yhdysvallat
+  opt.jurisdiction.other: Muu
+  engine.part.avoid: "Suoja seuraavia vastaan: {avoid}"
+  engine.part.openness: "Avoimuuden sopivuus: {openness}"
+  engine.part.adoption: "Tavoite: {goal}"
+  engine.part.commercial: "Liiketoimintasuunnitelma: {plan}"
+  engine.part.jurisdiction: "Lainkäyttöalue: {jurisdiction}"
+  engine.part.dependency: "Yhteensopiva vain ehdoin: {dependency}"
+  engine.excluded.dependency: Ei yhteensopiva riippuvuuden {dependency} kanssa
+  engine.excluded.artifact: Ei sovellu tämän tyyppiselle julkaisulle
+  advisory.needs-cla: Käytä kehittäjien lisenssisopimusta (CLA). Tarvitset sitä,
+    jos haluat myydä kaupallisia lisenssejä tai vaihtaa lisenssiä myöhemmin.
+  advisory.consider-dco: Developer Certificate of Origin (DCO, ”Signed-off-by”) riittää yleensä.
+  advisory.busl-change-date: Määritä BSL-otsakkeeseen Additional Use Grant, Change Date ja Change License.
+  advisory.model-card: Merkitse lisenssi mallin tai tietoaineiston kortin
+    metatietoihin (kenttä ”license:”).
+  advisory.notice-file: Lisää NOTICE-tiedosto ja säilytä se, kun levität ohjelmistoa edelleen.
+  advisory.consult-lawyer: Pyydä juristia tarkistamaan riippuvuudet ja
+    liiketoimintaehdot ennen julkaisua.
+  advisory.network-source-link: Näytä verkkopalvelusi käyttäjille ”Lähdekoodi”-linkki.
+  report.title: Lisenssiraporttisi
+  report.lead: Raportti lasketaan selaimessasi linkin sisältämästä profiilista.
+    Jaa linkki jakaaksesi raportin.
+  report.profile: Projektin profiili
+  report.edit: Muokkaa ohjatussa valinnassa
+  report.top: Suositeltu
+  report.score: Pisteet {score}
+  report.why: Miksi
+  report.excluded: Poissuljettu
+  report.advisories: Seuraavat vaiheet
+  report.license-file: LICENSE-tiedosto
+  report.header: Tiedoston otsake
+  report.badge: README-merkki
+  report.share: Jaa linkki
+  report.share.copy: Kopioi linkki
+  report.similar: Samankaltaiset projektit
+  report.no-text: Ei koneluettavaa tekstiä. Hae se virallisesta lähteestä.
+  report.invalid: Raporttilinkki on rikki tai vanhasta versiosta.
+  report.empty: Profiilia ei vielä ole. Aloita ohjatulla valinnalla tai tekoälyneuvojalla.
+  chat.title: Tekoälyneuvoja lisenssin valintaan
+  chat.lead: Kuvaile projektiasi. Neuvoja esittää tarkentavia kysymyksiä,
+    sääntömoottori valitsee lisenssit ja neuvoja selittää ne.
+  chat.placeholder: "Esimerkiksi: Tein vektoritietokannan ja pelkään, että
+    pilvipalveluntarjoajat myyvät sitä eteenpäin."
+  chat.send: Lähetä
+  chat.stop: Pysäytä
+  chat.examples: Kokeile esimerkkiä
+  chat.example.1: Tein vektoritietokannan ja pelkään, että pilvipalveluntarjoajat
+    myyvät sitä eteenpäin.
+  chat.example.2: Pieni React-komponenttikirjasto. Haluan yritysten käyttävän sitä.
+  chat.example.3: Hienosäädimme 7B-mallin ja haluamme estää haitallisen käytön.
+  chat.profile: Projektin profiili
+  chat.profile.hint: Muuta arvoa napsauttamalla sitä.
+  chat.candidates: Ehdokkaat
+  chat.run: Hae suositus
+  chat.limit: Olet saavuttanut päivän rajan. Yritä huomenna uudelleen tai käytä
+    ohjattua valintaa.
+  chat.error: Neuvoja ei ole juuri nyt käytettävissä. Ohjattu valinta toimii edelleen.
+  chat.verify: Vahvista, että olet ihminen.
+  chat.disclaimer: Neuvoja voi erehtyä. Suositukset tulevat sääntömoottorilta,
+    eikä tämä ole oikeudellista neuvontaa.
+  chat.report: Avaa koko raportti
+  projects.title: Projektien lisenssikartta
+  projects.lead: Tunnettujen projektien lisenssit ja jokaisen muutoksen taustat.
+  projects.filter.domain: Alue
+  projects.filter.family: Lisenssiperhe
+  projects.filter.owner: Omistaja
+  projects.filter.changed: Vaihtanut lisenssiä
+  projects.count: "{count} projektia"
+  projects.empty: Mikään projekti ei vastaa näitä suodattimia.
+  owner.company: Yritys
+  owner.foundation: Säätiö
+  owner.individual: Yksityishenkilö
+  owner.community: Yhteisö
+  project.current: Nykyinen lisenssi
+  project.timeline: Lisenssihistoria
+  project.reason: Syy
+  project.announcement: Tiedote
+  project.forks: Seuranneet haarat
+  project.fork-of: Haara projektista {name}
+  project.repo: Koodivarasto
+  project.similar: Samankaltaiset projektit
+  project.review: Synkronointibotti löysi tämän merkinnän, ja se odottaa ihmisen tarkistusta.
+  project.initial: Alkuperäinen lisenssi
+  domain.database: Tietokanta
+  domain.frontend: Frontend-kehys
+  domain.devops: DevOps
+  domain.ai-model: Tekoälymalli
+  domain.language: Kieli ja ajoympäristö
+  domain.os: Käyttöjärjestelmä
+  domain.web: Verkkopalvelin ja taustajärjestelmä
+  domain.tooling: Kehitystyökalut
+  domain.data: Data ja analytiikka
+  domain.observability: Havainnoitavuus
+  domain.messaging: Viestinvälitys ja suoratoisto
+  domain.cms: CMS ja sovellukset
+  trends.title: Avoimen lähdekoodin lisenssitrendit
+  trends.lead: Koottu projektikartasta koontivaiheessa.
+  trends.family-share: Lisenssiperheet alueittain
+  trends.changes: Lisenssimuutokset vuosittain
+  trends.to-source-available: Projektit, jotka siirtyivät avoimesta lähdekoodista
+    lähdekoodi saatavilla -lisenssiin
+  search.lead: Hae lisenssejä, skenaarioita ja projekteja tällä kielellä.
+  search.noscript: Haku vaatii JavaScriptin.
+  check.title: Riippuvuuksien lisenssitarkistus
+  check.lead: Liitä package.json, go.mod, Gemfile.lock, Cargo.toml tai
+    requirements.txt. Jäsennys tehdään selaimessasi.
+  check.project-license: Projektisi lisenssi
+  check.input: Manifesti
+  check.run: Tarkista
+  check.lookup: Hae tuntemattomat lisenssit verkosta (deps.dev)
+  check.col.package: Paketti
+  check.col.license: Lisenssi
+  check.col.status: Tila
+  check.status.compatible: Yhteensopiva
+  check.status.conditional: Ehdoin
+  check.status.incompatible: Ristiriita
+  check.status.unknown: Tuntematon
+  check.summary: "{ok} yhteensopivaa, {warn} ehdoin, {bad} ristiriitaa, {unknown}
+    tuntematonta"
+  check.format: "Tunnistettu muoto: {format}"
+  check.no-deps: Riippuvuuksia ei löytynyt.
+  check.license-hint: Lisää lisenssi manifestiin riveinä muodossa ”name@version
+    LICENSE-ID” tai ota verkkohaku käyttöön.
+  notfound.title: Sivua ei löytynyt
+  notfound.body: Tätä sivua ei ole olemassa. Kokeile lisenssikirjastoa.
+  domain.education: Koulutus
+  domain.design: Fontit ja suunnittelu

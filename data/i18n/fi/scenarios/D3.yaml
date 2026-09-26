@@ -1,0 +1,7 @@
+reviewed: false
+sourceHash: d774574ea30fc483
+actor: other
+title: Sisäinen muokkaus, ei levitystä eikä ulkoista palvelua
+cells:
+  agpl-3.0: Intranetin käyttäjävuorovaikutus on kiistanalainen
+  busl-1.1: Riippuu Additional Use Grantista

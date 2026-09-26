@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 626a2a9d93ec9cef
+summary: "OpenRAIL-tyyppinen mallilisenssi: kaupallinen käyttö sallittu, ja
+  käyttöön perustuvat rajoitukset siirtyvät johdannaisiin."
+analogy: Ilmainen työkalu, jonka jokaiseen kopioon on kiinnitetty kiellettyjen
+  käyttötapojen luettelo.
+pros:
+  - Kaupallinen käyttö sallittu
+  - Käyttörajoitukset kulkevat eteenpäin
+cons:
+  - Ei avointa lähdekoodia OSI:n mukaan
+  - Uudemmat DeepSeek-mallit siirtyivät MIT-lisenssiin

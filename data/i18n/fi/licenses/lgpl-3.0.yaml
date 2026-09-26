@@ -1,0 +1,15 @@
+reviewed: false
+sourceHash: cdef0d42cb1ab51e
+summary: "Kirjastotason copyleft: kirjastoon tehdyt muutokset pysyvät avoimina;
+  suljetut sovellukset saavat linkittyä siihen, jos käyttäjät voivat vaihtaa
+  kirjaston."
+analogy: "Yhteinen moottori: voit asentaa sen autoosi, mutta omistajien on
+  voitava vaihtaa se omaansa."
+pros:
+  - Sallii suljettujen sovellusten käyttää kirjastoa
+  - Kirjastoon tehdyt muutokset pysyvät avoimina
+  - Patenttilupa
+cons:
+  - Uudelleenlinkityksen säännöt ovat monimutkaisia, erityisesti staattisessa
+    linkityksessä ja mobiilissa
+  - Jotkin yritykset välttävät sitä yhä

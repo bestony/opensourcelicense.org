@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cf76d86201254c1b
+summary: "Copyleft láidir: ní mór saothair dhíorthacha dáilte a scaoileadh ina
+  n-iomláine faoi GPL-2.0. Gan deonú paitinne sainráite; neamh-chomhoiriúnach le
+  GPL-3.0 mura n-úsáidtear “or later”."
+analogy: Riail roinn-an-t-oideas, ina heagrán níos sine.
+pros:
+  - Coinníonn sé saothair dhíorthacha dáilte oscailte
+  - Úsáideann eithne Linux é
+cons:
+  - Neamh-chomhoiriúnach le Apache-2.0 agus GPL-3.0 (an leagan sin amháin)
+  - Gan deonú paitinne sainráite

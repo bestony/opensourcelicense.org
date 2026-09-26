@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 3d7476dd1bfc7f5b
+summary: Salliva lisenssi; ilmoitus vaaditaan lähdekoodin kopioissa mutta ei
+  käännetyissä binääreissä.
+analogy: Säilytä tekijän nimi keittokirjassa, ei jokaisella tarjoilemallasi lautasella.
+pros:
+  - Binääreissä ei tarvita ilmoitusta
+  - C++-kirjastojen vakiolisenssi
+cons:
+  - Ei patenttilupaa
+  - Vähemmän tunnettu C++:n ulkopuolella

@@ -1,0 +1,8 @@
+reviewed: false
+sourceHash: d30cdd2632a3c255
+actor: other
+title: Lenket inn i en app eller fastvare med lukket kildekode og distribuert
+cells:
+  mpl-2.0: På filnivå
+  lgpl-3.0: Må tillate ny lenking
+  busl-1.1: Avhenger av Additional Use Grant

@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 97ea126725162df2
+summary: "Linux Foundationin salliva datalisenssi: käytä ja jaa dataa vapaasti;
+  tuloksia, kuten koulutettuja malleja, ei rajoiteta."
+analogy: Käytä tietoaineistoa mihin tahansa; liitä sopimus mukaan, kun luovutat
+  datan eteenpäin.
+pros:
+  - Vapauttaa laskennalliset tulokset nimenomaisesti
+  - Kirjoitettu datalle
+cons:
+  - Vähemmän tunnettu kuin CC-lisenssit
+  - Versio 2.0 on yksinkertaisempi

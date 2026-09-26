@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: ddb7b2f148c13edb
+summary: Ceadúnas ceadaitheach gearr le deonú paitinne sainráite, a úsáideann
+  Oracle do GraalVM agus tionscadail eile.
+analogy: Leabhar saor in aisce MIT, le gealltanas breise faoi phaitinní.
+pros:
+  - Gearr agus ceadaitheach
+  - Deonú paitinne sainráite
+cons:
+  - Gan chlásal frithbhirt paitinne
+  - Níos lú aithne air ná MIT nó Apache

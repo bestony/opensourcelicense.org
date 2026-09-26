@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 362187e701e25e6a
+summary: MPL:stä johdettu tiedostotason copyleft patenttiluvalla; ei
+  yhteensopiva GPL:n kanssa.
+analogy: Jaa lainattuun tiedostoon tekemäsi muutokset; muun voit pitää
+  suljettuna, jos haluat.
+pros:
+  - Tiedostotason soveltamisala
+  - Patenttilupa
+cons:
+  - Ei yhteensopiva GPL:n kanssa (ZFS-on-Linux-ongelma)
+  - Harva uusi projekti ottaa sen käyttöön

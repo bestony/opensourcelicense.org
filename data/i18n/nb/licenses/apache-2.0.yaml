@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 637c87bc846f9159
+summary: Tillatende lisens med uttrykkelig patentlisens, patentgjengjeldelse og
+  krav om å merke endrede filer.
+analogy: En gratis verktøykasse som også kommer med et løfte om ikke å saksøke
+  deg for patentene – med mindre du saksøker først.
+pros:
+  - Uttrykkelig patentlisens fra hver bidragsyter
+  - Foretrukket av mange selskaper og stiftelser
+  - Beskytter varemerker
+cons:
+  - Lengre; håndtering av NOTICE-filen
+  - Ikke kompatibel med GPL-2.0-only
+  - Hindrer ikke driftede konkurrenter

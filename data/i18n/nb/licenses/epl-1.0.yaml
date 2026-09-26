@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 41352f96fddd8017
+summary: Copyleft på modulnivå med patentlisens og New York-lov som gjeldende
+  rett; ikke kompatibel med GPL.
+analogy: Første utgave av Eclipse-regelen om å dele kapitler.
+pros:
+  - Patentlisens
+  - Brukes av Clojure og JUnit 4
+cons:
+  - Ikke kompatibel med GPL
+  - Erstattet av EPL-2.0

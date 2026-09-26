@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: ded3362d69058c2a
+summary: Apache-2.0 móide eisceacht a bhaineann riachtanais sannta do chód
+  tiomsaithe agus a fhágann go bhfuil sé inúsáidte le tionscadail GPL-2.0.
+analogy: Bosca uirlisí Apache, le nóta nach dteastaíonn creidiúint d'fhuíoll na
+  n-uirlisí i do tháirge.
+pros:
+  - Deonú paitinne Apache-2.0
+  - Oibríonn sé le cód GPL-2.0
+cons:
+  - Níos faide ná MIT
+  - Tá an eisceacht dírithe ar thionscadail chosúil le tiomsaitheoirí

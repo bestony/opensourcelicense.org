@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 4f54478806088c0d
+summary: "Perlin kaksoislisenssi: vastaanottajat valitsevat Artistic License
+  1.0:n tai GPL:n (versio 1 tai uudempi)."
+analogy: Valitse kahdesta sääntökirjasta se, joka sopii sinulle.
+pros:
+  - Valinta melko sallivien ja copyleft-ehtojen välillä
+  - CPAN-moduulien vakiolisenssi
+cons:
+  - Artistic 1.0 on epämääräinen
+  - Ei patenttilupaa

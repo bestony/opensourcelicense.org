@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: e8b5efadb2a71225
+summary: Lyhyt, MIT:tä ja BSD:tä muistuttava salliva lisenssi, jota PostgreSQL
+  ja sen ekosysteemi käyttävät.
+analogy: PostgreSQL-yhteisön oma versio ilmaisesta kirjasta.
+pros:
+  - Lyhyt ja salliva
+  - Tuttu PostgreSQL-ekosysteemissä
+cons:
+  - Ei patenttilupaa
+  - Suljetut haarat ovat sallittuja

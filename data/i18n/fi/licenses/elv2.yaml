@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 1b47253adc7fb00d
+summary: "Lähdekoodi saatavilla: vapaasti käytettävissä ja muokattavissa, mutta
+  sitä ei saa tarjota hallinnoituna palveluna eikä lisenssiavaimia saa ohittaa."
+analogy: Kokkaa sillä kotona tai ravintolassasi, mutta älä avaa kauppaa, joka
+  myy juuri tätä ruokaa.
+pros:
+  - Lyhyt ja selkeä
+  - Kohdistuu vain hallinnoitujen palvelujen kilpailijoihin
+cons:
+  - Ei avointa lähdekoodia
+  - Rajoittaa haaroja ja joitakin kumppaneita

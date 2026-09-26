@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 1db86c42c600a813
+summary: "GPL-3.0 pluss en nettverksklausul: brukere som samhandler med en
+  endret versjon over et nettverk, må få tilbud om kildekoden."
+analogy: "Oppskriftsregelen gjelder også restauranter: å servere retten regnes
+  som å dele den ut."
+pros:
+  - Tetter SaaS-smutthullet
+  - Godt grunnlag for dobbel lisensiering
+  - OSI-godkjent åpen kildekode
+cons:
+  - Mange selskaper forbyr den helt
+  - Drift av uendret programvare er fortsatt tillatt

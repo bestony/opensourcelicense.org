@@ -1,0 +1,372 @@
+reviewed: false
+sourceHash: a2d7eb045dde7649
+strings:
+  site.name: opensourcelicense.org
+  site.tagline: Ceadúnais foinse oscailte a roghnú agus a chur i gcomparáid
+  site.description: Roghnaigh ceadúnas foinse oscailte, cuir ceadúnais i
+    gcomparáid agus tástáil faoi bhrú iad. Féach cad a úsáideann tionscadail
+    cháiliúla, cad a d'fhéadfadh dul mícheart, agus cad a oireann do do
+    thionscadal.
+  nav.home: Baile
+  nav.licenses: Ceadúnais
+  nav.scenarios: Cásanna
+  nav.projects: Tionscadail
+  nav.trends: Treochtaí
+  nav.compare: Comparáid
+  nav.wizard: Draoi
+  nav.chat: Comhairleoir IS
+  nav.check: Seiceáil spleáchas
+  nav.menu: Roghchlár
+  lang.switch: Teanga
+  lang.suggest: Tá an leathanach seo ar fáil i {language}.
+  lang.suggest.go: Athraigh
+  lang.suggest.dismiss: Díbhe
+  footer.disclaimer: Tugann an suíomh seo eolas ginearálta, ní comhairle
+    dhlíthiúil. I gcás fíorachrainn nó fíorchonartha, labhair le dlíodóir.
+  footer.source: Cód foinse (AGPL-3.0)
+  footer.data: Sonraí faoi CC-BY-4.0
+  footer.report: Tuairiscigh earráid
+  footer.cite: Sonraí ó opensourcelicense.org, CC-BY-4.0
+  footer.hosting: Ag rith ar phlean saor in aisce Cloudflare Workers
+  footer.dns: Fearann á óstáil ar Cloudflare
+  badge.machine: Meaisínaistriúchán
+  badge.reviewed: Aistriúchán athbhreithnithe
+  badge.fallback: Gan aistriú fós – Béarla á thaispeáint
+  badge.stale: d'fhéadfadh sé a bheith as dáta
+  badge.unreviewed-data: Dréacht – gan athbhreithniú ag dlíodóir fós
+  common.updated: Sonraí nuashonraithe {date}
+  common.back: Siar
+  common.copy: Cóipeáil
+  common.copied: Cóipeáilte
+  common.download: Íoslódáil
+  common.close: Dún
+  common.all: Gach ceann
+  common.yes: Tá
+  common.no: Níl
+  common.unknown: Anaithnid
+  common.none: Dada
+  common.more: Tuilleadh
+  common.loading: Á lódáil…
+  common.error: Chuaigh rud éigin mícheart.
+  common.search: Cuardaigh
+  home.title: Roghnaigh ceadúnas foinse oscailte agus do shúile ar oscailt
+  home.lead: Ní hamháin “cén ceadúnas”, ach cad a roghnaigh tionscadail chosúla,
+    cén chuma atá ar an gcás is measa, agus cad is ceart a dhéanamh ina dhiaidh
+    sin.
+  home.entry.chat.title: Labhair leis an gcomhairleoir IS
+  home.entry.chat.body: Déan cur síos ar do thionscadal i d'fhocail féin. Faigh
+    próifíl, ceisteanna leantacha agus tuarascáil.
+  home.entry.projects.title: Féach cad a úsáideann daoine eile
+  home.entry.projects.body: Ceadúnais tionscadal cáiliúil, agus an fáth ar athraigh cuid acu.
+  home.entry.wizard.title: Scag céim ar chéim
+  home.entry.wizard.body: Freagair cúpla ceist agus faigh gearrliosta rangaithe agus mínithe.
+  home.wall: Ceadúnais tionscadal móréilimh
+  home.changes: Athruithe ceadúnais le déanaí
+  home.scenarios: Cad a d'fhéadfadh dul mícheart?
+  home.scenarios.body: 27 gcás fhoircneacha × 17 gcolún ceadúnais, leathanach
+    amháin in aghaidh gach cille.
+  family.permissive: Ceadaitheach
+  family.weak-copyleft: Copyleft lag
+  family.strong-copyleft: Copyleft láidir
+  family.network-copyleft: Copyleft líonra
+  family.source-available: Foinse ar fáil
+  family.model: Ceadúnas samhla
+  family.content: Ábhar / sonraí
+  verdict.allow: Ceadaithe
+  verdict.conditional: Faoi choinníollacha
+  verdict.deny: Coiscthe ag an gceadúnas
+  verdict.silent: Gan trácht air
+  verdict.tbd: Faoi athbhreithniú
+  verdict.legend: "Eochair: ✓ is féidir leis an bpáirtí eile é seo a dhéanamh · ◐
+    faoi choinníollacha · ✗ coisceann an ceadúnas é · — níl aon trácht ag an
+    gceadúnas air (tá feidhm ag an dlí ginearálta)"
+  actor.other: Déanann duine eile é seo
+  actor.you: Ba mhaith leat é seo a dhéanamh
+  actor.contributor: Déanann rannpháirtí é seo
+  actor.both: Baineann sé leis an dá thaobh
+  group.A: Iomaíocht tráchtála
+  group.B: Paitinní agus dlí
+  group.C: Forbairt agus gnó
+  group.D: Úsáid agus comhlíonadh
+  group.E: Samhlacha IS agus sonraí
+  matrix.code: Ceadúnais chóid
+  matrix.model: Ceadúnais samhlacha agus sonraí
+  term.commercial-use: Úsáid tráchtála
+  term.modification: Mionathrú
+  term.distribution: Dáileadh
+  term.private-use: Úsáid phríobháideach
+  term.patent-use: Deonú paitinne
+  term.non-production-use: Úsáid neamhtháirgthe
+  term.converts-to-open-source: Iompaíonn sé ina fhoinse oscailte níos déanaí
+  term.include-copyright: Coinnigh an fógra cóipchirt
+  term.include-license: Cuir an ceadúnas san áireamh
+  term.document-changes: Marcáil athruithe
+  term.disclose-source: Nocht an fhoinse
+  term.same-license: An ceadúnas céanna do shaothair dhíorthacha
+  term.same-license-file: An ceadúnas céanna (leibhéal comhaid)
+  term.same-license-library: An ceadúnas céanna (leibhéal leabharlainne)
+  term.allow-relinking: Ceadaigh athnascadh
+  term.network-use-disclose: Is dáileadh é úsáid líonra
+  term.service-stack-disclose: Scaoil an chruach seirbhíse ar fad
+  term.keep-limitations: Coinnigh na teorainneacha
+  term.attribution: Sannadh
+  term.attribution-built-with: Taispeáin “Built with”
+  term.name-prefix: Riail réimír ainm
+  term.acceptable-use-policy: Beartas úsáide inghlactha
+  term.use-restrictions-pass-through: Srianta úsáide a chur ar aghaidh
+  term.indicate-changes: Léirigh athruithe
+  term.liability: Gan dliteanas
+  term.warranty: Gan bharántas
+  term.trademark-use: Gan chearta trádmhairc
+  term.no-endorsement: Gan formhuiniú
+  term.production-use-restricted: Úsáid táirgthe srianta
+  term.no-managed-service: Gan seirbhís bhainistithe
+  term.no-license-key-circumvention: Gan eochracha ceadúnais a sheachaint
+  term.mau-threshold: Tairseach úsáideoirí
+  term.use-restrictions: Srianta úsáide
+  term.non-commercial: Neamhthráchtáil amháin
+  licenses.title: Leabharlann ceadúnas foinse oscailte
+  licenses.lead: "{count} ceadúnas, ó cheadúnais cheadaitheacha go ceadúnais
+    foinse ar fáil agus ceadúnais samhlacha."
+  licenses.col.license: Ceadúnas
+  licenses.col.family: Fine
+  licenses.col.osi: OSI
+  licenses.col.fsf: Saor de réir FSF
+  licenses.col.projects: Tionscadail
+  licenses.filter: Scag de réir fine
+  license.permissions: Ceadanna
+  license.conditions: Coinníollacha
+  license.limitations: Teorainneacha
+  license.summary: I bhfocail shimplí
+  license.analogy: Analach
+  license.pros: Buntáistí
+  license.cons: Míbhuntáistí
+  license.scenarios: Cásanna foircneacha
+  license.radar: Radar an cháis is measa
+  license.projects: Tionscadail cháiliúla a úsáideann é
+  license.projects.count: Úsáideann {count} tionscadal cáiliúil inár léarscáil an ceadúnas seo.
+  license.projects.none: Níl aon tionscadal inár léarscáil ag úsáid an cheadúnais seo fós.
+  license.projects.since: D'athraigh chuige ar {date}
+  license.projects.also: "Ar fáil freisin faoi: {licenses}"
+  license.projects.former: Tionscadail a d'fhág é
+  license.text: Téacs oifigiúil
+  license.text.official: Téacs oifigiúil i {language}
+  license.text.note: Is é an téacs oifigiúil amháin atá ceangailteach go
+    dlíthiúil. Ní aistrímid téacsanna ceadúnais.
+  license.compare: Cuir i gcomparáid le…
+  license.spdx: Aitheantóir SPDX
+  radar.anti-freeride: Stopann saoraistear
+  radar.anti-closed-fork: Stopann forcanna dúnta
+  radar.patent: Cosaint paitinne
+  radar.adoption-friction: Frithchuimilt glactha
+  radar.relicense-difficulty: Deacair athcheadúnú
+  radar.misuse-control: Smacht ar mhí-úsáid
+  radar.derivative-control: Smacht ar shaothair dhíorthacha
+  radar.commercial-control: Smacht tráchtála
+  radar.note: Ríofa ón maitrís cásanna. Ciallaíonn luach níos airde níos mó den
+    airí sin, ní “níos fearr”.
+  scenarios.title: Maitrís na gcásanna foircneacha
+  scenarios.lead: Cad a tharlaíonn tar éis duit ceadúnas a roghnú? Freagraíonn
+    gach cill ceist amháin agus tá a leathanach féin aici.
+  scenarios.highlight: Aibhsigh ceadúnas
+  scenarios.expand: Leathnaigh gach ceann
+  scenarios.collapse: Laghdaigh gach ceann
+  scenarios.silent-note: Tá rónna nach bhfuil iontu ach “—” anseo d'aon ghnó.
+    Braitheann an freagra ar chonarthaí fostaíochta (C6), ar dhlí rialaithe
+    onnmhairí (D5) nó ar chásanna dlí atá ar siúl (D6), ní ar an gceadúnas.
+  scenario.flow.you: Foilsíonn tú faoi {license}
+  scenario.flow.they: An cás
+  scenario.flow.result: Toradh
+  scenario.clause: Clásal ábhartha
+  scenario.case: Cás fíorshaoil
+  scenario.others: An cás céanna, ceadúnais eile
+  scenario.other-scenarios: Cásanna eile do {license}
+  scenario.no-clause: Níl aon chlásal sonrach ann. Tá feidhm ag an dlí ginearálta.
+  scenario.review: Stádas athbhreithnithe
+  scenario.review.none: Gan athbhreithniú ag dlíodóir fós.
+  scenario.review.done: Athbhreithnithe ag {who} ar {date}.
+  compare.title: Comparáid ceadúnas foinse oscailte
+  compare.lead: Roghnaigh dhá nó trí cheadúnas le cur i gcomparáid clásal ar
+    chlásal agus cás ar chás.
+  compare.pick: Cuir ceadúnas leis
+  compare.remove: Bain
+  compare.terms: Téarmaí
+  compare.scenarios: Cásanna
+  compare.empty: Roghnaigh dhá cheadúnas ar a laghad.
+  wizard.title: Draoi roghnú ceadúnais
+  wizard.lead: Freagair cúpla ceist. Rangaíonn an t-inneall rialacha na ceadúnais
+    agus míníonn sé gach pointe.
+  wizard.next: Ar aghaidh
+  wizard.prev: Siar
+  wizard.finish: Féach an toradh
+  wizard.restart: Tosaigh arís
+  wizard.skip: Scipeáil
+  wizard.step: Céim {n} as {total}
+  wizard.to-chat: Lean ar aghaidh leis an gcomhairleoir IS
+  q.artifact_type: Cad atá á scaoileadh agat?
+  q.openness_level: Cé chomh hoscailte is mian leat é a bheith?
+  q.avoid: Cé na torthaí ar mian leat iad a sheachaint?
+  q.avoid.hint: Roghnaigh líon ar bith.
+  q.adoption_goal: Cad is tábhachtaí?
+  q.dependencies: An bhfuil tú ag brath ar chód copyleft?
+  q.dependencies.hint: Cuir aitheantóirí SPDX cheadúnais na spleáchas leis, mar
+    shampla GPL-3.0-only.
+  q.commercial_plan: Conas a dhéanfaidh tú airgead, más ea?
+  q.jurisdiction: Cá bhfuil tú lonnaithe?
+  opt.artifact_type.library: Leabharlann nó SDK
+  opt.artifact_type.application: Feidhmchlár nó uirlis
+  opt.artifact_type.saas: Inneall cúil seirbhíse (SaaS)
+  opt.artifact_type.model: Meáchain samhla
+  opt.artifact_type.dataset: Tacar sonraí
+  opt.artifact_type.docs: Doiciméadú nó ábhar
+  opt.openness_level.open: Go hiomlán oscailte – is féidir le duine ar bith rud ar bith a dhéanamh
+  opt.openness_level.reciprocal: Oscailte, ach caithfidh feabhsuithe teacht ar ais
+  opt.openness_level.source-available: Foinse le feiceáil, úsáid tráchtála teoranta
+  opt.avoid.cloud-hosting: Soláthraithe néil á dhíol mar sheirbhís
+  opt.avoid.closed-fork: Forcanna foinse dúnta
+  opt.avoid.patent-litigation: Cásanna dlí paitinne
+  opt.avoid.trademark-abuse: Mí-úsáid m'ainm nó mo bhranda
+  opt.avoid.harmful-use: Úsáidí díobhálacha
+  opt.avoid.big-company: Cuideachtaí móra á úsáid saor in aisce
+  opt.adoption_goal.enterprise: An glacadh is mó ag cuideachtaí
+  opt.adoption_goal.community: Rannchuidiú ón bpobal
+  opt.adoption_goal.monetize: Airgead a dhéanamh as
+  opt.commercial_plan.none: Gan phlean
+  opt.commercial_plan.dual-license: Décheadúnú
+  opt.commercial_plan.open-core: Open core
+  opt.commercial_plan.hosted: Seirbhís óstáilte
+  opt.jurisdiction.cn: An tSín
+  opt.jurisdiction.eu: An tAontas Eorpach
+  opt.jurisdiction.us: Stáit Aontaithe Mheiriceá
+  opt.jurisdiction.other: Eile
+  engine.part.avoid: "Cosaint i gcoinne: {avoid}"
+  engine.part.openness: "Oiriúnacht oscailteachta: {openness}"
+  engine.part.adoption: "Sprioc: {goal}"
+  engine.part.commercial: "Plean gnó: {plan}"
+  engine.part.jurisdiction: "Dlínse: {jurisdiction}"
+  engine.part.dependency: "Comhoiriúnach faoi choinníollacha amháin: {dependency}"
+  engine.excluded.dependency: Neamh-chomhoiriúnach leis an spleáchas {dependency}
+  engine.excluded.artifact: Níl sé oiriúnach don chineál déantáin seo
+  advisory.needs-cla: Úsáid Comhaontú Ceadúnais Rannpháirtí (CLA). Beidh sé de
+    dhíth ort chun ceadúnais tráchtála a dhíol nó an ceadúnas a athrú níos
+    déanaí.
+  advisory.consider-dco: Is leor de ghnáth Developer Certificate of Origin (DCO, “Signed-off-by”).
+  advisory.busl-change-date: Socraigh an Additional Use Grant, an Change Date agus
+    an Change License i gceanntásc an BSL.
+  advisory.model-card: Cuir an ceadúnas i meiteashonraí chárta na samhla nó an
+    tacair sonraí (réimse “license:”).
+  advisory.notice-file: Cuir comhad NOTICE leis agus coinnigh é nuair a athdháileann tú.
+  advisory.consult-lawyer: Iarr ar dhlíodóir na spleáchais agus na téarmaí gnó a
+    sheiceáil sula scaoileann tú.
+  advisory.network-source-link: Taispeáin nasc “Cód foinse” d'úsáideoirí do sheirbhíse líonra.
+  report.title: Do thuarascáil ceadúnais
+  report.lead: Ríomhtar an tuarascáil seo i do bhrabhsálaí ón bpróifíl atá sa
+    nasc. Roinn an nasc chun an tuarascáil a roinnt.
+  report.profile: Próifíl an tionscadail
+  report.edit: Cuir in eagar sa draoi
+  report.top: Molta
+  report.score: Scór {score}
+  report.why: Cén fáth
+  report.excluded: Eisiata
+  report.advisories: Na chéad chéimeanna eile
+  report.license-file: Comhad LICENSE
+  report.header: Ceanntásc comhaid
+  report.badge: Suaitheantas README
+  report.share: Roinn nasc
+  report.share.copy: Cóipeáil an nasc
+  report.similar: Tionscadail chosúla
+  report.no-text: Níl téacs inléite ag meaisín ann. Faigh é ón leathanach oifigiúil.
+  report.invalid: Tá an nasc tuarascála seo briste nó ó sheanleagan.
+  report.empty: Níl próifíl ann fós. Tosaigh leis an draoi nó leis an gcomhairleoir IS.
+  chat.title: Comhairleoir IS ar cheadúnais
+  chat.lead: Déan cur síos ar do thionscadal. Cuireann an comhairleoir ceisteanna
+    leantacha, roghnaíonn an t-inneall rialacha na ceadúnais, agus míníonn an
+    comhairleoir iad.
+  chat.placeholder: "Mar shampla: Thóg mé bunachar sonraí veicteoireach agus is
+    baol liom go ndíolfaidh soláthraithe néil arís é."
+  chat.send: Seol
+  chat.stop: Stop
+  chat.examples: Bain triail as sampla
+  chat.example.1: Thóg mé bunachar sonraí veicteoireach agus is baol liom go
+    ndíolfaidh soláthraithe néil arís é.
+  chat.example.2: Leabharlann bheag comhpháirteanna React. Ba mhaith liom go
+    n-úsáidfeadh cuideachtaí í.
+  chat.example.3: Mhionchoigeartaíomar samhail 7B agus ba mhaith linn úsáidí
+    díobhálacha a chosc.
+  chat.profile: Próifíl an tionscadail
+  chat.profile.hint: Cliceáil ar luach chun é a athrú.
+  chat.candidates: Iarrthóirí
+  chat.run: Faigh moladh
+  chat.limit: Tá teorainn an lae bainte amach agat. Bain triail eile as amárach nó
+    úsáid an draoi.
+  chat.error: Níl an comhairleoir ar fáil faoi láthair. Oibríonn an draoi fós.
+  chat.verify: Deimhnigh gur duine daonna thú.
+  chat.disclaimer: Is féidir leis an gcomhairleoir botúin a dhéanamh. Tagann na
+    moltaí ón inneall rialacha, agus ní comhairle dhlíthiúil é seo.
+  chat.report: Oscail an tuarascáil iomlán
+  projects.title: Léarscáil ceadúnas tionscadal
+  projects.lead: Ceadúnais tionscadal cáiliúil agus an scéal taobh thiar de gach athrú.
+  projects.filter.domain: Réimse
+  projects.filter.family: Fine ceadúnais
+  projects.filter.owner: Úinéir
+  projects.filter.changed: Ceadúnas athraithe
+  projects.count: "{count} tionscadal"
+  projects.empty: Níl aon tionscadal ag teacht leis na scagairí seo.
+  owner.company: Cuideachta
+  owner.foundation: Fondúireacht
+  owner.individual: Duine aonair
+  owner.community: Pobal
+  project.current: Ceadúnas reatha
+  project.timeline: Amlíne ceadúnais
+  project.reason: Cúis
+  project.announcement: Fógra
+  project.forks: Forcanna a lean
+  project.fork-of: Forc de {name}
+  project.repo: Stór
+  project.similar: Tionscadail chosúla
+  project.review: D'aimsigh an bota sioncrónaithe an iontráil seo agus tá sí ag
+    fanacht le hathbhreithniú daonna.
+  project.initial: Ceadúnas tosaigh
+  domain.database: Bunachar sonraí
+  domain.frontend: Creat tosaigh
+  domain.devops: DevOps
+  domain.ai-model: Samhail IS
+  domain.language: Teanga agus timpeallacht rite
+  domain.os: Córas oibriúcháin
+  domain.web: Freastalaí gréasáin agus inneall cúil
+  domain.tooling: Uirlisí forbróra
+  domain.data: Sonraí agus anailísíocht
+  domain.observability: Inbhraiteacht
+  domain.messaging: Teachtaireachtaí agus sruthú
+  domain.cms: CMS agus aipeanna
+  trends.title: Treochtaí ceadúnas foinse oscailte
+  trends.lead: Comhiomlánaithe ó léarscáil na dtionscadal ag am tógála.
+  trends.family-share: Fine ceadúnas de réir réimse
+  trends.changes: Athruithe ceadúnais de réir bliana
+  trends.to-source-available: Tionscadail a d'aistrigh ó fhoinse oscailte go foinse ar fáil
+  search.lead: Cuardaigh ceadúnais, cásanna agus tionscadail sa teanga seo.
+  search.noscript: Tá JavaScript de dhíth ar an gcuardach.
+  check.title: Seiceáil ceadúnas spleáchas
+  check.lead: Greamaigh package.json, go.mod, Gemfile.lock, Cargo.toml nó
+    requirements.txt. Déantar an parsáil i do bhrabhsálaí.
+  check.project-license: Ceadúnas do thionscadail
+  check.input: Léiriú
+  check.run: Seiceáil
+  check.lookup: Cuardaigh ceadúnais anaithnide ar líne (deps.dev)
+  check.col.package: Pacáiste
+  check.col.license: Ceadúnas
+  check.col.status: Stádas
+  check.status.compatible: Comhoiriúnach
+  check.status.conditional: Faoi choinníollacha
+  check.status.incompatible: Coimhlint
+  check.status.unknown: Anaithnid
+  check.summary: "{ok} comhoiriúnach, {warn} faoi choinníollacha, {bad} coimhlint,
+    {unknown} anaithnid"
+  check.format: "Formáid aimsithe: {format}"
+  check.no-deps: Níor aimsíodh aon spleáchas.
+  check.license-hint: Cuir an ceadúnas sa léiriú mar línte “name@version
+    LICENSE-ID”, nó cumasaigh cuardach ar líne.
+  notfound.title: Leathanach gan aimsiú
+  notfound.body: Níl an leathanach seo ann. Bain triail as leabharlann na gceadúnas.
+  domain.education: Oideachas
+  domain.design: Clófhoirne agus dearadh

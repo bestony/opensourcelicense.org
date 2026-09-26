@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 22649412ed3dbb5f
+summary: "Kirjastojen copyleft: kirjastoon tehdyt muutokset pysyvät avoimina;
+  suljetut ohjelmat saavat linkittyä siihen, jos käyttäjät voivat linkittää ne
+  uudelleen muokattuun kirjastoon."
+analogy: Vaihdettavan yhteisen moottorin vanhempi painos.
+pros:
+  - Sallii suljettujen sovellusten käyttää kirjastoa
+  - Yleinen työpöytä- ja multimediakirjastoissa
+cons:
+  - Uudelleenlinkityksen säännöt ovat monimutkaisia
+  - Ei nimenomaista patenttilupaa

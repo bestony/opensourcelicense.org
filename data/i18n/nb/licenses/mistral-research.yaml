@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 92115efde43878b6
+summary: Vekter kun for forskning og personlig bruk; all kommersiell bruk eller
+  produksjonsbruk krever en kommersiell lisens fra Mistral AI.
+analogy: "En bibliotekbok: les og studer den, men ikke selg den videre."
+pros:
+  - Åpne vekter for forskning
+  - Tillater endringer for forskning
+cons:
+  - Ingen kommersiell bruk
+  - Ikke åpen kildekode

@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 86907368675893f1
+summary: "Malleille tarkoitettu Responsible AI License: sallivat ehdot ja
+  käyttöön perustuvat rajoitukset, jotka jokaisen johdannaisen on siirrettävä
+  eteenpäin."
+analogy: Ilmainen työkalu, jonka jokaisen kopion mukana kulkee kiellettyjen
+  käyttötapojen luettelo.
+pros:
+  - Sallii kaupallisen käytön
+  - Pitää haitallisen käytön rajoitukset voimassa ketjussa eteenpäin
+cons:
+  - Ei avointa lähdekoodia OSI:n mukaan
+  - Rajoituksia on vaikea valvoa
+  - Muunnelmia on useita

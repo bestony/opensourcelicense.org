@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: ded3362d69058c2a
+summary: Apache-2.0 pluss et unntak som fjerner kravet om navngivelse for
+  kompilert kode og gjør den brukbar i GPL-2.0-prosjekter.
+analogy: Apaches verktøykasse, med en merknad om at restene av verktøyene i
+  produktet ditt ikke krever kreditering.
+pros:
+  - Patentlisensen fra Apache-2.0
+  - Fungerer med GPL-2.0-kode
+cons:
+  - Lengre enn MIT
+  - Unntaket er rettet mot kompilatorlignende prosjekter

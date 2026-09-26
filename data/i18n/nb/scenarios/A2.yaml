@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 57d3e35a6ad686d1
+actor: other
+title: Noen forgrener det og distribuerer en konkurrent med lukket kildekode
+cells:
+  apache-2.0: Må merke endrede filer
+  mpl-2.0: Endrede MPL-filer forblir åpne
+  lgpl-3.0: Endringer i biblioteket forblir åpne
+  busl-1.1: Avledede verk forblir under BSL
+  elv2: Begrensningene må beholdes

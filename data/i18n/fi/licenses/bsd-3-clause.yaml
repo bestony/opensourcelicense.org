@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: db235a56ea57284f
+summary: Kuten MIT, ja lisäksi lauseke, joka kieltää käyttämästä nimeäsi
+  johdannaistuotteiden suositteluun.
+analogy: "Ilmainen kirja, jossa on huomautus: ”Älä väitä tekijän suosittelevan
+  sinun painostasi.”"
+pros:
+  - Salliva ja tunnettu
+  - Suojaa nimesi suosittelukäytöltä
+cons:
+  - Ei patenttilupaa
+  - Suljetun lähdekoodin haarat ovat sallittuja

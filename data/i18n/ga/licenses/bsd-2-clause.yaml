@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 261d8b56fb436858
+summary: "Cosúil le MIT: úsáid an cód go saor; coinnigh an fógra cóipchirt agus
+  an séanadh i gcóipeanna foinse agus dénártha."
+analogy: "Cárta oidis saor in aisce: cóipeáil áit ar bith é, ach coinnigh líne
+  an údair ag an mbun."
+pros:
+  - An-ghearr agus ceadaitheach
+  - Úsáidtear go forleathan i gcórais BSD
+cons:
+  - Gan deonú paitinne
+  - Tá forcanna dúnta ceadaithe

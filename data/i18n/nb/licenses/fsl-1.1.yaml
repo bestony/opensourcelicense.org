@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 3720e103ed28cbd1
+summary: "Tilgjengelig kildekode: all bruk unntatt et konkurrerende produkt, og
+  hver utgivelse blir Apache-2.0 to år senere."
+analogy: Et utstillingsvindu der varene blir gratis for alle etter to år.
+pros:
+  - Kort og forutsigbar
+  - Koden blir åpen kildekode etter to år
+cons:
+  - Ikke åpen kildekode
+  - «Konkurrerende bruk» kan være vanskelig å vurdere

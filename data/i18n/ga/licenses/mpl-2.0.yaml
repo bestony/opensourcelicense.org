@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 6d33e2e6b797d27f
+summary: "Copyleft ar leibhéal comhaid: ní mór d'athruithe ar chomhaid faoi
+  cheadúnas MPL fanacht oscailte, ach is féidir iad a chomhcheangal le cód dúnta
+  i gcomhaid eile."
+analogy: Má fhaigheann tú caibidil ar iasacht, caithfidh tú d'eagarthóireacht ar
+  an gcaibidil sin a roinnt, ach is leatsa an chuid eile den leabhar.
+pros:
+  - Cothromaithe idir ceadaitheach agus copyleft
+  - Deonú paitinne sainráite
+  - Comhoiriúnach leis an GPL de réir réamhshocraithe
+cons:
+  - Is féidir le teorainneacha comhad a bheith doiléir
+  - Ní chlúdaíonn sé úsáid líonra

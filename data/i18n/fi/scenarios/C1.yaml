@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 4f30616160bfe68b
+actor: you
+title: Vaihdat myöhemmin lisenssiä tai myyt kaupallisia lisenssejä (kehittäjät
+  eivät allekirjoittaneet CLA:ta)
+cells:
+  mit: Uudet versiot voivat muuttua; vanhat säilyvät
+  bsd-3-clause: Sama kuin MIT
+  apache-2.0: Sama kuin MIT
+  mpl-2.0: MPL-tiedostojen on pysyttävä MPL-lisenssin alaisina
+  lgpl-3.0: Vaatii kaikkien kehittäjien suostumuksen
+  mulanpsl-2.0: Sama kuin MIT
+  busl-1.1: Perustuu yleensä CLA:han
+  elv2: Perustuu yleensä CLA:han

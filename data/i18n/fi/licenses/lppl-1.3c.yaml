@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: f6ef6656ac79990f
+summary: "Vapaa lisenssi LaTeX-paketeille: muokatut tiedostot on nimettävä
+  uudelleen tai merkittävä selvästi, jotta dokumentit toimivat kaikkialla
+  samoin."
+analogy: Saat muuttaa kirjasinta, mutta anna versiollesi uusi nimi.
+pros:
+  - Pitää dokumentit toistettavina
+  - Vakiintunut koko CTANissa
+cons:
+  - Uudelleennimeämissääntö on epätavallinen
+  - Ei GPL-yhteensopiva

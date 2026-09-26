@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: c826929f8a1baf2e
+summary: "Googles modellvilkår: kommersiell bruk er tillatt, med retningslinjer
+  for forbudt bruk som følger med til alle avledede verk, også destillerte
+  modeller."
+analogy: En gratis motor med en regelbok som hver ombygde motor må ha med seg.
+pros:
+  - Kommersiell bruk uten brukergrense
+  - Tydelige regler for avledede verk
+cons:
+  - Ikke åpen kildekode ifølge OSI
+  - Google kan endre retningslinjene for bruk

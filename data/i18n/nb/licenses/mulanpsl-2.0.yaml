@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: b568f07f3285ed81
+summary: En kinesisk tillatende lisens med patentlisens og gjengjeldelse. Den
+  kinesiske og den engelske teksten er likeverdige; ved motstrid går den
+  kinesiske foran.
+analogy: Vern i Apache-stil, skrevet med kinesisk rett i tankene.
+pros:
+  - Offisiell tospråklig tekst
+  - Patentlisens
+  - OSI-godkjent
+cons:
+  - Mindre kjent utenfor Kina
+  - Begrenset rettspraksis

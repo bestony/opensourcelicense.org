@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 4803251a37336702
+summary: "Oma mallilisenssi: kaupallinen käyttö on sallittu, ja siihen liittyy
+  Acceptable Use Policy, tekijänmaininta- ja nimeämissäännöt sekä erillinen
+  lisenssi yli 700 miljoonan kuukausittaisen aktiivikäyttäjän palveluille."
+analogy: Vapaasti käytettävä moottori sääntökirjan kera ja erityissopimus
+  kaikkein suurimmille autonvalmistajille.
+pros:
+  - Kaupallinen käyttö sallittu useimmille käyttäjille
+  - Suuri ekosysteemi
+cons:
+  - Ei avointa lähdekoodia OSI:n mukaan
+  - Käyttökäytäntöön ja nimeämiseen liittyvät velvoitteet
+  - Ehdot muuttuvat versioiden välillä

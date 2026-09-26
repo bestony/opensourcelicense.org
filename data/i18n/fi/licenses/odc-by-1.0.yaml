@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 7c50fe5f1b7f3c7d
+summary: "Tietokannoille ja tietoaineistoille: mikä tahansa käyttö, myös
+  kaupallinen, kun lähdemaininta säilytetään. Myös datasta tuottamasi teokset
+  tarvitsevat maininnan."
+analogy: Käytä karttadataa missä tahansa, kunhan kerrot, mistä se on peräisin.
+pros:
+  - Yksinkertainen tekijänmainintasääntö
+  - Yleinen suurissa tekoälyn koulutusaineistoissa
+  - Kattaa tietokantaoikeudet, ei vain tekijänoikeutta
+cons:
+  - Ei suunniteltu ohjelmistoille
+  - Ei patenttilupaa

@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 2101ba94160528a0
+summary: "Alibaban mallilisenssi suurimmille Qwen-malleille: kaupallinen käyttö
+  sallittu, kun lähde mainitaan, ja erillinen lisenssi yli 100 miljoonan
+  kuukausittaisen aktiivikäyttäjän palveluille."
+analogy: Ilmainen moottori ja erityissopimus hyvin suurille autonvalmistajille.
+pros:
+  - Kaupallinen käyttö useimmille käyttäjille
+  - Vahvat monikieliset mallit
+cons:
+  - Ei avointa lähdekoodia
+  - Käyttäjäraja

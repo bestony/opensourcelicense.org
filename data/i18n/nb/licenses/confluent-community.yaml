@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 99f045fe47a729cc
+summary: "Tilgjengelig kildekode: bruk, endre og distribuer fritt, unntatt for å
+  tilby et SaaS-produkt som konkurrerer med Confluent."
+analogy: Bruk oppskriften i hvilken som helst restaurant, unntatt en som
+  konkurrerer med forfatterens.
+pros:
+  - Snever begrensning
+  - De fleste brukere påvirkes ikke
+cons:
+  - Ikke åpen kildekode
+  - Utelukker skykonkurrenter bare gjennom en beskrivelse

@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: afd85677afc1c999
+actor: other
+title: Joku myy muokkaamattomia kopioita
+cells:
+  mpl-2.0: Lähdekoodia on tarjottava
+  lgpl-3.0: Lähdekoodia on tarjottava
+  gpl-3.0: Lähdekoodia on tarjottava
+  agpl-3.0: Lähdekoodia on tarjottava
+  sspl-1.0: Lähdekoodia on tarjottava
+  busl-1.1: Riippuu Additional Use Grantista

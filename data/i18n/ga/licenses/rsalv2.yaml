@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 50ad39245dfcc7f1
+summary: "Ceadúnas foinse ar fáil ó Redis: saor le húsáid agus le mionathrú, ach
+  ní chun na bogearraí a thairiscint mar sheirbhís bhainistithe ná chun
+  eochracha ceadúnais a sheachaint."
+analogy: Cócaráil leis áit ar bith, ach ná hoscail siopa a dhíolann an mhias seo.
+pros:
+  - Ní dhíríonn sé ach ar iomaitheoirí seirbhísí bainistithe
+  - Gearr
+cons:
+  - Ní foinse oscailte é
+  - Spreag sé forc Valkey

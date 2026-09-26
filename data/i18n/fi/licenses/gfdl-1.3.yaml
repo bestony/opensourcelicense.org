@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: c732ed2e04240901
+summary: "Copyleft käyttöoppaille: kopioiden ja muokattujen versioiden on
+  pysyttävä GFDL-lisenssin alaisina, ja historia ja muuttumattomat osiot on
+  säilytettävä."
+analogy: Jaa resepti -sääntö keittokirjan käyttöohjeelle.
+pros:
+  - Pitää dokumentaation vapaana
+  - GNU-oppaiden käyttämä
+cons:
+  - Muuttumattomat osiot ovat kiistanalaisia
+  - Vaikea yhdistää CC-sisältöön

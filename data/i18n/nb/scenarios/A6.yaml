@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: afd85677afc1c999
+actor: other
+title: Noen selger uendrede kopier
+cells:
+  mpl-2.0: Kildekoden må tilbys
+  lgpl-3.0: Kildekoden må tilbys
+  gpl-3.0: Kildekoden må tilbys
+  agpl-3.0: Kildekoden må tilbys
+  sspl-1.0: Kildekoden må tilbys
+  busl-1.1: Avhenger av Additional Use Grant

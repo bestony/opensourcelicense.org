@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 76c3b4e3dc7fbff1
+summary: "Ensimmäinen suurelle kielimallille laadittu Responsible AI License:
+  avoin pääsy ja käyttöön perustuvat rajoitukset, jotka sitovat myös
+  johdannaisia."
+analogy: Ilmainen työkalu, jonka jokaiseen kopioon on kiinnitetty kiellettyjen
+  käyttötapojen luettelo.
+pros:
+  - Sallii kaupallisen käytön
+  - RAIL-lisensoinnin edelläkävijä
+cons:
+  - Ei avointa lähdekoodia OSI:n mukaan
+  - Rajoituksia on vaikea valvoa

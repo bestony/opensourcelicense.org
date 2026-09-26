@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 841fb8980cea558f
+summary: GPL-2.0 itse kirjastolle ja lisäksi poikkeus, jonka ansiosta itsenäiset
+  ohjelmat voivat linkittyä siihen millä tahansa lisenssillä.
+analogy: Yhteinen moottori jaa resepti -säännön alaisena, mutta oma autosi pysyy
+  omanasi.
+pros:
+  - Siihen linkittyvät sovellukset voivat olla suljettuja
+  - OpenJDK:n käyttämä
+cons:
+  - Kirjastoon tehdyt muutokset pysyvät GPL-lisenssin alaisina
+  - Ei yhteensopiva GPL-3.0-only-projektien kanssa

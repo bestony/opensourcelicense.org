@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cf76d86201254c1b
+summary: "Vahva copyleft: levitetyt johdannaiset on julkaistava
+  kokonaisuudessaan GPL-2.0-lisenssillä. Ei nimenomaista patenttilupaa; ei
+  yhteensopiva GPL-3.0:n kanssa, ellei käytetä ”or later” -ehtoa."
+analogy: Jaa resepti -sääntö vanhempana painoksena.
+pros:
+  - Pitää levitetyt johdannaiset avoimina
+  - Linux-ytimen käyttämä
+cons:
+  - Ei yhteensopiva Apache-2.0:n ja GPL-3.0:n kanssa (vain tämä versio)
+  - Ei nimenomaista patenttilupaa

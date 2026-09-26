@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 2388a1183d57050c
+summary: "Fri skriftlisens: bruk, bygg inn og endre skrifter fritt, men endrede
+  skrifter må droppe reserverte navn, og skriftene kan ikke selges alene."
+analogy: Bruk skrifttypen overalt, men ikke selg den nakne skriftfilen.
+pros:
+  - Tillater innbygging i dokumenter og apper
+  - Standard for åpne skrifter
+cons:
+  - Reserverte skriftnavn kompliserer forgreninger
+  - Bare for skrifter

@@ -1,0 +1,7 @@
+reviewed: false
+sourceHash: a00bd38725037c38
+actor: other
+title: Το έργο εγκαταλείπεται και κάποιος κάνει fork για να το συνεχίσει
+cells:
+  busl-1.1: Περιορισμένο μέχρι το Change Date
+  elv2: Οι περιορισμοί συνεχίζουν να ισχύουν

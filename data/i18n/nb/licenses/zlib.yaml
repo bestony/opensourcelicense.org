@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: cec538ff11fd0ee8
+summary: "Tillatende lisens: endret kildekode må merkes som endret, opprinnelsen
+  må ikke fremstilles feil, og merknaden blir stående i kopier av kildekoden."
+analogy: Lån oppskriften, men endrer du den, ikke påstå at den er originalen.
+pros:
+  - Tillatende og kort
+  - Populær for spill og native biblioteker
+cons:
+  - Ingen patentlisens
+  - Lukkede forgreninger er tillatt

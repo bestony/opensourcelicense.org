@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 841fb8980cea558f
+summary: GPL-2.0 for selve biblioteket, pluss et unntak som lar uavhengige
+  programmer lenke til det under hvilken som helst lisens.
+analogy: En felles motor under del-oppskriften-regelen, men din egen bil forblir din.
+pros:
+  - Programmer som lenker til det, kan være lukket
+  - Brukes av OpenJDK
+cons:
+  - Endringer i biblioteket forblir GPL
+  - Ikke kompatibel med GPL-3.0-only-prosjekter

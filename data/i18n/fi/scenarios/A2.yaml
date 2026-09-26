@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 57d3e35a6ad686d1
+actor: other
+title: Joku haarauttaa sen ja levittää suljetun lähdekoodin kilpailijaa
+cells:
+  apache-2.0: Muutetut tiedostot on merkittävä
+  mpl-2.0: Muokatut MPL-tiedostot pysyvät avoimina
+  lgpl-3.0: Kirjastoon tehdyt muutokset pysyvät avoimina
+  busl-1.1: Johdannaiset pysyvät BSL-lisenssin alaisina
+  elv2: Rajoitukset on säilytettävä

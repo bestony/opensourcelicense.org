@@ -1,0 +1,369 @@
+reviewed: false
+sourceHash: a2d7eb045dde7649
+strings:
+  site.name: opensourcelicense.org
+  site.tagline: Επιλογή και σύγκριση αδειών ανοιχτού κώδικα
+  site.description: Επιλέξτε, συγκρίνετε και δοκιμάστε σε ακραίες συνθήκες άδειες
+    ανοιχτού κώδικα. Δείτε τι χρησιμοποιούν γνωστά έργα, τι μπορεί να πάει
+    στραβά και τι ταιριάζει στο έργο σας.
+  nav.home: Αρχική
+  nav.licenses: Άδειες
+  nav.scenarios: Σενάρια
+  nav.projects: Έργα
+  nav.trends: Τάσεις
+  nav.compare: Σύγκριση
+  nav.wizard: Οδηγός
+  nav.chat: Σύμβουλος AI
+  nav.check: Έλεγχος εξαρτήσεων
+  nav.menu: Μενού
+  lang.switch: Γλώσσα
+  lang.suggest: Αυτή η σελίδα είναι διαθέσιμη στα {language}.
+  lang.suggest.go: Αλλαγή
+  lang.suggest.dismiss: Απόρριψη
+  footer.disclaimer: Ο ιστότοπος παρέχει γενικές πληροφορίες, όχι νομικές
+    συμβουλές. Για πραγματική διαφορά ή σύμβαση, απευθυνθείτε σε δικηγόρο.
+  footer.source: Πηγαίος κώδικας (AGPL-3.0)
+  footer.data: Δεδομένα υπό CC-BY-4.0
+  footer.report: Αναφορά σφάλματος
+  footer.cite: Δεδομένα από το opensourcelicense.org, CC-BY-4.0
+  footer.hosting: Λειτουργεί στο δωρεάν πρόγραμμα του Cloudflare Workers
+  footer.dns: Ο τομέας φιλοξενείται στο Cloudflare
+  badge.machine: Αυτόματη μετάφραση
+  badge.reviewed: Ελεγμένη μετάφραση
+  badge.fallback: Δεν έχει μεταφραστεί ακόμη – εμφανίζεται στα αγγλικά
+  badge.stale: ίσως δεν είναι ενημερωμένο
+  badge.unreviewed-data: Προσχέδιο – δεν έχει ελεγχθεί ακόμη από δικηγόρο
+  common.updated: Ενημέρωση δεδομένων {date}
+  common.back: Πίσω
+  common.copy: Αντιγραφή
+  common.copied: Αντιγράφηκε
+  common.download: Λήψη
+  common.close: Κλείσιμο
+  common.all: Όλα
+  common.yes: Ναι
+  common.no: Όχι
+  common.unknown: Άγνωστο
+  common.none: Κανένα
+  common.more: Περισσότερα
+  common.loading: Φόρτωση…
+  common.error: Κάτι πήγε στραβά.
+  common.search: Αναζήτηση
+  home.title: Επιλέξτε άδεια ανοιχτού κώδικα με ανοιχτά μάτια
+  home.lead: Όχι μόνο «ποια άδεια», αλλά και τι επέλεξαν παρόμοια έργα, πώς
+    μοιάζει το χειρότερο σενάριο και τι να κάνετε στη συνέχεια.
+  home.entry.chat.title: Μιλήστε με τον σύμβουλο AI
+  home.entry.chat.body: Περιγράψτε το έργο σας με δικά σας λόγια. Λάβετε ένα
+    προφίλ, διευκρινιστικές ερωτήσεις και μια αναφορά.
+  home.entry.projects.title: Δείτε τι χρησιμοποιούν άλλοι
+  home.entry.projects.body: Οι άδειες γνωστών έργων και γιατί κάποια από αυτά άλλαξαν άδεια.
+  home.entry.wizard.title: Φιλτράρισμα βήμα προς βήμα
+  home.entry.wizard.body: Απαντήστε σε λίγες ερωτήσεις και λάβετε μια
+    ταξινομημένη, αιτιολογημένη σύντομη λίστα.
+  home.wall: Άδειες δημοφιλών έργων
+  home.changes: Πρόσφατες αλλαγές αδειών
+  home.scenarios: Τι μπορεί να πάει στραβά;
+  home.scenarios.body: 27 ακραία σενάρια × 17 στήλες αδειών, μία σελίδα για κάθε κελί.
+  family.permissive: Επιτρεπτική
+  family.weak-copyleft: Ασθενές copyleft
+  family.strong-copyleft: Ισχυρό copyleft
+  family.network-copyleft: Copyleft δικτύου
+  family.source-available: Διαθέσιμος πηγαίος κώδικας
+  family.model: Άδεια μοντέλου
+  family.content: Περιεχόμενο / δεδομένα
+  verdict.allow: Επιτρέπεται
+  verdict.conditional: Υπό όρους
+  verdict.deny: Απαγορεύεται από την άδεια
+  verdict.silent: Δεν ρυθμίζεται
+  verdict.tbd: Υπό εξέταση
+  verdict.legend: "Υπόμνημα: ✓ ο άλλος μπορεί να το κάνει · ◐ υπό όρους · ✗ η
+    άδεια το απαγορεύει · — η άδεια σιωπά (ισχύει το γενικό δίκαιο)"
+  actor.other: Κάποιος άλλος το κάνει
+  actor.you: Εσείς θέλετε να το κάνετε
+  actor.contributor: Ένας συνεισφέρων το κάνει
+  actor.both: Ισχύει και για τις δύο πλευρές
+  group.A: Εμπορικός ανταγωνισμός
+  group.B: Διπλώματα ευρεσιτεχνίας και δίκαιο
+  group.C: Εξέλιξη και επιχειρηματικότητα
+  group.D: Χρήση και συμμόρφωση
+  group.E: Μοντέλα AI και δεδομένα
+  matrix.code: Άδειες κώδικα
+  matrix.model: Άδειες μοντέλων και δεδομένων
+  term.commercial-use: Εμπορική χρήση
+  term.modification: Τροποποίηση
+  term.distribution: Διανομή
+  term.private-use: Ιδιωτική χρήση
+  term.patent-use: Παραχώρηση διπλωμάτων ευρεσιτεχνίας
+  term.non-production-use: Χρήση εκτός παραγωγής
+  term.converts-to-open-source: Γίνεται ανοιχτός κώδικας αργότερα
+  term.include-copyright: Διατήρηση της σημείωσης πνευματικών δικαιωμάτων
+  term.include-license: Συμπερίληψη της άδειας
+  term.document-changes: Σήμανση αλλαγών
+  term.disclose-source: Δημοσιοποίηση πηγαίου κώδικα
+  term.same-license: Ίδια άδεια για παράγωγα έργα
+  term.same-license-file: Ίδια άδεια (επίπεδο αρχείου)
+  term.same-license-library: Ίδια άδεια (επίπεδο βιβλιοθήκης)
+  term.allow-relinking: Να επιτρέπεται η επανασύνδεση
+  term.network-use-disclose: Η χρήση μέσω δικτύου θεωρείται διανομή
+  term.service-stack-disclose: Δημοσιοποίηση ολόκληρης της στοίβας υπηρεσίας
+  term.keep-limitations: Διατήρηση των περιορισμών
+  term.attribution: Αναφορά δημιουργού
+  term.attribution-built-with: Εμφάνιση «Built with»
+  term.name-prefix: Κανόνας προθέματος ονόματος
+  term.acceptable-use-policy: Πολιτική αποδεκτής χρήσης
+  term.use-restrictions-pass-through: Μεταβίβαση περιορισμών χρήσης
+  term.indicate-changes: Υπόδειξη αλλαγών
+  term.liability: Καμία ευθύνη
+  term.warranty: Καμία εγγύηση
+  term.trademark-use: Κανένα δικαίωμα σήματος
+  term.no-endorsement: Καμία υποστήριξη
+  term.production-use-restricted: Περιορισμένη χρήση σε παραγωγή
+  term.no-managed-service: Όχι διαχειριζόμενη υπηρεσία
+  term.no-license-key-circumvention: Όχι παράκαμψη κλειδιών άδειας
+  term.mau-threshold: Όριο χρηστών
+  term.use-restrictions: Περιορισμοί χρήσης
+  term.non-commercial: Μόνο μη εμπορική
+  licenses.title: "Άδειες ανοιχτού κώδικα: βιβλιοθήκη"
+  licenses.lead: "{count} άδειες, από επιτρεπτικές έως άδειες διαθέσιμου πηγαίου
+    κώδικα και άδειες μοντέλων."
+  licenses.col.license: Άδεια
+  licenses.col.family: Οικογένεια
+  licenses.col.osi: OSI
+  licenses.col.fsf: Ελεύθερη κατά FSF
+  licenses.col.projects: Έργα
+  licenses.filter: Φιλτράρισμα κατά οικογένεια
+  license.permissions: Δικαιώματα
+  license.conditions: Όροι
+  license.limitations: Περιορισμοί
+  license.summary: Με απλά λόγια
+  license.analogy: Αναλογία
+  license.pros: Πλεονεκτήματα
+  license.cons: Μειονεκτήματα
+  license.scenarios: Ακραία σενάρια
+  license.radar: Ραντάρ χειρότερου σεναρίου
+  license.projects: Γνωστά έργα που τη χρησιμοποιούν
+  license.projects.count: "{count} γνωστά έργα στον χάρτη μας χρησιμοποιούν αυτή την άδεια."
+  license.projects.none: Κανένα έργο στον χάρτη μας δεν χρησιμοποιεί ακόμη αυτή την άδεια.
+  license.projects.since: Μετάβαση σε αυτήν στις {date}
+  license.projects.also: "Διατίθεται επίσης με: {licenses}"
+  license.projects.former: Έργα που την εγκατέλειψαν
+  license.text: Επίσημο κείμενο
+  license.text.official: Επίσημο κείμενο στα {language}
+  license.text.note: Μόνο το επίσημο κείμενο είναι νομικά δεσμευτικό. Δεν
+    μεταφράζουμε κείμενα αδειών.
+  license.compare: Σύγκριση με…
+  license.spdx: Αναγνωριστικό SPDX
+  radar.anti-freeride: Αποτρέπει την εκμετάλλευση χωρίς ανταπόδοση
+  radar.anti-closed-fork: Αποτρέπει κλειστά fork
+  radar.patent: Προστασία διπλωμάτων ευρεσιτεχνίας
+  radar.adoption-friction: Εμπόδια υιοθέτησης
+  radar.relicense-difficulty: Δυσκολία αλλαγής άδειας
+  radar.misuse-control: Έλεγχος κατάχρησης
+  radar.derivative-control: Έλεγχος παραγώγων
+  radar.commercial-control: Εμπορικός έλεγχος
+  radar.note: Υπολογίζεται από τον πίνακα σεναρίων. Υψηλότερη τιμή σημαίνει
+    περισσότερο από αυτή την ιδιότητα, όχι «καλύτερο».
+  scenarios.title: Πίνακας ακραίων σεναρίων
+  scenarios.lead: Τι συμβαίνει αφού επιλέξετε άδεια; Κάθε κελί απαντά σε ένα
+    ερώτημα και έχει δική του σελίδα.
+  scenarios.highlight: Επισήμανση άδειας
+  scenarios.expand: Ανάπτυξη όλων
+  scenarios.collapse: Σύμπτυξη όλων
+  scenarios.silent-note: Οι γραμμές με μόνο «—» υπάρχουν σκόπιμα. Η απάντηση
+    εξαρτάται από συμβάσεις εργασίας (C6), τη νομοθεσία ελέγχου εξαγωγών (D5) ή
+    εκκρεμείς δίκες (D6), όχι από την άδεια.
+  scenario.flow.you: Δημοσιεύετε υπό {license}
+  scenario.flow.they: Η κατάσταση
+  scenario.flow.result: Αποτέλεσμα
+  scenario.clause: Σχετική ρήτρα
+  scenario.case: Πραγματική περίπτωση
+  scenario.others: Ίδιο σενάριο, άλλες άδειες
+  scenario.other-scenarios: Άλλα σενάρια για {license}
+  scenario.no-clause: Καμία ειδική ρήτρα. Ισχύει το γενικό δίκαιο.
+  scenario.review: Κατάσταση ελέγχου
+  scenario.review.none: Δεν έχει ελεγχθεί ακόμη από δικηγόρο.
+  scenario.review.done: Ελέγχθηκε από {who} στις {date}.
+  compare.title: Σύγκριση αδειών ανοιχτού κώδικα
+  compare.lead: Επιλέξτε δύο ή τρεις άδειες για σύγκριση ρήτρα προς ρήτρα και
+    σενάριο προς σενάριο.
+  compare.pick: Προσθήκη άδειας
+  compare.remove: Αφαίρεση
+  compare.terms: Όροι
+  compare.scenarios: Σενάρια
+  compare.empty: Επιλέξτε τουλάχιστον δύο άδειες.
+  wizard.title: Οδηγός επιλογής άδειας
+  wizard.lead: Απαντήστε σε λίγες ερωτήσεις. Η μηχανή κανόνων ταξινομεί τις άδειες
+    και εξηγεί κάθε βαθμό.
+  wizard.next: Επόμενο
+  wizard.prev: Πίσω
+  wizard.finish: Δείτε το αποτέλεσμα
+  wizard.restart: Από την αρχή
+  wizard.skip: Παράλειψη
+  wizard.step: Βήμα {n} από {total}
+  wizard.to-chat: Συνέχεια με τον σύμβουλο AI
+  q.artifact_type: Τι δημοσιεύετε;
+  q.openness_level: Πόσο ανοιχτό θέλετε να είναι;
+  q.avoid: Ποιες εκβάσεις θέλετε να αποφύγετε;
+  q.avoid.hint: Επιλέξτε όσα θέλετε.
+  q.adoption_goal: Τι μετράει περισσότερο;
+  q.dependencies: Εξαρτάστε από κώδικα copyleft;
+  q.dependencies.hint: Προσθέστε τα αναγνωριστικά SPDX των αδειών των εξαρτήσεων,
+    για παράδειγμα GPL-3.0-only.
+  q.commercial_plan: Πώς θα βγάλετε χρήματα, αν σκοπεύετε;
+  q.jurisdiction: Πού είστε εγκατεστημένοι;
+  opt.artifact_type.library: Βιβλιοθήκη ή SDK
+  opt.artifact_type.application: Εφαρμογή ή εργαλείο
+  opt.artifact_type.saas: Backend υπηρεσίας (SaaS)
+  opt.artifact_type.model: Βάρη μοντέλου
+  opt.artifact_type.dataset: Σύνολο δεδομένων
+  opt.artifact_type.docs: Τεκμηρίωση ή περιεχόμενο
+  opt.openness_level.open: Πλήρως ανοιχτό – ο καθένας μπορεί να κάνει οτιδήποτε
+  opt.openness_level.reciprocal: Ανοιχτό, αλλά οι βελτιώσεις πρέπει να επιστρέφουν
+  opt.openness_level.source-available: Ορατός κώδικας, περιορισμένη εμπορική χρήση
+  opt.avoid.cloud-hosting: Πάροχοι cloud που το πωλούν ως υπηρεσία
+  opt.avoid.closed-fork: Fork κλειστού κώδικα
+  opt.avoid.patent-litigation: Αγωγές για διπλώματα ευρεσιτεχνίας
+  opt.avoid.trademark-abuse: Κατάχρηση του ονόματος ή του σήματός μου
+  opt.avoid.harmful-use: Επιβλαβείς χρήσεις
+  opt.avoid.big-company: Μεγάλες εταιρείες που το χρησιμοποιούν δωρεάν
+  opt.adoption_goal.enterprise: Μέγιστη υιοθέτηση από εταιρείες
+  opt.adoption_goal.community: Συνεισφορές της κοινότητας
+  opt.adoption_goal.monetize: Κέρδος από αυτό
+  opt.commercial_plan.none: Κανένα σχέδιο
+  opt.commercial_plan.dual-license: Διπλή αδειοδότηση
+  opt.commercial_plan.open-core: Open core
+  opt.commercial_plan.hosted: Φιλοξενούμενη υπηρεσία
+  opt.jurisdiction.cn: Κίνα
+  opt.jurisdiction.eu: Ευρωπαϊκή Ένωση
+  opt.jurisdiction.us: Ηνωμένες Πολιτείες
+  opt.jurisdiction.other: Άλλο
+  engine.part.avoid: "Προστασία από: {avoid}"
+  engine.part.openness: "Συμβατότητα ανοιχτότητας: {openness}"
+  engine.part.adoption: "Στόχος: {goal}"
+  engine.part.commercial: "Επιχειρηματικό σχέδιο: {plan}"
+  engine.part.jurisdiction: "Δικαιοδοσία: {jurisdiction}"
+  engine.part.dependency: "Συμβατή μόνο υπό όρους: {dependency}"
+  engine.excluded.dependency: Ασύμβατη με την εξάρτηση {dependency}
+  engine.excluded.artifact: Δεν ταιριάζει σε αυτό το είδος παραδοτέου
+  advisory.needs-cla: Χρησιμοποιήστε Συμφωνία Άδειας Συνεισφέροντα (CLA). Θα τη
+    χρειαστείτε για να πουλάτε εμπορικές άδειες ή να αλλάξετε την άδεια
+    αργότερα.
+  advisory.consider-dco: Ένα Developer Certificate of Origin (DCO, «Signed-off-by») συνήθως αρκεί.
+  advisory.busl-change-date: Ορίστε το Additional Use Grant, το Change Date και το
+    Change License στην κεφαλίδα της BSL.
+  advisory.model-card: Δηλώστε την άδεια στα μεταδεδομένα της κάρτας του μοντέλου
+    ή του συνόλου δεδομένων (πεδίο «license:»).
+  advisory.notice-file: Προσθέστε αρχείο NOTICE και διατηρήστε το κατά την αναδιανομή.
+  advisory.consult-lawyer: Ζητήστε από δικηγόρο να ελέγξει τις εξαρτήσεις και τους
+    επιχειρηματικούς όρους πριν από τη δημοσίευση.
+  advisory.network-source-link: Εμφανίστε σύνδεσμο «Πηγαίος κώδικας» στους χρήστες
+    της δικτυακής υπηρεσίας σας.
+  report.title: Η αναφορά άδειάς σας
+  report.lead: Η αναφορά υπολογίζεται στον περιηγητή σας από το προφίλ που
+    περιέχει ο σύνδεσμος. Μοιραστείτε τον σύνδεσμο για να μοιραστείτε την
+    αναφορά.
+  report.profile: Προφίλ έργου
+  report.edit: Επεξεργασία στον οδηγό
+  report.top: Προτεινόμενη
+  report.score: Βαθμολογία {score}
+  report.why: Γιατί
+  report.excluded: Αποκλείστηκαν
+  report.advisories: Επόμενα βήματα
+  report.license-file: Αρχείο LICENSE
+  report.header: Κεφαλίδα αρχείου
+  report.badge: Σήμα README
+  report.share: Κοινοποίηση συνδέσμου
+  report.share.copy: Αντιγραφή συνδέσμου
+  report.similar: Παρόμοια έργα
+  report.no-text: Δεν υπάρχει κείμενο αναγνώσιμο από μηχανή. Αναζητήστε το στην επίσημη σελίδα.
+  report.invalid: Ο σύνδεσμος της αναφοράς είναι κατεστραμμένος ή προέρχεται από παλιά έκδοση.
+  report.empty: Δεν υπάρχει ακόμη προφίλ. Ξεκινήστε με τον οδηγό ή τον σύμβουλο AI.
+  chat.title: Σύμβουλος AI για άδειες
+  chat.lead: Περιγράψτε το έργο σας. Ο σύμβουλος κάνει διευκρινιστικές ερωτήσεις,
+    η μηχανή κανόνων επιλέγει τις άδειες και ο σύμβουλος τις εξηγεί.
+  chat.placeholder: "Για παράδειγμα: Έφτιαξα μια διανυσματική βάση δεδομένων και
+    ανησυχώ ότι πάροχοι cloud θα τη μεταπωλήσουν."
+  chat.send: Αποστολή
+  chat.stop: Διακοπή
+  chat.examples: Δοκιμάστε ένα παράδειγμα
+  chat.example.1: Έφτιαξα μια διανυσματική βάση δεδομένων και ανησυχώ ότι πάροχοι
+    cloud θα τη μεταπωλήσουν.
+  chat.example.2: Μια μικρή βιβλιοθήκη components για React. Θέλω να τη
+    χρησιμοποιούν εταιρείες.
+  chat.example.3: Κάναμε fine-tuning σε ένα μοντέλο 7B και θέλουμε να αποτρέψουμε
+    επιβλαβείς χρήσεις.
+  chat.profile: Προφίλ έργου
+  chat.profile.hint: Κάντε κλικ σε μια τιμή για να την αλλάξετε.
+  chat.candidates: Υποψήφιες
+  chat.run: Λήψη πρότασης
+  chat.limit: Φτάσατε το σημερινό όριο. Δοκιμάστε ξανά αύριο ή χρησιμοποιήστε τον οδηγό.
+  chat.error: Ο σύμβουλος δεν είναι διαθέσιμος αυτή τη στιγμή. Ο οδηγός
+    εξακολουθεί να λειτουργεί.
+  chat.verify: Επιβεβαιώστε ότι είστε άνθρωπος.
+  chat.disclaimer: Ο σύμβουλος μπορεί να κάνει λάθη. Οι προτάσεις προέρχονται από
+    τη μηχανή κανόνων και δεν αποτελούν νομική συμβουλή.
+  chat.report: Άνοιγμα πλήρους αναφοράς
+  projects.title: Χάρτης αδειών έργων
+  projects.lead: Οι άδειες γνωστών έργων και η ιστορία πίσω από κάθε αλλαγή.
+  projects.filter.domain: Τομέας
+  projects.filter.family: Οικογένεια αδειών
+  projects.filter.owner: Ιδιοκτήτης
+  projects.filter.changed: Άλλαξε άδεια
+  projects.count: "{count} έργα"
+  projects.empty: Κανένα έργο δεν ταιριάζει με αυτά τα φίλτρα.
+  owner.company: Εταιρεία
+  owner.foundation: Ίδρυμα
+  owner.individual: Ιδιώτης
+  owner.community: Κοινότητα
+  project.current: Τρέχουσα άδεια
+  project.timeline: Χρονολόγιο αδειών
+  project.reason: Αιτία
+  project.announcement: Ανακοίνωση
+  project.forks: Fork που ακολούθησαν
+  project.fork-of: Fork του {name}
+  project.repo: Αποθετήριο
+  project.similar: Παρόμοια έργα
+  project.review: Αυτή η καταχώριση εντοπίστηκε από το bot συγχρονισμού και
+    αναμένει ανθρώπινο έλεγχο.
+  project.initial: Αρχική άδεια
+  domain.database: Βάση δεδομένων
+  domain.frontend: Framework frontend
+  domain.devops: DevOps
+  domain.ai-model: Μοντέλο AI
+  domain.language: Γλώσσα και περιβάλλον εκτέλεσης
+  domain.os: Λειτουργικό σύστημα
+  domain.web: Web server και backend
+  domain.tooling: Εργαλεία προγραμματιστών
+  domain.data: Δεδομένα και αναλυτική
+  domain.observability: Παρατηρησιμότητα
+  domain.messaging: Μηνύματα και ροές δεδομένων
+  domain.cms: CMS και εφαρμογές
+  trends.title: Τάσεις αδειών ανοιχτού κώδικα
+  trends.lead: Συγκεντρωτικά στοιχεία από τον χάρτη έργων κατά τη δημιουργία του ιστότοπου.
+  trends.family-share: Οικογένειες αδειών ανά τομέα
+  trends.changes: Αλλαγές αδειών ανά έτος
+  trends.to-source-available: Έργα που πέρασαν από ανοιχτό κώδικα σε διαθέσιμο πηγαίο κώδικα
+  search.lead: Αναζήτηση αδειών, σεναρίων και έργων σε αυτή τη γλώσσα.
+  search.noscript: Η αναζήτηση απαιτεί JavaScript.
+  check.title: Έλεγχος αδειών εξαρτήσεων
+  check.lead: Επικολλήστε ένα package.json, go.mod, Gemfile.lock, Cargo.toml ή
+    requirements.txt. Η ανάλυση γίνεται στον περιηγητή σας.
+  check.project-license: Η άδεια του έργου σας
+  check.input: Manifest
+  check.run: Έλεγχος
+  check.lookup: Αναζήτηση άγνωστων αδειών online (deps.dev)
+  check.col.package: Πακέτο
+  check.col.license: Άδεια
+  check.col.status: Κατάσταση
+  check.status.compatible: Συμβατή
+  check.status.conditional: Υπό όρους
+  check.status.incompatible: Σύγκρουση
+  check.status.unknown: Άγνωστη
+  check.summary: "{ok} συμβατές, {warn} υπό όρους, {bad} συγκρούσεις, {unknown} άγνωστες"
+  check.format: "Μορφή που εντοπίστηκε: {format}"
+  check.no-deps: Δεν βρέθηκαν εξαρτήσεις.
+  check.license-hint: Προσθέστε την άδεια στο manifest ως γραμμές «name@version
+    LICENSE-ID» ή ενεργοποιήστε την αναζήτηση online.
+  notfound.title: Η σελίδα δεν βρέθηκε
+  notfound.body: Αυτή η σελίδα δεν υπάρχει. Δοκιμάστε τη βιβλιοθήκη αδειών.
+  domain.education: Εκπαίδευση
+  domain.design: Γραμματοσειρές και σχεδιασμός

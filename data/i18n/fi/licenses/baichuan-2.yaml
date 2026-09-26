@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 24c7946bf938191c
+summary: Ilmainen kaupallinen käyttö rekisteröitymisen jälkeen palveluille,
+  joilla on alle miljoona päivittäistä aktiivikäyttäjää; suuremmat palvelut
+  tarvitsevat erillisen lisenssin.
+analogy: Ilmainen moottori pienille autokannoille, kunhan rekisteröit auton.
+pros:
+  - Ilmainen useimmille kaupallisille käyttäjille
+  - Vahvat kiinankieliset mallit
+cons:
+  - Ei avointa lähdekoodia
+  - Rekisteröityminen ja käyttäjäraja

@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 22649412ed3dbb5f
+summary: "Copyleft for biblioteker: endringer i biblioteket forblir åpne;
+  lukkede programmer kan lenke til det hvis brukerne kan lenke på nytt med et
+  endret bibliotek."
+analogy: Den eldre utgaven av den utskiftbare felles motoren.
+pros:
+  - Lar proprietære programmer bruke biblioteket
+  - Vanlig i skrivebords- og multimediebiblioteker
+cons:
+  - Reglene for ny lenking er kompliserte
+  - Ingen uttrykkelig patentlisens

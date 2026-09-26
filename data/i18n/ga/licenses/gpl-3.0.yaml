@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 3ab9492f75e7adb0
+summary: "Copyleft láidir: má dháileann tú na bogearraí nó saothair dhíorthacha,
+  ní mór duit an fhoinse iomlán a scaoileadh faoi GPL-3.0."
+analogy: "Oideas a deir: cibé duine a riarann mias bunaithe air seo, caithfidh
+  sé an t-oideas iomlán a thabhairt amach freisin."
+pros:
+  - Coinníonn sé gach saothar díorthach dáilte oscailte
+  - Deonú paitinne agus cosaint in aghaidh tivoization
+  - Traidisiún láidir pobail
+cons:
+  - Seachnaíonn go leor cuideachtaí é
+  - Ní chlúdaíonn sé SaaS (gan dáileadh)
+  - Neamh-chomhoiriúnach le GPL-2.0-only

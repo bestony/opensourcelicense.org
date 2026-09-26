@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 1db86c42c600a813
+summary: "GPL-3.0 ja lisäksi verkkolauseke: käyttäjille, jotka käyttävät
+  muokattua versiota verkon kautta, on tarjottava sen lähdekoodi."
+analogy: "Reseptisääntö koskee myös ravintoloita: annoksen tarjoileminen
+  katsotaan sen jakamiseksi."
+pros:
+  - Sulkee SaaS-porsaanreiän
+  - Hyvä pohja kaksoislisensoinnille
+  - OSI:n hyväksymä avoin lähdekoodi
+cons:
+  - Monet yritykset kieltävät sen kokonaan
+  - Muokkaamattoman version ylläpito palveluna on yhä sallittua

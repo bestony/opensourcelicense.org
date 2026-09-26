@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: cec538ff11fd0ee8
+summary: "Salliva lisenssi: muutettu lähdekoodi on merkittävä muutetuksi,
+  alkuperää ei saa esittää väärin, ja ilmoitus säilyy lähdekoodin kopioissa."
+analogy: Lainaa reseptiä, mutta jos muutat sitä, älä väitä sitä alkuperäiseksi.
+pros:
+  - Salliva ja lyhyt
+  - Suosittu peleissä ja natiivikirjastoissa
+cons:
+  - Ei patenttilupaa
+  - Suljetut haarat ovat sallittuja

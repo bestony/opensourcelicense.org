@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 6a4054dc9cca8e7e
+summary: "Del-på-samme-vilkår for databaser: du kan bruke dataene kommersielt,
+  men offentlige avledede databaser må forbli under ODbL. Frembrakte verk som
+  kart eller bilder krever bare navngivelse."
+analogy: Bygg videre på det felles kartet, og publiserer du en forbedret
+  kartdatabase, del den tilbake på samme vilkår.
+pros:
+  - Holder forbedrede databaser åpne
+  - Kommersiell bruk tillatt
+  - Utprøvd av OpenStreetMap
+cons:
+  - Del-på-samme-vilkår kan hindre kombinasjon med andre data
+  - «Avledet database» er noen ganger uklart

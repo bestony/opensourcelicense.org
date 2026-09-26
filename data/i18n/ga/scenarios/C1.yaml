@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 4f30616160bfe68b
+actor: you
+title: Athcheadúnaíonn tú níos déanaí nó díolann tú ceadúnais tráchtála (níor
+  shínigh rannpháirtithe aon CLA)
+cells:
+  mit: Is féidir le leaganacha nua athrú; fanann na seancheanna
+  bsd-3-clause: Mar an gcéanna le MIT
+  apache-2.0: Mar an gcéanna le MIT
+  mpl-2.0: Ní mór do chomhaid MPL fanacht faoi MPL
+  lgpl-3.0: Teastaíonn toiliú gach rannpháirtí
+  mulanpsl-2.0: Mar an gcéanna le MIT
+  busl-1.1: Braitheann sé de ghnáth ar CLA
+  elv2: Braitheann sé de ghnáth ar CLA

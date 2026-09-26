@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 2101ba94160528a0
+summary: "Alibabas modellisens for de største Qwen-modellene: kommersiell bruk
+  er tillatt, med navngivelse og en egen lisens over 100 millioner månedlig
+  aktive brukere."
+analogy: En gratis motor, med en spesialkontrakt for svært store bilprodusenter.
+pros:
+  - Kommersiell bruk for de fleste brukere
+  - Sterke flerspråklige modeller
+cons:
+  - Ikke åpen kildekode
+  - Brukergrense

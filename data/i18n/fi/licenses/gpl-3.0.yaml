@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 3ab9492f75e7adb0
+summary: "Vahva copyleft: jos levität ohjelmistoa tai sen johdannaisia, sinun on
+  julkaistava koko lähdekoodi GPL-3.0-lisenssillä."
+analogy: "Resepti, jossa lukee: joka tarjoilee tähän perustuvan annoksen, on
+  annettava myös koko resepti."
+pros:
+  - Pitää kaikki levitetyt johdannaiset avoimina
+  - Patenttilupa ja suoja tivoisaatiota vastaan
+  - Vahva yhteisöperinne
+cons:
+  - Monet yritykset välttävät sitä
+  - Ei kata SaaS-käyttöä (ei levitystä)
+  - Ei yhteensopiva GPL-2.0-only-lisenssin kanssa

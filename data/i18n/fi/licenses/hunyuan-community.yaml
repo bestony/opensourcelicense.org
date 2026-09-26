@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: c882745d1b8524bb
+summary: Kaupallinen käyttö sallittu hyväksyttävän käytön käytännön mukaisesti;
+  hyvin suuret palvelut tarvitsevat erillisen lisenssin, ja jotkin alueet on
+  rajattu pois.
+analogy: Ilmainen moottori, jossa on sääntökirja, kokoraja ja kartta siitä,
+  missä sillä saa ajaa.
+pros:
+  - Kaupallinen käyttö useimmille käyttäjille
+  - Kattaa teksti-, video- ja 3D-mallit
+cons:
+  - Ei avointa lähdekoodia
+  - Alueelliset rajaukset

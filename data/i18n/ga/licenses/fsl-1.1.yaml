@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 3720e103ed28cbd1
+summary: "Foinse ar fáil: úsáid ar bith seachas táirge iomaíoch, agus iompaíonn
+  gach eisiúint ina Apache-2.0 dhá bhliain ina dhiaidh sin."
+analogy: Fuinneog siopa a mbíonn a hearraí saor do chách tar éis dhá bhliain.
+pros:
+  - Gearr agus intuartha
+  - Éiríonn an cód ina fhoinse oscailte tar éis dhá bhliain
+cons:
+  - Ní foinse oscailte é
+  - Is féidir go mbeadh sé deacair “úsáid iomaíoch” a mheas

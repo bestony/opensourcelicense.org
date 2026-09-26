@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 72d99432db49e19d
+summary: Salliva lisenssi Unicode-datalle ja -ohjelmistoille, kuten ICU:lle ja
+  CLDR:lle; säilytä ilmoitus äläkä käytä tekijänoikeuden haltijan nimeä
+  markkinointiin.
+analogy: "Ilmainen hakuteos: kopioi sitä, säilytä lähderivi."
+pros:
+  - Salliva
+  - Kattaa datatiedostot ja koodin
+cons:
+  - Ei patenttilupaa
+  - Käytössä lähinnä Unicode-projekteissa

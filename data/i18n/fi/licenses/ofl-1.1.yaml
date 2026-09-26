@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 2388a1183d57050c
+summary: "Vapaa fonttilisenssi: fontteja saa käyttää, upottaa ja muokata
+  vapaasti, mutta muokatuista fonteista on poistettava varatut nimet, eikä
+  fontteja saa myydä sellaisenaan."
+analogy: Käytä kirjasinta kaikkialla, mutta älä myy pelkkää fonttitiedostoa.
+pros:
+  - Sallii upottamisen dokumentteihin ja sovelluksiin
+  - Avointen fonttien vakiolisenssi
+cons:
+  - Varatut fonttinimet vaikeuttavat haarautumista
+  - Vain fonteille

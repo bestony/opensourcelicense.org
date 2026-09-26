@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 41352f96fddd8017
+summary: Copyleft ar leibhéal modúil le deonú paitinne agus dlí Nua-Eabhrac mar
+  dhlí rialaithe; neamh-chomhoiriúnach leis an GPL.
+analogy: An chéad eagrán de riail Eclipse maidir le caibidlí a roinnt.
+pros:
+  - Deonú paitinne
+  - Úsáideann Clojure agus JUnit 4 é
+cons:
+  - Neamh-chomhoiriúnach leis an GPL
+  - Tá EPL-2.0 tagtha ina áit

@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: e8b5efadb2a71225
+summary: En kort tillatende lisens lik MIT og BSD, brukt av PostgreSQL og
+  økosystemet rundt.
+analogy: PostgreSQL-fellesskapets egen versjon av gratisboken.
+pros:
+  - Kort og tillatende
+  - Kjent i PostgreSQL-økosystemet
+cons:
+  - Ingen patentlisens
+  - Lukkede forgreninger er tillatt

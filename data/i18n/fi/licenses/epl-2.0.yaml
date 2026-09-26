@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 5941dce0a6108d60
+summary: Moduulitason heikko copyleft patenttiluvalla; voi nimetä GPL:n
+  toissijaiseksi lisenssiksi yhteensopivuuden vuoksi.
+analogy: Jaa lainattuun lukuun tekemäsi muutokset; muu kirja on sinun.
+pros:
+  - Yritysystävällinen copyleft
+  - Patenttilupa
+cons:
+  - GPL-yhteensopivuus vain ilmoitetulla toissijaisella lisenssillä
+  - Moduulien rajat voivat olla epäselviä

@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 8ec9c821f74124a9
+summary: "MIT ilman tekijänmainintavaatimusta: käytä, kopioi ja myy
+  säilyttämättä mitään ilmoitusta."
+analogy: Ilmainen kirja, jolle saat jopa tehdä uudet kannet ilman tekijän nimeä.
+pros:
+  - Tekijää ei tarvitse mainita
+  - Sopii esimerkeille ja koodinpätkille
+cons:
+  - Ei patenttilupaa
+  - Tekijöillä ei ole oikeutta mainintaan

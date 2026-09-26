@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cb1197749de0ea7e
+summary: Lar deg endre og distribuere fritt, men en endret versjon må merkes
+  tydelig eller gis nytt navn, eller kildekoden må gjøres tilgjengelig.
+  Inneholder patentvilkår.
+analogy: Remiks sangen, men ikke selg remiksen som originalen.
+pros:
+  - Beskytter originalens identitet
+  - GPL-kompatibel
+cons:
+  - Vilkårene er ordrike
+  - Sjelden utenfor Raku og Perl

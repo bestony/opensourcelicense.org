@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 8efe233d77d28069
+summary: TII:n Apache-2.0:aan perustuva mallilisenssi, jossa on hyväksyttävän
+  käytön käytäntö; kaupallinen käyttö sallittu ilman rojalteja.
+analogy: Apachen työkalupakki, johon on liitetty lyhyt luettelo kielletyistä
+  käyttötavoista.
+pros:
+  - Rojalteista vapaa kaupallinen käyttö
+  - Perustuu Apache-2.0:aan
+cons:
+  - Ei avointa lähdekoodia OSI:n mukaan
+  - Käyttökäytäntöä voidaan päivittää

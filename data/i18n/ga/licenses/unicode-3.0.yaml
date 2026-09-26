@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 72d99432db49e19d
+summary: Ceadúnas ceadaitheach do shonraí agus do bhogearraí Unicode ar nós ICU
+  agus CLDR; coinnigh an fógra agus ná húsáid ainm shealbhóir an chóipchirt chun
+  críocha fógraíochta.
+analogy: "Leabhar tagartha saor in aisce: cóipeáil é, coinnigh an líne chreidiúna."
+pros:
+  - Ceadaitheach
+  - Clúdaíonn sé comhaid sonraí agus cód
+cons:
+  - Gan deonú paitinne
+  - Úsáidtear go príomha do thionscadail Unicode

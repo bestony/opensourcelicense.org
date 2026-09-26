@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 841fb8980cea558f
+summary: GPL-2.0 don leabharlann féin, móide eisceacht a ligeann do ríomhchláir
+  neamhspleácha nascadh léi faoi cheadúnas ar bith.
+analogy: Inneall comhroinnte faoi riail roinn-an-t-oideas, ach fanann do charr
+  féin agatsa.
+pros:
+  - Is féidir le feidhmchláir a nascann léi a bheith dúnta
+  - Úsáideann OpenJDK é
+cons:
+  - Fanann athruithe ar an leabharlann faoin GPL
+  - Neamh-chomhoiriúnach le tionscadail GPL-3.0-only

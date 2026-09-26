@@ -1,0 +1,9 @@
+reviewed: false
+sourceHash: b16411183c557a4e
+actor: other
+title: Bygget inn i en SaaS-backend med lukket kildekode (ikke distribuert)
+cells:
+  agpl-3.0: Må publiseres hvis endret
+  sspl-1.0: Hvis funksjonaliteten tilbys som tjeneste
+  busl-1.1: Avhenger av Additional Use Grant
+  elv2: Ikke drift av selve produktet

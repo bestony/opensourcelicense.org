@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cb1197749de0ea7e
+summary: Ligeann sé duit mionathrú agus dáileadh go saor, ach ní mór leagan
+  mionathraithe a mharcáil go soiléir nó ainm nua a thabhairt air, nó a fhoinse
+  a chur ar fáil. Tá téarmaí paitinne ann.
+analogy: Déan athmheascán den amhrán, ach ná díol d'athmheascán mar an bunleagan.
+pros:
+  - Cosnaíonn sé féiniúlacht an bhunleagain
+  - Comhoiriúnach leis an GPL
+cons:
+  - Tá na coinníollacha foclach
+  - Annamh lasmuigh de Raku agus Perl

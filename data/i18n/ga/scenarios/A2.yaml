@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 57d3e35a6ad686d1
+actor: other
+title: Déanann duine forc de agus dáileann sé iomaitheoir foinse dúnta
+cells:
+  apache-2.0: Ní mór comhaid mhionathraithe a mharcáil
+  mpl-2.0: Fanann comhaid MPL mhionathraithe oscailte
+  lgpl-3.0: Fanann athruithe ar an leabharlann oscailte
+  busl-1.1: Fanann saothair dhíorthacha faoin BSL
+  elv2: Ní mór na teorainneacha a choinneáil

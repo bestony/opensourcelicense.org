@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 50ad39245dfcc7f1
+summary: "Lisens for tilgjengelig kildekode fra Redis: fritt å bruke og endre,
+  men ikke å tilby programvaren som administrert tjeneste eller omgå
+  lisensnøkler."
+analogy: Lag mat med den hvor som helst, men ikke åpne en butikk som selger
+  denne retten.
+pros:
+  - Retter seg bare mot konkurrenter med administrerte tjenester
+  - Kort
+cons:
+  - Ikke åpen kildekode
+  - Utløste Valkey-forgreningen

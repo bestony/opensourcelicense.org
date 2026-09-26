@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: ded3362d69058c2a
+summary: Apache-2.0 ja lisäksi poikkeus, joka poistaa käännetyn koodin
+  tekijänmainintavaatimukset ja tekee siitä käyttökelpoisen
+  GPL-2.0-projekteissa.
+analogy: "Apachen työkalupakki, johon on lisätty huomautus: työkalujen jäämät
+  tuotteessasi eivät vaadi mainintaa."
+pros:
+  - Apache-2.0:n patenttilupa
+  - Toimii GPL-2.0-koodin kanssa
+cons:
+  - Pidempi kuin MIT
+  - Poikkeus on tarkoitettu kääntäjän kaltaisille projekteille

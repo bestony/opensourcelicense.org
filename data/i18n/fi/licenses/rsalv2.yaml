@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 50ad39245dfcc7f1
+summary: "Redisin lähdekoodi saatavilla -lisenssi: vapaasti käytettävissä ja
+  muokattavissa, mutta ohjelmistoa ei saa tarjota hallinnoituna palveluna eikä
+  lisenssiavaimia saa ohittaa."
+analogy: Kokkaa sillä missä tahansa, mutta älä avaa kauppaa, joka myy tätä ruokaa.
+pros:
+  - Kohdistuu vain hallinnoitujen palvelujen kilpailijoihin
+  - Lyhyt
+cons:
+  - Ei avointa lähdekoodia
+  - Johti Valkey-haaraan

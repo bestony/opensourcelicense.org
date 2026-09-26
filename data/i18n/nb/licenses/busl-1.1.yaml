@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: ce104e1cd96e85b1
+summary: "Tilgjengelig kildekode: produksjonsbruk begrenses av Additional Use
+  Grant, og hver versjon går over til en åpen lisens etter Change Date (maks. 4
+  år)."
+analogy: "Et utstillingsvindu: du kan se og prøve, og etter noen år blir varen
+  gratis for alle."
+pros:
+  - Gir deg kontroll over kommersiell bruk
+  - Koden blir åpen kildekode senere
+cons:
+  - Ikke åpen kildekode
+  - Tillatelsesvilkårene varierer fra prosjekt til prosjekt
+  - Kan utløse forgreninger

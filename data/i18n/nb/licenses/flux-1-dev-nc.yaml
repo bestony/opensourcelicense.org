@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 7d5b7fb367f9a074
+summary: Modellvekter kun for ikke-kommersiell bruk; kommersiell bruk av vektene
+  krever en egen lisens fra Black Forest Labs.
+analogy: Lån kameraet til egne prosjekter, ikke til betalte oppdrag.
+pros:
+  - Åpne vekter for forskning og hobbybruk
+  - Tydelig vei til kommersiell bruk
+cons:
+  - Ikke åpen kildekode
+  - Kommersiell bruk krever en betalt lisens

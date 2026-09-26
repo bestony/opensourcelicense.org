@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 7db0448b4abf3505
+summary: "Lyhyempi MIT:tä vastaava lisenssi: mikä tahansa käyttö, kun
+  tekijänoikeus- ja lupailmoitus säilytetään."
+analogy: Sama ilmainen kirja kuin MIT, kannessa vain lyhyempi huomautus.
+pros:
+  - Lyhin yleinen salliva lisenssi
+  - Monien npm-pakettien oletus
+cons:
+  - Ei patenttilupaa
+  - Suljetut haarat ovat sallittuja

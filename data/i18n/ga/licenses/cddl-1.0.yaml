@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 362187e701e25e6a
+summary: Copyleft ar leibhéal comhaid bunaithe ar an MPL, le deonú paitinne;
+  neamh-chomhoiriúnach leis an GPL.
+analogy: Roinn na hathruithe ar an gcomhad a fuair tú ar iasacht; coinnigh an
+  chuid eile dúnta más mian leat.
+pros:
+  - Raon feidhme ar leibhéal comhaid
+  - Deonú paitinne
+cons:
+  - Neamh-chomhoiriúnach leis an GPL (fadhb ZFS-ar-Linux)
+  - Is beag tionscadal nua a ghlacann leis

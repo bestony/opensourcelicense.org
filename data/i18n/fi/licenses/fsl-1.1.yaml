@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 3720e103ed28cbd1
+summary: "Lähdekoodi saatavilla: mikä tahansa käyttö paitsi kilpaileva tuote, ja
+  jokaisesta julkaisusta tulee Apache-2.0 kahden vuoden kuluttua."
+analogy: Näyteikkuna, jonka tuotteet muuttuvat kaikille ilmaisiksi kahden vuoden
+  jälkeen.
+pros:
+  - Lyhyt ja ennustettava
+  - Koodista tulee avointa lähdekoodia kahden vuoden kuluttua
+cons:
+  - Ei avointa lähdekoodia
+  - ”Kilpailevaa käyttöä” voi olla vaikea arvioida

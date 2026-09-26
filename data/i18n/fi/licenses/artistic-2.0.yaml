@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cb1197749de0ea7e
+summary: Sallii vapaan muokkaamisen ja levittämisen, mutta muokattu versio on
+  merkittävä selvästi tai nimettävä uudelleen, tai sen lähdekoodi on asetettava
+  saataville. Sisältää patenttiehtoja.
+analogy: Remiksaa kappale, mutta älä myy remiksiä alkuperäisenä.
+pros:
+  - Suojaa alkuperäisen identiteetin
+  - GPL-yhteensopiva
+cons:
+  - Ehdot ovat monisanaisia
+  - Harvinainen Rakun ja Perlin ulkopuolella

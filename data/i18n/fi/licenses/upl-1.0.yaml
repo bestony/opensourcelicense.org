@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: ddb7b2f148c13edb
+summary: Lyhyt salliva lisenssi nimenomaisella patenttiluvalla; Oracle käyttää
+  sitä GraalVM:ssä ja muissa projekteissa.
+analogy: MIT:n ilmainen kirja, johon on lisätty lupaus patenteista.
+pros:
+  - Lyhyt ja salliva
+  - Nimenomainen patenttilupa
+cons:
+  - Ei patenttivastatoimilauseketta
+  - Vähemmän tunnettu kuin MIT tai Apache

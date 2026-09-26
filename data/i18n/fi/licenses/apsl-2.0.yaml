@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 3440c6c6f7e1c94d
+summary: "Applen tiedostotason copyleft: muokatut lisenssin kattamat tiedostot
+  on julkaistava, myös kun niitä käytetään ulkoisesti palveluna. Ei yhteensopiva
+  GPL:n kanssa."
+analogy: Jaa lainattuun tiedostoon tekemäsi muutokset myös silloin, kun vain
+  tarjoilet lopputuloksen.
+pros:
+  - Kattaa ulkoisen käyttöönoton
+  - Patenttilupa
+cons:
+  - Ei yhteensopiva GPL:n kanssa
+  - Käytössä lähinnä Applen avoimessa lähdekoodissa
