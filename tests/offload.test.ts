@@ -1,98 +1,125 @@
 import { readFileSync } from "node:fs";
+import { gunzipSync } from "node:zlib";
 import { describe, expect, it, vi } from "vitest";
-import { isOffloadedPath, offloadKey, pathnameOfBuiltFile } from "@/domain/offload";
+import { indexKey, isOffloadedPath, offloadedLocale, packKey, pageKey, pathnameOfBuiltFile } from "@/domain/offload";
 import { createLogger } from "@/lib/log";
-import { chunk, parseManifest, planUpload } from "../scripts/offload/core";
-import { servePage, type PageCache } from "../worker/pages";
+import { PackBuilder, packVersion, parseGenerations, rotateGenerations } from "../scripts/offload/core";
+import { clearIndexCache, servePage, type PageCache } from "../worker/pages";
 
 describe("offload routes", () => {
   it("offloads detail pages of non-default locales only", () => {
-    expect(isOffloadedPath("/de/projects/redis")).toBe(true);
-    expect(isOffloadedPath("/zgh/scenarios/A1/apache-2.0")).toBe(true);
-    expect(isOffloadedPath("/pt-br/projects/redis/")).toBe(true);
-    expect(isOffloadedPath("/projects/redis")).toBe(false);
-    expect(isOffloadedPath("/scenarios/A1/mit")).toBe(false);
-    expect(isOffloadedPath("/de/projects/trends")).toBe(false);
-    expect(isOffloadedPath("/de/projects")).toBe(false);
-    expect(isOffloadedPath("/de/scenarios/A1")).toBe(false);
-    expect(isOffloadedPath("/de/licenses/mit")).toBe(false);
-    expect(isOffloadedPath("/xx/projects/redis")).toBe(false);
-    expect(isOffloadedPath("/en/projects/redis")).toBe(false);
+    expect(offloadedLocale("/de/projects/redis")).toBe("de");
+    expect(offloadedLocale("/zgh/scenarios/A1/apache-2.0")).toBe("zgh");
+    expect(offloadedLocale("/pt-br/projects/redis/")).toBe("pt-br");
+    for (const p of ["/projects/redis", "/scenarios/A1/mit", "/de/projects/trends", "/de/projects", "/de/scenarios/A1", "/de/licenses/mit", "/xx/projects/redis", "/en/projects/redis"])
+      expect(isOffloadedPath(p), p).toBe(false);
   });
-  it("maps paths to keys and built files to paths", () => {
-    expect(offloadKey("/de/projects/redis")).toBe("pages/de/projects/redis/index.html");
-    expect(offloadKey("/de/projects/redis/")).toBe("pages/de/projects/redis/index.html");
+  it("maps built files to paths and paths to keys", () => {
     expect(pathnameOfBuiltFile("de/projects/redis/index.html")).toBe("/de/projects/redis");
     expect(pathnameOfBuiltFile("index.html")).toBeUndefined();
     expect(pathnameOfBuiltFile("_astro/a.css")).toBeUndefined();
+    expect(pageKey("/de/projects/redis/")).toBe("/de/projects/redis");
+    expect(packKey("v1", "de")).toBe("packs/v1/de.pack");
+    expect(indexKey("v1", "de")).toBe("packs/v1/de.json");
   });
 });
 
-describe("upload planning", () => {
-  it("uploads new and changed pages and deletes removed ones", () => {
-    const remote = { version: 1 as const, files: { a: "1", b: "2", gone: "3" } };
-    const local = { version: 1 as const, files: { a: "1", b: "changed", c: "4" } };
-    expect(planUpload(remote, local)).toEqual({ put: ["b", "c"], remove: ["gone"], unchanged: 1 });
+describe("packs", () => {
+  it("stores each page as a gzip range with an ETag", () => {
+    const b = new PackBuilder();
+    b.add("/de/projects/a", Buffer.from("<html>a</html>"));
+    b.add("/de/projects/b", Buffer.from("<html>bb</html>"));
+    const { pack, index } = b.finish();
+    for (const [path, html] of [["/de/projects/a", "<html>a</html>"], ["/de/projects/b", "<html>bb</html>"]]) {
+      const [offset, length, etag] = index.pages[path];
+      expect(gunzipSync(pack.subarray(offset, offset + length)).toString()).toBe(html);
+      expect(etag).toMatch(/^"[0-9a-f]{32}"$/);
+    }
   });
-  it("treats a missing or broken manifest as empty", () => {
-    expect(parseManifest(undefined).files).toEqual({});
-    expect(parseManifest("not json").files).toEqual({});
-    expect(parseManifest('{"version":2,"files":{"a":"1"}}').files).toEqual({});
-    expect(parseManifest('{"version":1,"files":{"a":"1"}}').files).toEqual({ a: "1" });
+  it("versions packs by content, independent of order", () => {
+    const part = (locale: string, body: string) => ({ locale, pack: Buffer.from(body), index: "{}" });
+    const v = packVersion([part("de", "x"), part("fr", "y")]);
+    expect(packVersion([part("fr", "y"), part("de", "x")])).toBe(v);
+    expect(packVersion([part("de", "x"), part("fr", "z")])).not.toBe(v);
   });
-  it("chunks lists", () => {
-    expect(chunk([1, 2, 3, 4, 5], 2)).toEqual([[1, 2], [3, 4], [5]]);
+  it("keeps the last three generations and deletes older ones", () => {
+    const g = (version: string) => ({ version, keys: [`packs/${version}/de.pack`] });
+    const { next, remove } = rotateGenerations([g("c"), g("b"), g("a")], g("d"));
+    expect(next.map((x) => x.version)).toEqual(["d", "c", "b"]);
+    expect(remove).toEqual(["packs/a/de.pack"]);
+    expect(rotateGenerations([g("d"), g("c")], g("d")).remove).toEqual([]);
+    expect(parseGenerations("bad")).toEqual([]);
+    expect(parseGenerations('[{"version":"a","keys":["k"]},{"x":1}]')).toEqual([{ version: "a", keys: ["k"] }]);
   });
 });
 
 describe("servePage", () => {
   const log = createLogger("test", () => {});
   const ctx = () => ({ waitUntil: vi.fn() });
-  const bucket = (pages: Record<string, string>) => ({
-    get: vi.fn(async (key: string) =>
-      key in pages ? { body: pages[key], httpEtag: '"e1"', size: pages[key].length } : null,
-    ),
-  });
-  const memoryCache = (): PageCache & { store: Map<string, Response> } => {
-    const store = new Map<string, Response>();
+  const build = (pages: Record<string, string>) => {
+    const b = new PackBuilder();
+    for (const [p, html] of Object.entries(pages)) b.add(p, Buffer.from(html));
+    return b.finish();
+  };
+  const bucket = (version: string, pages: Record<string, string>) => {
+    const { pack, index } = build(pages);
+    const objects: Record<string, Buffer> = { [packKey(version, "de")]: pack, [indexKey(version, "de")]: Buffer.from(JSON.stringify(index)) };
     return {
-      store,
-      match: async (k) => store.get(k.url)?.clone(),
-      put: async (k, r) => void store.set(k.url, r),
+      get: vi.fn(async (key: string, opts?: { range?: { offset: number; length: number } }) => {
+        const data = objects[key];
+        if (!data) return null;
+        const bytes = opts?.range ? data.subarray(opts.range.offset, opts.range.offset + opts.range.length) : data;
+        return { body: new Response(new Uint8Array(bytes)).body, json: async () => JSON.parse(bytes.toString()) };
+      }),
     };
   };
-  const env = (pages: Record<string, string>) => ({ ASSETS: {} as never, PAGES: bucket(pages) as never });
+  const memoryCache = (): PageCache => {
+    const store = new Map<string, Response>();
+    return { match: async (k) => store.get(k.url)?.clone(), put: async (k, r) => void store.set(k.url, r) };
+  };
+  const env = (pages: Record<string, string>, version = "v1") => ({ ASSETS: {} as never, PAGES: bucket(version, pages) as never, PAGES_VERSION: version });
+  const req = (path: string, init?: RequestInit) => new Request(`https://x.org${path}`, init);
 
-  it("serves an offloaded page from R2 and caches it", async () => {
-    const e = env({ "pages/de/projects/redis/index.html": "<html>de</html>" });
+  it("serves a page from its pack range and caches it", async () => {
+    clearIndexCache();
+    const e = env({ "/de/projects/redis": "<html>redis</html>", "/de/projects/linux": "<html>linux</html>" });
     const cache = memoryCache();
     const c = ctx();
-    const res = await servePage(new Request("https://x.org/de/projects/redis"), e, c, log, cache);
+    const res = await servePage(req("/de/projects/linux"), e, c, log, cache);
     expect(res?.status).toBe(200);
     expect(res?.headers.get("content-type")).toContain("text/html");
     expect(res?.headers.get("cache-control")).toBe("public, max-age=0, must-revalidate");
-    expect(await res?.text()).toBe("<html>de</html>");
+    expect(await res?.text()).toBe("<html>linux</html>");
     await Promise.all(c.waitUntil.mock.calls.map(([p]) => p));
-    const again = await servePage(new Request("https://x.org/de/projects/redis"), e, ctx(), log, cache);
-    expect(await again?.text()).toBe("<html>de</html>");
-    expect((e.PAGES as unknown as { get: ReturnType<typeof vi.fn> }).get).toHaveBeenCalledTimes(1);
+    const get = (e.PAGES as unknown as { get: ReturnType<typeof vi.fn> }).get;
+    const reads = get.mock.calls.length;
+    expect(await (await servePage(req("/de/projects/linux"), e, ctx(), log, cache))?.text()).toBe("<html>linux</html>");
+    expect(get.mock.calls.length).toBe(reads); // edge cache hit
+    expect(await (await servePage(req("/de/projects/redis"), e, ctx(), log, undefined))?.text()).toBe("<html>redis</html>");
+    expect(get.mock.calls.length).toBe(reads + 1); // index cached in the isolate, one range read
   });
   it("answers conditional requests with 304", async () => {
-    const e = env({ "pages/de/projects/redis/index.html": "x" });
-    const res = await servePage(new Request("https://x.org/de/projects/redis", { headers: { "if-none-match": '"e1"' } }), e, ctx(), log, undefined);
+    clearIndexCache();
+    const e = env({ "/de/projects/redis": "x" });
+    const first = await servePage(req("/de/projects/redis"), e, ctx(), log, undefined);
+    const etag = first!.headers.get("etag")!;
+    const res = await servePage(req("/de/projects/redis", { headers: { "if-none-match": etag } }), e, ctx(), log, undefined);
     expect(res?.status).toBe(304);
   });
   it("redirects a trailing slash", async () => {
-    const res = await servePage(new Request("https://x.org/de/projects/redis/?q=1"), env({}), ctx(), log, undefined);
+    const res = await servePage(req("/de/projects/redis/?q=1"), env({}), ctx(), log, undefined);
     expect(res?.status).toBe(307);
     expect(res?.headers.get("location")).toBe("https://x.org/de/projects/redis?q=1");
   });
-  it("falls through for other pages, missing objects, other methods and no binding", async () => {
-    const e = env({});
-    expect(await servePage(new Request("https://x.org/projects/redis"), e, ctx(), log, undefined)).toBeUndefined();
-    expect(await servePage(new Request("https://x.org/de/projects/redis"), e, ctx(), log, undefined)).toBeUndefined();
-    expect(await servePage(new Request("https://x.org/de/projects/redis", { method: "POST" }), e, ctx(), log, undefined)).toBeUndefined();
-    expect(await servePage(new Request("https://x.org/de/projects/redis"), { ASSETS: {} as never }, ctx(), log, undefined)).toBeUndefined();
+  it("falls through for other pages, unknown pages, other methods, no binding and no version", async () => {
+    clearIndexCache();
+    const e = env({ "/de/projects/redis": "x" });
+    expect(await servePage(req("/projects/redis"), e, ctx(), log, undefined)).toBeUndefined();
+    expect(await servePage(req("/de/projects/nope"), e, ctx(), log, undefined)).toBeUndefined();
+    expect(await servePage(req("/fr/projects/redis"), e, ctx(), log, undefined)).toBeUndefined();
+    expect(await servePage(req("/de/projects/redis", { method: "POST" }), e, ctx(), log, undefined)).toBeUndefined();
+    expect(await servePage(req("/de/projects/redis"), { ASSETS: {} as never }, ctx(), log, undefined)).toBeUndefined();
+    expect(await servePage(req("/de/projects/redis"), { ...e, PAGES_VERSION: undefined }, ctx(), log, undefined)).toBeUndefined();
   });
 });
 

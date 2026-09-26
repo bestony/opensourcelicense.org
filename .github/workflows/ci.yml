@@ -12,7 +12,8 @@ permissions:
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    # The build renders about 56,000 pages (42 languages) and takes about 10 minutes.
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
@@ -37,7 +38,7 @@ jobs:
       - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: dist
-          # dist-r2 holds the pages served from R2 (scripts/offload).
+          # dist-r2 holds the page packs served from R2 (scripts/offload).
           path: |
             dist
             dist-r2
@@ -48,8 +49,7 @@ jobs:
     needs: check
     if: github.ref == 'refs/heads/main' && (github.event_name == 'push' || github.event_name == 'workflow_dispatch')
     runs-on: ubuntu-latest
-    # The first R2 upload sends every offloaded page; later ones send only changed pages.
-    timeout-minutes: 30
+    timeout-minutes: 20
     environment:
       name: production
       url: https://opensource-license-org.floral-field-9262.workers.dev
@@ -71,7 +71,7 @@ jobs:
         with:
           name: dist
           path: .
-      # Upload the offloaded pages before the Worker that serves them goes live.
+      # Upload the page packs before the Worker that reads them goes live.
       - name: Upload offloaded pages to R2
         run: pnpm offload:upload
         env:
@@ -85,7 +85,8 @@ jobs:
           message="$(printf '%s' "$subject" | cut -c1-100)"
           tag="${GITHUB_SHA:0:7}"
           echo "Deploying $tag: $message"
-          pnpm exec wrangler deploy --message "$message" --tag "$tag"
+          # PAGES_VERSION selects the page packs uploaded in the previous step.
+          pnpm exec wrangler deploy --message "$message" --tag "$tag" --var "PAGES_VERSION:$(cat dist-r2/VERSION)"
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

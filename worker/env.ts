@@ -2,6 +2,8 @@ export interface Env {
   ASSETS: Fetcher;
   /** R2 bucket with the pages offloaded from the static assets (src/domain/offload.ts) */
   PAGES?: R2Bucket;
+  /** Pack generation to read from PAGES; set at deploy time with --var PAGES_VERSION:<dist-r2/VERSION> */
+  PAGES_VERSION?: string;
   /** Workers AI binding */
   AI?: Ai;
   RATE_LIMIT?: KVNamespace;

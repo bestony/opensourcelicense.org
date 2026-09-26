@@ -1,110 +1,98 @@
 /**
- * Syncs dist-r2/ to the R2 bucket with Wrangler: uploads new or changed pages, deletes pages
- * that are no longer built, then writes the manifest. Only changed pages cost R2 writes.
- * Usage: `tsx scripts/offload/upload.ts [--bucket=name] [--local] [--dry-run] [--dir=dist-r2]`.
+ * Uploads the page packs in dist-r2/ to R2 as generation `packs/<VERSION>/`, then deletes
+ * generations older than the last three. A generation that is already complete is skipped.
+ * Usage: `tsx scripts/offload/upload.ts [--bucket=name] [--local] [--dir=dist-r2]`.
  * Remote mode needs CLOUDFLARE_API_TOKEN (with R2 edit permission) and CLOUDFLARE_ACCOUNT_ID.
+ * Deploy the Worker afterwards with `--var PAGES_VERSION:$(cat dist-r2/VERSION)`.
  */
-import { execFileSync } from "node:child_process";
-import { createHash } from "node:crypto";
-import { existsSync, mkdtempSync, readdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
+import { execFile } from "node:child_process";
+import { mkdtempSync, readdirSync, readFileSync, rmSync, statSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
-import { join, relative } from "node:path";
-import { OFFLOAD_BUCKET, OFFLOAD_MANIFEST_KEY, OFFLOAD_PREFIX } from "../../src/domain/offload";
+import { join } from "node:path";
+import { promisify } from "node:util";
+import { completeKey, GENERATIONS_KEY, indexKey, OFFLOAD_BUCKET, packKey } from "../../src/domain/offload";
 import { createLogger } from "../../src/lib/log";
-import { chunk, emptyManifest, parseManifest, planUpload, type Manifest } from "./core";
+import { mapLimit } from "../../src/lib/map-limit";
+import { parseGenerations, rotateGenerations } from "./core";
 
+const run = promisify(execFile);
 const log = createLogger("offload.upload");
 const arg = (name: string) => process.argv.find((a) => a.startsWith(`--${name}=`))?.split("=")[1];
 const bucket = arg("bucket") ?? process.env.OFFLOAD_BUCKET ?? OFFLOAD_BUCKET;
 const dir = arg("dir") ?? "dist-r2";
 const target = process.argv.includes("--local") ? "--local" : "--remote";
-const dryRun = process.argv.includes("--dry-run");
-/** Entries per `wrangler r2 bulk put` call; a failed batch is retried without redoing the others. */
-const BATCH = 2000;
+/** Local R2 is a SQLite file that allows one writer at a time. */
+const CONCURRENCY = target === "--local" ? 1 : 4;
 
-function wrangler(args: string[]): string {
-  return execFileSync("pnpm", ["exec", "wrangler", ...args], { encoding: "utf8", stdio: ["ignore", "pipe", "pipe"], maxBuffer: 64 * 1024 * 1024 });
+async function wrangler(args: string[]): Promise<void> {
+  await run("pnpm", ["exec", "wrangler", ...args, target], { maxBuffer: 16 * 1024 * 1024 });
 }
 
-function* walk(d: string): Generator<string> {
-  for (const entry of readdirSync(d, { withFileTypes: true })) {
-    const p = join(d, entry.name);
-    if (entry.isDirectory()) yield* walk(p);
-    else yield p;
-  }
-}
-
-function localManifest(): { manifest: Manifest; files: Map<string, string> } {
-  const manifest = emptyManifest();
-  const files = new Map<string, string>();
-  if (!existsSync(dir)) return { manifest, files };
-  for (const file of walk(dir)) {
-    const key = `${OFFLOAD_PREFIX}${relative(dir, file).replaceAll("\\", "/")}`;
-    manifest.files[key] = createHash("sha256").update(readFileSync(file)).digest("hex").slice(0, 32);
-    files.set(key, file);
-  }
-  return { manifest, files };
-}
-
-function remoteManifest(tmp: string): Manifest {
-  const file = join(tmp, "remote-manifest.json");
-  try {
-    wrangler(["r2", "object", "get", `${bucket}/${OFFLOAD_MANIFEST_KEY}`, "--file", file, target]);
-    return parseManifest(readFileSync(file, "utf8"));
-  } catch (err) {
-    log.warn("no remote manifest, uploading every page", { bucket, err: String(err).slice(0, 300) });
-    return emptyManifest();
-  }
-}
-
-function withRetry<T>(what: string, fn: () => T, attempts = 3): T {
+async function withRetry<T>(what: string, fn: () => Promise<T>, attempts = 3): Promise<T> {
   for (let i = 1; ; i++) {
     try {
-      return fn();
+      return await fn();
     } catch (err) {
-      if (i >= attempts) throw err;
-      log.warn("retrying", { what, attempt: i, err: String(err).slice(0, 300) });
+      const detail = String((err as { stderr?: string }).stderr || err).slice(-1500);
+      if (i >= attempts) throw new Error(`${what} failed: ${detail}`);
+      log.warn("retrying", { what, attempt: i, err: detail });
+      await new Promise((r) => setTimeout(r, 2000 * i));
     }
   }
 }
 
-function main() {
+async function getText(key: string, tmp: string): Promise<string | undefined> {
+  const file = join(tmp, key.replaceAll("/", "_"));
+  try {
+    await wrangler(["r2", "object", "get", `${bucket}/${key}`, "--file", file]);
+    return readFileSync(file, "utf8");
+  } catch {
+    return undefined; // missing object
+  }
+}
+
+async function put(key: string, file: string, contentType: string): Promise<void> {
+  await withRetry(`put ${key}`, () => wrangler(["r2", "object", "put", `${bucket}/${key}`, "--file", file, "--content-type", contentType]));
+}
+
+async function main() {
+  const version = readFileSync(join(dir, "VERSION"), "utf8").trim();
   const tmp = mkdtempSync(join(tmpdir(), "osl-offload-"));
   try {
-    const { manifest, files } = localManifest();
-    if (files.size === 0) throw new Error(`${dir} is empty: run "pnpm build" first`);
-    const remote = remoteManifest(tmp);
-    const plan = planUpload(remote, manifest);
-    log.info("upload plan", { bucket, target, local: files.size, put: plan.put.length, remove: plan.remove.length, unchanged: plan.unchanged, dryRun });
-    if (dryRun) return;
-
-    const batches = chunk(plan.put, BATCH);
-    batches.forEach((keys, i) => {
-      const list = join(tmp, `batch-${i}.json`);
-      writeFileSync(list, JSON.stringify(keys.map((key) => ({ key, file: files.get(key)! }))));
-      withRetry(`batch ${i + 1}/${batches.length}`, () =>
-        wrangler(["r2", "bulk", "put", bucket, "--filename", list, "--content-type", "text/html; charset=utf-8", "--concurrency", "20", target]),
-      );
-      log.info("batch uploaded", { batch: i + 1, of: batches.length, size: keys.length });
-    });
-    for (const key of plan.remove) {
-      withRetry(`delete ${key}`, () => wrangler(["r2", "object", "delete", `${bucket}/${key}`, target]));
-      log.debug("deleted", { key });
+    if ((await getText(completeKey(version), tmp)) !== undefined) {
+      log.info("generation already uploaded", { bucket, target, version });
+      return;
     }
-    const manifestFile = join(tmp, "manifest.json");
-    writeFileSync(manifestFile, JSON.stringify(manifest));
-    withRetry("manifest", () =>
-      wrangler(["r2", "object", "put", `${bucket}/${OFFLOAD_MANIFEST_KEY}`, "--file", manifestFile, "--content-type", "application/json", target]),
-    );
-    log.info("upload done", { put: plan.put.length, removed: plan.remove.length });
+    const locales = readdirSync(dir).filter((f) => f.endsWith(".pack")).map((f) => f.slice(0, -".pack".length)).sort();
+    if (!locales.length) throw new Error(`${dir} has no packs: run "pnpm build" first`);
+    const files = locales.flatMap((l) => [
+      { key: packKey(version, l), file: join(dir, `${l}.pack`), type: "application/octet-stream" },
+      { key: indexKey(version, l), file: join(dir, `${l}.json`), type: "application/json" },
+    ]);
+    const bytes = files.reduce((n, f) => n + statSync(f.file).size, 0);
+    log.info("uploading generation", { bucket, target, version, locales: locales.length, objects: files.length, bytes });
+    let done = 0;
+    await mapLimit(files, CONCURRENCY, async (f) => {
+      await put(f.key, f.file, f.type);
+      log.info("uploaded", { key: f.key, done: ++done, of: files.length });
+    });
+    const marker = join(tmp, "complete");
+    writeFileSync(marker, new Date().toISOString());
+    await put(completeKey(version), marker, "text/plain");
+
+    const current = { version, keys: [...files.map((f) => f.key), completeKey(version)] };
+    const { next, remove } = rotateGenerations(parseGenerations(await getText(GENERATIONS_KEY, tmp)), current);
+    const list = join(tmp, "generations.json");
+    writeFileSync(list, JSON.stringify(next));
+    await put(GENERATIONS_KEY, list, "application/json");
+    await mapLimit(remove, CONCURRENCY, (key) => withRetry(`delete ${key}`, () => wrangler(["r2", "object", "delete", `${bucket}/${key}`])));
+    log.info("upload done", { version, uploaded: files.length, deleted: remove.length, generations: next.map((g) => g.version) });
   } finally {
     rmSync(tmp, { recursive: true, force: true });
   }
 }
 
-try {
-  main();
-} catch (err) {
-  log.error("upload failed", { err: String(err).slice(0, 1000) });
+main().catch((err) => {
+  log.error("upload failed", { err: String(err).slice(0, 3000) });
   process.exit(1);
-}
+});

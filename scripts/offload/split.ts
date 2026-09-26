@@ -1,21 +1,23 @@
 /**
- * Moves the offloaded pages (src/domain/offload.ts) from dist/ to dist-r2/ after `astro build`,
- * before Pagefind indexes dist/. Usage: `tsx scripts/offload/split.ts [--dist=dist] [--out=dist-r2]`.
- * With `--check`, moves nothing and only checks dist/ against the Workers static asset limits
+ * Packs the offloaded pages (src/domain/offload.ts) after `astro build`, before Pagefind
+ * indexes dist/: removes them from dist/ and writes dist-r2/<locale>.pack, dist-r2/<locale>.json
+ * and dist-r2/VERSION. Usage: `tsx scripts/offload/split.ts [--dist=dist] [--out=dist-r2]`.
+ * With `--check`, packs nothing and only checks dist/ against the Workers static asset limits
  * (run it last, after Pagefind has added its files).
  */
-import { mkdirSync, readdirSync, renameSync, rmdirSync, rmSync, statSync } from "node:fs";
+import { mkdirSync, readdirSync, readFileSync, rmdirSync, rmSync, statSync, unlinkSync, writeFileSync } from "node:fs";
 import { dirname, join, relative } from "node:path";
-import { isOffloadedPath, pathnameOfBuiltFile } from "../../src/domain/offload";
+import { offloadedLocale, pageKey, pathnameOfBuiltFile } from "../../src/domain/offload";
 import { createLogger } from "../../src/lib/log";
+import { PackBuilder, packVersion } from "./core";
 
 const log = createLogger("offload.split");
 const arg = (name: string) => process.argv.find((a) => a.startsWith(`--${name}=`))?.split("=")[1];
 const dist = arg("dist") ?? "dist";
+const out = arg("out") ?? "dist-r2";
 /** Cloudflare Workers static asset limits (free plan): files per deployment and bytes per file. */
 const MAX_ASSETS = 20_000;
 const MAX_ASSET_BYTES = 25 * 1024 * 1024;
-const out = arg("out") ?? "dist-r2";
 
 function* walk(dir: string): Generator<string> {
   for (const entry of readdirSync(dir, { withFileTypes: true })) {
@@ -47,23 +49,37 @@ function checkLimits(): void {
 
 function split(): void {
   rmSync(out, { recursive: true, force: true });
-  let moved = 0;
+  mkdirSync(out, { recursive: true });
+  const packs = new Map<string, PackBuilder>();
   let kept = 0;
-  for (const file of [...walk(dist)]) {
-    const rel = relative(dist, file);
-    const pathname = pathnameOfBuiltFile(rel);
-    if (!pathname || !isOffloadedPath(pathname)) {
+  // Sorted, so that the same build always gives the same packs and version.
+  for (const file of [...walk(dist)].sort()) {
+    const pathname = pathnameOfBuiltFile(relative(dist, file));
+    const locale = pathname && offloadedLocale(pathname);
+    if (!pathname || !locale) {
       kept++;
       continue;
     }
-    const target = join(out, rel);
-    mkdirSync(dirname(target), { recursive: true });
-    renameSync(file, target);
+    let pack = packs.get(locale);
+    if (!pack) packs.set(locale, (pack = new PackBuilder()));
+    pack.add(pageKey(pathname), readFileSync(file));
+    unlinkSync(file);
     removeEmptyParents(dirname(file), dist);
-    moved++;
-    log.debug("moved", { path: pathname });
   }
-  log.info("offload split done", { dist, out, moved, kept });
+  const parts: { locale: string; pack: Buffer; index: string }[] = [];
+  for (const [locale, builder] of [...packs].sort(([a], [b]) => a.localeCompare(b))) {
+    const { pack, index } = builder.finish();
+    const json = JSON.stringify(index);
+    writeFileSync(join(out, `${locale}.pack`), pack);
+    writeFileSync(join(out, `${locale}.json`), json);
+    parts.push({ locale, pack, index: json });
+    log.debug("pack written", { locale, pages: Object.keys(index.pages).length, bytes: pack.length });
+  }
+  const version = packVersion(parts);
+  writeFileSync(join(out, "VERSION"), version);
+  const pages = parts.reduce((n, p) => n + Object.keys(JSON.parse(p.index).pages).length, 0);
+  const bytes = parts.reduce((n, p) => n + p.pack.length, 0);
+  log.info("offload packs done", { dist, out, version, locales: parts.length, pages, packBytes: bytes, kept });
 }
 
 if (process.argv.includes("--check")) checkLimits();
