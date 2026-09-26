@@ -1,0 +1,32 @@
+matrix: code
+group: B
+order: 2
+cells:
+  mit:
+    verdict: silent
+  bsd-3-clause:
+    verdict: silent
+  apache-2.0:
+    verdict: deny
+    clause:
+      ref: §3
+  mpl-2.0:
+    verdict: deny
+    clause:
+      ref: §2.1
+  lgpl-3.0:
+    verdict: deny
+  gpl-3.0:
+    verdict: deny
+    clause:
+      ref: §11
+  agpl-3.0:
+    verdict: deny
+  mulanpsl-2.0:
+    verdict: deny
+  sspl-1.0:
+    verdict: deny
+  busl-1.1:
+    verdict: silent
+  elv2:
+    verdict: deny

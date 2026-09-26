@@ -1,0 +1,11 @@
+reviewed: true
+summary: AGPL-like, but offering the software as a service requires releasing
+  the source of the whole service stack. Not OSI-approved.
+analogy: If you run a restaurant with this dish, you must also publish your
+  kitchen's blueprints.
+pros:
+  - Strong protection against cloud vendors
+cons:
+  - Not open source by OSI
+  - Rejected by many distributions
+  - Can trigger community forks

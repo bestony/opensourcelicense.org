@@ -1,0 +1,160 @@
+# Rule engine weights. Shared by the wizard (/wizard) and the AI advisor (/chat).
+# A higher total score means a better fit for the project profile.
+
+# Protection value of a cell verdict when the author wants to AVOID that scenario.
+verdictScore:
+  deny: 3
+  conditional: 1.5
+  allow: 0
+  silent: 0
+  tbd: 0
+
+# avoid key -> scenario ids whose verdicts measure protection against it.
+avoid:
+  cloud-hosting: [A1, A3]
+  closed-fork: [A2, A4]
+  patent-litigation: [B1, B2]
+  trademark-abuse: [A5]
+  harmful-use: [D4, E1]
+  big-company: [C5, E3]
+
+# openness_level -> family fit.
+openness:
+  open:
+    permissive: 6
+    weak-copyleft: 2
+    content: 4
+    model: 0
+    strong-copyleft: -2
+    network-copyleft: -4
+    source-available: -10
+  reciprocal:
+    weak-copyleft: 4
+    strong-copyleft: 6
+    network-copyleft: 6
+    permissive: -2
+    content: 0
+    model: 0
+    source-available: -6
+  source-available:
+    source-available: 6
+    network-copyleft: 3
+    model: 4
+    strong-copyleft: 0
+    content: 0
+    weak-copyleft: -2
+    permissive: -4
+
+# adoption_goal -> per-license adjustment.
+adoption:
+  enterprise:
+    mit: 3
+    apache-2.0: 4
+    bsd-3-clause: 3
+    mpl-2.0: 1
+    lgpl-3.0: 0
+    gpl-3.0: -3
+    agpl-3.0: -5
+    sspl-1.0: -6
+    busl-1.1: -3
+    elv2: -2
+    mulanpsl-2.0: 1
+    cc-by-4.0: 2
+    cc-by-nc-4.0: -4
+    llama: -1
+    openrail-m: 0
+  community:
+    gpl-3.0: 2
+    agpl-3.0: 1
+    mpl-2.0: 2
+    lgpl-3.0: 1
+    apache-2.0: 1
+    mit: 1
+    sspl-1.0: -4
+    busl-1.1: -3
+    elv2: -3
+    cc-by-4.0: 1
+    openrail-m: 1
+    llama: -1
+  monetize:
+    agpl-3.0: 3
+    busl-1.1: 3
+    elv2: 3
+    sspl-1.0: 1
+    gpl-3.0: 1
+    llama: 2
+    cc-by-nc-4.0: 1
+
+# commercial_plan -> per-license adjustment.
+commercial:
+  none: {}
+  dual-license:
+    agpl-3.0: 3
+    gpl-3.0: 2
+    sspl-1.0: 1
+  open-core:
+    apache-2.0: 2
+    mit: 1
+    elv2: 2
+    busl-1.1: 1
+  hosted:
+    agpl-3.0: 2
+    elv2: 3
+    busl-1.1: 3
+    sspl-1.0: 1
+
+# jurisdiction -> per-license adjustment.
+jurisdiction:
+  cn:
+    mulanpsl-2.0: 3
+  eu: {}
+  us: {}
+  other: {}
+
+# artifact_type -> matrix used for scoring.
+artifactMatrix:
+  library: code
+  application: code
+  saas: code
+  model: model
+  dataset: model
+  docs: model
+
+# Optional candidate whitelist per artifact type.
+artifactCandidates:
+  dataset: [cc-by-4.0, cc-by-nc-4.0, mit, apache-2.0]
+  docs: [cc-by-4.0, cc-by-nc-4.0]
+
+# Radar dimensions per matrix. `score` maps a verdict to 0..1 (higher = more of that dimension).
+radar:
+  code:
+    - id: anti-freeride
+      scenarios: [A1, A3, A6]
+      score: { deny: 1, conditional: 0.5, allow: 0, silent: 0, tbd: 0 }
+    - id: anti-closed-fork
+      scenarios: [A2, A4]
+      score: { deny: 1, conditional: 0.5, allow: 0, silent: 0, tbd: 0 }
+    - id: patent
+      scenarios: [B1, B2]
+      score: { deny: 1, conditional: 0.5, allow: 0, silent: 0, tbd: 0 }
+    - id: adoption-friction
+      scenarios: [A3, A4, C2, D3]
+      score: { deny: 1, conditional: 0.5, allow: 0, silent: 0, tbd: 0 }
+    - id: relicense-difficulty
+      scenarios: [C1]
+      score: { deny: 1, conditional: 0.5, allow: 0, silent: 0, tbd: 0 }
+  model:
+    - id: misuse-control
+      scenarios: [E1]
+      score: { deny: 1, conditional: 0.5, allow: 0, silent: 0, tbd: 0 }
+    - id: derivative-control
+      scenarios: [E2, E4]
+      score: { deny: 1, conditional: 0.5, allow: 0, silent: 0, tbd: 0 }
+    - id: commercial-control
+      scenarios: [E3, E5]
+      score: { deny: 1, conditional: 0.5, allow: 0, silent: 0, tbd: 0 }
+    - id: adoption-friction
+      scenarios: [E2, E3, E4]
+      score: { deny: 1, conditional: 0.5, allow: 0, silent: 0, tbd: 0 }
+
+topN: 3

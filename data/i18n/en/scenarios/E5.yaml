@@ -1,0 +1,7 @@
+reviewed: true
+title: A dataset is used commercially and redistributed
+actor: other
+cells:
+  llama: Not applicable
+  openrail-m: Not applicable
+  cc-by-4.0: Attribution

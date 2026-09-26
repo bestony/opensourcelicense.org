@@ -1,0 +1,7 @@
+reviewed: true
+title: Linked into a closed-source app or firmware and distributed
+actor: other
+cells:
+  mpl-2.0: File-level
+  lgpl-3.0: Must allow relinking
+  busl-1.1: Depends on the Additional Use Grant

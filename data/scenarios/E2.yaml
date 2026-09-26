@@ -1,0 +1,16 @@
+matrix: model
+group: E
+order: 2
+cells:
+  apache-2.0:
+    verdict: allow
+  mit:
+    verdict: allow
+  llama:
+    verdict: conditional
+  openrail-m:
+    verdict: conditional
+  cc-by-4.0:
+    verdict: allow
+  cc-by-nc-4.0:
+    verdict: conditional

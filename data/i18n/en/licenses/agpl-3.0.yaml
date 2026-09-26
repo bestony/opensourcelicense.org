@@ -1,0 +1,12 @@
+reviewed: true
+summary: "GPL-3.0 plus a network clause: users who interact with a modified
+  version over a network must be offered its source."
+analogy: "The recipe rule also applies to restaurants: serving the dish counts
+  as handing it out."
+pros:
+  - Closes the SaaS loophole
+  - Good basis for dual licensing
+  - OSI-approved open source
+cons:
+  - Many companies ban it outright
+  - Unmodified hosting is still allowed

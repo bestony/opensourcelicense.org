@@ -1,0 +1,11 @@
+reviewed: true
+summary: A Chinese permissive license with a patent grant and retaliation.
+  Chinese and English texts are equally valid; Chinese prevails on conflict.
+analogy: Apache-style protection written with Chinese law in mind.
+pros:
+  - Official bilingual text
+  - Patent grant
+  - OSI-approved
+cons:
+  - Less known outside China
+  - Limited case law

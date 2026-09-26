@@ -1,0 +1,8 @@
+reviewed: false
+title: 嵌入闭源 SaaS 后端（不分发）
+actor: other
+cells:
+  agpl-3.0: 若修改须公开
+  sspl-1.0: 若以其功能对外服务
+  busl-1.1: 视附加授权
+  elv2: 非托管其本身

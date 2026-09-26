@@ -1,0 +1,7 @@
+reviewed: false
+title: 链接进闭源 App / 固件分发
+actor: other
+cells:
+  mpl-2.0: 文件级
+  lgpl-3.0: 须允许替换重链接
+  busl-1.1: 视附加授权

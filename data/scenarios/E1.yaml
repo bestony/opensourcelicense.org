@@ -1,0 +1,20 @@
+matrix: model
+group: E
+order: 1
+cells:
+  apache-2.0:
+    verdict: allow
+  mit:
+    verdict: allow
+  llama:
+    verdict: deny
+    clause:
+      ref: Acceptable Use Policy
+  openrail-m:
+    verdict: deny
+    clause:
+      ref: Attachment A
+  cc-by-4.0:
+    verdict: allow
+  cc-by-nc-4.0:
+    verdict: conditional

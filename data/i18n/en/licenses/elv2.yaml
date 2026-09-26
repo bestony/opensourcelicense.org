@@ -1,0 +1,11 @@
+reviewed: true
+summary: "Source-available: free to use and modify, but you may not offer it as
+  a managed service or bypass license keys."
+analogy: Cook with it at home or in your restaurant, but don't open a store that
+  sells this exact dish.
+pros:
+  - Short and clear
+  - Targets only managed-service competitors
+cons:
+  - Not open source
+  - Limits forks and some partners

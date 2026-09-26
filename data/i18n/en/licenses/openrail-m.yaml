@@ -1,0 +1,11 @@
+reviewed: true
+summary: "A Responsible AI License for models: permissive terms plus use-based
+  restrictions that every derivative must pass on."
+analogy: A free tool with a list of forbidden uses that travels with every copy.
+pros:
+  - Allows commercial use
+  - Keeps harmful-use restrictions downstream
+cons:
+  - Not open source by OSI
+  - Restrictions are hard to enforce
+  - Several variants exist

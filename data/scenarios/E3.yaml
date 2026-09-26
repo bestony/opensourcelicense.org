@@ -1,0 +1,20 @@
+matrix: model
+group: E
+order: 3
+cells:
+  apache-2.0:
+    verdict: allow
+  mit:
+    verdict: allow
+  llama:
+    verdict: conditional
+    clause:
+      ref: §2 Additional Commercial Terms
+  openrail-m:
+    verdict: allow
+  cc-by-4.0:
+    verdict: allow
+  cc-by-nc-4.0:
+    verdict: deny
+    clause:
+      ref: §1(i) NonCommercial

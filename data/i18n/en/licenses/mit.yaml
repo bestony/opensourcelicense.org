@@ -1,0 +1,12 @@
+reviewed: true
+summary: Do almost anything with the code. Keep the copyright and license
+  notice. No warranty.
+analogy: "Like leaving a free book in a café: take it, copy it, sell it, just
+  keep the author's name on the cover."
+pros:
+  - Short and widely understood
+  - Easiest license for companies to adopt
+  - Compatible with almost every other license
+cons:
+  - No patent grant
+  - Anyone can build a closed-source or hosted competitor

@@ -1,0 +1,36 @@
+matrix: code
+group: A
+order: 2
+cells:
+  mit:
+    verdict: allow
+  bsd-3-clause:
+    verdict: allow
+  apache-2.0:
+    verdict: allow
+    clause:
+      ref: §4(b)
+  mpl-2.0:
+    verdict: conditional
+    clause:
+      ref: §3.1–3.3
+  lgpl-3.0:
+    verdict: conditional
+    clause:
+      ref: §2
+  gpl-3.0:
+    verdict: deny
+    clause:
+      ref: §5 Conveying Modified Source Versions
+  agpl-3.0:
+    verdict: deny
+    clause:
+      ref: §5
+  mulanpsl-2.0:
+    verdict: allow
+  sspl-1.0:
+    verdict: deny
+  busl-1.1:
+    verdict: deny
+  elv2:
+    verdict: conditional

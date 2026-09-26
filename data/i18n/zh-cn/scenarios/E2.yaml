@@ -1,0 +1,8 @@
+reviewed: false
+title: 蒸馏/用输出训练其他模型
+actor: other
+cells:
+  llama: 名称须含 “Llama”
+  openrail-m: 衍生须继承限制
+  cc-by-4.0: 署名
+  cc-by-nc-4.0: 仅限非商用

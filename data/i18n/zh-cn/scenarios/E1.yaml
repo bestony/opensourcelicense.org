@@ -1,0 +1,7 @@
+reviewed: false
+title: 权重用于军事/监控/虚假信息
+actor: other
+cells:
+  llama: 可接受使用政策
+  openrail-m: 使用限制条款
+  cc-by-nc-4.0: 仅限非商用

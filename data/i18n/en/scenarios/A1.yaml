@@ -1,0 +1,8 @@
+reviewed: true
+title: A cloud vendor sells your project as a managed service
+actor: other
+cells:
+  gpl-3.0: Not distribution
+  agpl-3.0: Must publish modifications
+  sspl-1.0: Must release the whole service stack
+  busl-1.1: Unless the Additional Use Grant allows it

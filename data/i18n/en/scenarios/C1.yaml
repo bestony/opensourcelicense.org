@@ -1,0 +1,12 @@
+reviewed: true
+title: You later relicense or sell commercial licenses (contributors signed no CLA)
+actor: you
+cells:
+  mit: New versions can change; old ones stay
+  bsd-3-clause: Same as MIT
+  apache-2.0: Same as MIT
+  mpl-2.0: MPL files must stay MPL
+  lgpl-3.0: Needs consent of all contributors
+  mulanpsl-2.0: Same as MIT
+  busl-1.1: Usually relies on a CLA
+  elv2: Usually relies on a CLA

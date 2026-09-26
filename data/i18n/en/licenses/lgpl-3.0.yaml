@@ -1,0 +1,12 @@
+reviewed: true
+summary: "Library-level copyleft: changes to the library stay open; closed apps
+  may link to it if users can replace the library."
+analogy: "A shared engine: you can put it in your car, but owners must be able
+  to swap it for their own."
+pros:
+  - Lets proprietary apps use the library
+  - Changes to the library stay open
+  - Patent grant
+cons:
+  - Relinking rules are complex, especially for static linking and mobile
+  - Some companies still avoid it

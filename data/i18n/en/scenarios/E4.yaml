@@ -1,0 +1,8 @@
+reviewed: true
+title: Fine-tuned, renamed and released as closed weights
+actor: other
+cells:
+  llama: Must include the license and show "Built with Llama"
+  openrail-m: Must pass on use restrictions
+  cc-by-4.0: Attribution
+  cc-by-nc-4.0: Non-commercial only

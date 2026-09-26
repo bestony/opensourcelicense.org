@@ -1,0 +1,10 @@
+reviewed: true
+title: Someone sells unmodified copies
+actor: other
+cells:
+  mpl-2.0: Source must be offered
+  lgpl-3.0: Source must be offered
+  gpl-3.0: Source must be offered
+  agpl-3.0: Source must be offered
+  sspl-1.0: Source must be offered
+  busl-1.1: Depends on the Additional Use Grant

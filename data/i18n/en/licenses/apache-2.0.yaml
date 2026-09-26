@@ -1,0 +1,13 @@
+reviewed: true
+summary: Permissive license with an explicit patent grant, patent retaliation
+  and a requirement to mark changed files.
+analogy: A free toolkit that also comes with a promise not to sue you over its
+  patents — unless you sue first.
+pros:
+  - Explicit patent grant from every contributor
+  - Preferred by many companies and foundations
+  - Protects trademarks
+cons:
+  - Longer; NOTICE file handling
+  - Not compatible with GPL-2.0-only
+  - Does not stop hosted competitors

@@ -1,0 +1,9 @@
+reviewed: true
+title: Someone forks it and distributes a closed-source competitor
+actor: other
+cells:
+  apache-2.0: Must mark modified files
+  mpl-2.0: Modified MPL files stay open
+  lgpl-3.0: Changes to the library stay open
+  busl-1.1: Derivatives stay under BSL
+  elv2: Limitations must be kept

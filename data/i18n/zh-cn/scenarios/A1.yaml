@@ -1,0 +1,8 @@
+reviewed: false
+title: 云厂商把你的项目做成托管服务售卖
+actor: other
+cells:
+  gpl-3.0: 不算分发
+  agpl-3.0: 须公开修改
+  sspl-1.0: 须开源整套服务栈
+  busl-1.1: 除非附加授权允许

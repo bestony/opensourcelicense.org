@@ -1,0 +1,7 @@
+reviewed: true
+title: Your code is merged into a GPL-3.0 project
+actor: other
+cells:
+  apache-2.0: But not compatible with GPL-2.0
+  mpl-2.0: Unless marked incompatible
+  agpl-3.0: The AGPL part stays AGPL

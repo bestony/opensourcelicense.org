@@ -1,0 +1,8 @@
+reviewed: false
+title: 微调后换名闭源发布
+actor: other
+cells:
+  llama: 须附协议并标注 Built with Llama
+  openrail-m: 须传递使用限制
+  cc-by-4.0: 署名
+  cc-by-nc-4.0: 仅限非商用

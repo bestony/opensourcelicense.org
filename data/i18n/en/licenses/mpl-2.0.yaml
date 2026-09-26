@@ -1,0 +1,12 @@
+reviewed: true
+summary: "File-level copyleft: changes to MPL-licensed files must stay open, but
+  they can be combined with closed code in other files."
+analogy: Borrow a chapter and you must share your edits to that chapter, but the
+  rest of your book is yours.
+pros:
+  - Balanced between permissive and copyleft
+  - Explicit patent grant
+  - Compatible with GPL by default
+cons:
+  - File boundaries can be unclear
+  - Does not cover network use

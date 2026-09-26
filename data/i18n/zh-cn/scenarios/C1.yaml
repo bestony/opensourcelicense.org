@@ -1,0 +1,12 @@
+reviewed: false
+title: 作者日后改协议/卖商业授权（贡献者未签 CLA）
+actor: you
+cells:
+  mit: 新版可改，旧版不变
+  bsd-3-clause: 同 MIT
+  apache-2.0: 同 MIT
+  mpl-2.0: MPL 文件须保持 MPL
+  lgpl-3.0: 需全体贡献者同意
+  mulanpsl-2.0: 同 MIT
+  busl-1.1: 通常靠 CLA
+  elv2: 通常靠 CLA

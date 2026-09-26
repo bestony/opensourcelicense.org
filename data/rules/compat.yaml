@@ -1,0 +1,40 @@
+# Dependency (inbound) license -> project (outbound) licenses that may be
+# distributed together with it. Simplified; not legal advice.
+
+# SPDX id (lowercase) -> inbound class.
+classes:
+  permissive: [mit, bsd-2-clause, bsd-3-clause, isc, 0bsd, unlicense, zlib, apache-2.0, mulanpsl-2.0, cc0-1.0, python-2.0, bsl-1.0, blueoak-1.0.0, x11, postgresql]
+  mpl: [mpl-2.0, epl-2.0]
+  lgpl: [lgpl-2.1, lgpl-2.1-only, lgpl-2.1-or-later, lgpl-3.0, lgpl-3.0-only, lgpl-3.0-or-later]
+  gpl2only: [gpl-2.0, gpl-2.0-only]
+  gpl3: [gpl-3.0, gpl-3.0-only, gpl-3.0-or-later, gpl-2.0-or-later]
+  agpl: [agpl-3.0, agpl-3.0-only, agpl-3.0-or-later]
+  sspl: [sspl-1.0]
+  source-available: [busl-1.1, bsl-1.1, elv2, elastic-2.0]
+  noncommercial: [cc-by-nc-4.0]
+
+rules:
+  permissive:
+    allow: "*"
+  mpl:
+    allow: "*"
+    note: File-level copyleft. Modified MPL files stay under the MPL.
+  lgpl:
+    allow: "*"
+    note: Dynamic linking only. The library must stay replaceable.
+  gpl2only:
+    allow: []
+    note: GPL-2.0-only is not compatible with any GPL-3.0 family license.
+  gpl3:
+    allow: [gpl-3.0, agpl-3.0]
+  agpl:
+    allow: [agpl-3.0]
+    conditional: [gpl-3.0]
+    note: GPL-3.0 §13 allows combination, but the AGPL part keeps its terms.
+  sspl:
+    allow: [sspl-1.0]
+  source-available:
+    allow: []
+    note: Source-available terms cannot be relicensed as open source.
+  noncommercial:
+    allow: [cc-by-nc-4.0]

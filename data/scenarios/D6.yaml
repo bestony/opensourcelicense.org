@@ -1,0 +1,26 @@
+matrix: code
+group: D
+order: 6
+cells:
+  mit:
+    verdict: silent
+  bsd-3-clause:
+    verdict: silent
+  apache-2.0:
+    verdict: silent
+  mpl-2.0:
+    verdict: silent
+  lgpl-3.0:
+    verdict: silent
+  gpl-3.0:
+    verdict: silent
+  agpl-3.0:
+    verdict: silent
+  mulanpsl-2.0:
+    verdict: silent
+  sspl-1.0:
+    verdict: silent
+  busl-1.1:
+    verdict: silent
+  elv2:
+    verdict: silent

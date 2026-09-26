@@ -1,0 +1,7 @@
+reviewed: false
+title: 作者只禁止大公司/竞争对手使用
+actor: you
+cells:
+  sspl-1.0: 间接
+  busl-1.1: 通过附加授权
+  elv2: 仅限托管服务

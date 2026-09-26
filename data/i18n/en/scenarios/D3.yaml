@@ -1,0 +1,6 @@
+reviewed: true
+title: Internal modification, no distribution and no external service
+actor: other
+cells:
+  agpl-3.0: Intranet user interaction is disputed
+  busl-1.1: Depends on the Additional Use Grant

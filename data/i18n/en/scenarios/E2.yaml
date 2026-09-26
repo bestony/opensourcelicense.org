@@ -1,0 +1,8 @@
+reviewed: true
+title: Distillation, or training other models on its outputs
+actor: other
+cells:
+  llama: Name must include "Llama"
+  openrail-m: Derivatives inherit restrictions
+  cc-by-4.0: Attribution
+  cc-by-nc-4.0: Non-commercial only

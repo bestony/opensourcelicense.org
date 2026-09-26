@@ -1,0 +1,13 @@
+reviewed: true
+summary: "Strong copyleft: if you distribute the software or derived works, you
+  must release the complete source under GPL-3.0."
+analogy: "A recipe that says: whoever serves a dish based on this must hand out
+  the full recipe too."
+pros:
+  - Keeps all distributed derivatives open
+  - Patent grant and anti-tivoization
+  - Strong community tradition
+cons:
+  - Many companies avoid it
+  - Does not cover SaaS (no distribution)
+  - Incompatible with GPL-2.0-only

@@ -1,0 +1,10 @@
+reviewed: false
+title: 原样打包收费售卖
+actor: other
+cells:
+  mpl-2.0: 附源码
+  lgpl-3.0: 附源码
+  gpl-3.0: 附源码
+  agpl-3.0: 附源码
+  sspl-1.0: 附源码
+  busl-1.1: 视附加授权

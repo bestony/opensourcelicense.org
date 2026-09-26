@@ -1,0 +1,9 @@
+reviewed: false
+title: fork 后闭源分发竞品
+actor: other
+cells:
+  apache-2.0: 须标注修改
+  mpl-2.0: 改动的 MPL 文件须开源
+  lgpl-3.0: 库的改动须开源
+  busl-1.1: 衍生仍为 BSL
+  elv2: 限制条款须保留

@@ -1,0 +1,7 @@
+reviewed: false
+title: 代码被并入 GPL-3.0 项目
+actor: other
+cells:
+  apache-2.0: 但不兼容 GPL-2.0
+  mpl-2.0: 除非标注不兼容
+  agpl-3.0: AGPL 部分仍是 AGPL

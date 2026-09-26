@@ -1,0 +1,5 @@
+reviewed: true
+title: A user sues you for patent infringement and keeps using the code
+actor: other
+cells:
+  apache-2.0: Patent license terminates

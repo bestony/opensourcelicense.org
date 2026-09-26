@@ -1,0 +1,30 @@
+matrix: code
+group: A
+order: 4
+cells:
+  mit:
+    verdict: allow
+  bsd-3-clause:
+    verdict: allow
+  apache-2.0:
+    verdict: allow
+  mpl-2.0:
+    verdict: allow
+  lgpl-3.0:
+    verdict: conditional
+    clause:
+      ref: §4 Combined Works
+  gpl-3.0:
+    verdict: deny
+    clause:
+      ref: §5(c)
+  agpl-3.0:
+    verdict: deny
+  mulanpsl-2.0:
+    verdict: allow
+  sspl-1.0:
+    verdict: deny
+  busl-1.1:
+    verdict: conditional
+  elv2:
+    verdict: allow

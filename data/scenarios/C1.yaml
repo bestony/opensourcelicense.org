@@ -1,0 +1,26 @@
+matrix: code
+group: C
+order: 1
+cells:
+  mit:
+    verdict: conditional
+  bsd-3-clause:
+    verdict: conditional
+  apache-2.0:
+    verdict: conditional
+  mpl-2.0:
+    verdict: conditional
+  lgpl-3.0:
+    verdict: deny
+  gpl-3.0:
+    verdict: deny
+  agpl-3.0:
+    verdict: deny
+  mulanpsl-2.0:
+    verdict: conditional
+  sspl-1.0:
+    verdict: deny
+  busl-1.1:
+    verdict: conditional
+  elv2:
+    verdict: conditional

@@ -1,0 +1,6 @@
+reviewed: false
+title: 内部修改、不分发也不对外服务
+actor: other
+cells:
+  agpl-3.0: 内网用户交互有争议
+  busl-1.1: 视附加授权

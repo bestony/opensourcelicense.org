@@ -1,0 +1,13 @@
+reviewed: true
+summary: "A custom model license: commercial use is allowed, with an Acceptable
+  Use Policy, attribution and naming rules, and a separate license above 700M
+  monthly active users."
+analogy: A free-to-use engine with a rulebook, and a special contract for the
+  very largest carmakers.
+pros:
+  - Commercial use allowed for most users
+  - Large ecosystem
+cons:
+  - Not open source by OSI
+  - Use-policy and naming obligations
+  - Terms change between versions

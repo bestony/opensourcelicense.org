@@ -1,0 +1,10 @@
+reviewed: true
+summary: Like MIT, plus a clause that forbids using your name to endorse derived
+  products.
+analogy: 'A free book with a note: "Do not claim the author recommends your edition."'
+pros:
+  - Permissive and well known
+  - Protects your name from endorsement use
+cons:
+  - No patent grant
+  - Closed-source forks are allowed
