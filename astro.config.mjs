@@ -4,6 +4,7 @@ import { defineConfig, fontProviders } from "astro/config";
 import tailwindcss from "@tailwindcss/vite";
 import react from "@astrojs/react";
 import sitemap from "@astrojs/sitemap";
+import icon from "astro-icon";
 import integrity from "./src/integrations/integrity.ts";
 import { DEFAULT_LOCALE, LOCALES, LOCALE_META } from "./src/domain/locales.ts";
 
@@ -26,6 +27,7 @@ export default defineConfig({
   integrations: [
     integrity({ strictTbd: process.env.OSL_STRICT_TBD === "1" }),
     react(),
+    icon(),
     sitemap({
       i18n: {
         defaultLocale: DEFAULT_LOCALE,
