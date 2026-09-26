@@ -1,0 +1,28 @@
+spdx: CC-BY-4.0
+name: Creative Commons Attribution 4.0 International
+shortName: CC BY 4.0
+family: content
+osi: false
+fsf: true
+permissions:
+  - commercial-use
+  - modification
+  - distribution
+  - private-use
+conditions:
+  - attribution
+  - indicate-changes
+limitations:
+  - liability
+  - warranty
+  - trademark-use
+  - patent-use
+textUrl: https://creativecommons.org/licenses/by/4.0/legalcode
+officialTexts:
+  en: https://creativecommons.org/licenses/by/4.0/legalcode.en
+  zh-cn: https://creativecommons.org/licenses/by/4.0/legalcode.zh-hans
+  ja: https://creativecommons.org/licenses/by/4.0/legalcode.ja
+hasText: true
+matrices:
+  - model
+updatedAt: 2026-09-26

@@ -1,0 +1,23 @@
+spdx: BSD-3-Clause
+name: BSD 3-Clause "New" or "Revised" License
+shortName: BSD-3
+family: permissive
+osi: true
+fsf: true
+permissions:
+  - commercial-use
+  - modification
+  - distribution
+  - private-use
+conditions:
+  - include-copyright
+limitations:
+  - liability
+  - warranty
+  - no-endorsement
+textUrl: https://spdx.org/licenses/BSD-3-Clause.html
+officialTexts: {}
+hasText: true
+matrices:
+  - code
+updatedAt: 2026-09-26

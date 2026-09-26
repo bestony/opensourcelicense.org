@@ -1,0 +1,26 @@
+spdx: Elastic-2.0
+name: Elastic License 2.0
+shortName: ELv2
+family: source-available
+osi: false
+fsf: false
+permissions:
+  - commercial-use
+  - modification
+  - distribution
+  - private-use
+  - patent-use
+conditions:
+  - include-copyright
+  - keep-limitations
+limitations:
+  - liability
+  - warranty
+  - no-managed-service
+  - no-license-key-circumvention
+textUrl: https://www.elastic.co/licensing/elastic-license
+officialTexts: {}
+hasText: true
+matrices:
+  - code
+updatedAt: 2026-09-26

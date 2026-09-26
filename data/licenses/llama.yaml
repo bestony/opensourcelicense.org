@@ -1,0 +1,26 @@
+spdx: LicenseRef-Llama-Community
+name: Llama Community License Agreement
+shortName: Llama
+family: model
+osi: false
+fsf: false
+permissions:
+  - commercial-use
+  - modification
+  - distribution
+conditions:
+  - include-license
+  - attribution-built-with
+  - name-prefix
+  - acceptable-use-policy
+limitations:
+  - liability
+  - warranty
+  - mau-threshold
+  - trademark-use
+textUrl: https://www.llama.com/llama3_1/license/
+officialTexts: {}
+hasText: false
+matrices:
+  - model
+updatedAt: 2026-09-26

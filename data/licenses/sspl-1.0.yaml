@@ -1,0 +1,26 @@
+spdx: SSPL-1.0
+name: Server Side Public License, v 1
+shortName: SSPL-1.0
+family: source-available
+osi: false
+fsf: unknown
+permissions:
+  - commercial-use
+  - modification
+  - distribution
+  - private-use
+  - patent-use
+conditions:
+  - include-copyright
+  - disclose-source
+  - same-license
+  - service-stack-disclose
+limitations:
+  - liability
+  - warranty
+textUrl: https://spdx.org/licenses/SSPL-1.0.html
+officialTexts: {}
+hasText: true
+matrices:
+  - code
+updatedAt: 2026-09-26

@@ -1,0 +1,27 @@
+spdx: LGPL-3.0-only
+name: GNU Lesser General Public License v3.0 only
+shortName: LGPL-3.0
+family: weak-copyleft
+osi: true
+fsf: true
+permissions:
+  - commercial-use
+  - modification
+  - distribution
+  - private-use
+  - patent-use
+conditions:
+  - include-copyright
+  - disclose-source
+  - document-changes
+  - same-license-library
+  - allow-relinking
+limitations:
+  - liability
+  - warranty
+textUrl: https://spdx.org/licenses/LGPL-3.0-only.html
+officialTexts: {}
+hasText: true
+matrices:
+  - code
+updatedAt: 2026-09-26

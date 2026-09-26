@@ -1,0 +1,26 @@
+spdx: GPL-3.0-only
+name: GNU General Public License v3.0 only
+shortName: GPL-3.0
+family: strong-copyleft
+osi: true
+fsf: true
+permissions:
+  - commercial-use
+  - modification
+  - distribution
+  - private-use
+  - patent-use
+conditions:
+  - include-copyright
+  - disclose-source
+  - document-changes
+  - same-license
+limitations:
+  - liability
+  - warranty
+textUrl: https://spdx.org/licenses/GPL-3.0-only.html
+officialTexts: {}
+hasText: true
+matrices:
+  - code
+updatedAt: 2026-09-26

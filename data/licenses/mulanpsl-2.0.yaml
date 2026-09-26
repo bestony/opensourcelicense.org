@@ -1,0 +1,26 @@
+spdx: MulanPSL-2.0
+name: Mulan Permissive Software License, Version 2
+shortName: MulanPSL-2.0
+family: permissive
+osi: true
+fsf: unknown
+permissions:
+  - commercial-use
+  - modification
+  - distribution
+  - private-use
+  - patent-use
+conditions:
+  - include-copyright
+limitations:
+  - liability
+  - warranty
+  - trademark-use
+textUrl: http://license.coscl.org.cn/MulanPSL2
+officialTexts:
+  en: http://license.coscl.org.cn/MulanPSL2
+  zh-cn: http://license.coscl.org.cn/MulanPSL2
+hasText: true
+matrices:
+  - code
+updatedAt: 2026-09-26

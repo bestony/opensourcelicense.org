@@ -1,0 +1,26 @@
+spdx: Apache-2.0
+name: Apache License 2.0
+shortName: Apache-2.0
+family: permissive
+osi: true
+fsf: true
+permissions:
+  - commercial-use
+  - modification
+  - distribution
+  - private-use
+  - patent-use
+conditions:
+  - include-copyright
+  - document-changes
+limitations:
+  - liability
+  - warranty
+  - trademark-use
+textUrl: https://spdx.org/licenses/Apache-2.0.html
+officialTexts: {}
+hasText: true
+matrices:
+  - code
+  - model
+updatedAt: 2026-09-26

@@ -1,0 +1,26 @@
+spdx: MPL-2.0
+name: Mozilla Public License 2.0
+shortName: MPL-2.0
+family: weak-copyleft
+osi: true
+fsf: true
+permissions:
+  - commercial-use
+  - modification
+  - distribution
+  - private-use
+  - patent-use
+conditions:
+  - include-copyright
+  - disclose-source
+  - same-license-file
+limitations:
+  - liability
+  - warranty
+  - trademark-use
+textUrl: https://spdx.org/licenses/MPL-2.0.html
+officialTexts: {}
+hasText: true
+matrices:
+  - code
+updatedAt: 2026-09-26

@@ -1,0 +1,24 @@
+spdx: LicenseRef-OpenRAIL-M
+name: Open RAIL-M License
+shortName: OpenRAIL-M
+family: model
+osi: false
+fsf: false
+permissions:
+  - commercial-use
+  - modification
+  - distribution
+  - private-use
+conditions:
+  - include-license
+  - use-restrictions-pass-through
+limitations:
+  - liability
+  - warranty
+  - use-restrictions
+textUrl: https://www.licenses.ai/ai-licenses
+officialTexts: {}
+hasText: false
+matrices:
+  - model
+updatedAt: 2026-09-26

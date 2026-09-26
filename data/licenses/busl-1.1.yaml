@@ -1,0 +1,24 @@
+spdx: BUSL-1.1
+name: Business Source License 1.1
+shortName: BSL-1.1
+family: source-available
+osi: false
+fsf: false
+permissions:
+  - modification
+  - private-use
+  - non-production-use
+  - converts-to-open-source
+conditions:
+  - include-copyright
+  - same-license
+limitations:
+  - liability
+  - warranty
+  - production-use-restricted
+textUrl: https://spdx.org/licenses/BUSL-1.1.html
+officialTexts: {}
+hasText: true
+matrices:
+  - code
+updatedAt: 2026-09-26
