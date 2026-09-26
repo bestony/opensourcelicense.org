@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 3720e103ed28cbd1
+summary: "Công khai mã nguồn: được dùng cho mọi mục đích trừ sản phẩm cạnh
+  tranh, và mỗi bản phát hành trở thành Apache-2.0 sau hai năm."
+analogy: Một tủ kính cửa hàng mà món hàng trở nên miễn phí cho mọi người sau hai năm.
+pros:
+  - Ngắn gọn và dễ dự đoán
+  - Mã trở thành mã nguồn mở sau hai năm
+cons:
+  - Không phải mã nguồn mở
+  - '"Sử dụng cạnh tranh" có thể khó xác định'

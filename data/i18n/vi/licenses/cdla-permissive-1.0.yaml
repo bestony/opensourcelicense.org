@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 97ea126725162df2
+summary: "Giấy phép dữ liệu dễ dãi của Linux Foundation: tự do sử dụng và chia
+  sẻ dữ liệu; kết quả như mô hình đã huấn luyện không bị hạn chế."
+analogy: Dùng bộ dữ liệu cho bất cứ việc gì; kèm theo thỏa thuận khi bạn chuyển
+  dữ liệu cho người khác.
+pros:
+  - Giải phóng rõ ràng các kết quả tính toán
+  - Được viết riêng cho dữ liệu
+cons:
+  - Ít được biết đến hơn các giấy phép CC
+  - Phiên bản 2.0 đơn giản hơn

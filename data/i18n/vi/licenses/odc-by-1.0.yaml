@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 7c50fe5f1b7f3c7d
+summary: "Dành cho cơ sở dữ liệu và bộ dữ liệu: được dùng cho mọi mục đích, kể
+  cả thương mại, nếu giữ thông báo ghi công. Tác phẩm bạn tạo ra từ dữ liệu cũng
+  cần có thông báo."
+analogy: Dùng dữ liệu bản đồ ở bất cứ đâu, chỉ cần nói rõ nguồn gốc.
+pros:
+  - Quy tắc ghi công đơn giản
+  - Phổ biến cho các kho dữ liệu huấn luyện AI lớn
+  - Bao quát quyền đối với cơ sở dữ liệu, không chỉ quyền tác giả
+cons:
+  - Không được thiết kế cho phần mềm
+  - Không cấp quyền sáng chế

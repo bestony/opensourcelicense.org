@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 7db0448b4abf3505
+summary: "Giấy phép tương đương MIT nhưng ngắn hơn: được dùng cho mọi mục đích
+  nếu giữ thông báo bản quyền và cấp phép."
+analogy: Vẫn là cuốn sách miễn phí như MIT, với ghi chú ngắn hơn trên bìa.
+pros:
+  - Giấy phép dễ dãi phổ biến ngắn nhất
+  - Mặc định của nhiều gói npm
+cons:
+  - Không cấp quyền sáng chế
+  - Cho phép fork đóng

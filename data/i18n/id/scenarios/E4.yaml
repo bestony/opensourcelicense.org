@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: cf07449a9c3b7eaf
+actor: other
+title: Di-fine-tune, diganti nama, dan dirilis sebagai bobot tertutup
+cells:
+  llama: Wajib menyertakan lisensi dan menampilkan "Built with Llama"
+  openrail-m: Wajib meneruskan batasan penggunaan
+  cc-by-4.0: Atribusi
+  cc-by-nc-4.0: Hanya non-komersial
+  odc-by-1.0: Atribusi
+  odbl-1.0: Basis data turunan tetap ODbL

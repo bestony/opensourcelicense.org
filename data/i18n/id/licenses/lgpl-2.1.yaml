@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 22649412ed3dbb5f
+summary: "Copyleft pustaka: perubahan pada pustaka tetap terbuka; program
+  tertutup boleh menautkannya jika pengguna dapat menautkan ulang dengan pustaka
+  yang dimodifikasi."
+analogy: Edisi lama dari mesin bersama yang bisa diganti.
+pros:
+  - Memungkinkan aplikasi proprietary memakai pustakanya
+  - Umum pada pustaka desktop dan multimedia
+cons:
+  - Aturan penautan ulang rumit
+  - Tidak ada pemberian hak paten secara tegas

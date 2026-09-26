@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: c04c9ce2bbb6b016
+summary: Giống AGPL, nhưng cung cấp phần mềm dưới dạng dịch vụ đòi hỏi công bố
+  mã nguồn của toàn bộ stack dịch vụ. Không được OSI phê duyệt.
+analogy: Nếu bạn mở nhà hàng có món này, bạn cũng phải công bố bản thiết kế nhà
+  bếp của mình.
+pros:
+  - Bảo vệ mạnh trước các nhà cung cấp đám mây
+cons:
+  - Không phải mã nguồn mở theo OSI
+  - Bị nhiều bản phân phối từ chối
+  - Có thể dẫn đến fork của cộng đồng

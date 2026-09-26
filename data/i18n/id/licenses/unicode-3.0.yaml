@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 72d99432db49e19d
+summary: Lisensi permisif untuk data dan perangkat lunak Unicode seperti ICU dan
+  CLDR; pertahankan pemberitahuan dan jangan gunakan nama pemegang hak cipta
+  untuk promosi.
+analogy: "Buku referensi gratis: salin, dan pertahankan baris kreditnya."
+pros:
+  - Permisif
+  - Mencakup file data dan kode
+cons:
+  - Tidak ada pemberian hak paten
+  - Kebanyakan dipakai untuk proyek Unicode

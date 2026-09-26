@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 41352f96fddd8017
+summary: Copyleft peringkat modul dengan pemberian hak paten dan undang-undang
+  New York sebagai undang-undang yang mentadbir; tidak serasi dengan GPL.
+analogy: Edisi pertama peraturan perkongsian bab Eclipse.
+pros:
+  - Pemberian hak paten
+  - Digunakan oleh Clojure dan JUnit 4
+cons:
+  - Tidak serasi dengan GPL
+  - Digantikan oleh EPL-2.0

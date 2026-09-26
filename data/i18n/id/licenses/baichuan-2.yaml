@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 24c7946bf938191c
+summary: Penggunaan komersial gratis untuk layanan di bawah satu juta pengguna
+  aktif harian, setelah registrasi; layanan yang lebih besar memerlukan lisensi
+  terpisah.
+analogy: Mesin gratis untuk armada kecil setelah Anda mendaftarkan mobilnya.
+pros:
+  - Gratis bagi sebagian besar pengguna komersial
+  - Model bahasa Tionghoa yang kuat
+cons:
+  - Bukan open source
+  - Ada registrasi dan ambang jumlah pengguna

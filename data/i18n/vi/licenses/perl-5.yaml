@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 4f54478806088c0d
+summary: "Giấy phép kép của Perl: người nhận chọn Artistic License 1.0 hoặc GPL
+  (phiên bản 1 trở lên)."
+analogy: Chọn một trong hai cuốn quy tắc, cuốn nào hợp với bạn.
+pros:
+  - Lựa chọn giữa điều khoản khá dễ dãi và copyleft
+  - Tiêu chuẩn cho các mô-đun CPAN
+cons:
+  - Artistic 1.0 mơ hồ
+  - Không cấp quyền sáng chế

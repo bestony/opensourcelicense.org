@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: f6ef6656ac79990f
+summary: "Lisensi bebas untuk paket LaTeX: file yang dimodifikasi harus diganti
+  namanya atau ditandai dengan jelas agar dokumen tetap berfungsi sama di mana
+  pun."
+analogy: Anda boleh mengubah jenis hurufnya, tetapi beri nama baru pada versi Anda.
+pros:
+  - Menjaga dokumen tetap dapat direproduksi
+  - Standar di seluruh CTAN
+cons:
+  - Aturan ganti nama tidak lazim
+  - Tidak kompatibel dengan GPL

@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 86907368675893f1
+summary: "Responsible AI License untuk model: terma permisif dengan sekatan
+  berasaskan penggunaan yang mesti diteruskan oleh setiap terbitan."
+analogy: Alat percuma dengan senarai penggunaan terlarang yang mengikuti setiap salinan.
+pros:
+  - Membenarkan penggunaan komersial
+  - Mengekalkan sekatan penggunaan berbahaya di hiliran
+cons:
+  - Bukan sumber terbuka menurut OSI
+  - Sekatan sukar dikuatkuasakan
+  - Terdapat beberapa varian

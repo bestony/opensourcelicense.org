@@ -1,0 +1,371 @@
+reviewed: false
+sourceHash: a2d7eb045dde7649
+strings:
+  site.name: opensourcelicense.org
+  site.tagline: Gabay sa pagpili ng open source license
+  site.description: Pumili, maghambing, at subukin ang mga open source license.
+    Tingnan kung ano ang ginagamit ng mga totoong proyekto, ano ang puwedeng
+    magkamali, at ano ang bagay sa proyekto mo.
+  nav.home: Home
+  nav.licenses: Mga lisensya
+  nav.scenarios: Mga senaryo
+  nav.projects: Mga proyekto
+  nav.trends: Mga trend
+  nav.compare: Paghambingin
+  nav.wizard: Gabay
+  nav.chat: AI na tagapayo
+  nav.check: Pagsusuri ng dependency
+  nav.menu: Menu
+  lang.switch: Wika
+  lang.suggest: Available ang pahinang ito sa {language}.
+  lang.suggest.go: Lumipat
+  lang.suggest.dismiss: Isara
+  footer.disclaimer: Pangkalahatang impormasyon ang ibinibigay ng site na ito,
+    hindi legal na payo. Para sa totoong alitan o kontrata, kumonsulta sa
+    abogado.
+  footer.source: Source code ng site (AGPL-3.0)
+  footer.data: Datos sa ilalim ng CC-BY-4.0
+  footer.report: Mag-ulat ng mali
+  footer.cite: Datos mula sa opensourcelicense.org, CC-BY-4.0
+  footer.hosting: Tumatakbo sa libreng plano ng Cloudflare Workers
+  footer.dns: Naka-host ang domain sa Cloudflare
+  badge.machine: Salin ng makina
+  badge.reviewed: Nasuring salin
+  badge.fallback: Hindi pa naisasalin — ipinapakita sa Ingles
+  badge.stale: maaaring luma na
+  badge.unreviewed-data: Draft — hindi pa nasusuri ng abogado
+  common.updated: Na-update ang datos noong {date}
+  common.back: Bumalik
+  common.copy: Kopyahin
+  common.copied: Nakopya na
+  common.download: I-download
+  common.close: Isara
+  common.all: Lahat
+  common.yes: Oo
+  common.no: Hindi
+  common.unknown: Hindi alam
+  common.none: Wala
+  common.more: Higit pa
+  common.loading: Naglo-load…
+  common.error: May nangyaring mali.
+  common.search: Maghanap
+  home.title: Pumili ng open source license nang may sapat na kaalaman
+  home.lead: Hindi lang "aling lisensya", kundi pati kung ano ang pinili ng mga
+    katulad na proyekto, ano ang pinakamasamang puwedeng mangyari, at ano ang
+    susunod na gagawin.
+  home.entry.chat.title: Kausapin ang AI na tagapayo
+  home.entry.chat.body: Ilarawan ang proyekto mo sa sarili mong salita. Makakuha
+    ng profile, mga follow-up na tanong, at ulat.
+  home.entry.projects.title: Tingnan ang ginagamit ng iba
+  home.entry.projects.body: Mga lisensya ng mga kilalang proyekto, at kung bakit
+    nagpalit ang ilan sa kanila.
+  home.entry.wizard.title: Magsala nang hakbang-hakbang
+  home.entry.wizard.body: Sumagot ng ilang tanong at makakuha ng maikling
+    listahang naka-ranggo at may paliwanag.
+  home.wall: Mga lisensya ng sikat na proyekto
+  home.changes: Mga kamakailang pagpapalit ng lisensya
+  home.scenarios: Ano ang puwedeng magkamali?
+  home.scenarios.body: 27 matinding senaryo × 17 hanay ng lisensya, isang pahina bawat cell.
+  family.permissive: Permissive
+  family.weak-copyleft: Mahinang copyleft
+  family.strong-copyleft: Malakas na copyleft
+  family.network-copyleft: Copyleft sa network
+  family.source-available: Nakikitang source code
+  family.model: Lisensya ng modelo
+  family.content: Nilalaman / datos
+  verdict.allow: Pinapayagan
+  verdict.conditional: May kondisyon
+  verdict.deny: Ipinagbabawal ng lisensya
+  verdict.silent: Hindi tinatalakay
+  verdict.tbd: Sinusuri pa
+  verdict.legend: "Alamat: ✓ puwede itong gawin ng kabilang panig · ◐ may
+    kondisyon · ✗ ipinagbabawal ito ng lisensya · — walang sinasabi ang lisensya
+    (pangkalahatang batas ang umiiral)"
+  actor.other: Iba ang gumagawa nito
+  actor.you: Gusto mo itong gawin
+  actor.contributor: Isang contributor ang gumagawa nito
+  actor.both: Para sa magkabilang panig
+  group.A: Kumpetisyong pangkomersyo
+  group.B: Patent at batas
+  group.C: Ebolusyon at negosyo
+  group.D: Paggamit at pagsunod
+  group.E: Mga AI model at datos
+  matrix.code: Mga lisensya ng code
+  matrix.model: Mga lisensya ng modelo at datos
+  term.commercial-use: Pangkomersyong paggamit
+  term.modification: Pagbabago
+  term.distribution: Pamamahagi
+  term.private-use: Pribadong paggamit
+  term.patent-use: Pagbibigay ng karapatan sa patent
+  term.non-production-use: Paggamit na hindi pang-production
+  term.converts-to-open-source: Magiging open source sa kalaunan
+  term.include-copyright: Panatilihin ang abiso ng copyright
+  term.include-license: Isama ang lisensya
+  term.document-changes: Markahan ang mga pagbabago
+  term.disclose-source: Ilantad ang source code
+  term.same-license: Parehong lisensya para sa derivative
+  term.same-license-file: Parehong lisensya (antas ng file)
+  term.same-license-library: Parehong lisensya (antas ng library)
+  term.allow-relinking: Payagan ang muling pag-link
+  term.network-use-disclose: Ang paggamit sa network ay pamamahagi
+  term.service-stack-disclose: Ilabas ang buong service stack
+  term.keep-limitations: Panatilihin ang mga limitasyon
+  term.attribution: Pagkilala sa may-akda
+  term.attribution-built-with: Ipakita ang "Built with"
+  term.name-prefix: Patakaran sa unlapi ng pangalan
+  term.acceptable-use-policy: Patakaran sa katanggap-tanggap na paggamit
+  term.use-restrictions-pass-through: Ipasa ang mga paghihigpit sa paggamit
+  term.indicate-changes: Isaad ang mga pagbabago
+  term.liability: Walang pananagutan
+  term.warranty: Walang warranty
+  term.trademark-use: Walang karapatan sa trademark
+  term.no-endorsement: Walang pag-endorso
+  term.production-use-restricted: Limitado ang paggamit sa production
+  term.no-managed-service: Bawal bilang managed service
+  term.no-license-key-circumvention: Bawal lampasan ang license key
+  term.mau-threshold: Hangganan ng bilang ng user
+  term.use-restrictions: Mga paghihigpit sa paggamit
+  term.non-commercial: Hindi pangkomersyo lamang
+  licenses.title: Listahan ng mga open source license
+  licenses.lead: "{count} lisensya, mula permissive hanggang source-available at
+    mga lisensya ng modelo."
+  licenses.col.license: Lisensya
+  licenses.col.family: Pamilya
+  licenses.col.osi: OSI
+  licenses.col.fsf: Malaya ayon sa FSF
+  licenses.col.projects: Mga proyekto
+  licenses.filter: Salain ayon sa pamilya
+  license.permissions: Mga pahintulot
+  license.conditions: Mga kondisyon
+  license.limitations: Mga limitasyon
+  license.summary: Sa simpleng salita
+  license.analogy: Paghahambing
+  license.pros: Mga kalamangan
+  license.cons: Mga kahinaan
+  license.scenarios: Mga matinding senaryo
+  license.radar: Radar ng pinakamasamang kaso
+  license.projects: Mga kilalang proyektong gumagamit nito
+  license.projects.count: "{count} kilalang proyekto sa aming mapa ang gumagamit ng lisensyang ito."
+  license.projects.none: Wala pang proyekto sa aming mapa na gumagamit ng lisensyang ito.
+  license.projects.since: Lumipat dito noong {date}
+  license.projects.also: "Iniaalok din sa ilalim ng: {licenses}"
+  license.projects.former: Mga proyektong umalis dito
+  license.text: Opisyal na teksto
+  license.text.official: Opisyal na teksto sa {language}
+  license.text.note: Ang opisyal na teksto lamang ang may bisa sa batas. Hindi
+    namin isinasalin ang mga teksto ng lisensya.
+  license.compare: Ihambing sa…
+  license.spdx: Identifier ng SPDX
+  radar.anti-freeride: Pumipigil sa libreng pakinabang
+  radar.anti-closed-fork: Pumipigil sa saradong fork
+  radar.patent: Proteksyon sa patent
+  radar.adoption-friction: Hadlang sa paggamit
+  radar.relicense-difficulty: Mahirap palitan ang lisensya
+  radar.misuse-control: Kontrol sa maling paggamit
+  radar.derivative-control: Kontrol sa derivative
+  radar.commercial-control: Kontrol sa komersyo
+  radar.note: Kinuwenta mula sa matrix ng senaryo. Ang mas mataas ay
+    nangangahulugang mas marami ng katangiang iyon, hindi "mas mahusay".
+  scenarios.title: Matrix ng matitinding senaryo ng lisensya
+  scenarios.lead: Ano ang mangyayari pagkatapos mong pumili ng lisensya? Bawat
+    cell ay sumasagot sa isang tanong at may sariling pahina.
+  scenarios.highlight: I-highlight ang isang lisensya
+  scenarios.expand: Buksan lahat
+  scenarios.collapse: Isara lahat
+  scenarios.silent-note: Sadyang narito ang mga hilerang "—" lamang ang laman.
+    Nakadepende ang sagot sa kontrata sa trabaho (C6), batas sa export control
+    (D5), o mga kasong kasalukuyang dinidinig (D6), hindi sa lisensya.
+  scenario.flow.you: Naglabas ka sa ilalim ng {license}
+  scenario.flow.they: Ang sitwasyon
+  scenario.flow.result: Resulta
+  scenario.clause: Kaugnay na probisyon
+  scenario.case: Totoong kaso
+  scenario.others: Parehong senaryo, ibang lisensya
+  scenario.other-scenarios: Iba pang senaryo para sa {license}
+  scenario.no-clause: Walang tiyak na probisyon. Pangkalahatang batas ang umiiral.
+  scenario.review: Katayuan ng pagsusuri
+  scenario.review.none: Hindi pa nasusuri ng abogado.
+  scenario.review.done: Nasuri ni {who} noong {date}.
+  compare.title: Paghahambing ng mga open source license
+  compare.lead: Pumili ng dalawa o tatlong lisensya para ihambing bawat probisyon
+    at bawat senaryo.
+  compare.pick: Magdagdag ng lisensya
+  compare.remove: Alisin
+  compare.terms: Mga tuntunin
+  compare.scenarios: Mga senaryo
+  compare.empty: Pumili ng hindi bababa sa dalawang lisensya.
+  wizard.title: Gabay sa pagpili ng lisensya
+  wizard.lead: Sumagot ng ilang tanong. Ira-ranggo ng rule engine ang mga lisensya
+    at ipapaliwanag ang bawat puntos.
+  wizard.next: Susunod
+  wizard.prev: Bumalik
+  wizard.finish: Tingnan ang resulta
+  wizard.restart: Magsimula muli
+  wizard.skip: Laktawan
+  wizard.step: Hakbang {n} sa {total}
+  wizard.to-chat: Ituloy sa AI na tagapayo
+  q.artifact_type: Ano ang ilalabas mo?
+  q.openness_level: Gaano kabukas ang gusto mo?
+  q.avoid: Anong mga resulta ang gusto mong iwasan?
+  q.avoid.hint: Pumili ng kahit ilan.
+  q.adoption_goal: Ano ang pinakamahalaga?
+  q.dependencies: Umaasa ka ba sa copyleft na code?
+  q.dependencies.hint: Idagdag ang mga SPDX id ng lisensya ng dependency, halimbawa GPL-3.0-only.
+  q.commercial_plan: Paano ka kikita, kung mayroon man?
+  q.jurisdiction: Saan ka nakabase?
+  opt.artifact_type.library: Library o SDK
+  opt.artifact_type.application: Application o tool
+  opt.artifact_type.saas: Backend ng serbisyo (SaaS)
+  opt.artifact_type.model: Mga weight ng modelo
+  opt.artifact_type.dataset: Dataset
+  opt.artifact_type.docs: Dokumentasyon o nilalaman
+  opt.openness_level.open: Ganap na bukas — puwedeng gawin ng kahit sino ang kahit ano
+  opt.openness_level.reciprocal: Bukas, pero dapat ibalik ang mga pagpapabuti
+  opt.openness_level.source-available: Nakikita ang source code, limitado ang pangkomersyong paggamit
+  opt.avoid.cloud-hosting: Mga cloud vendor na nagbebenta nito bilang serbisyo
+  opt.avoid.closed-fork: Mga closed-source na fork
+  opt.avoid.patent-litigation: Mga kaso sa patent
+  opt.avoid.trademark-abuse: Maling paggamit ng pangalan o brand ko
+  opt.avoid.harmful-use: Mapaminsalang paggamit
+  opt.avoid.big-company: Malalaking kompanyang gumagamit nito nang libre
+  opt.adoption_goal.enterprise: Pinakamalawak na paggamit ng mga kompanya
+  opt.adoption_goal.community: Mga ambag ng komunidad
+  opt.adoption_goal.monetize: Kumita mula rito
+  opt.commercial_plan.none: Walang plano
+  opt.commercial_plan.dual-license: Dalawahang lisensya (dual licensing)
+  opt.commercial_plan.open-core: Open core
+  opt.commercial_plan.hosted: Naka-host na serbisyo
+  opt.jurisdiction.cn: Tsina
+  opt.jurisdiction.eu: Unyong Europeo
+  opt.jurisdiction.us: Estados Unidos
+  opt.jurisdiction.other: Iba pa
+  engine.part.avoid: "Proteksyon laban sa: {avoid}"
+  engine.part.openness: "Pagtugma sa pagiging bukas: {openness}"
+  engine.part.adoption: "Layunin: {goal}"
+  engine.part.commercial: "Plano sa negosyo: {plan}"
+  engine.part.jurisdiction: "Hurisdiksyon: {jurisdiction}"
+  engine.part.dependency: "Tugma lamang kung may kondisyon: {dependency}"
+  engine.excluded.dependency: Hindi tugma sa dependency na {dependency}
+  engine.excluded.artifact: Hindi angkop sa ganitong uri ng artifact
+  advisory.needs-cla: Gumamit ng Contributor License Agreement (CLA).
+    Kakailanganin mo ito para magbenta ng komersyal na lisensya o magpalit ng
+    lisensya sa hinaharap.
+  advisory.consider-dco: Karaniwang sapat na ang Developer Certificate of Origin
+    (DCO, "Signed-off-by").
+  advisory.busl-change-date: Itakda ang Additional Use Grant, ang Change Date, at
+    ang Change License sa header ng BSL.
+  advisory.model-card: Ilagay ang lisensya sa metadata ng model o dataset card
+    (field na "license:").
+  advisory.notice-file: Magdagdag ng NOTICE file at panatilihin ito kapag muli kang namamahagi.
+  advisory.consult-lawyer: Ipasuri sa abogado ang mga dependency at tuntunin ng
+    negosyo bago ka maglabas.
+  advisory.network-source-link: Magpakita ng link na "Source code" sa mga user ng iyong network service.
+  report.title: Ang iyong ulat sa lisensya
+  report.lead: Kinuwenta ang ulat na ito sa iyong browser mula sa profile na nasa
+    link. Ibahagi ang link para maibahagi ang ulat.
+  report.profile: Profile ng proyekto
+  report.edit: I-edit sa gabay
+  report.top: Inirerekomenda
+  report.score: Iskor {score}
+  report.why: Bakit
+  report.excluded: Hindi isinama
+  report.advisories: Mga susunod na hakbang
+  report.license-file: LICENSE file
+  report.header: Header ng file
+  report.badge: Badge sa README
+  report.share: Link para ibahagi
+  report.share.copy: Kopyahin ang link
+  report.similar: Mga katulad na proyekto
+  report.no-text: Walang tekstong nababasa ng makina. Kunin ito sa opisyal na pahina.
+  report.invalid: Sira ang link ng ulat na ito o galing sa lumang bersyon.
+  report.empty: Wala pang profile. Magsimula sa gabay o sa AI na tagapayo.
+  chat.title: AI na tagapayo sa lisensya
+  chat.lead: Ilarawan ang proyekto mo. Magtatanong ng follow-up ang tagapayo,
+    pipili ng lisensya ang rule engine, at ipapaliwanag ito ng tagapayo.
+  chat.placeholder: "Halimbawa: Gumawa ako ng vector database at nag-aalala akong
+    ibebenta ito muli ng mga cloud vendor."
+  chat.send: Ipadala
+  chat.stop: Ihinto
+  chat.examples: Subukan ang isang halimbawa
+  chat.example.1: Gumawa ako ng vector database at nag-aalala akong ibebenta ito
+    muli ng mga cloud vendor.
+  chat.example.2: Isang maliit na React component library. Gusto kong gamitin ito
+    ng mga kompanya.
+  chat.example.3: Nag-fine-tune kami ng 7B na modelo at gusto naming harangan ang
+    mapaminsalang paggamit.
+  chat.profile: Profile ng proyekto
+  chat.profile.hint: I-click ang isang value para palitan ito.
+  chat.candidates: Mga kandidato
+  chat.run: Kunin ang rekomendasyon
+  chat.limit: Naabot mo na ang limitasyon ngayong araw. Subukan muli bukas o
+    gamitin ang gabay.
+  chat.error: Hindi available ang tagapayo sa ngayon. Gumagana pa rin ang gabay.
+  chat.verify: Pakikumpirma na tao ka.
+  chat.disclaimer: Puwedeng magkamali ang tagapayo. Galing sa rule engine ang mga
+    rekomendasyon, at hindi ito legal na payo.
+  chat.report: Buksan ang buong ulat
+  projects.title: Mapa ng lisensya ng mga open source na proyekto
+  projects.lead: Mga lisensya ng mga kilalang proyekto at ang kuwento sa likod ng
+    bawat pagpapalit.
+  projects.filter.domain: Larangan
+  projects.filter.family: Pamilya ng lisensya
+  projects.filter.owner: May-ari
+  projects.filter.changed: Nagpalit ng lisensya
+  projects.count: "{count} proyekto"
+  projects.empty: Walang proyektong tumutugma sa mga filter na ito.
+  owner.company: Kompanya
+  owner.foundation: Foundation
+  owner.individual: Indibidwal
+  owner.community: Komunidad
+  project.current: Kasalukuyang lisensya
+  project.timeline: Kasaysayan ng lisensya
+  project.reason: Dahilan
+  project.announcement: Anunsyo
+  project.forks: Mga sumunod na fork
+  project.fork-of: Fork ng {name}
+  project.repo: Repository
+  project.similar: Mga katulad na proyekto
+  project.review: Natagpuan ng sync bot ang entry na ito at naghihintay ng pagsusuri ng tao.
+  project.initial: Unang lisensya
+  domain.database: Database
+  domain.frontend: Framework sa frontend
+  domain.devops: DevOps
+  domain.ai-model: AI model
+  domain.language: Wika at runtime
+  domain.os: Operating system
+  domain.web: Web server at backend
+  domain.tooling: Mga tool para sa developer
+  domain.data: Datos at analytics
+  domain.observability: Observability
+  domain.messaging: Messaging at streaming
+  domain.cms: CMS at mga app
+  trends.title: Mga trend sa open source license
+  trends.lead: Pinagsama-sama mula sa mapa ng proyekto habang nagbu-build.
+  trends.family-share: Mga pamilya ng lisensya ayon sa larangan
+  trends.changes: Mga pagpapalit ng lisensya bawat taon
+  trends.to-source-available: Mga proyektong lumipat mula open source patungong source-available
+  search.lead: Maghanap ng mga lisensya, senaryo, at proyekto sa wikang ito.
+  search.noscript: Kailangan ng JavaScript para sa paghahanap.
+  check.title: Pagsusuri ng compatibility ng lisensya ng dependency
+  check.lead: I-paste ang package.json, go.mod, Gemfile.lock, Cargo.toml, o
+    requirements.txt. Sa iyong browser nangyayari ang pag-parse.
+  check.project-license: Lisensya ng iyong proyekto
+  check.input: Manifest
+  check.run: Suriin
+  check.lookup: Hanapin online ang mga hindi kilalang lisensya (deps.dev)
+  check.col.package: Package
+  check.col.license: Lisensya
+  check.col.status: Katayuan
+  check.status.compatible: Tugma
+  check.status.conditional: May kondisyon
+  check.status.incompatible: Salungat
+  check.status.unknown: Hindi alam
+  check.summary: "{ok} tugma, {warn} may kondisyon, {bad} salungat, {unknown} hindi alam"
+  check.format: "Natukoy na format: {format}"
+  check.no-deps: Walang nakitang dependency.
+  check.license-hint: Idagdag ang lisensya sa manifest bilang mga linyang
+    "name@version LICENSE-ID", o i-enable ang online na paghahanap.
+  notfound.title: Hindi nahanap ang pahina
+  notfound.body: Hindi umiiral ang pahinang ito. Subukan ang listahan ng mga lisensya.
+  domain.education: Edukasyon
+  domain.design: Mga font at disenyo

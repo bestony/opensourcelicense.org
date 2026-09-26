@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 5941dce0a6108d60
+summary: Mahinang copyleft sa antas ng module na may pagbibigay ng karapatan sa
+  patent; puwedeng pangalanan ang GPL bilang pangalawang lisensya para sa
+  compatibility.
+analogy: Ibahagi ang mga pagbabago mo sa hiniram na kabanata; sa iyo ang
+  natitirang bahagi ng aklat.
+pros:
+  - Copyleft na palakaibigan sa negosyo
+  - Pagbibigay ng karapatan sa patent
+cons:
+  - Tugma sa GPL lamang kung may idineklarang pangalawang lisensya
+  - Puwedeng malabo ang hangganan ng module

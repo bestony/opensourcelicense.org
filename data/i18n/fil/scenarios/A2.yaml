@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 57d3e35a6ad686d1
+actor: other
+title: May nag-fork nito at namamahagi ng closed-source na kakumpitensya
+cells:
+  apache-2.0: Dapat markahan ang mga binagong file
+  mpl-2.0: Nananatiling bukas ang mga binagong MPL file
+  lgpl-3.0: Nananatiling bukas ang mga pagbabago sa library
+  busl-1.1: Nananatili sa BSL ang mga derivative
+  elv2: Dapat panatilihin ang mga limitasyon

@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: c77fe673047b3249
+actor: other
+title: Chưng cất (distillation), hoặc huấn luyện mô hình khác bằng đầu ra của nó
+cells:
+  llama: Tên phải chứa "Llama"
+  openrail-m: Sản phẩm phái sinh kế thừa các hạn chế
+  cc-by-4.0: Ghi công
+  cc-by-nc-4.0: Chỉ phi thương mại
+  odc-by-1.0: Ghi công
+  odbl-1.0: Ghi công

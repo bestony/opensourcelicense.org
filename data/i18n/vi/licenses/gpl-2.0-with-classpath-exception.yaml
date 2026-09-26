@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 841fb8980cea558f
+summary: GPL-2.0 cho chính thư viện, cộng thêm ngoại lệ cho phép các chương
+  trình độc lập liên kết tới nó theo bất kỳ giấy phép nào.
+analogy: Một động cơ dùng chung theo quy tắc chia sẻ công thức, nhưng chiếc xe
+  của bạn vẫn là của bạn.
+pros:
+  - Ứng dụng liên kết tới nó có thể đóng mã
+  - Được OpenJDK sử dụng
+cons:
+  - Thay đổi trong thư viện vẫn theo GPL
+  - Không tương thích với các dự án GPL-3.0-only

@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 5941dce0a6108d60
+summary: Copyleft lemah tingkat modul dengan pemberian hak paten; dapat menyebut
+  GPL sebagai lisensi sekunder demi kompatibilitas.
+analogy: Bagikan perubahan Anda pada bab yang dipinjam; sisa bukunya milik Anda.
+pros:
+  - Copyleft yang ramah bisnis
+  - Pemberian hak paten
+cons:
+  - Kompatibel dengan GPL hanya jika lisensi sekunder dinyatakan
+  - Batas modul bisa tidak jelas

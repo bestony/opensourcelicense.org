@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 362187e701e25e6a
+summary: Copyleft cấp tệp dựa trên MPL, có cấp quyền sáng chế; không tương thích
+  với GPL.
+analogy: Chia sẻ thay đổi trên tệp đã mượn; phần còn lại có thể giữ đóng nếu bạn muốn.
+pros:
+  - Phạm vi cấp tệp
+  - Cấp quyền sáng chế
+cons:
+  - Không tương thích với GPL (vấn đề ZFS-on-Linux)
+  - Ít dự án mới áp dụng

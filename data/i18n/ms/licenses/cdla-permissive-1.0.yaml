@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 97ea126725162df2
+summary: "Lesen data permisif daripada Linux Foundation: gunakan dan kongsi data
+  dengan bebas; hasil seperti model terlatih tidak disekat."
+analogy: Gunakan set data untuk apa sahaja; sertakan perjanjian apabila anda
+  menyerahkan data kepada orang lain.
+pros:
+  - Membebaskan hasil pengiraan secara nyata
+  - Ditulis khusus untuk data
+cons:
+  - Kurang dikenali berbanding lesen CC
+  - Versi 2.0 lebih ringkas

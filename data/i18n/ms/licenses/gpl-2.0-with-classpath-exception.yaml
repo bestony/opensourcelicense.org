@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 841fb8980cea558f
+summary: GPL-2.0 untuk pustaka itu sendiri, dengan pengecualian yang membenarkan
+  program bebas memaut kepadanya di bawah sebarang lesen.
+analogy: Enjin kongsi di bawah peraturan kongsi resipi, tetapi kereta anda tetap
+  milik anda.
+pros:
+  - Aplikasi yang memautnya boleh kekal tertutup
+  - Digunakan oleh OpenJDK
+cons:
+  - Perubahan pada pustaka kekal GPL
+  - Tidak serasi dengan projek GPL-3.0-only

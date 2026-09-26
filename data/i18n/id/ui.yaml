@@ -1,0 +1,362 @@
+reviewed: false
+sourceHash: a2d7eb045dde7649
+strings:
+  site.name: opensourcelicense.org
+  site.tagline: Alat bantu memilih lisensi open source
+  site.description: Pilih, bandingkan, dan uji lisensi open source (sumber
+    terbuka). Lihat lisensi yang dipakai proyek nyata, risiko yang mungkin
+    muncul, dan lisensi yang cocok untuk proyek Anda.
+  nav.home: Beranda
+  nav.licenses: Lisensi
+  nav.scenarios: Skenario
+  nav.projects: Proyek
+  nav.trends: Tren
+  nav.compare: Bandingkan
+  nav.wizard: Panduan
+  nav.chat: Penasihat AI
+  nav.check: Cek dependensi
+  nav.menu: Menu
+  lang.switch: Bahasa
+  lang.suggest: Halaman ini tersedia dalam {language}.
+  lang.suggest.go: Ganti
+  lang.suggest.dismiss: Tutup
+  footer.disclaimer: Situs ini memberikan informasi umum, bukan nasihat hukum.
+    Untuk sengketa atau kontrak yang nyata, konsultasikan dengan pengacara.
+  footer.source: Kode sumber (AGPL-3.0)
+  footer.data: Data berlisensi CC-BY-4.0
+  footer.report: Laporkan kesalahan
+  footer.cite: Data dari opensourcelicense.org, CC-BY-4.0
+  footer.hosting: Berjalan di paket gratis Cloudflare Workers
+  footer.dns: Domain di-hosting di Cloudflare
+  badge.machine: Terjemahan mesin
+  badge.reviewed: Terjemahan telah ditinjau
+  badge.fallback: Belum diterjemahkan — ditampilkan dalam bahasa Inggris
+  badge.stale: mungkin sudah usang
+  badge.unreviewed-data: Draf — belum ditinjau oleh pengacara
+  common.updated: Data diperbarui {date}
+  common.back: Kembali
+  common.copy: Salin
+  common.copied: Tersalin
+  common.download: Unduh
+  common.close: Tutup
+  common.all: Semua
+  common.yes: Ya
+  common.no: Tidak
+  common.unknown: Tidak diketahui
+  common.none: Tidak ada
+  common.more: Lainnya
+  common.loading: Memuat…
+  common.error: Terjadi kesalahan.
+  common.search: Cari
+  home.title: Memilih lisensi open source dengan pertimbangan matang
+  home.lead: Bukan hanya "lisensi mana", tetapi juga lisensi yang dipilih proyek
+    serupa, skenario terburuknya, dan langkah selanjutnya.
+  home.entry.chat.title: Tanya penasihat AI
+  home.entry.chat.body: Jelaskan proyek Anda dengan kata-kata sendiri. Dapatkan
+    profil, pertanyaan lanjutan, dan laporan.
+  home.entry.projects.title: Lihat lisensi proyek lain
+  home.entry.projects.body: Lisensi proyek-proyek terkenal, dan alasan sebagian dari mereka menggantinya.
+  home.entry.wizard.title: Saring langkah demi langkah
+  home.entry.wizard.body: Jawab beberapa pertanyaan dan dapatkan daftar pendek
+    yang diurutkan beserta penjelasannya.
+  home.wall: Lisensi proyek populer
+  home.changes: Perubahan lisensi terbaru
+  home.scenarios: Apa yang bisa salah?
+  home.scenarios.body: 27 skenario ekstrem × 17 kolom lisensi, satu halaman untuk setiap sel.
+  family.permissive: Permisif
+  family.weak-copyleft: Copyleft lemah
+  family.strong-copyleft: Copyleft kuat
+  family.network-copyleft: Copyleft jaringan
+  family.source-available: Source-available
+  family.model: Lisensi model
+  family.content: Konten / data
+  verdict.allow: Diizinkan
+  verdict.conditional: Dengan syarat
+  verdict.deny: Dilarang oleh lisensi
+  verdict.silent: Tidak diatur
+  verdict.tbd: Sedang ditinjau
+  verdict.legend: "Keterangan: ✓ pihak lain boleh melakukannya · ◐ dengan syarat ·
+    ✗ lisensi melarangnya · — lisensi tidak mengaturnya (berlaku hukum umum)"
+  actor.other: Orang lain melakukannya
+  actor.you: Anda ingin melakukannya
+  actor.contributor: Kontributor melakukannya
+  actor.both: Berlaku untuk kedua pihak
+  group.A: Persaingan komersial
+  group.B: Paten dan hukum
+  group.C: Perkembangan dan bisnis
+  group.D: Penggunaan dan kepatuhan
+  group.E: Model AI dan data
+  matrix.code: Lisensi kode
+  matrix.model: Lisensi model dan data
+  term.commercial-use: Penggunaan komersial
+  term.modification: Modifikasi
+  term.distribution: Distribusi
+  term.private-use: Penggunaan pribadi
+  term.patent-use: Pemberian hak paten
+  term.non-production-use: Penggunaan non-produksi
+  term.converts-to-open-source: Kelak berubah menjadi open source
+  term.include-copyright: Pertahankan pemberitahuan hak cipta
+  term.include-license: Sertakan lisensi
+  term.document-changes: Tandai perubahan
+  term.disclose-source: Buka kode sumber
+  term.same-license: Lisensi sama untuk turunan
+  term.same-license-file: Lisensi sama (tingkat file)
+  term.same-license-library: Lisensi sama (tingkat pustaka)
+  term.allow-relinking: Izinkan penautan ulang
+  term.network-use-disclose: Penggunaan lewat jaringan dianggap distribusi
+  term.service-stack-disclose: Buka seluruh stack layanan
+  term.keep-limitations: Pertahankan batasan
+  term.attribution: Atribusi
+  term.attribution-built-with: Tampilkan "Built with"
+  term.name-prefix: Aturan awalan nama
+  term.acceptable-use-policy: Kebijakan penggunaan yang dapat diterima
+  term.use-restrictions-pass-through: Teruskan batasan penggunaan
+  term.indicate-changes: Cantumkan perubahan
+  term.liability: Tanpa tanggung jawab hukum
+  term.warranty: Tanpa jaminan
+  term.trademark-use: Tanpa hak merek dagang
+  term.no-endorsement: Tanpa dukungan resmi
+  term.production-use-restricted: Penggunaan produksi dibatasi
+  term.no-managed-service: Tidak untuk layanan terkelola
+  term.no-license-key-circumvention: Dilarang mengakali kunci lisensi
+  term.mau-threshold: Ambang jumlah pengguna
+  term.use-restrictions: Batasan penggunaan
+  term.non-commercial: Hanya non-komersial
+  licenses.title: Daftar lisensi open source
+  licenses.lead: "{count} lisensi, dari lisensi permisif hingga source-available
+    dan lisensi model."
+  licenses.col.license: Lisensi
+  licenses.col.family: Kelompok
+  licenses.col.osi: OSI
+  licenses.col.fsf: Bebas menurut FSF
+  licenses.col.projects: Proyek
+  licenses.filter: Saring menurut kelompok
+  license.permissions: Izin
+  license.conditions: Syarat
+  license.limitations: Batasan
+  license.summary: Penjelasan sederhana
+  license.analogy: Analogi
+  license.pros: Kelebihan
+  license.cons: Kekurangan
+  license.scenarios: Skenario ekstrem
+  license.radar: Radar skenario terburuk
+  license.projects: Proyek terkenal yang memakainya
+  license.projects.count: "{count} proyek terkenal di peta kami memakai lisensi ini."
+  license.projects.none: Belum ada proyek di peta kami yang memakai lisensi ini.
+  license.projects.since: Beralih ke lisensi ini pada {date}
+  license.projects.also: "Juga tersedia dengan lisensi: {licenses}"
+  license.projects.former: Proyek yang meninggalkan lisensi ini
+  license.text: Teks resmi
+  license.text.official: Teks resmi dalam {language}
+  license.text.note: Hanya teks resmi yang mengikat secara hukum. Kami tidak
+    menerjemahkan teks lisensi.
+  license.compare: Bandingkan dengan…
+  license.spdx: Pengenal SPDX
+  radar.anti-freeride: Mencegah pemanfaatan gratis
+  radar.anti-closed-fork: Mencegah fork tertutup
+  radar.patent: Perlindungan paten
+  radar.adoption-friction: Hambatan adopsi
+  radar.relicense-difficulty: Sulit diganti lisensinya
+  radar.misuse-control: Kendali atas penyalahgunaan
+  radar.derivative-control: Kendali atas turunan
+  radar.commercial-control: Kendali komersial
+  radar.note: Dihitung dari matriks skenario. Nilai lebih tinggi berarti sifat
+    tersebut lebih kuat, bukan "lebih baik".
+  scenarios.title: Matriks skenario ekstrem lisensi
+  scenarios.lead: Apa yang terjadi setelah Anda memilih lisensi? Setiap sel
+    menjawab satu pertanyaan dan punya halamannya sendiri.
+  scenarios.highlight: Sorot sebuah lisensi
+  scenarios.expand: Buka semua
+  scenarios.collapse: Tutup semua
+  scenarios.silent-note: Baris yang hanya berisi "—" sengaja ditampilkan.
+    Jawabannya bergantung pada kontrak kerja (C6), hukum kontrol ekspor (D5),
+    atau gugatan yang sedang berjalan (D6), bukan pada lisensi.
+  scenario.flow.you: Anda merilis dengan {license}
+  scenario.flow.they: Situasinya
+  scenario.flow.result: Hasil
+  scenario.clause: Klausul terkait
+  scenario.case: Kasus nyata
+  scenario.others: Skenario yang sama, lisensi lain
+  scenario.other-scenarios: Skenario lain untuk {license}
+  scenario.no-clause: Tidak ada klausul khusus. Berlaku hukum umum.
+  scenario.review: Status tinjauan
+  scenario.review.none: Belum ditinjau oleh pengacara.
+  scenario.review.done: Ditinjau oleh {who} pada {date}.
+  compare.title: Perbandingan lisensi open source
+  compare.lead: Pilih dua atau tiga lisensi untuk dibandingkan per klausul dan per skenario.
+  compare.pick: Tambah lisensi
+  compare.remove: Hapus
+  compare.terms: Ketentuan
+  compare.scenarios: Skenario
+  compare.empty: Pilih minimal dua lisensi.
+  wizard.title: Panduan memilih lisensi
+  wizard.lead: Jawab beberapa pertanyaan. Mesin aturan akan mengurutkan lisensi
+    dan menjelaskan setiap poinnya.
+  wizard.next: Berikutnya
+  wizard.prev: Kembali
+  wizard.finish: Lihat hasil
+  wizard.restart: Mulai lagi
+  wizard.skip: Lewati
+  wizard.step: Langkah {n} dari {total}
+  wizard.to-chat: Lanjutkan di penasihat AI
+  q.artifact_type: Apa yang Anda rilis?
+  q.openness_level: Seberapa terbuka yang Anda inginkan?
+  q.avoid: Hasil apa yang ingin Anda hindari?
+  q.avoid.hint: Pilih sebanyak yang Anda mau.
+  q.adoption_goal: Apa yang paling penting?
+  q.dependencies: Apakah Anda bergantung pada kode copyleft?
+  q.dependencies.hint: Tambahkan pengenal SPDX lisensi dependensi, misalnya GPL-3.0-only.
+  q.commercial_plan: Bagaimana Anda akan menghasilkan uang, jika ada?
+  q.jurisdiction: Di mana Anda berada?
+  opt.artifact_type.library: Pustaka atau SDK
+  opt.artifact_type.application: Aplikasi atau alat
+  opt.artifact_type.saas: Backend layanan (SaaS)
+  opt.artifact_type.model: Bobot model
+  opt.artifact_type.dataset: Dataset
+  opt.artifact_type.docs: Dokumentasi atau konten
+  opt.openness_level.open: Sepenuhnya terbuka — siapa pun boleh melakukan apa pun
+  opt.openness_level.reciprocal: Terbuka, tetapi perbaikan harus dibagikan kembali
+  opt.openness_level.source-available: Kode sumber terlihat, penggunaan komersial dibatasi
+  opt.avoid.cloud-hosting: Penyedia cloud menjualnya sebagai layanan
+  opt.avoid.closed-fork: Fork sumber tertutup
+  opt.avoid.patent-litigation: Gugatan paten
+  opt.avoid.trademark-abuse: Penyalahgunaan nama atau merek saya
+  opt.avoid.harmful-use: Penggunaan yang merugikan
+  opt.avoid.big-company: Perusahaan besar memakainya secara gratis
+  opt.adoption_goal.enterprise: Adopsi maksimal oleh perusahaan
+  opt.adoption_goal.community: Kontribusi komunitas
+  opt.adoption_goal.monetize: Menghasilkan uang darinya
+  opt.commercial_plan.none: Tidak ada rencana
+  opt.commercial_plan.dual-license: Lisensi ganda
+  opt.commercial_plan.open-core: Open core
+  opt.commercial_plan.hosted: Layanan yang di-hosting
+  opt.jurisdiction.cn: Tiongkok
+  opt.jurisdiction.eu: Uni Eropa
+  opt.jurisdiction.us: Amerika Serikat
+  opt.jurisdiction.other: Lainnya
+  engine.part.avoid: "Perlindungan terhadap: {avoid}"
+  engine.part.openness: "Kesesuaian keterbukaan: {openness}"
+  engine.part.adoption: "Tujuan: {goal}"
+  engine.part.commercial: "Rencana bisnis: {plan}"
+  engine.part.jurisdiction: "Yurisdiksi: {jurisdiction}"
+  engine.part.dependency: "Hanya kompatibel dengan syarat: {dependency}"
+  engine.excluded.dependency: Tidak kompatibel dengan dependensi {dependency}
+  engine.excluded.artifact: Tidak cocok untuk jenis artefak ini
+  advisory.needs-cla: Gunakan Contributor License Agreement (CLA). Anda akan
+    memerlukannya untuk menjual lisensi komersial atau mengganti lisensi di
+    kemudian hari.
+  advisory.consider-dco: Developer Certificate of Origin (DCO, "Signed-off-by") biasanya sudah cukup.
+  advisory.busl-change-date: Tetapkan Additional Use Grant, Change Date, dan Change License di header BSL.
+  advisory.model-card: Cantumkan lisensi di metadata kartu model atau dataset (kolom "license:").
+  advisory.notice-file: Tambahkan file NOTICE dan pertahankan saat Anda mendistribusikan ulang.
+  advisory.consult-lawyer: Minta pengacara memeriksa dependensi dan ketentuan
+    bisnis sebelum Anda merilis.
+  advisory.network-source-link: Tampilkan tautan "Kode sumber" kepada pengguna layanan jaringan Anda.
+  report.title: Laporan lisensi Anda
+  report.lead: Laporan ini dihitung di browser Anda dari profil yang ada di
+    tautan. Bagikan tautannya untuk membagikan laporan.
+  report.profile: Profil proyek
+  report.edit: Ubah di panduan
+  report.top: Direkomendasikan
+  report.score: Skor {score}
+  report.why: Alasan
+  report.excluded: Dikecualikan
+  report.advisories: Langkah selanjutnya
+  report.license-file: File LICENSE
+  report.header: Header file
+  report.badge: Lencana README
+  report.share: Tautan berbagi
+  report.share.copy: Salin tautan
+  report.similar: Proyek serupa
+  report.no-text: Tidak ada teks yang dapat dibaca mesin. Ambil dari halaman resmi.
+  report.invalid: Tautan laporan ini rusak atau berasal dari versi lama.
+  report.empty: Belum ada profil. Mulai dengan panduan atau penasihat AI.
+  chat.title: Penasihat lisensi AI
+  chat.lead: Jelaskan proyek Anda. Penasihat akan mengajukan pertanyaan lanjutan,
+    mesin aturan memilih lisensi, lalu penasihat menjelaskannya.
+  chat.placeholder: "Misalnya: Saya membuat basis data vektor dan khawatir
+    penyedia cloud akan menjualnya kembali."
+  chat.send: Kirim
+  chat.stop: Berhenti
+  chat.examples: Coba contoh
+  chat.example.1: Saya membuat basis data vektor dan khawatir penyedia cloud akan
+    menjualnya kembali.
+  chat.example.2: Pustaka komponen React kecil. Saya ingin perusahaan memakainya.
+  chat.example.3: Kami melakukan fine-tuning model 7B dan ingin mencegah
+    penggunaan yang merugikan.
+  chat.profile: Profil proyek
+  chat.profile.hint: Klik sebuah nilai untuk mengubahnya.
+  chat.candidates: Kandidat
+  chat.run: Dapatkan rekomendasi
+  chat.limit: Anda telah mencapai batas hari ini. Silakan coba lagi besok atau
+    gunakan panduan.
+  chat.error: Penasihat sedang tidak tersedia. Panduan tetap dapat digunakan.
+  chat.verify: Harap konfirmasi bahwa Anda manusia.
+  chat.disclaimer: Penasihat bisa keliru. Rekomendasi berasal dari mesin aturan,
+    dan ini bukan nasihat hukum.
+  chat.report: Buka laporan lengkap
+  projects.title: Peta lisensi proyek open source
+  projects.lead: Lisensi proyek-proyek terkenal dan cerita di balik setiap perubahannya.
+  projects.filter.domain: Bidang
+  projects.filter.family: Kelompok lisensi
+  projects.filter.owner: Pemilik
+  projects.filter.changed: Pernah ganti lisensi
+  projects.count: "{count} proyek"
+  projects.empty: Tidak ada proyek yang cocok dengan filter ini.
+  owner.company: Perusahaan
+  owner.foundation: Yayasan
+  owner.individual: Perorangan
+  owner.community: Komunitas
+  project.current: Lisensi saat ini
+  project.timeline: Riwayat lisensi
+  project.reason: Alasan
+  project.announcement: Pengumuman
+  project.forks: Fork yang menyusul
+  project.fork-of: Fork dari {name}
+  project.repo: Repositori
+  project.similar: Proyek serupa
+  project.review: Entri ini ditemukan oleh bot sinkronisasi dan menunggu tinjauan manusia.
+  project.initial: Lisensi awal
+  domain.database: Basis data
+  domain.frontend: Framework frontend
+  domain.devops: DevOps
+  domain.ai-model: Model AI
+  domain.language: Bahasa dan runtime
+  domain.os: Sistem operasi
+  domain.web: Server web dan backend
+  domain.tooling: Alat pengembang
+  domain.data: Data dan analitik
+  domain.observability: Observabilitas
+  domain.messaging: Pesan dan streaming
+  domain.cms: CMS dan aplikasi
+  trends.title: Tren lisensi open source
+  trends.lead: Diagregasi dari peta proyek saat build.
+  trends.family-share: Kelompok lisensi per bidang
+  trends.changes: Perubahan lisensi per tahun
+  trends.to-source-available: Proyek yang beralih dari open source ke source-available
+  search.lead: Cari lisensi, skenario, dan proyek dalam bahasa ini.
+  search.noscript: Pencarian memerlukan JavaScript.
+  check.title: Cek kompatibilitas lisensi dependensi
+  check.lead: Tempel package.json, go.mod, Gemfile.lock, Cargo.toml, atau
+    requirements.txt. Parsing dilakukan di browser Anda.
+  check.project-license: Lisensi proyek Anda
+  check.input: Manifes
+  check.run: Periksa
+  check.lookup: Cari lisensi yang tidak dikenal secara online (deps.dev)
+  check.col.package: Paket
+  check.col.license: Lisensi
+  check.col.status: Status
+  check.status.compatible: Kompatibel
+  check.status.conditional: Dengan syarat
+  check.status.incompatible: Konflik
+  check.status.unknown: Tidak diketahui
+  check.summary: "{ok} kompatibel, {warn} dengan syarat, {bad} konflik, {unknown}
+    tidak diketahui"
+  check.format: "Format terdeteksi: {format}"
+  check.no-deps: Tidak ada dependensi yang ditemukan.
+  check.license-hint: Tambahkan lisensi di manifes sebagai baris "name@version
+    LICENSE-ID", atau aktifkan pencarian online.
+  notfound.title: Halaman tidak ditemukan
+  notfound.body: Halaman ini tidak ada. Coba lihat daftar lisensi.
+  domain.education: Pendidikan
+  domain.design: Font dan desain

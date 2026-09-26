@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: c826929f8a1baf2e
+summary: "Mga tuntunin ng Google para sa modelo: pinapayagan ang pangkomersyong
+  paggamit, na may patakaran sa bawal na paggamit na ipinapasa sa bawat
+  derivative, kasama ang mga distilled na modelo."
+analogy: Isang libreng makina na may rulebook na dapat dala ng bawat muling
+  binuong makina.
+pros:
+  - Pangkomersyong paggamit nang walang hangganan sa bilang ng user
+  - Malinaw na patakaran sa derivative
+cons:
+  - Hindi open source ayon sa OSI
+  - Puwedeng i-update ng Google ang patakaran sa paggamit

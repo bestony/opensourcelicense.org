@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 2388a1183d57050c
+summary: "Lesen fon bebas: guna, benam dan ubah suai fon dengan bebas, tetapi
+  fon yang diubah suai mesti menggugurkan nama simpanan, dan fon tidak boleh
+  dijual secara bersendirian."
+analogy: Gunakan muka taip di mana-mana, tetapi jangan jual fail fon itu sahaja.
+pros:
+  - Membenarkan pembenaman dalam dokumen dan aplikasi
+  - Standard untuk fon terbuka
+cons:
+  - Nama fon simpanan merumitkan fork
+  - Hanya untuk fon

@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cec538ff11fd0ee8
+summary: "Giấy phép dễ dãi: mã nguồn đã sửa phải được đánh dấu là đã sửa, không
+  được trình bày sai về nguồn gốc, và thông báo phải được giữ trong bản sao mã
+  nguồn."
+analogy: Cứ mượn công thức, nhưng nếu bạn sửa nó, đừng nói đó là bản gốc.
+pros:
+  - Dễ dãi và ngắn gọn
+  - Phổ biến cho game và thư viện native
+cons:
+  - Không cấp quyền sáng chế
+  - Cho phép fork đóng

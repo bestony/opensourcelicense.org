@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 3ab9492f75e7adb0
+summary: "Copyleft kuat: jika Anda mendistribusikan perangkat lunak atau karya
+  turunannya, Anda wajib merilis kode sumber lengkapnya dengan GPL-3.0."
+analogy: "Resep yang berbunyi: siapa pun yang menyajikan hidangan berdasarkan
+  resep ini juga wajib membagikan resep lengkapnya."
+pros:
+  - Menjaga semua turunan yang didistribusikan tetap terbuka
+  - Pemberian hak paten dan anti-tivoisasi
+  - Tradisi komunitas yang kuat
+cons:
+  - Banyak perusahaan menghindarinya
+  - Tidak mencakup SaaS (tidak ada distribusi)
+  - Tidak kompatibel dengan GPL-2.0-only

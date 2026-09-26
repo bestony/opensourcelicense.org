@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: ce104e1cd96e85b1
+summary: "Kod sumber tersedia: penggunaan pengeluaran dihadkan oleh Additional
+  Use Grant, dan setiap versi bertukar kepada lesen terbuka selepas Change Date
+  (maksimum 4 tahun)."
+analogy: "Tingkap kedai: anda boleh melihat dan mencuba, dan selepas beberapa
+  tahun barangan itu menjadi percuma untuk semua."
+pros:
+  - Membolehkan anda mengawal penggunaan komersial
+  - Kod menjadi sumber terbuka kemudian
+cons:
+  - Bukan sumber terbuka
+  - Terma pemberian berbeza bagi setiap projek
+  - Boleh mencetuskan fork

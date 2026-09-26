@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 1b47253adc7fb00d
+summary: "Công khai mã nguồn: tự do sử dụng và sửa đổi, nhưng bạn không được
+  cung cấp nó dưới dạng dịch vụ được quản lý hoặc vượt qua khóa giấy phép."
+analogy: Cứ nấu bằng nó ở nhà hay trong nhà hàng của bạn, nhưng đừng mở cửa hàng
+  bán đúng món này.
+pros:
+  - Ngắn gọn và rõ ràng
+  - Chỉ nhắm vào đối thủ cung cấp dịch vụ được quản lý
+cons:
+  - Không phải mã nguồn mở
+  - Hạn chế fork và một số đối tác

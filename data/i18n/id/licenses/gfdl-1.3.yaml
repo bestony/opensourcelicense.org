@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: c732ed2e04240901
+summary: "Copyleft untuk manual: salinan dan versi modifikasi harus tetap
+  berlisensi GFDL, dengan riwayat dan bagian tak berubah (invariant sections)
+  dipertahankan."
+analogy: Aturan berbagi resep untuk buku panduan si buku masak.
+pros:
+  - Menjaga dokumentasi tetap bebas
+  - Dipakai oleh manual GNU
+cons:
+  - Bagian tak berubah menuai kontroversi
+  - Sulit digabung dengan konten CC

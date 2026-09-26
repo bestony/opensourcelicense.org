@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 7613875d13341275
+summary: Gratis untuk riset, penggunaan non-komersial, dan penggunaan komersial
+  dengan pendapatan tahunan di bawah USD 1 juta; perusahaan yang lebih besar
+  memerlukan lisensi enterprise.
+analogy: Masuk gratis untuk usaha kecil; usaha besar membeli tiket.
+pros:
+  - Gratis untuk individu dan perusahaan kecil
+  - Mencakup model Stability terbaru
+cons:
+  - Bukan open source
+  - Ambang pendapatan perlu dipantau

@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: e8b5efadb2a71225
+summary: Giấy phép dễ dãi ngắn gọn tương tự MIT và BSD, được PostgreSQL và hệ
+  sinh thái của nó sử dụng.
+analogy: Phiên bản cuốn sách miễn phí của riêng cộng đồng PostgreSQL.
+pros:
+  - Ngắn gọn và dễ dãi
+  - Quen thuộc với hệ sinh thái PostgreSQL
+cons:
+  - Không cấp quyền sáng chế
+  - Cho phép fork đóng

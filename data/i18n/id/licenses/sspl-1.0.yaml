@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: c04c9ce2bbb6b016
+summary: Mirip AGPL, tetapi menawarkan perangkat lunak sebagai layanan
+  mewajibkan pembukaan kode sumber seluruh stack layanan. Tidak disetujui OSI.
+analogy: Jika Anda menjalankan restoran dengan hidangan ini, Anda juga wajib
+  memublikasikan cetak biru dapur Anda.
+pros:
+  - Perlindungan kuat terhadap penyedia cloud
+cons:
+  - Bukan open source menurut OSI
+  - Ditolak oleh banyak distribusi
+  - Bisa memicu fork komunitas

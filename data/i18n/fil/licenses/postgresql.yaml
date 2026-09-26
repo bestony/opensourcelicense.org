@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: e8b5efadb2a71225
+summary: Isang maikling permissive na lisensyang katulad ng MIT at BSD,
+  ginagamit ng PostgreSQL at ng ecosystem nito.
+analogy: Ang sariling bersyon ng komunidad ng PostgreSQL ng libreng aklat.
+pros:
+  - Maikli at permissive
+  - Pamilyar sa ecosystem ng PostgreSQL
+cons:
+  - Walang pagbibigay ng karapatan sa patent
+  - Pinapayagan ang saradong fork

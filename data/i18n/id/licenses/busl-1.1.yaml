@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: ce104e1cd96e85b1
+summary: "Source-available: penggunaan produksi dibatasi oleh Additional Use
+  Grant, dan setiap versi berubah menjadi lisensi terbuka setelah Change Date
+  (maksimal 4 tahun)."
+analogy: "Etalase toko: Anda boleh melihat dan mencoba, dan setelah beberapa
+  tahun barangnya menjadi gratis untuk semua orang."
+pros:
+  - Memungkinkan Anda mengendalikan penggunaan komersial
+  - Kode kelak menjadi open source
+cons:
+  - Bukan open source
+  - Ketentuan izin berbeda di tiap proyek
+  - Bisa memicu fork

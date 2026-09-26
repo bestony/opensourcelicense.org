@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: ded3362d69058c2a
+summary: Apache-2.0 dengan pengecualian yang menghapuskan keperluan atribusi
+  bagi kod terkompil dan menjadikannya boleh digunakan bersama projek GPL-2.0.
+analogy: Kotak alat Apache, dengan nota bahawa sisa alat dalam produk anda tidak
+  perlu diberi kredit.
+pros:
+  - Pemberian hak paten Apache-2.0
+  - Boleh digunakan bersama kod GPL-2.0
+cons:
+  - Lebih panjang daripada MIT
+  - Pengecualian khusus untuk projek jenis pengkompil

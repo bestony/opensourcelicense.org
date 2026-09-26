@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 33f06e1e52928136
+summary: Gawin ang halos kahit ano sa code. Panatilihin ang abiso ng copyright
+  at lisensya. Walang warranty.
+analogy: "Parang pag-iwan ng libreng aklat sa café: kunin, kopyahin, ibenta,
+  basta panatilihin ang pangalan ng may-akda sa pabalat."
+pros:
+  - Maikli at malawak na nauunawaan
+  - Pinakamadaling lisensyang tanggapin ng mga kompanya
+  - Tugma sa halos lahat ng ibang lisensya
+cons:
+  - Walang pagbibigay ng karapatan sa patent
+  - Kahit sino ay puwedeng gumawa ng closed-source o naka-host na kakumpitensya

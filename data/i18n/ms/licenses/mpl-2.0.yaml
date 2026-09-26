@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 6d33e2e6b797d27f
+summary: "Copyleft peringkat fail: perubahan pada fail berlesen MPL mesti kekal
+  terbuka, tetapi fail itu boleh digabungkan dengan kod tertutup dalam fail
+  lain."
+analogy: Pinjam satu bab dan anda mesti berkongsi suntingan anda pada bab itu,
+  tetapi bahagian lain buku anda tetap milik anda.
+pros:
+  - Seimbang antara permisif dan copyleft
+  - Pemberian hak paten secara nyata
+  - Serasi dengan GPL secara lalai
+cons:
+  - Sempadan fail boleh menjadi kabur
+  - Tidak merangkumi penggunaan rangkaian

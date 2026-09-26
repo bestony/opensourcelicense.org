@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 1db86c42c600a813
+summary: "GPL-3.0 dengan tambahan klausa rangkaian: pengguna yang berinteraksi
+  dengan versi diubah suai melalui rangkaian mesti ditawarkan kod sumbernya."
+analogy: "Peraturan resipi turut terpakai kepada restoran: menghidangkan makanan
+  dikira sama seperti memberikannya."
+pros:
+  - Menutup kelompongan SaaS
+  - Asas yang baik untuk lesen berganda
+  - Sumber terbuka yang diluluskan OSI
+cons:
+  - Banyak syarikat terus melarangnya
+  - Pengehosan tanpa pengubahsuaian masih dibenarkan

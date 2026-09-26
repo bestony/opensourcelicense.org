@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 637c87bc846f9159
+summary: Permissive na lisensya na may tahasang pagbibigay ng karapatan sa
+  patent, ganti sa patent, at obligasyong markahan ang mga binagong file.
+analogy: Isang libreng toolkit na may kasamang pangakong hindi ka kakasuhan
+  dahil sa mga patent nito — maliban kung ikaw ang unang magdemanda.
+pros:
+  - Tahasang pagbibigay ng karapatan sa patent mula sa bawat contributor
+  - Mas gusto ng maraming kompanya at foundation
+  - Pinoprotektahan ang mga trademark
+cons:
+  - Mas mahaba; may pag-aasikaso ng NOTICE file
+  - Hindi tugma sa GPL-2.0-only
+  - Hindi pumipigil sa mga naka-host na kakumpitensya

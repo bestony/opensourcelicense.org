@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 3440c6c6f7e1c94d
+summary: "File-level na copyleft ng Apple: dapat ilathala ang mga binagong
+  saklaw na file, kasama kapag ginagamit sa labas bilang serbisyo. Hindi tugma
+  sa GPL."
+analogy: Ibahagi ang mga pagbabago sa hiniram na file, kahit ang resulta lang
+  ang inihahain mo.
+pros:
+  - Saklaw ang panlabas na deployment
+  - Pagbibigay ng karapatan sa patent
+cons:
+  - Hindi tugma sa GPL
+  - Kadalasang limitado sa open source ng Apple

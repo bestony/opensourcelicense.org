@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 22649412ed3dbb5f
+summary: "Copyleft cho thư viện: thay đổi trong thư viện vẫn phải mở; chương
+  trình đóng có thể liên kết tới nó nếu người dùng có thể liên kết lại với thư
+  viện đã sửa đổi."
+analogy: Ấn bản cũ của động cơ dùng chung có thể thay thế.
+pros:
+  - Cho phép ứng dụng độc quyền dùng thư viện
+  - Phổ biến trong thư viện desktop và đa phương tiện
+cons:
+  - Quy tắc liên kết lại phức tạp
+  - Không có cấp quyền sáng chế rõ ràng

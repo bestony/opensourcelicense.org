@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: c826929f8a1baf2e
+summary: "Ketentuan model dari Google: penggunaan komersial diizinkan, dengan
+  kebijakan penggunaan terlarang yang berlaku untuk setiap turunan, termasuk
+  model hasil distilasi."
+analogy: Mesin gratis dengan buku aturan yang wajib dibawa oleh setiap mesin
+  rakitan ulang.
+pros:
+  - Penggunaan komersial tanpa ambang jumlah pengguna
+  - Aturan turunan yang jelas
+cons:
+  - Bukan open source menurut OSI
+  - Google dapat memperbarui kebijakan penggunaan

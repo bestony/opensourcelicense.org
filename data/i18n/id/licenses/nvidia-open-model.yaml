@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 38b4b3f3e07a3e99
+summary: "Lisensi model yang dapat dipakai secara komersial: turunan diizinkan,
+  NVIDIA tidak mengklaim hak atas keluaran, tetapi pengaman keselamatan bawaan
+  tidak boleh diakali."
+analogy: Mesin gratis yang sabuk pengamannya tidak boleh Anda lepas.
+pros:
+  - Penggunaan komersial diizinkan
+  - Tidak ada klaim atas keluaran
+cons:
+  - Bukan open source
+  - Klausul pengaman perlu dicermati

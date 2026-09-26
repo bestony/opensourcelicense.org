@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 1db86c42c600a813
+summary: "GPL-3.0 ditambah klausul jaringan: pengguna yang berinteraksi dengan
+  versi modifikasi melalui jaringan harus ditawari kode sumbernya."
+analogy: "Aturan resep juga berlaku untuk restoran: menyajikan hidangan dianggap
+  sama dengan membagikannya."
+pros:
+  - Menutup celah SaaS
+  - Dasar yang baik untuk lisensi ganda
+  - Open source yang disetujui OSI
+cons:
+  - Banyak perusahaan langsung melarangnya
+  - Hosting tanpa modifikasi tetap diizinkan

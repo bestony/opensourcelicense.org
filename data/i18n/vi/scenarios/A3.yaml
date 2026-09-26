@@ -1,0 +1,9 @@
+reviewed: false
+sourceHash: b16411183c557a4e
+actor: other
+title: Được nhúng vào backend SaaS mã nguồn đóng (không phân phối)
+cells:
+  agpl-3.0: Phải công bố nếu có sửa đổi
+  sspl-1.0: Nếu chức năng của nó được cung cấp dưới dạng dịch vụ
+  busl-1.1: Tùy thuộc vào Additional Use Grant
+  elv2: Không lưu trữ chính sản phẩm đó

@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: b568f07f3285ed81
+summary: Lisensi permisif Tiongkok dengan pemberian hak paten dan klausul
+  pembalasan. Teks Tionghoa dan Inggris sama-sama sah; teks Tionghoa berlaku
+  jika bertentangan.
+analogy: Perlindungan ala Apache yang ditulis dengan mempertimbangkan hukum Tiongkok.
+pros:
+  - Teks resmi dwibahasa
+  - Pemberian hak paten
+  - Disetujui OSI
+cons:
+  - Kurang dikenal di luar Tiongkok
+  - Yurisprudensi terbatas

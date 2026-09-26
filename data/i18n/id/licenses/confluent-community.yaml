@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 99f045fe47a729cc
+summary: "Source-available: boleh dipakai, dimodifikasi, dan didistribusikan
+  dengan bebas, kecuali untuk menawarkan produk SaaS yang bersaing dengan
+  Confluent."
+analogy: Pakai resepnya di restoran mana pun, kecuali restoran yang bersaing
+  dengan milik penulisnya.
+pros:
+  - Batasannya sempit
+  - Sebagian besar pengguna tidak terpengaruh
+cons:
+  - Bukan open source
+  - Pesaing cloud dikecualikan hanya berdasarkan deskripsi

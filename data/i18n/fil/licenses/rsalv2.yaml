@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 50ad39245dfcc7f1
+summary: "Source-available na lisensya ng Redis: malayang gamitin at baguhin,
+  pero hindi puwedeng ialok ang software bilang managed service o lampasan ang
+  mga license key."
+analogy: Magluto gamit ito kahit saan, pero huwag magbukas ng tindahang
+  nagbebenta ng ulam na ito.
+pros:
+  - Tinatarget lamang ang mga kakumpitensyang managed service
+  - Maikli
+cons:
+  - Hindi open source
+  - Nagbunsod sa fork na Valkey

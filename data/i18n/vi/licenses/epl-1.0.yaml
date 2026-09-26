@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 41352f96fddd8017
+summary: Copyleft cấp mô-đun có cấp quyền sáng chế và luật điều chỉnh là luật
+  New York; không tương thích với GPL.
+analogy: Ấn bản đầu tiên của quy tắc chia sẻ chương sách kiểu Eclipse.
+pros:
+  - Cấp quyền sáng chế
+  - Được Clojure và JUnit 4 sử dụng
+cons:
+  - Không tương thích với GPL
+  - Đã được thay thế bởi EPL-2.0

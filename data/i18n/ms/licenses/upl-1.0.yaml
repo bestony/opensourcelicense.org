@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: ddb7b2f148c13edb
+summary: Lesen permisif ringkas dengan pemberian hak paten secara nyata,
+  digunakan oleh Oracle untuk GraalVM dan projek lain.
+analogy: Buku percuma MIT, dengan tambahan janji tentang paten.
+pros:
+  - Ringkas dan permisif
+  - Pemberian hak paten secara nyata
+cons:
+  - Tiada klausa tindakan balas paten
+  - Kurang dikenali berbanding MIT atau Apache

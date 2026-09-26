@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 76c3b4e3dc7fbff1
+summary: "Ang unang Responsible AI License para sa isang large language model:
+  bukas na access na may mga paghihigpit batay sa paggamit na sumasaklaw sa mga
+  derivative."
+analogy: Isang libreng tool na may listahan ng bawal na paggamit na nakakabit sa
+  bawat kopya.
+pros:
+  - Pinapayagan ang pangkomersyong paggamit
+  - Nagpasimula ng RAIL licensing
+cons:
+  - Hindi open source ayon sa OSI
+  - Mahirap ipatupad ang mga paghihigpit

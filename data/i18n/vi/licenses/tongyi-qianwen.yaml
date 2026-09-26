@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 2101ba94160528a0
+summary: "Giấy phép mô hình của Alibaba cho các mô hình Qwen lớn nhất: cho phép
+  sử dụng thương mại, kèm ghi công và giấy phép riêng khi vượt 100 triệu người
+  dùng hoạt động hằng tháng."
+analogy: Một động cơ miễn phí, kèm hợp đồng đặc biệt cho các hãng xe rất lớn.
+pros:
+  - Hầu hết người dùng được dùng thương mại
+  - Mô hình đa ngôn ngữ mạnh
+cons:
+  - Không phải mã nguồn mở
+  - Ngưỡng số người dùng

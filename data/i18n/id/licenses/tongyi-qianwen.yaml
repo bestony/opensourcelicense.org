@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 2101ba94160528a0
+summary: "Lisensi model Alibaba untuk model Qwen terbesar: penggunaan komersial
+  diizinkan, dengan atribusi dan lisensi terpisah di atas 100 juta pengguna
+  aktif bulanan."
+analogy: Mesin gratis, dengan kontrak khusus bagi produsen mobil yang sangat besar.
+pros:
+  - Penggunaan komersial untuk sebagian besar pengguna
+  - Model multibahasa yang kuat
+cons:
+  - Bukan open source
+  - Ada ambang jumlah pengguna

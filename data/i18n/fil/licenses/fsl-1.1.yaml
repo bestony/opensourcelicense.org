@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 3720e103ed28cbd1
+summary: "Source-available: anumang paggamit maliban sa kakumpitensyang
+  produkto, at bawat release ay nagiging Apache-2.0 pagkalipas ng dalawang
+  taon."
+analogy: Isang display window na ang mga item ay nagiging libre para sa lahat
+  pagkalipas ng dalawang taon.
+pros:
+  - Maikli at mahuhulaan
+  - Nagiging open source ang code pagkalipas ng dalawang taon
+cons:
+  - Hindi open source
+  - Puwedeng mahirap tukuyin ang "kakumpitensyang paggamit"

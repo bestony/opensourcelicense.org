@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 3720e103ed28cbd1
+summary: "Source-available: penggunaan apa pun kecuali produk pesaing, dan
+  setiap rilis menjadi Apache-2.0 dua tahun kemudian."
+analogy: Etalase toko yang barang-barangnya menjadi gratis untuk semua orang
+  setelah dua tahun.
+pros:
+  - Singkat dan dapat diprediksi
+  - Kode menjadi open source setelah dua tahun
+cons:
+  - Bukan open source
+  - '"Penggunaan yang bersaing" bisa sulit dinilai'

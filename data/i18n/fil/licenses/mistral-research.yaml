@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 92115efde43878b6
+summary: Mga weight para sa pananaliksik at personal na paggamit lamang; anumang
+  pangkomersyo o pang-production na paggamit ay nangangailangan ng komersyal na
+  lisensya mula sa Mistral AI.
+analogy: "Isang aklat sa library: basahin at pag-aralan, huwag ibenta muli."
+pros:
+  - Bukas na weights para sa pananaliksik
+  - Pinapayagan ang pagbabago para sa pananaliksik
+cons:
+  - Walang pangkomersyong paggamit
+  - Hindi open source

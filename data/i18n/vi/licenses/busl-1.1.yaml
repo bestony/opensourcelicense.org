@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: ce104e1cd96e85b1
+summary: "Công khai mã nguồn: việc dùng trong production bị giới hạn bởi
+  Additional Use Grant, và mỗi phiên bản chuyển sang giấy phép mở sau Change
+  Date (tối đa 4 năm)."
+analogy: "Một tủ kính cửa hàng: bạn có thể xem và dùng thử, và sau vài năm món
+  hàng trở nên miễn phí cho mọi người."
+pros:
+  - Cho phép bạn kiểm soát việc sử dụng thương mại
+  - Mã sẽ trở thành mã nguồn mở sau này
+cons:
+  - Không phải mã nguồn mở
+  - Điều khoản cấp quyền khác nhau giữa các dự án
+  - Có thể dẫn đến fork

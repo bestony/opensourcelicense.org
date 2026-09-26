@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: db235a56ea57284f
+summary: Giống MIT, cộng thêm điều khoản cấm dùng tên của bạn để bảo chứng cho
+  sản phẩm phái sinh.
+analogy: 'Một cuốn sách miễn phí kèm ghi chú: "Đừng nói rằng tác giả giới thiệu
+  ấn bản của bạn."'
+pros:
+  - Dễ dãi và phổ biến
+  - Bảo vệ tên bạn khỏi bị dùng để bảo chứng
+cons:
+  - Không cấp quyền sáng chế
+  - Cho phép fork mã nguồn đóng

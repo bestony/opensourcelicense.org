@@ -1,0 +1,8 @@
+reviewed: false
+sourceHash: d30cdd2632a3c255
+actor: other
+title: Được liên kết vào ứng dụng hoặc firmware mã nguồn đóng và phân phối
+cells:
+  mpl-2.0: Cấp tệp
+  lgpl-3.0: Phải cho phép liên kết lại
+  busl-1.1: Tùy thuộc vào Additional Use Grant

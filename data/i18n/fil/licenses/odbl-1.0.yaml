@@ -1,0 +1,15 @@
+reviewed: false
+sourceHash: 6a4054dc9cca8e7e
+summary: "Share-alike para sa mga database: puwede mong gamitin nang
+  pangkomersyo ang datos, pero dapat manatili sa ilalim ng ODbL ang mga
+  pampublikong derivative database. Pagkilala lamang ang kailangan para sa mga
+  nabuong gawa tulad ng mapa o larawan."
+analogy: Magtayo sa ibabaw ng pinagsasaluhang mapa, at kung maglalathala ka ng
+  pinahusay na map database, ibahagi ito pabalik sa parehong tuntunin.
+pros:
+  - Pinananatiling bukas ang mga pinahusay na database
+  - Pinapayagan ang pangkomersyong paggamit
+  - Napatunayan ng OpenStreetMap
+cons:
+  - Puwedeng hadlangan ng share-alike ang paghahalo sa ibang datos
+  - Minsan malabo ang "derivative database"

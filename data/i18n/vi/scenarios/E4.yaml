@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: cf07449a9c3b7eaf
+actor: other
+title: Được fine-tune, đổi tên và phát hành dưới dạng trọng số đóng
+cells:
+  llama: Phải kèm giấy phép và hiển thị "Built with Llama"
+  openrail-m: Phải chuyển tiếp các hạn chế sử dụng
+  cc-by-4.0: Ghi công
+  cc-by-nc-4.0: Chỉ phi thương mại
+  odc-by-1.0: Ghi công
+  odbl-1.0: Cơ sở dữ liệu phái sinh vẫn theo ODbL

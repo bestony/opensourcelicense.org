@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 261d8b56fb436858
+summary: "Seperti MIT: gunakan kod dengan bebas; kekalkan notis hak cipta dan
+  penafian dalam salinan sumber dan binari."
+analogy: "Kad resipi percuma: salin di mana-mana, cuma kekalkan baris nama
+  pengarang di bahagian bawah."
+pros:
+  - Sangat ringkas dan permisif
+  - Digunakan secara meluas dalam sistem BSD
+cons:
+  - Tiada pemberian hak paten
+  - Fork tertutup dibenarkan

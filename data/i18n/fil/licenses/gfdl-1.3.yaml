@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: c732ed2e04240901
+summary: "Copyleft para sa mga manwal: dapat manatili sa ilalim ng GFDL ang mga
+  kopya at binagong bersyon, at panatilihin ang kasaysayan at mga invariant
+  section."
+analogy: Ang patakarang ibahagi-ang-resipe para sa manwal ng cookbook.
+pros:
+  - Pinananatiling malaya ang dokumentasyon
+  - Ginagamit ng mga manwal ng GNU
+cons:
+  - Kontrobersyal ang mga invariant section
+  - Mahirap ihalo sa nilalamang CC

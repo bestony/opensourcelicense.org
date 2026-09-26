@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 41352f96fddd8017
+summary: Module-level na copyleft na may pagbibigay ng karapatan sa patent at
+  batas ng New York bilang umiiral na batas; hindi tugma sa GPL.
+analogy: Ang unang edisyon ng patakaran ng Eclipse sa pagbabahagi ng kabanata.
+pros:
+  - Pagbibigay ng karapatan sa patent
+  - Ginagamit ng Clojure at JUnit 4
+cons:
+  - Hindi tugma sa GPL
+  - Pinalitan na ng EPL-2.0

@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 72d99432db49e19d
+summary: Permissive na lisensya para sa datos at software ng Unicode tulad ng
+  ICU at CLDR; panatilihin ang abiso at huwag gamitin ang pangalan ng may-hawak
+  ng copyright sa promosyon.
+analogy: "Isang libreng sangguniang aklat: kopyahin ito, panatilihin ang linya
+  ng pagkilala."
+pros:
+  - Permissive
+  - Saklaw ang mga data file at code
+cons:
+  - Walang pagbibigay ng karapatan sa patent
+  - Kadalasang ginagamit para sa mga proyekto ng Unicode

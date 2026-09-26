@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 4803251a37336702
+summary: "Lisensi model khusus: penggunaan komersial diizinkan, dengan
+  Acceptable Use Policy, aturan atribusi dan penamaan, serta lisensi terpisah di
+  atas 700 juta pengguna aktif bulanan."
+analogy: Mesin yang bebas dipakai dengan buku aturan, dan kontrak khusus bagi
+  produsen mobil terbesar.
+pros:
+  - Penggunaan komersial diizinkan untuk sebagian besar pengguna
+  - Ekosistem besar
+cons:
+  - Bukan open source menurut OSI
+  - Kewajiban kebijakan penggunaan dan penamaan
+  - Ketentuan berubah antarversi

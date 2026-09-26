@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 3ab9492f75e7adb0
+summary: "Copyleft mạnh: nếu bạn phân phối phần mềm hoặc sản phẩm phái sinh, bạn
+  phải phát hành toàn bộ mã nguồn theo GPL-3.0."
+analogy: "Một công thức ghi rằng: ai phục vụ món ăn dựa trên công thức này cũng
+  phải trao kèm toàn bộ công thức."
+pros:
+  - Giữ mọi sản phẩm phái sinh được phân phối luôn mở
+  - Cấp quyền sáng chế và chống tivo hóa
+  - Truyền thống cộng đồng mạnh
+cons:
+  - Nhiều công ty tránh dùng
+  - Không bao quát SaaS (không có phân phối)
+  - Không tương thích với GPL-2.0-only

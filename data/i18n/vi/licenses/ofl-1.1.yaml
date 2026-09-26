@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 2388a1183d57050c
+summary: "Giấy phép phông chữ tự do: tự do sử dụng, nhúng và sửa đổi phông chữ,
+  nhưng phông đã sửa phải bỏ các tên được bảo lưu, và không được bán riêng phông
+  chữ."
+analogy: Dùng kiểu chữ ở mọi nơi, nhưng đừng bán riêng tệp phông chữ.
+pros:
+  - Cho phép nhúng vào tài liệu và ứng dụng
+  - Tiêu chuẩn cho phông chữ mở
+cons:
+  - Tên phông chữ bảo lưu làm fork phức tạp
+  - Chỉ dành cho phông chữ

@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cb1197749de0ea7e
+summary: Pinapayagan ang malayang pagbabago at pamamahagi, pero ang binagong
+  bersyon ay dapat malinaw na markahan o palitan ng pangalan, o gawing available
+  ang source nito. May mga tuntunin sa patent.
+analogy: I-remix ang kanta, pero huwag ibenta ang remix mo na parang orihinal.
+pros:
+  - Pinoprotektahan ang pagkakakilanlan ng orihinal
+  - Tugma sa GPL
+cons:
+  - Maligoy ang mga kondisyon
+  - Bihira sa labas ng Raku at Perl

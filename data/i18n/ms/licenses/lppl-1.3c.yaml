@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: f6ef6656ac79990f
+summary: "Lesen bebas untuk pakej LaTeX: fail yang diubah suai mesti dinamakan
+  semula atau ditanda dengan jelas supaya dokumen berfungsi sama di mana-mana."
+analogy: Anda boleh mengubah muka taip, tetapi berikan nama baharu kepada versi anda.
+pros:
+  - Memastikan dokumen boleh dihasilkan semula
+  - Standard di seluruh CTAN
+cons:
+  - Peraturan nama semula luar biasa
+  - Tidak serasi dengan GPL

@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 626a2a9d93ec9cef
+summary: "Giấy phép mô hình kiểu OpenRAIL: cho phép sử dụng thương mại, với các
+  hạn chế dựa trên mục đích sử dụng được chuyển sang sản phẩm phái sinh."
+analogy: Một công cụ miễn phí kèm danh sách các mục đích bị cấm gắn theo mọi bản sao.
+pros:
+  - Cho phép sử dụng thương mại
+  - Các hạn chế sử dụng đi theo xuống hạ nguồn
+cons:
+  - Không phải mã nguồn mở theo OSI
+  - Các mô hình DeepSeek mới hơn đã chuyển sang MIT

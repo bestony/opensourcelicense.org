@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: f6ef6656ac79990f
+summary: "Malayang lisensya para sa mga LaTeX package: dapat palitan ng pangalan
+  o malinaw na markahan ang mga binagong file para gumana nang pareho ang mga
+  dokumento saanman."
+analogy: Puwede mong baguhin ang typeface, pero bigyan ng bagong pangalan ang
+  bersyon mo.
+pros:
+  - Nananatiling reproducible ang mga dokumento
+  - Pamantayan sa buong CTAN
+cons:
+  - Hindi karaniwan ang patakaran sa pagpapalit ng pangalan
+  - Hindi tugma sa GPL

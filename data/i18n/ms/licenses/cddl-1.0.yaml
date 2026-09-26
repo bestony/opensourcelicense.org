@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 362187e701e25e6a
+summary: Copyleft peringkat fail yang berasal daripada MPL, dengan pemberian hak
+  paten; tidak serasi dengan GPL.
+analogy: Kongsi perubahan pada fail yang dipinjam; bahagian lain boleh kekal
+  tertutup jika anda mahu.
+pros:
+  - Skop peringkat fail
+  - Pemberian hak paten
+cons:
+  - Tidak serasi dengan GPL (masalah ZFS-on-Linux)
+  - Sedikit projek baharu yang menggunakannya

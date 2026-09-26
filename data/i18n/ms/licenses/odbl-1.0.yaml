@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 6a4054dc9cca8e7e
+summary: "Share-alike untuk pangkalan data: anda boleh menggunakan data secara
+  komersial, tetapi pangkalan data terbitan awam mesti kekal di bawah ODbL.
+  Karya yang dihasilkan seperti peta atau imej hanya memerlukan atribusi."
+analogy: Bina di atas peta kongsi, dan jika anda menerbitkan pangkalan data peta
+  yang lebih baik, kongsikannya semula dengan terma yang sama.
+pros:
+  - Memastikan pangkalan data yang ditambah baik kekal terbuka
+  - Penggunaan komersial dibenarkan
+  - Terbukti melalui OpenStreetMap
+cons:
+  - Share-alike boleh menghalang penggabungan dengan data lain
+  - '"Pangkalan data terbitan" kadangkala tidak jelas'

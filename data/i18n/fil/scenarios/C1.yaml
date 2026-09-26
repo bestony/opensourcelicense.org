@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 4f30616160bfe68b
+actor: you
+title: Nagpalit ka ng lisensya o nagbenta ng komersyal na lisensya sa kalaunan
+  (walang CLA na pinirmahan ang mga contributor)
+cells:
+  mit: Puwedeng magbago ang bagong bersyon; nananatili ang luma
+  bsd-3-clause: Kapareho ng MIT
+  apache-2.0: Kapareho ng MIT
+  mpl-2.0: Dapat manatiling MPL ang mga MPL file
+  lgpl-3.0: Kailangan ang pahintulot ng lahat ng contributor
+  mulanpsl-2.0: Kapareho ng MIT
+  busl-1.1: Karaniwang umaasa sa CLA
+  elv2: Karaniwang umaasa sa CLA

@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 841fb8980cea558f
+summary: GPL-2.0 untuk pustakanya sendiri, ditambah pengecualian yang
+  mengizinkan program independen menautkan ke pustaka itu dengan lisensi apa
+  pun.
+analogy: Mesin bersama dengan aturan berbagi resep, tetapi mobil Anda sendiri
+  tetap milik Anda.
+pros:
+  - Aplikasi yang menautkannya boleh tertutup
+  - Dipakai oleh OpenJDK
+cons:
+  - Perubahan pada pustaka tetap GPL
+  - Tidak kompatibel dengan proyek GPL-3.0-only

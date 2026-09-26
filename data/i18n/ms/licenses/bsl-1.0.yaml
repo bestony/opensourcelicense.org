@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 3d7476dd1bfc7f5b
+summary: Lesen permisif; notis diperlukan dalam salinan sumber tetapi tidak
+  dalam binari terkompil.
+analogy: Kekalkan nama pengarang dalam buku resipi, bukan pada setiap pinggan
+  yang anda hidangkan.
+pros:
+  - Tidak perlu notis dalam binari
+  - Standard untuk pustaka C++
+cons:
+  - Tiada pemberian hak paten
+  - Kurang dikenali di luar C++

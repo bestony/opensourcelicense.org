@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 76c3b4e3dc7fbff1
+summary: "Responsible AI License đầu tiên cho một mô hình ngôn ngữ lớn: truy cập
+  mở với các hạn chế dựa trên mục đích sử dụng, ràng buộc cả sản phẩm phái
+  sinh."
+analogy: Một công cụ miễn phí kèm danh sách các mục đích bị cấm gắn theo mọi bản sao.
+pros:
+  - Cho phép sử dụng thương mại
+  - Tiên phong cấp phép RAIL
+cons:
+  - Không phải mã nguồn mở theo OSI
+  - Các hạn chế khó thực thi

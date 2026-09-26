@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 3440c6c6f7e1c94d
+summary: "Copyleft cấp tệp của Apple: các tệp thuộc phạm vi đã sửa đổi phải được
+  công bố, kể cả khi triển khai ra bên ngoài dưới dạng dịch vụ. Không tương
+  thích với GPL."
+analogy: Chia sẻ thay đổi trên tệp đã mượn, kể cả khi bạn chỉ phục vụ kết quả.
+pros:
+  - Bao quát cả triển khai bên ngoài
+  - Cấp quyền sáng chế
+cons:
+  - Không tương thích với GPL
+  - Chủ yếu giới hạn trong mã nguồn mở của Apple

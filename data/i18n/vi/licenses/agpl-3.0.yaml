@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 1db86c42c600a813
+summary: "GPL-3.0 cộng thêm điều khoản mạng: người dùng tương tác với phiên bản
+  đã sửa đổi qua mạng phải được cung cấp mã nguồn của nó."
+analogy: "Quy tắc công thức nấu ăn áp dụng cả cho nhà hàng: phục vụ món ăn cũng
+  được coi là trao nó đi."
+pros:
+  - Bịt lỗ hổng SaaS
+  - Nền tảng tốt cho cấp phép kép
+  - Mã nguồn mở được OSI phê duyệt
+cons:
+  - Nhiều công ty cấm hẳn
+  - Vẫn cho phép lưu trữ bản chưa sửa đổi

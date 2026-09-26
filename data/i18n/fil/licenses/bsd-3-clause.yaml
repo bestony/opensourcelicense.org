@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: db235a56ea57284f
+summary: Katulad ng MIT, na may dagdag na probisyong nagbabawal gamitin ang
+  pangalan mo para i-endorso ang mga derivative na produkto.
+analogy: 'Isang libreng aklat na may paalala: "Huwag sabihing inirerekomenda ng
+  may-akda ang edisyon mo."'
+pros:
+  - Permissive at kilala
+  - Pinoprotektahan ang pangalan mo mula sa paggamit bilang endorso
+cons:
+  - Walang pagbibigay ng karapatan sa patent
+  - Pinapayagan ang closed-source na fork

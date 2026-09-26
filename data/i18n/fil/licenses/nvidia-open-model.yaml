@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 38b4b3f3e07a3e99
+summary: "Lisensya ng modelo na puwedeng gamitin nang pangkomersyo: pinapayagan
+  ang mga derivative, walang inaangking karapatan ang NVIDIA sa mga output, pero
+  hindi dapat lampasan ang mga built-in na safety guardrail."
+analogy: Isang libreng makina na hindi mo dapat tanggalan ng seatbelt.
+pros:
+  - Pinapayagan ang pangkomersyong paggamit
+  - Walang inaangkin sa mga output
+cons:
+  - Hindi open source
+  - Kailangang pag-ingatan ang probisyon sa guardrail

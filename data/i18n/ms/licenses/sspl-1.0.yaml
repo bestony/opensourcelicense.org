@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: c04c9ce2bbb6b016
+summary: Seperti AGPL, tetapi menawarkan perisian sebagai perkhidmatan
+  memerlukan pendedahan kod sumber keseluruhan tindanan perkhidmatan. Tidak
+  diluluskan OSI.
+analogy: Jika anda mengusahakan restoran dengan hidangan ini, anda juga mesti
+  menerbitkan pelan dapur anda.
+pros:
+  - Perlindungan kuat terhadap vendor awan
+cons:
+  - Bukan sumber terbuka menurut OSI
+  - Ditolak oleh banyak distribusi
+  - Boleh mencetuskan fork komuniti

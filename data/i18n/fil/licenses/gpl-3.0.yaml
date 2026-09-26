@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 3ab9492f75e7adb0
+summary: "Malakas na copyleft: kung ipamamahagi mo ang software o mga derivative
+  nito, dapat mong ilabas ang kumpletong source sa ilalim ng GPL-3.0."
+analogy: "Isang resipeng nagsasabing: sinumang maghain ng ulam na batay rito ay
+  dapat ding ipamigay ang buong resipe."
+pros:
+  - Pinananatiling bukas ang lahat ng ipinamamahaging derivative
+  - May pagbibigay ng karapatan sa patent at anti-tivoization
+  - Matibay na tradisyon ng komunidad
+cons:
+  - Iniiwasan ito ng maraming kompanya
+  - Hindi saklaw ang SaaS (walang pamamahagi)
+  - Hindi tugma sa GPL-2.0-only

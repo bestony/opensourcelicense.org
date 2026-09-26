@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: c732ed2e04240901
+summary: "Copyleft untuk manual: salinan dan versi diubah suai mesti kekal di
+  bawah GFDL, dengan sejarah dan bahagian tidak berubah (invariant sections)
+  dikekalkan."
+analogy: Peraturan kongsi resipi untuk manual buku masakan.
+pros:
+  - Memastikan dokumentasi kekal bebas
+  - Digunakan oleh manual GNU
+cons:
+  - Bahagian tidak berubah menimbulkan kontroversi
+  - Sukar digabungkan dengan kandungan CC

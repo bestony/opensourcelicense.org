@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 57d3e35a6ad686d1
+actor: other
+title: Seseorang membuat fork dan mengedarkan pesaing sumber tertutup
+cells:
+  apache-2.0: Mesti menandakan fail yang diubah suai
+  mpl-2.0: Fail MPL yang diubah suai kekal terbuka
+  lgpl-3.0: Perubahan pada pustaka kekal terbuka
+  busl-1.1: Terbitan kekal di bawah BSL
+  elv2: Had mesti dikekalkan

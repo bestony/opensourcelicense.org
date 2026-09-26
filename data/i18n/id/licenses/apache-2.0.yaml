@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 637c87bc846f9159
+summary: Lisensi permisif dengan pemberian hak paten secara tegas, klausul
+  pembalasan paten, dan kewajiban menandai file yang diubah.
+analogy: Perkakas gratis yang juga disertai janji untuk tidak menggugat Anda
+  atas patennya — kecuali Anda menggugat lebih dulu.
+pros:
+  - Pemberian hak paten secara tegas dari setiap kontributor
+  - Disukai banyak perusahaan dan yayasan
+  - Melindungi merek dagang
+cons:
+  - Lebih panjang; ada pengelolaan file NOTICE
+  - Tidak kompatibel dengan GPL-2.0-only
+  - Tidak mencegah pesaing berbasis hosting

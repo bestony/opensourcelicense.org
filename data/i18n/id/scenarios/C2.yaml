@@ -1,0 +1,8 @@
+reviewed: false
+sourceHash: 3a5f4b9bf27dddea
+actor: other
+title: Kode Anda digabungkan ke dalam proyek GPL-3.0
+cells:
+  apache-2.0: Tetapi tidak kompatibel dengan GPL-2.0
+  mpl-2.0: Kecuali ditandai tidak kompatibel
+  agpl-3.0: Bagian AGPL tetap AGPL

@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 3d7476dd1bfc7f5b
+summary: Lisensi permisif; pemberitahuan wajib ada di salinan kode sumber,
+  tetapi tidak di biner hasil kompilasi.
+analogy: Cantumkan nama penulis di buku resep, bukan di setiap piring yang Anda sajikan.
+pros:
+  - Tidak perlu pemberitahuan di biner
+  - Standar untuk pustaka C++
+cons:
+  - Tidak ada pemberian hak paten
+  - Kurang dikenal di luar C++

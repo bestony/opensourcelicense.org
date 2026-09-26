@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 72d99432db49e19d
+summary: Lesen permisif untuk data dan perisian Unicode seperti ICU dan CLDR;
+  kekalkan notis dan jangan gunakan nama pemegang hak cipta untuk promosi.
+analogy: "Buku rujukan percuma: salinlah, kekalkan baris kredit."
+pros:
+  - Permisif
+  - Merangkumi fail data dan kod
+cons:
+  - Tiada pemberian hak paten
+  - Kebanyakannya digunakan untuk projek Unicode

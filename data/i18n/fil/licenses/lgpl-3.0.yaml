@@ -1,0 +1,15 @@
+reviewed: false
+sourceHash: cdef0d42cb1ab51e
+summary: "Copyleft sa antas ng library: nananatiling bukas ang mga pagbabago sa
+  library; puwedeng mag-link dito ang mga saradong app kung kaya ng mga user na
+  palitan ang library."
+analogy: "Isang pinagsasaluhang makina: puwede mo itong ilagay sa sasakyan mo,
+  pero dapat kayang palitan ito ng mga may-ari ng sarili nilang makina."
+pros:
+  - Nagagamit ng mga proprietary na app ang library
+  - Nananatiling bukas ang mga pagbabago sa library
+  - Pagbibigay ng karapatan sa patent
+cons:
+  - Masalimuot ang mga patakaran sa muling pag-link, lalo na sa static linking
+    at mobile
+  - Iniiwasan pa rin ito ng ilang kompanya

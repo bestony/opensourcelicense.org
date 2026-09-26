@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: c04c9ce2bbb6b016
+summary: Katulad ng AGPL, pero ang pag-aalok ng software bilang serbisyo ay
+  nangangailangan ng paglalabas ng source ng buong service stack. Hindi aprubado
+  ng OSI.
+analogy: Kung magpapatakbo ka ng restawran na may ganitong ulam, dapat mo ring
+  ilathala ang blueprint ng kusina mo.
+pros:
+  - Malakas na proteksyon laban sa mga cloud vendor
+cons:
+  - Hindi open source ayon sa OSI
+  - Tinanggihan ng maraming distribution
+  - Puwedeng magdulot ng fork ng komunidad

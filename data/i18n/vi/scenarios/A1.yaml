@@ -1,0 +1,9 @@
+reviewed: false
+sourceHash: 883d4cd50ee79a28
+actor: other
+title: Một nhà cung cấp đám mây bán dự án của bạn dưới dạng dịch vụ được quản lý
+cells:
+  gpl-3.0: Không phải phân phối
+  agpl-3.0: Phải công bố các sửa đổi
+  sspl-1.0: Phải công bố toàn bộ stack dịch vụ
+  busl-1.1: Trừ khi Additional Use Grant cho phép

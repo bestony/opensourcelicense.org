@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cf76d86201254c1b
+summary: "Copyleft kuat: turunan yang didistribusikan wajib dirilis sepenuhnya
+  dengan GPL-2.0. Tidak ada pemberian hak paten secara tegas; tidak kompatibel
+  dengan GPL-3.0 kecuali memakai 'or later'."
+analogy: Aturan berbagi resep, dalam edisi lamanya.
+pros:
+  - Menjaga turunan yang didistribusikan tetap terbuka
+  - Dipakai oleh kernel Linux
+cons:
+  - Tidak kompatibel dengan Apache-2.0 dan GPL-3.0 (versi only)
+  - Tidak ada pemberian hak paten secara tegas

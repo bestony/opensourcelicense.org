@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 50ad39245dfcc7f1
+summary: "Lisensi source-available dari Redis: bebas dipakai dan dimodifikasi,
+  tetapi tidak boleh ditawarkan sebagai layanan terkelola atau dipakai untuk
+  mengakali kunci lisensi."
+analogy: Memasak dengannya di mana saja boleh, tetapi jangan buka toko yang
+  menjual hidangan ini.
+pros:
+  - Hanya menyasar pesaing layanan terkelola
+  - Singkat
+cons:
+  - Bukan open source
+  - Memicu lahirnya fork Valkey

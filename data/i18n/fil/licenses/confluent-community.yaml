@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 99f045fe47a729cc
+summary: "Source-available: malayang gamitin, baguhin, at ipamahagi, maliban sa
+  pag-aalok ng SaaS na produktong kakumpitensya ng Confluent."
+analogy: Gamitin ang resipe sa kahit anong restawran maliban sa kakumpitensya ng
+  restawran ng may-akda.
+pros:
+  - Makitid na paghihigpit
+  - Hindi apektado ang karamihan ng user
+cons:
+  - Hindi open source
+  - Hindi isinasama ang mga cloud na kakumpitensya batay lamang sa paglalarawan

@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 261d8b56fb436858
+summary: "Mirip MIT: gunakan kodenya dengan bebas; pertahankan pemberitahuan hak
+  cipta dan penafian dalam salinan sumber dan biner."
+analogy: "Kartu resep gratis: salin di mana saja, asal baris nama penulis di
+  bagian bawah tetap ada."
+pros:
+  - Sangat singkat dan permisif
+  - Banyak dipakai di sistem BSD
+cons:
+  - Tidak ada pemberian hak paten
+  - Fork tertutup diizinkan

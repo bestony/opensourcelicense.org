@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 6d33e2e6b797d27f
+summary: "Copyleft cấp tệp: thay đổi trên các tệp theo MPL phải giữ mở, nhưng có
+  thể kết hợp với mã đóng ở các tệp khác."
+analogy: Mượn một chương sách thì phải chia sẻ những chỉnh sửa trên chương đó,
+  nhưng phần còn lại của cuốn sách vẫn là của bạn.
+pros:
+  - Cân bằng giữa dễ dãi và copyleft
+  - Cấp quyền sáng chế rõ ràng
+  - Mặc định tương thích với GPL
+cons:
+  - Ranh giới tệp có thể không rõ ràng
+  - Không bao quát việc sử dụng qua mạng

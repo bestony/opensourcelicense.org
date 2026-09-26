@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 3440c6c6f7e1c94d
+summary: "Copyleft tingkat file dari Apple: file tercakup yang dimodifikasi
+  wajib dipublikasikan, termasuk saat dijalankan secara eksternal sebagai
+  layanan. Tidak kompatibel dengan GPL."
+analogy: Bagikan perubahan pada file yang dipinjam, juga ketika Anda hanya
+  menyajikan hasilnya.
+pros:
+  - Mencakup penerapan eksternal
+  - Pemberian hak paten
+cons:
+  - Tidak kompatibel dengan GPL
+  - Sebagian besar terbatas pada open source milik Apple

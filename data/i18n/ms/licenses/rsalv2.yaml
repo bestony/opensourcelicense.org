@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 50ad39245dfcc7f1
+summary: "Lesen kod sumber tersedia oleh Redis: bebas digunakan dan diubah suai,
+  tetapi tidak boleh ditawarkan sebagai perkhidmatan terurus atau digunakan
+  untuk memintas kunci lesen."
+analogy: Masaklah dengannya di mana-mana, tetapi jangan buka kedai yang menjual
+  hidangan ini.
+pros:
+  - Hanya menyasarkan pesaing perkhidmatan terurus
+  - Ringkas
+cons:
+  - Bukan sumber terbuka
+  - Mencetuskan fork Valkey

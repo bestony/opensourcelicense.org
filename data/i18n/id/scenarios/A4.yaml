@@ -1,0 +1,8 @@
+reviewed: false
+sourceHash: d30cdd2632a3c255
+actor: other
+title: Ditautkan ke aplikasi atau firmware sumber tertutup lalu didistribusikan
+cells:
+  mpl-2.0: Tingkat file
+  lgpl-3.0: Wajib mengizinkan penautan ulang
+  busl-1.1: Bergantung pada Additional Use Grant

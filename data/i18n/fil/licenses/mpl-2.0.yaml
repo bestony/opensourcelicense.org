@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 6d33e2e6b797d27f
+summary: "File-level na copyleft: dapat manatiling bukas ang mga pagbabago sa
+  mga file na may lisensyang MPL, pero puwede itong pagsamahin sa saradong code
+  sa ibang file."
+analogy: Humiram ng kabanata at dapat mong ibahagi ang mga edit mo sa kabanatang
+  iyon, pero sa iyo ang natitirang bahagi ng aklat mo.
+pros:
+  - Balanse sa pagitan ng permissive at copyleft
+  - Tahasang pagbibigay ng karapatan sa patent
+  - Tugma sa GPL bilang default
+cons:
+  - Puwedeng malabo ang hangganan ng file
+  - Hindi saklaw ang paggamit sa network

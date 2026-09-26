@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 38b4b3f3e07a3e99
+summary: "Giấy phép mô hình dùng được cho mục đích thương mại: cho phép sản phẩm
+  phái sinh, NVIDIA không đòi quyền với đầu ra, nhưng không được vượt qua các
+  rào chắn an toàn tích hợp."
+analogy: Một động cơ miễn phí mà bạn không được tháo dây an toàn.
+pros:
+  - Cho phép sử dụng thương mại
+  - Không đòi quyền với đầu ra
+cons:
+  - Không phải mã nguồn mở
+  - Điều khoản rào chắn an toàn cần lưu ý

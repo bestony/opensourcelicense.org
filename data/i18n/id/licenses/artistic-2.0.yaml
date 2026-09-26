@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cb1197749de0ea7e
+summary: Mengizinkan modifikasi dan distribusi secara bebas, tetapi versi
+  modifikasi harus ditandai dengan jelas atau diganti namanya, atau kode
+  sumbernya disediakan. Memuat ketentuan paten.
+analogy: Silakan remix lagunya, tetapi jangan jual remix Anda sebagai versi aslinya.
+pros:
+  - Melindungi identitas karya asli
+  - Kompatibel dengan GPL
+cons:
+  - Syaratnya bertele-tele
+  - Jarang dipakai di luar Raku dan Perl

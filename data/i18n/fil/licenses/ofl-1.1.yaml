@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 2388a1183d57050c
+summary: "Malayang lisensya para sa font: malayang gamitin, i-embed, at baguhin
+  ang mga font, pero dapat alisin ng mga binagong font ang mga reserbadong
+  pangalan, at hindi puwedeng ibenta nang mag-isa ang mga font."
+analogy: Gamitin ang typeface kahit saan, pero huwag ibenta ang font file nang mag-isa.
+pros:
+  - Pinapayagan ang pag-embed sa mga dokumento at app
+  - Pamantayan para sa mga open font
+cons:
+  - Pinahihirap ng mga reserbadong pangalan ng font ang pag-fork
+  - Para lamang sa mga font

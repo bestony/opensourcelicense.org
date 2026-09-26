@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 7d5b7fb367f9a074
+summary: Mga weight ng modelo para sa hindi pangkomersyong paggamit lamang; ang
+  pangkomersyong paggamit ng mga weight ay nangangailangan ng hiwalay na
+  lisensya mula sa Black Forest Labs.
+analogy: Hiramin ang camera para sa sarili mong proyekto, hindi para sa bayad na
+  photoshoot.
+pros:
+  - Bukas na weights para sa pananaliksik at libangan
+  - Malinaw na daan para sa komersyo
+cons:
+  - Hindi open source
+  - Kailangan ng bayad na lisensya para sa pangkomersyong paggamit

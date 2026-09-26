@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 1db86c42c600a813
+summary: "GPL-3.0 na may dagdag na network clause: dapat ialok ang source code
+  sa mga user na gumagamit ng binagong bersyon sa pamamagitan ng network."
+analogy: "Ang patakaran sa resipe ay para rin sa mga restawran: ang paghahain ng
+  ulam ay itinuturing na pamimigay nito."
+pros:
+  - Isinasara ang butas ng SaaS
+  - Magandang batayan para sa dual licensing
+  - Open source na aprubado ng OSI
+cons:
+  - Tahasang ipinagbabawal ito ng maraming kompanya
+  - Pinapayagan pa rin ang pag-host nang walang pagbabago

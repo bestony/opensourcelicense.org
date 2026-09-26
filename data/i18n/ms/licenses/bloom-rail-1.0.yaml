@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 76c3b4e3dc7fbff1
+summary: "Responsible AI License pertama untuk model bahasa besar: akses terbuka
+  dengan sekatan berasaskan penggunaan yang mengikat terbitan."
+analogy: Alat percuma dengan senarai penggunaan terlarang yang dilampirkan pada
+  setiap salinan.
+pros:
+  - Membenarkan penggunaan komersial
+  - Perintis pelesenan RAIL
+cons:
+  - Bukan sumber terbuka menurut OSI
+  - Sekatan sukar dikuatkuasakan

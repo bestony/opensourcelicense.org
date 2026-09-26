@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: ded3362d69058c2a
+summary: Apache-2.0 na may exception na nag-aalis ng obligasyon sa pagkilala
+  para sa compiled na code at nagpapahintulot na magamit ito sa mga GPL-2.0 na
+  proyekto.
+analogy: Ang toolkit ng Apache, na may paalalang hindi kailangang kilalanin ang
+  mga natirang piraso ng tool sa produkto mo.
+pros:
+  - May pagbibigay ng karapatan sa patent ng Apache-2.0
+  - Gumagana kasama ng GPL-2.0 na code
+cons:
+  - Mas mahaba kaysa sa MIT
+  - Ang exception ay para lamang sa mga proyektong tulad ng compiler

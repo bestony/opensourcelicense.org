@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 33f06e1e52928136
+summary: Làm gần như mọi thứ với mã. Giữ thông báo bản quyền và giấy phép. Không
+  bảo hành.
+analogy: "Như để lại một cuốn sách miễn phí ở quán cà phê: lấy, sao chép, bán
+  đều được, chỉ cần giữ tên tác giả trên bìa."
+pros:
+  - Ngắn gọn và dễ hiểu
+  - Giấy phép dễ được doanh nghiệp chấp nhận nhất
+  - Tương thích với hầu hết mọi giấy phép khác
+cons:
+  - Không cấp quyền sáng chế
+  - Ai cũng có thể tạo đối thủ mã nguồn đóng hoặc dịch vụ lưu trữ

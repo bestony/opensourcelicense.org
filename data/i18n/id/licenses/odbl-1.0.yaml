@@ -1,0 +1,15 @@
+reviewed: false
+sourceHash: 6a4054dc9cca8e7e
+summary: "Share-alike untuk basis data: Anda boleh memakai data secara
+  komersial, tetapi basis data turunan yang dipublikasikan harus tetap
+  berlisensi ODbL. Karya yang dihasilkan seperti peta atau gambar cukup
+  mencantumkan atribusi."
+analogy: Bangun di atas peta bersama, dan jika Anda memublikasikan basis data
+  peta yang lebih baik, bagikan kembali dengan ketentuan yang sama.
+pros:
+  - Menjaga basis data yang diperbaiki tetap terbuka
+  - Penggunaan komersial diizinkan
+  - Terbukti di OpenStreetMap
+cons:
+  - Share-alike bisa menghalangi penggabungan dengan data lain
+  - '"Basis data turunan" kadang tidak jelas'

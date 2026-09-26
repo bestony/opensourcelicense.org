@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 362187e701e25e6a
+summary: File-level na copyleft na hango sa MPL, na may pagbibigay ng karapatan
+  sa patent; hindi tugma sa GPL.
+analogy: Ibahagi ang mga pagbabago sa hiniram na file; panatilihing sarado ang
+  iba kung gusto mo.
+pros:
+  - Saklaw sa antas ng file
+  - Pagbibigay ng karapatan sa patent
+cons:
+  - Hindi tugma sa GPL (ang problema ng ZFS-on-Linux)
+  - Kaunti lang ang bagong proyektong gumagamit nito

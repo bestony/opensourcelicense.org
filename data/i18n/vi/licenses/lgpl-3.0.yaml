@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: cdef0d42cb1ab51e
+summary: "Copyleft cấp thư viện: thay đổi trong thư viện vẫn phải mở; ứng dụng
+  đóng có thể liên kết tới nó nếu người dùng có thể thay thế thư viện."
+analogy: "Một động cơ dùng chung: bạn có thể lắp vào xe của mình, nhưng chủ xe
+  phải có thể thay nó bằng động cơ của họ."
+pros:
+  - Cho phép ứng dụng độc quyền dùng thư viện
+  - Thay đổi trong thư viện vẫn phải mở
+  - Cấp quyền sáng chế
+cons:
+  - Quy tắc liên kết lại phức tạp, nhất là với liên kết tĩnh và di động
+  - Một số công ty vẫn tránh dùng

@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 57d3e35a6ad686d1
+actor: other
+title: Ai đó fork và phân phối một sản phẩm cạnh tranh mã nguồn đóng
+cells:
+  apache-2.0: Phải đánh dấu các tệp đã sửa
+  mpl-2.0: Các tệp MPL đã sửa vẫn phải mở
+  lgpl-3.0: Thay đổi trong thư viện vẫn phải mở
+  busl-1.1: Sản phẩm phái sinh vẫn theo BSL
+  elv2: Phải giữ nguyên các giới hạn

@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cf76d86201254c1b
+summary: "Copyleft mạnh: sản phẩm phái sinh được phân phối phải phát hành toàn
+  bộ theo GPL-2.0. Không có cấp quyền sáng chế rõ ràng; không tương thích với
+  GPL-3.0 trừ khi dùng 'or later'."
+analogy: Quy tắc chia sẻ công thức, trong ấn bản cũ.
+pros:
+  - Giữ các sản phẩm phái sinh được phân phối luôn mở
+  - Được nhân Linux sử dụng
+cons:
+  - Không tương thích với Apache-2.0 và GPL-3.0 (bản only)
+  - Không có cấp quyền sáng chế rõ ràng

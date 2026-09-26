@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 7db0448b4abf3505
+summary: "Lesen setara MIT yang lebih ringkas: sebarang penggunaan dengan notis
+  hak cipta dan kebenaran dikekalkan."
+analogy: Buku percuma yang sama seperti MIT, dengan nota lebih ringkas pada kulitnya.
+pros:
+  - Lesen permisif lazim yang paling ringkas
+  - Lalai bagi banyak pakej npm
+cons:
+  - Tiada pemberian hak paten
+  - Fork tertutup dibenarkan

@@ -1,0 +1,15 @@
+reviewed: false
+sourceHash: 4803251a37336702
+summary: "Isang custom na lisensya ng modelo: pinapayagan ang pangkomersyong
+  paggamit, na may Acceptable Use Policy, mga patakaran sa pagkilala at
+  pagpapangalan, at hiwalay na lisensya kapag lampas sa 700M monthly active
+  user."
+analogy: Isang makinang libreng gamitin na may rulebook, at espesyal na kontrata
+  para sa pinakamalalaking gumagawa ng sasakyan.
+pros:
+  - Pinapayagan ang pangkomersyong paggamit para sa karamihan ng user
+  - Malaking ecosystem
+cons:
+  - Hindi open source ayon sa OSI
+  - May obligasyon sa patakaran sa paggamit at pagpapangalan
+  - Nagbabago ang mga tuntunin sa bawat bersyon

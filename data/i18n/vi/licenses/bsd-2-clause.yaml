@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 261d8b56fb436858
+summary: "Giống MIT: tự do sử dụng mã; giữ thông báo bản quyền và tuyên bố miễn
+  trừ trong bản sao mã nguồn và nhị phân."
+analogy: "Một tấm thẻ công thức miễn phí: chép ở đâu cũng được, chỉ cần giữ dòng
+  tên tác giả ở cuối."
+pros:
+  - Rất ngắn và dễ dãi
+  - Được dùng rộng rãi trong các hệ thống BSD
+cons:
+  - Không cấp quyền sáng chế
+  - Cho phép fork đóng

@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: cb1197749de0ea7e
+summary: Cho phép tự do sửa đổi và phân phối, nhưng phiên bản sửa đổi phải được
+  đánh dấu rõ hoặc đổi tên, hoặc công khai mã nguồn. Có điều khoản về sáng chế.
+analogy: Cứ phối lại bài hát, nhưng đừng bán bản phối của bạn như bản gốc.
+pros:
+  - Bảo vệ bản sắc của bản gốc
+  - Tương thích với GPL
+cons:
+  - Điều kiện dài dòng
+  - Hiếm gặp ngoài Raku và Perl

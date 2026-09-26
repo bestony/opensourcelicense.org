@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 841fb8980cea558f
+summary: GPL-2.0 para sa mismong library, na may exception na nagpapahintulot sa
+  mga independiyenteng programa na mag-link dito sa ilalim ng anumang lisensya.
+analogy: Isang pinagsasaluhang makina sa ilalim ng patakarang
+  ibahagi-ang-resipe, pero sa iyo pa rin ang sarili mong sasakyan.
+pros:
+  - Puwedeng sarado ang mga application na naka-link dito
+  - Ginagamit ng OpenJDK
+cons:
+  - Nananatiling GPL ang mga pagbabago sa library
+  - Hindi tugma sa mga GPL-3.0-only na proyekto

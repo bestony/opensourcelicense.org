@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 5941dce0a6108d60
+summary: Copyleft yếu ở cấp mô-đun có cấp quyền sáng chế; có thể chỉ định GPL
+  làm giấy phép thứ cấp để tương thích.
+analogy: Chia sẻ thay đổi của bạn trên chương sách đã mượn; phần còn lại của
+  cuốn sách là của bạn.
+pros:
+  - Copyleft thân thiện với doanh nghiệp
+  - Cấp quyền sáng chế
+cons:
+  - Chỉ tương thích với GPL khi khai báo giấy phép thứ cấp
+  - Ranh giới mô-đun có thể không rõ ràng

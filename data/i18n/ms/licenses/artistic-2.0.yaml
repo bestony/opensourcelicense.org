@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cb1197749de0ea7e
+summary: Membenarkan pengubahsuaian dan pengedaran secara bebas, tetapi versi
+  yang diubah suai mesti ditanda dengan jelas atau dinamakan semula, atau kod
+  sumbernya disediakan. Mengandungi terma paten.
+analogy: Remiks lagu itu, tetapi jangan jual remiks anda sebagai lagu asal.
+pros:
+  - Melindungi identiti karya asal
+  - Serasi dengan GPL
+cons:
+  - Syaratnya berjela-jela
+  - Jarang digunakan di luar Raku dan Perl

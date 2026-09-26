@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 99f045fe47a729cc
+summary: "Công khai mã nguồn: tự do sử dụng, sửa đổi và phân phối, trừ việc cung
+  cấp sản phẩm SaaS cạnh tranh với Confluent."
+analogy: Dùng công thức ở bất kỳ nhà hàng nào, trừ nhà hàng cạnh tranh với tác giả.
+pros:
+  - Hạn chế hẹp
+  - Hầu hết người dùng không bị ảnh hưởng
+cons:
+  - Không phải mã nguồn mở
+  - Loại trừ đối thủ đám mây chỉ dựa trên mô tả

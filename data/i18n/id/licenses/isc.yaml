@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 7db0448b4abf3505
+summary: "Lisensi setara MIT yang lebih singkat: penggunaan apa pun asalkan
+  pemberitahuan hak cipta dan izin dipertahankan."
+analogy: Buku gratis yang sama seperti MIT, dengan catatan yang lebih singkat di
+  sampulnya.
+pros:
+  - Lisensi permisif umum yang paling singkat
+  - Bawaan untuk banyak paket npm
+cons:
+  - Tidak ada pemberian hak paten
+  - Fork tertutup diizinkan

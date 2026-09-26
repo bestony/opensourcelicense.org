@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: cec538ff11fd0ee8
+summary: "Permissive na lisensya: dapat markahan bilang binago ang binagong
+  source, hindi dapat ilihis ang pinagmulan nito, at nananatili ang abiso sa mga
+  kopya ng source."
+analogy: Hiramin ang resipe, pero kung babaguhin mo ito, huwag sabihing ito ang
+  orihinal.
+pros:
+  - Permissive at maikli
+  - Sikat para sa mga laro at native na library
+cons:
+  - Walang pagbibigay ng karapatan sa patent
+  - Pinapayagan ang saradong fork

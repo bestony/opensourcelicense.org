@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 97ea126725162df2
+summary: "Permissive na lisensya para sa datos mula sa Linux Foundation:
+  malayang gamitin at ibahagi ang datos; hindi nililimitahan ang mga resulta
+  tulad ng mga na-train na modelo."
+analogy: Gamitin ang dataset sa kahit ano; isama ang kasunduan kapag ipinasa mo
+  ang datos.
+pros:
+  - Tahasang pinalalaya ang mga resulta ng komputasyon
+  - Isinulat para sa datos
+cons:
+  - Hindi gaanong kilala kaysa sa mga CC license
+  - Mas simple ang bersyon 2.0

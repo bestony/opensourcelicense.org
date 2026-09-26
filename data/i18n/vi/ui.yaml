@@ -1,0 +1,360 @@
+reviewed: false
+sourceHash: a2d7eb045dde7649
+strings:
+  site.name: opensourcelicense.org
+  site.tagline: Công cụ hỗ trợ chọn giấy phép mã nguồn mở
+  site.description: Chọn, so sánh và kiểm tra giấy phép mã nguồn mở. Xem các dự án
+    thực tế dùng giấy phép nào, rủi ro có thể xảy ra và giấy phép nào phù hợp
+    với dự án của bạn.
+  nav.home: Trang chủ
+  nav.licenses: Giấy phép
+  nav.scenarios: Tình huống
+  nav.projects: Dự án
+  nav.trends: Xu hướng
+  nav.compare: So sánh
+  nav.wizard: Trình hướng dẫn
+  nav.chat: Cố vấn AI
+  nav.check: Kiểm tra phụ thuộc
+  nav.menu: Menu
+  lang.switch: Ngôn ngữ
+  lang.suggest: Trang này có sẵn bằng {language}.
+  lang.suggest.go: Chuyển
+  lang.suggest.dismiss: Bỏ qua
+  footer.disclaimer: Trang web này cung cấp thông tin chung, không phải tư vấn
+    pháp lý. Với tranh chấp hoặc hợp đồng thực tế, hãy hỏi ý kiến luật sư.
+  footer.source: Mã nguồn (AGPL-3.0)
+  footer.data: Dữ liệu theo CC-BY-4.0
+  footer.report: Báo lỗi
+  footer.cite: Dữ liệu từ opensourcelicense.org, CC-BY-4.0
+  footer.hosting: Chạy trên gói miễn phí của Cloudflare Workers
+  footer.dns: Tên miền được lưu trữ trên Cloudflare
+  badge.machine: Bản dịch máy
+  badge.reviewed: Bản dịch đã được duyệt
+  badge.fallback: Chưa được dịch — đang hiển thị tiếng Anh
+  badge.stale: có thể đã lỗi thời
+  badge.unreviewed-data: Bản nháp — chưa được luật sư xem xét
+  common.updated: Dữ liệu cập nhật {date}
+  common.back: Quay lại
+  common.copy: Sao chép
+  common.copied: Đã sao chép
+  common.download: Tải xuống
+  common.close: Đóng
+  common.all: Tất cả
+  common.yes: Có
+  common.no: Không
+  common.unknown: Không rõ
+  common.none: Không có
+  common.more: Thêm
+  common.loading: Đang tải…
+  common.error: Đã xảy ra lỗi.
+  common.search: Tìm kiếm
+  home.title: Chọn giấy phép mã nguồn mở một cách sáng suốt
+  home.lead: Không chỉ là "chọn giấy phép nào", mà còn là các dự án tương tự đã
+    chọn gì, trường hợp xấu nhất ra sao và cần làm gì tiếp theo.
+  home.entry.chat.title: Trò chuyện với cố vấn AI
+  home.entry.chat.body: Mô tả dự án bằng lời của bạn. Nhận hồ sơ dự án, câu hỏi bổ sung và báo cáo.
+  home.entry.projects.title: Xem người khác dùng gì
+  home.entry.projects.body: Giấy phép của các dự án nổi tiếng, và lý do một số dự án đã đổi giấy phép.
+  home.entry.wizard.title: Lọc từng bước
+  home.entry.wizard.body: Trả lời vài câu hỏi và nhận danh sách rút gọn đã xếp hạng kèm giải thích.
+  home.wall: Giấy phép của các dự án phổ biến
+  home.changes: Các thay đổi giấy phép gần đây
+  home.scenarios: Điều gì có thể xảy ra?
+  home.scenarios.body: 27 tình huống cực đoan × 17 cột giấy phép, mỗi ô một trang.
+  family.permissive: Dễ dãi (permissive)
+  family.weak-copyleft: Copyleft yếu
+  family.strong-copyleft: Copyleft mạnh
+  family.network-copyleft: Copyleft mạng
+  family.source-available: Công khai mã nguồn
+  family.model: Giấy phép mô hình
+  family.content: Nội dung / dữ liệu
+  verdict.allow: Được phép
+  verdict.conditional: Có điều kiện
+  verdict.deny: Bị giấy phép cấm
+  verdict.silent: Không đề cập
+  verdict.tbd: Đang xem xét
+  verdict.legend: "Chú giải: ✓ bên kia được làm điều này · ◐ có điều kiện · ✗ giấy
+    phép cấm · — giấy phép không đề cập (áp dụng luật chung)"
+  actor.other: Người khác làm điều này
+  actor.you: Bạn muốn làm điều này
+  actor.contributor: Người đóng góp làm điều này
+  actor.both: Áp dụng cho cả hai bên
+  group.A: Cạnh tranh thương mại
+  group.B: Bằng sáng chế và pháp luật
+  group.C: Phát triển và kinh doanh
+  group.D: Sử dụng và tuân thủ
+  group.E: Mô hình AI và dữ liệu
+  matrix.code: Giấy phép mã nguồn
+  matrix.model: Giấy phép mô hình và dữ liệu
+  term.commercial-use: Sử dụng thương mại
+  term.modification: Sửa đổi
+  term.distribution: Phân phối
+  term.private-use: Sử dụng cá nhân
+  term.patent-use: Cấp quyền sáng chế
+  term.non-production-use: Sử dụng ngoài môi trường production
+  term.converts-to-open-source: Sau này chuyển thành mã nguồn mở
+  term.include-copyright: Giữ thông báo bản quyền
+  term.include-license: Kèm theo giấy phép
+  term.document-changes: Đánh dấu thay đổi
+  term.disclose-source: Công bố mã nguồn
+  term.same-license: Cùng giấy phép cho sản phẩm phái sinh
+  term.same-license-file: Cùng giấy phép (cấp tệp)
+  term.same-license-library: Cùng giấy phép (cấp thư viện)
+  term.allow-relinking: Cho phép liên kết lại
+  term.network-use-disclose: Sử dụng qua mạng được coi là phân phối
+  term.service-stack-disclose: Công bố toàn bộ stack dịch vụ
+  term.keep-limitations: Giữ nguyên các giới hạn
+  term.attribution: Ghi công
+  term.attribution-built-with: Hiển thị "Built with"
+  term.name-prefix: Quy tắc tiền tố tên
+  term.acceptable-use-policy: Chính sách sử dụng được chấp nhận
+  term.use-restrictions-pass-through: Chuyển tiếp các hạn chế sử dụng
+  term.indicate-changes: Nêu rõ thay đổi
+  term.liability: Không chịu trách nhiệm pháp lý
+  term.warranty: Không bảo hành
+  term.trademark-use: Không có quyền nhãn hiệu
+  term.no-endorsement: Không bảo chứng
+  term.production-use-restricted: Hạn chế dùng trong production
+  term.no-managed-service: Cấm cung cấp dưới dạng dịch vụ được quản lý
+  term.no-license-key-circumvention: Cấm vượt qua khóa giấy phép
+  term.mau-threshold: Ngưỡng số người dùng
+  term.use-restrictions: Hạn chế sử dụng
+  term.non-commercial: Chỉ phi thương mại
+  licenses.title: Danh sách giấy phép mã nguồn mở
+  licenses.lead: "{count} giấy phép, từ giấy phép dễ dãi đến giấy phép công khai
+    mã nguồn và giấy phép mô hình."
+  licenses.col.license: Giấy phép
+  licenses.col.family: Nhóm
+  licenses.col.osi: OSI
+  licenses.col.fsf: Tự do theo FSF
+  licenses.col.projects: Dự án
+  licenses.filter: Lọc theo nhóm
+  license.permissions: Quyền
+  license.conditions: Điều kiện
+  license.limitations: Giới hạn
+  license.summary: Nói đơn giản
+  license.analogy: Ví von
+  license.pros: Ưu điểm
+  license.cons: Nhược điểm
+  license.scenarios: Tình huống cực đoan
+  license.radar: Radar trường hợp xấu nhất
+  license.projects: Dự án nổi tiếng sử dụng giấy phép này
+  license.projects.count: "{count} dự án nổi tiếng trong bản đồ của chúng tôi dùng giấy phép này."
+  license.projects.none: Chưa có dự án nào trong bản đồ của chúng tôi dùng giấy phép này.
+  license.projects.since: Chuyển sang giấy phép này vào {date}
+  license.projects.also: "Cũng được cấp phép theo: {licenses}"
+  license.projects.former: Các dự án đã rời bỏ giấy phép này
+  license.text: Văn bản chính thức
+  license.text.official: Văn bản chính thức bằng {language}
+  license.text.note: Chỉ văn bản chính thức mới có giá trị pháp lý. Chúng tôi
+    không dịch văn bản giấy phép.
+  license.compare: So sánh với…
+  license.spdx: Mã định danh SPDX
+  radar.anti-freeride: Ngăn hưởng lợi miễn phí
+  radar.anti-closed-fork: Ngăn fork đóng
+  radar.patent: Bảo vệ bằng sáng chế
+  radar.adoption-friction: Rào cản áp dụng
+  radar.relicense-difficulty: Khó đổi giấy phép
+  radar.misuse-control: Kiểm soát lạm dụng
+  radar.derivative-control: Kiểm soát sản phẩm phái sinh
+  radar.commercial-control: Kiểm soát thương mại
+  radar.note: Được tính từ ma trận tình huống. Giá trị cao hơn nghĩa là tính chất
+    đó mạnh hơn, không phải "tốt hơn".
+  scenarios.title: Ma trận tình huống cực đoan của giấy phép
+  scenarios.lead: Điều gì xảy ra sau khi bạn chọn giấy phép? Mỗi ô trả lời một câu
+    hỏi và có trang riêng.
+  scenarios.highlight: Làm nổi bật một giấy phép
+  scenarios.expand: Mở rộng tất cả
+  scenarios.collapse: Thu gọn tất cả
+  scenarios.silent-note: Các hàng chỉ có "—" được giữ lại có chủ ý. Câu trả lời
+    phụ thuộc vào hợp đồng lao động (C6), luật kiểm soát xuất khẩu (D5) hoặc các
+    vụ kiện đang diễn ra (D6), không phụ thuộc vào giấy phép.
+  scenario.flow.you: Bạn phát hành theo {license}
+  scenario.flow.they: Tình huống
+  scenario.flow.result: Kết quả
+  scenario.clause: Điều khoản liên quan
+  scenario.case: Vụ việc thực tế
+  scenario.others: Cùng tình huống, giấy phép khác
+  scenario.other-scenarios: Các tình huống khác của {license}
+  scenario.no-clause: Không có điều khoản cụ thể. Áp dụng luật chung.
+  scenario.review: Trạng thái xem xét
+  scenario.review.none: Chưa được luật sư xem xét.
+  scenario.review.done: Được {who} xem xét vào {date}.
+  compare.title: So sánh giấy phép mã nguồn mở
+  compare.lead: Chọn hai hoặc ba giấy phép để so sánh từng điều khoản và từng tình huống.
+  compare.pick: Thêm giấy phép
+  compare.remove: Xóa
+  compare.terms: Điều khoản
+  compare.scenarios: Tình huống
+  compare.empty: Hãy chọn ít nhất hai giấy phép.
+  wizard.title: Trình hướng dẫn chọn giấy phép
+  wizard.lead: Trả lời vài câu hỏi. Bộ máy quy tắc sẽ xếp hạng các giấy phép và
+    giải thích từng điểm số.
+  wizard.next: Tiếp
+  wizard.prev: Quay lại
+  wizard.finish: Xem kết quả
+  wizard.restart: Bắt đầu lại
+  wizard.skip: Bỏ qua
+  wizard.step: Bước {n}/{total}
+  wizard.to-chat: Tiếp tục với cố vấn AI
+  q.artifact_type: Bạn đang phát hành gì?
+  q.openness_level: Bạn muốn mở đến mức nào?
+  q.avoid: Bạn muốn tránh những kết quả nào?
+  q.avoid.hint: Chọn bao nhiêu tùy ý.
+  q.adoption_goal: Điều gì quan trọng nhất?
+  q.dependencies: Bạn có phụ thuộc vào mã copyleft không?
+  q.dependencies.hint: Thêm mã SPDX của giấy phép phụ thuộc, ví dụ GPL-3.0-only.
+  q.commercial_plan: Bạn sẽ kiếm tiền bằng cách nào, nếu có?
+  q.jurisdiction: Bạn đặt trụ sở ở đâu?
+  opt.artifact_type.library: Thư viện hoặc SDK
+  opt.artifact_type.application: Ứng dụng hoặc công cụ
+  opt.artifact_type.saas: Backend dịch vụ (SaaS)
+  opt.artifact_type.model: Trọng số mô hình
+  opt.artifact_type.dataset: Bộ dữ liệu
+  opt.artifact_type.docs: Tài liệu hoặc nội dung
+  opt.openness_level.open: Hoàn toàn mở — ai cũng được làm mọi thứ
+  opt.openness_level.reciprocal: Mở, nhưng các cải tiến phải được chia sẻ lại
+  opt.openness_level.source-available: Công khai mã nguồn, hạn chế sử dụng thương mại
+  opt.avoid.cloud-hosting: Nhà cung cấp đám mây bán nó dưới dạng dịch vụ
+  opt.avoid.closed-fork: Fork mã nguồn đóng
+  opt.avoid.patent-litigation: Kiện tụng bằng sáng chế
+  opt.avoid.trademark-abuse: Lạm dụng tên hoặc thương hiệu của tôi
+  opt.avoid.harmful-use: Sử dụng gây hại
+  opt.avoid.big-company: Công ty lớn dùng miễn phí
+  opt.adoption_goal.enterprise: Được doanh nghiệp áp dụng rộng rãi nhất
+  opt.adoption_goal.community: Đóng góp từ cộng đồng
+  opt.adoption_goal.monetize: Kiếm tiền từ nó
+  opt.commercial_plan.none: Chưa có kế hoạch
+  opt.commercial_plan.dual-license: Cấp phép kép
+  opt.commercial_plan.open-core: Open core (lõi mở)
+  opt.commercial_plan.hosted: Dịch vụ lưu trữ sẵn (hosted)
+  opt.jurisdiction.cn: Trung Quốc
+  opt.jurisdiction.eu: Liên minh châu Âu
+  opt.jurisdiction.us: Hoa Kỳ
+  opt.jurisdiction.other: Khác
+  engine.part.avoid: "Bảo vệ trước: {avoid}"
+  engine.part.openness: "Phù hợp mức độ mở: {openness}"
+  engine.part.adoption: "Mục tiêu: {goal}"
+  engine.part.commercial: "Kế hoạch kinh doanh: {plan}"
+  engine.part.jurisdiction: "Khu vực pháp lý: {jurisdiction}"
+  engine.part.dependency: "Chỉ tương thích khi có điều kiện: {dependency}"
+  engine.excluded.dependency: Không tương thích với phụ thuộc {dependency}
+  engine.excluded.artifact: Không phù hợp với loại sản phẩm này
+  advisory.needs-cla: Hãy dùng Contributor License Agreement (CLA). Bạn sẽ cần nó
+    để bán giấy phép thương mại hoặc đổi giấy phép sau này.
+  advisory.consider-dco: Developer Certificate of Origin (DCO, "Signed-off-by") thường là đủ.
+  advisory.busl-change-date: Đặt Additional Use Grant, Change Date và Change
+    License trong phần đầu của BSL.
+  advisory.model-card: Ghi giấy phép vào metadata của model card hoặc dataset card
+    (trường "license:").
+  advisory.notice-file: Thêm tệp NOTICE và giữ nguyên tệp này khi phân phối lại.
+  advisory.consult-lawyer: Nhờ luật sư kiểm tra các phụ thuộc và điều khoản kinh
+    doanh trước khi phát hành.
+  advisory.network-source-link: Hiển thị liên kết "Mã nguồn" cho người dùng dịch vụ mạng của bạn.
+  report.title: Báo cáo giấy phép của bạn
+  report.lead: Báo cáo này được tính ngay trong trình duyệt của bạn từ hồ sơ trong
+    liên kết. Chia sẻ liên kết để chia sẻ báo cáo.
+  report.profile: Hồ sơ dự án
+  report.edit: Chỉnh sửa trong trình hướng dẫn
+  report.top: Đề xuất
+  report.score: Điểm {score}
+  report.why: Lý do
+  report.excluded: Bị loại
+  report.advisories: Bước tiếp theo
+  report.license-file: Tệp LICENSE
+  report.header: Phần đầu tệp
+  report.badge: Huy hiệu README
+  report.share: Liên kết chia sẻ
+  report.share.copy: Sao chép liên kết
+  report.similar: Dự án tương tự
+  report.no-text: Không có văn bản máy đọc được. Hãy lấy từ trang chính thức.
+  report.invalid: Liên kết báo cáo này bị hỏng hoặc thuộc phiên bản cũ.
+  report.empty: Chưa có hồ sơ. Hãy bắt đầu với trình hướng dẫn hoặc cố vấn AI.
+  chat.title: Cố vấn giấy phép AI
+  chat.lead: Mô tả dự án của bạn. Cố vấn sẽ hỏi thêm, bộ máy quy tắc chọn giấy
+    phép, và cố vấn giải thích lựa chọn đó.
+  chat.placeholder: "Ví dụ: Tôi đã xây dựng một cơ sở dữ liệu vector và lo rằng
+    các nhà cung cấp đám mây sẽ bán lại nó."
+  chat.send: Gửi
+  chat.stop: Dừng
+  chat.examples: Thử một ví dụ
+  chat.example.1: Tôi đã xây dựng một cơ sở dữ liệu vector và lo rằng các nhà cung
+    cấp đám mây sẽ bán lại nó.
+  chat.example.2: Một thư viện component React nhỏ. Tôi muốn các công ty sử dụng nó.
+  chat.example.3: Chúng tôi đã fine-tune một mô hình 7B và muốn chặn các mục đích
+    sử dụng gây hại.
+  chat.profile: Hồ sơ dự án
+  chat.profile.hint: Nhấp vào một giá trị để thay đổi.
+  chat.candidates: Ứng viên
+  chat.run: Nhận đề xuất
+  chat.limit: Bạn đã đạt giới hạn hôm nay. Vui lòng thử lại vào ngày mai hoặc dùng
+    trình hướng dẫn.
+  chat.error: Cố vấn hiện không khả dụng. Trình hướng dẫn vẫn hoạt động.
+  chat.verify: Vui lòng xác nhận bạn là người thật.
+  chat.disclaimer: Cố vấn có thể mắc lỗi. Các đề xuất đến từ bộ máy quy tắc, và
+    đây không phải tư vấn pháp lý.
+  chat.report: Mở báo cáo đầy đủ
+  projects.title: Bản đồ giấy phép của các dự án mã nguồn mở
+  projects.lead: Giấy phép của các dự án nổi tiếng và câu chuyện đằng sau mỗi lần thay đổi.
+  projects.filter.domain: Lĩnh vực
+  projects.filter.family: Nhóm giấy phép
+  projects.filter.owner: Chủ sở hữu
+  projects.filter.changed: Đã đổi giấy phép
+  projects.count: "{count} dự án"
+  projects.empty: Không có dự án nào khớp với bộ lọc này.
+  owner.company: Công ty
+  owner.foundation: Quỹ
+  owner.individual: Cá nhân
+  owner.community: Cộng đồng
+  project.current: Giấy phép hiện tại
+  project.timeline: Dòng thời gian giấy phép
+  project.reason: Lý do
+  project.announcement: Thông báo
+  project.forks: Các fork ra đời sau đó
+  project.fork-of: Fork của {name}
+  project.repo: Kho mã
+  project.similar: Dự án tương tự
+  project.review: Mục này do bot đồng bộ tìm thấy và đang chờ người xem xét.
+  project.initial: Giấy phép ban đầu
+  domain.database: Cơ sở dữ liệu
+  domain.frontend: Framework frontend
+  domain.devops: DevOps
+  domain.ai-model: Mô hình AI
+  domain.language: Ngôn ngữ và runtime
+  domain.os: Hệ điều hành
+  domain.web: Máy chủ web và backend
+  domain.tooling: Công cụ cho nhà phát triển
+  domain.data: Dữ liệu và phân tích
+  domain.observability: Khả năng quan sát (observability)
+  domain.messaging: Nhắn tin và streaming
+  domain.cms: CMS và ứng dụng
+  trends.title: Xu hướng giấy phép mã nguồn mở
+  trends.lead: Tổng hợp từ bản đồ dự án tại thời điểm build.
+  trends.family-share: Nhóm giấy phép theo lĩnh vực
+  trends.changes: Số lần đổi giấy phép theo năm
+  trends.to-source-available: Các dự án chuyển từ mã nguồn mở sang công khai mã nguồn (source-available)
+  search.lead: Tìm giấy phép, tình huống và dự án bằng ngôn ngữ này.
+  search.noscript: Tính năng tìm kiếm cần JavaScript.
+  check.title: Kiểm tra tương thích giấy phép của thư viện phụ thuộc
+  check.lead: Dán package.json, go.mod, Gemfile.lock, Cargo.toml hoặc
+    requirements.txt. Việc phân tích diễn ra trong trình duyệt của bạn.
+  check.project-license: Giấy phép dự án của bạn
+  check.input: Tệp manifest
+  check.run: Kiểm tra
+  check.lookup: Tra cứu trực tuyến các giấy phép chưa rõ (deps.dev)
+  check.col.package: Gói
+  check.col.license: Giấy phép
+  check.col.status: Trạng thái
+  check.status.compatible: Tương thích
+  check.status.conditional: Có điều kiện
+  check.status.incompatible: Xung đột
+  check.status.unknown: Không rõ
+  check.summary: "{ok} tương thích, {warn} có điều kiện, {bad} xung đột, {unknown} không rõ"
+  check.format: "Định dạng phát hiện được: {format}"
+  check.no-deps: Không tìm thấy phụ thuộc nào.
+  check.license-hint: Thêm giấy phép vào manifest dưới dạng các dòng "name@version
+    LICENSE-ID", hoặc bật tra cứu trực tuyến.
+  notfound.title: Không tìm thấy trang
+  notfound.body: Trang này không tồn tại. Hãy thử xem danh sách giấy phép.
+  domain.education: Giáo dục
+  domain.design: Phông chữ và thiết kế

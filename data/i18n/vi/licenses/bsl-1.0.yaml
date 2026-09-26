@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 3d7476dd1bfc7f5b
+summary: Giấy phép dễ dãi; thông báo là bắt buộc trong bản sao mã nguồn nhưng
+  không bắt buộc trong tệp nhị phân đã biên dịch.
+analogy: Giữ tên tác giả trong cuốn sách công thức, không phải trên mỗi đĩa bạn phục vụ.
+pros:
+  - Không cần thông báo trong tệp nhị phân
+  - Tiêu chuẩn cho thư viện C++
+cons:
+  - Không cấp quyền sáng chế
+  - Ít được biết đến ngoài C++

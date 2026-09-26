@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 6a4054dc9cca8e7e
+summary: "Share-alike cho cơ sở dữ liệu: bạn được dùng dữ liệu cho mục đích
+  thương mại, nhưng cơ sở dữ liệu phái sinh công khai phải giữ giấy phép ODbL.
+  Các tác phẩm tạo ra như bản đồ hay hình ảnh chỉ cần ghi công."
+analogy: Xây dựng trên tấm bản đồ chung, và nếu bạn công bố cơ sở dữ liệu bản đồ
+  đã cải tiến, hãy chia sẻ lại theo cùng điều khoản.
+pros:
+  - Giữ các cơ sở dữ liệu cải tiến luôn mở
+  - Cho phép sử dụng thương mại
+  - Đã được OpenStreetMap kiểm chứng
+cons:
+  - Share-alike có thể cản trở kết hợp với dữ liệu khác
+  - Khái niệm "cơ sở dữ liệu phái sinh" đôi khi không rõ

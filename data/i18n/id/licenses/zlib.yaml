@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: cec538ff11fd0ee8
+summary: "Lisensi permisif: kode sumber yang diubah harus ditandai sebagai
+  diubah, asal-usulnya tidak boleh disalahartikan, dan pemberitahuan tetap ada
+  di salinan kode sumber."
+analogy: Pinjam resepnya, tetapi jika Anda mengubahnya, jangan mengaku itu resep
+  aslinya.
+pros:
+  - Permisif dan singkat
+  - Populer untuk game dan pustaka native
+cons:
+  - Tidak ada pemberian hak paten
+  - Fork tertutup diizinkan

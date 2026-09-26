@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 7db0448b4abf3505
+summary: "Mas maikling lisensyang katumbas ng MIT: anumang paggamit basta
+  panatilihin ang abiso ng copyright at pahintulot."
+analogy: Ang parehong libreng aklat ng MIT, na may mas maikling paalala sa pabalat.
+pros:
+  - Pinakamaikling karaniwang permissive na lisensya
+  - Default para sa maraming npm package
+cons:
+  - Walang pagbibigay ng karapatan sa patent
+  - Pinapayagan ang saradong fork

@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 4f30616160bfe68b
+actor: you
+title: Anda kemudian mengganti lisensi atau menjual lisensi komersial
+  (kontributor tidak menandatangani CLA)
+cells:
+  mit: Versi baru bisa berubah; versi lama tetap
+  bsd-3-clause: Sama seperti MIT
+  apache-2.0: Sama seperti MIT
+  mpl-2.0: File MPL harus tetap MPL
+  lgpl-3.0: Perlu persetujuan semua kontributor
+  mulanpsl-2.0: Sama seperti MIT
+  busl-1.1: Biasanya bergantung pada CLA
+  elv2: Biasanya bergantung pada CLA

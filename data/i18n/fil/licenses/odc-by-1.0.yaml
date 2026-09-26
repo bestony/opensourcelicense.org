@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 7c50fe5f1b7f3c7d
+summary: "Para sa mga database at dataset: anumang paggamit, kasama ang
+  pangkomersyo, basta panatilihin mo ang abiso ng pagkilala. Kailangan din ng
+  abiso ang mga gawang nabuo mo mula sa datos."
+analogy: Gamitin ang datos ng mapa kahit saan, basta sabihin kung saan ito nanggaling.
+pros:
+  - Simpleng patakaran sa pagkilala
+  - Karaniwan para sa malalaking AI training corpus
+  - Saklaw ang karapatan sa database, hindi lang copyright
+cons:
+  - Hindi idinisenyo para sa software
+  - Walang pagbibigay ng karapatan sa patent

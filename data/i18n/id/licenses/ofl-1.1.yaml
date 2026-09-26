@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 2388a1183d57050c
+summary: "Lisensi font bebas: gunakan, sematkan, dan modifikasi font dengan
+  bebas, tetapi font yang dimodifikasi harus melepas nama yang dicadangkan, dan
+  font tidak boleh dijual secara terpisah."
+analogy: Pakai jenis hurufnya di mana saja, tetapi jangan jual file font-nya saja.
+pros:
+  - Mengizinkan penyematan dalam dokumen dan aplikasi
+  - Standar untuk font terbuka
+cons:
+  - Nama font yang dicadangkan menyulitkan fork
+  - Hanya untuk font

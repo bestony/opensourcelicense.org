@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 4f30616160bfe68b
+actor: you
+title: Sau này bạn đổi giấy phép hoặc bán giấy phép thương mại (người đóng góp
+  không ký CLA)
+cells:
+  mit: Phiên bản mới có thể đổi; phiên bản cũ giữ nguyên
+  bsd-3-clause: Giống MIT
+  apache-2.0: Giống MIT
+  mpl-2.0: Tệp MPL phải giữ MPL
+  lgpl-3.0: Cần sự đồng ý của mọi người đóng góp
+  mulanpsl-2.0: Giống MIT
+  busl-1.1: Thường dựa vào CLA
+  elv2: Thường dựa vào CLA

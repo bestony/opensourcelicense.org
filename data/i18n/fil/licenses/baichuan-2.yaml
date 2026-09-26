@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 24c7946bf938191c
+summary: Libreng pangkomersyong paggamit para sa mga serbisyong may mas mababa
+  sa isang milyong daily active user, pagkatapos magparehistro; kailangan ng
+  hiwalay na lisensya ang mas malalaking serbisyo.
+analogy: Libreng makina para sa maliliit na fleet pagkatapos mong iparehistro
+  ang sasakyan.
+pros:
+  - Libre para sa karamihan ng pangkomersyong user
+  - Malakas na mga modelo sa wikang Tsino
+cons:
+  - Hindi open source
+  - May pagpaparehistro at hangganan ng bilang ng user

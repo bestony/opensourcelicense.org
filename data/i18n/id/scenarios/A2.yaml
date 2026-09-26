@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 57d3e35a6ad686d1
+actor: other
+title: Seseorang membuat fork dan mendistribusikan pesaing sumber tertutup
+cells:
+  apache-2.0: Wajib menandai file yang diubah
+  mpl-2.0: File MPL yang diubah tetap terbuka
+  lgpl-3.0: Perubahan pada pustaka tetap terbuka
+  busl-1.1: Turunan tetap berlisensi BSL
+  elv2: Batasan wajib dipertahankan

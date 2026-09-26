@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: c77fe673047b3249
+actor: other
+title: Distillation, o pag-train ng ibang modelo gamit ang mga output nito
+cells:
+  llama: Dapat may "Llama" sa pangalan
+  openrail-m: Minamana ng mga derivative ang mga paghihigpit
+  cc-by-4.0: Pagkilala
+  cc-by-nc-4.0: Hindi pangkomersyo lamang
+  odc-by-1.0: Pagkilala
+  odbl-1.0: Pagkilala

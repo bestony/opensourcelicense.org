@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: c882745d1b8524bb
+summary: Pinapayagan ang pangkomersyong paggamit na may patakaran sa
+  katanggap-tanggap na paggamit; kailangan ng hiwalay na lisensya ang
+  napakalalaking serbisyo, at may ilang teritoryong hindi saklaw.
+analogy: Isang libreng makina na may rulebook, limitasyon sa laki, at mapa kung
+  saan ito puwedeng imaneho.
+pros:
+  - Pangkomersyong paggamit para sa karamihan ng user
+  - Saklaw ang mga modelo para sa teksto, video, at 3D
+cons:
+  - Hindi open source
+  - May mga teritoryong hindi saklaw

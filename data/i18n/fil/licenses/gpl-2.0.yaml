@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cf76d86201254c1b
+summary: "Malakas na copyleft: ang mga ipinamamahaging derivative ay dapat
+  ilabas nang buo sa ilalim ng GPL-2.0. Walang tahasang pagbibigay ng karapatan
+  sa patent; hindi tugma sa GPL-3.0 maliban kung ginagamit ang 'or later'."
+analogy: Ang patakarang ibahagi-ang-resipe, sa mas lumang edisyon nito.
+pros:
+  - Pinananatiling bukas ang mga ipinamamahaging derivative
+  - Ginagamit ng Linux kernel
+cons:
+  - Hindi tugma sa Apache-2.0 at GPL-3.0 (bersyong only)
+  - Walang tahasang pagbibigay ng karapatan sa patent

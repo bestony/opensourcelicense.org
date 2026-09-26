@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 50ad39245dfcc7f1
+summary: "Giấy phép công khai mã nguồn của Redis: tự do sử dụng và sửa đổi,
+  nhưng không được cung cấp phần mềm dưới dạng dịch vụ được quản lý hoặc vượt
+  qua khóa giấy phép."
+analogy: Nấu bằng nó ở đâu cũng được, nhưng đừng mở cửa hàng bán món này.
+pros:
+  - Chỉ nhắm vào đối thủ cung cấp dịch vụ được quản lý
+  - Ngắn gọn
+cons:
+  - Không phải mã nguồn mở
+  - Dẫn đến sự ra đời của fork Valkey

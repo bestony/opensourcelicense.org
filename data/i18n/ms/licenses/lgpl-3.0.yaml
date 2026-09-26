@@ -1,0 +1,15 @@
+reviewed: false
+sourceHash: cdef0d42cb1ab51e
+summary: "Copyleft peringkat pustaka: perubahan pada pustaka kekal terbuka;
+  aplikasi tertutup boleh memautnya jika pengguna boleh menggantikan pustaka
+  itu."
+analogy: "Enjin kongsi: anda boleh memasangnya dalam kereta anda, tetapi pemilik
+  mesti boleh menukarnya dengan enjin mereka sendiri."
+pros:
+  - Membolehkan aplikasi proprietari menggunakan pustaka
+  - Perubahan pada pustaka kekal terbuka
+  - Pemberian hak paten
+cons:
+  - Peraturan pemautan semula rumit, terutamanya untuk pemautan statik dan mudah
+    alih
+  - Sesetengah syarikat masih mengelakkannya

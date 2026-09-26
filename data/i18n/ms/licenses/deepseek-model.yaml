@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 626a2a9d93ec9cef
+summary: "Lesen model gaya OpenRAIL: penggunaan komersial dibenarkan, dengan
+  sekatan berasaskan penggunaan yang diteruskan kepada terbitan."
+analogy: Alat percuma dengan senarai penggunaan terlarang yang dilampirkan pada
+  setiap salinan.
+pros:
+  - Penggunaan komersial dibenarkan
+  - Sekatan penggunaan dibawa ke hiliran
+cons:
+  - Bukan sumber terbuka menurut OSI
+  - Model DeepSeek yang lebih baharu beralih kepada MIT

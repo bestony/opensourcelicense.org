@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: ded3362d69058c2a
+summary: Apache-2.0 cộng thêm ngoại lệ bỏ yêu cầu ghi công đối với mã đã biên
+  dịch và cho phép dùng cùng các dự án GPL-2.0.
+analogy: Bộ công cụ của Apache, kèm ghi chú rằng phần sót lại của công cụ trong
+  sản phẩm của bạn không cần ghi công.
+pros:
+  - Có điều khoản cấp quyền sáng chế của Apache-2.0
+  - Dùng được với mã GPL-2.0
+cons:
+  - Dài hơn MIT
+  - Ngoại lệ chỉ dành cho các dự án kiểu trình biên dịch

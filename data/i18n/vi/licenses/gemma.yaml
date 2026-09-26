@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: c826929f8a1baf2e
+summary: "Điều khoản mô hình của Google: cho phép sử dụng thương mại, với chính
+  sách cấm sử dụng được chuyển sang mọi sản phẩm phái sinh, kể cả mô hình chưng
+  cất."
+analogy: Một động cơ miễn phí kèm cuốn quy tắc mà mọi động cơ lắp lại đều phải
+  mang theo.
+pros:
+  - Sử dụng thương mại không có ngưỡng người dùng
+  - Quy tắc về sản phẩm phái sinh rõ ràng
+cons:
+  - Không phải mã nguồn mở theo OSI
+  - Google có thể cập nhật chính sách sử dụng

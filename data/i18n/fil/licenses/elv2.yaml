@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 1b47253adc7fb00d
+summary: "Source-available: malayang gamitin at baguhin, pero hindi mo ito
+  puwedeng ialok bilang managed service o lampasan ang mga license key."
+analogy: Magluto gamit ito sa bahay o sa restawran mo, pero huwag magbukas ng
+  tindahang nagbebenta ng mismong ulam na ito.
+pros:
+  - Maikli at malinaw
+  - Tinatarget lamang ang mga kakumpitensyang managed service
+cons:
+  - Hindi open source
+  - Nililimitahan ang mga fork at ilang partner

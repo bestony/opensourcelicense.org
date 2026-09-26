@@ -1,0 +1,15 @@
+reviewed: false
+sourceHash: cdef0d42cb1ab51e
+summary: "Copyleft tingkat pustaka: perubahan pada pustaka tetap terbuka;
+  aplikasi tertutup boleh menautkannya jika pengguna dapat mengganti pustaka
+  tersebut."
+analogy: "Mesin bersama: Anda boleh memasangnya di mobil Anda, tetapi pemilik
+  mobil harus bisa menggantinya dengan mesin mereka sendiri."
+pros:
+  - Memungkinkan aplikasi proprietary memakai pustakanya
+  - Perubahan pada pustaka tetap terbuka
+  - Pemberian hak paten
+cons:
+  - Aturan penautan ulang rumit, terutama untuk penautan statis dan perangkat
+    seluler
+  - Sebagian perusahaan masih menghindarinya

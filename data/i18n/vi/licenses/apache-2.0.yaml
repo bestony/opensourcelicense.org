@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 637c87bc846f9159
+summary: Giấy phép dễ dãi có điều khoản cấp quyền sáng chế rõ ràng, điều khoản
+  trả đũa về sáng chế và yêu cầu đánh dấu các tệp đã thay đổi.
+analogy: Một bộ công cụ miễn phí kèm lời hứa không kiện bạn vì các bằng sáng chế
+  của nó — trừ khi bạn kiện trước.
+pros:
+  - Cấp quyền sáng chế rõ ràng từ mọi người đóng góp
+  - Được nhiều công ty và quỹ ưa chuộng
+  - Bảo vệ nhãn hiệu
+cons:
+  - Dài hơn; phải xử lý tệp NOTICE
+  - Không tương thích với GPL-2.0-only
+  - Không ngăn được đối thủ cung cấp dịch vụ lưu trữ

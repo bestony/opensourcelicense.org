@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: ddb7b2f148c13edb
+summary: Giấy phép dễ dãi ngắn gọn có cấp quyền sáng chế rõ ràng, được Oracle
+  dùng cho GraalVM và các dự án khác.
+analogy: Cuốn sách miễn phí kiểu MIT, kèm thêm lời hứa về bằng sáng chế.
+pros:
+  - Ngắn gọn và dễ dãi
+  - Cấp quyền sáng chế rõ ràng
+cons:
+  - Không có điều khoản trả đũa về sáng chế
+  - Ít được biết đến hơn MIT hay Apache

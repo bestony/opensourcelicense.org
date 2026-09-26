@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 626a2a9d93ec9cef
+summary: "Lisensya ng modelo na istilong OpenRAIL: pinapayagan ang
+  pangkomersyong paggamit, na may mga paghihigpit batay sa paggamit na ipinapasa
+  sa mga derivative."
+analogy: Isang libreng tool na may listahan ng bawal na paggamit na nakakabit sa
+  bawat kopya.
+pros:
+  - Pinapayagan ang pangkomersyong paggamit
+  - Sumusunod pababa ang mga paghihigpit sa paggamit
+cons:
+  - Hindi open source ayon sa OSI
+  - Lumipat sa MIT ang mas bagong mga modelo ng DeepSeek

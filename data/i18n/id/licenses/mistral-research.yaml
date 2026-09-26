@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 92115efde43878b6
+summary: Bobot model hanya untuk riset dan penggunaan pribadi; penggunaan
+  komersial atau produksi apa pun memerlukan lisensi komersial dari Mistral AI.
+analogy: "Buku perpustakaan: baca dan pelajari, jangan dijual kembali."
+pros:
+  - Bobot terbuka untuk riset
+  - Mengizinkan modifikasi untuk riset
+cons:
+  - Tidak boleh dipakai komersial
+  - Bukan open source

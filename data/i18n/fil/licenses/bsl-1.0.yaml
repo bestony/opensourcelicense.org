@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 3d7476dd1bfc7f5b
+summary: Permissive na lisensya; kailangan ang abiso sa mga kopya ng source pero
+  hindi sa mga compiled na binary.
+analogy: Panatilihin ang pangalan ng may-akda sa recipe book, hindi sa bawat
+  platong inihahain mo.
+pros:
+  - Hindi kailangan ng abiso sa binary
+  - Pamantayan para sa mga C++ library
+cons:
+  - Walang pagbibigay ng karapatan sa patent
+  - Hindi gaanong kilala sa labas ng C++

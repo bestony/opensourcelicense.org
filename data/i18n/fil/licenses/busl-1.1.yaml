@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: ce104e1cd96e85b1
+summary: "Source-available: limitado ng Additional Use Grant ang paggamit sa
+  production, at bawat bersyon ay nagiging bukas na lisensya pagkatapos ng
+  Change Date (hanggang 4 na taon)."
+analogy: "Isang display window: puwede kang tumingin at sumubok, at pagkalipas
+  ng ilang taon ay magiging libre ang item para sa lahat."
+pros:
+  - Nakokontrol mo ang pangkomersyong paggamit
+  - Magiging open source ang code sa kalaunan
+cons:
+  - Hindi open source
+  - Iba-iba ang tuntunin ng grant bawat proyekto
+  - Puwedeng magdulot ng fork

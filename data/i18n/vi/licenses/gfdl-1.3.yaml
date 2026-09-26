@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: c732ed2e04240901
+summary: "Copyleft cho sách hướng dẫn: các bản sao và phiên bản sửa đổi phải giữ
+  giấy phép GFDL, đồng thời giữ lại lịch sử và các phần bất biến (invariant
+  sections)."
+analogy: Quy tắc chia sẻ công thức áp dụng cho sách hướng dẫn của cuốn sách nấu ăn.
+pros:
+  - Giữ tài liệu luôn tự do
+  - Được các sách hướng dẫn GNU sử dụng
+cons:
+  - Các phần bất biến gây tranh cãi
+  - Khó kết hợp với nội dung CC

@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 4803251a37336702
+summary: "Giấy phép mô hình riêng: cho phép sử dụng thương mại, kèm Acceptable
+  Use Policy, quy tắc ghi công và đặt tên, và giấy phép riêng khi vượt 700 triệu
+  người dùng hoạt động hằng tháng."
+analogy: Một động cơ được dùng miễn phí kèm cuốn quy tắc, và hợp đồng đặc biệt
+  cho những hãng xe lớn nhất.
+pros:
+  - Hầu hết người dùng được dùng thương mại
+  - Hệ sinh thái lớn
+cons:
+  - Không phải mã nguồn mở theo OSI
+  - Nghĩa vụ về chính sách sử dụng và đặt tên
+  - Điều khoản thay đổi giữa các phiên bản

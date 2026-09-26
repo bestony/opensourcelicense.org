@@ -1,0 +1,9 @@
+reviewed: false
+sourceHash: b16411183c557a4e
+actor: other
+title: Disematkan dalam backend SaaS sumber tertutup (tidak didistribusikan)
+cells:
+  agpl-3.0: Wajib dipublikasikan jika diubah
+  sspl-1.0: Jika fungsinya ditawarkan sebagai layanan
+  busl-1.1: Bergantung pada Additional Use Grant
+  elv2: Tidak meng-hosting produk itu sendiri

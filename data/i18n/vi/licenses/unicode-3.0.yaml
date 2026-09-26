@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 72d99432db49e19d
+summary: Giấy phép dễ dãi cho dữ liệu và phần mềm Unicode như ICU và CLDR; giữ
+  thông báo và không dùng tên chủ sở hữu bản quyền để quảng bá.
+analogy: "Một cuốn sách tham khảo miễn phí: cứ sao chép, giữ lại dòng ghi công."
+pros:
+  - Dễ dãi
+  - Bao gồm tệp dữ liệu và mã
+cons:
+  - Không cấp quyền sáng chế
+  - Chủ yếu dùng cho các dự án Unicode

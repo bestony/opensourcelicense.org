@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 261d8b56fb436858
+summary: "Katulad ng MIT: malayang gamitin ang code; panatilihin ang abiso ng
+  copyright at disclaimer sa mga kopya ng source at binary."
+analogy: "Isang libreng recipe card: kopyahin kahit saan, basta panatilihin ang
+  pangalan ng may-akda sa ibaba."
+pros:
+  - Napakaikli at permissive
+  - Malawakang ginagamit sa mga BSD system
+cons:
+  - Walang pagbibigay ng karapatan sa patent
+  - Pinapayagan ang saradong fork

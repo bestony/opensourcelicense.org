@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 6d33e2e6b797d27f
+summary: "Copyleft tingkat file: perubahan pada file berlisensi MPL harus tetap
+  terbuka, tetapi file tersebut boleh digabung dengan kode tertutup di file
+  lain."
+analogy: Pinjam satu bab dan Anda wajib membagikan suntingan Anda pada bab itu,
+  tetapi sisa buku Anda tetap milik Anda.
+pros:
+  - Seimbang antara permisif dan copyleft
+  - Pemberian hak paten secara tegas
+  - Kompatibel dengan GPL secara bawaan
+cons:
+  - Batas file bisa tidak jelas
+  - Tidak mencakup penggunaan lewat jaringan

@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 2101ba94160528a0
+summary: "Lisensya ng Alibaba para sa pinakamalalaking modelo ng Qwen:
+  pinapayagan ang pangkomersyong paggamit, na may pagkilala at hiwalay na
+  lisensya kapag lampas sa 100 milyong monthly active user."
+analogy: Isang libreng makina, na may espesyal na kontrata para sa
+  napakalalaking gumagawa ng sasakyan.
+pros:
+  - Pangkomersyong paggamit para sa karamihan ng user
+  - Malakas na multilingual na mga modelo
+cons:
+  - Hindi open source
+  - Hangganan ng bilang ng user

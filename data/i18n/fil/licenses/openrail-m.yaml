@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 86907368675893f1
+summary: "Isang Responsible AI License para sa mga modelo: permissive na
+  tuntunin na may mga paghihigpit batay sa paggamit na dapat ipasa ng bawat
+  derivative."
+analogy: Isang libreng tool na may listahan ng bawal na paggamit na kasama ng
+  bawat kopya.
+pros:
+  - Pinapayagan ang pangkomersyong paggamit
+  - Pinananatili pababa ang mga paghihigpit laban sa mapaminsalang paggamit
+cons:
+  - Hindi open source ayon sa OSI
+  - Mahirap ipatupad ang mga paghihigpit
+  - May ilang bersyon ito

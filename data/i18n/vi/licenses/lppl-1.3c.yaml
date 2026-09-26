@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: f6ef6656ac79990f
+summary: "Giấy phép tự do cho các gói LaTeX: tệp đã sửa đổi phải được đổi tên
+  hoặc đánh dấu rõ để tài liệu hoạt động giống nhau ở mọi nơi."
+analogy: Bạn có thể chỉnh sửa kiểu chữ, nhưng hãy đặt tên mới cho phiên bản của mình.
+pros:
+  - Giữ tài liệu có thể tái tạo
+  - Tiêu chuẩn trên toàn CTAN
+cons:
+  - Quy tắc đổi tên khác thường
+  - Không tương thích với GPL

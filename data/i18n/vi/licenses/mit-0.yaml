@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 8ec9c821f74124a9
+summary: "MIT không có yêu cầu ghi công: được dùng, sao chép và bán mà không cần
+  giữ bất kỳ thông báo nào."
+analogy: Một cuốn sách miễn phí mà bạn còn có thể thay bìa, bỏ cả tên tác giả.
+pros:
+  - Không cần ghi công
+  - Phù hợp cho mã mẫu và đoạn mã ngắn
+cons:
+  - Không cấp quyền sáng chế
+  - Tác giả không được đảm bảo ghi công

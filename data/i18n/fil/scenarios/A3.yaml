@@ -1,0 +1,9 @@
+reviewed: false
+sourceHash: b16411183c557a4e
+actor: other
+title: Naka-embed sa closed-source na SaaS backend (hindi ipinamamahagi)
+cells:
+  agpl-3.0: Dapat ilathala kung binago
+  sspl-1.0: Kung iniaalok ang functionality nito bilang serbisyo
+  busl-1.1: Nakadepende sa Additional Use Grant
+  elv2: Hindi hino-host ang mismong produkto

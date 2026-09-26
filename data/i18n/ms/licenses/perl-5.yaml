@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 4f54478806088c0d
+summary: "Lesen berganda Perl: penerima memilih Artistic License 1.0 atau GPL
+  (versi 1 atau lebih baharu)."
+analogy: Pilih mana-mana satu daripada dua buku peraturan yang sesuai dengan anda.
+pros:
+  - Pilihan antara terma separa permisif dan copyleft
+  - Standard untuk modul CPAN
+cons:
+  - Artistic 1.0 kabur
+  - Tiada pemberian hak paten
