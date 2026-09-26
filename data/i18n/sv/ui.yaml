@@ -1,0 +1,358 @@
+reviewed: false
+sourceHash: a2d7eb045dde7649
+strings:
+  site.name: opensourcelicense.org
+  site.tagline: Välj och jämför licenser för öppen källkod
+  site.description: Välj, jämför och stresstesta licenser för öppen källkod. Se
+    vad riktiga projekt använder, vad som kan gå fel och vad som passar ditt
+    projekt.
+  nav.home: Start
+  nav.licenses: Licenser
+  nav.scenarios: Scenarier
+  nav.projects: Projekt
+  nav.trends: Trender
+  nav.compare: Jämför
+  nav.wizard: Guide
+  nav.chat: AI-rådgivare
+  nav.check: Beroendekontroll
+  nav.menu: Meny
+  lang.switch: Språk
+  lang.suggest: Den här sidan finns på {language}.
+  lang.suggest.go: Byt
+  lang.suggest.dismiss: Stäng
+  footer.disclaimer: Den här webbplatsen ger allmän information, inte juridisk
+    rådgivning. Vid en verklig tvist eller ett avtal, tala med en jurist.
+  footer.source: Källkod (AGPL-3.0)
+  footer.data: Data under CC-BY-4.0
+  footer.report: Rapportera ett fel
+  footer.cite: Data från opensourcelicense.org, CC-BY-4.0
+  footer.hosting: Körs på gratisplanen för Cloudflare Workers
+  footer.dns: Domänen ligger hos Cloudflare
+  badge.machine: Maskinöversättning
+  badge.reviewed: Granskad översättning
+  badge.fallback: Inte översatt än — visar engelska
+  badge.stale: kan vara inaktuell
+  badge.unreviewed-data: Utkast — ännu inte granskat av en jurist
+  common.updated: Data uppdaterad {date}
+  common.back: Tillbaka
+  common.copy: Kopiera
+  common.copied: Kopierat
+  common.download: Ladda ner
+  common.close: Stäng
+  common.all: Alla
+  common.yes: Ja
+  common.no: Nej
+  common.unknown: Okänd
+  common.none: Ingen
+  common.more: Mer
+  common.loading: Laddar…
+  common.error: Något gick fel.
+  common.search: Sök
+  home.title: Välj licens för öppen källkod med öppna ögon
+  home.lead: Inte bara "vilken licens", utan också vad liknande projekt valde, hur
+    det värsta scenariot ser ut och vad du gör härnäst.
+  home.entry.chat.title: Prata med AI-rådgivaren
+  home.entry.chat.body: Beskriv ditt projekt med egna ord. Få en profil, följdfrågor och en rapport.
+  home.entry.projects.title: Se vad andra använder
+  home.entry.projects.body: Licenser för välkända projekt, och varför en del av dem bytte.
+  home.entry.wizard.title: Filtrera steg för steg
+  home.entry.wizard.body: Svara på några frågor och få en rangordnad kortlista med förklaringar.
+  home.wall: Licenser i populära projekt
+  home.changes: Senaste licensbyten
+  home.scenarios: Vad kan gå fel?
+  home.scenarios.body: 27 extrema scenarier × 17 licenskolumner, en sida per cell.
+  family.permissive: Tillåtande
+  family.weak-copyleft: Svag copyleft
+  family.strong-copyleft: Stark copyleft
+  family.network-copyleft: Nätverks-copyleft
+  family.source-available: Källtillgänglig
+  family.model: Modellicens
+  family.content: Innehåll / data
+  verdict.allow: Tillåtet
+  verdict.conditional: Med villkor
+  verdict.deny: Förbjudet av licensen
+  verdict.silent: Inte reglerat
+  verdict.tbd: Under granskning
+  verdict.legend: "Förklaring: ✓ den andra parten får göra detta · ◐ med villkor ·
+    ✗ licensen förbjuder det · — licensen säger inget (allmän lag gäller)"
+  actor.other: Någon annan gör detta
+  actor.you: Du vill göra detta
+  actor.contributor: En bidragsgivare gör detta
+  actor.both: Gäller båda parter
+  group.A: Kommersiell konkurrens
+  group.B: Patent och juridik
+  group.C: Utveckling och affärer
+  group.D: Användning och efterlevnad
+  group.E: AI-modeller och data
+  matrix.code: Kodlicenser
+  matrix.model: Modell- och datalicenser
+  term.commercial-use: Kommersiell användning
+  term.modification: Ändring
+  term.distribution: Distribution
+  term.private-use: Privat användning
+  term.patent-use: Patentlicens
+  term.non-production-use: Användning utanför produktion
+  term.converts-to-open-source: Blir öppen källkod senare
+  term.include-copyright: Behåll upphovsrättsmeddelandet
+  term.include-license: Bifoga licensen
+  term.document-changes: Markera ändringar
+  term.disclose-source: Offentliggör källkoden
+  term.same-license: Samma licens för härledda verk
+  term.same-license-file: Samma licens (filnivå)
+  term.same-license-library: Samma licens (biblioteksnivå)
+  term.allow-relinking: Tillåt omlänkning
+  term.network-use-disclose: Nätverksanvändning räknas som distribution
+  term.service-stack-disclose: Släpp hela tjänstestacken
+  term.keep-limitations: Behåll begränsningarna
+  term.attribution: Erkännande
+  term.attribution-built-with: Visa "Built with"
+  term.name-prefix: Regel om namnprefix
+  term.acceptable-use-policy: Policy för godtagbar användning
+  term.use-restrictions-pass-through: För vidare användningsbegränsningar
+  term.indicate-changes: Ange ändringar
+  term.liability: Inget ansvar
+  term.warranty: Ingen garanti
+  term.trademark-use: Inga varumärkesrättigheter
+  term.no-endorsement: Ingen rekommendation
+  term.production-use-restricted: Produktionsanvändning begränsad
+  term.no-managed-service: Ingen hanterad tjänst
+  term.no-license-key-circumvention: Ingen kringgång av licensnycklar
+  term.mau-threshold: Användartröskel
+  term.use-restrictions: Användningsbegränsningar
+  term.non-commercial: Endast icke-kommersiellt
+  licenses.title: Licenser för öppen källkod
+  licenses.lead: "{count} licenser, från tillåtande till källtillgängliga licenser
+    och modellicenser."
+  licenses.col.license: Licens
+  licenses.col.family: Familj
+  licenses.col.osi: OSI
+  licenses.col.fsf: Fri enligt FSF
+  licenses.col.projects: Projekt
+  licenses.filter: Filtrera efter familj
+  license.permissions: Rättigheter
+  license.conditions: Villkor
+  license.limitations: Begränsningar
+  license.summary: Med enkla ord
+  license.analogy: Liknelse
+  license.pros: Fördelar
+  license.cons: Nackdelar
+  license.scenarios: Extrema scenarier
+  license.radar: Radar för värsta fall
+  license.projects: Välkända projekt som använder den
+  license.projects.count: "{count} välkända projekt i vår karta använder den här licensen."
+  license.projects.none: Inget projekt i vår karta använder den här licensen än.
+  license.projects.since: Bytte till den {date}
+  license.projects.also: "Erbjuds även under: {licenses}"
+  license.projects.former: Projekt som har lämnat den
+  license.text: Officiell text
+  license.text.official: Officiell text på {language}
+  license.text.note: Endast den officiella texten är juridiskt bindande. Vi
+    översätter inte licenstexter.
+  license.compare: Jämför med…
+  license.spdx: SPDX-identifierare
+  radar.anti-freeride: Stoppar snålskjutsåkning
+  radar.anti-closed-fork: Stoppar stängda forkar
+  radar.patent: Patentskydd
+  radar.adoption-friction: Tröskel för användning
+  radar.relicense-difficulty: Svårt att byta licens
+  radar.misuse-control: Kontroll över missbruk
+  radar.derivative-control: Kontroll över härledda verk
+  radar.commercial-control: Kommersiell kontroll
+  radar.note: Beräknat från scenariomatrisen. Högre betyder mer av den egenskapen,
+    inte "bättre".
+  scenarios.title: Matris med extrema licensscenarier
+  scenarios.lead: Vad händer när du har valt en licens? Varje cell besvarar en
+    fråga och har en egen sida.
+  scenarios.highlight: Markera en licens
+  scenarios.expand: Expandera alla
+  scenarios.collapse: Fäll ihop alla
+  scenarios.silent-note: Rader med bara "—" finns här med avsikt. Svaret beror på
+    anställningsavtal (C6), exportkontrollagstiftning (D5) eller pågående
+    rättsprocesser (D6), inte på licensen.
+  scenario.flow.you: Du publicerar under {license}
+  scenario.flow.they: Situationen
+  scenario.flow.result: Resultat
+  scenario.clause: Relevant klausul
+  scenario.case: Verkligt fall
+  scenario.others: Samma scenario, andra licenser
+  scenario.other-scenarios: Andra scenarier för {license}
+  scenario.no-clause: Ingen särskild klausul. Allmän lag gäller.
+  scenario.review: Granskningsstatus
+  scenario.review.none: Ännu inte granskat av en jurist.
+  scenario.review.done: Granskat av {who} den {date}.
+  compare.title: Jämför licenser för öppen källkod
+  compare.lead: Välj två eller tre licenser för att jämföra dem klausul för
+    klausul och scenario för scenario.
+  compare.pick: Lägg till en licens
+  compare.remove: Ta bort
+  compare.terms: Villkor
+  compare.scenarios: Scenarier
+  compare.empty: Välj minst två licenser.
+  wizard.title: "Licensguide: välj rätt licens"
+  wizard.lead: Svara på några frågor. Regelmotorn rangordnar licenserna och
+    förklarar varje poäng.
+  wizard.next: Nästa
+  wizard.prev: Tillbaka
+  wizard.finish: Visa resultatet
+  wizard.restart: Börja om
+  wizard.skip: Hoppa över
+  wizard.step: Steg {n} av {total}
+  wizard.to-chat: Fortsätt hos AI-rådgivaren
+  q.artifact_type: Vad släpper du?
+  q.openness_level: Hur öppet vill du att det ska vara?
+  q.avoid: Vilka utfall vill du undvika?
+  q.avoid.hint: Välj hur många som helst.
+  q.adoption_goal: Vad är viktigast?
+  q.dependencies: Är du beroende av copyleft-kod?
+  q.dependencies.hint: Lägg till SPDX-id för beroendenas licenser, till exempel GPL-3.0-only.
+  q.commercial_plan: Hur ska du tjäna pengar, om alls?
+  q.jurisdiction: Var är du baserad?
+  opt.artifact_type.library: Ett bibliotek eller SDK
+  opt.artifact_type.application: Ett program eller verktyg
+  opt.artifact_type.saas: En tjänstebackend (SaaS)
+  opt.artifact_type.model: Modellvikter
+  opt.artifact_type.dataset: En datamängd
+  opt.artifact_type.docs: Dokumentation eller innehåll
+  opt.openness_level.open: Helt öppet — vem som helst får göra vad som helst
+  opt.openness_level.reciprocal: Öppet, men förbättringar ska komma tillbaka
+  opt.openness_level.source-available: Synlig källkod, begränsad kommersiell användning
+  opt.avoid.cloud-hosting: Molnleverantörer som säljer det som tjänst
+  opt.avoid.closed-fork: Forkar med stängd källkod
+  opt.avoid.patent-litigation: Patenttvister
+  opt.avoid.trademark-abuse: Missbruk av mitt namn eller varumärke
+  opt.avoid.harmful-use: Skadlig användning
+  opt.avoid.big-company: Storföretag som använder det gratis
+  opt.adoption_goal.enterprise: Maximal användning bland företag
+  opt.adoption_goal.community: Bidrag från communityn
+  opt.adoption_goal.monetize: Att tjäna pengar på det
+  opt.commercial_plan.none: Ingen plan
+  opt.commercial_plan.dual-license: Dubbellicensiering
+  opt.commercial_plan.open-core: Open core
+  opt.commercial_plan.hosted: Hostad tjänst
+  opt.jurisdiction.cn: Kina
+  opt.jurisdiction.eu: Europeiska unionen
+  opt.jurisdiction.us: USA
+  opt.jurisdiction.other: Annat
+  engine.part.avoid: "Skydd mot: {avoid}"
+  engine.part.openness: "Passar öppenhetsnivån: {openness}"
+  engine.part.adoption: "Mål: {goal}"
+  engine.part.commercial: "Affärsplan: {plan}"
+  engine.part.jurisdiction: "Jurisdiktion: {jurisdiction}"
+  engine.part.dependency: "Kompatibel endast med villkor: {dependency}"
+  engine.excluded.dependency: Inte kompatibel med beroendet {dependency}
+  engine.excluded.artifact: Passar inte för den här typen av verk
+  advisory.needs-cla: Använd ett Contributor License Agreement (CLA). Du behöver
+    det för att sälja kommersiella licenser eller byta licens senare.
+  advisory.consider-dco: Ett Developer Certificate of Origin (DCO, "Signed-off-by") räcker oftast.
+  advisory.busl-change-date: Ange Additional Use Grant, Change Date och Change License i BSL-huvudet.
+  advisory.model-card: Ange licensen i metadata för modell- eller datamängdskortet
+    (fältet "license:").
+  advisory.notice-file: Lägg till en NOTICE-fil och behåll den när du distribuerar vidare.
+  advisory.consult-lawyer: Be en jurist granska beroenden och affärsvillkor innan du släpper.
+  advisory.network-source-link: Visa en länk till "Källkod" för användarna av din nätverkstjänst.
+  report.title: Din licensrapport
+  report.lead: Rapporten beräknas i din webbläsare utifrån profilen i länken. Dela
+    länken för att dela rapporten.
+  report.profile: Projektprofil
+  report.edit: Redigera i guiden
+  report.top: Rekommenderas
+  report.score: Poäng {score}
+  report.why: Varför
+  report.excluded: Uteslutna
+  report.advisories: Nästa steg
+  report.license-file: LICENSE-fil
+  report.header: Filhuvud
+  report.badge: README-märke
+  report.share: Dela länk
+  report.share.copy: Kopiera länk
+  report.similar: Liknande projekt
+  report.no-text: Ingen maskinläsbar text. Hämta den från den officiella sidan.
+  report.invalid: Rapportlänken är trasig eller kommer från en gammal version.
+  report.empty: Ingen profil än. Börja med guiden eller AI-rådgivaren.
+  chat.title: AI-rådgivare för licenser
+  chat.lead: Beskriv ditt projekt. Rådgivaren ställer följdfrågor, regelmotorn
+    väljer licenserna och rådgivaren förklarar dem.
+  chat.placeholder: "Till exempel: Jag har byggt en vektordatabas och är orolig
+    för att molnleverantörer säljer den vidare."
+  chat.send: Skicka
+  chat.stop: Stoppa
+  chat.examples: Prova ett exempel
+  chat.example.1: Jag har byggt en vektordatabas och är orolig för att
+    molnleverantörer säljer den vidare.
+  chat.example.2: Ett litet React-komponentbibliotek. Jag vill att företag ska använda det.
+  chat.example.3: Vi har finjusterat en 7B-modell och vill stoppa skadlig användning.
+  chat.profile: Projektprofil
+  chat.profile.hint: Klicka på ett värde för att ändra det.
+  chat.candidates: Kandidater
+  chat.run: Få rekommendation
+  chat.limit: Du har nått dagens gräns. Försök igen i morgon eller använd guiden.
+  chat.error: Rådgivaren är inte tillgänglig just nu. Guiden fungerar fortfarande.
+  chat.verify: Bekräfta att du är en människa.
+  chat.disclaimer: Rådgivaren kan göra fel. Rekommendationerna kommer från
+    regelmotorn, och detta är inte juridisk rådgivning.
+  chat.report: Öppna hela rapporten
+  projects.title: Licenskarta över projekt med öppen källkod
+  projects.lead: Licenser för välkända projekt och historien bakom varje byte.
+  projects.filter.domain: Område
+  projects.filter.family: Licensfamilj
+  projects.filter.owner: Ägare
+  projects.filter.changed: Bytt licens
+  projects.count: "{count} projekt"
+  projects.empty: Inget projekt matchar filtren.
+  owner.company: Företag
+  owner.foundation: Stiftelse
+  owner.individual: Privatperson
+  owner.community: Community
+  project.current: Nuvarande licens
+  project.timeline: Licenstidslinje
+  project.reason: Orsak
+  project.announcement: Tillkännagivande
+  project.forks: Forkar som följde
+  project.fork-of: Fork av {name}
+  project.repo: Kodförråd
+  project.similar: Liknande projekt
+  project.review: Den här posten hittades av synkroniseringsboten och väntar på
+    manuell granskning.
+  project.initial: Ursprunglig licens
+  domain.database: Databas
+  domain.frontend: Frontend-ramverk
+  domain.devops: DevOps
+  domain.ai-model: AI-modell
+  domain.language: Språk och körmiljö
+  domain.os: Operativsystem
+  domain.web: Webbserver och backend
+  domain.tooling: Utvecklarverktyg
+  domain.data: Data och analys
+  domain.observability: Observerbarhet
+  domain.messaging: Meddelanden och strömning
+  domain.cms: CMS och appar
+  trends.title: Trender för licenser för öppen källkod
+  trends.lead: Sammanställt från projektkartan vid byggtillfället.
+  trends.family-share: Licensfamiljer per område
+  trends.changes: Licensbyten per år
+  trends.to-source-available: Projekt som gick från öppen källkod till källtillgänglig licens
+  search.lead: Sök efter licenser, scenarier och projekt på det här språket.
+  search.noscript: Sökningen kräver JavaScript.
+  check.title: Licenskontroll av beroenden
+  check.lead: Klistra in en package.json, go.mod, Gemfile.lock, Cargo.toml eller
+    requirements.txt. Tolkningen sker i din webbläsare.
+  check.project-license: Ditt projekts licens
+  check.input: Manifest
+  check.run: Kontrollera
+  check.lookup: Slå upp okända licenser online (deps.dev)
+  check.col.package: Paket
+  check.col.license: Licens
+  check.col.status: Status
+  check.status.compatible: Kompatibel
+  check.status.conditional: Med villkor
+  check.status.incompatible: Konflikt
+  check.status.unknown: Okänd
+  check.summary: "{ok} kompatibla, {warn} med villkor, {bad} konflikter, {unknown} okända"
+  check.format: "Identifierat format: {format}"
+  check.no-deps: Inga beroenden hittades.
+  check.license-hint: Lägg till licensen i manifestet som rader i formatet
+    "name@version LICENSE-ID", eller aktivera uppslagning online.
+  notfound.title: Sidan hittades inte
+  notfound.body: Den här sidan finns inte. Prova licensbiblioteket.
+  domain.education: Utbildning
+  domain.design: Typsnitt och design

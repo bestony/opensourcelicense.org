@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 38b4b3f3e07a3e99
+summary: "Licență de model utilizabilă comercial: lucrările derivate sunt
+  permise, NVIDIA nu revendică drepturi asupra rezultatelor, dar protecțiile de
+  siguranță integrate nu trebuie ocolite."
+analogy: Un motor gratuit ale cărui centuri de siguranță nu ai voie să le scoți.
+pros:
+  - Utilizare comercială permisă
+  - Nicio pretenție asupra rezultatelor
+cons:
+  - Nu este open source
+  - Clauza privind protecțiile cere atenție

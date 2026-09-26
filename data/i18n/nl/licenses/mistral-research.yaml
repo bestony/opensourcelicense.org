@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 92115efde43878b6
+summary: Gewichten alleen voor onderzoek en persoonlijk gebruik; elk commercieel
+  of productiegebruik vereist een commerciële licentie van Mistral AI.
+analogy: "Een bibliotheekboek: lees en bestudeer het, verkoop het niet door."
+pros:
+  - Open gewichten voor onderzoek
+  - Wijzigen toegestaan voor onderzoek
+cons:
+  - Geen commercieel gebruik
+  - Geen open source

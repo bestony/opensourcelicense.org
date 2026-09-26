@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 261d8b56fb436858
+summary: "Ligesom MIT: brug koden frit; bevar ophavsretsmeddelelsen og
+  ansvarsfraskrivelsen i kilde- og binærkopier."
+analogy: "Et gratis opskriftskort: kopiér det overalt, bare behold forfatterens
+  linje nederst."
+pros:
+  - Meget kort og tilladende
+  - Udbredt i BSD-systemer
+cons:
+  - Ingen patentlicens
+  - Lukkede forks er tilladt

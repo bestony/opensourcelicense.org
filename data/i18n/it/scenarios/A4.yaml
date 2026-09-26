@@ -1,0 +1,8 @@
+reviewed: false
+sourceHash: d30cdd2632a3c255
+actor: other
+title: Collegato a un'app o a un firmware a sorgente chiuso e distribuito
+cells:
+  mpl-2.0: A livello di file
+  lgpl-3.0: Deve consentire il ricollegamento
+  busl-1.1: Dipende dall'Additional Use Grant

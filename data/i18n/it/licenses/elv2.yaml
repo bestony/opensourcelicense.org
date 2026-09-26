@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 1b47253adc7fb00d
+summary: "Source-available: libera da usare e modificare, ma non puoi offrirla
+  come servizio gestito né aggirare le chiavi di licenza."
+analogy: Cucinaci a casa o nel tuo ristorante, ma non aprire un negozio che
+  vende esattamente questo piatto.
+pros:
+  - Breve e chiara
+  - Colpisce solo i concorrenti che offrono servizi gestiti
+cons:
+  - Non è open source
+  - Limita i fork e alcuni partner

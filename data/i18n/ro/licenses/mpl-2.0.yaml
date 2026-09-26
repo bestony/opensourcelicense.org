@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 6d33e2e6b797d27f
+summary: "Copyleft la nivel de fișier: modificările fișierelor sub MPL trebuie
+  să rămână deschise, dar pot fi combinate cu cod închis în alte fișiere."
+analogy: Împrumuți un capitol și trebuie să împărtășești modificările la acel
+  capitol, dar restul cărții este al tău.
+pros:
+  - Echilibru între permisiv și copyleft
+  - Licență expresă de brevet
+  - Compatibilă implicit cu GPL
+cons:
+  - Limitele fișierelor pot fi neclare
+  - Nu acoperă utilizarea în rețea

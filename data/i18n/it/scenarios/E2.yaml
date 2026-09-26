@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: c77fe673047b3249
+actor: other
+title: Distillazione, o addestramento di altri modelli sui suoi output
+cells:
+  llama: Il nome deve includere "Llama"
+  openrail-m: Le opere derivate ereditano le restrizioni
+  cc-by-4.0: Attribuzione
+  cc-by-nc-4.0: Solo uso non commerciale
+  odc-by-1.0: Attribuzione
+  odbl-1.0: Attribuzione

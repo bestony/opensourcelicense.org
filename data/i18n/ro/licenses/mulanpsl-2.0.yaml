@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: b568f07f3285ed81
+summary: O licență permisivă chineză, cu licență de brevet și clauză de
+  retorsiune. Textele în chineză și engleză au valoare egală; în caz de conflict
+  prevalează chineza.
+analogy: Protecție în stil Apache, scrisă ținând cont de dreptul chinez.
+pros:
+  - Text oficial bilingv
+  - Licență de brevet
+  - Aprobată de OSI
+cons:
+  - Mai puțin cunoscută în afara Chinei
+  - Jurisprudență limitată

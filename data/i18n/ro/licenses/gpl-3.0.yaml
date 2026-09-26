@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 3ab9492f75e7adb0
+summary: "Copyleft puternic: dacă distribui software-ul sau lucrări derivate,
+  trebuie să publici codul sursă complet sub GPL-3.0."
+analogy: "O rețetă care spune: oricine servește un preparat făcut după ea
+  trebuie să dea și rețeta completă."
+pros:
+  - Păstrează deschise toate lucrările derivate distribuite
+  - Licență de brevet și anti-tivoizare
+  - Tradiție comunitară puternică
+cons:
+  - Multe companii o evită
+  - Nu acoperă SaaS (nu există distribuire)
+  - Incompatibilă cu GPL-2.0-only

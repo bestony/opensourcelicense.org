@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 22649412ed3dbb5f
+summary: "Biblioteek-copyleft: veranderinge aan die biblioteek bly oop; geslote
+  programme mag daaraan koppel as gebruikers met 'n gewysigde biblioteek kan
+  herkoppel."
+analogy: Die ouer uitgawe van die vervangbare gedeelde enjin.
+pros:
+  - Laat eiendomstoepassings die biblioteek gebruik
+  - Algemeen in rekenaar- en multimediabiblioteke
+cons:
+  - Herkoppelingsreëls is ingewikkeld
+  - Geen uitdruklike patenttoekenning nie

@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: ddb7b2f148c13edb
+summary: "'n Kort permissiewe lisensie met 'n uitdruklike patenttoekenning,
+  gebruik deur Oracle vir GraalVM en ander projekte."
+analogy: Die gratis MIT-boek, met 'n bykomende belofte oor patente.
+pros:
+  - Kort en permissief
+  - Uitdruklike patenttoekenning
+cons:
+  - Geen patentvergeldingsklousule nie
+  - Minder bekend as MIT of Apache

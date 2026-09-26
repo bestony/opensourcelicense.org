@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: ded3362d69058c2a
+summary: Apache-2.0 plus ina excepziun che stritga l'obligaziun d'attribuziun
+  per code cumpilà e la renda utilisabla cun projects GPL-2.0.
+analogy: "La chascha d'utensils dad Apache, cun ina notizia: ils rests dals
+  utensils en Voss product na dovran nagina menziun."
+pros:
+  - Concessiun da patents dad Apache-2.0
+  - Funcziuna cun code GPL-2.0
+cons:
+  - Pli lunga che MIT
+  - L'excepziun è specifica per projects da tip cumpilader

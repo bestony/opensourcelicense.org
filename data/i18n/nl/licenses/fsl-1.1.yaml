@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 3720e103ed28cbd1
+summary: "Source-available: elk gebruik behalve een concurrerend product, en
+  elke release wordt twee jaar later Apache-2.0."
+analogy: Een etalage waarvan de artikelen na twee jaar gratis worden voor iedereen.
+pros:
+  - Kort en voorspelbaar
+  - Code wordt na twee jaar open source
+cons:
+  - Geen open source
+  - '"Concurrerend gebruik" kan moeilijk te beoordelen zijn'

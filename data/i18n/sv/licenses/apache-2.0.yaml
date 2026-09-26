@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 637c87bc846f9159
+summary: Tillåtande licens med uttrycklig patentlicens, patentvedergällning och
+  krav på att markera ändrade filer.
+analogy: En gratis verktygslåda som också har ett löfte om att inte stämma dig
+  för dess patent — om du inte stämmer först.
+pros:
+  - Uttrycklig patentlicens från varje bidragsgivare
+  - Föredras av många företag och stiftelser
+  - Skyddar varumärken
+cons:
+  - Längre; hantering av NOTICE-fil
+  - Inte kompatibel med GPL-2.0-only
+  - Stoppar inte hostade konkurrenter

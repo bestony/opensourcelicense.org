@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: afd85677afc1c999
+actor: other
+title: Alguém vende cópias não modificadas
+cells:
+  mpl-2.0: O código-fonte tem de ser disponibilizado
+  lgpl-3.0: O código-fonte tem de ser disponibilizado
+  gpl-3.0: O código-fonte tem de ser disponibilizado
+  agpl-3.0: O código-fonte tem de ser disponibilizado
+  sspl-1.0: O código-fonte tem de ser disponibilizado
+  busl-1.1: Depende do Additional Use Grant

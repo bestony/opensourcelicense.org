@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 4803251a37336702
+summary: "Een eigen modellicentie: commercieel gebruik is toegestaan, met een
+  Acceptable Use Policy, regels voor naamsvermelding en naamgeving, en een
+  aparte licentie boven 700 miljoen maandelijks actieve gebruikers."
+analogy: Een gratis te gebruiken motor met een reglement, en een apart contract
+  voor de allergrootste autofabrikanten.
+pros:
+  - Commercieel gebruik toegestaan voor de meeste gebruikers
+  - Groot ecosysteem
+cons:
+  - Geen open source volgens OSI
+  - Verplichtingen rond gebruiksbeleid en naamgeving
+  - Voorwaarden verschillen per versie

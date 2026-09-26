@@ -1,0 +1,8 @@
+reviewed: false
+sourceHash: 3a5f4b9bf27dddea
+actor: other
+title: Din kod slås ihop med ett GPL-3.0-projekt
+cells:
+  apache-2.0: Men inte kompatibel med GPL-2.0
+  mpl-2.0: Om den inte är märkt som inkompatibel
+  agpl-3.0: AGPL-delen förblir AGPL

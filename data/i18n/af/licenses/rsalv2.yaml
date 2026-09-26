@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 50ad39245dfcc7f1
+summary: "Bron-beskikbare lisensie van Redis: gratis om te gebruik en te wysig,
+  maar nie om die sagteware as 'n bestuurde diens aan te bied of
+  lisensiesleutels te omseil nie."
+analogy: Kook oral daarmee, maar moenie 'n winkel oopmaak wat hierdie gereg verkoop nie.
+pros:
+  - Mik slegs op mededingers met bestuurde dienste
+  - Kort
+cons:
+  - Nie oopbron nie
+  - Het die Valkey-vurk ontketen

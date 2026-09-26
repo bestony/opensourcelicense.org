@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 3720e103ed28cbd1
+summary: "Source-available: qualsiasi uso tranne un prodotto concorrente, e ogni
+  release diventa Apache-2.0 dopo due anni."
+analogy: Una vetrina i cui articoli diventano gratuiti per tutti dopo due anni.
+pros:
+  - Breve e prevedibile
+  - Il codice diventa open source dopo due anni
+cons:
+  - Non è open source
+  - L'"uso concorrente" può essere difficile da valutare

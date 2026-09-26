@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: c826929f8a1baf2e
+summary: "De modelvoorwaarden van Google: commercieel gebruik toegestaan, met
+  een beleid voor verboden gebruik dat overgaat op elk afgeleid werk, ook
+  gedistilleerde modellen."
+analogy: Een gratis motor met een reglement dat elke omgebouwde motor moet meedragen.
+pros:
+  - Commercieel gebruik zonder gebruikersdrempel
+  - Duidelijke regels voor afgeleide werken
+cons:
+  - Geen open source volgens OSI
+  - Google kan het gebruiksbeleid aanpassen

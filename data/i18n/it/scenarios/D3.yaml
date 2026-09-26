@@ -1,0 +1,7 @@
+reviewed: false
+sourceHash: d774574ea30fc483
+actor: other
+title: Modifica interna, senza distribuzione né servizio esterno
+cells:
+  agpl-3.0: L'interazione degli utenti su intranet è controversa
+  busl-1.1: Dipende dall'Additional Use Grant

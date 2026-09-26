@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 3440c6c6f7e1c94d
+summary: "Copyleft på filnivå från Apple: ändrade omfattade filer måste
+  publiceras, även när de driftsätts externt som tjänst. Inte kompatibel med
+  GPL."
+analogy: Dela ändringar i den lånade filen, även när du bara serverar resultatet.
+pros:
+  - Omfattar extern driftsättning
+  - Patentlicens
+cons:
+  - Inte kompatibel med GPL
+  - Används främst för Apples öppna källkod

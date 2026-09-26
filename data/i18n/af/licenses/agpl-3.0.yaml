@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 1db86c42c600a813
+summary: "GPL-3.0 plus 'n netwerkklousule: gebruikers wat oor 'n netwerk met 'n
+  gewysigde weergawe werk, moet die bronkode daarvan aangebied word."
+analogy: "Die resepreël geld ook vir restaurante: om die gereg te bedien tel as
+  om dit uit te deel."
+pros:
+  - Sluit die SaaS-skuiwergat
+  - Goeie basis vir dubbele lisensiëring
+  - OSI-goedgekeurde oopbron
+cons:
+  - Baie maatskappye verbied dit volstrek
+  - Ongewysigde huisvesting is steeds toegelaat

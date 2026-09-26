@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 8efe233d77d28069
+summary: Licenza per modelli di TII basata su Apache-2.0, con una politica di
+  utilizzo accettabile; uso commerciale consentito senza royalty.
+analogy: La cassetta degli attrezzi di Apache con un breve elenco di usi vietati.
+pros:
+  - Uso commerciale senza royalty
+  - Basata su Apache-2.0
+cons:
+  - Non è open source secondo l'OSI
+  - La politica d'uso può essere aggiornata

@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 50ad39245dfcc7f1
+summary: "Licenza source-available di Redis: libera da usare e modificare, ma
+  non per offrire il software come servizio gestito né per aggirare le chiavi di
+  licenza."
+analogy: Cucinaci dove vuoi, ma non aprire un negozio che vende questo piatto.
+pros:
+  - Colpisce solo i concorrenti che offrono servizi gestiti
+  - Breve
+cons:
+  - Non è open source
+  - Ha provocato il fork Valkey

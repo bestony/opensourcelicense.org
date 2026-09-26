@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: cdef0d42cb1ab51e
+summary: "Copyleft på biblioteksniveau: ændringer i biblioteket forbliver åbne;
+  lukkede apps må linke til det, hvis brugerne kan udskifte biblioteket."
+analogy: "En delt motor: du kan sætte den i din bil, men ejerne skal kunne
+  skifte den ud med deres egen."
+pros:
+  - Lader proprietære apps bruge biblioteket
+  - Ændringer i biblioteket forbliver åbne
+  - Patentlicens
+cons:
+  - Reglerne for genlinkning er komplekse, især ved statisk linkning og på mobil
+  - Nogle virksomheder undgår den stadig

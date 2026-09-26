@@ -1,0 +1,8 @@
+reviewed: false
+sourceHash: d30cdd2632a3c255
+actor: other
+title: Gelinkt in een closed-source app of firmware en verspreid
+cells:
+  mpl-2.0: Op bestandsniveau
+  lgpl-3.0: Opnieuw linken moet mogelijk zijn
+  busl-1.1: Hangt af van de Additional Use Grant

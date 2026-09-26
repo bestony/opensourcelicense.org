@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 1db86c42c600a813
+summary: "GPL-3.0 plus een netwerkclausule: gebruikers die via een netwerk met
+  een gewijzigde versie werken, moeten de broncode ervan aangeboden krijgen."
+analogy: "De receptregel geldt ook voor restaurants: het gerecht serveren telt
+  als het weggeven."
+pros:
+  - Dicht het SaaS-gat
+  - Goede basis voor dubbele licenties
+  - Door OSI goedgekeurde open source
+cons:
+  - Veel bedrijven verbieden het volledig
+  - Ongewijzigd hosten blijft toegestaan

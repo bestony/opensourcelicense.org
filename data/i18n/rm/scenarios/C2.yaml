@@ -1,0 +1,8 @@
+reviewed: false
+sourceHash: 3a5f4b9bf27dddea
+actor: other
+title: Voss code vegn integrà en in project GPL-3.0
+cells:
+  apache-2.0: Ma betg cumpatibel cun GPL-2.0
+  mpl-2.0: Auter che sch'el è marcà sco incumpatibel
+  agpl-3.0: La part AGPL resta AGPL

@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 637c87bc846f9159
+summary: Licença permissiva com concessão expressa de patentes, retaliação em
+  matéria de patentes e obrigação de assinalar os ficheiros alterados.
+analogy: Uma caixa de ferramentas gratuita que vem com a promessa de não o
+  processar pelas suas patentes — a menos que processe primeiro.
+pros:
+  - Concessão expressa de patentes de cada contribuidor
+  - Preferida por muitas empresas e fundações
+  - Protege as marcas
+cons:
+  - Mais longa; gestão do ficheiro NOTICE
+  - Não é compatível com GPL-2.0-only
+  - Não impede concorrentes alojados

@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 637c87bc846f9159
+summary: Permissieve licentie met een expliciete octrooilicentie,
+  octrooivergelding en de plicht om gewijzigde bestanden te markeren.
+analogy: Een gratis gereedschapskist met de belofte je niet aan te klagen over
+  de octrooien erin — tenzij jij eerst aanklaagt.
+pros:
+  - Expliciete octrooilicentie van elke bijdrager
+  - Voorkeur van veel bedrijven en stichtingen
+  - Beschermt merken
+cons:
+  - Langer; omgang met het NOTICE-bestand
+  - Niet compatibel met GPL-2.0-only
+  - Houdt gehoste concurrenten niet tegen

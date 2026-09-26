@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 50ad39245dfcc7f1
+summary: "Källtillgänglig licens från Redis: fri att använda och ändra, men inte
+  för att erbjuda programvaran som hanterad tjänst eller kringgå licensnycklar."
+analogy: Laga mat med den var som helst, men öppna inte en butik som säljer den
+  här rätten.
+pros:
+  - Riktar sig bara mot konkurrenter med hanterade tjänster
+  - Kort
+cons:
+  - Inte öppen källkod
+  - Utlöste Valkey-forken

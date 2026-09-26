@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: cdef0d42cb1ab51e
+summary: "Copyleft op bibliotheekniveau: wijzigingen aan de bibliotheek blijven
+  open; gesloten apps mogen ernaar linken als gebruikers de bibliotheek kunnen
+  vervangen."
+analogy: "Een gedeelde motor: je mag hem in je auto zetten, maar eigenaren
+  moeten hem kunnen omwisselen voor hun eigen motor."
+pros:
+  - Propriëtaire apps mogen de bibliotheek gebruiken
+  - Wijzigingen aan de bibliotheek blijven open
+  - Octrooilicentie
+cons:
+  - Regels voor opnieuw linken zijn complex, vooral bij statisch linken en mobiel
+  - Sommige bedrijven vermijden het nog steeds

@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 3720e103ed28cbd1
+summary: "Código disponível: qualquer utilização exceto um produto concorrente,
+  e cada versão passa a Apache-2.0 dois anos depois."
+analogy: Uma montra cujos artigos ficam gratuitos para todos ao fim de dois anos.
+pros:
+  - Curta e previsível
+  - O código torna-se open source ao fim de dois anos
+cons:
+  - Não é open source
+  - '"Utilização concorrente" pode ser difícil de avaliar'

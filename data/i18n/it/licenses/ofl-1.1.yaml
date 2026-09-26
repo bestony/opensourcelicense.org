@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 2388a1183d57050c
+summary: "Licenza libera per i font: usa, incorpora e modifica i font
+  liberamente, ma i font modificati devono abbandonare i nomi riservati e i font
+  non possono essere venduti da soli."
+analogy: Usa il carattere ovunque, ma non vendere il solo file del font.
+pros:
+  - Consente l'incorporamento in documenti e app
+  - Standard per i font aperti
+cons:
+  - I nomi di font riservati complicano i fork
+  - Solo per i font

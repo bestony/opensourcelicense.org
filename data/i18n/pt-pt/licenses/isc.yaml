@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 7db0448b4abf3505
+summary: "Uma licença equivalente à MIT, mais curta: qualquer utilização,
+  mantendo o aviso de direitos de autor e de permissão."
+analogy: O mesmo livro gratuito da MIT, com uma nota mais curta na capa.
+pros:
+  - A licença permissiva comum mais curta
+  - Predefinição de muitos pacotes npm
+cons:
+  - Sem concessão de patentes
+  - Forks fechados são permitidos

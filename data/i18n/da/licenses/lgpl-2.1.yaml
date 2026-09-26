@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 22649412ed3dbb5f
+summary: "Bibliotekscopyleft: ændringer i biblioteket forbliver åbne; lukkede
+  programmer må linke til det, hvis brugerne kan genlinke med et ændret
+  bibliotek."
+analogy: Den ældre udgave af den udskiftelige delte motor.
+pros:
+  - Lader proprietære apps bruge biblioteket
+  - Udbredt i desktop- og multimediebiblioteker
+cons:
+  - Reglerne for genlinkning er komplekse
+  - Ingen udtrykkelig patentlicens

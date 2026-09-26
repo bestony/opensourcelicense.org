@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 97ea126725162df2
+summary: "Licenza permissiva per i dati della Linux Foundation: usa e condividi
+  i dati liberamente; i risultati, come i modelli addestrati, non sono
+  vincolati."
+analogy: Usa il dataset per qualsiasi cosa; includi l'accordo quando passi i
+  dati ad altri.
+pros:
+  - Libera esplicitamente i risultati computazionali
+  - Scritta per i dati
+cons:
+  - Meno conosciuta delle licenze CC
+  - La versione 2.0 è più semplice

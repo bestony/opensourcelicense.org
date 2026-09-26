@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: c04c9ce2bbb6b016
+summary: Soortgelyk aan AGPL, maar om die sagteware as 'n diens aan te bied,
+  vereis dat die bronkode van die hele diensstapel vrygestel word. Nie
+  OSI-goedgekeur nie.
+analogy: As jy 'n restaurant met hierdie gereg bedryf, moet jy ook jou kombuis
+  se bouplanne publiseer.
+pros:
+  - Sterk beskerming teen wolkverskaffers
+cons:
+  - Nie oopbron volgens OSI nie
+  - Deur baie distribusies verwerp
+  - Kan gemeenskapsvurke uitlok

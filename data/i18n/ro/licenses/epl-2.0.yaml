@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 5941dce0a6108d60
+summary: Copyleft slab la nivel de modul, cu licență de brevet; poate desemna
+  GPL ca licență secundară pentru compatibilitate.
+analogy: Împărtășește modificările tale la capitolul împrumutat; restul cărții
+  este al tău.
+pros:
+  - Copyleft prietenos cu mediul de afaceri
+  - Licență de brevet
+cons:
+  - Compatibilitate cu GPL doar cu o licență secundară declarată
+  - Limitele modulelor pot fi neclare

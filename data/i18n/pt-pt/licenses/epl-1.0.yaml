@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 41352f96fddd8017
+summary: Copyleft ao nível do módulo com concessão de patentes e lei de Nova
+  Iorque como lei aplicável; incompatível com a GPL.
+analogy: A primeira edição da regra do Eclipse de partilhar o capítulo.
+pros:
+  - Concessão de patentes
+  - Usada pelo Clojure e pelo JUnit 4
+cons:
+  - Incompatível com a GPL
+  - Substituída pela EPL-2.0

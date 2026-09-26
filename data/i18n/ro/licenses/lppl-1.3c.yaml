@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: f6ef6656ac79990f
+summary: "Licență liberă pentru pachetele LaTeX: fișierele modificate trebuie
+  redenumite sau marcate clar, astfel încât documentele să funcționeze la fel
+  peste tot."
+analogy: Poți modifica fontul, dar dă-i versiunii tale un nume nou.
+pros:
+  - Păstrează documentele reproductibile
+  - Standard în tot CTAN
+cons:
+  - Regula redenumirii este neobișnuită
+  - Incompatibilă cu GPL

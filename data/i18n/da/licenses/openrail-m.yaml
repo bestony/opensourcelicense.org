@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 86907368675893f1
+summary: "En Responsible AI License til modeller: tilladende vilkår plus
+  brugsbegrænsninger, som ethvert afledt værk skal videregive."
+analogy: Et gratis værktøj med en liste over forbudte anvendelser, der følger
+  med hver kopi.
+pros:
+  - Tillader kommerciel brug
+  - Bevarer begrænsninger mod skadelig brug nedstrøms
+cons:
+  - Ikke open source ifølge OSI
+  - Begrænsningerne er svære at håndhæve
+  - Der findes flere varianter

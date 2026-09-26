@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: c04c9ce2bbb6b016
+summary: Liknar AGPL, men att erbjuda programvaran som tjänst kräver att
+  källkoden till hela tjänstestacken släpps. Inte OSI-godkänd.
+analogy: Driver du en restaurang med den här rätten måste du också publicera
+  ritningarna till ditt kök.
+pros:
+  - Starkt skydd mot molnleverantörer
+cons:
+  - Inte öppen källkod enligt OSI
+  - Avvisad av många distributioner
+  - Kan leda till community-forkar

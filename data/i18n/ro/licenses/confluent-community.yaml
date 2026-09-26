@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 99f045fe47a729cc
+summary: "Source-available: folosește, modifică și distribuie liber, cu excepția
+  oferirii unui produs SaaS care concurează cu Confluent."
+analogy: Folosește rețeta în orice restaurant, cu excepția unuia care concurează
+  cu al autorului.
+pros:
+  - Restricție îngustă
+  - Majoritatea utilizatorilor nu sunt afectați
+cons:
+  - Nu este open source
+  - Exclude concurenții cloud doar printr-o descriere

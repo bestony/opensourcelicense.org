@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 841fb8980cea558f
+summary: GPL-2.0 vir die biblioteek self, plus 'n uitsondering wat onafhanklike
+  programme toelaat om onder enige lisensie daaraan te koppel.
+analogy: "'n Gedeelde enjin onder die deel-die-resep-reël, maar jou eie motor
+  bly joune."
+pros:
+  - Toepassings wat daaraan koppel, kan geslote wees
+  - Gebruik deur OpenJDK
+cons:
+  - Veranderinge aan die biblioteek bly GPL
+  - Onversoenbaar met GPL-3.0-only-projekte

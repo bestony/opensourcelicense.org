@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: c04c9ce2bbb6b016
+summary: Ligner AGPL, men hvis du tilbyder softwaren som en tjeneste, skal
+  kildekoden til hele tjenestestakken frigives. Ikke OSI-godkendt.
+analogy: Driver du en restaurant med denne ret, skal du også offentliggøre
+  tegningerne til dit køkken.
+pros:
+  - Stærk beskyttelse mod cloududbydere
+cons:
+  - Ikke open source ifølge OSI
+  - Afvist af mange distributioner
+  - Kan udløse forks fra fællesskabet

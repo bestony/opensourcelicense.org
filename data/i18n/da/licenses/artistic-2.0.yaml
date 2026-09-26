@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cb1197749de0ea7e
+summary: Du må ændre og distribuere frit, men en ændret version skal markeres
+  tydeligt eller omdøbes, eller kildekoden skal gøres tilgængelig. Indeholder
+  patentvilkår.
+analogy: Remix sangen, men sælg ikke dit remix som originalen.
+pros:
+  - Beskytter originalens identitet
+  - Kompatibel med GPL
+cons:
+  - Betingelserne er ordrige
+  - Sjælden uden for Raku og Perl

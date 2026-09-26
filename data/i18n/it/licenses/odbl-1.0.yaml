@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 6a4054dc9cca8e7e
+summary: "Condivisione allo stesso modo per i database: puoi usare i dati a fini
+  commerciali, ma i database derivati pubblici devono restare sotto ODbL. Le
+  opere prodotte, come mappe o immagini, richiedono solo l'attribuzione."
+analogy: Costruisci sulla mappa condivisa e, se pubblichi un database
+  cartografico migliorato, condividilo alle stesse condizioni.
+pros:
+  - Mantiene aperti i database migliorati
+  - Uso commerciale consentito
+  - Collaudata da OpenStreetMap
+cons:
+  - La condivisione allo stesso modo può impedire la combinazione con altri dati
+  - Il concetto di "database derivato" a volte è poco chiaro

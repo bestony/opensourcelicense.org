@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: ddb7b2f148c13edb
+summary: O licență permisivă scurtă, cu licență expresă de brevet, folosită de
+  Oracle pentru GraalVM și alte proiecte.
+analogy: Cartea gratuită MIT, cu o promisiune în plus privind brevetele.
+pros:
+  - Scurtă și permisivă
+  - Licență expresă de brevet
+cons:
+  - Fără clauză de retorsiune privind brevetele
+  - Mai puțin cunoscută decât MIT sau Apache

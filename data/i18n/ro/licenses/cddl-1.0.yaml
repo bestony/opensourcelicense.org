@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 362187e701e25e6a
+summary: Copyleft la nivel de fișier derivat din MPL, cu licență de brevet;
+  incompatibilă cu GPL.
+analogy: Împărtășește modificările fișierului împrumutat; restul îl poți ține
+  închis, dacă vrei.
+pros:
+  - Aplicare la nivel de fișier
+  - Licență de brevet
+cons:
+  - Incompatibilă cu GPL (problema ZFS pe Linux)
+  - Puține proiecte noi o adoptă

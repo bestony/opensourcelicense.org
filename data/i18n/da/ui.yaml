@@ -1,0 +1,362 @@
+reviewed: false
+sourceHash: a2d7eb045dde7649
+strings:
+  site.name: opensourcelicense.org
+  site.tagline: Vælg og sammenlign open source-licenser
+  site.description: Vælg, sammenlign og stresstest open source-licenser. Se hvad
+    rigtige projekter bruger, hvad der kan gå galt, og hvad der passer til dit
+    projekt.
+  nav.home: Forside
+  nav.licenses: Licenser
+  nav.scenarios: Scenarier
+  nav.projects: Projekter
+  nav.trends: Tendenser
+  nav.compare: Sammenlign
+  nav.wizard: Guide
+  nav.chat: AI-rådgiver
+  nav.check: Tjek af afhængigheder
+  nav.menu: Menu
+  lang.switch: Sprog
+  lang.suggest: Denne side findes på {language}.
+  lang.suggest.go: Skift
+  lang.suggest.dismiss: Luk
+  footer.disclaimer: Dette websted giver generel information, ikke juridisk
+    rådgivning. Tal med en advokat ved en reel tvist eller kontrakt.
+  footer.source: Kildekode (AGPL-3.0)
+  footer.data: Data under CC-BY-4.0
+  footer.report: Rapportér en fejl
+  footer.cite: Data fra opensourcelicense.org, CC-BY-4.0
+  footer.hosting: Kører på gratisplanen hos Cloudflare Workers
+  footer.dns: Domænet hostes hos Cloudflare
+  badge.machine: Maskinoversættelse
+  badge.reviewed: Gennemgået oversættelse
+  badge.fallback: Endnu ikke oversat — viser engelsk
+  badge.stale: kan være forældet
+  badge.unreviewed-data: Udkast — endnu ikke gennemgået af en advokat
+  common.updated: Data opdateret {date}
+  common.back: Tilbage
+  common.copy: Kopiér
+  common.copied: Kopieret
+  common.download: Download
+  common.close: Luk
+  common.all: Alle
+  common.yes: Ja
+  common.no: Nej
+  common.unknown: Ukendt
+  common.none: Ingen
+  common.more: Mere
+  common.loading: Indlæser…
+  common.error: Noget gik galt.
+  common.search: Søg
+  home.title: Vælg en open source-licens med åbne øjne
+  home.lead: Ikke kun "hvilken licens", men også hvad lignende projekter valgte,
+    hvordan det værste scenarie ser ud, og hvad du skal gøre bagefter.
+  home.entry.chat.title: Tal med AI-rådgiveren
+  home.entry.chat.body: Beskriv dit projekt med dine egne ord. Få en profil,
+    opfølgende spørgsmål og en rapport.
+  home.entry.projects.title: Se hvad andre bruger
+  home.entry.projects.body: Licenser for kendte projekter, og hvorfor nogle af dem skiftede.
+  home.entry.wizard.title: Filtrér trin for trin
+  home.entry.wizard.body: Besvar et par spørgsmål, og få en rangeret kortliste med forklaringer.
+  home.wall: Licenser i populære projekter
+  home.changes: Seneste licensskift
+  home.scenarios: Hvad kan gå galt?
+  home.scenarios.body: 27 ekstreme scenarier × 17 licenskolonner, én side pr. celle.
+  family.permissive: Tilladende
+  family.weak-copyleft: Svag copyleft
+  family.strong-copyleft: Stærk copyleft
+  family.network-copyleft: Netværks-copyleft
+  family.source-available: Kildetilgængelig
+  family.model: Modellicens
+  family.content: Indhold / data
+  verdict.allow: Tilladt
+  verdict.conditional: Med betingelser
+  verdict.deny: Forbudt af licensen
+  verdict.silent: Ikke reguleret
+  verdict.tbd: Under vurdering
+  verdict.legend: "Forklaring: ✓ den anden part må gøre dette · ◐ med betingelser
+    · ✗ licensen forbyder det · — licensen siger intet (almindelig lovgivning
+    gælder)"
+  actor.other: En anden gør dette
+  actor.you: Du vil gøre dette
+  actor.contributor: En bidragyder gør dette
+  actor.both: Gælder for begge parter
+  group.A: Kommerciel konkurrence
+  group.B: Patenter og jura
+  group.C: Udvikling og forretning
+  group.D: Brug og overholdelse
+  group.E: AI-modeller og data
+  matrix.code: Kodelicenser
+  matrix.model: Model- og datalicenser
+  term.commercial-use: Kommerciel brug
+  term.modification: Ændring
+  term.distribution: Distribution
+  term.private-use: Privat brug
+  term.patent-use: Patentlicens
+  term.non-production-use: Brug uden for produktion
+  term.converts-to-open-source: Bliver open source senere
+  term.include-copyright: Bevar ophavsretsmeddelelsen
+  term.include-license: Medtag licensen
+  term.document-changes: Markér ændringer
+  term.disclose-source: Offentliggør kildekoden
+  term.same-license: Samme licens for afledte værker
+  term.same-license-file: Samme licens (filniveau)
+  term.same-license-library: Samme licens (biblioteksniveau)
+  term.allow-relinking: Tillad genlinkning
+  term.network-use-disclose: Netværksbrug tæller som distribution
+  term.service-stack-disclose: Frigiv hele tjenestestakken
+  term.keep-limitations: Bevar begrænsningerne
+  term.attribution: Kreditering
+  term.attribution-built-with: Vis "Built with"
+  term.name-prefix: Regel om navnepræfiks
+  term.acceptable-use-policy: Politik for acceptabel brug
+  term.use-restrictions-pass-through: Videregiv brugsbegrænsninger
+  term.indicate-changes: Angiv ændringer
+  term.liability: Intet ansvar
+  term.warranty: Ingen garanti
+  term.trademark-use: Ingen varemærkerettigheder
+  term.no-endorsement: Ingen anbefaling
+  term.production-use-restricted: Produktionsbrug begrænset
+  term.no-managed-service: Ingen administreret tjeneste
+  term.no-license-key-circumvention: Ingen omgåelse af licensnøgler
+  term.mau-threshold: Brugergrænse
+  term.use-restrictions: Brugsbegrænsninger
+  term.non-commercial: Kun ikke-kommerciel
+  licenses.title: Oversigt over open source-licenser
+  licenses.lead: "{count} licenser, fra tilladende til kildetilgængelige licenser
+    og modellicenser."
+  licenses.col.license: Licens
+  licenses.col.family: Familie
+  licenses.col.osi: OSI
+  licenses.col.fsf: Fri ifølge FSF
+  licenses.col.projects: Projekter
+  licenses.filter: Filtrér efter familie
+  license.permissions: Rettigheder
+  license.conditions: Betingelser
+  license.limitations: Begrænsninger
+  license.summary: Med almindelige ord
+  license.analogy: Sammenligning
+  license.pros: Fordele
+  license.cons: Ulemper
+  license.scenarios: Ekstreme scenarier
+  license.radar: Radar for værste tilfælde
+  license.projects: Kendte projekter, der bruger den
+  license.projects.count: "{count} kendte projekter på vores kort bruger denne licens."
+  license.projects.none: Intet projekt på vores kort bruger denne licens endnu.
+  license.projects.since: Skiftede til den {date}
+  license.projects.also: "Tilbydes også under: {licenses}"
+  license.projects.former: Projekter, der har forladt den
+  license.text: Officiel tekst
+  license.text.official: Officiel tekst på {language}
+  license.text.note: Kun den officielle tekst er juridisk bindende. Vi oversætter
+    ikke licenstekster.
+  license.compare: Sammenlign med…
+  license.spdx: SPDX-identifikator
+  radar.anti-freeride: Stopper gratister
+  radar.anti-closed-fork: Stopper lukkede forks
+  radar.patent: Patentbeskyttelse
+  radar.adoption-friction: Barriere for udbredelse
+  radar.relicense-difficulty: Svær at skifte licens
+  radar.misuse-control: Kontrol med misbrug
+  radar.derivative-control: Kontrol med afledte værker
+  radar.commercial-control: Kommerciel kontrol
+  radar.note: Beregnet ud fra scenariematricen. Højere betyder mere af den
+    egenskab, ikke "bedre".
+  scenarios.title: Matrix over ekstreme licensscenarier
+  scenarios.lead: Hvad sker der, når du har valgt en licens? Hver celle besvarer
+    ét spørgsmål og har sin egen side.
+  scenarios.highlight: Fremhæv en licens
+  scenarios.expand: Udvid alle
+  scenarios.collapse: Skjul alle
+  scenarios.silent-note: Rækker med kun "—" er her med vilje. Svaret afhænger af
+    ansættelseskontrakter (C6), eksportkontrollovgivning (D5) eller verserende
+    retssager (D6), ikke af licensen.
+  scenario.flow.you: Du udgiver under {license}
+  scenario.flow.they: Situationen
+  scenario.flow.result: Resultat
+  scenario.clause: Relevant bestemmelse
+  scenario.case: Eksempel fra virkeligheden
+  scenario.others: Samme scenarie, andre licenser
+  scenario.other-scenarios: Andre scenarier for {license}
+  scenario.no-clause: Ingen særlig bestemmelse. Almindelig lovgivning gælder.
+  scenario.review: Gennemgangsstatus
+  scenario.review.none: Endnu ikke gennemgået af en advokat.
+  scenario.review.done: Gennemgået af {who} den {date}.
+  compare.title: Sammenlign open source-licenser
+  compare.lead: Vælg to eller tre licenser for at sammenligne dem bestemmelse for
+    bestemmelse og scenarie for scenarie.
+  compare.pick: Tilføj en licens
+  compare.remove: Fjern
+  compare.terms: Vilkår
+  compare.scenarios: Scenarier
+  compare.empty: Vælg mindst to licenser.
+  wizard.title: "Licensguide: vælg den rigtige licens"
+  wizard.lead: Besvar et par spørgsmål. Regelmotoren rangerer licenserne og
+    forklarer hvert punkt.
+  wizard.next: Næste
+  wizard.prev: Tilbage
+  wizard.finish: Se resultatet
+  wizard.restart: Start forfra
+  wizard.skip: Spring over
+  wizard.step: Trin {n} af {total}
+  wizard.to-chat: Fortsæt hos AI-rådgiveren
+  q.artifact_type: Hvad udgiver du?
+  q.openness_level: Hvor åbent skal det være?
+  q.avoid: Hvilke udfald vil du undgå?
+  q.avoid.hint: Vælg så mange, du vil.
+  q.adoption_goal: Hvad er vigtigst?
+  q.dependencies: Er du afhængig af copyleft-kode?
+  q.dependencies.hint: Tilføj SPDX-id'erne for afhængighedernes licenser, for eksempel GPL-3.0-only.
+  q.commercial_plan: Hvordan vil du tjene penge, hvis overhovedet?
+  q.jurisdiction: Hvor holder du til?
+  opt.artifact_type.library: Et bibliotek eller SDK
+  opt.artifact_type.application: Et program eller værktøj
+  opt.artifact_type.saas: En tjeneste-backend (SaaS)
+  opt.artifact_type.model: Modelvægte
+  opt.artifact_type.dataset: Et datasæt
+  opt.artifact_type.docs: Dokumentation eller indhold
+  opt.openness_level.open: Helt åbent — alle må gøre alt
+  opt.openness_level.reciprocal: Åbent, men forbedringer skal komme tilbage
+  opt.openness_level.source-available: Synlig kildekode, begrænset kommerciel brug
+  opt.avoid.cloud-hosting: Cloududbydere, der sælger det som en tjeneste
+  opt.avoid.closed-fork: Forks med lukket kildekode
+  opt.avoid.patent-litigation: Patentsager
+  opt.avoid.trademark-abuse: Misbrug af mit navn eller varemærke
+  opt.avoid.harmful-use: Skadelig brug
+  opt.avoid.big-company: Store virksomheder, der bruger det gratis
+  opt.adoption_goal.enterprise: Maksimal udbredelse i virksomheder
+  opt.adoption_goal.community: Bidrag fra fællesskabet
+  opt.adoption_goal.monetize: At tjene penge på det
+  opt.commercial_plan.none: Ingen plan
+  opt.commercial_plan.dual-license: Dobbeltlicensering
+  opt.commercial_plan.open-core: Open core
+  opt.commercial_plan.hosted: Hostet tjeneste
+  opt.jurisdiction.cn: Kina
+  opt.jurisdiction.eu: Den Europæiske Union
+  opt.jurisdiction.us: USA
+  opt.jurisdiction.other: Andet
+  engine.part.avoid: "Beskyttelse mod: {avoid}"
+  engine.part.openness: "Passer til åbenhed: {openness}"
+  engine.part.adoption: "Mål: {goal}"
+  engine.part.commercial: "Forretningsplan: {plan}"
+  engine.part.jurisdiction: "Jurisdiktion: {jurisdiction}"
+  engine.part.dependency: "Kun kompatibel med betingelser: {dependency}"
+  engine.excluded.dependency: Ikke kompatibel med afhængigheden {dependency}
+  engine.excluded.artifact: Ikke egnet til denne type værk
+  advisory.needs-cla: Brug en Contributor License Agreement (CLA). Du får brug for
+    den for at sælge kommercielle licenser eller skifte licens senere.
+  advisory.consider-dco: Et Developer Certificate of Origin (DCO, "Signed-off-by") er som regel nok.
+  advisory.busl-change-date: Angiv Additional Use Grant, Change Date og Change License i BSL-headeren.
+  advisory.model-card: Angiv licensen i metadataene for model- eller datasætkortet
+    (feltet "license:").
+  advisory.notice-file: Tilføj en NOTICE-fil, og bevar den, når du videredistribuerer.
+  advisory.consult-lawyer: Bed en advokat gennemgå afhængigheder og forretningsvilkår, før du udgiver.
+  advisory.network-source-link: Vis et link til "Kildekode" for brugerne af din netværkstjeneste.
+  report.title: Din licensrapport
+  report.lead: Rapporten beregnes i din browser ud fra profilen i linket. Del
+    linket for at dele rapporten.
+  report.profile: Projektprofil
+  report.edit: Redigér i guiden
+  report.top: Anbefalet
+  report.score: Score {score}
+  report.why: Hvorfor
+  report.excluded: Udelukket
+  report.advisories: Næste skridt
+  report.license-file: LICENSE-fil
+  report.header: Filheader
+  report.badge: README-badge
+  report.share: Del link
+  report.share.copy: Kopiér link
+  report.similar: Lignende projekter
+  report.no-text: Ingen maskinlæsbar tekst. Hent den fra den officielle side.
+  report.invalid: Dette rapportlink er ugyldigt eller stammer fra en gammel version.
+  report.empty: Ingen profil endnu. Start med guiden eller AI-rådgiveren.
+  chat.title: AI-licensrådgiver
+  chat.lead: Beskriv dit projekt. Rådgiveren stiller opfølgende spørgsmål,
+    regelmotoren vælger licenserne, og rådgiveren forklarer dem.
+  chat.placeholder: "For eksempel: Jeg har bygget en vektordatabase og er bekymret
+    for, at cloududbydere vil videresælge den."
+  chat.send: Send
+  chat.stop: Stop
+  chat.examples: Prøv et eksempel
+  chat.example.1: Jeg har bygget en vektordatabase og er bekymret for, at
+    cloududbydere vil videresælge den.
+  chat.example.2: Et lille React-komponentbibliotek. Jeg vil gerne have, at
+    virksomheder bruger det.
+  chat.example.3: Vi har finjusteret en 7B-model og vil forhindre skadelig brug.
+  chat.profile: Projektprofil
+  chat.profile.hint: Klik på en værdi for at ændre den.
+  chat.candidates: Kandidater
+  chat.run: Få en anbefaling
+  chat.limit: Du har nået dagens grænse. Prøv igen i morgen, eller brug guiden.
+  chat.error: Rådgiveren er ikke tilgængelig lige nu. Guiden virker stadig.
+  chat.verify: Bekræft, at du er et menneske.
+  chat.disclaimer: Rådgiveren kan tage fejl. Anbefalingerne kommer fra
+    regelmotoren, og dette er ikke juridisk rådgivning.
+  chat.report: Åbn hele rapporten
+  projects.title: Licenskort over open source-projekter
+  projects.lead: Licenser for kendte projekter og historien bag hvert skift.
+  projects.filter.domain: Område
+  projects.filter.family: Licensfamilie
+  projects.filter.owner: Ejer
+  projects.filter.changed: Skiftet licens
+  projects.count: "{count} projekter"
+  projects.empty: Intet projekt matcher disse filtre.
+  owner.company: Virksomhed
+  owner.foundation: Fond
+  owner.individual: Privatperson
+  owner.community: Fællesskab
+  project.current: Nuværende licens
+  project.timeline: Licenstidslinje
+  project.reason: Årsag
+  project.announcement: Meddelelse
+  project.forks: Forks, der fulgte
+  project.fork-of: Fork af {name}
+  project.repo: Repository
+  project.similar: Lignende projekter
+  project.review: Denne post blev fundet af synkroniseringsbotten og afventer
+    gennemgang af et menneske.
+  project.initial: Oprindelig licens
+  domain.database: Database
+  domain.frontend: Frontend-framework
+  domain.devops: DevOps
+  domain.ai-model: AI-model
+  domain.language: Sprog og runtime
+  domain.os: Styresystem
+  domain.web: Webserver og backend
+  domain.tooling: Udviklerværktøjer
+  domain.data: Data og analyse
+  domain.observability: Observerbarhed
+  domain.messaging: Beskeder og streaming
+  domain.cms: CMS og apps
+  trends.title: Tendenser for open source-licenser
+  trends.lead: Samlet fra projektkortet ved build-tidspunktet.
+  trends.family-share: Licensfamilier pr. område
+  trends.changes: Licensskift pr. år
+  trends.to-source-available: Projekter, der gik fra open source til kildetilgængelig licens
+  search.lead: Søg efter licenser, scenarier og projekter på dette sprog.
+  search.noscript: Søgning kræver JavaScript.
+  check.title: Licenstjek af afhængigheder
+  check.lead: Indsæt en package.json, go.mod, Gemfile.lock, Cargo.toml eller
+    requirements.txt. Fortolkningen sker i din browser.
+  check.project-license: Dit projekts licens
+  check.input: Manifest
+  check.run: Tjek
+  check.lookup: Slå ukendte licenser op online (deps.dev)
+  check.col.package: Pakke
+  check.col.license: Licens
+  check.col.status: Status
+  check.status.compatible: Kompatibel
+  check.status.conditional: Med betingelser
+  check.status.incompatible: Konflikt
+  check.status.unknown: Ukendt
+  check.summary: "{ok} kompatible, {warn} med betingelser, {bad} konflikter,
+    {unknown} ukendte"
+  check.format: "Registreret format: {format}"
+  check.no-deps: Ingen afhængigheder fundet.
+  check.license-hint: Tilføj licensen i manifestet som linjer i formatet
+    "name@version LICENSE-ID", eller slå onlineopslag til.
+  notfound.title: Siden blev ikke fundet
+  notfound.body: Denne side findes ikke. Prøv licensoversigten.
+  domain.education: Uddannelse
+  domain.design: Skrifttyper og design

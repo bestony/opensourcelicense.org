@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 6a4054dc9cca8e7e
+summary: "Gelijk delen voor databases: je mag de data commercieel gebruiken,
+  maar openbare afgeleide databases moeten onder de ODbL blijven. Voortgebrachte
+  werken zoals kaarten of afbeeldingen vereisen alleen naamsvermelding."
+analogy: Bouw voort op de gedeelde kaart, en als je een verbeterde kaartdatabase
+  publiceert, deel die dan onder dezelfde voorwaarden terug.
+pros:
+  - Houdt verbeterde databases open
+  - Commercieel gebruik toegestaan
+  - Bewezen door OpenStreetMap
+cons:
+  - Gelijk delen kan combineren met andere data blokkeren
+  - '"Afgeleide database" is soms onduidelijk'

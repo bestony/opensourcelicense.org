@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cb1197749de0ea7e
+summary: Je mag vrij wijzigen en verspreiden, maar een gewijzigde versie moet
+  duidelijk gemarkeerd of hernoemd worden, of de broncode moet beschikbaar zijn.
+  Bevat octrooibepalingen.
+analogy: Remix het nummer, maar verkoop je remix niet als het origineel.
+pros:
+  - Beschermt de identiteit van het origineel
+  - Compatibel met de GPL
+cons:
+  - Voorwaarden zijn omslachtig
+  - Zeldzaam buiten Raku en Perl

@@ -1,0 +1,15 @@
+reviewed: false
+sourceHash: cdef0d42cb1ab51e
+summary: "Copyleft a livello di libreria: le modifiche alla libreria restano
+  aperte; le app chiuse possono collegarsi a essa se gli utenti possono
+  sostituire la libreria."
+analogy: "Un motore condiviso: puoi montarlo sulla tua auto, ma i proprietari
+  devono poterlo sostituire con il proprio."
+pros:
+  - Consente alle app proprietarie di usare la libreria
+  - Le modifiche alla libreria restano aperte
+  - Concessione di brevetti
+cons:
+  - Le regole sul ricollegamento sono complesse, soprattutto con il collegamento
+    statico e su mobile
+  - Alcune aziende la evitano ancora

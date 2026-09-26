@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 261d8b56fb436858
+summary: "Como a MIT: use o código livremente; mantenha o aviso de direitos de
+  autor e a exclusão de responsabilidade nas cópias em código-fonte e em
+  binário."
+analogy: "Uma ficha de receita gratuita: copie-a para onde quiser, basta manter
+  a linha do autor no fundo."
+pros:
+  - Muito curta e permissiva
+  - Muito usada em sistemas BSD
+cons:
+  - Sem concessão de patentes
+  - Forks fechados são permitidos

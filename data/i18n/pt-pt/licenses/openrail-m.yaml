@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 86907368675893f1
+summary: "Uma Responsible AI License para modelos: termos permissivos com
+  restrições baseadas na utilização que todas as obras derivadas têm de
+  transmitir."
+analogy: Uma ferramenta gratuita com uma lista de utilizações proibidas que
+  acompanha cada cópia.
+pros:
+  - Permite a utilização comercial
+  - Mantém as restrições contra utilizações nocivas ao longo da cadeia
+cons:
+  - Não é open source segundo a OSI
+  - Restrições difíceis de fazer cumprir
+  - Existem várias variantes

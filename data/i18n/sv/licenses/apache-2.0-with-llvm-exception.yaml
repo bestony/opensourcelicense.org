@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: ded3362d69058c2a
+summary: Apache-2.0 plus ett undantag som tar bort kravet på erkännande för
+  kompilerad kod och gör den användbar med GPL-2.0-projekt.
+analogy: Apaches verktygslåda, med en lapp om att verktygens rester i din
+  produkt inte behöver krediteras.
+pros:
+  - Patentlicensen från Apache-2.0
+  - Fungerar med GPL-2.0-kod
+cons:
+  - Längre än MIT
+  - Undantaget är specifikt för kompilatorliknande projekt

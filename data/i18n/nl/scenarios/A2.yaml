@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 57d3e35a6ad686d1
+actor: other
+title: Iemand forkt het en verspreidt een closed-source concurrent
+cells:
+  apache-2.0: Gewijzigde bestanden moeten worden gemarkeerd
+  mpl-2.0: Gewijzigde MPL-bestanden blijven open
+  lgpl-3.0: Wijzigingen aan de bibliotheek blijven open
+  busl-1.1: Afgeleide werken blijven onder BSL
+  elv2: Beperkingen moeten behouden blijven

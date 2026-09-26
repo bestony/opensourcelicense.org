@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cb1197749de0ea7e
+summary: Permite modificarea și distribuirea liberă, dar o versiune modificată
+  trebuie marcată clar sau redenumită ori trebuie pus la dispoziție codul ei
+  sursă. Include prevederi privind brevetele.
+analogy: Fă un remix al cântecului, dar nu-l vinde drept original.
+pros:
+  - Protejează identitatea originalului
+  - Compatibilă cu GPL
+cons:
+  - Condiții formulate stufos
+  - Rară în afara Raku și Perl

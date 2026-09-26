@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 57d3e35a6ad686d1
+actor: other
+title: Cineva face un fork și distribuie un concurent cu cod sursă închis
+cells:
+  apache-2.0: Trebuie să marcheze fișierele modificate
+  mpl-2.0: Fișierele MPL modificate rămân deschise
+  lgpl-3.0: Modificările bibliotecii rămân deschise
+  busl-1.1: Lucrările derivate rămân sub BSL
+  elv2: Limitările trebuie păstrate

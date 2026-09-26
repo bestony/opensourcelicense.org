@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 4803251a37336702
+summary: "En særlig modellicens: kommerciel brug er tilladt, med en Acceptable
+  Use Policy, regler for kreditering og navngivning og en separat licens over
+  700 millioner månedlige aktive brugere."
+analogy: En motor, der er gratis at bruge, med en regelbog og en særlig kontrakt
+  for de allerstørste bilproducenter.
+pros:
+  - Kommerciel brug tilladt for de fleste brugere
+  - Stort økosystem
+cons:
+  - Ikke open source ifølge OSI
+  - Forpligtelser vedrørende brugspolitik og navngivning
+  - Vilkårene ændrer sig mellem versioner

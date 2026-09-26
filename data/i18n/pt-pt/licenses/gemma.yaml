@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: c826929f8a1baf2e
+summary: "Os termos de modelo da Google: utilização comercial permitida, com uma
+  política de utilizações proibidas que passa para todas as obras derivadas,
+  incluindo modelos destilados."
+analogy: Um motor gratuito com um regulamento que todos os motores reconstruídos
+  têm de levar.
+pros:
+  - Utilização comercial sem limite de utilizadores
+  - Regras claras para obras derivadas
+cons:
+  - Não é open source segundo a OSI
+  - A Google pode atualizar a política de utilização

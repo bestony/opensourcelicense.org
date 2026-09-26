@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: b568f07f3285ed81
+summary: En kinesisk tillåtande licens med patentlicens och vedergällning. Den
+  kinesiska och den engelska texten är lika giltiga; vid konflikt har den
+  kinesiska företräde.
+analogy: Skydd i Apache-stil, skrivet med kinesisk lag i åtanke.
+pros:
+  - Officiell tvåspråkig text
+  - Patentlicens
+  - OSI-godkänd
+cons:
+  - Mindre känd utanför Kina
+  - Begränsad rättspraxis

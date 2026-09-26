@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 97ea126725162df2
+summary: "Permissieve datalicentie van de Linux Foundation: gebruik en deel data
+  vrij; resultaten zoals getrainde modellen worden niet beperkt."
+analogy: Gebruik de dataset waarvoor je wilt; voeg de overeenkomst toe als je de
+  data doorgeeft.
+pros:
+  - Stelt rekenresultaten uitdrukkelijk vrij
+  - Geschreven voor data
+cons:
+  - Minder bekend dan CC-licenties
+  - Versie 2.0 is eenvoudiger

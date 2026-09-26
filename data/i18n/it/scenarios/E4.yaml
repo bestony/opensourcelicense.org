@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: cf07449a9c3b7eaf
+actor: other
+title: Sottoposto a fine-tuning, rinominato e pubblicato con pesi chiusi
+cells:
+  llama: Deve includere la licenza e mostrare "Built with Llama"
+  openrail-m: Deve trasmettere le restrizioni d'uso
+  cc-by-4.0: Attribuzione
+  cc-by-nc-4.0: Solo uso non commerciale
+  odc-by-1.0: Attribuzione
+  odbl-1.0: I database derivati restano ODbL

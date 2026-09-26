@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 4f30616160bfe68b
+actor: you
+title: Je wijzigt later de licentie of verkoopt commerciële licenties
+  (bijdragers tekenden geen CLA)
+cells:
+  mit: Nieuwe versies kunnen veranderen; oude blijven
+  bsd-3-clause: Zelfde als MIT
+  apache-2.0: Zelfde als MIT
+  mpl-2.0: MPL-bestanden moeten MPL blijven
+  lgpl-3.0: Toestemming van alle bijdragers nodig
+  mulanpsl-2.0: Zelfde als MIT
+  busl-1.1: Steunt meestal op een CLA
+  elv2: Steunt meestal op een CLA

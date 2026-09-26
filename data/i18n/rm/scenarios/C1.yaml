@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 4f30616160bfe68b
+actor: you
+title: Vus midais pli tard la licenza u vendais licenzas commerzialas (ils
+  contribuents n'han suttascrit nagin CLA)
+cells:
+  mit: Novas versiuns pon midar; las veglias restan
+  bsd-3-clause: Sco MIT
+  apache-2.0: Sco MIT
+  mpl-2.0: Datotecas MPL ston restar MPL
+  lgpl-3.0: Basegna il consentiment da tut ils contribuents
+  mulanpsl-2.0: Sco MIT
+  busl-1.1: Sa basa per regla sin in CLA
+  elv2: Sa basa per regla sin in CLA

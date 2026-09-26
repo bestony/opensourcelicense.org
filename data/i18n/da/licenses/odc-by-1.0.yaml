@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 7c50fe5f1b7f3c7d
+summary: "Til databaser og datasæt: enhver brug, også kommerciel, hvis du
+  bevarer krediteringsmeddelelsen. Værker, du frembringer ud fra data, kræver
+  også en meddelelse."
+analogy: Brug kortdataene overalt, bare sig, hvor de kommer fra.
+pros:
+  - Enkel regel om kreditering
+  - Udbredt til store AI-træningskorpusser
+  - Dækker databaseret, ikke kun ophavsret
+cons:
+  - Ikke designet til software
+  - Ingen patentlicens

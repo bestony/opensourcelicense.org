@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: ce104e1cd96e85b1
+summary: "Código disponível: a utilização em produção é limitada pelo Additional
+  Use Grant, e cada versão converte-se numa licença aberta após a Change Date
+  (máx. 4 anos)."
+analogy: "Uma montra: pode ver e experimentar, e passados alguns anos o artigo
+  fica gratuito para todos."
+pros:
+  - Permite controlar a utilização comercial
+  - O código torna-se open source mais tarde
+cons:
+  - Não é open source
+  - Os termos da concessão variam por projeto
+  - Pode provocar forks

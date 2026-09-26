@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: ce104e1cd96e85b1
+summary: "Kildetilgængelig: produktionsbrug begrænses af Additional Use Grant,
+  og hver version overgår til en åben licens efter Change Date (højst 4 år)."
+analogy: "Et butiksvindue: du kan kigge og prøve, og efter nogle år bliver varen
+  gratis for alle."
+pros:
+  - Du kan styre kommerciel brug
+  - Koden bliver open source senere
+cons:
+  - Ikke open source
+  - Vilkårene i Grant varierer fra projekt til projekt
+  - Kan udløse forks

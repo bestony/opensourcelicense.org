@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 3720e103ed28cbd1
+summary: "Kildetilgængelig: enhver brug undtagen et konkurrerende produkt, og
+  hver udgivelse bliver Apache-2.0 to år senere."
+analogy: Et butiksvindue, hvor varerne bliver gratis for alle efter to år.
+pros:
+  - Kort og forudsigelig
+  - Koden bliver open source efter to år
+cons:
+  - Ikke open source
+  - '"Konkurrerende brug" kan være svært at vurdere'

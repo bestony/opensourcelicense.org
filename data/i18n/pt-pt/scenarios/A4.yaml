@@ -1,0 +1,8 @@
+reviewed: false
+sourceHash: d30cdd2632a3c255
+actor: other
+title: Ligado a uma aplicação ou firmware de código fechado e distribuído
+cells:
+  mpl-2.0: Ao nível do ficheiro
+  lgpl-3.0: Tem de permitir nova ligação (relinking)
+  busl-1.1: Depende do Additional Use Grant

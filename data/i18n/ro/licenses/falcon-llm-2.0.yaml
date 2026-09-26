@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 8efe233d77d28069
+summary: Licență de model de la TII bazată pe Apache-2.0, cu o politică de
+  utilizare acceptabilă; utilizarea comercială este permisă fără redevențe.
+analogy: Trusa de scule Apache, cu o listă scurtă de utilizări interzise.
+pros:
+  - Utilizare comercială fără redevențe
+  - Bazată pe Apache-2.0
+cons:
+  - Nu este open source conform OSI
+  - Politica de utilizare poate fi actualizată

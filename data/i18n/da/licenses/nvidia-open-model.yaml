@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 38b4b3f3e07a3e99
+summary: "Kommercielt anvendelig modellicens: afledte værker tilladt, NVIDIA gør
+  ikke krav på output, men indbyggede sikkerhedsforanstaltninger må ikke omgås."
+analogy: En gratis motor, hvis sikkerhedsseler du ikke må fjerne.
+pros:
+  - Kommerciel brug tilladt
+  - Intet krav på output
+cons:
+  - Ikke open source
+  - Klausulen om sikkerhedsforanstaltninger kræver omtanke

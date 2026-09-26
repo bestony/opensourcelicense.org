@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 5941dce0a6108d60
+summary: Swak copyleft op modulevlak met 'n patenttoekenning; kan die GPL as
+  sekondêre lisensie aanwys vir versoenbaarheid.
+analogy: Deel jou veranderinge aan die geleende hoofstuk; die res van die boek is joune.
+pros:
+  - Sakevriendelike copyleft
+  - Patenttoekenning
+cons:
+  - GPL-versoenbaarheid slegs met 'n verklaarde sekondêre lisensie
+  - Modulegrense kan onduidelik wees

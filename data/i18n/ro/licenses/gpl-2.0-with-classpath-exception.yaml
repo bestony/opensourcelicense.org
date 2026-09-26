@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 841fb8980cea558f
+summary: GPL-2.0 pentru biblioteca propriu-zisă, plus o excepție care permite
+  programelor independente să se lege de ea sub orice licență.
+analogy: Un motor comun supus regulii rețetei împărtășite, dar mașina ta rămâne a ta.
+pros:
+  - Aplicațiile care se leagă de ea pot fi închise
+  - Folosită de OpenJDK
+cons:
+  - Modificările bibliotecii rămân GPL
+  - Incompatibilă cu proiectele GPL-3.0-only

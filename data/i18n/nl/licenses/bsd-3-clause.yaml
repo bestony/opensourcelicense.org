@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: db235a56ea57284f
+summary: Zoals MIT, plus een clausule die verbiedt je naam te gebruiken om
+  afgeleide producten aan te prijzen.
+analogy: 'Een gratis boek met een briefje: "Beweer niet dat de auteur jouw
+  editie aanbeveelt."'
+pros:
+  - Permissief en bekend
+  - Beschermt je naam tegen gebruik als aanbeveling
+cons:
+  - Geen octrooilicentie
+  - Closed-source forks zijn toegestaan

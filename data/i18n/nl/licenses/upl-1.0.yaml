@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: ddb7b2f148c13edb
+summary: Een korte permissieve licentie met een uitdrukkelijke octrooilicentie,
+  gebruikt door Oracle voor GraalVM en andere projecten.
+analogy: Het gratis MIT-boek, met een extra belofte over octrooien.
+pros:
+  - Kort en permissief
+  - Uitdrukkelijke octrooilicentie
+cons:
+  - Geen clausule over octrooivergelding
+  - Minder bekend dan MIT of Apache

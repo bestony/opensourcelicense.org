@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 626a2a9d93ec9cef
+summary: "Een modellicentie in OpenRAIL-stijl: commercieel gebruik toegestaan,
+  met gebruiksbeperkingen die overgaan op afgeleide werken."
+analogy: Gratis gereedschap met een lijst verboden toepassingen bij elk exemplaar.
+pros:
+  - Commercieel gebruik toegestaan
+  - Gebruiksbeperkingen gaan mee stroomafwaarts
+cons:
+  - Geen open source volgens OSI
+  - Nieuwere DeepSeek-modellen zijn overgestapt op MIT

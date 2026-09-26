@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 57d3e35a6ad686d1
+actor: other
+title: Iemand vurk dit en versprei 'n geslotebron-mededinger
+cells:
+  apache-2.0: Moet gewysigde lêers merk
+  mpl-2.0: Gewysigde MPL-lêers bly oop
+  lgpl-3.0: Veranderinge aan die biblioteek bly oop
+  busl-1.1: Afgeleide werke bly onder BSL
+  elv2: Beperkings moet behou word

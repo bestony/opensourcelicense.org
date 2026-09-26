@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cf76d86201254c1b
+summary: "Sterk copyleft: versprei afgeleide werke moet volledig onder GPL-2.0
+  vrygestel word. Geen uitdruklike patenttoekenning nie; onversoenbaar met
+  GPL-3.0 tensy 'or later' gebruik word."
+analogy: Die deel-die-resep-reël, in sy ouer uitgawe.
+pros:
+  - Hou versprei afgeleide werke oop
+  - Gebruik deur die Linux-kern
+cons:
+  - Onversoenbaar met Apache-2.0 en GPL-3.0 (slegs hierdie weergawe)
+  - Geen uitdruklike patenttoekenning nie

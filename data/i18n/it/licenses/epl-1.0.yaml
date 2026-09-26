@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 41352f96fddd8017
+summary: Copyleft a livello di modulo con concessione di brevetti e legge di New
+  York come legge applicabile; incompatibile con la GPL.
+analogy: La prima edizione della regola di Eclipse sulla condivisione dei capitoli.
+pros:
+  - Concessione di brevetti
+  - Usata da Clojure e JUnit 4
+cons:
+  - Incompatibile con la GPL
+  - Sostituita dalla EPL-2.0

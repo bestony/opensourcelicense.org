@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 3440c6c6f7e1c94d
+summary: "Copyleft op bestandsniveau van Apple: gewijzigde gedekte bestanden
+  moeten worden gepubliceerd, ook bij externe inzet als dienst. Niet compatibel
+  met de GPL."
+analogy: Deel je wijzigingen aan het geleende bestand, ook als je alleen het
+  resultaat serveert.
+pros:
+  - Dekt externe inzet
+  - Octrooilicentie
+cons:
+  - Niet compatibel met de GPL
+  - Vooral beperkt tot de open source van Apple

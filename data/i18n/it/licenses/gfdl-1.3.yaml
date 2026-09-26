@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: c732ed2e04240901
+summary: "Copyleft per i manuali: le copie e le versioni modificate devono
+  restare sotto GFDL, conservando la cronologia e le sezioni non modificabili."
+analogy: La regola della ricetta condivisa, applicata al manuale del ricettario.
+pros:
+  - Mantiene libera la documentazione
+  - Usata dai manuali GNU
+cons:
+  - Le sezioni non modificabili sono controverse
+  - Difficile da combinare con contenuti CC

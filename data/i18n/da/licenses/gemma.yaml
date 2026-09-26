@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: c826929f8a1baf2e
+summary: "Googles modelvilkår: kommerciel brug tilladt, med en politik for
+  forbudt brug, der følger med til ethvert afledt værk, også destillerede
+  modeller."
+analogy: En gratis motor med en regelbog, som enhver ombygget motor skal have med.
+pros:
+  - Kommerciel brug uden brugergrænse
+  - Klare regler for afledte værker
+cons:
+  - Ikke open source ifølge OSI
+  - Google kan opdatere brugspolitikken

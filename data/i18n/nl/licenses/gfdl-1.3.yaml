@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: c732ed2e04240901
+summary: "Copyleft voor handleidingen: kopieën en gewijzigde versies moeten
+  onder de GFDL blijven, met behoud van de geschiedenis en invariante secties."
+analogy: De deel-het-recept-regel voor de handleiding van het kookboek.
+pros:
+  - Houdt documentatie vrij
+  - Gebruikt door GNU-handleidingen
+cons:
+  - Invariante secties zijn omstreden
+  - Moeilijk te combineren met CC-content

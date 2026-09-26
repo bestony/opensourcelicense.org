@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 6a4054dc9cca8e7e
+summary: "Share-alike pentru baze de date: poți folosi datele comercial, dar
+  bazele de date derivate publice trebuie să rămână sub ODbL. Lucrările produse,
+  precum hărți sau imagini, necesită doar atribuire."
+analogy: Construiește pe harta comună, iar dacă publici o bază de date
+  cartografică îmbunătățită, împărtășește-o în aceleași condiții.
+pros:
+  - Păstrează deschise bazele de date îmbunătățite
+  - Utilizare comercială permisă
+  - Dovedită de OpenStreetMap
+cons:
+  - Clauza share-alike poate împiedica combinarea cu alte date
+  - „Bază de date derivată” este uneori neclar

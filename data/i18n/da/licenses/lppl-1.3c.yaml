@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: f6ef6656ac79990f
+summary: "Fri licens til LaTeX-pakker: ændrede filer skal omdøbes eller markeres
+  tydeligt, så dokumenter fortsat fungerer ens overalt."
+analogy: Du må ændre skrifttypen, men giv din version et nyt navn.
+pros:
+  - Holder dokumenter reproducerbare
+  - Standard på tværs af CTAN
+cons:
+  - Omdøbningsreglen er usædvanlig
+  - Ikke kompatibel med GPL

@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 7db0448b4abf3505
+summary: "O licență echivalentă cu MIT, dar mai scurtă: orice utilizare, cu
+  păstrarea notei de copyright și de permisiune."
+analogy: Aceeași carte gratuită ca MIT, cu o notă mai scurtă pe copertă.
+pros:
+  - Cea mai scurtă licență permisivă uzuală
+  - Implicită pentru multe pachete npm
+cons:
+  - Fără licență de brevet
+  - Fork-urile închise sunt permise

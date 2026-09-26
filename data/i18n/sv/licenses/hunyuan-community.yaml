@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: c882745d1b8524bb
+summary: Kommersiell användning tillåten med en policy för godtagbar användning;
+  mycket stora tjänster behöver en separat licens, och vissa territorier är
+  undantagna.
+analogy: En gratis motor med en regelbok, en storleksgräns och en karta över var
+  den får köras.
+pros:
+  - Kommersiell användning för de flesta användare
+  - Omfattar text-, video- och 3D-modeller
+cons:
+  - Inte öppen källkod
+  - Undantagna territorier

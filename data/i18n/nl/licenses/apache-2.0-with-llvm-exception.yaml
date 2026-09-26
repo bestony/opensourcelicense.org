@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: ded3362d69058c2a
+summary: Apache-2.0 plus een uitzondering die de naamsvermelding voor
+  gecompileerde code schrapt en het bruikbaar maakt met GPL-2.0-projecten.
+analogy: De gereedschapskist van Apache, met een briefje dat restjes van het
+  gereedschap in je product geen vermelding nodig hebben.
+pros:
+  - Octrooilicentie van Apache-2.0
+  - Werkt met GPL-2.0-code
+cons:
+  - Langer dan MIT
+  - Uitzondering is gericht op compilerachtige projecten

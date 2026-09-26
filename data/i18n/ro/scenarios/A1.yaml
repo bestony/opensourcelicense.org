@@ -1,0 +1,9 @@
+reviewed: false
+sourceHash: 883d4cd50ee79a28
+actor: other
+title: Un furnizor cloud îți vinde proiectul ca serviciu gestionat
+cells:
+  gpl-3.0: Nu este distribuire
+  agpl-3.0: Trebuie să publice modificările
+  sspl-1.0: Trebuie să publice întreaga stivă a serviciului
+  busl-1.1: Doar dacă Additional Use Grant permite

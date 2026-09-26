@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 8efe233d77d28069
+summary: Modellisensie van TII gebaseer op Apache-2.0, met 'n beleid vir
+  aanvaarbare gebruik; kommersiële gebruik toegelaat sonder tantieme.
+analogy: Apache se gereedskapkis met 'n kort lys verbode gebruike.
+pros:
+  - Tantièmevrye kommersiële gebruik
+  - Gebaseer op Apache-2.0
+cons:
+  - Nie oopbron volgens OSI nie
+  - Gebruiksbeleid kan bygewerk word

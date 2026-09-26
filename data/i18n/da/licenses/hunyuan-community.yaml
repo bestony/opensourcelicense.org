@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: c882745d1b8524bb
+summary: Kommerciel brug tilladt med en politik for acceptabel brug; meget store
+  tjenester kræver en separat licens, og visse områder er undtaget.
+analogy: En gratis motor med en regelbog, en størrelsesgrænse og et kort over,
+  hvor den må køre.
+pros:
+  - Kommerciel brug for de fleste brugere
+  - Dækker tekst-, video- og 3D-modeller
+cons:
+  - Ikke open source
+  - Undtagne områder

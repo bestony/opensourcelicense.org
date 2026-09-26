@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: cf07449a9c3b7eaf
+actor: other
+title: Finjusteret, omdøbt og udgivet som lukkede vægte
+cells:
+  llama: Licensen skal medtages, og "Built with Llama" skal vises
+  openrail-m: Brugsbegrænsninger skal videregives
+  cc-by-4.0: Kreditering
+  cc-by-nc-4.0: Kun ikke-kommerciel
+  odc-by-1.0: Kreditering
+  odbl-1.0: Afledte databaser forbliver ODbL

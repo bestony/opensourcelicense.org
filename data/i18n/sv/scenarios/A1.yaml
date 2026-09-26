@@ -1,0 +1,9 @@
+reviewed: false
+sourceHash: 883d4cd50ee79a28
+actor: other
+title: En molnleverantör säljer ditt projekt som hanterad tjänst
+cells:
+  gpl-3.0: Inte distribution
+  agpl-3.0: Ändringar måste publiceras
+  sspl-1.0: Hela tjänstestacken måste släppas
+  busl-1.1: Om inte Additional Use Grant tillåter det

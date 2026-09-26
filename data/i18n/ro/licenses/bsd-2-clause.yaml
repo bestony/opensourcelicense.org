@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 261d8b56fb436858
+summary: "Ca MIT: folosește codul liber; păstrează nota de copyright și
+  declinarea răspunderii în copiile sursă și binare."
+analogy: "O fișă de rețetă gratuită: copiaz-o oriunde, doar păstrează rândul cu
+  autorul în josul paginii."
+pros:
+  - Foarte scurtă și permisivă
+  - Larg folosită în sistemele BSD
+cons:
+  - Fără licență de brevet
+  - Fork-urile închise sunt permise

@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 637c87bc846f9159
+summary: Licență permisivă cu licență expresă de brevet, clauză de retorsiune
+  privind brevetele și obligația de a marca fișierele modificate.
+analogy: O trusă de scule gratuită care vine și cu promisiunea că nu vei fi dat
+  în judecată pentru brevetele ei — decât dacă dai tu primul.
+pros:
+  - Licență expresă de brevet de la fiecare contributor
+  - Preferată de multe companii și fundații
+  - Protejează mărcile
+cons:
+  - Mai lungă; gestionarea fișierului NOTICE
+  - Incompatibilă cu GPL-2.0-only
+  - Nu oprește concurenții care o găzduiesc

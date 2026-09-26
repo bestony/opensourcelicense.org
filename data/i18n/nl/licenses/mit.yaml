@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 33f06e1e52928136
+summary: Doe bijna alles met de code. Behoud de copyright- en
+  licentievermelding. Geen garantie.
+analogy: "Zoals een gratis boek in een café achterlaten: neem het mee, kopieer
+  het, verkoop het, laat alleen de naam van de auteur op de kaft staan."
+pros:
+  - Kort en breed begrepen
+  - Gemakkelijkste licentie voor bedrijven om te adopteren
+  - Compatibel met bijna elke andere licentie
+cons:
+  - Geen octrooilicentie
+  - Iedereen kan een closed-source of gehoste concurrent bouwen

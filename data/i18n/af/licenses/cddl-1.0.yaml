@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 362187e701e25e6a
+summary: Copyleft op lêervlak, afgelei van die MPL, met 'n patenttoekenning;
+  onversoenbaar met die GPL.
+analogy: Deel veranderinge aan die geleende lêer; hou die res geslote as jy wil.
+pros:
+  - Omvang op lêervlak
+  - Patenttoekenning
+cons:
+  - Onversoenbaar met die GPL (die ZFS-on-Linux-probleem)
+  - Min nuwe projekte neem dit aan

@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 1b47253adc7fb00d
+summary: "Källtillgänglig: fri att använda och ändra, men du får inte erbjuda
+  den som hanterad tjänst eller kringgå licensnycklar."
+analogy: Laga mat med den hemma eller i din restaurang, men öppna inte en butik
+  som säljer just den här rätten.
+pros:
+  - Kort och tydlig
+  - Riktar sig bara mot konkurrenter med hanterade tjänster
+cons:
+  - Inte öppen källkod
+  - Begränsar forkar och vissa partner

@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 841fb8980cea558f
+summary: GPL-2.0 per la biblioteca sezza, plus ina excepziun che permetta a
+  programs independents da sa colliar cun ella sut mintga licenza.
+analogy: In motor cuminaivel sut la regla da parter il recept, ma Voss auto resta Voss.
+pros:
+  - Applicaziuns che sa collian cun ella pon esser serradas
+  - Duvrada dad OpenJDK
+cons:
+  - Midadas vi da la biblioteca restan GPL
+  - Incumpatibla cun projects GPL-3.0-only

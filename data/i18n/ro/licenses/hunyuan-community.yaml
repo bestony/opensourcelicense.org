@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: c882745d1b8524bb
+summary: Utilizarea comercială este permisă, cu o politică de utilizare
+  acceptabilă; serviciile foarte mari au nevoie de o licență separată, iar unele
+  teritorii sunt excluse.
+analogy: Un motor gratuit cu un regulament, o limită de mărime și o hartă a
+  locurilor pe unde poate circula.
+pros:
+  - Utilizare comercială pentru majoritatea utilizatorilor
+  - Acoperă modele de text, video și 3D
+cons:
+  - Nu este open source
+  - Excluderi teritoriale

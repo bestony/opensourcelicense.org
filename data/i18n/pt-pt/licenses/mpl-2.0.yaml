@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 6d33e2e6b797d27f
+summary: "Copyleft ao nível do ficheiro: as alterações a ficheiros sob MPL têm
+  de continuar abertas, mas podem ser combinadas com código fechado noutros
+  ficheiros."
+analogy: Pede um capítulo emprestado e tem de partilhar as suas alterações a
+  esse capítulo, mas o resto do livro é seu.
+pros:
+  - Equilíbrio entre permissiva e copyleft
+  - Concessão expressa de patentes
+  - Compatível com a GPL por predefinição
+cons:
+  - Os limites dos ficheiros podem ser pouco claros
+  - Não abrange a utilização em rede

@@ -1,0 +1,8 @@
+reviewed: false
+sourceHash: d30cdd2632a3c255
+actor: other
+title: Legat într-o aplicație sau un firmware cu cod închis și distribuit
+cells:
+  mpl-2.0: La nivel de fișier
+  lgpl-3.0: Trebuie să permită relegarea
+  busl-1.1: Depinde de Additional Use Grant

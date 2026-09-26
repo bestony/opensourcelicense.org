@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 5941dce0a6108d60
+summary: Svag copyleft på modulniveau med en patentlicens; kan angive GPL som
+  sekundær licens af hensyn til kompatibilitet.
+analogy: Del dine ændringer i det lånte kapitel; resten af bogen er din.
+pros:
+  - Erhvervsvenlig copyleft
+  - Patentlicens
+cons:
+  - Kun GPL-kompatibel med en erklæret sekundær licens
+  - Modulgrænser kan være uklare

@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 3440c6c6f7e1c94d
+summary: "Copyleft op lêervlak deur Apple: gewysigde gedekte lêers moet
+  gepubliseer word, ook wanneer dit ekstern as 'n diens ontplooi word.
+  Onversoenbaar met die GPL."
+analogy: Deel veranderinge aan die geleende lêer, ook wanneer jy net die
+  resultaat bedien.
+pros:
+  - Dek eksterne ontplooiing
+  - Patenttoekenning
+cons:
+  - Onversoenbaar met die GPL
+  - Meestal beperk tot Apple se oopbron

@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 57d3e35a6ad686d1
+actor: other
+title: Nogen forker det og distribuerer en konkurrent med lukket kildekode
+cells:
+  apache-2.0: Ændrede filer skal markeres
+  mpl-2.0: Ændrede MPL-filer forbliver åbne
+  lgpl-3.0: Ændringer i biblioteket forbliver åbne
+  busl-1.1: Afledte værker forbliver under BSL
+  elv2: Begrænsningerne skal bevares

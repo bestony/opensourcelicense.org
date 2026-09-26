@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 22649412ed3dbb5f
+summary: "Bibliotekscopyleft: ändringar i biblioteket förblir öppna; stängda
+  program får länka till det om användarna kan länka om med ett ändrat
+  bibliotek."
+analogy: Den äldre utgåvan av den utbytbara delade motorn.
+pros:
+  - Låter proprietära appar använda biblioteket
+  - Vanlig i skrivbords- och multimediebibliotek
+cons:
+  - Reglerna för omlänkning är komplexa
+  - Ingen uttrycklig patentlicens

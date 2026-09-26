@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cec538ff11fd0ee8
+summary: "Licença permissiva: o código-fonte alterado tem de ser identificado
+  como tal, a origem não pode ser deturpada e o aviso mantém-se nas cópias em
+  código-fonte."
+analogy: Use a receita, mas se a alterar, não diga que é a original.
+pros:
+  - Permissiva e curta
+  - Popular em jogos e bibliotecas nativas
+cons:
+  - Sem concessão de patentes
+  - Forks fechados são permitidos

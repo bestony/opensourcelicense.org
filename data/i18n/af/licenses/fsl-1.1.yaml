@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 3720e103ed28cbd1
+summary: "Bron-beskikbaar: enige gebruik behalwe 'n mededingende produk, en elke
+  vrystelling word twee jaar later Apache-2.0."
+analogy: "'n Winkelvenster waarvan die items ná twee jaar vir almal gratis word."
+pros:
+  - Kort en voorspelbaar
+  - Kode word ná twee jaar oopbron
+cons:
+  - Nie oopbron nie
+  - '"Mededingende gebruik" kan moeilik wees om te beoordeel'

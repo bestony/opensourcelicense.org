@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 92115efde43878b6
+summary: Pesos apenas para investigação e uso pessoal; qualquer utilização
+  comercial ou em produção requer uma licença comercial da Mistral AI.
+analogy: "Um livro de biblioteca: leia-o e estude-o, não o revenda."
+pros:
+  - Pesos abertos para investigação
+  - Permite modificações para investigação
+cons:
+  - Sem utilização comercial
+  - Não é open source

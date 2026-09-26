@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 7d5b7fb367f9a074
+summary: Modelvægte kun til ikke-kommerciel brug; kommerciel brug af vægtene
+  kræver en separat licens fra Black Forest Labs.
+analogy: Lån kameraet til dine egne projekter, ikke til betalte optagelser.
+pros:
+  - Åbne vægte til forskning og hobbybrug
+  - Klar kommerciel vej
+cons:
+  - Ikke open source
+  - Kommerciel brug kræver en betalt licens

@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: db235a56ea57284f
+summary: Ligesom MIT, plus en klausul, der forbyder at bruge dit navn til at
+  anbefale afledte produkter.
+analogy: 'En gratis bog med en seddel: "Påstå ikke, at forfatteren anbefaler din
+  udgave."'
+pros:
+  - Tilladende og velkendt
+  - Beskytter dit navn mod brug som anbefaling
+cons:
+  - Ingen patentlicens
+  - Forks med lukket kildekode er tilladt

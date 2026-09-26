@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: cdef0d42cb1ab51e
+summary: "Copyleft på biblioteksnivå: ändringar i biblioteket förblir öppna;
+  stängda appar får länka till det om användarna kan byta ut biblioteket."
+analogy: "En delad motor: du kan sätta den i din bil, men ägarna måste kunna
+  byta ut den mot sin egen."
+pros:
+  - Låter proprietära appar använda biblioteket
+  - Ändringar i biblioteket förblir öppna
+  - Patentlicens
+cons:
+  - Reglerna för omlänkning är komplexa, särskilt vid statisk länkning och på
+    mobil
+  - Vissa företag undviker den fortfarande

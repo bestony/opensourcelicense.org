@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: c826929f8a1baf2e
+summary: "Termenii Google pentru modele: utilizarea comercială este permisă, cu
+  o politică de utilizări interzise care se transmite fiecărei lucrări derivate,
+  inclusiv modelelor distilate."
+analogy: Un motor gratuit cu un regulament pe care trebuie să-l poarte fiecare
+  motor reconstruit.
+pros:
+  - Utilizare comercială fără prag de utilizatori
+  - Reguli clare pentru lucrările derivate
+cons:
+  - Nu este open source conform OSI
+  - Google poate actualiza politica de utilizare

@@ -1,0 +1,9 @@
+reviewed: false
+sourceHash: 883d4cd50ee79a28
+actor: other
+title: En cloududbyder sælger dit projekt som en administreret tjeneste
+cells:
+  gpl-3.0: Ikke distribution
+  agpl-3.0: Ændringer skal offentliggøres
+  sspl-1.0: Hele tjenestestakken skal frigives
+  busl-1.1: Medmindre Additional Use Grant tillader det

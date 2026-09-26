@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 76c3b4e3dc7fbff1
+summary: "Den første Responsible AI License for en stor sprogmodel: åben adgang
+  med brugsbegrænsninger, der også binder afledte værker."
+analogy: Et gratis værktøj med en liste over forbudte anvendelser vedhæftet hver kopi.
+pros:
+  - Tillader kommerciel brug
+  - Banede vejen for RAIL-licenser
+cons:
+  - Ikke open source ifølge OSI
+  - Begrænsningerne er svære at håndhæve

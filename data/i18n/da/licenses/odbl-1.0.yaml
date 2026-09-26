@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 6a4054dc9cca8e7e
+summary: "Del på samme vilkår for databaser: du må bruge data kommercielt, men
+  offentlige afledte databaser skal forblive under ODbL. Frembragte værker som
+  kort eller billeder kræver kun kreditering."
+analogy: Byg videre på det fælles kort, og hvis du offentliggør en forbedret
+  kortdatabase, så del den tilbage på samme vilkår.
+pros:
+  - Holder forbedrede databaser åbne
+  - Kommerciel brug tilladt
+  - Afprøvet af OpenStreetMap
+cons:
+  - Del på samme vilkår kan forhindre blanding med andre data
+  - '"Afledt database" er undertiden uklart'

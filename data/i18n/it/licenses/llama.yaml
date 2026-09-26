@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 4803251a37336702
+summary: "Una licenza per modelli personalizzata: l'uso commerciale è
+  consentito, con una Acceptable Use Policy, regole di attribuzione e di
+  denominazione, e una licenza separata oltre i 700M di utenti attivi mensili."
+analogy: Un motore di uso gratuito con un regolamento, e un contratto speciale
+  per le case automobilistiche più grandi.
+pros:
+  - Uso commerciale consentito per la maggior parte degli utenti
+  - Ampio ecosistema
+cons:
+  - Non è open source secondo l'OSI
+  - Obblighi relativi alla politica d'uso e alla denominazione
+  - I termini cambiano da una versione all'altra

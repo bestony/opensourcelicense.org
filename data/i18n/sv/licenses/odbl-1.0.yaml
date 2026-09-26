@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 6a4054dc9cca8e7e
+summary: "Dela lika för databaser: du får använda data kommersiellt, men
+  offentliga härledda databaser måste förbli under ODbL. Framställda verk som
+  kartor eller bilder kräver bara erkännande."
+analogy: Bygg vidare på den delade kartan, och om du publicerar en förbättrad
+  kartdatabas, dela den tillbaka på samma villkor.
+pros:
+  - Håller förbättrade databaser öppna
+  - Kommersiell användning tillåten
+  - Beprövad av OpenStreetMap
+cons:
+  - Dela lika kan förhindra kombination med andra data
+  - '"Härledd databas" är ibland oklart'

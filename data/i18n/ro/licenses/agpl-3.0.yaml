@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 1db86c42c600a813
+summary: "GPL-3.0 plus o clauză de rețea: utilizatorilor care interacționează
+  prin rețea cu o versiune modificată trebuie să li se ofere codul sursă al
+  acesteia."
+analogy: "Regula rețetei se aplică și restaurantelor: a servi preparatul
+  înseamnă a-l distribui."
+pros:
+  - Închide portița SaaS
+  - Bază bună pentru licențierea duală
+  - Open source aprobată de OSI
+cons:
+  - Multe companii o interzic din start
+  - Găzduirea fără modificări rămâne permisă

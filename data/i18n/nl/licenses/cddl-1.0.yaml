@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 362187e701e25e6a
+summary: Copyleft op bestandsniveau, afgeleid van de MPL, met een
+  octrooilicentie; niet compatibel met de GPL.
+analogy: Deel wijzigingen aan het geleende bestand; de rest mag je gesloten houden.
+pros:
+  - Werkt op bestandsniveau
+  - Octrooilicentie
+cons:
+  - Niet compatibel met de GPL (het ZFS-on-Linux-probleem)
+  - Weinig nieuwe projecten kiezen ervoor

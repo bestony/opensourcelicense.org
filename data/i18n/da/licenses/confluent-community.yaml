@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 99f045fe47a729cc
+summary: "Kildetilgængelig: brug, ændr og distribuér frit, undtagen for at
+  tilbyde et SaaS-produkt, der konkurrerer med Confluent."
+analogy: Brug opskriften i enhver restaurant undtagen én, der konkurrerer med
+  forfatterens.
+pros:
+  - Snæver begrænsning
+  - De fleste brugere påvirkes ikke
+cons:
+  - Ikke open source
+  - Udelukker kun cloudkonkurrenter via en beskrivelse

@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 7db0448b4abf3505
+summary: "En kortere licens svarende til MIT: enhver brug, så længe ophavsrets-
+  og tilladelsesmeddelelsen bevares."
+analogy: Den samme gratis bog som MIT, med en kortere seddel på omslaget.
+pros:
+  - Den korteste udbredte tilladende licens
+  - Standard for mange npm-pakker
+cons:
+  - Ingen patentlicens
+  - Lukkede forks er tilladt

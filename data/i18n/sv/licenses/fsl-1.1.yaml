@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 3720e103ed28cbd1
+summary: "Källtillgänglig: all användning utom en konkurrerande produkt, och
+  varje version blir Apache-2.0 två år senare."
+analogy: Ett skyltfönster där varorna blir gratis för alla efter två år.
+pros:
+  - Kort och förutsägbar
+  - Koden blir öppen källkod efter två år
+cons:
+  - Inte öppen källkod
+  - '"Konkurrerande användning" kan vara svårt att bedöma'

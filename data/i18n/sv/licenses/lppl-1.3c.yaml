@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: f6ef6656ac79990f
+summary: "Fri licens för LaTeX-paket: ändrade filer måste byta namn eller
+  tydligt markeras så att dokument fungerar likadant överallt."
+analogy: Du får ändra typsnittet, men ge din version ett nytt namn.
+pros:
+  - Håller dokument reproducerbara
+  - Standard i hela CTAN
+cons:
+  - Namnbytesregeln är ovanlig
+  - Inte kompatibel med GPL

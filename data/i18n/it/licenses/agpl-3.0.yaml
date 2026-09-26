@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 1db86c42c600a813
+summary: "GPL-3.0 più una clausola di rete: agli utenti che interagiscono in
+  rete con una versione modificata deve essere offerto il relativo codice
+  sorgente."
+analogy: "La regola della ricetta vale anche per i ristoranti: servire il piatto
+  equivale a distribuirlo."
+pros:
+  - Chiude la scappatoia del SaaS
+  - Buona base per la doppia licenza
+  - Open source approvata dall'OSI
+cons:
+  - Molte aziende la vietano del tutto
+  - L'hosting senza modifiche resta consentito

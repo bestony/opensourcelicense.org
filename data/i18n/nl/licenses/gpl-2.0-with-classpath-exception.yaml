@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 841fb8980cea558f
+summary: GPL-2.0 voor de bibliotheek zelf, plus een uitzondering waardoor
+  onafhankelijke programma's er onder elke licentie naar kunnen linken.
+analogy: Een gedeelde motor onder de deel-het-recept-regel, maar je eigen auto
+  blijft van jou.
+pros:
+  - Applicaties die ernaar linken mogen gesloten zijn
+  - Gebruikt door OpenJDK
+cons:
+  - Wijzigingen aan de bibliotheek blijven GPL
+  - Niet compatibel met GPL-3.0-only-projecten

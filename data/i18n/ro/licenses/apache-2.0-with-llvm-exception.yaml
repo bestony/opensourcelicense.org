@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: ded3362d69058c2a
+summary: Apache-2.0 plus o excepție care elimină obligația de atribuire pentru
+  codul compilat și o face utilizabilă în proiecte GPL-2.0.
+analogy: "Trusa de scule Apache, cu o notă: resturile uneltelor rămase în
+  produsul tău nu cer menționare."
+pros:
+  - Licența de brevet din Apache-2.0
+  - Funcționează cu cod GPL-2.0
+cons:
+  - Mai lungă decât MIT
+  - Excepția este specifică proiectelor de tip compilator

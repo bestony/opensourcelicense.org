@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 50ad39245dfcc7f1
+summary: "Kildetilgængelig licens fra Redis: fri at bruge og ændre, men ikke til
+  at tilbyde softwaren som en administreret tjeneste eller omgå licensnøgler."
+analogy: Lav mad med den overalt, men åbn ikke en butik, der sælger denne ret.
+pros:
+  - Rammer kun konkurrenter med administrerede tjenester
+  - Kort
+cons:
+  - Ikke open source
+  - Udløste Valkey-forken

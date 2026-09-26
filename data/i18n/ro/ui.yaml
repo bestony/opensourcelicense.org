@@ -1,0 +1,368 @@
+reviewed: false
+sourceHash: a2d7eb045dde7649
+strings:
+  site.name: opensourcelicense.org
+  site.tagline: Cum alegi o licență open source în cunoștință de cauză
+  site.description: Alege, compară și testează licențe open source (licențe de
+    software liber). Vezi ce folosesc proiectele reale, ce poate merge prost și
+    ce se potrivește proiectului tău.
+  nav.home: Acasă
+  nav.licenses: Licențe
+  nav.scenarios: Scenarii
+  nav.projects: Proiecte
+  nav.trends: Tendințe
+  nav.compare: Comparare
+  nav.wizard: Asistent
+  nav.chat: Consilier AI
+  nav.check: Verificare dependențe
+  nav.menu: Meniu
+  lang.switch: Limbă
+  lang.suggest: Această pagină este disponibilă în {language}.
+  lang.suggest.go: Schimbă
+  lang.suggest.dismiss: Închide
+  footer.disclaimer: Acest site oferă informații generale, nu consultanță
+    juridică. Pentru un litigiu sau un contract real, discută cu un avocat.
+  footer.source: Cod sursă (AGPL-3.0)
+  footer.data: Date sub licența CC-BY-4.0
+  footer.report: Raportează o eroare
+  footer.cite: Date de pe opensourcelicense.org, CC-BY-4.0
+  footer.hosting: Rulează pe planul gratuit Cloudflare Workers
+  footer.dns: Domeniu găzduit la Cloudflare
+  badge.machine: Traducere automată
+  badge.reviewed: Traducere revizuită
+  badge.fallback: Încă netradus — se afișează în engleză
+  badge.stale: poate fi învechit
+  badge.unreviewed-data: Ciornă — nerevizuită încă de un avocat
+  common.updated: Date actualizate la {date}
+  common.back: Înapoi
+  common.copy: Copiază
+  common.copied: Copiat
+  common.download: Descarcă
+  common.close: Închide
+  common.all: Toate
+  common.yes: Da
+  common.no: Nu
+  common.unknown: Necunoscut
+  common.none: Niciuna
+  common.more: Mai mult
+  common.loading: Se încarcă…
+  common.error: A apărut o eroare.
+  common.search: Căutare
+  home.title: Alege o licență open source cu ochii deschiși
+  home.lead: Nu doar „ce licență”, ci și ce au ales proiecte similare, cum arată
+    cel mai rău scenariu și ce faci mai departe.
+  home.entry.chat.title: Vorbește cu consilierul AI
+  home.entry.chat.body: Descrie-ți proiectul cu propriile cuvinte. Primești un
+    profil, întrebări suplimentare și un raport.
+  home.entry.projects.title: Vezi ce folosesc alții
+  home.entry.projects.body: Licențele unor proiecte cunoscute și de ce unele dintre ele s-au schimbat.
+  home.entry.wizard.title: Filtrează pas cu pas
+  home.entry.wizard.body: Răspunde la câteva întrebări și primești o listă scurtă,
+    ordonată și explicată.
+  home.wall: Licențele proiectelor populare
+  home.changes: Schimbări recente de licență
+  home.scenarios: Ce poate merge prost?
+  home.scenarios.body: 27 de scenarii extreme × 17 coloane de licențe, câte o
+    pagină pentru fiecare celulă.
+  family.permissive: Permisivă
+  family.weak-copyleft: Copyleft slab
+  family.strong-copyleft: Copyleft puternic
+  family.network-copyleft: Copyleft de rețea
+  family.source-available: Cod sursă disponibil (source-available)
+  family.model: Licență de model
+  family.content: Conținut / date
+  verdict.allow: Permis
+  verdict.conditional: Cu condiții
+  verdict.deny: Interzis de licență
+  verdict.silent: Nereglementat
+  verdict.tbd: În analiză
+  verdict.legend: "Legendă: ✓ cealaltă parte poate face asta · ◐ cu condiții · ✗
+    licența interzice · — licența nu prevede nimic (se aplică dreptul comun)"
+  actor.other: Altcineva face asta
+  actor.you: Tu vrei să faci asta
+  actor.contributor: Un contributor face asta
+  actor.both: Se aplică ambelor părți
+  group.A: Concurență comercială
+  group.B: Brevete și drept
+  group.C: Evoluție și afaceri
+  group.D: Utilizare și conformitate
+  group.E: Modele AI și date
+  matrix.code: Licențe pentru cod
+  matrix.model: Licențe pentru modele și date
+  term.commercial-use: Utilizare comercială
+  term.modification: Modificare
+  term.distribution: Distribuire
+  term.private-use: Utilizare privată
+  term.patent-use: Licență de brevet
+  term.non-production-use: Utilizare în afara producției
+  term.converts-to-open-source: Devine open source ulterior
+  term.include-copyright: Păstrarea notei de copyright
+  term.include-license: Includerea licenței
+  term.document-changes: Marcarea modificărilor
+  term.disclose-source: Publicarea codului sursă
+  term.same-license: Aceeași licență pentru lucrările derivate
+  term.same-license-file: Aceeași licență (la nivel de fișier)
+  term.same-license-library: Aceeași licență (la nivel de bibliotecă)
+  term.allow-relinking: Permiterea relegării (relinking)
+  term.network-use-disclose: Utilizarea în rețea înseamnă distribuire
+  term.service-stack-disclose: Publicarea întregii stive a serviciului
+  term.keep-limitations: Păstrarea limitărilor
+  term.attribution: Atribuire
+  term.attribution-built-with: Afișarea „Built with”
+  term.name-prefix: Regula prefixului în nume
+  term.acceptable-use-policy: Politică de utilizare acceptabilă
+  term.use-restrictions-pass-through: Transmiterea restricțiilor de utilizare
+  term.indicate-changes: Indicarea modificărilor
+  term.liability: Fără răspundere
+  term.warranty: Fără garanție
+  term.trademark-use: Fără drepturi asupra mărcii
+  term.no-endorsement: Fără girare
+  term.production-use-restricted: Utilizare în producție restricționată
+  term.no-managed-service: Fără serviciu gestionat
+  term.no-license-key-circumvention: Fără ocolirea cheilor de licență
+  term.mau-threshold: Prag de utilizatori
+  term.use-restrictions: Restricții de utilizare
+  term.non-commercial: Doar necomercial
+  licenses.title: Lista licențelor open source
+  licenses.lead: "{count} licențe, de la cele permisive la cele source-available
+    și licențele de modele."
+  licenses.col.license: Licență
+  licenses.col.family: Familie
+  licenses.col.osi: OSI
+  licenses.col.fsf: Liberă (FSF)
+  licenses.col.projects: Proiecte
+  licenses.filter: Filtrează după familie
+  license.permissions: Permisiuni
+  license.conditions: Condiții
+  license.limitations: Limitări
+  license.summary: Pe scurt
+  license.analogy: Analogie
+  license.pros: Avantaje
+  license.cons: Dezavantaje
+  license.scenarios: Scenarii extreme
+  license.radar: Radarul celui mai rău caz
+  license.projects: Proiecte cunoscute care o folosesc
+  license.projects.count: "{count} proiecte cunoscute din harta noastră folosesc această licență."
+  license.projects.none: Niciun proiect din harta noastră nu folosește încă această licență.
+  license.projects.since: Adoptată la {date}
+  license.projects.also: "Oferit și sub: {licenses}"
+  license.projects.former: Proiecte care au renunțat la ea
+  license.text: Text oficial
+  license.text.official: Text oficial în {language}
+  license.text.note: Doar textul oficial are valoare juridică. Nu traducem textele licențelor.
+  license.compare: Compară cu…
+  license.spdx: Identificator SPDX
+  radar.anti-freeride: Oprește profitorii
+  radar.anti-closed-fork: Oprește fork-urile închise
+  radar.patent: Protecție privind brevetele
+  radar.adoption-friction: Obstacole la adoptare
+  radar.relicense-difficulty: Greu de relicențiat
+  radar.misuse-control: Control asupra abuzurilor
+  radar.derivative-control: Control asupra lucrărilor derivate
+  radar.commercial-control: Control comercial
+  radar.note: Calculat din matricea de scenarii. O valoare mai mare înseamnă mai
+    mult din acea proprietate, nu „mai bine”.
+  scenarios.title: Matricea scenariilor extreme pentru licențe
+  scenarios.lead: Ce se întâmplă după ce alegi o licență? Fiecare celulă răspunde
+    la o întrebare și are propria pagină.
+  scenarios.highlight: Evidențiază o licență
+  scenarios.expand: Extinde tot
+  scenarios.collapse: Restrânge tot
+  scenarios.silent-note: Rândurile care conțin doar „—” sunt aici intenționat.
+    Răspunsul depinde de contractele de muncă (C6), de legislația privind
+    controlul exporturilor (D5) sau de procese în curs (D6), nu de licență.
+  scenario.flow.you: Publici sub {license}
+  scenario.flow.they: Situația
+  scenario.flow.result: Rezultat
+  scenario.clause: Clauza relevantă
+  scenario.case: Caz real
+  scenario.others: Același scenariu, alte licențe
+  scenario.other-scenarios: Alte scenarii pentru {license}
+  scenario.no-clause: Nicio clauză specifică. Se aplică dreptul comun.
+  scenario.review: Stadiul revizuirii
+  scenario.review.none: Nerevizuit încă de un avocat.
+  scenario.review.done: Revizuit de {who} la {date}.
+  compare.title: Comparație între licențe open source
+  compare.lead: Alege două sau trei licențe pentru a le compara clauză cu clauză
+    și scenariu cu scenariu.
+  compare.pick: Adaugă o licență
+  compare.remove: Elimină
+  compare.terms: Termeni
+  compare.scenarios: Scenarii
+  compare.empty: Selectează cel puțin două licențe.
+  wizard.title: Asistent pentru alegerea licenței
+  wizard.lead: Răspunde la câteva întrebări. Motorul de reguli ordonează licențele
+    și explică fiecare punct.
+  wizard.next: Înainte
+  wizard.prev: Înapoi
+  wizard.finish: Vezi rezultatul
+  wizard.restart: Ia-o de la capăt
+  wizard.skip: Sari peste
+  wizard.step: Pasul {n} din {total}
+  wizard.to-chat: Continuă cu consilierul AI
+  q.artifact_type: Ce publici?
+  q.openness_level: Cât de deschis vrei să fie?
+  q.avoid: Ce rezultate vrei să eviți?
+  q.avoid.hint: Alege oricâte.
+  q.adoption_goal: Ce contează cel mai mult?
+  q.dependencies: Depinzi de cod copyleft?
+  q.dependencies.hint: Adaugă identificatorii SPDX ai licențelor dependențelor, de
+    exemplu GPL-3.0-only.
+  q.commercial_plan: Cum vei face bani, dacă vei face?
+  q.jurisdiction: Unde ai sediul?
+  opt.artifact_type.library: O bibliotecă sau un SDK
+  opt.artifact_type.application: O aplicație sau un instrument
+  opt.artifact_type.saas: Backend-ul unui serviciu (SaaS)
+  opt.artifact_type.model: Ponderile unui model
+  opt.artifact_type.dataset: Un set de date
+  opt.artifact_type.docs: Documentație sau conținut
+  opt.openness_level.open: Complet deschis — oricine poate face orice
+  opt.openness_level.reciprocal: Deschis, dar îmbunătățirile trebuie să revină
+  opt.openness_level.source-available: Cod sursă vizibil, utilizare comercială limitată
+  opt.avoid.cloud-hosting: Furnizori cloud care îl vând ca serviciu
+  opt.avoid.closed-fork: Fork-uri cu cod sursă închis
+  opt.avoid.patent-litigation: Procese privind brevetele
+  opt.avoid.trademark-abuse: Folosirea abuzivă a numelui sau a mărcii mele
+  opt.avoid.harmful-use: Utilizări dăunătoare
+  opt.avoid.big-company: Companii mari care îl folosesc gratuit
+  opt.adoption_goal.enterprise: Adoptare maximă de către companii
+  opt.adoption_goal.community: Contribuții din partea comunității
+  opt.adoption_goal.monetize: Să câștig bani din el
+  opt.commercial_plan.none: Niciun plan
+  opt.commercial_plan.dual-license: Licențiere duală
+  opt.commercial_plan.open-core: Open core
+  opt.commercial_plan.hosted: Serviciu găzduit
+  opt.jurisdiction.cn: China
+  opt.jurisdiction.eu: Uniunea Europeană
+  opt.jurisdiction.us: Statele Unite
+  opt.jurisdiction.other: Altele
+  engine.part.avoid: "Protecție împotriva: {avoid}"
+  engine.part.openness: "Potrivire cu gradul de deschidere: {openness}"
+  engine.part.adoption: "Obiectiv: {goal}"
+  engine.part.commercial: "Plan de afaceri: {plan}"
+  engine.part.jurisdiction: "Jurisdicție: {jurisdiction}"
+  engine.part.dependency: "Compatibilă doar cu condiții: {dependency}"
+  engine.excluded.dependency: Incompatibilă cu dependența {dependency}
+  engine.excluded.artifact: Nepotrivită pentru acest tip de artefact
+  advisory.needs-cla: Folosește un Contributor License Agreement (CLA). Vei avea
+    nevoie de el pentru a vinde licențe comerciale sau pentru a schimba licența
+    mai târziu.
+  advisory.consider-dco: De obicei, un Developer Certificate of Origin (DCO,
+    „Signed-off-by”) este suficient.
+  advisory.busl-change-date: Stabilește Additional Use Grant, Change Date și
+    Change License în antetul BSL.
+  advisory.model-card: Trece licența în metadatele fișei modelului sau a setului
+    de date (câmpul „license:”).
+  advisory.notice-file: Adaugă un fișier NOTICE și păstrează-l când redistribui.
+  advisory.consult-lawyer: Roagă un avocat să verifice dependențele și termenii
+    comerciali înainte de publicare.
+  advisory.network-source-link: Afișează un link „Cod sursă” pentru utilizatorii serviciului tău de rețea.
+  report.title: Raportul tău de licență
+  report.lead: Acest raport este calculat în browserul tău pe baza profilului din
+    link. Distribuie linkul pentru a distribui raportul.
+  report.profile: Profilul proiectului
+  report.edit: Editează în asistent
+  report.top: Recomandate
+  report.score: Scor {score}
+  report.why: De ce
+  report.excluded: Excluse
+  report.advisories: Pașii următori
+  report.license-file: Fișierul LICENSE
+  report.header: Antet de fișier
+  report.badge: Insignă pentru README
+  report.share: Distribuie linkul
+  report.share.copy: Copiază linkul
+  report.similar: Proiecte similare
+  report.no-text: Nu există text lizibil automat. Preia-l de pe pagina oficială.
+  report.invalid: Acest link de raport este invalid sau provine dintr-o versiune veche.
+  report.empty: Încă nu există un profil. Începe cu asistentul sau cu consilierul AI.
+  chat.title: Consilier AI pentru licențe
+  chat.lead: Descrie-ți proiectul. Consilierul pune întrebări suplimentare,
+    motorul de reguli alege licențele, iar consilierul le explică.
+  chat.placeholder: "De exemplu: am construit o bază de date vectorială și mă tem
+    că furnizorii cloud o vor revinde."
+  chat.send: Trimite
+  chat.stop: Oprește
+  chat.examples: Încearcă un exemplu
+  chat.example.1: Am construit o bază de date vectorială și mă tem că furnizorii
+    cloud o vor revinde.
+  chat.example.2: O mică bibliotecă de componente React. Vreau ca firmele să o folosească.
+  chat.example.3: Am făcut fine-tuning unui model de 7B și vrem să blocăm
+    utilizările dăunătoare.
+  chat.profile: Profilul proiectului
+  chat.profile.hint: Dă clic pe o valoare pentru a o modifica.
+  chat.candidates: Candidate
+  chat.run: Obține recomandarea
+  chat.limit: Ai atins limita de azi. Încearcă din nou mâine sau folosește asistentul.
+  chat.error: Consilierul nu este disponibil momentan. Asistentul funcționează în
+    continuare.
+  chat.verify: Confirmă că ești om.
+  chat.disclaimer: Consilierul poate greși. Recomandările vin de la motorul de
+    reguli și nu reprezintă consultanță juridică.
+  chat.report: Deschide raportul complet
+  projects.title: Harta licențelor proiectelor open source
+  projects.lead: Licențele unor proiecte cunoscute și povestea din spatele fiecărei schimbări.
+  projects.filter.domain: Domeniu
+  projects.filter.family: Familie de licențe
+  projects.filter.owner: Proprietar
+  projects.filter.changed: Și-a schimbat licența
+  projects.count: "{count} proiecte"
+  projects.empty: Niciun proiect nu corespunde acestor filtre.
+  owner.company: Companie
+  owner.foundation: Fundație
+  owner.individual: Persoană fizică
+  owner.community: Comunitate
+  project.current: Licența actuală
+  project.timeline: Cronologia licenței
+  project.reason: Motiv
+  project.announcement: Anunț
+  project.forks: Fork-uri care au urmat
+  project.fork-of: Fork al {name}
+  project.repo: Depozit
+  project.similar: Proiecte similare
+  project.review: Această intrare a fost găsită de botul de sincronizare și
+    așteaptă revizuirea umană.
+  project.initial: Licența inițială
+  domain.database: Baze de date
+  domain.frontend: Framework frontend
+  domain.devops: DevOps
+  domain.ai-model: Model AI
+  domain.language: Limbaje și runtime
+  domain.os: Sistem de operare
+  domain.web: Server web și backend
+  domain.tooling: Instrumente pentru dezvoltatori
+  domain.data: Date și analiză
+  domain.observability: Observabilitate
+  domain.messaging: Mesagerie și streaming
+  domain.cms: CMS și aplicații
+  trends.title: Tendințe în licențele open source
+  trends.lead: Agregat din harta proiectelor la momentul compilării.
+  trends.family-share: Familii de licențe pe domenii
+  trends.changes: Schimbări de licență pe ani
+  trends.to-source-available: Proiecte care au trecut de la open source la source-available
+  search.lead: Caută licențe, scenarii și proiecte în această limbă.
+  search.noscript: Căutarea necesită JavaScript.
+  check.title: Verificarea compatibilității licențelor dependențelor
+  check.lead: Lipește un package.json, go.mod, Gemfile.lock, Cargo.toml sau
+    requirements.txt. Analiza se face în browserul tău.
+  check.project-license: Licența proiectului tău
+  check.input: Manifest
+  check.run: Verifică
+  check.lookup: Caută online licențele necunoscute (deps.dev)
+  check.col.package: Pachet
+  check.col.license: Licență
+  check.col.status: Stare
+  check.status.compatible: Compatibil
+  check.status.conditional: Cu condiții
+  check.status.incompatible: Conflict
+  check.status.unknown: Necunoscut
+  check.summary: "{ok} compatibile, {warn} cu condiții, {bad} conflicte, {unknown}
+    necunoscute"
+  check.format: "Format detectat: {format}"
+  check.no-deps: Nu s-au găsit dependențe.
+  check.license-hint: Adaugă licența în manifest sub forma unor linii
+    „name@version LICENSE-ID” sau activează căutarea online.
+  notfound.title: Pagina nu a fost găsită
+  notfound.body: Această pagină nu există. Încearcă lista de licențe.
+  domain.education: Educație
+  domain.design: Fonturi și design

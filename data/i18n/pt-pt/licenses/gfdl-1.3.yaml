@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: c732ed2e04240901
+summary: "Copyleft para manuais: as cópias e versões modificadas têm de
+  continuar sob a GFDL, mantendo o historial e as secções invariantes."
+analogy: A regra de partilhar a receita aplicada ao manual do livro de cozinha.
+pros:
+  - Mantém a documentação livre
+  - Usada pelos manuais GNU
+cons:
+  - As secções invariantes são controversas
+  - Difícil de combinar com conteúdos CC

@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 97ea126725162df2
+summary: "Licență permisivă pentru date de la Linux Foundation: folosește și
+  distribuie datele liber; rezultatele, precum modelele antrenate, nu sunt
+  restricționate."
+analogy: Folosește setul de date pentru orice; include acordul când transmiți
+  datele mai departe.
+pros:
+  - Eliberează explicit rezultatele computaționale
+  - Scrisă pentru date
+cons:
+  - Mai puțin cunoscută decât licențele CC
+  - Versiunea 2.0 este mai simplă

@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: cf76d86201254c1b
+summary: "Copyleft ferm: ovras derivadas distribuidas ston vegnir publitgadas
+  cumplettamain sut la GPL-2.0. Nagina concessiun explicita da patents;
+  incumpatibla cun la GPL-3.0, auter che sch'i vegn duvrà 'u ina versiun
+  posteriura'."
+analogy: La regla da parter il recept, en sia ediziun pli veglia.
+pros:
+  - Tegna avertas las ovras derivadas distribuidas
+  - Duvrada dal kernel Linux
+cons:
+  - Incumpatibla cun Apache-2.0 e GPL-3.0 (mo questa versiun)
+  - Nagina concessiun explicita da patents

@@ -1,0 +1,373 @@
+reviewed: false
+sourceHash: a2d7eb045dde7649
+strings:
+  site.name: opensourcelicense.org
+  site.tagline: Tscherner ina licenza open source cun enconuschientscha da chaussa
+  site.description: Tscherner, cumparegliar e testar licenzas open source. Vesair
+    tge che projects reals duvran, tge che po ir mal e tge che s'adatta a Voss
+    project.
+  nav.home: Pagina principala
+  nav.licenses: Licenzas
+  nav.scenarios: Scenaris
+  nav.projects: Projects
+  nav.trends: Tendenzas
+  nav.compare: Cumparegliar
+  nav.wizard: Assistent
+  nav.chat: Cussegliader IA
+  nav.check: Controlla da las dependenzas
+  nav.menu: Menu
+  lang.switch: Lingua
+  lang.suggest: Questa pagina è disponibla en {language}.
+  lang.suggest.go: Midar
+  lang.suggest.dismiss: Ignorar
+  footer.disclaimer: Questa website porscha infurmaziuns generalas, nagina
+    cussegliaziun giuridica. En cas d'ina dispita u d'in contract concret,
+    discurrai cun in advocat.
+  footer.source: Code da funtauna (AGPL-3.0)
+  footer.data: Datas sut CC-BY-4.0
+  footer.report: Annunziar in sbagl
+  footer.cite: Datas da opensourcelicense.org, CC-BY-4.0
+  footer.hosting: Funcziuna sin il plan gratuit da Cloudflare Workers
+  footer.dns: Domena ospitada tar Cloudflare
+  badge.machine: Translaziun automatica
+  badge.reviewed: Translaziun controllada
+  badge.fallback: Anc betg translatà — mussà per englais
+  badge.stale: po esser antiquà
+  badge.unreviewed-data: Sboz — anc betg controllà d'in advocat
+  common.updated: Datas actualisadas ils {date}
+  common.back: Enavos
+  common.copy: Copiar
+  common.copied: Copià
+  common.download: Telechargiar
+  common.close: Serrar
+  common.all: Tuttas
+  common.yes: Gea
+  common.no: Na
+  common.unknown: Nunenconuschent
+  common.none: Nagina
+  common.more: Dapli
+  common.loading: Chargiar…
+  common.error: Igl è succedì in sbagl.
+  common.search: Tschertgar
+  home.title: Tscherner ina licenza open source cun egls averts
+  home.lead: Betg mo "tge licenza", mabain era tge che projects sumegliants han
+    tschernì, co ch'il pir cas vesa ora e tge far sco proxim.
+  home.entry.chat.title: Discurrer cun il cussegliader IA
+  home.entry.chat.body: Descrivai Voss project cun agens pleds. Retschavai in
+    profil, dumondas supplementaras ed in rapport.
+  home.entry.projects.title: Vesair tge che auters duvran
+  home.entry.projects.body: Licenzas da projects enconuschents e pertge che
+    intgins da quels las han midadas.
+  home.entry.wizard.title: Filtrar pass per pass
+  home.entry.wizard.body: Respundai a paucas dumondas e retschavai ina curta
+    glista, rangada e declerada.
+  home.wall: Licenzas da projects populars
+  home.changes: Midadas da licenza recentas
+  home.scenarios: Tge po ir mal?
+  home.scenarios.body: 27 scenaris extrems × 17 colonnas da licenzas, ina pagina per mintga cella.
+  family.permissive: Permissiva
+  family.weak-copyleft: Copyleft flaivel
+  family.strong-copyleft: Copyleft ferm
+  family.network-copyleft: Copyleft da rait
+  family.source-available: Code da funtauna visibel (source-available)
+  family.model: Licenza da model
+  family.content: Cuntegn / datas
+  verdict.allow: Permess
+  verdict.conditional: Cun cundiziuns
+  verdict.deny: Bloccà da la licenza
+  verdict.silent: Betg reglà
+  verdict.tbd: En examinaziun
+  verdict.legend: "Legenda: ✓ l'autra partida dastga far quai · ◐ cun cundiziuns ·
+    ✗ la licenza bloccha quai · — la licenza na di nagut (il dretg general
+    vala)"
+  actor.other: Insatgi auter fa quai
+  actor.you: Vus vulais far quai
+  actor.contributor: In contribuent fa quai
+  actor.both: Vala per omaduas varts
+  group.A: Concurrenza commerziala
+  group.B: Patents e dretg
+  group.C: Svilup e fatschenta
+  group.D: Utilisaziun e conformitad
+  group.E: Models d'IA e datas
+  matrix.code: Licenzas per code
+  matrix.model: Licenzas per models e datas
+  term.commercial-use: Utilisaziun commerziala
+  term.modification: Modificaziun
+  term.distribution: Distribuziun
+  term.private-use: Utilisaziun privata
+  term.patent-use: Concessiun da patents
+  term.non-production-use: Utilisaziun ordaifer la producziun
+  term.converts-to-open-source: Daventa pli tard open source
+  term.include-copyright: Mantegnair la remartga dal dretg d'autur
+  term.include-license: Agiuntar la licenza
+  term.document-changes: Marcar las midadas
+  term.disclose-source: Publitgar il code da funtauna
+  term.same-license: Medema licenza per ovras derivadas
+  term.same-license-file: Medema licenza (al nivel da la datoteca)
+  term.same-license-library: Medema licenza (al nivel da la biblioteca)
+  term.allow-relinking: Permetter da colliar da nov (relinking)
+  term.network-use-disclose: Utilisaziun en la rait vala sco distribuziun
+  term.service-stack-disclose: Publitgar l'entira structura dal servetsch
+  term.keep-limitations: Mantegnair las limitaziuns
+  term.attribution: Attribuziun
+  term.attribution-built-with: Mussar "Built with"
+  term.name-prefix: Regla dal prefix en il num
+  term.acceptable-use-policy: Directivas d'utilisaziun acceptabla
+  term.use-restrictions-pass-through: Transmetter las restricziuns d'utilisaziun
+  term.indicate-changes: Indicar las midadas
+  term.liability: Nagina responsabladad
+  term.warranty: Nagina garanzia
+  term.trademark-use: Nagins dretgs da marca
+  term.no-endorsement: Nagina recumandaziun
+  term.production-use-restricted: Utilisaziun en la producziun limitada
+  term.no-managed-service: Nagin servetsch administrà
+  term.no-license-key-circumvention: Betg eviter clavs da licenza
+  term.mau-threshold: Limita d'utilisaders
+  term.use-restrictions: Restricziuns d'utilisaziun
+  term.non-commercial: Mo betg commerzial
+  licenses.title: Collecziun da licenzas open source
+  licenses.lead: "{count} licenzas, da las permissivas fin a las licenzas
+    source-available e da models."
+  licenses.col.license: Licenza
+  licenses.col.family: Famiglia
+  licenses.col.osi: OSI
+  licenses.col.fsf: Libra (FSF)
+  licenses.col.projects: Projects
+  licenses.filter: Filtrar tenor famiglia
+  license.permissions: Permissiuns
+  license.conditions: Cundiziuns
+  license.limitations: Limitaziuns
+  license.summary: En pleds simpels
+  license.analogy: Analogia
+  license.pros: Avantatgs
+  license.cons: Dischavantatgs
+  license.scenarios: Scenaris extrems
+  license.radar: Radar dal pir cas
+  license.projects: Projects enconuschents che la duvran
+  license.projects.count: "{count} projects enconuschents en nossa charta duvran questa licenza."
+  license.projects.none: Anc nagin project en nossa charta na dovra questa licenza.
+  license.projects.since: Midà a questa licenza ils {date}
+  license.projects.also: "Porschì era sut: {licenses}"
+  license.projects.former: Projects che l'han bandunada
+  license.text: Text uffizial
+  license.text.official: Text uffizial en {language}
+  license.text.note: Mo il text uffizial è giuridicamain liant. Nus na translatain
+    nagins texts da licenza.
+  license.compare: Cumparegliar cun…
+  license.spdx: Identificatur SPDX
+  radar.anti-freeride: Impedescha ils profitaders gratuits
+  radar.anti-closed-fork: Impedescha forks serrads
+  radar.patent: Protecziun da patents
+  radar.adoption-friction: Impediments a l'adopziun
+  radar.relicense-difficulty: Grev da relicenziar
+  radar.misuse-control: Controlla da l'abus
+  radar.derivative-control: Controlla da las ovras derivadas
+  radar.commercial-control: Controlla commerziala
+  radar.note: Calculà a basa da la matrix da scenaris. Pli aut munta dapli da
+    questa caracteristica, betg "meglier".
+  scenarios.title: Matrix da scenaris extrems per licenzas
+  scenarios.lead: Tge capita suenter che Vus avais tschernì ina licenza? Mintga
+    cella respunda ad ina dumonda ed ha atgna pagina.
+  scenarios.highlight: Evidenziar ina licenza
+  scenarios.expand: Extender tut
+  scenarios.collapse: Reducir tut
+  scenarios.silent-note: Las lingias cun mo "—" èn qua apposta. La resposta
+    dependa dals contracts da lavur (C6), da la legislaziun davart la controlla
+    d'export (D5) u da process pendents (D6), betg da la licenza.
+  scenario.flow.you: Vus publitgais sut {license}
+  scenario.flow.they: La situaziun
+  scenario.flow.result: Resultat
+  scenario.clause: Clausla relevanta
+  scenario.case: Cas real
+  scenario.others: Medem scenari, autras licenzas
+  scenario.other-scenarios: Auters scenaris per {license}
+  scenario.no-clause: Nagina clausla specifica. Il dretg general vala.
+  scenario.review: Stadi da la controlla
+  scenario.review.none: Anc betg controllà d'in advocat.
+  scenario.review.done: Controllà da {who} ils {date}.
+  compare.title: Cumparegliar licenzas open source
+  compare.lead: Tschernai duas u trais licenzas per las cumparegliar clausla per
+    clausla e scenari per scenari.
+  compare.pick: Agiuntar ina licenza
+  compare.remove: Allontanar
+  compare.terms: Cundiziuns
+  compare.scenarios: Scenaris
+  compare.empty: Tschernai almain duas licenzas.
+  wizard.title: Assistent per tscherner ina licenza
+  wizard.lead: Respundai a paucas dumondas. Il motor da reglas rangescha las
+    licenzas e declera mintga punct.
+  wizard.next: Vinavant
+  wizard.prev: Enavos
+  wizard.finish: Mussar il resultat
+  wizard.restart: Cumenzar da nov
+  wizard.skip: Sursiglir
+  wizard.step: Pass {n} da {total}
+  wizard.to-chat: Cuntinuar cun il cussegliader IA
+  q.artifact_type: Tge publitgais Vus?
+  q.openness_level: Quant avert duai quai esser?
+  q.avoid: Tge consequenzas vulais Vus evitar?
+  q.avoid.hint: Tschernai uschè bleras sco Vus vulais.
+  q.adoption_goal: Tge è il pli impurtant?
+  q.dependencies: Dependais Vus da code copyleft?
+  q.dependencies.hint: Agiuntai ils identificaturs SPDX da las licenzas da las
+    dependenzas, per exempel GPL-3.0-only.
+  q.commercial_plan: Co vulais Vus gudagnar daners, sch'insumma?
+  q.jurisdiction: Nua avais Vus Vossa sedia?
+  opt.artifact_type.library: Ina biblioteca u in SDK
+  opt.artifact_type.application: Ina applicaziun u in utensil
+  opt.artifact_type.saas: Il backend d'in servetsch (SaaS)
+  opt.artifact_type.model: Ils pais d'in model
+  opt.artifact_type.dataset: In set da datas
+  opt.artifact_type.docs: Documentaziun u cuntegn
+  opt.openness_level.open: Cumplettamain avert — mintgin dastga far tut
+  opt.openness_level.reciprocal: Avert, ma meglieraziuns ston turnar
+  opt.openness_level.source-available: Code da funtauna visibel, utilisaziun commerziala limitada
+  opt.avoid.cloud-hosting: Purschiders da cloud che al vendan sco servetsch
+  opt.avoid.closed-fork: Forks cun code da funtauna serrà
+  opt.avoid.patent-litigation: Process da patents
+  opt.avoid.trademark-abuse: Abus da mes num u da mia marca
+  opt.avoid.harmful-use: Utilisaziuns donnegiusas
+  opt.avoid.big-company: Grondas interpresas che al duvran gratuitamain
+  opt.adoption_goal.enterprise: Maximala adopziun tras interpresas
+  opt.adoption_goal.community: Contribuziuns da la communitad
+  opt.adoption_goal.monetize: Gudagnar daners cun quai
+  opt.commercial_plan.none: Nagin plan
+  opt.commercial_plan.dual-license: Licenziaziun dubla
+  opt.commercial_plan.open-core: Open core
+  opt.commercial_plan.hosted: Servetsch ospità
+  opt.jurisdiction.cn: China
+  opt.jurisdiction.eu: Uniun europeica
+  opt.jurisdiction.us: Stadis Unids
+  opt.jurisdiction.other: Auter
+  engine.part.avoid: "Protecziun cunter: {avoid}"
+  engine.part.openness: "Correspundenza cun l'avertura: {openness}"
+  engine.part.adoption: "Finamira: {goal}"
+  engine.part.commercial: "Plan commerzial: {plan}"
+  engine.part.jurisdiction: "Giurisdicziun: {jurisdiction}"
+  engine.part.dependency: "Mo cumpatibla cun cundiziuns: {dependency}"
+  engine.excluded.dependency: Incumpatibla cun la dependenza {dependency}
+  engine.excluded.artifact: Betg adattada per quest tip d'artefact
+  advisory.needs-cla: Duvrai in Contributor License Agreement (CLA). Vus al
+    duvrais per vender licenzas commerzialas u per midar pli tard la licenza.
+  advisory.consider-dco: In Developer Certificate of Origin (DCO, "Signed-off-by") basta per regla.
+  advisory.busl-change-date: Definai l'Additional Use Grant, la Change Date e la
+    Change License en il chau da la BSL.
+  advisory.model-card: Inditgai la licenza en las metadatas da la carta dal model
+    u dal set da datas (champ "license:").
+  advisory.notice-file: Agiuntai ina datoteca NOTICE e mantegnai quella cura che Vus redistribuis.
+  advisory.consult-lawyer: Laschai controllar las dependenzas e las cundiziuns
+    commerzialas d'in advocat avant che publitgar.
+  advisory.network-source-link: Mussai als utilisaders da Voss servetsch en la
+    rait ina colliaziun "Code da funtauna".
+  report.title: Voss rapport da licenza
+  report.lead: Quest rapport vegn calculà en Voss navigatur a basa dal profil en
+    la colliaziun. Partai la colliaziun per parter il rapport.
+  report.profile: Profil dal project
+  report.edit: Modifitgar en l'assistent
+  report.top: Recumandà
+  report.score: Puncts {score}
+  report.why: Pertge
+  report.excluded: Exclus
+  report.advisories: Proxims pass
+  report.license-file: Datoteca LICENSE
+  report.header: Chau da la datoteca
+  report.badge: Badge per il README
+  report.share: Parter la colliaziun
+  report.share.copy: Copiar la colliaziun
+  report.similar: Projects sumegliants
+  report.no-text: Nagin text legibel per maschinas. Prendai el da la pagina uffiziala.
+  report.invalid: Questa colliaziun al rapport è donnegiada u deriva d'ina versiun veglia.
+  report.empty: Anc nagin profil. Cumenzai cun l'assistent u cun il cussegliader IA.
+  chat.title: Cussegliader IA per licenzas
+  chat.lead: Descrivai Voss project. Il cussegliader fa dumondas supplementaras,
+    il motor da reglas tscherna las licenzas ed il cussegliader las declera.
+  chat.placeholder: "Per exempel: jau hai construì ina banca da datas vectoriala e
+    tem che purschiders da cloud la revendian."
+  chat.send: Trametter
+  chat.stop: Fermar
+  chat.examples: Empruvar in exempel
+  chat.example.1: Jau hai construì ina banca da datas vectoriala e tem che
+    purschiders da cloud la revendian.
+  chat.example.2: Ina pitschna biblioteca da cumponents React. Jau vuless che
+    interpresas la duvrian.
+  chat.example.3: Nus avain fatg fine-tuning d'in model da 7B e vulain bloccar
+    utilisaziuns donnegiusas.
+  chat.profile: Profil dal project
+  chat.profile.hint: Cliccai sin ina valur per la midar.
+  chat.candidates: Candidatas
+  chat.run: Retschaiver ina recumandaziun
+  chat.limit: Vus avais cuntanschì la limita d'oz. Empruvai puspè damaun u duvrai
+    l'assistent.
+  chat.error: Il cussegliader n'è actualmain betg disponibel. L'assistent
+    funcziuna vinavant.
+  chat.verify: Confermai che Vus essas in uman.
+  chat.disclaimer: Il cussegliader po far sbagls. Las recumandaziuns derivan dal
+    motor da reglas, e quai n'è nagina cussegliaziun giuridica.
+  chat.report: Avrir il rapport cumplet
+  projects.title: Charta da las licenzas da projects open source
+  projects.lead: Licenzas da projects enconuschents e l'istorgia davos mintga midada.
+  projects.filter.domain: Sectur
+  projects.filter.family: Famiglia da licenzas
+  projects.filter.owner: Proprietari
+  projects.filter.changed: Ha midà la licenza
+  projects.count: "{count} projects"
+  projects.empty: Nagin project na correspunda a quests filters.
+  owner.company: Interpresa
+  owner.foundation: Fundaziun
+  owner.individual: Persuna privata
+  owner.community: Communitad
+  project.current: Licenza actuala
+  project.timeline: Cronologia da la licenza
+  project.reason: Motiv
+  project.announcement: Communicaziun
+  project.forks: Forks che han suandà
+  project.fork-of: Fork da {name}
+  project.repo: Repository
+  project.similar: Projects sumegliants
+  project.review: Questa endataziun è vegnida chattada dal bot da sincronisaziun e
+    spetga sin ina controlla umana.
+  project.initial: Licenza iniziala
+  domain.database: Banca da datas
+  domain.frontend: Framework da frontend
+  domain.devops: DevOps
+  domain.ai-model: Model d'IA
+  domain.language: Linguatg e runtime
+  domain.os: Sistem operativ
+  domain.web: Server web e backend
+  domain.tooling: Utensils per sviluppaders
+  domain.data: Datas ed analisa
+  domain.observability: Observabladad
+  domain.messaging: Messadis e streaming
+  domain.cms: CMS ed applicaziuns
+  trends.title: Tendenzas da las licenzas open source
+  trends.lead: Agregà a basa da la charta dals projects durant la construcziun da
+    la website.
+  trends.family-share: Famiglias da licenzas tenor sectur
+  trends.changes: Midadas da licenza per onn
+  trends.to-source-available: Projects ch'èn passads dad open source a source-available
+  search.lead: Tschertgar licenzas, scenaris e projects en questa lingua.
+  search.noscript: La tschertga dovra JavaScript.
+  check.title: Controlla da la cumpatibilitad da las licenzas da dependenzas
+  check.lead: Encollai in package.json, go.mod, Gemfile.lock, Cargo.toml u
+    requirements.txt. L'analisa succeda en Voss navigatur.
+  check.project-license: La licenza da Voss project
+  check.input: Manifest
+  check.run: Controllar
+  check.lookup: Tschertgar online licenzas nunenconuschentas (deps.dev)
+  check.col.package: Pachet
+  check.col.license: Licenza
+  check.col.status: Status
+  check.status.compatible: Cumpatibel
+  check.status.conditional: Cun cundiziuns
+  check.status.incompatible: Conflict
+  check.status.unknown: Nunenconuschent
+  check.summary: "{ok} cumpatibels, {warn} cun cundiziuns, {bad} conflicts,
+    {unknown} nunenconuschents"
+  check.format: "Format identifitgà: {format}"
+  check.no-deps: Chattà naginas dependenzas.
+  check.license-hint: Agiuntai la licenza en il manifest sco lingias "name@version
+    LICENSE-ID" u activai la tschertga online.
+  notfound.title: Pagina betg chattada
+  notfound.body: Questa pagina n'exista betg. Empruvai la collecziun da licenzas.
+  domain.education: Furmaziun
+  domain.design: Scrittiras e design

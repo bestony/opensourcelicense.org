@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: ddb7b2f148c13edb
+summary: En kort tilladende licens med en udtrykkelig patentlicens, som Oracle
+  bruger til GraalVM og andre projekter.
+analogy: Den gratis MIT-bog med et ekstra løfte om patenter.
+pros:
+  - Kort og tilladende
+  - Udtrykkelig patentlicens
+cons:
+  - Ingen klausul om patentgengældelse
+  - Mindre kendt end MIT eller Apache

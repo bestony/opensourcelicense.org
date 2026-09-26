@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: c77fe673047b3249
+actor: other
+title: Destillation, eller træning af andre modeller på dens output
+cells:
+  llama: Navnet skal indeholde "Llama"
+  openrail-m: Afledte værker arver begrænsningerne
+  cc-by-4.0: Kreditering
+  cc-by-nc-4.0: Kun ikke-kommerciel
+  odc-by-1.0: Kreditering
+  odbl-1.0: Kreditering

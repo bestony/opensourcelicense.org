@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 1b47253adc7fb00d
+summary: "Kildetilgængelig: fri at bruge og ændre, men du må ikke tilbyde den
+  som en administreret tjeneste eller omgå licensnøgler."
+analogy: Lav mad med den derhjemme eller i din restaurant, men åbn ikke en
+  butik, der sælger præcis denne ret.
+pros:
+  - Kort og klar
+  - Rammer kun konkurrenter med administrerede tjenester
+cons:
+  - Ikke open source
+  - Begrænser forks og visse partnere

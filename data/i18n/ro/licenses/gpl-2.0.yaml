@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cf76d86201254c1b
+summary: "Copyleft puternic: lucrările derivate distribuite trebuie publicate
+  integral sub GPL-2.0. Fără licență expresă de brevet; incompatibilă cu GPL-3.0
+  dacă nu se folosește formula „sau ulterioară”."
+analogy: Regula rețetei împărtășite, în ediția ei mai veche.
+pros:
+  - Păstrează deschise lucrările derivate distribuite
+  - Folosită de kernelul Linux
+cons:
+  - Incompatibilă cu Apache-2.0 și GPL-3.0 (doar această versiune)
+  - Fără licență expresă de brevet

@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cb1197749de0ea7e
+summary: Laat jou toe om vrylik te wysig en te versprei, maar 'n gewysigde
+  weergawe moet duidelik gemerk of herdoop word, of die bronkode moet beskikbaar
+  gestel word. Bevat patentbepalings.
+analogy: Remix die liedjie, maar moenie jou remix as die oorspronklike verkoop nie.
+pros:
+  - Beskerm die oorspronklike se identiteit
+  - Versoenbaar met die GPL
+cons:
+  - Voorwaardes is omslagtig
+  - Skaars buite Raku en Perl

@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: f6ef6656ac79990f
+summary: "Vrye lisensie vir LaTeX-pakkette: gewysigde lêers moet herdoop of
+  duidelik gemerk word sodat dokumente oral dieselfde bly werk."
+analogy: Jy mag die lettertipe verander, maar gee jou weergawe 'n nuwe naam.
+pros:
+  - Hou dokumente reproduseerbaar
+  - Standaard oor CTAN heen
+cons:
+  - Herdoopreël is ongewoon
+  - Nie versoenbaar met die GPL nie

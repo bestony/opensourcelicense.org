@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 22649412ed3dbb5f
+summary: "Copyleft de biblioteca: as alterações à biblioteca continuam abertas;
+  programas fechados podem ligar-se a ela se os utilizadores puderem refazer a
+  ligação com uma biblioteca modificada."
+analogy: A edição mais antiga do motor partilhado e substituível.
+pros:
+  - Permite que aplicações proprietárias usem a biblioteca
+  - Comum em bibliotecas de desktop e multimédia
+cons:
+  - As regras de nova ligação são complexas
+  - Sem concessão expressa de patentes

@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 3d7476dd1bfc7f5b
+summary: Licenza permissiva; la nota è obbligatoria nelle copie sorgente ma non
+  nei binari compilati.
+analogy: Lascia il nome dell'autore nel ricettario, non su ogni piatto che servi.
+pros:
+  - Nessuna nota richiesta nei binari
+  - Standard per le librerie C++
+cons:
+  - Nessuna concessione di brevetti
+  - Poco conosciuta fuori dal mondo C++

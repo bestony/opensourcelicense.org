@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cec538ff11fd0ee8
+summary: "Tillåtande licens: ändrad källkod måste markeras som ändrad,
+  ursprunget får inte framställas felaktigt och meddelandet ska finnas kvar i
+  källkodskopior."
+analogy: Låna receptet, men om du ändrar det, påstå inte att det är originalet.
+pros:
+  - Tillåtande och kort
+  - Populär för spel och native-bibliotek
+cons:
+  - Ingen patentlicens
+  - Stängda forkar är tillåtna

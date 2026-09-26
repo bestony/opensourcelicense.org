@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: cec538ff11fd0ee8
+summary: "Licență permisivă: codul sursă modificat trebuie marcat ca atare,
+  originea nu trebuie denaturată, iar nota rămâne în copiile sursă."
+analogy: Împrumută rețeta, dar dacă o schimbi, nu pretinde că este cea originală.
+pros:
+  - Permisivă și scurtă
+  - Populară pentru jocuri și biblioteci native
+cons:
+  - Fără licență de brevet
+  - Fork-urile închise sunt permise

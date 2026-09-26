@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 97ea126725162df2
+summary: "Licença permissiva de dados da Linux Foundation: use e partilhe dados
+  livremente; resultados como modelos treinados não ficam restringidos."
+analogy: Use o conjunto de dados para o que quiser; inclua o acordo quando
+  passar os dados a outros.
+pros:
+  - Liberta expressamente os resultados computacionais
+  - Escrita para dados
+cons:
+  - Menos conhecida do que as licenças CC
+  - A versão 2.0 é mais simples

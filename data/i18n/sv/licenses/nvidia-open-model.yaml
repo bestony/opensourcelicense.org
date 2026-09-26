@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 38b4b3f3e07a3e99
+summary: "Kommersiellt användbar modellicens: härledda verk tillåtna, NVIDIA gör
+  inga anspråk på utdata, men inbyggda säkerhetsspärrar får inte kringgås."
+analogy: En gratis motor vars säkerhetsbälten du inte får ta bort.
+pros:
+  - Kommersiell användning tillåten
+  - Inga anspråk på utdata
+cons:
+  - Inte öppen källkod
+  - Klausulen om säkerhetsspärrar kräver eftertanke

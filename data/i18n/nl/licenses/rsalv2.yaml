@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 50ad39245dfcc7f1
+summary: "Source-available licentie van Redis: vrij te gebruiken en te wijzigen,
+  maar niet om de software als managed service aan te bieden of licentiesleutels
+  te omzeilen."
+analogy: Kook er overal mee, maar open geen winkel die dit gerecht verkoopt.
+pros:
+  - Richt zich alleen op concurrenten met een managed service
+  - Kort
+cons:
+  - Geen open source
+  - Leidde tot de Valkey-fork

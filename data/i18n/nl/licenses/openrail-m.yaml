@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 86907368675893f1
+summary: "Een Responsible AI License voor modellen: permissieve voorwaarden plus
+  gebruiksbeperkingen die elk afgeleid werk moet doorgeven."
+analogy: Gratis gereedschap met een lijst verboden toepassingen die met elk
+  exemplaar meereist.
+pros:
+  - Staat commercieel gebruik toe
+  - Houdt beperkingen tegen schadelijk gebruik stroomafwaarts in stand
+cons:
+  - Geen open source volgens OSI
+  - Beperkingen zijn moeilijk te handhaven
+  - Er bestaan meerdere varianten

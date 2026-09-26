@@ -1,0 +1,9 @@
+reviewed: false
+sourceHash: b16411183c557a4e
+actor: other
+title: Ingebouwd in een closed-source SaaS-backend (niet verspreid)
+cells:
+  agpl-3.0: Publiceren verplicht indien gewijzigd
+  sspl-1.0: Als de functionaliteit als dienst wordt aangeboden
+  busl-1.1: Hangt af van de Additional Use Grant
+  elv2: Zolang het product zelf niet wordt gehost

@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 7c50fe5f1b7f3c7d
+summary: "Per database e dataset: qualsiasi uso, anche commerciale, purché si
+  mantenga la nota di attribuzione. Anche le opere prodotte a partire dai dati
+  richiedono una nota."
+analogy: Usa i dati della mappa ovunque, basta dire da dove provengono.
+pros:
+  - Regola di attribuzione semplice
+  - Comune per grandi corpus di addestramento dell'IA
+  - Copre i diritti sui database, non solo il diritto d'autore
+cons:
+  - Non pensata per il software
+  - Nessuna concessione di brevetti

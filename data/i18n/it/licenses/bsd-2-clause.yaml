@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 261d8b56fb436858
+summary: "Come la MIT: usa il codice liberamente; mantieni la nota di copyright
+  e la clausola di esclusione di responsabilità nelle copie sorgente e binarie."
+analogy: "Una scheda di ricetta gratuita: copiala ovunque, basta lasciare in
+  fondo la riga con l'autore."
+pros:
+  - Molto breve e permissiva
+  - Molto diffusa nei sistemi BSD
+cons:
+  - Nessuna concessione di brevetti
+  - I fork chiusi sono consentiti

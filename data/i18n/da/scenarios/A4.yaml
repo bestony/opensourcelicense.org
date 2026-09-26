@@ -1,0 +1,8 @@
+reviewed: false
+sourceHash: d30cdd2632a3c255
+actor: other
+title: Linket ind i en app eller firmware med lukket kildekode og distribueret
+cells:
+  mpl-2.0: På filniveau
+  lgpl-3.0: Genlinkning skal være mulig
+  busl-1.1: Afhænger af Additional Use Grant

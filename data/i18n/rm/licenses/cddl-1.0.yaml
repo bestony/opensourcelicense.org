@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 362187e701e25e6a
+summary: Copyleft al nivel da la datoteca derivà da la MPL, cun concessiun da
+  patents; incumpatibla cun la GPL.
+analogy: Partai las midadas vi da la datoteca emprestada; il rest pudais Vus
+  tegnair serrà, sche Vus vulais.
+pros:
+  - Champ d'applicaziun al nivel da la datoteca
+  - Concessiun da patents
+cons:
+  - Incumpatibla cun la GPL (il problem da ZFS sin Linux)
+  - Paucs novs projects la surpiglian

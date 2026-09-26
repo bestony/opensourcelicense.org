@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 3d7476dd1bfc7f5b
+summary: Permissiewe lisensie; die kennisgewing word in bronkopieë vereis, maar
+  nie in saamgestelde binêre lêers nie.
+analogy: Hou die outeur se naam in die resepteboek, nie op elke bord wat jy bedien nie.
+pros:
+  - Geen kennisgewing nodig in binêre lêers nie
+  - Standaard vir C++-biblioteke
+cons:
+  - Geen patenttoekenning nie
+  - Minder bekend buite C++

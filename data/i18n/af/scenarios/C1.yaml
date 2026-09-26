@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 4f30616160bfe68b
+actor: you
+title: Jy herlisensieer later of verkoop kommersiële lisensies (bydraers het
+  geen CLA onderteken nie)
+cells:
+  mit: Nuwe weergawes kan verander; ou weergawes bly
+  bsd-3-clause: Dieselfde as MIT
+  apache-2.0: Dieselfde as MIT
+  mpl-2.0: MPL-lêers moet MPL bly
+  lgpl-3.0: Vereis toestemming van alle bydraers
+  mulanpsl-2.0: Dieselfde as MIT
+  busl-1.1: Steun gewoonlik op 'n CLA
+  elv2: Steun gewoonlik op 'n CLA

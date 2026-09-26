@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 2388a1183d57050c
+summary: "Fri skrifttypelicens: brug, indlejr og ændr skrifttyper frit, men
+  ændrede skrifttyper skal opgive reserverede navne, og skrifttyperne må ikke
+  sælges alene."
+analogy: Brug skrifttypen overalt, men sælg ikke den nøgne skrifttypefil.
+pros:
+  - Tillader indlejring i dokumenter og apps
+  - Standard for åbne skrifttyper
+cons:
+  - Reserverede skrifttypenavne komplicerer forks
+  - Kun til skrifttyper

@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cf76d86201254c1b
+summary: "Stark copyleft: distribuerade härledda verk måste släppas i sin helhet
+  under GPL-2.0. Ingen uttrycklig patentlicens; inte kompatibel med GPL-3.0 om
+  inte 'or later' används."
+analogy: Dela-receptet-regeln, i sin äldre utgåva.
+pros:
+  - Håller distribuerade härledda verk öppna
+  - Används av Linuxkärnan
+cons:
+  - Inte kompatibel med Apache-2.0 och GPL-3.0 (endast denna version)
+  - Ingen uttrycklig patentlicens

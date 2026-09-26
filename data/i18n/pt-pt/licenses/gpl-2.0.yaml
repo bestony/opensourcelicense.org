@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cf76d86201254c1b
+summary: "Copyleft forte: as obras derivadas distribuídas têm de ser publicadas
+  integralmente sob a GPL-2.0. Sem concessão expressa de patentes; incompatível
+  com a GPL-3.0, exceto se for usada a fórmula 'ou posterior'."
+analogy: A regra de partilhar a receita, na sua edição mais antiga.
+pros:
+  - Mantém abertas as obras derivadas distribuídas
+  - Usada pelo kernel Linux
+cons:
+  - Incompatível com a Apache-2.0 e a GPL-3.0 (versão única)
+  - Sem concessão expressa de patentes

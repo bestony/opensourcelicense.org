@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: f6ef6656ac79990f
+summary: "Vrije licentie voor LaTeX-pakketten: gewijzigde bestanden moeten
+  worden hernoemd of duidelijk gemarkeerd, zodat documenten overal hetzelfde
+  blijven werken."
+analogy: Je mag het lettertype aanpassen, maar geef je versie een nieuwe naam.
+pros:
+  - Houdt documenten reproduceerbaar
+  - Standaard binnen CTAN
+cons:
+  - Hernoemregel is ongebruikelijk
+  - Niet compatibel met de GPL

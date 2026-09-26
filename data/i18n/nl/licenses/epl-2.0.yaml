@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 5941dce0a6108d60
+summary: Zwakke copyleft op moduleniveau met een octrooilicentie; kan de GPL als
+  secundaire licentie aanwijzen voor compatibiliteit.
+analogy: Deel je wijzigingen aan het geleende hoofdstuk; de rest van het boek is
+  van jou.
+pros:
+  - Bedrijfsvriendelijke copyleft
+  - Octrooilicentie
+cons:
+  - Alleen GPL-compatibel met een opgegeven secundaire licentie
+  - Modulegrenzen kunnen onduidelijk zijn

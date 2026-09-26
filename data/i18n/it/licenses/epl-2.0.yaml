@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 5941dce0a6108d60
+summary: Copyleft debole a livello di modulo con concessione di brevetti; può
+  indicare la GPL come licenza secondaria per la compatibilità.
+analogy: Condividi le tue modifiche al capitolo preso in prestito; il resto del
+  libro è tuo.
+pros:
+  - Copyleft adatto alle aziende
+  - Concessione di brevetti
+cons:
+  - Compatibilità con la GPL solo con una licenza secondaria dichiarata
+  - I confini dei moduli possono essere poco chiari

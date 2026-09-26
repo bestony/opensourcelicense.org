@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 362187e701e25e6a
+summary: Copyleft ao nível do ficheiro derivado da MPL, com concessão de
+  patentes; incompatível com a GPL.
+analogy: Partilhe as alterações ao ficheiro emprestado; mantenha o resto
+  fechado, se quiser.
+pros:
+  - Âmbito ao nível do ficheiro
+  - Concessão de patentes
+cons:
+  - Incompatível com a GPL (o problema do ZFS no Linux)
+  - Poucos projetos novos a adotam

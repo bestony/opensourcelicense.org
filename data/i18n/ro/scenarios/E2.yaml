@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: c77fe673047b3249
+actor: other
+title: Distilare sau antrenarea altor modele pe rezultatele sale
+cells:
+  llama: Numele trebuie să includă „Llama”
+  openrail-m: Lucrările derivate moștenesc restricțiile
+  cc-by-4.0: Atribuire
+  cc-by-nc-4.0: Doar necomercial
+  odc-by-1.0: Atribuire
+  odbl-1.0: Atribuire

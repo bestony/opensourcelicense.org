@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: db235a56ea57284f
+summary: Come la MIT, più una clausola che vieta di usare il tuo nome per
+  promuovere i prodotti derivati.
+analogy: "Un libro gratuito con una nota: \"Non affermare che l'autore
+  raccomanda la tua edizione.\""
+pros:
+  - Permissiva e ben conosciuta
+  - Protegge il tuo nome dall'uso promozionale
+cons:
+  - Nessuna concessione di brevetti
+  - I fork a sorgente chiuso sono consentiti

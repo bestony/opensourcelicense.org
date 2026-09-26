@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 72d99432db49e19d
+summary: Tillåtande licens för Unicode-data och programvara som ICU och CLDR;
+  behåll meddelandet och använd inte upphovsrättsinnehavarens namn i
+  marknadsföring.
+analogy: "Ett gratis uppslagsverk: kopiera det, behåll källhänvisningen."
+pros:
+  - Tillåtande
+  - Omfattar datafiler och kod
+cons:
+  - Ingen patentlicens
+  - Används främst för Unicode-projekt

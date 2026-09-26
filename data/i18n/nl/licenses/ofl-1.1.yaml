@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 2388a1183d57050c
+summary: "Vrije lettertypelicentie: gebruik, embed en wijzig lettertypen vrij,
+  maar gewijzigde lettertypen mogen geen gereserveerde namen dragen en de
+  lettertypen mogen niet los worden verkocht."
+analogy: Gebruik het lettertype overal, maar verkoop het kale lettertypebestand niet.
+pros:
+  - Staat inbedden in documenten en apps toe
+  - Standaard voor open lettertypen
+cons:
+  - Gereserveerde lettertypenamen maken forks lastiger
+  - Alleen voor lettertypen

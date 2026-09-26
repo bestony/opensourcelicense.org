@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 261d8b56fb436858
+summary: "Soos MIT: gebruik die kode vrylik; behou die kopieregkennisgewing en
+  vrywaring in bron- en binêre kopieë."
+analogy: "'n Gratis resepkaart: kopieer dit oral, hou net die outeur se reël onderaan."
+pros:
+  - Baie kort en permissief
+  - Wyd gebruik in BSD-stelsels
+cons:
+  - Geen patenttoekenning nie
+  - Geslote vurke word toegelaat

@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 6a4054dc9cca8e7e
+summary: "Partilha nos mesmos termos para bases de dados: pode usar os dados
+  comercialmente, mas as bases de dados derivadas públicas têm de continuar sob
+  a ODbL. Obras produzidas, como mapas ou imagens, apenas exigem atribuição."
+analogy: Construa sobre o mapa partilhado e, se publicar uma base de dados
+  cartográfica melhorada, partilhe-a nos mesmos termos.
+pros:
+  - Mantém abertas as bases de dados melhoradas
+  - Utilização comercial permitida
+  - Comprovada pelo OpenStreetMap
+cons:
+  - A partilha nos mesmos termos pode impedir a combinação com outros dados
+  - '"Base de dados derivada" é por vezes pouco claro'

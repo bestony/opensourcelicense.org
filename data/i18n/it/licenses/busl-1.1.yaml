@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: ce104e1cd96e85b1
+summary: "Source-available: l'uso in produzione è limitato dall'Additional Use
+  Grant e ogni versione diventa una licenza aperta dopo la Change Date (massimo
+  4 anni)."
+analogy: "Una vetrina: puoi guardare e provare, e dopo qualche anno l'articolo
+  diventa gratuito per tutti."
+pros:
+  - Permette di controllare l'uso commerciale
+  - Il codice diventa open source in seguito
+cons:
+  - Non è open source
+  - I termini della concessione variano da progetto a progetto
+  - Può provocare fork

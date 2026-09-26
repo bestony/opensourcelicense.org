@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 3ab9492f75e7adb0
+summary: "Sterke copyleft: als je de software of afgeleide werken verspreidt,
+  moet je de volledige broncode onder GPL-3.0 vrijgeven."
+analogy: "Een recept dat zegt: wie een gerecht op basis hiervan serveert, moet
+  ook het volledige recept meegeven."
+pros:
+  - Houdt alle verspreide afgeleide werken open
+  - Octrooilicentie en anti-tivoisering
+  - Sterke traditie in de community
+cons:
+  - Veel bedrijven vermijden het
+  - Dekt geen SaaS (geen distributie)
+  - Niet compatibel met GPL-2.0-only

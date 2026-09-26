@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cec538ff11fd0ee8
+summary: "Licenza permissiva: il sorgente modificato deve essere indicato come
+  tale, l'origine non deve essere travisata e la nota resta nelle copie
+  sorgente."
+analogy: Prendi in prestito la ricetta, ma se la cambi non spacciarla per l'originale.
+pros:
+  - Permissiva e breve
+  - Diffusa per giochi e librerie native
+cons:
+  - Nessuna concessione di brevetti
+  - I fork chiusi sono consentiti

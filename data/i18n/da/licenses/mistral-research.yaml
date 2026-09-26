@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 92115efde43878b6
+summary: Vægte kun til forskning og personlig brug; enhver kommerciel brug eller
+  produktionsbrug kræver en kommerciel licens fra Mistral AI.
+analogy: "En biblioteksbog: læs og studér den, men sælg den ikke videre."
+pros:
+  - Åbne vægte til forskning
+  - Tillader ændringer til forskning
+cons:
+  - Ingen kommerciel brug
+  - Ikke open source

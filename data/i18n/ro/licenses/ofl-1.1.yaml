@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 2388a1183d57050c
+summary: "Licență liberă pentru fonturi: folosește, încorporează și modifică
+  fonturile liber, dar fonturile modificate trebuie să renunțe la numele
+  rezervate, iar fonturile nu pot fi vândute separat."
+analogy: Folosește fontul peste tot, dar nu vinde doar fișierul fontului.
+pros:
+  - Permite încorporarea în documente și aplicații
+  - Standard pentru fonturile deschise
+cons:
+  - Numele de font rezervate complică fork-urile
+  - Doar pentru fonturi

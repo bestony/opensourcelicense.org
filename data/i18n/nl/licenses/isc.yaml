@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 7db0448b4abf3505
+summary: "Een kortere licentie die gelijkwaardig is aan MIT: elk gebruik, met
+  behoud van de copyright- en toestemmingsvermelding."
+analogy: Hetzelfde gratis boek als MIT, met een korter briefje op de kaft.
+pros:
+  - Kortste gangbare permissieve licentie
+  - Standaard voor veel npm-pakketten
+cons:
+  - Geen octrooilicentie
+  - Gesloten forks zijn toegestaan

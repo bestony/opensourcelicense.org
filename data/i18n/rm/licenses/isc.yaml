@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 7db0448b4abf3505
+summary: "Ina licenza equivalenta a MIT, ma pli curta: mintga utilisaziun,
+  mantegnend la remartga dal dretg d'autur e da la permissiun."
+analogy: Il medem cudesch gratuit sco MIT, cun ina notizia pli curta sin la cuverta.
+pros:
+  - La pli curta licenza permissiva usitada
+  - Standard per blers pachets npm
+cons:
+  - Nagina concessiun da patents
+  - Forks serrads èn permess

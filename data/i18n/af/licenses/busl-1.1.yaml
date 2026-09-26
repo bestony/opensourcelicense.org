@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: ce104e1cd96e85b1
+summary: "Bron-beskikbaar: produksiegebruik word deur die Additional Use Grant
+  beperk, en elke weergawe skakel ná die Change Date (hoogstens 4 jaar) oor na
+  'n oop lisensie."
+analogy: "'n Winkelvenster: jy kan kyk en probeer, en ná 'n paar jaar word die
+  item vir almal gratis."
+pros:
+  - Laat jou kommersiële gebruik beheer
+  - Kode word later oopbron
+cons:
+  - Nie oopbron nie
+  - Toekenningsbepalings verskil per projek
+  - Kan vurke uitlok

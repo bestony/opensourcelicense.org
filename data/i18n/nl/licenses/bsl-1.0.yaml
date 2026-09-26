@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 3d7476dd1bfc7f5b
+summary: Permissieve licentie; de vermelding is verplicht in broncodekopieën,
+  maar niet in gecompileerde binaire bestanden.
+analogy: Laat de naam van de auteur in het receptenboek staan, niet op elk bord
+  dat je serveert.
+pros:
+  - Geen vermelding nodig in binaire bestanden
+  - Standaard voor C++-bibliotheken
+cons:
+  - Geen octrooilicentie
+  - Minder bekend buiten C++

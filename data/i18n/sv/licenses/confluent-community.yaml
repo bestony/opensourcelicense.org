@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 99f045fe47a729cc
+summary: "Källtillgänglig: använd, ändra och distribuera fritt, utom för att
+  erbjuda en SaaS-produkt som konkurrerar med Confluent."
+analogy: Använd receptet i vilken restaurang som helst utom en som konkurrerar
+  med författarens.
+pros:
+  - Snäv begränsning
+  - De flesta användare påverkas inte
+cons:
+  - Inte öppen källkod
+  - Utesluter molnkonkurrenter endast genom en beskrivning

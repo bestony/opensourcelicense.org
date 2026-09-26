@@ -1,0 +1,15 @@
+reviewed: false
+sourceHash: cdef0d42cb1ab51e
+summary: "Copyleft ao nível da biblioteca: as alterações à biblioteca continuam
+  abertas; aplicações fechadas podem ligar-se a ela se os utilizadores puderem
+  substituir a biblioteca."
+analogy: "Um motor partilhado: pode pô-lo no seu carro, mas os proprietários têm
+  de o poder trocar pelo seu."
+pros:
+  - Permite que aplicações proprietárias usem a biblioteca
+  - As alterações à biblioteca continuam abertas
+  - Concessão de patentes
+cons:
+  - As regras de nova ligação são complexas, sobretudo com ligação estática e em
+    dispositivos móveis
+  - Algumas empresas continuam a evitá-la

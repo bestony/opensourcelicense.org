@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: cf07449a9c3b7eaf
+actor: other
+title: Adattà cun fine-tuning, renumnà e publitgà cun pais serrads
+cells:
+  llama: Sto agiuntar la licenza e mussar "Built with Llama"
+  openrail-m: Sto transmetter las restricziuns d'utilisaziun
+  cc-by-4.0: Attribuziun
+  cc-by-nc-4.0: Mo betg commerzial
+  odc-by-1.0: Attribuziun
+  odbl-1.0: Bancas da datas derivadas restan ODbL

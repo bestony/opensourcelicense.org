@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: cf07449a9c3b7eaf
+actor: other
+title: Afinado (fine-tuning), renomeado e publicado com pesos fechados
+cells:
+  llama: Tem de incluir a licença e mostrar "Built with Llama"
+  openrail-m: Tem de transmitir as restrições de utilização
+  cc-by-4.0: Atribuição
+  cc-by-nc-4.0: Apenas não comercial
+  odc-by-1.0: Atribuição
+  odbl-1.0: As bases de dados derivadas continuam ODbL

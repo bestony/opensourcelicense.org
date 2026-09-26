@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 72d99432db49e19d
+summary: Permissieve licentie voor Unicode-data en -software zoals ICU en CLDR;
+  behoud de vermelding en gebruik de naam van de rechthebbende niet voor
+  promotie.
+analogy: "Een gratis naslagwerk: kopieer het, behoud de bronvermelding."
+pros:
+  - Permissief
+  - Dekt databestanden en code
+cons:
+  - Geen octrooilicentie
+  - Vooral gebruikt voor Unicode-projecten

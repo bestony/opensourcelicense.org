@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 0196a50e1d1c6b89
+summary: "För innehåll och data: erkännande krävs och kommersiell användning är
+  inte tillåten."
+analogy: Dela fotot fritt, men inte i annonser eller produkter du säljer.
+pros:
+  - Blockerar kommersiell återanvändning
+  - Officiella översättningar
+cons:
+  - Inte öppen enligt OSI eller Open Definition
+  - '"Icke-kommersiell" är ofta oklart'
+  - Blockerar många legitima användningar

@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 4803251a37336702
+summary: "Uma licença de modelo própria: a utilização comercial é permitida, com
+  uma Acceptable Use Policy, regras de atribuição e de nomenclatura, e uma
+  licença separada acima de 700M de utilizadores ativos mensais."
+analogy: Um motor de utilização gratuita com um regulamento, e um contrato
+  especial para os maiores fabricantes de automóveis.
+pros:
+  - Utilização comercial permitida para a maioria dos utilizadores
+  - Grande ecossistema
+cons:
+  - Não é open source segundo a OSI
+  - Obrigações de política de utilização e de nomenclatura
+  - Os termos mudam entre versões

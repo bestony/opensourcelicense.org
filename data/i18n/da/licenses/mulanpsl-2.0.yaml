@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: b568f07f3285ed81
+summary: En kinesisk tilladende licens med patentlicens og gengældelse. Den
+  kinesiske og den engelske tekst er lige gyldige; ved konflikt har den
+  kinesiske forrang.
+analogy: Beskyttelse i Apache-stil, skrevet med kinesisk ret for øje.
+pros:
+  - Officiel tosproget tekst
+  - Patentlicens
+  - OSI-godkendt
+cons:
+  - Mindre kendt uden for Kina
+  - Begrænset retspraksis

@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 4f30616160bfe68b
+actor: you
+title: Du byter licens senare eller säljer kommersiella licenser (bidragsgivarna
+  har inte skrivit under något CLA)
+cells:
+  mit: Nya versioner kan ändras; gamla består
+  bsd-3-clause: Samma som MIT
+  apache-2.0: Samma som MIT
+  mpl-2.0: MPL-filer måste förbli MPL
+  lgpl-3.0: Kräver samtycke från alla bidragsgivare
+  mulanpsl-2.0: Samma som MIT
+  busl-1.1: Förlitar sig oftast på ett CLA
+  elv2: Förlitar sig oftast på ett CLA

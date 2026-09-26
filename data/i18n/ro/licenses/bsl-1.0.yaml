@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 3d7476dd1bfc7f5b
+summary: Licență permisivă; nota este obligatorie în copiile sursă, dar nu și în
+  binarele compilate.
+analogy: Păstrează numele autorului în cartea de bucate, nu pe fiecare farfurie
+  pe care o servești.
+pros:
+  - Nu e nevoie de notă în binare
+  - Standard pentru bibliotecile C++
+cons:
+  - Fără licență de brevet
+  - Mai puțin cunoscută în afara C++

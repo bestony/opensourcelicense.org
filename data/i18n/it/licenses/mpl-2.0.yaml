@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 6d33e2e6b797d27f
+summary: "Copyleft a livello di file: le modifiche ai file con licenza MPL
+  devono restare aperte, ma possono essere combinate con codice chiuso in altri
+  file."
+analogy: Se prendi in prestito un capitolo devi condividere le tue modifiche a
+  quel capitolo, ma il resto del libro è tuo.
+pros:
+  - Equilibrio tra permissiva e copyleft
+  - Concessione espressa di brevetti
+  - Compatibile con la GPL per impostazione predefinita
+cons:
+  - I confini dei file possono essere poco chiari
+  - Non copre l'uso in rete

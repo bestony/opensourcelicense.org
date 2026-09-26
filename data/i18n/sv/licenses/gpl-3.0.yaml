@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 3ab9492f75e7adb0
+summary: "Stark copyleft: om du distribuerar programvaran eller härledda verk
+  måste du släppa hela källkoden under GPL-3.0."
+analogy: "Ett recept som säger: den som serverar en rätt baserad på detta måste
+  också dela ut hela receptet."
+pros:
+  - Håller alla distribuerade härledda verk öppna
+  - Patentlicens och skydd mot tivoisering
+  - Stark tradition i communityn
+cons:
+  - Många företag undviker den
+  - Omfattar inte SaaS (ingen distribution)
+  - Inte kompatibel med GPL-2.0-only

@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 3ab9492f75e7adb0
+summary: "Copyleft ferm: sche Vus distribuis la software u ovras derivadas,
+  stuais Vus publitgar il code da funtauna cumplet sut la GPL-3.0."
+analogy: "In recept che di: tgi che serva in plat che sa basa sin el, sto dar
+  vinavant era il recept cumplet."
+pros:
+  - Tegna avertas tut las ovras derivadas distribuidas
+  - Concessiun da patents e protecziun cunter la tivoisaziun
+  - Ferma tradiziun en la communitad
+cons:
+  - Bleras interpresas la evitan
+  - Na cuvra betg il SaaS (nagina distribuziun)
+  - Incumpatibla cun GPL-2.0-only

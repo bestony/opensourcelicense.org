@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 6d33e2e6b797d27f
+summary: "Copyleft op lêervlak: veranderinge aan MPL-gelisensieerde lêers moet
+  oop bly, maar hulle kan met geslote kode in ander lêers gekombineer word."
+analogy: Leen 'n hoofstuk en jy moet jou wysigings aan daardie hoofstuk deel,
+  maar die res van jou boek is joune.
+pros:
+  - Gebalanseer tussen permissief en copyleft
+  - Uitdruklike patenttoekenning
+  - By verstek versoenbaar met die GPL
+cons:
+  - Lêergrense kan onduidelik wees
+  - Dek nie netwerkgebruik nie

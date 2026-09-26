@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 3d7476dd1bfc7f5b
+summary: Tilladende licens; meddelelsen kræves i kildekodekopier, men ikke i
+  kompilerede binærfiler.
+analogy: Behold forfatterens navn i kogebogen, ikke på hver tallerken, du serverer.
+pros:
+  - Ingen meddelelse krævet i binærfiler
+  - Standard for C++-biblioteker
+cons:
+  - Ingen patentlicens
+  - Mindre kendt uden for C++

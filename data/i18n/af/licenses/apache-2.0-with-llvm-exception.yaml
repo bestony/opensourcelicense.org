@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: ded3362d69058c2a
+summary: Apache-2.0 plus 'n uitsondering wat die erkenningsvereiste vir
+  saamgestelde kode verwyder en dit bruikbaar maak met GPL-2.0-projekte.
+analogy: Apache se gereedskapkis, met 'n nota dat die gereedskap se oorblyfsels
+  in jou produk geen erkenning nodig het nie.
+pros:
+  - Patenttoekenning van Apache-2.0
+  - Werk met GPL-2.0-kode
+cons:
+  - Langer as MIT
+  - Uitsondering is spesifiek vir samestelleragtige projekte

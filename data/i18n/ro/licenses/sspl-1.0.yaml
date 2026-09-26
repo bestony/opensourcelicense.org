@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: c04c9ce2bbb6b016
+summary: Asemănătoare cu AGPL, dar oferirea software-ului ca serviciu obligă la
+  publicarea codului sursă al întregii stive a serviciului. Neaprobată de OSI.
+analogy: Dacă ai un restaurant care servește acest preparat, trebuie să publici
+  și planurile bucătăriei tale.
+pros:
+  - Protecție puternică împotriva furnizorilor cloud
+cons:
+  - Nu este open source conform OSI
+  - Respinsă de multe distribuții
+  - Poate declanșa fork-uri ale comunității

@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: cec538ff11fd0ee8
+summary: "Permissieve licentie: gewijzigde broncode moet als gewijzigd worden
+  gemarkeerd, de herkomst mag niet verkeerd worden voorgesteld en de vermelding
+  blijft in broncodekopieën staan."
+analogy: Leen het recept, maar als je het verandert, beweer dan niet dat het het
+  origineel is.
+pros:
+  - Permissief en kort
+  - Populair voor games en native bibliotheken
+cons:
+  - Geen octrooilicentie
+  - Gesloten forks zijn toegestaan

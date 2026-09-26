@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: c04c9ce2bbb6b016
+summary: Vergelijkbaar met AGPL, maar wie de software als dienst aanbiedt, moet
+  de broncode van de hele servicestack vrijgeven. Niet goedgekeurd door OSI.
+analogy: Als je een restaurant met dit gerecht runt, moet je ook de
+  bouwtekeningen van je keuken publiceren.
+pros:
+  - Sterke bescherming tegen cloudaanbieders
+cons:
+  - Geen open source volgens OSI
+  - Door veel distributies afgewezen
+  - Kan community-forks uitlokken

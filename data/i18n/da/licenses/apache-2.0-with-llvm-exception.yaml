@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: ded3362d69058c2a
+summary: Apache-2.0 plus en undtagelse, der fjerner kravet om kreditering for
+  kompileret kode og gør den brugbar med GPL-2.0-projekter.
+analogy: Apaches værktøjskasse med en seddel om, at værktøjernes rester i dit
+  produkt ikke kræver kreditering.
+pros:
+  - Patentlicensen fra Apache-2.0
+  - Fungerer med GPL-2.0-kode
+cons:
+  - Længere end MIT
+  - Undtagelsen er specifik for compilerlignende projekter

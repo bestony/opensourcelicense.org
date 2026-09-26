@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cec538ff11fd0ee8
+summary: "Tilladende licens: ændret kildekode skal markeres som ændret,
+  oprindelsen må ikke fremstilles forkert, og meddelelsen skal blive i
+  kildekodekopier."
+analogy: Lån opskriften, men hvis du ændrer den, så påstå ikke, at det er originalen.
+pros:
+  - Tilladende og kort
+  - Populær til spil og native biblioteker
+cons:
+  - Ingen patentlicens
+  - Lukkede forks er tilladt

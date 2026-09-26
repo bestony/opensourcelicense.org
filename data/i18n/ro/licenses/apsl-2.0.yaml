@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 3440c6c6f7e1c94d
+summary: "Copyleft la nivel de fișier, de la Apple: fișierele acoperite care
+  sunt modificate trebuie publicate, inclusiv când sunt folosite extern ca
+  serviciu. Incompatibilă cu GPL."
+analogy: Împărtășește modificările fișierului împrumutat, chiar și când doar
+  servești rezultatul.
+pros:
+  - Acoperă utilizarea externă
+  - Licență de brevet
+cons:
+  - Incompatibilă cu GPL
+  - Limitată mai ales la open source-ul Apple

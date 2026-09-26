@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 57d3e35a6ad686d1
+actor: other
+title: Någon forkar det och distribuerar en konkurrent med stängd källkod
+cells:
+  apache-2.0: Ändrade filer måste markeras
+  mpl-2.0: Ändrade MPL-filer förblir öppna
+  lgpl-3.0: Ändringar i biblioteket förblir öppna
+  busl-1.1: Härledda verk förblir under BSL
+  elv2: Begränsningarna måste behållas

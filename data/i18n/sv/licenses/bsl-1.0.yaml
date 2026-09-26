@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 3d7476dd1bfc7f5b
+summary: Tillåtande licens; meddelandet krävs i källkodskopior men inte i
+  kompilerade binärer.
+analogy: Behåll författarens namn i receptboken, inte på varje tallrik du serverar.
+pros:
+  - Inget meddelande krävs i binärer
+  - Standard för C++-bibliotek
+cons:
+  - Ingen patentlicens
+  - Mindre känd utanför C++

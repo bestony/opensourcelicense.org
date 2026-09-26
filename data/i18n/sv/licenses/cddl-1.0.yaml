@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 362187e701e25e6a
+summary: Copyleft på filnivå härledd från MPL, med patentlicens; inte kompatibel
+  med GPL.
+analogy: Dela ändringar i den lånade filen; resten får du hålla stängt om du vill.
+pros:
+  - Omfattning på filnivå
+  - Patentlicens
+cons:
+  - Inte kompatibel med GPL (ZFS-on-Linux-problemet)
+  - Få nya projekt väljer den

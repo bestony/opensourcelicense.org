@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: cdef0d42cb1ab51e
+summary: "Copyleft op biblioteekvlak: veranderinge aan die biblioteek bly oop;
+  geslote toepassings mag daaraan koppel as gebruikers die biblioteek kan
+  vervang."
+analogy: "'n Gedeelde enjin: jy kan dit in jou motor sit, maar eienaars moet dit
+  met hul eie kan omruil."
+pros:
+  - Laat eiendomstoepassings die biblioteek gebruik
+  - Veranderinge aan die biblioteek bly oop
+  - Patenttoekenning
+cons:
+  - Herkoppelingsreëls is ingewikkeld, veral vir statiese koppeling en selfoon
+  - Sommige maatskappye vermy dit steeds

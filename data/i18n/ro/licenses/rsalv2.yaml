@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 50ad39245dfcc7f1
+summary: "Licență source-available de la Redis: gratuită pentru utilizare și
+  modificare, dar nu și pentru oferirea software-ului ca serviciu gestionat sau
+  pentru ocolirea cheilor de licență."
+analogy: Gătește cu ea oriunde, dar nu deschide un magazin care vinde acest preparat.
+pros:
+  - Vizează doar concurenții care oferă servicii gestionate
+  - Scurtă
+cons:
+  - Nu este open source
+  - A declanșat fork-ul Valkey

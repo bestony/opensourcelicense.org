@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cb1197749de0ea7e
+summary: Permetta da modifitgar e distribuir libramain, ma ina versiun
+  modifitgada sto vegnir marcada cleramain u renumnada, u ses code da funtauna
+  sto vegnir mess a disposiziun. Cuntegna cundiziuns davart patents.
+analogy: Faschai in remix da la chanzun, ma na vendai betg Voss remix sco l'original.
+pros:
+  - Protegia l'identitad da l'original
+  - Cumpatibla cun la GPL
+cons:
+  - Cundiziuns formuladas cun blers pleds
+  - Rara ordaifer Raku e Perl

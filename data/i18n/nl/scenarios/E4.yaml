@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: cf07449a9c3b7eaf
+actor: other
+title: Gefinetuned, hernoemd en uitgebracht als gesloten gewichten
+cells:
+  llama: Licentie meeleveren en "Built with Llama" tonen
+  openrail-m: Gebruiksbeperkingen moeten worden doorgegeven
+  cc-by-4.0: Naamsvermelding
+  cc-by-nc-4.0: Alleen niet-commercieel
+  odc-by-1.0: Naamsvermelding
+  odbl-1.0: Afgeleide databases blijven ODbL

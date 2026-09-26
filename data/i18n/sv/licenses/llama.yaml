@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 4803251a37336702
+summary: "En egen modellicens: kommersiell användning är tillåten, med en
+  Acceptable Use Policy, regler för erkännande och namngivning, och en separat
+  licens över 700 miljoner månatligt aktiva användare."
+analogy: En motor som är fri att använda, med en regelbok och ett särskilt avtal
+  för de allra största biltillverkarna.
+pros:
+  - Kommersiell användning tillåten för de flesta användare
+  - Stort ekosystem
+cons:
+  - Inte öppen källkod enligt OSI
+  - Skyldigheter kring användningspolicy och namngivning
+  - Villkoren ändras mellan versioner

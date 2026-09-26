@@ -1,0 +1,10 @@
+reviewed: false
+sourceHash: 57d3e35a6ad686d1
+actor: other
+title: Alguém faz um fork e distribui um concorrente de código fechado
+cells:
+  apache-2.0: Tem de assinalar os ficheiros modificados
+  mpl-2.0: Os ficheiros MPL modificados continuam abertos
+  lgpl-3.0: As alterações à biblioteca continuam abertas
+  busl-1.1: As obras derivadas continuam sob BSL
+  elv2: As limitações têm de ser mantidas

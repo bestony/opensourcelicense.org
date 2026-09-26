@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 7c50fe5f1b7f3c7d
+summary: "Voor databases en datasets: elk gebruik, ook commercieel, als je de
+  naamsvermelding behoudt. Werken die je met de data maakt, hebben ook een
+  vermelding nodig."
+analogy: Gebruik de kaartdata overal, zeg alleen waar ze vandaan komen.
+pros:
+  - Eenvoudige regel voor naamsvermelding
+  - Gangbaar voor grote AI-trainingscorpora
+  - Dekt databankrechten, niet alleen auteursrecht
+cons:
+  - Niet ontworpen voor software
+  - Geen octrooilicentie

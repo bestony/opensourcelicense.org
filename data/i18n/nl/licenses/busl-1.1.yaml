@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: ce104e1cd96e85b1
+summary: "Source-available: productiegebruik wordt beperkt door de Additional
+  Use Grant, en elke versie gaat na de Change Date (max. 4 jaar) over naar een
+  open licentie."
+analogy: "Een etalage: je mag kijken en uitproberen, en na een paar jaar wordt
+  het artikel gratis voor iedereen."
+pros:
+  - Je houdt controle over commercieel gebruik
+  - Code wordt later open source
+cons:
+  - Geen open source
+  - Voorwaarden van de grant verschillen per project
+  - Kan forks uitlokken

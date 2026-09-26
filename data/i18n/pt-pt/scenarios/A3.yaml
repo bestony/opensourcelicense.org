@@ -1,0 +1,9 @@
+reviewed: false
+sourceHash: b16411183c557a4e
+actor: other
+title: Integrado num backend SaaS de código fechado (sem distribuição)
+cells:
+  agpl-3.0: Tem de publicar se modificado
+  sspl-1.0: Se a sua funcionalidade for oferecida como serviço
+  busl-1.1: Depende do Additional Use Grant
+  elv2: Desde que não aloje o próprio produto

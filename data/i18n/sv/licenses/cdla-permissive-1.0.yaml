@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 97ea126725162df2
+summary: "Tillåtande datalicens från Linux Foundation: använd och dela data
+  fritt; resultat som tränade modeller begränsas inte."
+analogy: Använd datamängden till vad som helst; bifoga avtalet när du för data vidare.
+pros:
+  - Frigör uttryckligen beräkningsresultat
+  - Skriven för data
+cons:
+  - Mindre känd än CC-licenserna
+  - Version 2.0 är enklare

@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 38b4b3f3e07a3e99
+summary: "Licença de modelo utilizável comercialmente: obras derivadas
+  permitidas, a NVIDIA não reivindica direitos sobre os resultados, mas as
+  salvaguardas de segurança integradas não podem ser contornadas."
+analogy: Um motor gratuito cujos cintos de segurança não pode retirar.
+pros:
+  - Utilização comercial permitida
+  - Sem reivindicação sobre os resultados
+cons:
+  - Não é open source
+  - A cláusula das salvaguardas exige cuidado

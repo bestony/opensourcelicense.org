@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 3ab9492f75e7adb0
+summary: "Sterk copyleft: as jy die sagteware of afgeleide werke versprei, moet
+  jy die volledige bronkode onder GPL-3.0 vrystel."
+analogy: "'n Resep wat sê: wie 'n gereg hierop gebaseer bedien, moet ook die
+  volledige resep uitdeel."
+pros:
+  - Hou alle versprei afgeleide werke oop
+  - Patenttoekenning en anti-tivoïsering
+  - Sterk gemeenskapstradisie
+cons:
+  - Baie maatskappye vermy dit
+  - Dek nie SaaS nie (geen verspreiding)
+  - Onversoenbaar met GPL-2.0-only

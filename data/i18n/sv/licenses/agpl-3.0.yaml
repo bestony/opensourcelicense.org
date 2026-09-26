@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 1db86c42c600a813
+summary: "GPL-3.0 plus en nätverksklausul: användare som interagerar med en
+  ändrad version över ett nätverk måste erbjudas dess källkod."
+analogy: "Receptregeln gäller även restauranger: att servera rätten räknas som
+  att dela ut den."
+pros:
+  - Täpper till SaaS-kryphålet
+  - Bra grund för dubbellicensiering
+  - OSI-godkänd öppen källkod
+cons:
+  - Många företag förbjuder den helt
+  - Oförändrad hosting är fortfarande tillåten

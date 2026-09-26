@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: c732ed2e04240901
+summary: "Copyleft vir handleidings: kopieë en gewysigde weergawes moet onder
+  die GFDL bly, met die geskiedenis en onveranderlike afdelings behou."
+analogy: Die deel-die-resep-reël vir die kookboek se handleiding.
+pros:
+  - Hou dokumentasie vry
+  - Gebruik deur GNU-handleidings
+cons:
+  - Onveranderlike afdelings is omstrede
+  - Moeilik om met CC-inhoud te meng

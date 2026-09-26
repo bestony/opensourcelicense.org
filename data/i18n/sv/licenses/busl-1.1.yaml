@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: ce104e1cd96e85b1
+summary: "Källtillgänglig: produktionsanvändning begränsas av Additional Use
+  Grant, och varje version övergår till en öppen licens efter Change Date (högst
+  4 år)."
+analogy: "Ett skyltfönster: du får titta och prova, och efter några år blir
+  varan gratis för alla."
+pros:
+  - Du kan styra kommersiell användning
+  - Koden blir öppen källkod senare
+cons:
+  - Inte öppen källkod
+  - Villkoren i Grant skiljer sig mellan projekt
+  - Kan leda till forkar

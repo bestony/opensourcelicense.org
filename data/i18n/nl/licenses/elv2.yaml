@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 1b47253adc7fb00d
+summary: "Source-available: vrij te gebruiken en te wijzigen, maar je mag het
+  niet als managed service aanbieden of licentiesleutels omzeilen."
+analogy: Kook ermee thuis of in je restaurant, maar open geen winkel die precies
+  dit gerecht verkoopt.
+pros:
+  - Kort en duidelijk
+  - Richt zich alleen op concurrenten met een managed service
+cons:
+  - Geen open source
+  - Beperkt forks en sommige partners

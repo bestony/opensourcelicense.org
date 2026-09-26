@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: cdef0d42cb1ab51e
+summary: "Copyleft la nivel de bibliotecă: modificările bibliotecii rămân
+  deschise; aplicațiile închise se pot lega de ea dacă utilizatorii pot înlocui
+  biblioteca."
+analogy: "Un motor comun: îl poți monta în mașina ta, dar proprietarii trebuie
+  să-l poată înlocui cu al lor."
+pros:
+  - Permite aplicațiilor proprietare să folosească biblioteca
+  - Modificările bibliotecii rămân deschise
+  - Licență de brevet
+cons:
+  - Regulile de relegare sunt complexe, mai ales la legarea statică și pe mobil
+  - Unele companii încă o evită

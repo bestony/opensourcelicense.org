@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 3ab9492f75e7adb0
+summary: "Stærk copyleft: hvis du distribuerer softwaren eller afledte værker,
+  skal du frigive hele kildekoden under GPL-3.0."
+analogy: "En opskrift, der siger: den, der serverer en ret baseret på denne,
+  skal også udlevere hele opskriften."
+pros:
+  - Holder alle distribuerede afledte værker åbne
+  - Patentlicens og beskyttelse mod tivoisering
+  - Stærk tradition i fællesskabet
+cons:
+  - Mange virksomheder undgår den
+  - Dækker ikke SaaS (ingen distribution)
+  - Ikke kompatibel med GPL-2.0-only

@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 41352f96fddd8017
+summary: Copyleft op modulevlak met 'n patenttoekenning en die reg van New York
+  as beheersende reg; onversoenbaar met die GPL.
+analogy: Die eerste uitgawe van Eclipse se reël vir die deel van hoofstukke.
+pros:
+  - Patenttoekenning
+  - Gebruik deur Clojure en JUnit 4
+cons:
+  - Onversoenbaar met die GPL
+  - Vervang deur EPL-2.0

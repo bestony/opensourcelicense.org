@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: f6ef6656ac79990f
+summary: "Licenza libera per i pacchetti LaTeX: i file modificati devono essere
+  rinominati o chiaramente contrassegnati, così che i documenti funzionino allo
+  stesso modo ovunque."
+analogy: Puoi modificare il carattere tipografico, ma dai un nuovo nome alla tua
+  versione.
+pros:
+  - Mantiene i documenti riproducibili
+  - Standard in tutto CTAN
+cons:
+  - La regola della ridenominazione è insolita
+  - Non compatibile con la GPL

@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 261d8b56fb436858
+summary: "Zoals MIT: gebruik de code vrij; behoud de copyrightvermelding en
+  disclaimer in bron- en binaire kopieën."
+analogy: "Een gratis receptkaart: kopieer hem overal, laat alleen de regel van
+  de auteur onderaan staan."
+pros:
+  - Zeer kort en permissief
+  - Veel gebruikt in BSD-systemen
+cons:
+  - Geen octrooilicentie
+  - Gesloten forks zijn toegestaan

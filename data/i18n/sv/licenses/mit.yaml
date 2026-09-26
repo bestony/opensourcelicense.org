@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 33f06e1e52928136
+summary: Gör nästan vad som helst med koden. Behåll upphovsrätts- och
+  licensmeddelandet. Ingen garanti.
+analogy: "Som att lämna en gratis bok på ett kafé: ta den, kopiera den, sälj
+  den, behåll bara författarens namn på omslaget."
+pros:
+  - Kort och allmänt förstådd
+  - Den enklaste licensen för företag att ta till sig
+  - Kompatibel med nästan alla andra licenser
+cons:
+  - Ingen patentlicens
+  - Vem som helst kan bygga en stängd eller hostad konkurrent

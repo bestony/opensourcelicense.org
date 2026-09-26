@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 22649412ed3dbb5f
+summary: "Copyleft per librerie: le modifiche alla libreria restano aperte; i
+  programmi chiusi possono collegarsi a essa se gli utenti possono ricollegarli
+  a una libreria modificata."
+analogy: L'edizione più vecchia del motore condiviso e sostituibile.
+pros:
+  - Consente alle app proprietarie di usare la libreria
+  - Comune nelle librerie desktop e multimediali
+cons:
+  - Le regole sul ricollegamento sono complesse
+  - Nessuna concessione espressa di brevetti

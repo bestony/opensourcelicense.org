@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 6d33e2e6b797d27f
+summary: "Copyleft op bestandsniveau: wijzigingen aan bestanden onder de MPL
+  moeten open blijven, maar ze mogen worden gecombineerd met gesloten code in
+  andere bestanden."
+analogy: Leen een hoofdstuk en je moet je wijzigingen aan dat hoofdstuk delen,
+  maar de rest van je boek is van jou.
+pros:
+  - Evenwicht tussen permissief en copyleft
+  - Expliciete octrooilicentie
+  - Standaard compatibel met de GPL
+cons:
+  - Bestandsgrenzen kunnen onduidelijk zijn
+  - Dekt geen netwerkgebruik

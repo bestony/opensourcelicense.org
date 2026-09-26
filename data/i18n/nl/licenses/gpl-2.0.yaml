@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cf76d86201254c1b
+summary: "Sterke copyleft: verspreide afgeleide werken moeten volledig onder
+  GPL-2.0 worden uitgebracht. Geen expliciete octrooilicentie; niet compatibel
+  met GPL-3.0, tenzij 'or later' wordt gebruikt."
+analogy: De deel-het-recept-regel, in de oudere editie.
+pros:
+  - Houdt verspreide afgeleide werken open
+  - Gebruikt door de Linux-kernel
+cons:
+  - Niet compatibel met Apache-2.0 en GPL-3.0 (alleen deze versie)
+  - Geen expliciete octrooilicentie

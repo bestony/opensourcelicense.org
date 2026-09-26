@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 22649412ed3dbb5f
+summary: "Copyleft pentru biblioteci: modificările bibliotecii rămân deschise;
+  programele închise se pot lega de ea dacă utilizatorii le pot relega cu o
+  bibliotecă modificată."
+analogy: Ediția mai veche a motorului comun și înlocuibil.
+pros:
+  - Permite aplicațiilor proprietare să folosească biblioteca
+  - Frecventă în bibliotecile desktop și multimedia
+cons:
+  - Regulile de relegare sunt complexe
+  - Fără licență expresă de brevet

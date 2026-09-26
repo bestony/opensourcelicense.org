@@ -1,0 +1,365 @@
+reviewed: false
+sourceHash: a2d7eb045dde7649
+strings:
+  site.name: opensourcelicense.org
+  site.tagline: "Kies en vergelyk oopbronlisensies: 'n besluitnemingshulpmiddel"
+  site.description: Kies, vergelyk en toets oopbronlisensies. Sien watter
+    lisensies regte projekte gebruik, wat kan skeefloop en wat by jou projek
+    pas.
+  nav.home: Tuis
+  nav.licenses: Lisensies
+  nav.scenarios: Scenario's
+  nav.projects: Projekte
+  nav.trends: Tendense
+  nav.compare: Vergelyk
+  nav.wizard: Assistent
+  nav.chat: KI-adviseur
+  nav.check: Afhanklikheidstoets
+  nav.menu: Kieslys
+  lang.switch: Taal
+  lang.suggest: Hierdie bladsy is in {language} beskikbaar.
+  lang.suggest.go: Skakel oor
+  lang.suggest.dismiss: Maak toe
+  footer.disclaimer: Hierdie webwerf gee algemene inligting, nie regsadvies nie.
+    Praat met 'n prokureur oor 'n werklike dispuut of kontrak.
+  footer.source: Bronkode (AGPL-3.0)
+  footer.data: Data onder CC-BY-4.0
+  footer.report: Rapporteer 'n fout
+  footer.cite: Data van opensourcelicense.org, CC-BY-4.0
+  footer.hosting: Loop op die gratis plan van Cloudflare Workers
+  footer.dns: Domein gehuisves by Cloudflare
+  badge.machine: Masjienvertaling
+  badge.reviewed: Nagegaande vertaling
+  badge.fallback: Nog nie vertaal nie — Engels word gewys
+  badge.stale: kan verouderd wees
+  badge.unreviewed-data: Konsep — nog nie deur 'n prokureur nagegaan nie
+  common.updated: Data bygewerk op {date}
+  common.back: Terug
+  common.copy: Kopieer
+  common.copied: Gekopieer
+  common.download: Laai af
+  common.close: Maak toe
+  common.all: Alles
+  common.yes: Ja
+  common.no: Nee
+  common.unknown: Onbekend
+  common.none: Geen
+  common.more: Meer
+  common.loading: Laai tans…
+  common.error: Iets het skeefgeloop.
+  common.search: Soek
+  home.title: Kies 'n oopbronlisensie met jou oë oop
+  home.lead: Nie net "watter lisensie" nie, maar ook wat soortgelyke projekte
+    gekies het, hoe die ergste geval lyk en wat om volgende te doen.
+  home.entry.chat.title: Praat met die KI-adviseur
+  home.entry.chat.body: Beskryf jou projek in jou eie woorde. Kry 'n profiel,
+    opvolgvrae en 'n verslag.
+  home.entry.projects.title: Sien wat ander gebruik
+  home.entry.projects.body: Lisensies van bekende projekte, en waarom sommige daarvan verander het.
+  home.entry.wizard.title: Filtreer stap vir stap
+  home.entry.wizard.body: Beantwoord 'n paar vrae en kry 'n gerangskikte kortlys met verduidelikings.
+  home.wall: Lisensies van gewilde projekte
+  home.changes: Onlangse lisensieveranderings
+  home.scenarios: Wat kan skeefloop?
+  home.scenarios.body: 27 uiterste scenario's × 17 lisensiekolomme, een bladsy per sel.
+  family.permissive: Permissief
+  family.weak-copyleft: Swak copyleft
+  family.strong-copyleft: Sterk copyleft
+  family.network-copyleft: Netwerk-copyleft
+  family.source-available: Bron-beskikbaar
+  family.model: Modellisensie
+  family.content: Inhoud / data
+  verdict.allow: Toegelaat
+  verdict.conditional: Met voorwaardes
+  verdict.deny: Deur lisensie verbied
+  verdict.silent: Nie gedek nie
+  verdict.tbd: Word hersien
+  verdict.legend: "Sleutel: ✓ die ander party mag dit doen · ◐ met voorwaardes · ✗
+    die lisensie verbied dit · — die lisensie swyg (algemene reg geld)"
+  actor.other: Iemand anders doen dit
+  actor.you: Jy wil dit doen
+  actor.contributor: "'n Bydraer doen dit"
+  actor.both: Geld vir albei kante
+  group.A: Kommersiële mededinging
+  group.B: Patente en die reg
+  group.C: Ontwikkeling en besigheid
+  group.D: Gebruik en nakoming
+  group.E: KI-modelle en data
+  matrix.code: Kodelisensies
+  matrix.model: Model- en datalisensies
+  term.commercial-use: Kommersiële gebruik
+  term.modification: Wysiging
+  term.distribution: Verspreiding
+  term.private-use: Private gebruik
+  term.patent-use: Patenttoekenning
+  term.non-production-use: Nie-produksiegebruik
+  term.converts-to-open-source: Word later oopbron
+  term.include-copyright: Behou kopieregkennisgewing
+  term.include-license: Sluit die lisensie in
+  term.document-changes: Merk veranderinge
+  term.disclose-source: Maak bronkode bekend
+  term.same-license: Selfde lisensie vir afgeleide werke
+  term.same-license-file: Selfde lisensie (lêervlak)
+  term.same-license-library: Selfde lisensie (biblioteekvlak)
+  term.allow-relinking: Laat herkoppeling toe
+  term.network-use-disclose: Netwerkgebruik tel as verspreiding
+  term.service-stack-disclose: Stel die hele diensstapel vry
+  term.keep-limitations: Behou die beperkings
+  term.attribution: Erkenning
+  term.attribution-built-with: Wys "Built with"
+  term.name-prefix: Naamvoorvoegselreël
+  term.acceptable-use-policy: Beleid vir aanvaarbare gebruik
+  term.use-restrictions-pass-through: Gee gebruiksbeperkings deur
+  term.indicate-changes: Dui veranderinge aan
+  term.liability: Geen aanspreeklikheid
+  term.warranty: Geen waarborg
+  term.trademark-use: Geen handelsmerkregte
+  term.no-endorsement: Geen onderskrywing
+  term.production-use-restricted: Produksiegebruik beperk
+  term.no-managed-service: Geen bestuurde diens
+  term.no-license-key-circumvention: Geen omseiling van lisensiesleutels
+  term.mau-threshold: Gebruikersdrempel
+  term.use-restrictions: Gebruiksbeperkings
+  term.non-commercial: Slegs nie-kommersieel
+  licenses.title: Oopbronlisensie-biblioteek
+  licenses.lead: "{count} lisensies, van permissief tot bron-beskikbaar en modellisensies."
+  licenses.col.license: Lisensie
+  licenses.col.family: Familie
+  licenses.col.osi: OSI
+  licenses.col.fsf: Vry volgens FSF
+  licenses.col.projects: Projekte
+  licenses.filter: Filtreer volgens familie
+  license.permissions: Toestemmings
+  license.conditions: Voorwaardes
+  license.limitations: Beperkings
+  license.summary: In gewone taal
+  license.analogy: Vergelyking
+  license.pros: Voordele
+  license.cons: Nadele
+  license.scenarios: Uiterste scenario's
+  license.radar: Ergste-geval-radar
+  license.projects: Bekende projekte wat dit gebruik
+  license.projects.count: "{count} bekende projekte op ons kaart gebruik hierdie lisensie."
+  license.projects.none: Geen projek op ons kaart gebruik hierdie lisensie nog nie.
+  license.projects.since: Het op {date} daarna oorgeskakel
+  license.projects.also: "Ook aangebied onder: {licenses}"
+  license.projects.former: Projekte wat daarvan wegbeweeg het
+  license.text: Amptelike teks
+  license.text.official: Amptelike teks in {language}
+  license.text.note: Slegs die amptelike teks is regtens bindend. Ons vertaal nie
+    lisensietekste nie.
+  license.compare: Vergelyk met…
+  license.spdx: SPDX-identifiseerder
+  radar.anti-freeride: Keer meeryers
+  radar.anti-closed-fork: Keer geslote vurke
+  radar.patent: Patentbeskerming
+  radar.adoption-friction: Aannemingsdrempel
+  radar.relicense-difficulty: Moeilik om te herlisensieer
+  radar.misuse-control: Beheer oor misbruik
+  radar.derivative-control: Beheer oor afgeleide werke
+  radar.commercial-control: Kommersiële beheer
+  radar.note: Bereken uit die scenariomatriks. Hoër beteken meer van daardie
+    eienskap, nie "beter" nie.
+  scenarios.title: Matriks van uiterste lisensiescenario's
+  scenarios.lead: Wat gebeur nadat jy 'n lisensie gekies het? Elke sel beantwoord
+    een vraag en het sy eie bladsy.
+  scenarios.highlight: Lig 'n lisensie uit
+  scenarios.expand: Vou alles oop
+  scenarios.collapse: Vou alles toe
+  scenarios.silent-note: Rye met net "—" is doelbewus hier. Die antwoord hang af
+    van dienskontrakte (C6), uitvoerbeheerwetgewing (D5) of hangende hofsake
+    (D6), nie van die lisensie nie.
+  scenario.flow.you: Jy publiseer onder {license}
+  scenario.flow.they: Die situasie
+  scenario.flow.result: Uitslag
+  scenario.clause: Tersaaklike klousule
+  scenario.case: Werklike voorbeeld
+  scenario.others: Selfde scenario, ander lisensies
+  scenario.other-scenarios: Ander scenario's vir {license}
+  scenario.no-clause: Geen spesifieke klousule nie. Algemene reg geld.
+  scenario.review: Hersieningstatus
+  scenario.review.none: Nog nie deur 'n prokureur hersien nie.
+  scenario.review.done: Hersien deur {who} op {date}.
+  compare.title: Vergelyk oopbronlisensies
+  compare.lead: Kies twee of drie lisensies om klousule vir klousule en scenario
+    vir scenario te vergelyk.
+  compare.pick: Voeg 'n lisensie by
+  compare.remove: Verwyder
+  compare.terms: Bepalings
+  compare.scenarios: Scenario's
+  compare.empty: Kies ten minste twee lisensies.
+  wizard.title: "Lisensie-assistent: kies 'n lisensie"
+  wizard.lead: Beantwoord 'n paar vrae. Die reëlenjin rangskik die lisensies en
+    verduidelik elke punt.
+  wizard.next: Volgende
+  wizard.prev: Terug
+  wizard.finish: Sien die uitslag
+  wizard.restart: Begin weer
+  wizard.skip: Slaan oor
+  wizard.step: Stap {n} van {total}
+  wizard.to-chat: Gaan voort by die KI-adviseur
+  q.artifact_type: Wat stel jy vry?
+  q.openness_level: Hoe oop wil jy dit hê?
+  q.avoid: Watter uitkomste wil jy vermy?
+  q.avoid.hint: Kies soveel as wat jy wil.
+  q.adoption_goal: Wat is die belangrikste?
+  q.dependencies: Is jy afhanklik van copyleft-kode?
+  q.dependencies.hint: Voeg die SPDX-ID's van die afhanklikhede se lisensies by,
+    byvoorbeeld GPL-3.0-only.
+  q.commercial_plan: Hoe gaan jy geld daaruit maak, as enigsins?
+  q.jurisdiction: Waar is jy gevestig?
+  opt.artifact_type.library: "'n Biblioteek of SDK"
+  opt.artifact_type.application: "'n Toepassing of hulpmiddel"
+  opt.artifact_type.saas: "'n Diens-agterkant (SaaS)"
+  opt.artifact_type.model: Modelgewigte
+  opt.artifact_type.dataset: "'n Datastel"
+  opt.artifact_type.docs: Dokumentasie of inhoud
+  opt.openness_level.open: Heeltemal oop — enigiemand mag enigiets doen
+  opt.openness_level.reciprocal: Oop, maar verbeterings moet terugkom
+  opt.openness_level.source-available: Bronkode sigbaar, kommersiële gebruik beperk
+  opt.avoid.cloud-hosting: Wolkverskaffers wat dit as 'n diens verkoop
+  opt.avoid.closed-fork: Geslotebron-vurke
+  opt.avoid.patent-litigation: Patenthofsake
+  opt.avoid.trademark-abuse: Misbruik van my naam of handelsmerk
+  opt.avoid.harmful-use: Skadelike gebruike
+  opt.avoid.big-company: Groot maatskappye wat dit gratis gebruik
+  opt.adoption_goal.enterprise: Maksimum aanneming deur maatskappye
+  opt.adoption_goal.community: Bydraes van die gemeenskap
+  opt.adoption_goal.monetize: Geld daaruit maak
+  opt.commercial_plan.none: Geen plan
+  opt.commercial_plan.dual-license: Dubbele lisensiëring
+  opt.commercial_plan.open-core: Oop kern (open core)
+  opt.commercial_plan.hosted: Gehuisveste diens
+  opt.jurisdiction.cn: China
+  opt.jurisdiction.eu: Europese Unie
+  opt.jurisdiction.us: Verenigde State
+  opt.jurisdiction.other: Ander
+  engine.part.avoid: "Beskerming teen: {avoid}"
+  engine.part.openness: "Pas by openheid: {openness}"
+  engine.part.adoption: "Doel: {goal}"
+  engine.part.commercial: "Sakeplan: {plan}"
+  engine.part.jurisdiction: "Jurisdiksie: {jurisdiction}"
+  engine.part.dependency: "Slegs met voorwaardes versoenbaar: {dependency}"
+  engine.excluded.dependency: Onversoenbaar met afhanklikheid {dependency}
+  engine.excluded.artifact: Nie geskik vir hierdie soort werk nie
+  advisory.needs-cla: Gebruik 'n Contributor License Agreement (CLA). Jy sal dit
+    nodig hê om kommersiële lisensies te verkoop of die lisensie later te
+    verander.
+  advisory.consider-dco: "'n Developer Certificate of Origin (DCO,
+    \"Signed-off-by\") is gewoonlik genoeg."
+  advisory.busl-change-date: Stel die Additional Use Grant, die Change Date en die
+    Change License in die BSL-opskrif in.
+  advisory.model-card: Plaas die lisensie in die metadata van die model- of
+    datastelkaart ("license:"-veld).
+  advisory.notice-file: Voeg 'n NOTICE-lêer by en behou dit wanneer jy herversprei.
+  advisory.consult-lawyer: Vra 'n prokureur om die afhanklikhede en sakebepalings
+    na te gaan voordat jy vrystel.
+  advisory.network-source-link: Wys 'n "Bronkode"-skakel aan gebruikers van jou netwerkdiens.
+  report.title: Jou lisensieverslag
+  report.lead: Hierdie verslag word in jou blaaier bereken uit die profiel in die
+    skakel. Deel die skakel om die verslag te deel.
+  report.profile: Projekprofiel
+  report.edit: Wysig in die assistent
+  report.top: Aanbeveel
+  report.score: Telling {score}
+  report.why: Waarom
+  report.excluded: Uitgesluit
+  report.advisories: Volgende stappe
+  report.license-file: LICENSE-lêer
+  report.header: Lêeropskrif
+  report.badge: README-kenteken
+  report.share: Deel skakel
+  report.share.copy: Kopieer skakel
+  report.similar: Soortgelyke projekte
+  report.no-text: Geen masjienleesbare teks nie. Kry dit van die amptelike bladsy.
+  report.invalid: Hierdie verslagskakel is stukkend of kom van 'n ou weergawe.
+  report.empty: Nog geen profiel nie. Begin met die assistent of die KI-adviseur.
+  chat.title: KI-lisensieadviseur
+  chat.lead: Beskryf jou projek. Die adviseur vra opvolgvrae, die reëlenjin kies
+    die lisensies en die adviseur verduidelik hulle.
+  chat.placeholder: "Byvoorbeeld: Ek het 'n vektordatabasis gebou en ek is
+    bekommerd dat wolkverskaffers dit gaan herverkoop."
+  chat.send: Stuur
+  chat.stop: Stop
+  chat.examples: Probeer 'n voorbeeld
+  chat.example.1: Ek het 'n vektordatabasis gebou en ek is bekommerd dat
+    wolkverskaffers dit gaan herverkoop.
+  chat.example.2: "'n Klein React-komponentbiblioteek. Ek wil hê maatskappye moet dit gebruik."
+  chat.example.3: Ons het 'n 7B-model fyn ingestel en wil skadelike gebruike keer.
+  chat.profile: Projekprofiel
+  chat.profile.hint: Klik op 'n waarde om dit te verander.
+  chat.candidates: Kandidate
+  chat.run: Kry aanbeveling
+  chat.limit: Jy het vandag se limiet bereik. Probeer asseblief môre weer of
+    gebruik die assistent.
+  chat.error: Die adviseur is nou nie beskikbaar nie. Die assistent werk steeds.
+  chat.verify: Bevestig asseblief dat jy 'n mens is.
+  chat.disclaimer: Die adviseur kan foute maak. Aanbevelings kom van die
+    reëlenjin, en dit is nie regsadvies nie.
+  chat.report: Maak die volledige verslag oop
+  projects.title: Lisensiekaart van oopbronprojekte
+  projects.lead: Lisensies van bekende projekte en die storie agter elke verandering.
+  projects.filter.domain: Domein
+  projects.filter.family: Lisensiefamilie
+  projects.filter.owner: Eienaar
+  projects.filter.changed: Lisensie verander
+  projects.count: "{count} projekte"
+  projects.empty: Geen projek pas by hierdie filters nie.
+  owner.company: Maatskappy
+  owner.foundation: Stigting
+  owner.individual: Individu
+  owner.community: Gemeenskap
+  project.current: Huidige lisensie
+  project.timeline: Lisensie-tydlyn
+  project.reason: Rede
+  project.announcement: Aankondiging
+  project.forks: Vurke wat gevolg het
+  project.fork-of: Vurk van {name}
+  project.repo: Bewaarplek
+  project.similar: Soortgelyke projekte
+  project.review: Hierdie inskrywing is deur die sinkroniseringsbot gevind en wag
+    vir menslike hersiening.
+  project.initial: Oorspronklike lisensie
+  domain.database: Databasis
+  domain.frontend: Voorkant-raamwerk
+  domain.devops: DevOps
+  domain.ai-model: KI-model
+  domain.language: Taal en looptyd
+  domain.os: Bedryfstelsel
+  domain.web: Webbediener en agterkant
+  domain.tooling: Ontwikkelaarhulpmiddels
+  domain.data: Data en ontleding
+  domain.observability: Waarneembaarheid
+  domain.messaging: Boodskappe en stroming
+  domain.cms: IBS en toepassings
+  trends.title: Tendense in oopbronlisensies
+  trends.lead: Tydens die bou saamgestel uit die projekkaart.
+  trends.family-share: Lisensiefamilies per domein
+  trends.changes: Lisensieveranderings per jaar
+  trends.to-source-available: Projekte wat van oopbron na bron-beskikbaar oorgeskuif het
+  search.lead: Soek lisensies, scenario's en projekte in hierdie taal.
+  search.noscript: Soek vereis JavaScript.
+  check.title: Lisensietoets vir afhanklikhede
+  check.lead: Plak 'n package.json, go.mod, Gemfile.lock, Cargo.toml of
+    requirements.txt. Ontleding gebeur in jou blaaier.
+  check.project-license: Jou projek se lisensie
+  check.input: Manifes
+  check.run: Toets
+  check.lookup: Soek onbekende lisensies aanlyn op (deps.dev)
+  check.col.package: Pakket
+  check.col.license: Lisensie
+  check.col.status: Status
+  check.status.compatible: Versoenbaar
+  check.status.conditional: Met voorwaardes
+  check.status.incompatible: Konflik
+  check.status.unknown: Onbekend
+  check.summary: "{ok} versoenbaar, {warn} met voorwaardes, {bad} konflikte,
+    {unknown} onbekend"
+  check.format: "Formaat bespeur: {format}"
+  check.no-deps: Geen afhanklikhede gevind nie.
+  check.license-hint: Voeg die lisensie in die manifes by as "name@version
+    LICENSE-ID"-reëls, of skakel aanlyn opsoek aan.
+  notfound.title: Bladsy nie gevind nie
+  notfound.body: Hierdie bladsy bestaan nie. Probeer die lisensiebiblioteek.
+  domain.education: Onderwys
+  domain.design: Lettertipes en ontwerp

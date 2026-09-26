@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: cf07449a9c3b7eaf
+actor: other
+title: Ajustat prin fine-tuning, redenumit și publicat cu ponderi închise
+cells:
+  llama: Trebuie să includă licența și să afișeze „Built with Llama”
+  openrail-m: Trebuie să transmită restricțiile de utilizare
+  cc-by-4.0: Atribuire
+  cc-by-nc-4.0: Doar necomercial
+  odc-by-1.0: Atribuire
+  odbl-1.0: Bazele de date derivate rămân ODbL

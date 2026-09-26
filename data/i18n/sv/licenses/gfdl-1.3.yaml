@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: c732ed2e04240901
+summary: "Copyleft för manualer: kopior och ändrade versioner måste förbli under
+  GFDL, och historik och invarianta avsnitt ska behållas."
+analogy: Dela-receptet-regeln för kokbokens manual.
+pros:
+  - Håller dokumentation fri
+  - Används av GNU-manualer
+cons:
+  - Invarianta avsnitt är omstridda
+  - Svår att kombinera med CC-innehåll

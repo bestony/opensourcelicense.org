@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 2388a1183d57050c
+summary: "Fri typsnittslicens: använd, bädda in och ändra typsnitt fritt, men
+  ändrade typsnitt måste släppa reserverade namn, och typsnitten får inte säljas
+  separat."
+analogy: Använd typsnittet överallt, men sälj inte den nakna typsnittsfilen.
+pros:
+  - Tillåter inbäddning i dokument och appar
+  - Standard för öppna typsnitt
+cons:
+  - Reserverade typsnittsnamn försvårar forkar
+  - Endast för typsnitt

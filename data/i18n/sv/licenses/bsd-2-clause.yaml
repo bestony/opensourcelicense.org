@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 261d8b56fb436858
+summary: "Som MIT: använd koden fritt; behåll upphovsrättsmeddelandet och
+  ansvarsfriskrivningen i käll- och binärkopior."
+analogy: "Ett gratis receptkort: kopiera det var som helst, behåll bara
+  författarens rad längst ner."
+pros:
+  - Mycket kort och tillåtande
+  - Vanlig i BSD-system
+cons:
+  - Ingen patentlicens
+  - Stängda forkar är tillåtna

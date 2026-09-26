@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cb1197749de0ea7e
+summary: Consente di modificare e distribuire liberamente, ma una versione
+  modificata deve essere chiaramente contrassegnata o rinominata, oppure il suo
+  sorgente reso disponibile. Include clausole sui brevetti.
+analogy: Fai il remix della canzone, ma non vendere il tuo remix come l'originale.
+pros:
+  - Tutela l'identità dell'originale
+  - Compatibile con la GPL
+cons:
+  - Condizioni prolisse
+  - Rara al di fuori di Raku e Perl

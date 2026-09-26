@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 72d99432db49e19d
+summary: Permissiewe lisensie vir Unicode-data en -sagteware soos ICU en CLDR;
+  behou die kennisgewing en moenie die kopiereghouer se naam vir bemarking
+  gebruik nie.
+analogy: "'n Gratis naslaanboek: kopieer dit, hou die erkenningsreël."
+pros:
+  - Permissief
+  - Dek datalêers en kode
+cons:
+  - Geen patenttoekenning nie
+  - Meestal vir Unicode-projekte gebruik

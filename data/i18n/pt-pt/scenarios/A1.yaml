@@ -1,0 +1,9 @@
+reviewed: false
+sourceHash: 883d4cd50ee79a28
+actor: other
+title: Um fornecedor de cloud vende o seu projeto como serviço gerido
+cells:
+  gpl-3.0: Não é distribuição
+  agpl-3.0: Tem de publicar as modificações
+  sspl-1.0: Tem de publicar toda a pilha do serviço
+  busl-1.1: Exceto se o Additional Use Grant o permitir

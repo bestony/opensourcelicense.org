@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 6d33e2e6b797d27f
+summary: "Copyleft på filnivå: ändringar i MPL-licensierade filer måste förbli
+  öppna, men de kan kombineras med stängd kod i andra filer."
+analogy: Lånar du ett kapitel måste du dela dina ändringar i det kapitlet, men
+  resten av din bok är din.
+pros:
+  - Balans mellan tillåtande och copyleft
+  - Uttrycklig patentlicens
+  - Kompatibel med GPL som standard
+cons:
+  - Filgränser kan vara oklara
+  - Omfattar inte nätverksanvändning

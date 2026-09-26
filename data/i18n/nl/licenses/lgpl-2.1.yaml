@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: 22649412ed3dbb5f
+summary: "Bibliotheek-copyleft: wijzigingen aan de bibliotheek blijven open;
+  gesloten programma's mogen ernaar linken als gebruikers opnieuw kunnen linken
+  met een gewijzigde bibliotheek."
+analogy: De oudere editie van de vervangbare gedeelde motor.
+pros:
+  - Propriëtaire apps mogen de bibliotheek gebruiken
+  - Gangbaar in desktop- en multimediabibliotheken
+cons:
+  - Regels voor opnieuw linken zijn complex
+  - Geen expliciete octrooilicentie

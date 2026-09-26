@@ -1,0 +1,8 @@
+reviewed: false
+sourceHash: d30cdd2632a3c255
+actor: other
+title: Länkat in i en app eller firmware med stängd källkod och distribuerat
+cells:
+  mpl-2.0: På filnivå
+  lgpl-3.0: Omlänkning måste tillåtas
+  busl-1.1: Beror på Additional Use Grant

@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 1db86c42c600a813
+summary: "GPL-3.0 plus en netværksklausul: brugere, der interagerer med en
+  ændret version over et netværk, skal tilbydes dens kildekode."
+analogy: "Opskriftsreglen gælder også for restauranter: at servere retten tæller
+  som at dele den ud."
+pros:
+  - Lukker SaaS-smuthullet
+  - Godt grundlag for dobbeltlicensering
+  - OSI-godkendt open source
+cons:
+  - Mange virksomheder forbyder den helt
+  - Uændret hosting er stadig tilladt

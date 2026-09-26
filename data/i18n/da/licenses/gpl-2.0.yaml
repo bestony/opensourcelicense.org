@@ -1,0 +1,12 @@
+reviewed: false
+sourceHash: cf76d86201254c1b
+summary: "Stærk copyleft: distribuerede afledte værker skal frigives i deres
+  helhed under GPL-2.0. Ingen udtrykkelig patentlicens; ikke kompatibel med
+  GPL-3.0, medmindre 'or later' bruges."
+analogy: Del-opskriften-reglen i dens ældre udgave.
+pros:
+  - Holder distribuerede afledte værker åbne
+  - Bruges af Linux-kernen
+cons:
+  - Ikke kompatibel med Apache-2.0 og GPL-3.0 (kun denne version)
+  - Ingen udtrykkelig patentlicens

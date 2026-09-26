@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 6a4054dc9cca8e7e
+summary: "Deel-soortgelyk vir databasisse: jy mag die data kommersieel gebruik,
+  maar openbare afgeleide databasisse moet onder die ODbL bly. Voortgebringde
+  werke soos kaarte of beelde vereis slegs erkenning."
+analogy: Bou voort op die gedeelde kaart, en as jy 'n verbeterde kaartdatabasis
+  publiseer, deel dit terug op dieselfde voorwaardes.
+pros:
+  - Hou verbeterde databasisse oop
+  - Kommersiële gebruik toegelaat
+  - Bewys deur OpenStreetMap
+cons:
+  - Deel-soortgelyk kan vermenging met ander data keer
+  - '"Afgeleide databasis" is soms onduidelik'

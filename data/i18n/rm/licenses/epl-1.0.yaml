@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: 41352f96fddd8017
+summary: Copyleft al nivel dal modul cun concessiun da patents e cun il dretg da
+  New York sco dretg applitgabel; incumpatibla cun la GPL.
+analogy: L'emprima ediziun da la regla dad Eclipse da parter il chapitel.
+pros:
+  - Concessiun da patents
+  - Duvrada da Clojure e JUnit 4
+cons:
+  - Incumpatibla cun la GPL
+  - Remplazzada da l'EPL-2.0

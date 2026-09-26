@@ -1,0 +1,11 @@
+reviewed: false
+sourceHash: c77fe673047b3249
+actor: other
+title: Distillatie, of andere modellen trainen op de output
+cells:
+  llama: Naam moet "Llama" bevatten
+  openrail-m: Afgeleide werken erven de beperkingen
+  cc-by-4.0: Naamsvermelding
+  cc-by-nc-4.0: Alleen niet-commercieel
+  odc-by-1.0: Naamsvermelding
+  odbl-1.0: Naamsvermelding

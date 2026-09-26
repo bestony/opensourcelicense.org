@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 72d99432db49e19d
+summary: Licență permisivă pentru date și software Unicode, precum ICU și CLDR;
+  păstrează nota și nu folosi numele titularului drepturilor de autor în scop
+  promoțional.
+analogy: "O carte de referință gratuită: copiaz-o, dar păstrează rândul cu
+  mențiunea sursei."
+pros:
+  - Permisivă
+  - Acoperă fișiere de date și cod
+cons:
+  - Fără licență de brevet
+  - Folosită mai ales pentru proiectele Unicode

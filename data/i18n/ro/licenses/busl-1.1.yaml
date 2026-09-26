@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: ce104e1cd96e85b1
+summary: "Source-available: utilizarea în producție este limitată de Additional
+  Use Grant, iar fiecare versiune trece la o licență deschisă după Change Date
+  (maximum 4 ani)."
+analogy: "O vitrină: poți privi și încerca, iar după câțiva ani articolul devine
+  gratuit pentru toată lumea."
+pros:
+  - Îți permite să controlezi utilizarea comercială
+  - Codul devine open source mai târziu
+cons:
+  - Nu este open source
+  - Termenii acordului diferă de la proiect la proiect
+  - Poate declanșa fork-uri

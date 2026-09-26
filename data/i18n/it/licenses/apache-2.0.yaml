@@ -1,0 +1,14 @@
+reviewed: false
+sourceHash: 637c87bc846f9159
+summary: Licenza permissiva con concessione espressa di brevetti, ritorsione
+  brevettuale e obbligo di indicare i file modificati.
+analogy: Una cassetta degli attrezzi gratuita con la promessa di non farti causa
+  per i suoi brevetti — a meno che non sia tu a farla per primo.
+pros:
+  - Concessione espressa di brevetti da ogni contributore
+  - Preferita da molte aziende e fondazioni
+  - Tutela i marchi
+cons:
+  - Più lunga; gestione del file NOTICE
+  - Non compatibile con GPL-2.0-only
+  - Non ferma i concorrenti in hosting

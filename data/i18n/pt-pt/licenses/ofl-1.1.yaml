@@ -1,0 +1,13 @@
+reviewed: false
+sourceHash: 2388a1183d57050c
+summary: "Licença livre para tipos de letra: use, incorpore e modifique
+  livremente, mas os tipos de letra modificados têm de abandonar os nomes
+  reservados e não podem ser vendidos isoladamente."
+analogy: Use o tipo de letra em todo o lado, mas não venda o ficheiro da fonte
+  por si só.
+pros:
+  - Permite a incorporação em documentos e aplicações
+  - Padrão para tipos de letra abertos
+cons:
+  - Os nomes de fonte reservados complicam os forks
+  - Apenas para tipos de letra
