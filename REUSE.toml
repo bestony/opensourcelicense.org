@@ -10,3 +10,8 @@ SPDX-License-Identifier = "CC-BY-4.0"
 path = ["src/**", "worker/**", "scripts/**", "tests/**", "*.mjs", "*.json", "*.jsonc", "*.ts"]
 SPDX-FileCopyrightText = "opensourcelicense.org contributors"
 SPDX-License-Identifier = "AGPL-3.0-or-later"
+
+[[annotations]]
+path = [".github/**", ".gitignore", "*.md", "*.yaml"]
+SPDX-FileCopyrightText = "opensourcelicense.org contributors"
+SPDX-License-Identifier = "AGPL-3.0-or-later"
