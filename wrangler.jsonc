@@ -16,6 +16,9 @@
   //   wrangler kv namespace create RATE_LIMIT
   // then add: "kv_namespaces": [{ "binding": "RATE_LIMIT", "id": "<id>" }]
   "ai": { "binding": "AI" },
+  // Pages offloaded from the static assets (src/domain/offload.ts), uploaded by
+  // "pnpm offload:upload". Create the bucket once: wrangler r2 bucket create opensourcelicense-pages
+  "r2_buckets": [{ "binding": "PAGES", "bucket_name": "opensourcelicense-pages" }],
   "vars": {
     "ADVISOR_MODEL": "@cf/meta/llama-3.1-8b-instruct-fp8-fast",
     "DAILY_LIMIT": "60",

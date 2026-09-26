@@ -1,5 +1,7 @@
 export interface Env {
   ASSETS: Fetcher;
+  /** R2 bucket with the pages offloaded from the static assets (src/domain/offload.ts) */
+  PAGES?: R2Bucket;
   /** Workers AI binding */
   AI?: Ai;
   RATE_LIMIT?: KVNamespace;

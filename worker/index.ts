@@ -1,11 +1,13 @@
 /**
  * Cloudflare Worker entry. Static pages come from the assets binding; only
- * /api/* runs code (see run_worker_first in wrangler.jsonc).
+ * /api/* runs code first (see run_worker_first in wrangler.jsonc). Requests that
+ * miss the assets reach this Worker too: offloaded pages are served from R2.
  */
 import { createLogger, setLogLevel, type LogLevel } from "../src/lib/log";
 import { handleChat } from "./chat";
 import { handleDeps } from "./deps";
 import type { Env } from "./env";
+import { servePage } from "./pages";
 
 export default {
   async fetch(req: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
@@ -19,7 +21,7 @@ export default {
       if (url.pathname === "/api/chat") res = await handleChat(req, env, ctx, createLogger(`worker.chat.${requestId}`));
       else if (url.pathname === "/api/deps") res = await handleDeps(req, createLogger(`worker.deps.${requestId}`));
       else if (url.pathname.startsWith("/api/")) res = Response.json({ type: "error", code: "bad_request", message: "not found" }, { status: 404 });
-      else res = await env.ASSETS.fetch(req);
+      else res = (await servePage(req, env, ctx, createLogger(`worker.pages.${requestId}`))) ?? (await env.ASSETS.fetch(req));
       log.debug("request", { requestId, method: req.method, status: res.status, ms: Date.now() - started });
       return res;
     } catch (err) {

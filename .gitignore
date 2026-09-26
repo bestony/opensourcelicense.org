@@ -1,5 +1,7 @@
 # build output
 dist/
+# pages offloaded to R2 (scripts/offload)
+dist-r2/
 # generated types
 .astro/
 
