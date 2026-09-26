@@ -58,7 +58,18 @@ const inList = <T extends string>(list: readonly T[], v: unknown): v is T => typ
 /** Coerce untrusted input (URL, LLM tool call) into a valid Profile, dropping unknown values. */
 export function sanitizeProfile(input: unknown): Profile {
   const o = (input && typeof input === "object" ? input : {}) as Record<string, unknown>;
-  const arr = (v: unknown) => (Array.isArray(v) ? v : []);
+  const arr = (v: unknown): unknown[] => {
+    if (Array.isArray(v)) return v;
+    // Small models sometimes send arrays as JSON strings or comma lists.
+    if (typeof v === "string" && v.trim()) {
+      try {
+        const parsed = JSON.parse(v);
+        if (Array.isArray(parsed)) return parsed;
+      } catch {}
+      return v.split(",").map((x) => x.trim());
+    }
+    return [];
+  };
   return {
     artifact_type: inList(ARTIFACT_TYPES, o.artifact_type) ? o.artifact_type : undefined,
     openness_level: inList(OPENNESS_LEVELS, o.openness_level) ? o.openness_level : undefined,

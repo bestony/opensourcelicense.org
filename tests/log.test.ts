@@ -11,6 +11,10 @@ describe("log", () => {
     });
   });
 
+  it("keeps token counters", () => {
+    expect(redact({ prompt_tokens: 5, sessionToken: "x" })).toEqual({ prompt_tokens: 5, sessionToken: "[redacted]" });
+  });
+
   it("respects level threshold", () => {
     const lines: string[] = [];
     setLogLevel("warn");

@@ -5,7 +5,8 @@
 export type LogLevel = "debug" | "info" | "warn" | "error" | "silent";
 
 const ORDER: Record<LogLevel, number> = { debug: 10, info: 20, warn: 30, error: 40, silent: 100 };
-const SENSITIVE = /token|secret|password|authorization|cookie|api[-_]?key|^ip$/i;
+/** Keys whose values are secrets. Matches `token`, `sessionToken`, but not `prompt_tokens`. */
+const SENSITIVE = /(token|secret|password|authorization|cookie|api[-_]?key)$|^ip$/i;
 
 type Fields = Record<string, unknown>;
 
