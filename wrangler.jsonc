@@ -2,8 +2,23 @@
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "opensource-license-org",
   "compatibility_date": "2026-09-26",
+  "compatibility_flags": ["nodejs_compat"],
+  "main": "./worker/index.ts",
   "assets": {
     "directory": "./dist",
-    "not_found_handling": "404-page"
-  }
+    "binding": "ASSETS",
+    "not_found_handling": "404-page",
+    "run_worker_first": ["/api/*"]
+  },
+  // Rate limiting is enabled once a KV namespace is bound:
+  //   wrangler kv namespace create RATE_LIMIT
+  // then add: "kv_namespaces": [{ "binding": "RATE_LIMIT", "id": "<id>" }]
+  "ai": { "binding": "AI" },
+  "vars": {
+    "ADVISOR_MODEL": "@cf/meta/llama-3.1-8b-instruct-fp8-fast",
+    "DAILY_LIMIT": "60",
+    "LOG_LEVEL": "info"
+  },
+  // Secrets (wrangler secret put ...): TURNSTILE_SECRET, SESSION_SECRET
+  "observability": { "enabled": true }
 }

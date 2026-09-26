@@ -14,8 +14,9 @@
     "cf:preview": "astro build && wrangler dev",
     "test": "vitest run",
     "validate": "tsx scripts/validate.ts",
-    "check": "astro check",
-    "sync": "tsx scripts/sync/index.ts"
+    "check": "astro check && tsc -p worker",
+    "sync": "tsx scripts/sync/index.ts",
+    "advisor:smoke": "tsx scripts/advisor-smoke.ts"
   },
   "dependencies": {
     "@astrojs/react": "^7.0.0",

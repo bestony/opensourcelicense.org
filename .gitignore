@@ -28,3 +28,6 @@ pnpm-debug.log*
 
 # sync bot output
 sync-report.md
+
+# local worker secrets
+.dev.vars

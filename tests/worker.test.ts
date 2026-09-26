@@ -1,0 +1,184 @@
+import { describe, expect, it, vi } from "vitest";
+import { buildPrompt } from "./worker-helpers";
+import { validateMessages } from "../worker/validate";
+import { issueSession, verifySession, SESSION_TTL_MS } from "../worker/session";
+import { checkRateLimit } from "../worker/ratelimit";
+import { handleChat } from "../worker/chat";
+import { normalizeReply, toChatMessages } from "../worker/workers-ai";
+import { createLogger } from "@/lib/log";
+import { realRaw } from "./helpers";
+
+const log = createLogger("test", () => {});
+
+function memoryKv() {
+  const store = new Map<string, string>();
+  return { store, get: async (k: string) => store.get(k) ?? null, put: async (k: string, v: string) => void store.set(k, v) };
+}
+
+describe("worker/validate", () => {
+  it("accepts an alternating conversation ending with the user", () => {
+    const r = validateMessages([
+      { role: "user", content: "hi" },
+      { role: "assistant", content: [{ type: "text", text: "ok" }, { type: "tool_use", id: "t", name: "finalize", input: {} }] },
+      { role: "user", content: [{ type: "tool_result", tool_use_id: "t", content: "{}" }] },
+    ]);
+    expect(r.ok).toBe(true);
+  });
+  it.each([
+    [[], "non-empty"],
+    [[{ role: "assistant", content: "x" }], "role user"],
+    [[{ role: "user", content: [{ type: "image", source: {} }] }], "disallowed"],
+    [[{ role: "user", content: "a" }, { role: "assistant", content: [{ type: "thinking", thinking: "" }] }, { role: "user", content: "b" }], "disallowed"],
+    [[{ role: "user", content: "x".repeat(5000) }], "too long"],
+    [[{ role: "user", content: "a" }, { role: "assistant", content: "b" }], "last message"],
+  ])("rejects %j", (msgs, reason) => {
+    const r = validateMessages(msgs);
+    expect(r.ok).toBe(false);
+    expect(!r.ok && r.reason).toContain(reason);
+  });
+});
+
+describe("worker/session", () => {
+  it("issues and verifies tokens, rejects tampering and expiry", async () => {
+    const tok = await issueSession("s", 1000);
+    expect(await verifySession("s", tok, 2000)).toBe(true);
+    expect(await verifySession("other", tok, 2000)).toBe(false);
+    expect(await verifySession("s", tok.replace(/.$/, "0"), 2000)).toBe(tok.endsWith("0"));
+    expect(await verifySession("s", tok, 1000 + SESSION_TTL_MS + 1)).toBe(false);
+    expect(await verifySession("s", "garbage", 0)).toBe(false);
+  });
+});
+
+describe("worker/ratelimit", () => {
+  it("counts per day and blocks over the limit without storing raw IPs", async () => {
+    const kv = memoryKv();
+    const now = new Date("2026-09-26T10:00:00Z");
+    expect((await checkRateLimit(kv, "s", "1.2.3.4", 2, now)).allowed).toBe(true);
+    expect((await checkRateLimit(kv, "s", "1.2.3.4", 2, now)).allowed).toBe(true);
+    expect((await checkRateLimit(kv, "s", "1.2.3.4", 2, now)).allowed).toBe(false);
+    expect((await checkRateLimit(kv, "s", "5.6.7.8", 2, now)).allowed).toBe(true);
+    expect([...kv.store.keys()].some((k) => k.includes("1.2.3.4"))).toBe(false);
+    expect((await checkRateLimit(kv, "s", "1.2.3.4", 2, new Date("2026-09-27T00:00:01Z"))).allowed).toBe(true);
+  });
+});
+
+describe("worker/prompt", () => {
+  it("is deterministic and contains the knowledge base", () => {
+    const a = buildPrompt();
+    expect(a).toBe(buildPrompt());
+    expect(a).toContain("## agpl-3.0 (AGPL-3.0-only)");
+    expect(a).toMatch(/A1 \[code\] .*agpl-3\.0=conditional/);
+    expect(a).toContain("not legal advice");
+    expect(a).toContain("Never write tool calls as plain text");
+  });
+});
+
+describe("worker/workers-ai adapter", () => {
+  it("maps the conversation to Chat Completions messages", () => {
+    const msgs = toChatMessages("SYS", [
+      { role: "user", content: "hi" },
+      { role: "assistant", content: [{ type: "text", text: "ok" }, { type: "tool_use", id: "c1", name: "update_profile", input: { artifact_type: "saas" } }] },
+      { role: "user", content: [{ type: "tool_result", tool_use_id: "c1", content: "{}" }, { type: "text", text: "more" }] },
+    ]);
+    expect(msgs).toEqual([
+      { role: "system", content: "SYS" },
+      { role: "user", content: "hi" },
+      { role: "assistant", content: "ok", tool_calls: [{ id: "c1", type: "function", function: { name: "update_profile", arguments: '{"artifact_type":"saas"}' } }] },
+      { role: "tool", tool_call_id: "c1", content: "{}" },
+      { role: "user", content: "more" },
+    ]);
+  });
+
+  it("normalizes Chat Completions replies", () => {
+    const r = normalizeReply({
+      choices: [{ finish_reason: "tool_calls", message: { content: null, tool_calls: [{ id: "x", function: { name: "finalize", arguments: "{}" } }] } }],
+      usage: { prompt_tokens: 3 },
+    });
+    expect(r).toMatchObject({ stopReason: "tool_use", content: [{ type: "tool_use", id: "x", name: "finalize", input: {} }] });
+  });
+
+  it("normalizes legacy replies and bad JSON arguments", () => {
+    const r = normalizeReply({ response: "Hello", tool_calls: [{ name: "ask_question", arguments: "{oops" }] });
+    expect(r.content[0]).toEqual({ type: "text", text: "Hello" });
+    expect(r.content[1]).toMatchObject({ type: "tool_use", name: "ask_question", input: { __invalid_json: "{oops" } });
+    expect((r.content[1] as { id: string }).id).toMatch(/^call_/);
+    expect(normalizeReply({ response: "done" }).stopReason).toBe("end_turn");
+    expect(normalizeReply({ choices: [{ finish_reason: "length", message: { content: "cut" } }] }).stopReason).toBe("max_tokens");
+  });
+});
+
+describe("worker/workers-ai text tool calls", () => {
+  it("recovers Llama-style JSON tool calls printed as text", () => {
+    const r = normalizeReply({ response: '{"name": "update_profile", "parameters": {"artifact_type": "saas"}}' });
+    expect(r.stopReason).toBe("tool_use");
+    expect(r.content).toEqual([{ type: "tool_use", id: expect.any(String), name: "update_profile", input: { artifact_type: "saas" } }]);
+  });
+  it("recovers fenced and multi-line calls", () => {
+    const r = normalizeReply({ response: '```json\n[{"name":"update_profile","parameters":{}},{"name":"finalize","parameters":{}}]\n```' });
+    expect(r.content.map((b) => (b as { name?: string }).name)).toEqual(["update_profile", "finalize"]);
+    const r2 = normalizeReply({ response: '{"name":"update_profile","parameters":{}}\n{"name":"finalize","parameters":{}}' });
+    expect(r2.content).toHaveLength(2);
+  });
+  it("leaves normal prose and unknown tools alone", () => {
+    expect(normalizeReply({ response: "Use {braces} carefully" }).stopReason).toBe("end_turn");
+    expect(normalizeReply({ response: '{"name":"rm_rf","parameters":{}}' }).content[0].type).toBe("text");
+  });
+});
+
+describe("worker/chat", () => {
+  const assets = { fetch: async () => new Response(JSON.stringify(realRaw()), { headers: { etag: "x" } }) } as never;
+  const ctx = () => {
+    const tasks: Promise<unknown>[] = [];
+    return { tasks, waitUntil: (p: Promise<unknown>) => void tasks.push(p), passThroughOnException() {} };
+  };
+  const req = (body: unknown) =>
+    new Request("https://opensourcelicense.org/api/chat", { method: "POST", body: JSON.stringify(body), headers: { "cf-connecting-ip": "1.1.1.1" } });
+  const msgs = [{ role: "user", content: "I build a vector database" }];
+  const ai = (reply: unknown) => ({ run: vi.fn(async () => reply) });
+  const events = async (res: Response, c: ReturnType<typeof ctx>) => {
+    const text = await res.text();
+    await Promise.all(c.tasks);
+    return text.trim().split("\n\n").map((l) => JSON.parse(l.slice(6)));
+  };
+
+  it("rejects bad input and missing configuration", async () => {
+    expect((await handleChat(req({ messages: [] }), { ASSETS: assets, AI: ai({}) as never }, ctx() as never, log)).status).toBe(400);
+    expect((await handleChat(req({ messages: msgs }), { ASSETS: assets }, ctx() as never, log)).status).toBe(503);
+  });
+
+  it("requires Turnstile when configured", async () => {
+    const env = { ASSETS: assets, AI: ai({}) as never, TURNSTILE_SECRET: "t", SESSION_SECRET: "s" };
+    expect((await handleChat(req({ messages: msgs }), env, ctx() as never, log)).status).toBe(403);
+    const failing = vi.fn(async () => Response.json({ success: false, "error-codes": ["invalid-input-response"] }));
+    expect((await handleChat(req({ messages: msgs, turnstileToken: "bad" }), env, ctx() as never, log, { fetcher: failing as typeof fetch })).status).toBe(403);
+    const ok = vi.fn(async () => Response.json({ success: true }));
+    const c = ctx();
+    const res = await handleChat(req({ messages: msgs, turnstileToken: "good" }), { ...env, AI: ai({ response: "hi" }) as never }, c as never, log, { fetcher: ok as typeof fetch });
+    expect((await events(res, c))[0].type).toBe("session");
+  });
+
+  it("enforces the daily limit", async () => {
+    const env = { ASSETS: assets, AI: ai({}) as never, SESSION_SECRET: "s", RATE_LIMIT: memoryKv() as never, DAILY_LIMIT: "0" };
+    expect((await handleChat(req({ messages: msgs }), env, ctx() as never, log)).status).toBe(429);
+  });
+
+  it("returns text, tool calls and the assistant message", async () => {
+    const model = ai({ choices: [{ finish_reason: "tool_calls", message: { content: "Noted.", tool_calls: [{ id: "t1", function: { name: "update_profile", arguments: '{"artifact_type":"saas"}' } }] } }] });
+    const c = ctx();
+    const res = await handleChat(req({ messages: msgs }), { ASSETS: assets, AI: model as never, ADVISOR_MODEL: "@cf/test/model" }, c as never, log);
+    expect(res.headers.get("content-type")).toContain("text/event-stream");
+    const ev = await events(res, c);
+    expect(ev.map((e) => e.type)).toEqual(["text", "tool_start", "message", "done"]);
+    expect(ev[2]).toMatchObject({ stop_reason: "tool_use", model: "@cf/test/model" });
+    const [modelId, inputs] = model.run.mock.calls[0] as unknown as [string, { messages: { role: string }[]; tools: unknown[] }];
+    expect(modelId).toBe("@cf/test/model");
+    expect(inputs.messages[0].role).toBe("system");
+    expect(inputs.tools).toHaveLength(3);
+  });
+
+  it("reports upstream failures", async () => {
+    const c = ctx();
+    const res = await handleChat(req({ messages: msgs }), { ASSETS: assets, AI: { run: async () => { throw new Error("boom"); } } as never }, c as never, log);
+    expect((await events(res, c)).map((e) => e.code ?? e.type)).toEqual(["upstream"]);
+  });
+});
