@@ -41,9 +41,10 @@ const site = Astro.site ?? new URL("https://opensourcelicense.org");
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": t("nav.scenarios"), "item": new URL(href("/scenarios"), site).href },
-          { "@type": "ListItem", "position": 2, "name": text?.title ?? id, "item": new URL(href(`/scenarios/${id}`), site).href },
-          { "@type": "ListItem", "position": 3, "name": lic.shortName },
+          { "@type": "ListItem", "position": 1, "name": t("nav.home"), "item": new URL(href("/"), site).href },
+          { "@type": "ListItem", "position": 2, "name": t("nav.scenarios"), "item": new URL(href("/scenarios"), site).href },
+          { "@type": "ListItem", "position": 3, "name": text?.title ?? id, "item": new URL(href(`/scenarios/${id}`), site).href },
+          { "@type": "ListItem", "position": 4, "name": lic.shortName },
         ],
       },
       {

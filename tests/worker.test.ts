@@ -267,6 +267,11 @@ describe("worker fetch routing", () => {
     fetch: vi.fn(async (r: Request) => {
       const url = new URL(r.url);
       if (url.pathname === "/404") return new Response("Custom 404", { status: 200 });
+      if (url.pathname === "/data/catalog.json") return new Response("{}", { status: 200, headers: { "content-type": "application/json" } });
+      if (url.pathname.startsWith("/texts/")) return new Response("text", { status: 200, headers: { "content-type": "text/plain" } });
+      if (url.pathname === "/scenarios/A1/mit" || url.pathname === "/zh-cn/scenarios/A1/mit" || url.pathname === "/compare/mit-vs-apache-2.0") {
+        return new Response("OK", { status: 200 });
+      }
       return new Response("Not found", { status: 404 });
     }),
   } as never;
@@ -279,18 +284,69 @@ describe("worker fetch routing", () => {
     expect(res.headers.get("location")).toBe("https://opensourcelicense.org/licenses/mit");
   });
 
-  it("redirects uppercase slugs to lowercase with 301", async () => {
+  it("redirects uppercase license and project slugs to lowercase with 301", async () => {
     const res = await worker.fetch(new Request("https://opensourcelicense.org/licenses/MIT"), env, ctx);
     expect(res.status).toBe(301);
     expect(res.headers.get("location")).toBe("https://opensourcelicense.org/licenses/mit");
 
-    const res2 = await worker.fetch(new Request("https://opensourcelicense.org/compare/MIT-vs-APACHE-2.0"), env, ctx);
+    const res2 = await worker.fetch(new Request("https://opensourcelicense.org/zh-cn/projects/React"), env, ctx);
     expect(res2.status).toBe(301);
-    expect(res2.headers.get("location")).toBe("https://opensourcelicense.org/compare/mit-vs-apache-2.0");
+    expect(res2.headers.get("location")).toBe("https://opensourcelicense.org/zh-cn/projects/react");
+  });
 
-    const res3 = await worker.fetch(new Request("https://opensourcelicense.org/zh-cn/projects/React"), env, ctx);
-    expect(res3.status).toBe(301);
-    expect(res3.headers.get("location")).toBe("https://opensourcelicense.org/zh-cn/projects/react");
+  it("normalizes scenario URLs preserving uppercase scenario ID and lowercase license slug", async () => {
+    // Valid canonical URLs must NOT be redirected
+    const valid1 = await worker.fetch(new Request("https://opensourcelicense.org/scenarios/A1/mit"), env, ctx);
+    expect(valid1.status).toBe(200);
+
+    const valid2 = await worker.fetch(new Request("https://opensourcelicense.org/zh-cn/scenarios/A1/mit"), env, ctx);
+    expect(valid2.status).toBe(200);
+
+    // Lowercase scenario ID redirected to uppercase
+    const fixId = await worker.fetch(new Request("https://opensourcelicense.org/scenarios/a1"), env, ctx);
+    expect(fixId.status).toBe(301);
+    expect(fixId.headers.get("location")).toBe("https://opensourcelicense.org/scenarios/A1");
+
+    // Lowercase scenario ID with license redirected
+    const fixBoth = await worker.fetch(new Request("https://opensourcelicense.org/scenarios/a1/MIT"), env, ctx);
+    expect(fixBoth.status).toBe(301);
+    expect(fixBoth.headers.get("location")).toBe("https://opensourcelicense.org/scenarios/A1/mit");
+
+    // Uppercase license in scenario redirected to lowercase
+    const fixSlug = await worker.fetch(new Request("https://opensourcelicense.org/zh-cn/scenarios/A1/MIT"), env, ctx);
+    expect(fixSlug.status).toBe(301);
+    expect(fixSlug.headers.get("location")).toBe("https://opensourcelicense.org/zh-cn/scenarios/A1/mit");
+  });
+
+  it("normalizes compare reverse pairs and uppercase slugs to canonical pair with 301", async () => {
+    // Reverse pair -> canonical pair
+    const reverse = await worker.fetch(new Request("https://opensourcelicense.org/compare/apache-2.0-vs-mit"), env, ctx);
+    expect(reverse.status).toBe(301);
+    expect(reverse.headers.get("location")).toBe("https://opensourcelicense.org/compare/mit-vs-apache-2.0");
+
+    // Localized reverse pair
+    const locReverse = await worker.fetch(new Request("https://opensourcelicense.org/zh-cn/compare/apache-2.0-vs-mit"), env, ctx);
+    expect(locReverse.status).toBe(301);
+    expect(locReverse.headers.get("location")).toBe("https://opensourcelicense.org/zh-cn/compare/mit-vs-apache-2.0");
+
+    // Uppercase compare pair
+    const upper = await worker.fetch(new Request("https://opensourcelicense.org/compare/MIT-vs-APACHE-2.0"), env, ctx);
+    expect(upper.status).toBe(301);
+    expect(upper.headers.get("location")).toBe("https://opensourcelicense.org/compare/mit-vs-apache-2.0");
+
+    // Canonical pair is not redirected
+    const canonical = await worker.fetch(new Request("https://opensourcelicense.org/compare/mit-vs-apache-2.0"), env, ctx);
+    expect(canonical.status).toBe(200);
+  });
+
+  it("attaches x-robots-tag: noindex on raw data endpoints", async () => {
+    const jsonRes = await worker.fetch(new Request("https://opensourcelicense.org/data/catalog.json"), env, ctx);
+    expect(jsonRes.status).toBe(200);
+    expect(jsonRes.headers.get("x-robots-tag")).toBe("noindex");
+
+    const txtRes = await worker.fetch(new Request("https://opensourcelicense.org/texts/mit.txt"), env, ctx);
+    expect(txtRes.status).toBe(200);
+    expect(txtRes.headers.get("x-robots-tag")).toBe("noindex");
   });
 
   it("serves custom 404 page with status 404 when asset not found", async () => {

@@ -48,8 +48,9 @@ import { findCanonicalPair } from "@/domain/compare";
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": t("nav.licenses"), "item": new URL(href("/licenses"), site).href },
-          { "@type": "ListItem", "position": 2, "name": lic.name },
+          { "@type": "ListItem", "position": 1, "name": t("nav.home"), "item": new URL(href("/"), site).href },
+          { "@type": "ListItem", "position": 2, "name": t("nav.licenses"), "item": new URL(href("/licenses"), site).href },
+          { "@type": "ListItem", "position": 3, "name": lic.name },
         ],
       },
       {
