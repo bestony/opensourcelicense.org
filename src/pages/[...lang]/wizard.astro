@@ -11,7 +11,7 @@ const { locale } = Astro.props as { locale: Locale };
 const { cat, t } = pageContext(locale);
 ---
 
-<Layout locale={locale} title={t("wizard.title")}>
+<Layout locale={locale} title={t("wizard.title")} description={t("wizard.lead")} noindex>
   <PageHeader title={t("wizard.title")} lead={t("wizard.lead")} />
   <Wizard client:load raw={clientRaw(cat, locale)} locale={locale} />
 </Layout>

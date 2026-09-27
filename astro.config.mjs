@@ -31,7 +31,11 @@ export default defineConfig({
     // hreflang alternates live in each page's <head> (src/layouts/main.astro). Repeating
     // 42+ alternates per URL here made one sitemap file about 200 MB, over the 25 MiB
     // Workers asset limit and Google's 50 MB sitemap limit.
-    sitemap({ entryLimit: 10000 }),
+    sitemap({
+      entryLimit: 10000,
+      lastmod: new Date(),
+      filter: (page) => !/\/(search|r|chat|check|wizard|compare|404)\/?$/.test(new URL(page).pathname),
+    }),
   ],
 
   fonts: [

@@ -11,7 +11,7 @@ const { locale } = Astro.props as { locale: Locale };
 const { cat, t, href } = pageContext(locale);
 ---
 
-<Layout locale={locale} title={t("projects.title")} wide>
+<Layout locale={locale} title={t("projects.title")} description={t("projects.lead")} wide>
   <PageHeader title={t("projects.title")} lead={t("projects.lead")}>
     <p><a href={href("/projects/trends")}>{t("nav.trends")} →</a></p>
   </PageHeader>

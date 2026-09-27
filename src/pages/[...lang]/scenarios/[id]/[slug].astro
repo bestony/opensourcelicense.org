@@ -2,6 +2,7 @@
 import Layout from "@/layouts/main.astro";
 import PageHeader from "@/components/site/PageHeader.astro";
 import VerdictBadge from "@/components/site/VerdictBadge.astro";
+import JsonLd from "@/components/site/JsonLd.astro";
 import { cellKey } from "@/domain/catalog";
 import { VERDICT_CLASS, VERDICT_SYMBOL } from "@/domain/verdict";
 import { getCatalog } from "@/lib/data";
@@ -18,7 +19,8 @@ const { cat, t, href, fmtDate } = pageContext(locale);
 const s = cat.scenarios.get(id)!;
 const lic = cat.licenses.get(slug)!;
 const cell = cat.cells.get(cellKey(id, slug))!;
-const text = scenarioText(cat.raw, locale, id)?.value;
+const sText = scenarioText(cat.raw, locale, id);
+const text = sText?.value;
 const note = cellNote(cat.raw, locale, id, slug);
 const verdictLabel = t(`verdict.${cell.verdict}`);
 const title = `${text?.title ?? id} — ${lic.shortName}`;
@@ -28,9 +30,38 @@ const cases = [...new Set([...(cell.caseRef ? [cell.caseRef] : []), ...(cat.case
   .map((p) => cat.projects.get(p))
   .filter((p) => !!p);
 const report = issueUrl(`Cell ${id} × ${lic.spdx} looks wrong`, `Cell: ${id} × ${lic.spdx}\nCurrent verdict: ${cell.verdict}\n\nWhy it is wrong (quote the clause):\n`);
+const site = Astro.site ?? new URL("https://opensourcelicense.org");
 ---
 
-<Layout locale={locale} title={title} description={`${lic.shortName}: ${verdictLabel}${note ? ` — ${note}` : ""}`} searchable={false}>
+<Layout locale={locale} title={title} description={`${lic.shortName}: ${verdictLabel}${note ? ` — ${note}` : ""}`} searchable={false} noindex={!!sText?.fallback}>
+  <JsonLd
+    slot="head"
+    data={[
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": t("nav.scenarios"), "item": new URL(href("/scenarios"), site).href },
+          { "@type": "ListItem", "position": 2, "name": text?.title ?? id, "item": new URL(href(`/scenarios/${id}`), site).href },
+          { "@type": "ListItem", "position": 3, "name": lic.shortName },
+        ],
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": `${text?.title ?? id} — ${lic.shortName}`,
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": `${verdictLabel}${note ? `: ${note}` : ""}`,
+            },
+          },
+        ],
+      },
+    ]}
+  />
   <p class="mb-2 flex flex-wrap gap-4">
     <a href={href(`/scenarios/${id}`)}>← {id}</a>
     <a href={href(`/licenses/${slug}`)}>← {lic.shortName}</a>

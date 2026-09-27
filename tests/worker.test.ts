@@ -259,3 +259,44 @@ describe("worker/deps", () => {
     expect((fetcher.mock.calls[0] as unknown[])[0]).toBe("https://api.deps.dev/v3/systems/NPM/packages/%40scope%2Fpkg/versions/1.0.0");
   });
 });
+
+import worker from "../worker/index";
+
+describe("worker fetch routing", () => {
+  const assets = {
+    fetch: vi.fn(async (r: Request) => {
+      const url = new URL(r.url);
+      if (url.pathname === "/404") return new Response("Custom 404", { status: 200 });
+      return new Response("Not found", { status: 404 });
+    }),
+  } as never;
+  const ctx = { waitUntil: vi.fn(), passThroughOnException: vi.fn() } as never;
+  const env = { ASSETS: assets } as never;
+
+  it("redirects trailing slashes to canonical path with 301", async () => {
+    const res = await worker.fetch(new Request("https://opensourcelicense.org/licenses/mit/"), env, ctx);
+    expect(res.status).toBe(301);
+    expect(res.headers.get("location")).toBe("https://opensourcelicense.org/licenses/mit");
+  });
+
+  it("redirects uppercase slugs to lowercase with 301", async () => {
+    const res = await worker.fetch(new Request("https://opensourcelicense.org/licenses/MIT"), env, ctx);
+    expect(res.status).toBe(301);
+    expect(res.headers.get("location")).toBe("https://opensourcelicense.org/licenses/mit");
+
+    const res2 = await worker.fetch(new Request("https://opensourcelicense.org/compare/MIT-vs-APACHE-2.0"), env, ctx);
+    expect(res2.status).toBe(301);
+    expect(res2.headers.get("location")).toBe("https://opensourcelicense.org/compare/mit-vs-apache-2.0");
+
+    const res3 = await worker.fetch(new Request("https://opensourcelicense.org/zh-cn/projects/React"), env, ctx);
+    expect(res3.status).toBe(301);
+    expect(res3.headers.get("location")).toBe("https://opensourcelicense.org/zh-cn/projects/react");
+  });
+
+  it("serves custom 404 page with status 404 when asset not found", async () => {
+    const res = await worker.fetch(new Request("https://opensourcelicense.org/nonexistent-page"), env, ctx);
+    expect(res.status).toBe(404);
+    expect(await res.text()).toBe("Custom 404");
+  });
+});
+

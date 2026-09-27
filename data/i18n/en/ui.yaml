@@ -351,3 +351,12 @@ strings:
   notfound.body: This page does not exist. Try the license library.
   domain.education: Education
   domain.design: Fonts and design
+  license.meta.suffix: Permissions, Conditions & Compatibility
+  license.meta.fallback-desc: "{name} ({spdx}): permissions, conditions, limitations, and compatibility with other open source licenses."
+  project.meta.desc: "{name} uses {licenses}. See its license history, forks, and how it compares."
+  home.meta.title: Choose an Open Source License — Compare, Decide, Comply
+  compare.vs.subtitle: Differences, Permissions & Comparison
+  compare.vs.desc: "Compare {a} and {b}: see differences in permissions, conditions, limitations, and how they handle real-world scenarios."
+  compare.vs.terms: Permissions, Conditions & Limitations
+  compare.vs.scenarios: Scenario Comparison
+  license.term: Term

@@ -13,7 +13,7 @@ const tri = (v: boolean | "unknown") => (v === "unknown" ? t("common.unknown") :
 const families = FAMILIES.filter((f) => cat.licenseList.some((l) => l.family === f));
 ---
 
-<Layout locale={locale} title={t("licenses.title")} wide>
+<Layout locale={locale} title={t("licenses.title")} description={t("licenses.lead", { count: cat.licenses.size })} wide>
   <PageHeader title={t("licenses.title")} lead={t("licenses.lead", { count: cat.licenses.size })} />
 
   <div class="mb-4 flex flex-wrap items-center gap-2" role="group" aria-label={t("licenses.filter")} data-family-filter>

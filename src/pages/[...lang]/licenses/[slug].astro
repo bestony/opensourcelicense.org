@@ -7,6 +7,7 @@ import VerdictBadge from "@/components/site/VerdictBadge.astro";
 import Radar from "@/components/site/Radar.astro";
 import TranslationBadge from "@/components/site/TranslationBadge.astro";
 import LicenseProjects from "@/components/site/LicenseProjects.astro";
+import JsonLd from "@/components/site/JsonLd.astro";
 import { cellKey } from "@/domain/catalog";
 import { computeRadar } from "@/domain/radar";
 import { LOCALE_META } from "@/domain/locales";
@@ -32,9 +33,41 @@ const sections = [
   ["license.limitations", lic.limitations, "text-verdict-deny", "-"],
 ] as const;
 const others = cat.licenseList.filter((l) => l.slug !== slug && l.matrices.some((m) => lic.matrices.includes(m)));
+const site = Astro.site ?? new URL("https://opensourcelicense.org");
+const canonical = new URL(href(`/licenses/${slug}`), site).href;
+const metaTitle = `${lic.name} — ${t(`family.${lic.family}`)} · ${t("license.meta.suffix")}`;
+const metaDesc = text?.value.summary ?? t("license.meta.fallback-desc", { name: lic.name, spdx: lic.spdx });
+import { findCanonicalPair } from "@/domain/compare";
 ---
 
-<Layout locale={locale} title={lic.name} description={text?.value.summary}>
+<Layout locale={locale} title={metaTitle} description={metaDesc} noindex={!!text?.fallback}>
+  <JsonLd
+    slot="head"
+    data={[
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": t("nav.licenses"), "item": new URL(href("/licenses"), site).href },
+          { "@type": "ListItem", "position": 2, "name": lic.name },
+        ],
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": lic.name,
+        "alternateName": lic.spdx,
+        "description": text?.value.summary,
+        "url": canonical,
+        "sameAs": lic.textUrl,
+        "inDefinedTermSet": {
+          "@type": "DefinedTermSet",
+          "name": "SPDX License List",
+          "url": "https://spdx.org/licenses/",
+        },
+      },
+    ]}
+  />
   <PageHeader title={lic.name} searchWeight={10}>
     <div class="flex flex-wrap items-center gap-3 text-sm">
       <FamilyTag family={lic.family} label={t(`family.${lic.family}`)} />
@@ -133,9 +166,17 @@ const others = cat.licenseList.filter((l) => l.slug !== slug && l.matrices.some(
   <section class="mb-10">
     <h2 class="term-heading mb-3 text-2xl">{t("license.compare")}</h2>
     <ul class="flex flex-wrap gap-2">
-      {others.map((o) => (
-        <li><a href={`${href("/compare")}?a=${slug}&b=${o.slug}`} class="inline-block border border-border px-2 no-underline hover:border-primary">{o.shortName}</a></li>
-      ))}
+      {others.map((o) => {
+        const pair = findCanonicalPair(slug, o.slug);
+        const link = pair ? href(`/compare/${pair}`) : `${href("/compare")}?a=${slug}&b=${o.slug}`;
+        return (
+          <li>
+            <a href={link} class="inline-block border border-border px-2 no-underline hover:border-primary">
+              {o.shortName}
+            </a>
+          </li>
+        );
+      })}
     </ul>
   </section>
 

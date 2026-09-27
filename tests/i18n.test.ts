@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { matchLocale } from "@/domain/locales";
+import { LOCALES, LOCALE_META, matchLocale } from "@/domain/locales";
 import { localizedPath, stripLocale } from "@/lib/i18n";
 
 describe("i18n paths", () => {
@@ -36,3 +36,18 @@ describe("matchLocale", () => {
     expect(matchLocale(["xx"])).toBeUndefined();
   });
 });
+
+describe("ogLocale", () => {
+  it("defines standard language_TERRITORY for all locales", () => {
+    for (const l of LOCALES) {
+      const meta = LOCALE_META[l];
+      expect(meta.ogLocale).toBeDefined();
+      expect(meta.ogLocale).toMatch(/^[a-z]{2,3}_[A-Z]{2}$/);
+    }
+    expect(LOCALE_META.en.ogLocale).toBe("en_US");
+    expect(LOCALE_META.ja.ogLocale).toBe("ja_JP");
+    expect(LOCALE_META["zh-cn"].ogLocale).toBe("zh_CN");
+    expect(LOCALE_META["zh-tw"].ogLocale).toBe("zh_TW");
+  });
+});
+

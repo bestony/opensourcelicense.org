@@ -21,7 +21,32 @@ export default {
       if (url.pathname === "/api/chat") res = await handleChat(req, env, ctx, createLogger(`worker.chat.${requestId}`));
       else if (url.pathname === "/api/deps") res = await handleDeps(req, createLogger(`worker.deps.${requestId}`));
       else if (url.pathname.startsWith("/api/")) res = Response.json({ type: "error", code: "bad_request", message: "not found" }, { status: 404 });
-      else res = (await servePage(req, env, ctx, createLogger(`worker.pages.${requestId}`))) ?? (await env.ASSETS.fetch(req));
+      else {
+        // Redirect trailing slashes to canonical path (301)
+        if (url.pathname.length > 1 && url.pathname.endsWith("/")) {
+          const clean = url.pathname.replace(/\/+$/, "");
+          res = Response.redirect(`${url.origin}${clean}${url.search}`, 301);
+        } else {
+          // Redirect uppercase license/project/scenario/compare slugs to lowercase (301)
+          const lower = url.pathname.toLowerCase();
+          if (url.pathname !== lower && /^\/(([\w-]+\/)?)(licenses|projects|scenarios|compare)(\/|$)/.test(lower)) {
+            res = Response.redirect(`${url.origin}${lower}${url.search}`, 301);
+          } else {
+            res = (await servePage(req, env, ctx, createLogger(`worker.pages.${requestId}`))) ?? (await env.ASSETS.fetch(req));
+            if (res.status === 404) {
+              const notFoundRes = await env.ASSETS.fetch(new Request(new URL("/404", req.url)));
+              if (notFoundRes.status === 200) {
+                res = new Response(notFoundRes.body, { status: 404, headers: notFoundRes.headers });
+              }
+            }
+            // Prevent data endpoints from competing with HTML pages in search results
+            if (url.pathname === "/data/catalog.json" || url.pathname.startsWith("/texts/")) {
+              res = new Response(res.body, res);
+              res.headers.set("x-robots-tag", "noindex");
+            }
+          }
+        }
+      }
       log.debug("request", { requestId, method: req.method, status: res.status, ms: Date.now() - started });
       return res;
     } catch (err) {

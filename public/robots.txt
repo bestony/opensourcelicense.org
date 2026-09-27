@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Dynamic & internal pages
+Disallow: /search
+Disallow: /*/search
+Disallow: /r
+Disallow: /*/r
+Disallow: /api/
+Disallow: /data/
+Disallow: /texts/
+
+Sitemap: https://opensourcelicense.org/sitemap-index.xml

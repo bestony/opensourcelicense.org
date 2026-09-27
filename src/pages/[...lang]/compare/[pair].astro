@@ -1,0 +1,358 @@
+---
+import Layout from "@/layouts/main.astro";
+import PageHeader from "@/components/site/PageHeader.astro";
+import FamilyTag from "@/components/site/FamilyTag.astro";
+import VerdictBadge from "@/components/site/VerdictBadge.astro";
+import JsonLd from "@/components/site/JsonLd.astro";
+import { cellKey } from "@/domain/catalog";
+import { POPULAR_PAIRS, pairKey, parsePairKey } from "@/domain/compare";
+import { cellNote, DEFAULT_LOCALE, licenseText, scenarioText, type Locale } from "@/lib/i18n";
+import { localizedStaticPaths, pageContext } from "@/lib/page";
+
+export function getStaticPaths() {
+  return localizedStaticPaths(
+    POPULAR_PAIRS.map(([a, b]) => ({
+      params: { pair: pairKey(a, b) },
+    })),
+  );
+}
+
+const { locale } = Astro.props as { locale: Locale };
+const { pair } = Astro.params as { pair: string };
+const parsed = parsePairKey(pair);
+const ctx = pageContext(locale);
+const { cat, t, href } = ctx;
+
+if (!parsed) {
+  return Astro.redirect(href("/compare"));
+}
+
+const [slugA, slugB] = parsed;
+const licA = cat.licenses.get(slugA);
+const licB = cat.licenses.get(slugB);
+
+if (!licA || !licB) {
+  return Astro.redirect(href("/compare"));
+}
+
+const textA = licenseText(cat.raw, locale, slugA);
+const textB = licenseText(cat.raw, locale, slugB);
+const site = Astro.site ?? new URL("https://opensourcelicense.org");
+
+const title = `${licA.shortName} vs ${licB.shortName} · ${t("compare.vs.subtitle")}`;
+const description = t("compare.vs.desc", { a: licA.name, b: licB.name });
+
+const allPermissions = [...new Set([...licA.permissions, ...licB.permissions])];
+const allConditions = [...new Set([...licA.conditions, ...licB.conditions])];
+const allLimitations = [...new Set([...licA.limitations, ...licB.limitations])];
+
+const scenarios = cat.scenarioList.filter(
+  (s) => cat.cells.has(cellKey(s.id, slugA)) && cat.cells.has(cellKey(s.id, slugB)),
+);
+
+const projectsA = (cat.projectsByLicense.get(slugA) ?? []).slice(0, 6);
+const projectsB = (cat.projectsByLicense.get(slugB) ?? []).slice(0, 6);
+
+const isFallback = (textA?.fallback ?? true) && (textB?.fallback ?? true) && locale !== DEFAULT_LOCALE;
+---
+
+<Layout locale={locale} title={title} description={description} noindex={isFallback} wide>
+  <JsonLd
+    slot="head"
+    data={{
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": t("nav.home"), "item": new URL(href("/"), site).href },
+        { "@type": "ListItem", "position": 2, "name": t("nav.compare"), "item": new URL(href("/compare"), site).href },
+        { "@type": "ListItem", "position": 3, "name": `${licA.shortName} vs ${licB.shortName}` },
+      ],
+    }}
+  />
+
+  <p class="mb-2 flex items-center gap-2 text-sm text-muted-foreground">
+    <a href={href("/compare")}>← {t("nav.compare")}</a>
+  </p>
+
+  <PageHeader title={`${licA.shortName} vs ${licB.shortName}`} lead={description}>
+    <div class="mt-4 flex flex-wrap gap-3">
+      <a
+        href={`${href("/compare")}?a=${slugA}&b=${slugB}`}
+        class="inline-block border border-primary bg-primary px-3 py-1.5 text-sm text-primary-foreground no-underline hover:opacity-90"
+      >
+        &gt; {t("nav.compare")} (Interactive)
+      </a>
+      <a
+        href={href(`/licenses/${slugA}`)}
+        class="inline-block border border-border px-3 py-1.5 text-sm no-underline hover:border-primary"
+      >
+        {licA.shortName} {t("license.summary")} →
+      </a>
+      <a
+        href={href(`/licenses/${slugB}`)}
+        class="inline-block border border-border px-3 py-1.5 text-sm no-underline hover:border-primary"
+      >
+        {licB.shortName} {t("license.summary")} →
+      </a>
+    </div>
+  </PageHeader>
+
+  <!-- Side-by-side Overview Cards -->
+  <section class="mb-10 grid gap-6 md:grid-cols-2">
+    <!-- Card A -->
+    <div class="border border-border p-5 space-y-4">
+      <div class="flex items-start justify-between gap-2">
+        <div>
+          <h2 class="text-2xl font-bold">
+            <a href={href(`/licenses/${slugA}`)} class="hover:underline">{licA.name}</a>
+          </h2>
+          <p class="text-sm text-muted-foreground">SPDX: <code>{licA.spdx}</code></p>
+        </div>
+        <FamilyTag family={licA.family} label={t(`family.${licA.family}`)} />
+      </div>
+
+      {textA?.value.summary && (
+        <p class="text-base text-foreground/90">{textA.value.summary}</p>
+      )}
+
+      {textA?.value.analogy && (
+        <p class="border-s-2 border-primary ps-3 text-sm text-muted-foreground">
+          <span class="text-foreground">{t("license.analogy")}:</span> {textA.value.analogy}
+        </p>
+      )}
+
+      <div class="grid gap-3 sm:grid-cols-2 text-sm pt-2">
+        {textA?.value.pros && textA.value.pros.length > 0 && (
+          <div>
+            <h3 class="mb-1 font-semibold text-verdict-allow">{t("license.pros")}</h3>
+            <ul class="space-y-1">
+              {textA.value.pros.map((p) => <li>+ {p}</li>)}
+            </ul>
+          </div>
+        )}
+        {textA?.value.cons && textA.value.cons.length > 0 && (
+          <div>
+            <h3 class="mb-1 font-semibold text-verdict-deny">{t("license.cons")}</h3>
+            <ul class="space-y-1">
+              {textA.value.cons.map((c) => <li>- {c}</li>)}
+            </ul>
+          </div>
+        )}
+      </div>
+
+      {projectsA.length > 0 && (
+        <div class="pt-2 border-t border-border">
+          <p class="text-xs text-muted-foreground mb-1.5">{t("home.wall")}:</p>
+          <div class="flex flex-wrap gap-1.5">
+            {projectsA.map((p) => (
+              <a
+                href={href(`/projects/${p.slug}`)}
+                class="border border-border px-1.5 py-0.5 text-xs text-muted-foreground no-underline hover:text-foreground hover:border-primary"
+              >
+                {p.name}
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+
+    <!-- Card B -->
+    <div class="border border-border p-5 space-y-4">
+      <div class="flex items-start justify-between gap-2">
+        <div>
+          <h2 class="text-2xl font-bold">
+            <a href={href(`/licenses/${slugB}`)} class="hover:underline">{licB.name}</a>
+          </h2>
+          <p class="text-sm text-muted-foreground">SPDX: <code>{licB.spdx}</code></p>
+        </div>
+        <FamilyTag family={licB.family} label={t(`family.${licB.family}`)} />
+      </div>
+
+      {textB?.value.summary && (
+        <p class="text-base text-foreground/90">{textB.value.summary}</p>
+      )}
+
+      {textB?.value.analogy && (
+        <p class="border-s-2 border-primary ps-3 text-sm text-muted-foreground">
+          <span class="text-foreground">{t("license.analogy")}:</span> {textB.value.analogy}
+        </p>
+      )}
+
+      <div class="grid gap-3 sm:grid-cols-2 text-sm pt-2">
+        {textB?.value.pros && textB.value.pros.length > 0 && (
+          <div>
+            <h3 class="mb-1 font-semibold text-verdict-allow">{t("license.pros")}</h3>
+            <ul class="space-y-1">
+              {textB.value.pros.map((p) => <li>+ {p}</li>)}
+            </ul>
+          </div>
+        )}
+        {textB?.value.cons && textB.value.cons.length > 0 && (
+          <div>
+            <h3 class="mb-1 font-semibold text-verdict-deny">{t("license.cons")}</h3>
+            <ul class="space-y-1">
+              {textB.value.cons.map((c) => <li>- {c}</li>)}
+            </ul>
+          </div>
+        )}
+      </div>
+
+      {projectsB.length > 0 && (
+        <div class="pt-2 border-t border-border">
+          <p class="text-xs text-muted-foreground mb-1.5">{t("home.wall")}:</p>
+          <div class="flex flex-wrap gap-1.5">
+            {projectsB.map((p) => (
+              <a
+                href={href(`/projects/${p.slug}`)}
+                class="border border-border px-1.5 py-0.5 text-xs text-muted-foreground no-underline hover:text-foreground hover:border-primary"
+              >
+                {p.name}
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+  </section>
+
+  <!-- Permissions, Conditions & Limitations Table -->
+  <section class="mb-10">
+    <h2 class="term-heading mb-4 text-2xl">{t("compare.vs.terms")}</h2>
+    <div class="overflow-x-auto border border-border">
+      <table class="w-full border-collapse text-sm">
+        <thead>
+          <tr class="border-b border-border bg-muted/40">
+            <th class="p-3 text-start font-semibold">{t("license.term")}</th>
+            <th class="p-3 text-center font-semibold w-40">{licA.shortName}</th>
+            <th class="p-3 text-center font-semibold w-40">{licB.shortName}</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-border">
+          <!-- Permissions Header -->
+          <tr class="bg-muted/20">
+            <td colspan="3" class="p-2 px-3 font-semibold text-verdict-allow">
+              + {t("license.permissions")}
+            </td>
+          </tr>
+          {allPermissions.map((perm) => {
+            const hasA = licA.permissions.includes(perm);
+            const hasB = licB.permissions.includes(perm);
+            const diff = hasA !== hasB;
+            return (
+              <tr class:list={[diff && "bg-primary/5"]}>
+                <td class="p-3 ps-6 font-mono text-sm">{t(`term.${perm}`)}</td>
+                <td class="p-3 text-center">
+                  {hasA ? <span class="text-verdict-allow font-bold">✓</span> : <span class="text-muted-foreground">—</span>}
+                </td>
+                <td class="p-3 text-center">
+                  {hasB ? <span class="text-verdict-allow font-bold">✓</span> : <span class="text-muted-foreground">—</span>}
+                </td>
+              </tr>
+            );
+          })}
+
+          <!-- Conditions Header -->
+          <tr class="bg-muted/20">
+            <td colspan="3" class="p-2 px-3 font-semibold text-verdict-conditional">
+              ! {t("license.conditions")}
+            </td>
+          </tr>
+          {allConditions.map((cond) => {
+            const hasA = licA.conditions.includes(cond);
+            const hasB = licB.conditions.includes(cond);
+            const diff = hasA !== hasB;
+            return (
+              <tr class:list={[diff && "bg-primary/5"]}>
+                <td class="p-3 ps-6 font-mono text-sm">{t(`term.${cond}`)}</td>
+                <td class="p-3 text-center">
+                  {hasA ? <span class="text-verdict-conditional font-bold">!</span> : <span class="text-muted-foreground">—</span>}
+                </td>
+                <td class="p-3 text-center">
+                  {hasB ? <span class="text-verdict-conditional font-bold">!</span> : <span class="text-muted-foreground">—</span>}
+                </td>
+              </tr>
+            );
+          })}
+
+          <!-- Limitations Header -->
+          <tr class="bg-muted/20">
+            <td colspan="3" class="p-2 px-3 font-semibold text-verdict-deny">
+              - {t("license.limitations")}
+            </td>
+          </tr>
+          {allLimitations.map((lim) => {
+            const hasA = licA.limitations.includes(lim);
+            const hasB = licB.limitations.includes(lim);
+            const diff = hasA !== hasB;
+            return (
+              <tr class:list={[diff && "bg-primary/5"]}>
+                <td class="p-3 ps-6 font-mono text-sm">{t(`term.${lim}`)}</td>
+                <td class="p-3 text-center">
+                  {hasA ? <span class="text-verdict-deny font-bold">✓</span> : <span class="text-muted-foreground">—</span>}
+                </td>
+                <td class="p-3 text-center">
+                  {hasB ? <span class="text-verdict-deny font-bold">✓</span> : <span class="text-muted-foreground">—</span>}
+                </td>
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Real-World Scenarios Comparison -->
+  <section class="mb-10">
+    <h2 class="term-heading mb-4 text-2xl">{t("compare.vs.scenarios")}</h2>
+    <div class="overflow-x-auto border border-border">
+      <table class="w-full border-collapse text-sm">
+        <thead>
+          <tr class="border-b border-border bg-muted/40">
+            <th class="p-3 text-start font-semibold">{t("nav.scenarios")}</th>
+            <th class="p-3 text-center font-semibold w-40">{licA.shortName}</th>
+            <th class="p-3 text-center font-semibold w-40">{licB.shortName}</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-border">
+          {scenarios.map((s) => {
+            const cellA = cat.cells.get(cellKey(s.id, slugA))!;
+            const cellB = cat.cells.get(cellKey(s.id, slugB))!;
+            const sText = scenarioText(cat.raw, locale, s.id)?.value;
+            const noteA = cellNote(cat.raw, locale, s.id, slugA);
+            const noteB = cellNote(cat.raw, locale, s.id, slugB);
+            const isDiff = cellA.verdict !== cellB.verdict;
+
+            return (
+              <tr class:list={[isDiff && "bg-primary/5"]}>
+                <td class="p-3">
+                  <div class="font-medium text-foreground">
+                    <span class="text-muted-foreground me-1.5">{s.id}</span>
+                    {sText?.title ?? s.id}
+                  </div>
+                  {isDiff && (
+                    <span class="inline-block mt-1 text-xs border border-verdict-conditional px-1 text-verdict-conditional">
+                      Difference
+                    </span>
+                  )}
+                </td>
+                <td class="p-3 text-center align-top">
+                  <a href={href(`/scenarios/${s.id}/${slugA}`)} class="inline-flex flex-col items-center gap-1 no-underline hover:underline">
+                    <VerdictBadge verdict={cellA.verdict} label={t(`verdict.${cellA.verdict}`)} showLabel />
+                    {noteA && <span class="text-xs text-muted-foreground max-w-36 line-clamp-2">{noteA}</span>}
+                  </a>
+                </td>
+                <td class="p-3 text-center align-top">
+                  <a href={href(`/scenarios/${s.id}/${slugB}`)} class="inline-flex flex-col items-center gap-1 no-underline hover:underline">
+                    <VerdictBadge verdict={cellB.verdict} label={t(`verdict.${cellB.verdict}`)} showLabel />
+                    {noteB && <span class="text-xs text-muted-foreground max-w-36 line-clamp-2">{noteB}</span>}
+                  </a>
+                </td>
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
+    </div>
+  </section>
+</Layout>

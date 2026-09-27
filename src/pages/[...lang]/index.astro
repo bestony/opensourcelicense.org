@@ -1,5 +1,6 @@
 ---
 import Layout from "@/layouts/main.astro";
+import JsonLd from "@/components/site/JsonLd.astro";
 import { FAMILY_CLASS } from "@/domain/verdict";
 import type { Locale } from "@/lib/i18n";
 import { localeStaticPaths, pageContext } from "@/lib/page";
@@ -7,6 +8,7 @@ import { localeStaticPaths, pageContext } from "@/lib/page";
 export const getStaticPaths = localeStaticPaths;
 const { locale } = Astro.props as { locale: Locale };
 const { cat, t, href, fmtDate } = pageContext(locale);
+const site = Astro.site ?? new URL("https://opensourcelicense.org");
 
 const entries = [
   { path: "/chat", title: "home.entry.chat.title", body: "home.entry.chat.body", primary: true },
@@ -22,7 +24,25 @@ const changes = cat.projectList
 const name = (id: string) => cat.licenseInfo(id).name;
 ---
 
-<Layout locale={locale}>
+<Layout locale={locale} title={t("home.meta.title")}>
+  <JsonLd
+    slot="head"
+    data={{
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "opensourcelicense.org",
+      "url": site.href,
+      "description": t("site.description"),
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": `${new URL(href("/search"), site).href}?q={search_term_string}`,
+        },
+        "query-input": "required name=search_term_string",
+      },
+    }}
+  />
   <section class="mb-12 space-y-4">
     <p class="text-muted-foreground">~/opensourcelicense $ ./decide --explain</p>
     <h1 class="text-4xl text-primary md:text-5xl">{t("home.title")}<span class="cursor" aria-hidden="true"></span></h1>

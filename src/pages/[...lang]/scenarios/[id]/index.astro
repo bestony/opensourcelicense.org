@@ -19,7 +19,7 @@ const text = scenarioText(cat.raw, locale, id)?.value;
 const cols = cat.matrices.get(s.matrix)!.columns;
 ---
 
-<Layout locale={locale} title={`${id} · ${text?.title}`}>
+<Layout locale={locale} title={`${id} · ${text?.title ?? id}`} description={text?.description ?? t("scenarios.lead")}>
   <p class="mb-2"><a href={href("/scenarios")}>← {t("scenarios.title")}</a></p>
   <PageHeader title={`${id} · ${text?.title ?? id}`}>
     <p class="text-muted-foreground">{t(`group.${s.group}`)} · {text?.actor ? t(`actor.${text.actor}`) : ""}</p>

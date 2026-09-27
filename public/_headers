@@ -1,0 +1,4 @@
+/data/catalog.json
+  X-Robots-Tag: noindex
+/texts/*
+  X-Robots-Tag: noindex
