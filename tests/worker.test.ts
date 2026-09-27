@@ -337,6 +337,37 @@ describe("worker fetch routing", () => {
     // Canonical pair is not redirected
     const canonical = await worker.fetch(new Request("https://opensourcelicense.org/compare/mit-vs-apache-2.0"), env, ctx);
     expect(canonical.status).toBe(200);
+
+    // Non-static pair redirects to interactive tool (302)
+    const nonStatic = await worker.fetch(new Request("https://opensourcelicense.org/compare/zlib-vs-bsl-1.0"), env, ctx);
+    expect(nonStatic.status).toBe(302);
+    expect(nonStatic.headers.get("location")).toBe("https://opensourcelicense.org/compare?a=zlib&b=bsl-1.0");
+
+    const locNonStatic = await worker.fetch(new Request("https://opensourcelicense.org/zh-cn/compare/zlib-vs-bsl-1.0"), env, ctx);
+    expect(locNonStatic.status).toBe(302);
+    expect(locNonStatic.headers.get("location")).toBe("https://opensourcelicense.org/zh-cn/compare?a=zlib&b=bsl-1.0");
+  });
+
+  it("redirects /en and /en/* to un-prefixed paths with 301", async () => {
+    const root = await worker.fetch(new Request("https://opensourcelicense.org/en"), env, ctx);
+    expect(root.status).toBe(301);
+    expect(root.headers.get("location")).toBe("https://opensourcelicense.org/");
+
+    const rootSlash = await worker.fetch(new Request("https://opensourcelicense.org/en/"), env, ctx);
+    expect(rootSlash.status).toBe(301);
+    expect(rootSlash.headers.get("location")).toBe("https://opensourcelicense.org/");
+
+    const lic = await worker.fetch(new Request("https://opensourcelicense.org/en/licenses"), env, ctx);
+    expect(lic.status).toBe(301);
+    expect(lic.headers.get("location")).toBe("https://opensourcelicense.org/licenses");
+
+    const slug = await worker.fetch(new Request("https://opensourcelicense.org/en/licenses/mit"), env, ctx);
+    expect(slug.status).toBe(301);
+    expect(slug.headers.get("location")).toBe("https://opensourcelicense.org/licenses/mit");
+
+    const query = await worker.fetch(new Request("https://opensourcelicense.org/en/licenses/mit?foo=bar"), env, ctx);
+    expect(query.status).toBe(301);
+    expect(query.headers.get("location")).toBe("https://opensourcelicense.org/licenses/mit?foo=bar");
   });
 
   it("attaches x-robots-tag: noindex on raw data endpoints", async () => {

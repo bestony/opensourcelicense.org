@@ -7,6 +7,7 @@ import sitemap from "@astrojs/sitemap";
 import icon from "astro-icon";
 import integrity from "./src/integrations/integrity.ts";
 import { DEFAULT_LOCALE, LOCALES } from "./src/domain/locales.ts";
+import { isPageNoindex, buildSitemapChunks } from "./src/lib/seo.ts";
 
 // https://astro.build/config
 export default defineConfig({
@@ -34,7 +35,8 @@ export default defineConfig({
     sitemap({
       entryLimit: 10000,
       lastmod: new Date(),
-      filter: (page) => !/\/(search|r|chat|check|wizard|compare|404)\/?$/.test(new URL(page).pathname),
+      filter: (page) => !isPageNoindex(page),
+      chunks: buildSitemapChunks(),
     }),
   ],
 

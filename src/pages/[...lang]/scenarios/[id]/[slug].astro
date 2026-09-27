@@ -4,6 +4,7 @@ import PageHeader from "@/components/site/PageHeader.astro";
 import VerdictBadge from "@/components/site/VerdictBadge.astro";
 import JsonLd from "@/components/site/JsonLd.astro";
 import { cellKey } from "@/domain/catalog";
+import { scenarioSearchTitle } from "@/domain/scenario-title";
 import { VERDICT_CLASS, VERDICT_SYMBOL } from "@/domain/verdict";
 import { getCatalog } from "@/lib/data";
 import { cellNote, scenarioText, type Locale } from "@/lib/i18n";
@@ -23,7 +24,7 @@ const sText = scenarioText(cat.raw, locale, id);
 const text = sText?.value;
 const note = cellNote(cat.raw, locale, id, slug);
 const verdictLabel = t(`verdict.${cell.verdict}`);
-const title = `${text?.title ?? id} — ${lic.shortName}`;
+const title = scenarioSearchTitle(id, lic.shortName, locale, text?.title);
 const siblings = cat.matrices.get(s.matrix)!.columns.filter((c) => c !== slug);
 const rowScenarios = (cat.scenariosByMatrix.get(s.matrix) ?? []).filter((x) => x.id !== id);
 const cases = [...new Set([...(cell.caseRef ? [cell.caseRef] : []), ...(cat.casesByCell.get(cellKey(id, slug)) ?? [])])]
@@ -31,9 +32,11 @@ const cases = [...new Set([...(cell.caseRef ? [cell.caseRef] : []), ...(cat.case
   .filter((p) => !!p);
 const report = issueUrl(`Cell ${id} × ${lic.spdx} looks wrong`, `Cell: ${id} × ${lic.spdx}\nCurrent verdict: ${cell.verdict}\n\nWhy it is wrong (quote the clause):\n`);
 const site = Astro.site ?? new URL("https://opensourcelicense.org");
+const isSilentNoNote = cell.verdict === "silent" && !note;
+const shouldNoIndex = !!sText?.fallback || isSilentNoNote;
 ---
 
-<Layout locale={locale} title={title} description={`${lic.shortName}: ${verdictLabel}${note ? ` — ${note}` : ""}`} searchable={false} noindex={!!sText?.fallback}>
+<Layout locale={locale} title={title} description={`${lic.shortName}: ${verdictLabel}${note ? ` — ${note}` : ""}`} searchable={false} noindex={shouldNoIndex}>
   <JsonLd
     slot="head"
     data={[

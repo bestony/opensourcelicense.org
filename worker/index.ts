@@ -23,8 +23,12 @@ export default {
       else if (url.pathname === "/api/deps") res = await handleDeps(req, createLogger(`worker.deps.${requestId}`));
       else if (url.pathname.startsWith("/api/")) res = Response.json({ type: "error", code: "bad_request", message: "not found" }, { status: 404 });
       else {
-        // Redirect trailing slashes to canonical path (301)
-        if (url.pathname.length > 1 && url.pathname.endsWith("/")) {
+        // Redirect /en and /en/* to un-prefixed paths (301)
+        if (url.pathname === "/en" || url.pathname.startsWith("/en/")) {
+          const unPrefixed = url.pathname === "/en" ? "/" : url.pathname.slice(3);
+          const cleanPath = unPrefixed.length > 1 ? unPrefixed.replace(/\/+$/, "") : unPrefixed;
+          res = Response.redirect(`${url.origin}${cleanPath || "/"}${url.search}`, 301);
+        } else if (url.pathname.length > 1 && url.pathname.endsWith("/")) {
           const clean = url.pathname.replace(/\/+$/, "");
           res = Response.redirect(`${url.origin}${clean}${url.search}`, 301);
         } else {
@@ -37,11 +41,21 @@ export default {
             const prefix = compareMatch[1].toLowerCase();
             const rawPair = compareMatch[2];
             const parts = parsePairKey(rawPair.toLowerCase());
-            const canonical = parts ? findCanonicalPair(parts[0], parts[1]) : undefined;
-            const targetPair = canonical ?? rawPair.toLowerCase();
-            const targetPath = `${prefix}${targetPair}`;
-            if (url.pathname !== targetPath) {
-              res = Response.redirect(`${url.origin}${targetPath}${url.search}`, 301);
+            if (parts) {
+              const canonical = findCanonicalPair(parts[0], parts[1]);
+              if (canonical) {
+                const targetPath = `${prefix}${canonical}`;
+                if (url.pathname !== targetPath) {
+                  res = Response.redirect(`${url.origin}${targetPath}${url.search}`, 301);
+                }
+              } else {
+                // If there is no pre-rendered static page for this pair, redirect to interactive compare tool
+                const basePath = prefix.replace(/\/$/, "");
+                const search = new URLSearchParams(url.search);
+                search.set("a", parts[0]);
+                search.set("b", parts[1]);
+                res = Response.redirect(`${url.origin}${basePath}?${search.toString()}`, 302);
+              }
             }
           } else if (scenarioMatch) {
             // Scenario IDs are uppercase (A1..E6), while license slugs are lowercase

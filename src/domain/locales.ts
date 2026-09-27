@@ -47,6 +47,9 @@ export const LOCALES = [
 ] as const;
 export type Locale = (typeof LOCALES)[number];
 
+/** Locales with negligible search demand kept accessible but excluded from index and sitemaps. */
+export const NOINDEX_LOCALES: ReadonlySet<string> = new Set(["zu", "xh", "rm", "zgh", "ga"]);
+
 export interface LocaleMeta {
   /** BCP 47 tag for <html lang> and hreflang */
   tag: string;
