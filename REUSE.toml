@@ -7,7 +7,7 @@ SPDX-FileCopyrightText = "opensourcelicense.org contributors"
 SPDX-License-Identifier = "CC-BY-4.0"
 
 [[annotations]]
-path = ["src/**", "worker/**", "scripts/**", "tests/**", "*.mjs", "*.json", "*.jsonc", "*.ts"]
+path = ["src/**", "worker/**", "scripts/**", "tests/**", "public/**", "*.mjs", "*.json", "*.jsonc", "*.ts"]
 SPDX-FileCopyrightText = "opensourcelicense.org contributors"
 SPDX-License-Identifier = "AGPL-3.0-or-later"
 
