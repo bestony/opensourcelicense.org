@@ -22,7 +22,7 @@ const segments = (s: (typeof shares)[number]) =>
     .map((f) => ({ label: t(`family.${f}`), count: s.counts[f] ?? 0, pct: ((s.counts[f] ?? 0) / s.total) * 100, bg: FAMILY_CLASS[f].bg }));
 ---
 
-<Layout locale={locale} title={t("trends.title")} wide>
+<Layout locale={locale} title={t("trends.title")} description={t("trends.lead")} wide>
   <p class="mb-2"><a href={href("/projects")}>← {t("projects.title")}</a></p>
   <PageHeader title={t("trends.title")} lead={t("trends.lead")} />
 

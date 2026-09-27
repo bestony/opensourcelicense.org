@@ -75,7 +75,7 @@ export async function servePage(
   }
   if (url.pathname.endsWith("/")) {
     // Match html_handling "drop-trailing-slash" of the static assets.
-    return Response.redirect(`${url.origin}${pageKey(url.pathname)}${url.search}`, 307);
+    return Response.redirect(`${url.origin}${pageKey(url.pathname)}${url.search}`, 301);
   }
   const cacheKey = new Request(`${url.origin}${url.pathname}?pages=${version}`, { method: "GET" });
   const hit = await cache?.match(cacheKey);

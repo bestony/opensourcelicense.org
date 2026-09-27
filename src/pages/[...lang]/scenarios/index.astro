@@ -12,7 +12,7 @@ const { cat, t, href } = pageContext(locale);
 const matrices = [...cat.matrices.values()];
 ---
 
-<Layout locale={locale} title={t("scenarios.title")} wide>
+<Layout locale={locale} title={t("scenarios.title")} description={t("scenarios.lead")} wide>
   <PageHeader title={t("scenarios.title")} lead={t("scenarios.lead")}>
     <p class="text-sm text-muted-foreground">{t("verdict.legend")}</p>
   </PageHeader>

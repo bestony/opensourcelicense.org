@@ -12,7 +12,7 @@ const { cat, t } = pageContext(locale);
 const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY as string | undefined;
 ---
 
-<Layout locale={locale} title={t("chat.title")} wide>
+<Layout locale={locale} title={t("chat.title")} description={t("chat.lead")} wide noindex>
   <PageHeader title={t("chat.title")} lead={t("chat.lead")} />
   <Chat client:load raw={clientRaw(cat, locale)} locale={locale} turnstileSiteKey={turnstileSiteKey || undefined} />
 </Layout>

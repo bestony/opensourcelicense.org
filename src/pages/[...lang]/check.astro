@@ -11,7 +11,7 @@ const { locale } = Astro.props as { locale: Locale };
 const { cat, t } = pageContext(locale);
 ---
 
-<Layout locale={locale} title={t("check.title")}>
+<Layout locale={locale} title={t("check.title")} description={t("check.lead")} noindex>
   <PageHeader title={t("check.title")} lead={t("check.lead")} />
   <DepsCheck client:load raw={clientRaw(cat, locale)} locale={locale} />
 </Layout>

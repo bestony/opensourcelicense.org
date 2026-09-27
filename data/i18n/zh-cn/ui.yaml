@@ -333,3 +333,12 @@ strings:
   notfound.body: 这个页面不存在，去许可证库看看吧。
   domain.education: 教育
   domain.design: 字体与设计
+  license.meta.suffix: 条款解析、商业用途与兼容性
+  license.meta.fallback-desc: "{name}（{spdx}）：权限、条件、限制条款，以及与其他开源许可证的兼容性分析。"
+  project.meta.desc: "{name} 采用 {licenses}。查看其开源许可证变更历史、分支及对比。"
+  home.meta.title: 开源许可证选择与对比 — 商业友好、合规与场景分析
+  compare.vs.subtitle: 区别、权限与条款对比
+  compare.vs.desc: "对比 {a} 与 {b}：查看两者在商业使用、分发修改、传染性与使用限制上的异同，以及在实际开发场景中的裁决。"
+  compare.vs.terms: 权限、条件与限制对比
+  compare.vs.scenarios: 场景对比
+  license.term: 条款

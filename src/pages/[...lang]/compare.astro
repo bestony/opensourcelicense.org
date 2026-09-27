@@ -11,7 +11,7 @@ const { locale } = Astro.props as { locale: Locale };
 const { cat, t } = pageContext(locale);
 ---
 
-<Layout locale={locale} title={t("compare.title")} wide>
+<Layout locale={locale} title={t("compare.title")} description={t("compare.lead")} wide noindex>
   <PageHeader title={t("compare.title")} lead={t("compare.lead")}>
     <p class="text-sm text-muted-foreground">{t("verdict.legend")}</p>
   </PageHeader>

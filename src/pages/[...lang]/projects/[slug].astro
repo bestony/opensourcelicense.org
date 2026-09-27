@@ -2,7 +2,10 @@
 import Layout from "@/layouts/main.astro";
 import PageHeader from "@/components/site/PageHeader.astro";
 import FamilyTag from "@/components/site/FamilyTag.astro";
+import JsonLd from "@/components/site/JsonLd.astro";
 import { similarProjects } from "@/domain/projects";
+import { projectSearchTitle } from "@/domain/project-title";
+import { DEFAULT_LOCALE } from "@/domain/locales";
 import { FAMILY_CLASS } from "@/domain/verdict";
 import { getCatalog } from "@/lib/data";
 import { scenarioText, type Locale } from "@/lib/i18n";
@@ -22,9 +25,25 @@ const forkedBy = cat.projectList.filter((o) => o.forkOf === slug);
 const similar = similarProjects(cat, p);
 const cases = [...cat.cells.values()].filter((c) => c.caseRef === slug);
 const report = issueUrl(`Project ${p.name} looks wrong`, `Project: ${slug}\n\nWhat is wrong:\n\nOfficial source:\n`);
+const site = Astro.site ?? new URL("https://opensourcelicense.org");
+const licenseNames = p.current.map((id) => info(id).name).join(" / ");
+const description = t("project.meta.desc", { name: p.name, licenses: licenseNames });
+const projectTitle = projectSearchTitle(p.name, licenseNames, p.timeline, info, locale);
 ---
 
-<Layout locale={locale} title={p.name} description={`${p.name}: ${p.current.map((id) => info(id).name).join(" / ")}`}>
+<Layout locale={locale} title={projectTitle} description={description} noindex={locale !== DEFAULT_LOCALE}>
+  <JsonLd
+    slot="head"
+    data={{
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": t("nav.home"), "item": new URL(href("/"), site).href },
+        { "@type": "ListItem", "position": 2, "name": t("projects.title"), "item": new URL(href("/projects"), site).href },
+        { "@type": "ListItem", "position": 3, "name": p.name },
+      ],
+    }}
+  />
   <p class="mb-2"><a href={href("/projects")}>← {t("projects.title")}</a></p>
   <PageHeader title={p.name} searchWeight={10}>
     <p class="text-muted-foreground">

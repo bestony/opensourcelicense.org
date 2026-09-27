@@ -106,9 +106,9 @@ describe("servePage", () => {
     const res = await servePage(req("/de/projects/redis", { headers: { "if-none-match": etag } }), e, ctx(), log, undefined);
     expect(res?.status).toBe(304);
   });
-  it("redirects a trailing slash", async () => {
+  it("redirects a trailing slash with 301", async () => {
     const res = await servePage(req("/de/projects/redis/?q=1"), env({}), ctx(), log, undefined);
-    expect(res?.status).toBe(307);
+    expect(res?.status).toBe(301);
     expect(res?.headers.get("location")).toBe("https://x.org/de/projects/redis?q=1");
   });
   it("falls through for other pages, unknown pages, other methods, no binding and no version", async () => {

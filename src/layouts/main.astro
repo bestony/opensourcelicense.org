@@ -5,7 +5,7 @@ import Header from "@/components/site/Header.astro";
 import Footer from "@/components/site/Footer.astro";
 import LangSuggest from "@/components/site/LangSuggest.astro";
 import Analytics from "@/components/site/Analytics.astro";
-import { DEFAULT_LOCALE, LOCALES, LOCALE_META } from "@/domain/locales";
+import { DEFAULT_LOCALE, LOCALES, LOCALE_META, NOINDEX_LOCALES } from "@/domain/locales";
 import { localizedPath, stripLocale, type Locale } from "@/lib/i18n";
 import { pageContext } from "@/lib/page";
 
@@ -20,6 +20,7 @@ interface Props {
 }
 
 const { locale = DEFAULT_LOCALE, title, description, noindex = false, wide = false, searchable = true } = Astro.props;
+const isNoindex = noindex || NOINDEX_LOCALES.has(locale);
 const ctx = pageContext(locale);
 const { t } = ctx;
 const siteName = t("site.name");
@@ -29,8 +30,8 @@ const { path } = stripLocale(Astro.url.pathname);
 const site = Astro.site ?? new URL("https://opensourcelicense.org");
 const canonical = new URL(localizedPath(locale, path), site).href;
 const meta = LOCALE_META[locale];
-// hreflang alternates: every locale, plus regional aliases that point to the same page.
-const alternates = LOCALES.flatMap((l) => {
+// hreflang alternates: indexed locales only, plus regional aliases that point to the same page.
+const alternates = LOCALES.filter((l) => !NOINDEX_LOCALES.has(l)).flatMap((l) => {
   const href = new URL(localizedPath(l, path), site).href;
   return [LOCALE_META[l].tag, ...(LOCALE_META[l].hreflangAliases ?? [])].map((hreflang) => ({ hreflang, href }));
 });
@@ -48,12 +49,20 @@ const alternates = LOCALES.flatMap((l) => {
     <link rel="canonical" href={canonical} />
     {alternates.map((a) => <link rel="alternate" hreflang={a.hreflang} href={a.href} />)}
     <link rel="alternate" hreflang="x-default" href={new URL(path, site).href} />
-    {noindex && <meta name="robots" content="noindex" />}
+    {isNoindex && <meta name="robots" content="noindex" />}
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={desc} />
     <meta property="og:url" content={canonical} />
     <meta property="og:type" content="website" />
-    <meta property="og:locale" content={meta.tag.replace("-", "_")} />
+    <meta property="og:locale" content={meta.ogLocale} />
+    <meta property="og:site_name" content="opensourcelicense.org" />
+    <meta property="og:image" content={new URL("/og-default.png", site).href} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={desc} />
+    <meta name="twitter:image" content={new URL("/og-default.png", site).href} />
     <meta name="theme-color" content="#000000" />
     <Font cssVariable="--font-vt323" preload />
     <Analytics />
