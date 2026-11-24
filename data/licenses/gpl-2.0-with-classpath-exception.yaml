@@ -16,7 +16,7 @@ conditions:
 limitations:
   - liability
   - warranty
-textUrl: https://spdx.org/licenses/GPL-2.0-only.html
+textUrl: https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html
 officialTexts: {}
 hasText: true
 matrices:
